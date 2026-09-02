@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sources of the Indian Constitution — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="598" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Sources of the Indian Constitution</text>
+  <text x="450" y="56" text-anchor="middle" font-size="12" fill="#64748b">"A constitutional commonwealth of borrowings" — Dr B. R. Ambedkar's defended synthesis</text>
+
+  <!-- Centre card -->
+  <rect x="350" y="250" width="200" height="76" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+  <text x="450" y="280" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">CONSTITUTION</text>
+  <text x="450" y="300" text-anchor="middle" font-size="12" fill="#92400e">of India, 1950</text>
+
+  <!-- Spokes (lines) -->
+  <g stroke="#cbd5e1" stroke-width="2">
+    <line x1="350" y1="270" x2="215" y2="120"/><line x1="550" y1="270" x2="685" y2="120"/>
+    <line x1="350" y1="288" x2="215" y2="288"/><line x1="550" y1="288" x2="685" y2="288"/>
+    <line x1="350" y1="310" x2="215" y2="460"/><line x1="550" y1="310" x2="685" y2="460"/>
+  </g>
+
+  <!-- Source cards: left column -->
+  <g font-size="11.5">
+    <rect x="30" y="86" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="106" font-weight="700" fill="#0f172a">GoI Act 1935</text>
+    <text x="44" y="122" fill="#334155">Federal scheme · Governor</text>
+    <text x="44" y="137" fill="#334155">PSCs · Emergency · Judiciary</text>
+
+    <rect x="30" y="164" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="184" font-weight="700" fill="#0f172a">Britain</text>
+    <text x="44" y="200" fill="#334155">Parliamentary govt · Rule of law</text>
+    <text x="44" y="215" fill="#334155">Single citizenship · Cabinet</text>
+
+    <rect x="30" y="242" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="262" font-weight="700" fill="#0f172a">USA</text>
+    <text x="44" y="278" fill="#334155">Fundamental Rights</text>
+    <text x="44" y="293" fill="#334155">Judicial review · Impeachment</text>
+
+    <rect x="30" y="320" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="340" font-weight="700" fill="#0f172a">Ireland</text>
+    <text x="44" y="356" fill="#334155">DPSP · Rajya Sabha nominations</text>
+    <text x="44" y="371" fill="#334155">President's election method</text>
+
+    <rect x="30" y="426" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="446" font-weight="700" fill="#0f172a">Canada</text>
+    <text x="44" y="462" fill="#334155">Strong-centre federation</text>
+    <text x="44" y="477" fill="#334155">Residuary powers · Governors</text>
+  </g>
+
+  <!-- Source cards: right column -->
+  <g font-size="11.5">
+    <rect x="685" y="86" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="699" y="106" font-weight="700" fill="#0f172a">Australia</text>
+    <text x="699" y="122" fill="#334155">Concurrent List · Joint sitting</text>
+    <text x="699" y="137" fill="#334155">Freedom of trade</text>
+
+    <rect x="685" y="164" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="699" y="184" font-weight="700" fill="#0f172a">USSR</text>
+    <text x="699" y="200" fill="#334155">Fundamental Duties</text>
+    <text x="699" y="215" fill="#334155">Preamble ideals of justice</text>
+
+    <rect x="685" y="242" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="699" y="262" font-weight="700" fill="#0f172a">France</text>
+    <text x="699" y="278" fill="#334155">Republic · Liberty-Equality-</text>
+    <text x="699" y="293" fill="#334155">Fraternity</text>
+
+    <rect x="685" y="320" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="699" y="340" font-weight="700" fill="#0f172a">Germany (Weimar)</text>
+    <text x="699" y="356" fill="#334155">FR suspension during</text>
+    <text x="699" y="371" fill="#334155">Emergency</text>
+
+    <rect x="685" y="426" width="185" height="68" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="699" y="446" font-weight="700" fill="#0f172a">Japan · South Africa</text>
+    <text x="699" y="462" fill="#334155">Procedure estd. by law ·</text>
+    <text x="699" y="477" fill="#334155">Amendment procedure (368)</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="30" y="524" width="840" height="48" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="450" y="545" text-anchor="middle" font-size="12.5" fill="#92400e">Original: <tspan font-weight="700">395 articles · 22 parts · 8 schedules</tspan> → now <tspan font-weight="700">~470 articles · 25 parts · 12 schedules</tspan></text>
+  <text x="450" y="563" text-anchor="middle" font-size="12" fill="#92400e">Adopted 26 Nov 1949 · Enforced 26 Jan 1950 · Drafting: B. R. Ambedkar; Constituent Assembly President: Rajendra Prasad</text>
+</svg>

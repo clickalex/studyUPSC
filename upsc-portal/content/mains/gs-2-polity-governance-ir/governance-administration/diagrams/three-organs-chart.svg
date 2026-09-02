@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Three organs of the Union government — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="558" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Three Organs of the Union Government</text>
+
+  <!-- Column 1: Executive -->
+  <rect x="30" y="56" width="270" height="44" rx="10" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="165" y="83" text-anchor="middle" font-size="13.5" font-weight="700" fill="#92400e">EXECUTIVE (Arts 52–78)</text>
+  <g font-size="11.5" fill="#334155">
+    <rect x="30" y="112" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="132" font-weight="700" fill="#0f172a">President of India</text>
+    <text x="44" y="148">Nominal head · Arts 54–55 election</text>
+    <text x="44" y="162">Art 74 advice bound · Art 72 pardon · Art 123 ordinance</text>
+
+    <rect x="30" y="184" width="270" height="46" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="204" font-weight="700" fill="#0f172a">Vice-President</text>
+    <text x="44" y="220">Ex-officio Chairman of the Rajya Sabha</text>
+
+    <rect x="30" y="238" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="258" font-weight="700" fill="#0f172a">PM + Council of Ministers</text>
+    <text x="44" y="274">Real executive · collectively responsible</text>
+    <text x="44" y="288">to Lok Sabha (Art 75(3)); ≤15% of LS (91st)</text>
+
+    <rect x="30" y="310" width="270" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="331" font-weight="700" fill="#0f172a">Attorney-General — Art 76 (first law officer)</text>
+  </g>
+
+  <!-- Column 2: Parliament -->
+  <rect x="315" y="56" width="270" height="44" rx="10" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="450" y="83" text-anchor="middle" font-size="13.5" font-weight="700" fill="#b91c1c">PARLIAMENT (Arts 79–122)</text>
+  <g font-size="11.5" fill="#334155">
+    <rect x="315" y="112" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="329" y="132" font-weight="700" fill="#0f172a">Lok Sabha — 543 seats</text>
+    <text x="329" y="148">Direct election · 5-year term · dissolvable</text>
+    <text x="329" y="162">Money Bills exclusive (Art 110 · Speaker certifies)</text>
+
+    <rect x="315" y="184" width="270" height="46" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="329" y="204" font-weight="700" fill="#0f172a">Rajya Sabha — 245 seats</text>
+    <text x="329" y="220">233 elected + 12 nominated · permanent body</text>
+
+    <rect x="315" y="238" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="329" y="258" font-weight="700" fill="#0f172a">Control instruments</text>
+    <text x="329" y="274">Question hour · No-confidence (LS only)</text>
+    <text x="329" y="288">Joint sitting (Art 108) · Committees (PAC, Estimates)</text>
+
+    <rect x="315" y="310" width="270" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="329" y="331" font-weight="700" fill="#0f172a">Sessions: Budget · Monsoon · Winter</text>
+  </g>
+
+  <!-- Column 3: Judiciary -->
+  <rect x="600" y="56" width="270" height="44" rx="10" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="735" y="83" text-anchor="middle" font-size="13.5" font-weight="700" fill="#166534">JUDICIARY (Arts 124–237)</text>
+  <g font-size="11.5" fill="#334155">
+    <rect x="600" y="112" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="614" y="132" font-weight="700" fill="#0f172a">Supreme Court — CJI + 33</text>
+    <text x="614" y="148">Writs Art 32 · SLP Art 136 · Advisory Art 143</text>
+    <text x="614" y="162">Court of record Art 129 · Collegium appointments</text>
+
+    <rect x="600" y="184" width="270" height="46" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="614" y="204" font-weight="700" fill="#0f172a">High Courts (Art 214–231)</text>
+    <text x="614" y="220">Writs Art 226 (broader) · Superintendence Art 227</text>
+
+    <rect x="600" y="238" width="270" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="614" y="258" font-weight="700" fill="#0f172a">Subordinate courts (233–237)</text>
+    <text x="614" y="274">District &amp; sessions courts under the HC</text>
+    <text x="614" y="288">Judicial review = basic-structure guardian</text>
+
+    <rect x="600" y="310" width="270" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="614" y="331" font-weight="700" fill="#0f172a">NJAC (2014) struck down — 2015</text>
+  </g>
+
+  <!-- Checks arrows -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#arr)">
+    <path d="M 300 150 C 315 150, 300 150, 315 150"/>
+    <line x1="300" y1="200" x2="315" y2="200"/>
+    <line x1="585" y1="200" x2="600" y2="200"/>
+  </g>
+  <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/></marker></defs>
+  <text x="307" y="192" font-size="10" fill="#94a3b8" text-anchor="middle" dy="-4">responsible</text>
+  <text x="593" y="192" font-size="10" fill="#94a3b8" text-anchor="middle" dy="-4">review</text>
+
+  <!-- Bottom: watchdogs -->
+  <text x="450" y="380" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">CONSTITUTIONAL &amp; STATUTORY SUPPORT STRUCTURE</text>
+  <g font-size="11.5">
+    <rect x="30" y="396" width="196" height="52" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="44" y="416" font-weight="700" fill="#0f172a">Election Commission</text>
+    <text x="44" y="432" fill="#334155">Art 324 · free &amp; fair elections</text>
+
+    <rect x="238" y="396" width="196" height="52" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="252" y="416" font-weight="700" fill="#0f172a">UPSC / SPSC</text>
+    <text x="252" y="432" fill="#334155">Arts 315–323 · meritorious recruitment</text>
+
+    <rect x="466" y="396" width="196" height="52" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="480" y="416" font-weight="700" fill="#0f172a">CAG</text>
+    <text x="480" y="432" fill="#334155">Arts 148–151 · audits public money</text>
+
+    <rect x="694" y="396" width="176" height="52" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+    <text x="708" y="416" font-weight="700" fill="#0f172a">Finance Comm. &amp; GST Council</text>
+    <text x="708" y="432" fill="#334155">Arts 280 / 279A · fiscal federalism</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="30" y="472" width="840" height="60" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="450" y="495" text-anchor="middle" font-size="12.5" fill="#92400e">Separation of powers with checks: executive <tspan font-weight="700">responsible</tspan> to legislature; judiciary <tspan font-weight="700">reviews</tspan> both</text>
+  <text x="450" y="515" text-anchor="middle" font-size="12" fill="#92400e">Parliament's basic law → cabinet governs → courts interpret — the Westminster-plus-judicial-review synthesis</text>
+</svg>

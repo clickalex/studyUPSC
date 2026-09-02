@@ -78,6 +78,210 @@ window.SEARCH_DATA = [
   "chars": 1009
  },
  {
+  "nav": "gs-1/modern-history/constitutional-development/bullets",
+  "file": "constitutional-development-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development 1773–1947 — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Must-know labels (traps to avoid)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Constitutional Development 1773–1947 — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) Regulating Act 1773 — Governor of Bengal becomes Governor General of Bengal (first: Warren Hastings); Council of Four ; Supreme Court at Calcutta 1774 (Elijah Impey first Chief Justice). Pitt's India Act 1784 — the Board of Control ; Company's commercial vs political wings separated. Charter Act 1813 — ended trade monopoly (tea and China trade excepted); ₹ 1 lakh annually for education ; Crown's sovereignty asserted. Charter Act 1833 — Company becomes purely administrative; Lord William Bentinck the first Governor General of India ; Macaulay's Law Commission (1834) drafted the IPC . Charter Act 1853 — legislative wing of the Governor General's Council separated; open competition to the civil services; Satyendranath Tagore the first Indian ICS (1864). GoI Act 1858 — Crown rule ; Secretar",
+  "chars": 2976
+ },
+ {
+  "nav": "gs-1/modern-history/constitutional-development/notes",
+  "file": "constitutional-development.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development & Government of India Acts (1773–1947) — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Why Study This?"
+   },
+   {
+    "level": 2,
+    "text": "2. Company Period Regulations (1773–1858)"
+   },
+   {
+    "level": 3,
+    "text": "2.1 Regulating Act, 1773"
+   },
+   {
+    "level": 3,
+    "text": "2.2 Pitt's India Act, 1784"
+   },
+   {
+    "level": 3,
+    "text": "2.3 Charter Acts (1793–1853)"
+   },
+   {
+    "level": 2,
+    "text": "3. Crown Takes Over (1858–1909)"
+   },
+   {
+    "level": 3,
+    "text": "3.1 Government of India Act, 1858"
+   },
+   {
+    "level": 3,
+    "text": "3.2 The Moderates' foothold — Indian Councils Act 1892"
+   },
+   {
+    "level": 2,
+    "text": "4. Minto–Morley Reforms (Government of India Act 1909)"
+   },
+   {
+    "level": 3,
+    "text": "Key provisions"
+   },
+   {
+    "level": 3,
+    "text": "Evaluation"
+   },
+   {
+    "level": 2,
+    "text": "5. Montagu–Chelmsford Reforms (Government of India Act 1919)"
+   },
+   {
+    "level": 3,
+    "text": "Background"
+   },
+   {
+    "level": 3,
+    "text": "Key provisions"
+   },
+   {
+    "level": 3,
+    "text": "Why it failed"
+   },
+   {
+    "level": 2,
+    "text": "6. Government of India Act 1935 — The Last Colonial Blueprint"
+   },
+   {
+    "level": 3,
+    "text": "Background"
+   },
+   {
+    "level": 3,
+    "text": "Key provisions (memorise the architecture)"
+   },
+   {
+    "level": 3,
+    "text": "What independent India borrowed"
+   },
+   {
+    "level": 2,
+    "text": "7. The Final Acts (1946–47)"
+   },
+   {
+    "level": 3,
+    "text": "Cabinet Mission Plan (June 1946)"
+   },
+   {
+    "level": 3,
+    "text": "Indian Independence Act, 1947"
+   },
+   {
+    "level": 2,
+    "text": "8. Gradations table — the twelve turning points"
+   },
+   {
+    "level": 2,
+    "text": "9. Sources & Further Reading"
+   }
+  ],
+  "text": "Constitutional Development & Government of India Acts (1773–1947) — Detailed Notes Syllabus slot: GS 1 (Mains) · Modern Indian History · Polity & Constitution Also relevant for: Prelims GS Paper I — History & Indian Culture; GS Paper II — Polity (historical background) 1. Why Study This? The 174 years between Plassey (1757) and Independence (1947) produced a continuous line of constitutional reworking by the British that became the institutional scaffolding of independent India. Many features of the Constitution of India (1950) — federal division of powers, the office of Governor, the Public Service Commission, the Supreme Court's structural ancestry, the three legislative lists, the pattern of parliamentary procedure — were inherited, adapted or consciously rejected from the Government of India Acts of 1919 and 1935 . 2. Company Period Regulations (1773–1858) 2.1 Regulating Act, 1773 Fi",
+  "chars": 12639
+ },
+ {
+  "nav": "gs-1/modern-history/constitutional-development/pyqs",
+  "file": "constitutional-development-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Constitutional Development — PYQs & Model Answers UPSC Prelims PYQs Q1. (2011) The Regulating Act of 1773 provided for which of the following? 1. The establishment of a Supreme Court at Calcutta 2. A Governor General of Bengal 3. A Board of Control in London (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3 Model answer: (a) — the Regulating Act created the Governor General of Bengal (Warren Hastings) and the Supreme Court at Calcutta (1774); the Board of Control came with Pitt's India Act (1784) . Q2. (2015) Which of the following acts is associated with the separation of legislative and executive functions of the Governor General's Council for the first time? (a) Charter Act 1813 (b) Charter Act 1833 (c) Charter Act 1853 (d) Government of India Act 1858 Model answer: (c) — The Charter Act 1853 introduced the separate legislative wing in the Governor General's Council. Q",
+  "chars": 6077
+ },
+ {
+  "nav": "gs-1/modern-history/constitutional-development/short",
+  "file": "constitutional-development-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development 1773–1947 — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "The golden timeline (memorise in order)"
+   },
+   {
+    "level": 2,
+    "text": "Quick match-up (prelims favourites)"
+   },
+   {
+    "level": 2,
+    "text": "What independent India borrowed from the 1935 Act"
+   },
+   {
+    "level": 2,
+    "text": "Famous labels (traps)"
+   },
+   {
+    "level": 2,
+    "text": "One-liners for the exam"
+   }
+  ],
+  "text": "Constitutional Development 1773–1947 — Short Revision Notes One liner From the Regulating Act (1773) to the Indian Independence Act (1947), British constitutional reforms gradually created the federal, parliamentary and administrative architecture that independent India's Constitution inherited and adapted. The golden timeline (memorise in order) Act Year One line significance Regulating Act 1773 First parliamentary control; Governor General of Bengal; Supreme Court at Calcutta (1774) Pitt's India Act 1784 Board of Control; crown supervision; commercial vs political split Charter Act 1813 End of trade monopoly; ₹ 1 lakh for education ; Crown sovereignty asserted Charter Act 1833 Company purely administrative; first Governor General of India (Bentinck) ; Law Commission (Macaulay → IPC) Charter Act 1853 Separate legislative wing; open competition for ICS Government of India Act 1858 Crown ",
+  "chars": 3354
+ },
+ {
   "nav": "gs-1/modern-history/notes",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/detailed-notes/README.md",
@@ -155,6 +359,654 @@ window.SEARCH_DATA = [
   ],
   "text": "Diagrams, Maps & Flowcharts Place your diagrams, maps & flowcharts files here (Markdown, images, PDFs). Run node cli/generate.mjs after adding files to re index them.",
   "chars": 166
+ },
+ {
+  "nav": "gs-1/modern-history/east-india-company/bullets",
+  "file": "advent-of-europeans-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Advent of Europeans — Key Bullet Points / Mindmap Mindmap Bullet facts Vasco da Gama — Calicut, 1498 — sea route to India. East India Company chartered — 1600 (reigned over British Indian trade from 1612). Job Charnock founded Calcutta — 1690 . Plassey — 23 June 1757 ; betrayed by Mir Jafar and Jagat Seths . Buxar — 22 October 1764 ; combined forces of Mir Qasim + Shuja ud Daula + Shah Alam II defeated. Treaty of Allahabad — 1765 ; Diwani of Bengal, Bihar, Orissa. Dual Government (Clive, 1765–72) ; ended by Warren Hastings. Bengal Famine, 1770 — estimated one third of population died. Anglo Mysore Wars — Battle of Pollilur (1780) Hyder's greatest victory; Treaty of Mangalore (1784) ; Tipu died 4 May 1799 . First Anglo Maratha War — 1775–82 ; Treaty of Salbai (1782) . Second Anglo Maratha War — 1803–05 ; Arthur Wellesley won Assaye (1803) . Third Anglo Maratha War — 1817–19 ; Peshwaship a",
+  "chars": 1598
+ },
+ {
+  "nav": "gs-1/modern-history/east-india-company/notes",
+  "file": "advent-of-europeans.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans & East India Company (1757–1857) — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Why Europeans Came"
+   },
+   {
+    "level": 2,
+    "text": "2. The East India Company's Rise in Bengal"
+   },
+   {
+    "level": 3,
+    "text": "2.1 Why Bengal?"
+   },
+   {
+    "level": 3,
+    "text": "2.2 Conflict with Siraj-ud-Daula"
+   },
+   {
+    "level": 3,
+    "text": "2.3 Battle of Plassey (23 June 1757)"
+   },
+   {
+    "level": 3,
+    "text": "2.4 Battle of Buxar (23 October 1764)"
+   },
+   {
+    "level": 3,
+    "text": "2.5 Dual Government (1765–72)"
+   },
+   {
+    "level": 2,
+    "text": "3. The Anglo-Mysore Wars (1767–1799)"
+   },
+   {
+    "level": 3,
+    "text": "Hyder Ali"
+   },
+   {
+    "level": 3,
+    "text": "Tipu Sultan (\"Tiger of Mysore\")"
+   },
+   {
+    "level": 2,
+    "text": "4. Subsidiary Alliance & Doctrine of Lapse — Tools of Expansion"
+   },
+   {
+    "level": 3,
+    "text": "Subsidiary Alliance (systematised by Lord Wellesley, 1798–1805)"
+   },
+   {
+    "level": 3,
+    "text": "Doctrine of Lapse (systematised under Lord Dalhousie, 1848–56)"
+   },
+   {
+    "level": 2,
+    "text": "5. Anglo-Maratha Wars (1775–1818)"
+   },
+   {
+    "level": 3,
+    "text": "Background"
+   },
+   {
+    "level": 3,
+    "text": "First Anglo-Maratha War (1775–82)"
+   },
+   {
+    "level": 3,
+    "text": "Second Anglo-Maratha War (1803–05) — under Lord Wellesley"
+   },
+   {
+    "level": 3,
+    "text": "Third Anglo-Maratha War (1817–19) — under Lord Hastings"
+   },
+   {
+    "level": 2,
+    "text": "6. Anglo-Sikh Wars (1845–46 and 1848–49)"
+   },
+   {
+    "level": 3,
+    "text": "Background"
+   },
+   {
+    "level": 3,
+    "text": "First Anglo-Sikh War (1845–46)"
+   },
+   {
+    "level": 3,
+    "text": "Second Anglo-Sikh War (1848–49)"
+   },
+   {
+    "level": 2,
+    "text": "7. Land Revenue Systems (summary table)"
+   },
+   {
+    "level": 2,
+    "text": "8. Key Figures & Facts (one-liners for prelims)"
+   },
+   {
+    "level": 2,
+    "text": "9. Timeline (1757–1849)"
+   },
+   {
+    "level": 2,
+    "text": "10. Why the EIC Succeeded Where Rivals Failed (Mains-ready answer)"
+   },
+   {
+    "level": 2,
+    "text": "11. Anti-company Resistance Before 1857 (context for \"culmination\" argument)"
+   },
+   {
+    "level": 2,
+    "text": "12. Sources & Further Reading"
+   }
+  ],
+  "text": "Advent of Europeans & East India Company (1757–1857) — Detailed Notes Syllabus slot: GS 1 (Mains) · Modern Indian History (mid 18th century onward) Also relevant for: Prelims GS Paper I — History & Indian Culture 1. Why Europeans Came The discovery of the sea route to India by Vasco da Gama (1498, landing at Calicut) opened direct European trade in spices, textiles and indigo without Arab or Venetian middlemen. Five European powers built trading settlements in India: Power Arrival Main settlements Fate Portuguese 1498 (da Gama); Estado da Índia under Albuquerque Goa (1510), Daman, Diu, Hooghly Declined after 17th c.; confined to Goa Dutch (VOC) 1602 company; Coromandel base Pulicat, Surat, Nagapatnam, Chinsurah Defeated by English at Beder (1759) ; withdrew to Indonesia English (EIC) 1600 charter; 1608 Surat Surat, Madras (1639), Bombay (1668), Calcutta (1690, Job Charnock) Became territ",
+  "chars": 12999
+ },
+ {
+  "nav": "gs-1/modern-history/east-india-company/pyqs",
+  "file": "advent-of-europeans-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans & EIC — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Practice queue"
+   }
+  ],
+  "text": "Advent of Europeans & EIC — PYQs & Model Answers UPSC Prelims PYQs Q1. (2005) Who among the following was the first Governor General of Bengal? (a) Lord Cornwallis (b) Lord Wellesley (c) Warren Hastings (d) Lord Bentinck Model answer: (c) — Warren Hastings was the first Governor General of Bengal (appointed in 1773 under the Regulating Act ). Q2. (2015) The Subsidiary Alliance was first accepted by the ruler of: (a) Mysore (b) Hyderabad (c) Awadh (d) Poona Model answer: (b) — The Nizam of Hyderabad was the first to accept the Subsidiary Alliance in 1798 under Lord Wellesley. Q3. (2018) Which one of the following statements is not correct about Lord Dalhousie's Doctrine of Lapse ? (a) It was used to annex Jhansi and Nagpur. (b) It was used against the state of Awadh. (c) It was used to annex Sambalpur and Baghat. (d) It led to protests that contributed to the 1857 uprising. Model answer: ",
+  "chars": 4781
+ },
+ {
+  "nav": "gs-1/modern-history/east-india-company/short",
+  "file": "advent-of-europeans-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans & East India Company — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Europeans in order"
+   },
+   {
+    "level": 2,
+    "text": "The two foundation battles"
+   },
+   {
+    "level": 2,
+    "text": "Key dates & events"
+   },
+   {
+    "level": 2,
+    "text": "Four expansion wars (chronological)"
+   },
+   {
+    "level": 2,
+    "text": "Tools of annexation"
+   },
+   {
+    "level": 2,
+    "text": "Land-revenue hook"
+   },
+   {
+    "level": 2,
+    "text": "Must-know quotes"
+   },
+   {
+    "level": 2,
+    "text": "PYQ favourites"
+   }
+  ],
+  "text": "Advent of Europeans & East India Company — Short Revision Notes One liner European trading companies (Portuguese, Dutch, English, French) gradually gave way to East India Company dominance after the Battles of Plassey (1757) and Buxar (1764) , which converted trade privileges into territorial power between 1757 and 1857. Europeans in order Portuguese (1498, Vasco da Gama) → Dutch → English (1600) → Danish → French (1664) The two foundation battles Battle Year Between Consequence Plassey 1757 Robert Clive vs Siraj ud Daula (betrayed by Mir Jafar) Company controls Bengal politics Buxar 1764 Hector Munro vs combined armies (Mir Qasim, Shuja ud Daula, Shah Alam II) Diwani of Bengal (1765) — legitimacy to collect revenue Buxar Plassey as the real foundation of British rule in India. Key dates & events Battle of Wandiwash (1760) — French decisively defeated in Carnatic War. 1757 — Plassey → Br",
+  "chars": 2332
+ },
+ {
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets",
+  "file": "gandhian-era-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era 1919–1947 — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Gandhian Era 1919–1947 — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) Special session, Calcutta (Sept 1920) — non cooperation resolution; Nagpur (Dec 1920) — new Congress constitution; \"attainment of swaraj by peaceful and legitimate means\". C. R. Das — first president of the Swaraj Party (with Motilal Nehru ); died 1925. Bardoli Satyagraha (1928) — Vallabhbhai Patel; title \"Sardar\" from the women of Bardoli. Nehru Report (1928) — Motilal Nehru chair; Dominion status demand; Jinnah replied with Fourteen Points . Lahore session (Dec 1929) — Jawaharlal Nehru president (youngest); Purna Swaraj ; 26 January 1930 = Independence Day. Dandi March — 240 miles, 24 days; 78 volunteers ; salt law broken at Dandi 6 April 1930 . Dharasana raid (21 May 1930) — Sarojini Naidu led; reported by Webb Miller . Chittagong Armoury Raid (18 April 1930) — Surya Sen ; provisional revolutionar",
+  "chars": 2960
+ },
+ {
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes",
+  "file": "gandhian-era-1919-1947.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era: Non-Cooperation to Quit India (1919–1947) — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. The Gandhian Breakthrough (1919–1920)"
+   },
+   {
+    "level": 3,
+    "text": "Context"
+   },
+   {
+    "level": 3,
+    "text": "The Nagpur Session (December 1920)"
+   },
+   {
+    "level": 2,
+    "text": "2. Non-Cooperation Movement (1920–22)"
+   },
+   {
+    "level": 3,
+    "text": "Launch"
+   },
+   {
+    "level": 3,
+    "text": "Programme (constructive + coercive)"
+   },
+   {
+    "level": 3,
+    "text": "Popular response (regional varieties)"
+   },
+   {
+    "level": 3,
+    "text": "Chauri Chaura and withdrawal (February 1922)"
+   },
+   {
+    "level": 3,
+    "text": "Evaluation"
+   },
+   {
+    "level": 2,
+    "text": "3. The Swaraj Party (1923–27)"
+   },
+   {
+    "level": 2,
+    "text": "4. Simon Commission to the Civil Disobedience Movement (1927–1934)"
+   },
+   {
+    "level": 3,
+    "text": "4.1 Simon Commission (1927)"
+   },
+   {
+    "level": 3,
+    "text": "4.2 The Nehru Report (1928) and the Calcutta session (December 1928)"
+   },
+   {
+    "level": 3,
+    "text": "4.3 Lahore session (December 1929) — Purna Swaraj"
+   },
+   {
+    "level": 3,
+    "text": "4.4 The Salt Satyagraha (1930)"
+   },
+   {
+    "level": 3,
+    "text": "4.5 Civil Disobedience — regional peaks"
+   },
+   {
+    "level": 2,
+    "text": "5. Gandhi–Irwin Pact to the Government of India Act (1935)"
+   },
+   {
+    "level": 2,
+    "text": "6. Government of India Act 1935"
+   },
+   {
+    "level": 3,
+    "text": "Key provisions (memorise)"
+   },
+   {
+    "level": 3,
+    "text": "Evaluation"
+   },
+   {
+    "level": 2,
+    "text": "7. Congress Ministries, World War II and the Cripps Offer (1937–1942)"
+   },
+   {
+    "level": 3,
+    "text": "The 1937–39 ministries"
+   },
+   {
+    "level": 3,
+    "text": "Subhas Chandra Bose breaks with Congress (1939)"
+   },
+   {
+    "level": 3,
+    "text": "The Cripps Mission (March–April 1942)"
+   },
+   {
+    "level": 2,
+    "text": "8. The Quit India Movement (1942) — The August Revolution"
+   },
+   {
+    "level": 2,
+    "text": "9. War's End — Wavell Plan and the Cabinet Mission (1945–46)"
+   },
+   {
+    "level": 3,
+    "text": "Wavell Plan (June 1945)"
+   },
+   {
+    "level": 3,
+    "text": "Cabinet Mission Plan (March–June 1946)"
+   },
+   {
+    "level": 3,
+    "text": "Direct Action Day (16 August 1946)"
+   },
+   {
+    "level": 3,
+    "text": "Interim Government (September 1946) and Constituent Assembly"
+   },
+   {
+    "level": 2,
+    "text": "10. Mountbatten Plan and Independence (1947)"
+   },
+   {
+    "level": 3,
+    "text": "Gandhiji's last months"
+   },
+   {
+    "level": 2,
+    "text": "11. Parallel histories to remember"
+   },
+   {
+    "level": 2,
+    "text": "12. The Gandhian synthesis (Mains-ready answer)"
+   },
+   {
+    "level": 2,
+    "text": "13. Timeline (1919–1947)"
+   },
+   {
+    "level": 2,
+    "text": "14. Sources & Further Reading"
+   }
+  ],
+  "text": "Gandhian Era: Non Cooperation to Quit India (1919–1947) — Detailed Notes Syllabus slot: GS 1 (Mains) · Modern Indian History (mid 18th century onward) Also relevant for: Prelims GS Paper I — History & Indian Culture 1. The Gandhian Breakthrough (1919–1920) Context Rowlatt Act (March 1919) — \"no vakil, no daleel, no appeal\" provoked the first nationwide satyagraha. Jallianwala Bagh (13 April 1919) — destroyed moderate faith in British justice. Khilafat question (1919–24) — the fate of the Ottoman Caliph after WWI; Gandhi supported the Khilafat movement to bind Hindus and Muslims. Government of India Act 1919 (dyarchy) — introduced ministerial responsibility in the provinces' \"transferred\" subjects, but the British held the vital portfolios. The Nagpur Session (December 1920) Congress adopted a new constitution : reorganised into linguistic provinces, a Working Committee of 15, and changed",
+  "chars": 17038
+ },
+ {
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs",
+  "file": "gandhian-era-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era 1919–1947 — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Gandhian Era 1919–1947 — PYQs & Model Answers UPSC Prelims PYQs Q1. (2014) The Swaraj Party was formed by: (a) Motilal Nehru and C. R. Das (b) Gandhi and Patel (c) Tilak and Besant (d) Jinnah and Liaquat Ali Khan Model answer: (a) — Formed in 1923 after the Gaya session deadlock, to contest council elections and wreck the reforms from within. Q2. (2015) Who founded the Forward Bloc ? (a) Jawaharlal Nehru (b) Subhas Chandra Bose (c) C. Rajagopalachari (d) M. N. Roy Model answer: (b) — Subhas Chandra Bose founded the Forward Bloc in May 1939 after resigning the Congress presidency at Tripuri. Q3. (2016) With reference to the Khilafat movement , consider the following statements: 1. It aimed at restoring the Caliphate of Turkey. 2. It was supported by the Congress under Gandhi's leadership. 3. It merged with the Non Cooperation movement in a joint struggle. Which of the statements given abo",
+  "chars": 5959
+ },
+ {
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/short",
+  "file": "gandhian-era-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era 1919–1947 — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Three mass movements (memorise dates & triggers)"
+   },
+   {
+    "level": 2,
+    "text": "Milestones between movements"
+   },
+   {
+    "level": 2,
+    "text": "Match: leaders to moments (prelims traps)"
+   },
+   {
+    "level": 2,
+    "text": "One-line answers to famous quotations"
+   },
+   {
+    "level": 2,
+    "text": "PYQ favourites"
+   }
+  ],
+  "text": "Gandhian Era 1919–1947 — Short Revision Notes One liner From Nagpur 1920 to the midnight of 15 August 1947 , Gandhi turned Congress into a mass movement through three great campaigns — Non Cooperation (1920–22), Civil Disobedience (1930–34), Quit India (1942) — which broke the legitimacy of British rule. Three mass movements (memorise dates & triggers) Movement Launch Trigger Key symbol Ends Non Cooperation 1 Aug 1920 (Calcutta special session) Rowlatt Act, Jallianwala Bagh, Khilafat Khadi & charkha Chauri Chaura (5 Feb 1922) — withdrawn at Bardoli Civil Disobedience 12 Mar 1930 (Dandi March) Simon Commission & Purna Swaraj resolution (Lahore 1929) Salt Gandhi–Irwin Pact (Mar 1931); Communal Award / Poona Pact (1932); withdrawal (May 1934) Quit India 8 Aug 1942 (Gowalia Tank) Cripps Mission failure \"Do or Die\" Crushed by 1943–44 Milestones between movements 1923: Swaraj Party (Das & Moti",
+  "chars": 3247
+ },
+ {
+  "nav": "gs-1/modern-history/national-movement-1885-1919/bullets",
+  "file": "national-movement-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement 1885–1919 — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "National Movement 1885–1919 — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) First Congress — Bombay, 28 December 1885 ; 72 delegates ; W. C. Bonnerjee first president. First Bengali president — Dadabhai Naoroji (Calcutta 1886). First Muslim president — Rahimtullah M. Sayani (Calcutta 1896); Vande Mataram sung for the first time. Moderate achievements — Indian Councils Act 1892; economic critique (drain theory); proving that annual sessions create a national public. Partition of Bengal — 16 October 1905 by Lord Curzon . First mass boycott — 7 August 1905 Calcutta resolution; British cloth, salt, sugar boycotted. National Council of Education, Bengal (1906) — forerunner of Jadavpur University . The Calcutta session of 1906 — Dadabhai Naoroji presiding; declared the four point programme: Swaraj, Swadeshi, Boycott, National Education . Surat split — December 1907 — Rash Beh",
+  "chars": 2262
+ },
+ {
+  "nav": "gs-1/modern-history/national-movement-1885-1919/notes",
+  "file": "national-movement-1885-1919.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement: Moderates, Extremists & Gandhian Dawn (1885–1919) — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Background — Why Congress Emerged (1885)"
+   },
+   {
+    "level": 2,
+    "text": "2. The Moderate Era (1885–1905)"
+   },
+   {
+    "level": 3,
+    "text": "Character"
+   },
+   {
+    "level": 3,
+    "text": "Achievements"
+   },
+   {
+    "level": 3,
+    "text": "Limitations"
+   },
+   {
+    "level": 2,
+    "text": "3. The Extremist / Assertive Nationalist Era (1905–1919)"
+   },
+   {
+    "level": 3,
+    "text": "Why the shift after 1905?"
+   },
+   {
+    "level": 3,
+    "text": "The Partition & Swadeshi Movement (1905–08)"
+   },
+   {
+    "level": 3,
+    "text": "Extremist leaders"
+   },
+   {
+    "level": 3,
+    "text": "The Surat Split (December 1907)"
+   },
+   {
+    "level": 2,
+    "text": "4. The Muslim League & the Khilafat Context (1906–1919)"
+   },
+   {
+    "level": 2,
+    "text": "5. Foreign Policy & International Environment"
+   },
+   {
+    "level": 2,
+    "text": "6. Key Congress Sessions (1885–1919)"
+   },
+   {
+    "level": 2,
+    "text": "7. Gandhian Dawn (1915–1919)"
+   },
+   {
+    "level": 2,
+    "text": "8. Most-asked PYQ angles"
+   },
+   {
+    "level": 2,
+    "text": "9. Sources & Further Reading"
+   }
+  ],
+  "text": "National Movement: Moderates, Extremists & Gandhian Dawn (1885–1919) — Detailed Notes Syllabus slot: GS 1 (Mains) · Modern Indian History (mid 18th century onward) Also relevant for: Prelims GS Paper I — History & Indian Culture 1. Background — Why Congress Emerged (1885) By the 1880s three converging trends made a national political body inevitable: Factor Explanation Modern intelligentsia English educated middle class (moderate lawyers, journalists, doctors, teachers) — fluent in a common political vocabulary of liberty, rights and representation. Economic critique Dadabhai Naoroji's drain theory ( Poverty and Un British Rule in India , 1901); R. C. Dutt's Economic History of India — provided an economic case against colonialism. Political exclusion Ilbert Bill agitation (1883–84) — Europeans' privileged position in criminal trials exposed racial discrimination; educated Indians realis",
+  "chars": 10498
+ },
+ {
+  "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs",
+  "file": "national-movement-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement 1885–1919 — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "National Movement 1885–1919 — PYQs & Model Answers UPSC Prelims PYQs Q1. (2014) The Partition of Bengal was abolished in the year: (a) 1905 (b) 1911 (c) 1919 (d) 1947 Model answer: (b) — King George V's Delhi Durbar (December 1911) announced the annulment of the partition; effective 1912. Q2. (2015) The Lucknow Pact (1916) resulted in which of the following? (a) Congress gave up its demand for Swaraj (b) Congress accepted separate electorates for Muslims (c) The Muslim League merged with the Congress (d) Provincial councils gained full autonomy Model answer: (b) — Under the Lucknow Pact the Congress accepted separate electorates for Muslims — a tactical compromise engineered by Tilak and Jinnah. Q3. (2016) With reference to the Surat Split (1907) , consider the following statements: 1. The Extremists wanted the Calcutta (1906) resolutions on swadeshi and boycott confirmed. 2. The Moderat",
+  "chars": 5651
+ },
+ {
+  "nav": "gs-1/modern-history/national-movement-1885-1919/short",
+  "file": "national-movement-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement 1885–1919 — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Three phases (memorise the years)"
+   },
+   {
+    "level": 2,
+    "text": "Milestone timeline"
+   },
+   {
+    "level": 2,
+    "text": "Two leader sets (match for prelims)"
+   },
+   {
+    "level": 2,
+    "text": "Key Prelims particulars"
+   },
+   {
+    "level": 2,
+    "text": "Most-asked answers (one-sentence versions)"
+   }
+  ],
+  "text": "National Movement 1885–1919 — Short Revision Notes One liner From the moderate petitions of 1885 to the boycott of 1905 and the reunion at Lucknow (1916), Indian nationalism evolved from prayer to mass action — and Gandhi's three campaigns (1917–18) readied the country for the 1920 mass movement. Three phases (memorise the years) 1. Moderates (1885–1905) — petitions, prayer, English liberalism. Leaders: Naoroji, Mehta, Gokhale, Banerjee, Ranade. 2. Extremists / Assertive (1905–1919) — partition of Bengal (1905) → Swadeshi, boycott, national education; leaders: Tilak, Pal, Lajpat Rai, Aurobindo. 3. Gandhian dawn (1915–19) — return from South Africa (Jan 1915); Champaran (1917), Ahmedabad (1918), Kheda (1918); Rowlatt Satyagraha (1919). Milestone timeline Year Event 1885 (28 Dec) First Congress at Bombay — W. C. Bonnerjee presiding 1905 (16 Oct) Partition of Bengal effective — Curzon 1906 ",
+  "chars": 3020
  },
  {
   "nav": "gs-1/modern-history/pyqs",
@@ -249,6 +1101,198 @@ window.SEARCH_DATA = [
   "chars": 1538
  },
  {
+  "nav": "gs-1/modern-history/socio-religious-reforms/bullets",
+  "file": "socio-religious-reforms-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reforms — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims traps highlighted)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Socio Religious Reforms — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims traps highlighted) Atmiya Sabha (1815) → formalised as Brahmo Samaj (1828) — Raja Rammohan Roy . Roy's paper: Samvad Kaumudi (weekly Bengali newspaper, 1821). Adi Brahmo Samaj (Debendranath Tagore, 1839) — the original line after the 1866 split. Keshab Chandra Sen's daughter married at 13 → Sadharan Brahmo Samaj split (1878) . Henry Vivian Derozio — taught at Hindu College; Young Bengal ; the Bengal Gazette . Prarthana Samaj — Bombay's conservative reform — founders Dadoba Pandurang , Atmaram Pandurang , later Ranade and Bhandarkar . M. G. Ranade — co founded Indian National Social Conference (1887, first met at Madras Congress session). Jyotiba Phule — Gulamgiri (1873); Savitribai Phule — first woman teacher in India. Theosophical Society — Blavatsky & Olcott founded in New York 1875 ; Annie Besant's Hom",
+  "chars": 1956
+ },
+ {
+  "nav": "gs-1/modern-history/socio-religious-reforms/notes",
+  "file": "socio-religious-reforms.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reform Movements (19th–early 20th Century) — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Why Reform Movements Emerged"
+   },
+   {
+    "level": 2,
+    "text": "2. Reformist Movements (chronological)"
+   },
+   {
+    "level": 3,
+    "text": "2.1 Brahmo Samaj (1828) — Raja Rammohan Roy"
+   },
+   {
+    "level": 3,
+    "text": "2.2 Young Bengal Movement (late 1820s–1830s)"
+   },
+   {
+    "level": 3,
+    "text": "2.3 Prarthana Samaj (1863/1867) — Bombay"
+   },
+   {
+    "level": 3,
+    "text": "2.4 Satyashodhak Samaj (1873) — Jyotiba Phule"
+   },
+   {
+    "level": 3,
+    "text": "2.5 Theosophical Society"
+   },
+   {
+    "level": 3,
+    "text": "2.6 Aligarh Movement — Sir Syed Ahmad Khan"
+   },
+   {
+    "level": 3,
+    "text": "2.7 Ramakrishna Mission (1897) — Swami Vivekananda"
+   },
+   {
+    "level": 2,
+    "text": "3. Revivalist Movements"
+   },
+   {
+    "level": 3,
+    "text": "3.1 Arya Samaj (1875) — Swami Dayananda Saraswati"
+   },
+   {
+    "level": 3,
+    "text": "3.2 Deoband Movement (1867)"
+   },
+   {
+    "level": 3,
+    "text": "3.3 Wahabi / Walliullah Movement"
+   },
+   {
+    "level": 3,
+    "text": "3.4 Singh Sabha & Akali movements (Punjab)"
+   },
+   {
+    "level": 3,
+    "text": "3.5 Parsi & smaller movements"
+   },
+   {
+    "level": 2,
+    "text": "4. Women and Social Legislation"
+   },
+   {
+    "level": 3,
+    "text": "Key reformers"
+   },
+   {
+    "level": 3,
+    "text": "Legislative milestones (memorise the years)"
+   },
+   {
+    "level": 2,
+    "text": "5. Why This Movement Matters (Mains-ready synthesis)"
+   },
+   {
+    "level": 2,
+    "text": "6. Quick-memorise table (reformist vs revivalist)"
+   },
+   {
+    "level": 2,
+    "text": "7. Sources & Further Reading"
+   }
+  ],
+  "text": "Socio Religious Reform Movements (19th–early 20th Century) — Detailed Notes Syllabus slot: GS 1 (Mains) · Modern Indian History · Indian Heritage & Culture Also relevant for: Prelims GS Paper I — History & Indian Culture 1. Why Reform Movements Emerged By the early 19th century Indian society faced a crisis of legitimacy: Colonial critique — missionaries (e.g., William Carey, Alexander Duff ) and British officials mocked caste, sati, female illiteracy and idolatry as signs of \"degradation,\" giving urgency to reform. Print and modern education — after 1835 (Macaulay's Minute) a new class of English educated Indians engaged with European rationalism, liberalism and humanism. Economic and social distress — peasant dislocation, ruin of artisans and growing widow and child marriage problems made old institutions appear oppressive. Rediscovery of texts — Western orientalists (William Jones, Co",
+  "chars": 12649
+ },
+ {
+  "nav": "gs-1/modern-history/socio-religious-reforms/pyqs",
+  "file": "socio-religious-reforms-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reforms — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Practice queue"
+   }
+  ],
+  "text": "Socio Religious Reforms — PYQs & Model Answers UPSC Prelims PYQs Q1. (2016) Which one of the following books is not associated with the socio religious reforms of the 19th century? (a) Satyarth Prakash (b) Gulamgiri (c) Hind Swaraj (d) Tahzib ul Akhlaq Model answer: (c) — Hind Swaraj (1909) is Gandhi's political text. Satyarth Prakash (Dayananda), Gulamgiri (Phule) and Tahzib ul Akhlaq (Sir Syed) are all reform era works. Q2. (2020) Who among the following founded the Atmiya Sabha (1815) ? (a) Debendranath Tagore (b) Raja Rammohan Roy (c) Keshab Chandra Sen (d) Ishwar Chandra Vidyasagar Model answer: (b) — Roy founded Atmiya Sabha in 1815 ; it evolved into the Brahmo Samaj in 1828 . Q3. (2018) Which of the following pairs is/are correctly matched? 1. Brahmo Samaj — 1828 2. Arya Samaj — 1875 3. Ramakrishna Mission — 1897 4. Theosophical Society — 1882 (India HQ) (a) 1 only (b) 1 and 2 onl",
+  "chars": 4693
+ },
+ {
+  "nav": "gs-1/modern-history/socio-religious-reforms/short",
+  "file": "socio-religious-reforms-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reform Movements — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Two strands (memorise)"
+   },
+   {
+    "level": 2,
+    "text": "Founders & dates (the essential table)"
+   },
+   {
+    "level": 2,
+    "text": "Legal timeline (memorise years)"
+   },
+   {
+    "level": 2,
+    "text": "Can't-miss one-liners"
+   },
+   {
+    "level": 2,
+    "text": "For Mains answers (remember 3 bullet points)"
+   }
+  ],
+  "text": "Socio Religious Reform Movements — Short Revision Notes One liner 19th–early 20th century Indian reformers responded to colonial critique by reinterpreting tradition ( reformist ) or defending it militantly ( revivalist ) — effectively creating the modern public sphere that birthed the national movement. Two strands (memorise) Strand Motto Example Reformist Critique & modernise Brahmo Samaj, Prarthana Samaj, Aligarh, Ramakrishna Mission Revivalist Assert & defend Arya Samaj, Deoband, Wahabi, Singh Sabha Founders & dates (the essential table) Movement Founder Year Location Brahmo Samaj Raja Rammohan Roy 1828 Calcutta Young Bengal Henry Vivian Derozio c. 1826 Calcutta Adi Brahmo Samaj Debendranath Tagore 1839 Calcutta Prarthana Samaj Dadoba / Atmaram Pandurang 1867 Bombay Satyashodhak Samaj Jyotiba Phule 1873 Pune Arya Samaj Swami Dayananda Saraswati 1875 Bombay → Lahore Theosophical Socie",
+  "chars": 2154
+ },
+ {
   "nav": "gs-1/physical-geography",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
@@ -262,6 +1306,562 @@ window.SEARCH_DATA = [
   "chars": 186
  },
  {
+  "nav": "gs-2/constitution-polity/bullets",
+  "file": "constitution-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Indian Constitution — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Indian Constitution — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) M. N. Roy (1934) first proposed a Constituent Assembly. First meeting — 9 December 1946 ; Muslim League boycotted initially. Sachchidananda Sinha — temporary chairman; Rajendra Prasad permanent. Objectives Resolution — Nehru, 13 Dec 1946 . Drafting Committee — 29 August 1947 ; B. R. Ambedkar chairman; B. N. Rau constitutional adviser. 2 years, 11 months, 18 days ; ₹ 64 lakh; adopted 26 Nov 1949 , enforced 26 Jan 1950 . Original text: 395 articles, 22 parts, 8 schedules → now 470 articles in 25 parts, 12 schedules. Preamble words added by 42nd (1976) : Socialist, Secular, Integrity . 6 FRs now — Right to Property removed as FR by 44th Amendment 1978 (now Art 300A). Art 32 — \"the heart and soul\" (Ambedkar); 5 writs: Habeas, Mandamus, Prohibition, Certiorari, Quo Warranto . DPSP from Ireland; non justiciab",
+  "chars": 2330
+ },
+ {
+  "nav": "gs-2/constitution-polity/notes",
+  "file": "constitution-of-india.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Indian Constitution: Making, Features, Amendments & Comparisons — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Making of the Constitution (1934–1950)"
+   },
+   {
+    "level": 3,
+    "text": "The idea and the demand"
+   },
+   {
+    "level": 3,
+    "text": "Constituent Assembly — key dates & people"
+   },
+   {
+    "level": 3,
+    "text": "Composition"
+   },
+   {
+    "level": 2,
+    "text": "2. Sources of the Constitution (borrowed features)"
+   },
+   {
+    "level": 2,
+    "text": "3. Architecture of the Constitution"
+   },
+   {
+    "level": 2,
+    "text": "4. The Preamble"
+   },
+   {
+    "level": 2,
+    "text": "5. Fundamental Rights (Part III, Articles 12–35)"
+   },
+   {
+    "level": 2,
+    "text": "6. Directive Principles of State Policy (Part IV, Arts 36–51)"
+   },
+   {
+    "level": 2,
+    "text": "7. Amendment of the Constitution (Art 368)"
+   },
+   {
+    "level": 3,
+    "text": "Landmark amendment controversies — the \"Basic Structure\" doctrine"
+   },
+   {
+    "level": 3,
+    "text": "Notable amendments (memorisation set)"
+   },
+   {
+    "level": 2,
+    "text": "8. Federalism & the Distribution of Powers"
+   },
+   {
+    "level": 2,
+    "text": "9. Federalism — centres of contemporary debate (for Mains essays)"
+   },
+   {
+    "level": 2,
+    "text": "10. Salient features — quick-comparison table (prelims favourites)"
+   },
+   {
+    "level": 2,
+    "text": "11. Most-asked PYQ angles"
+   },
+   {
+    "level": 2,
+    "text": "12. Sources & Further Reading"
+   }
+  ],
+  "text": "Indian Constitution: Making, Features, Amendments & Comparisons — Detailed Notes Syllabus slot: GS 2 (Mains) · Constitution & Polity Also relevant for: Prelims GS Paper I — Polity & Governance; Essay (constitutional themes) 1. Making of the Constitution (1934–1950) The idea and the demand 1934 — M. N. Roy , a pioneer of the communist movement in India, first put forward the idea of a Constituent Assembly for India. 1935 — the Indian National Congress officially demanded a Constituent Assembly to frame the Constitution. 1938 — Jawaharlal Nehru declared that the Constitution of free India must be framed by a Constituent Assembly elected on the basis of adult franchise. 1940 — the demand was accepted in principle in the August Offer of the Viceroy Linlithgow . 1942 — the Cripps Proposals repeated the promise but were rejected. 1946 — the Cabinet Mission Plan finally produced the scheme for ",
+  "chars": 18096
+ },
+ {
+  "nav": "gs-2/constitution-polity/pyqs",
+  "file": "constitution-polity-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Indian Constitution — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Indian Constitution — PYQs & Model Answers UPSC Prelims PYQs Q1. (2015) The mind of the makers of the Constitution of India is reflected in which of the following? (a) The Preamble (b) The Fundamental Rights (c) The Directive Principles of State Policy (d) The Fundamental Duties Model answer: (a) — as stated in the Constituent Assembly debates, the Preamble encapsulates the philosophy and ideals of the Constitution makers. Q2. (2016) Which one of the following statements is correct about the Objectives Resolution ? (a) It was moved by Sardar Patel. (b) It formed the basis of the Preamble. (c) It was adopted on 26 January 1950. (d) It declared India a socialist State. Model answer: (b) — moved by Jawaharlal Nehru on 13 December 1946 and adopted 22 January 1947 , it became the foundations of the Preamble. Q3. (2017) Which of the following features of the Constitution of India were borrowed",
+  "chars": 7319
+ },
+ {
+  "nav": "gs-2/constitution-polity/short",
+  "file": "constitution-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Indian Constitution — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Making (memorise the dates)"
+   },
+   {
+    "level": 2,
+    "text": "Borrowed features (prelims match-up)"
+   },
+   {
+    "level": 2,
+    "text": "FRs (6) — after the 44th Amendment (1978) removed property rights"
+   },
+   {
+    "level": 2,
+    "text": "Landmark cases"
+   },
+   {
+    "level": 2,
+    "text": "Key amendments (don't miss the years)"
+   },
+   {
+    "level": 2,
+    "text": "Federal design"
+   },
+   {
+    "level": 2,
+    "text": "Current flashpoints (2025–26)"
+   }
+  ],
+  "text": "Indian Constitution — Short Revision Notes One liner A borrowed but original synthesis adopted on 26 November 1949 , enforced on 26 January 1950 — the world's longest written constitution combining British parliamentary government, American judicial review, Irish DPSP, Canadian federalism and Indian innovations. Making (memorise the dates) M. N. Roy (1934) — first mooted a Constituent Assembly. Cabinet Mission Plan (1946) — Constituent Assembly elected by provincial assemblies. 9 December 1946 — first meeting; Sachchidananda Sinha temporary chairman; Rajendra Prasad the permanent president (11 Dec). Nehru, 13 December 1946 — Objectives Resolution (became the basis of the Preamble). B. R. Ambedkar — Chairman of the Drafting Committee (August 1947) . 26 November 1949 — adopted (Constitution Day from 2015); 26 January 1950 — enforced (commemorating Purna Swaraj Day, 26 January 1930 ). Borro",
+  "chars": 3510
+ },
+ {
+  "nav": "gs-2/governance-administration/bullets",
+  "file": "organs-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Organs of Government — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 3,
+    "text": "Executive"
+   },
+   {
+    "level": 3,
+    "text": "Parliament"
+   },
+   {
+    "level": 3,
+    "text": "Judiciary"
+   },
+   {
+    "level": 2,
+    "text": "Mains one-liners"
+   }
+  ],
+  "text": "Organs of Government — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) Executive President elected by elected MPs + MLAs (incl. Delhi & Puducherry MLAs) — PR with single transferable vote. Value of MLA's vote = (State population ÷ total elected MLAs) ÷ 1000 (1971 census figures until the next delimitation). Art 74: President acts on advice — 44th Amendment allows returning advice once . Art 72 pardoning; Art 123 ordinances; Art 143 advisory references. VP elected by all MPs (elected + nominated); ex officio Chairman of RS ; removal: RS resolution + LS agreement (Art 67). PM — the de facto executive ; chairs Cabinet; Communication with President duty (Art 78). CoM ceiling — 15% of Lok Sabha (91st Amendment, 2003) . Parliament Lok Sabha 543 (530 States + 13 UTs; Anglo Indian 2 seats removed by the 104th Amendment, 2019 ). Rajya Sabha 245 (233 + 12 nominated in art/science/l",
+  "chars": 2667
+ },
+ {
+  "nav": "gs-2/governance-administration/notes",
+  "file": "parliament-executive-judiciary.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Governance & Administration: Parliament, Executive, Judiciary — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Overview — India's Parliamentary Model"
+   },
+   {
+    "level": 2,
+    "text": "2. The Union Executive"
+   },
+   {
+    "level": 3,
+    "text": "2.1 President of India (Arts 52–62)"
+   },
+   {
+    "level": 3,
+    "text": "2.2 Vice-President (Arts 63–73)"
+   },
+   {
+    "level": 3,
+    "text": "2.3 Prime Minister & Council of Ministers (Arts 74–78)"
+   },
+   {
+    "level": 2,
+    "text": "3. Parliament (Arts 79–122)"
+   },
+   {
+    "level": 3,
+    "text": "3.1 Structure"
+   },
+   {
+    "level": 3,
+    "text": "3.2 Powers & functions"
+   },
+   {
+    "level": 3,
+    "text": "3.3 Parliamentary sessions & motions"
+   },
+   {
+    "level": 3,
+    "text": "3.4 Parliamentary committees (key ones)"
+   },
+   {
+    "level": 2,
+    "text": "4. The Judiciary"
+   },
+   {
+    "level": 3,
+    "text": "4.1 Supreme Court (Arts 124–147)"
+   },
+   {
+    "level": 3,
+    "text": "4.2 High Courts (Arts 214–231)"
+   },
+   {
+    "level": 3,
+    "text": "4.3 Subordinate courts"
+   },
+   {
+    "level": 3,
+    "text": "4.4 Judicial controversies & reforms (Mains-critical)"
+   },
+   {
+    "level": 2,
+    "text": "5. Constitutional & statutory bodies supporting these organs"
+   },
+   {
+    "level": 2,
+    "text": "6. Most-asked PYQ angles"
+   },
+   {
+    "level": 2,
+    "text": "7. Sources & Further Reading"
+   }
+  ],
+  "text": "Governance & Administration: Parliament, Executive, Judiciary — Detailed Notes Syllabus slot: GS 2 (Mains) · Governance & Administration Also relevant for: Prelims GS Paper I — Polity & Governance 1. Overview — India's Parliamentary Model Westminster (parliamentary) model — executive responsible to the legislature; nominal + real executive distinction; majority party rule; a civil service politically neutral in theory. Distribution : Union Executive (President + Vice President + PM & Council of Ministers + Attorney General: Arts 52–78 ); Parliament (President + two Houses: Arts 79–122 ); Judiciary (Supreme Court Arts 124–147 ; High Courts 214–231 ; subordinate courts 233–237 ). Checks built into design: bicameralism, federal division, independent judiciary, constitutional watchdogs — CAG (148–151), UPSC (315–323), Election Commission (324–329A), Finance Commission (280), GST Council (279",
+  "chars": 11539
+ },
+ {
+  "nav": "gs-2/governance-administration/pyqs",
+  "file": "governance-administration-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Parliament · Executive · Judiciary — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Practice queue"
+   }
+  ],
+  "text": "Parliament · Executive · Judiciary — PYQs & Model Answers UPSC Prelims PYQs Q1. (2015) Who/Which of the following is the custodian of the Constitution of India ? (a) The President of India (b) The Prime Minister of India (c) The Lok Sabha Secretariat (d) The Supreme Court of India Model answer: (d) — through Article 13 read with Articles 32 and 136, the Supreme Court interprets and enforces constitutional limits. Q2. (2016) What is the provision to safeguard the autonomy of the Supreme Court of India ? 1. The judges are appointed by a non political collegium procedure originating in judicial interpretation. 2. Removal is by an address of Parliament with a special majority, on grounds of proved misbehaviour or incapacity. 3. Salaries and allowances are charged on the Consolidated Fund of India. (a) 1 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3 Model answer: (d) — all three prote",
+  "chars": 7391
+ },
+ {
+  "nav": "gs-2/governance-administration/short",
+  "file": "organs-of-government-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Parliament · Executive · Judiciary — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "The three organs (snapshot)"
+   },
+   {
+    "level": 2,
+    "text": "Match-the-fact (prelims traps)"
+   },
+   {
+    "level": 2,
+    "text": "Landmark judgments (Mains)"
+   },
+   {
+    "level": 2,
+    "text": "One-line Mains conclusions"
+   }
+  ],
+  "text": "Parliament · Executive · Judiciary — Short Revision Notes One liner India has a Westminster style parliamentary system where the President is the nominal head , the PM headed Council of Ministers holds real power and is collectively responsible to the Lok Sabha , and an integrated, independent judiciary with the Supreme Court at the apex acts as the Constitution's guardian. The three organs (snapshot) Organ Articles Key points Executive 52–78 President (electoral college; Art 74 — advice binding since the 42nd, one send back by the 44th); Vice President ex officio chairman of RS ; PM & CoM (15% of LS limit — 91st Amendment, 2003) ; AGI (76) Parliament 79–122 LS (543) directly elected, 5 years; RS (245: 233 + 12 nominated) 6 year staggered, permanent; Money Bills only in LS (Art 110, Speaker's certificate); joint sitting (Art 108) thrice used Judiciary 124–237 SC (CJI + 33); writs 32 (SC)",
+  "chars": 2759
+ },
+ {
+  "nav": "gs-2/international-relations/bullets",
+  "file": "ir-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "International Relations — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "International Relations — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) Panchsheel — signed 29 April 1954 (India–China, Tibet trade). NAM — institutionalised Belgrade 1961 ; Bandung Conference 1955 the precursor. Gujral Doctrine — 1996–97; non reciprocal generosity toward smaller neighbours. Look East 1992 → Act East 2014 (Myanmar, ASEAN, Indo Pacific). Neighbourhood First (2014) ; SAGAR (2015) ; Indo Pacific Oceans Initiative (2019) ; MAHASAGAR (2025) . Indo US nuclear deal — 2005–08; NSG waiver September 2008 . Foundational defence pacts — LEMOA (2016), COMCASA (2018), BECA (2020) . iCET (2023) — critical & emerging technologies; India–US 2+2 ministerial dialogue . India–Russia: 1971 Treaty , annual summit mechanism (2000–) , S 400 deliveries , post 2022 top crude supplier . LAC = 3,488 km (western, middle, eastern sectors); Galwan clash — 15 June 2020 ; Kazan thaw — ",
+  "chars": 2691
+ },
+ {
+  "nav": "gs-2/international-relations/notes",
+  "file": "india-foreign-policy-ir.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "International Relations: India's Foreign Policy, Bilateral Ties & Global Groupings — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Foundations & vocabulary of Indian foreign policy"
+   },
+   {
+    "level": 3,
+    "text": "Institutional set-up"
+   },
+   {
+    "level": 2,
+    "text": "2. The great-power theatre"
+   },
+   {
+    "level": 3,
+    "text": "2.1 India–United States"
+   },
+   {
+    "level": 3,
+    "text": "2.2 India–Russia"
+   },
+   {
+    "level": 3,
+    "text": "2.3 India–China — the principal strategic challenge"
+   },
+   {
+    "level": 3,
+    "text": "2.4 India–Pakistan"
+   },
+   {
+    "level": 3,
+    "text": "2.5 Europe, Quad partners, the middle"
+   },
+   {
+    "level": 2,
+    "text": "3. The neighbourhood (Neighbourhood First in practice)"
+   },
+   {
+    "level": 2,
+    "text": "4. Regional & mini-lateral groupings"
+   },
+   {
+    "level": 2,
+    "text": "5. Global groupings & multilateral agenda"
+   },
+   {
+    "level": 3,
+    "text": "United Nations"
+   },
+   {
+    "level": 3,
+    "text": "G20"
+   },
+   {
+    "level": 3,
+    "text": "Others"
+   },
+   {
+    "level": 2,
+    "text": "6. Economic diplomacy & diaspora"
+   },
+   {
+    "level": 2,
+    "text": "7. Current issues (Mains-ready, 2024–26)"
+   },
+   {
+    "level": 2,
+    "text": "8. Framework for IR mains answers"
+   },
+   {
+    "level": 2,
+    "text": "9. Sources & Further Reading"
+   }
+  ],
+  "text": "International Relations: India's Foreign Policy, Bilateral Ties & Global Groupings — Detailed Notes Syllabus slot: GS 2 (Mains) · International Relations: India & her neighbourhood; Bilateral, regional & global groupings; Indian diaspora Also relevant for: Prelims GS Paper I — Polity & Governance (IR questions); Essay (India's place in the world) Currency check: Updated to September 2026 . 1. Foundations & vocabulary of Indian foreign policy Concept Origin Content Panchsheel 29 April 1954 , India–China agreement on Tibet Five principles: mutual respect for sovereignty/territorial integrity; mutual non aggression; non interference; equality & mutual benefit; peaceful co existence Non Alignment (NAM) Bandung 1955 → Belgrade 1961 (Nehru, Tito, Nasser, Sukarno, Nkrumah) Strategic autonomy without military blocs; not neutrality — issue based positions Gujral Doctrine 1996–97 (I. K. Gujral as ",
+  "chars": 13277
+ },
+ {
+  "nav": "gs-2/international-relations/pyqs",
+  "file": "international-relations-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "International Relations — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "International Relations — PYQs & Model Answers UPSC Prelims PYQs Q1. (2015) Consider the following pairs: Groupings in which India is a member — 1. QUAD — India, US, Japan, Australia 2. SCO — India joined in 2017 3. SAARC — headquartered in Kathmandu Which of the pairs given above is/are correctly matched? (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3 Model answer: (d) — all three are correct (SCO accession Astana summit, June 2017; SAARC Secretariat is in Kathmandu). Q2. (2021) With reference to Panchsheel , consider the following statements: 1. The five principles were first enumerated in the India–China agreement of 1954. 2. They include \"mutual non aggression\" and \"peaceful co existence.\" 3. They were declared by the UN General Assembly as the foundation of international law. (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3 Model answer: (a) — sta",
+  "chars": 7082
+ },
+ {
+  "nav": "gs-2/international-relations/short",
+  "file": "ir-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "International Relations — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Doctrines (memorise with years)"
+   },
+   {
+    "level": 2,
+    "text": "Great-power snapshot"
+   },
+   {
+    "level": 2,
+    "text": "Neighbourhood anchors"
+   },
+   {
+    "level": 2,
+    "text": "Groupings map"
+   },
+   {
+    "level": 2,
+    "text": "UN & reform"
+   },
+   {
+    "level": 2,
+    "text": "Diaspora"
+   },
+   {
+    "level": 2,
+    "text": "Essay/Mantra one-liners"
+   }
+  ],
+  "text": "International Relations — Short Revision Notes One liner India's foreign policy moved from Nehruvian non alignment (Panchsheel 1954 → NAM) to multi alignment with strategic autonomy — engaging QUAD, SCO, BRICS and the West simultaneously while keeping the Neighbourhood First (2014–) and Indo Pacific (SAGAR 2015 → MAHASAGAR 2025) frames at the centre. Doctrines (memorise with years) Panchsheel (1954) · NAM (Belgrade 1961) (Bandung precursor 1955) · Gujral Doctrine (1996–97) · Look East 1992 → Act East 2014 · Neighbourhood First 2014 · SAGAR 2015 · Indo Pacific Oceans Initiative 2019 · MAHASAGAR 2025 · Vasudhaiva Kutumbakam (G20 motto 2023) . Great power snapshot USA — civil nuclear deal 2005–08 (NSG waiver 2008); foundational pacts LEMOA (2016), COMCASA (2018), BECA (2020) ; iCET 2023 ; tariff clash of 2025 → trade negotiations continue. Russia — 1971 Treaty; annual summits since 2000; S ",
+  "chars": 2878
+ },
+ {
   "nav": "gs-2",
   "file": "README.md",
   "rel": "content/mains/gs-2-polity-governance-ir/README.md",
@@ -273,6 +1873,194 @@ window.SEARCH_DATA = [
   ],
   "text": "General Studies II — Governance, Polity, Social Justice & IR Constitution & Polity · Governance & Administration · Social Justice (health, education, welfare schemes) · International Relations. Suggested topic folders (run node cli/generate.mjs sync to auto create the 5 section scaffold under each): constitution polity/ governance administration/ social justice/ international relations/",
   "chars": 389
+ },
+ {
+  "nav": "gs-2/social-justice/bullets",
+  "file": "social-justice-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Social Justice — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 2,
+    "text": "Quote bank"
+   }
+  ],
+  "text": "Social Justice — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) MGNREGA (2005) — 100 days; demand driven; 100% central wage funding; repealed 1 July 2026 . VB G RAM G Act (2025, assent 21 Dec 2025) — 125 days from 1 July 2026 ; 60:40 Centre State split (general), 90:10 (NE/Himalayan); 4 work categories; 60 day agri season pause ; Viksit Gram Panchayat Plans aligned with PM Gati Shakti ; normative allocations using the 16th Finance Commission formula . NFSA (2013) — 75% rural / 50% urban coverage; 5 kg/person/month at ₹3/2/1; Antyodaya 35 kg/family ; State Food Commissions. PMGKAY — free 5 kg extra from 2020; NFSA made free from Jan 2023 for five years (announced 2024). PMAY G (2016) & PMAY U (2015) ; PMAY 2.0 (2024) — additional 2 crore rural + 1 crore urban houses by 2028 29. Ayushman Bharat (2018) — HWCs → Ayushman Arogya Mandirs (1.5 lakh+) + PM JAY ₹5 lakh/family/yea",
+  "chars": 1945
+ },
+ {
+  "nav": "gs-2/social-justice/notes",
+  "file": "social-justice-welfare.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Social Justice: Welfare Schemes, Health, Education & HRD — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. Constitutional foundation of social justice"
+   },
+   {
+    "level": 2,
+    "text": "2. The welfare delivery architecture"
+   },
+   {
+    "level": 2,
+    "text": "3. Employment & livelihoods"
+   },
+   {
+    "level": 3,
+    "text": "MGNREGA (2005) → VB-G RAM G Act (2025), in force from 1 July 2026"
+   },
+   {
+    "level": 2,
+    "text": "4. Food, nutrition & the social safety net"
+   },
+   {
+    "level": 3,
+    "text": "National Food Security Act (2013)"
+   },
+   {
+    "level": 3,
+    "text": "PM Garib Kalyan Anna Yojana (PMGKAY)"
+   },
+   {
+    "level": 3,
+    "text": "Nutrition"
+   },
+   {
+    "level": 2,
+    "text": "5. Health"
+   },
+   {
+    "level": 3,
+    "text": "Architecture"
+   },
+   {
+    "level": 2,
+    "text": "6. Education & HRD"
+   },
+   {
+    "level": 3,
+    "text": "Right to education"
+   },
+   {
+    "level": 3,
+    "text": "National Education Policy 2020 — the current superstructure"
+   },
+   {
+    "level": 3,
+    "text": "The HRD frame (for GS-2 answers)"
+   },
+   {
+    "level": 2,
+    "text": "7. Vulnerable sections — the statutory core"
+   },
+   {
+    "level": 3,
+    "text": "Adivasis & tribal governance flashpoints"
+   },
+   {
+    "level": 2,
+    "text": "8. Gender & the political-economy frame (Mains analytics)"
+   },
+   {
+    "level": 2,
+    "text": "9. Recent developments to cite (2024–26)"
+   },
+   {
+    "level": 2,
+    "text": "10. Model-answer sensory checklist"
+   },
+   {
+    "level": 2,
+    "text": "11. Sources & Further Reading"
+   }
+  ],
+  "text": "Social Justice: Welfare Schemes, Health, Education & HRD — Detailed Notes Syllabus slot: GS 2 (Mains) · Social Justice: Welfare Schemes, Health, Education, Human Resource Development Also relevant for: Prelims GS Paper I — Polity & Governance; Essay (development & equity themes) Currency check: Updated to September 2026 — includes the VB G RAM G Act, 2025 replacing MGNREGA from 1 July 2026 . 1. Constitutional foundation of social justice Provision Content Preamble Justice — social, economic, political; equality of status and opportunity FRs Arts 14–16 (equality & reservation), 17 (social justice against untouchability), 21 (life incl. livelihood, health, education — judicially read), 21A (elementary education) , 23–24 (exploitation) DPSP Arts 38, 39, 41 (work), 42 (just & humane work), 43 (living wage), 43A, 45 (early childhood care), 46 (promotion of SC/ST/OBC educational & economic int",
+  "chars": 12465
+ },
+ {
+  "nav": "gs-2/social-justice/pyqs",
+  "file": "social-justice-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Social Justice — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Social Justice — PYQs & Model Answers UPSC Prelims PYQs Q1. (2017) With reference to the National Food Security Act (NFSA) 2013 , consider the following statements: 1. It covers up to 75% of the rural and 50% of the urban population. 2. It provides 5 kg of foodgrains per person per month at ₹3/2/1 per kg. Which of the statements given above is/are correct? (a) 1 only (b) 2 only (c) Both (d) Neither Model answer: (c) — both statements are the familiar statutory entitlements (Priority Households; Antyodaya gets 35 kg/family). Q2. (2019) Which of the following is not an objective of the Right to Education Act, 2009 ? (a) Free and compulsory education to children between 6 and 14 years (b) 25% reservation for disadvantaged groups in private schools (c) Board examination after Class 10 (d) Norms for teacher pupil ratios Model answer: (c) — RTE covers elementary education (Classes 1–8); the Cl",
+  "chars": 6550
+ },
+ {
+  "nav": "gs-2/social-justice/short",
+  "file": "social-justice-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Social Justice & Welfare — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Constitutional spine"
+   },
+   {
+    "level": 2,
+    "text": "The master table (schemes → what to remember)"
+   },
+   {
+    "level": 2,
+    "text": "Vulnerable-section statute kit (memorise)"
+   },
+   {
+    "level": 2,
+    "text": "Judgments to cite"
+   },
+   {
+    "level": 2,
+    "text": "The evaluation template for any scheme answer"
+   }
+  ],
+  "text": "Social Justice & Welfare — Short Revision Notes One liner India's welfare state is constitutionally grounded (Preamble, FRs 14–16, 21, 21A, DPSP 38–47) and delivered through a JAM enabled, rights instruments and missions architecture — whose rural employment spine shifted from MGNREGA (100 day entitlement) to VB G RAM G (125 day allocation based guarantee) from 1 July 2026 . Constitutional spine Art 14–16 equality & reservations · Art 17 untouchability · Art 21 / 21A life & elementary education. DPSP 38–47 welfare state instructions; Art 46 SC/ST/OBC interests. The master table (schemes → what to remember) Scheme Year One line fact MGNREGA 2005 100 days guaranteed rural wage work, demand driven; repealed 1 July 2026 VB G RAM G 2025 (force 2026) 125 days ; 60:40 funding (general states), 90:10 NE/Himalayan; 4 work categories (water security, rural infra, livelihoods, weather mitigation); ",
+  "chars": 2625
  },
  {
   "nav": "gs-3",

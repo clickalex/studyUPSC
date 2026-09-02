@@ -46,6 +46,51 @@ window.CONTENT_INDEX = [
   "nav": "gs-1/modern-history/bullets"
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points",
+  "file": "constitutional-development-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 4056,
+  "nav": "gs-1/modern-history/constitutional-development/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes",
+  "file": "constitutional-development.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 13651,
+  "nav": "gs-1/modern-history/constitutional-development/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/diagrams",
+  "file": "constitutional-roadmap-1773-1947.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/diagrams/constitutional-roadmap-1773-1947.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4703,
+  "nav": "gs-1/modern-history/constitutional-development/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs",
+  "file": "constitutional-development-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 6394,
+  "nav": "gs-1/modern-history/constitutional-development/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes",
+  "file": "constitutional-development-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3706,
+  "nav": "gs-1/modern-history/constitutional-development/short"
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/modern-history/detailed-notes",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/detailed-notes/README.md",
@@ -80,6 +125,141 @@ window.CONTENT_INDEX = [
   "ext": "md",
   "size": 172,
   "nav": "gs-1/modern-history/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points",
+  "file": "advent-of-europeans-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 2456,
+  "nav": "gs-1/modern-history/east-india-company/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes",
+  "file": "advent-of-europeans.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 14360,
+  "nav": "gs-1/modern-history/east-india-company/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/diagrams",
+  "file": "major-battles-1757-1849.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/diagrams/major-battles-1757-1849.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 5666,
+  "nav": "gs-1/modern-history/east-india-company/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs",
+  "file": "advent-of-europeans-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 5138,
+  "nav": "gs-1/modern-history/east-india-company/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes",
+  "file": "advent-of-europeans-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 2652,
+  "nav": "gs-1/modern-history/east-india-company/short"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points",
+  "file": "gandhian-era-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 4140,
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes",
+  "file": "gandhian-era-1919-1947.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 18464,
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/diagrams",
+  "file": "gandhian-era-timeline-1919-1947.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/diagrams/gandhian-era-timeline-1919-1947.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 6351,
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs",
+  "file": "gandhian-era-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 6316,
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes",
+  "file": "gandhian-era-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3650,
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points",
+  "file": "national-movement-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3444,
+  "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes",
+  "file": "national-movement-1885-1919.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 11509,
+  "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/diagrams",
+  "file": "national-movement-phases.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/diagrams/national-movement-phases.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4589,
+  "nav": "gs-1/modern-history/national-movement-1885-1919/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs",
+  "file": "national-movement-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 5986,
+  "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes",
+  "file": "national-movement-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3354,
+  "nav": "gs-1/modern-history/national-movement-1885-1919/short"
  },
  {
   "dir": "content/mains/gs-1-heritage-geography-society/modern-history/pyqs",
@@ -118,6 +298,51 @@ window.CONTENT_INDEX = [
   "nav": "gs-1/modern-history/short"
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points",
+  "file": "socio-religious-reforms-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3241,
+  "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes",
+  "file": "socio-religious-reforms.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 13974,
+  "nav": "gs-1/modern-history/socio-religious-reforms/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/diagrams",
+  "file": "reformist-vs-revivalist.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/diagrams/reformist-vs-revivalist.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4712,
+  "nav": "gs-1/modern-history/socio-religious-reforms/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs",
+  "file": "socio-religious-reforms-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 5028,
+  "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes",
+  "file": "socio-religious-reforms-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 2509,
+  "nav": "gs-1/modern-history/socio-religious-reforms/short"
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/physical-geography",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
@@ -127,6 +352,141 @@ window.CONTENT_INDEX = [
   "nav": "gs-1/physical-geography"
  },
  {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
+  "file": "constitution-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3149,
+  "nav": "gs-2/constitution-polity/bullets"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes",
+  "file": "constitution-of-india.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 19717,
+  "nav": "gs-2/constitution-polity/notes"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/diagrams",
+  "file": "sources-of-the-constitution.svg",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/diagrams/sources-of-the-constitution.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 5152,
+  "nav": "gs-2/constitution-polity/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs",
+  "file": "constitution-polity-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 7718,
+  "nav": "gs-2/constitution-polity/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes",
+  "file": "constitution-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3902,
+  "nav": "gs-2/constitution-polity/short"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points",
+  "file": "organs-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3580,
+  "nav": "gs-2/governance-administration/bullets"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes",
+  "file": "parliament-executive-judiciary.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 12741,
+  "nav": "gs-2/governance-administration/notes"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/diagrams",
+  "file": "three-organs-chart.svg",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/diagrams/three-organs-chart.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 7195,
+  "nav": "gs-2/governance-administration/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs",
+  "file": "governance-administration-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 7763,
+  "nav": "gs-2/governance-administration/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes",
+  "file": "organs-of-government-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3111,
+  "nav": "gs-2/governance-administration/short"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points",
+  "file": "ir-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3759,
+  "nav": "gs-2/international-relations/bullets"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes",
+  "file": "india-foreign-policy-ir.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 14472,
+  "nav": "gs-2/international-relations/notes"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/diagrams",
+  "file": "foreign-policy-framework.svg",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/diagrams/foreign-policy-framework.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 6110,
+  "nav": "gs-2/international-relations/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs",
+  "file": "international-relations-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 7498,
+  "nav": "gs-2/international-relations/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes",
+  "file": "ir-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3223,
+  "nav": "gs-2/international-relations/short"
+ },
+ {
   "dir": "content/mains/gs-2-polity-governance-ir",
   "file": "README.md",
   "rel": "content/mains/gs-2-polity-governance-ir/README.md",
@@ -134,6 +494,51 @@ window.CONTENT_INDEX = [
   "ext": "md",
   "size": 411,
   "nav": "gs-2"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points",
+  "file": "social-justice-points.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 2850,
+  "nav": "gs-2/social-justice/bullets"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes",
+  "file": "social-justice-welfare.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 13572,
+  "nav": "gs-2/social-justice/notes"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/diagrams",
+  "file": "welfare-architecture.svg",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/diagrams/welfare-architecture.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 5632,
+  "nav": "gs-2/social-justice/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs",
+  "file": "social-justice-pyqs.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 6918,
+  "nav": "gs-2/social-justice/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes",
+  "file": "social-justice-revision.md",
+  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3000,
+  "nav": "gs-2/social-justice/short"
  },
  {
   "dir": "content/mains/gs-3-economy-tech-environment",
@@ -322,6 +727,81 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points",
+  "nav": "gs-1/modern-history/constitutional-development/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points",
+    "file": "constitutional-development-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 4056,
+    "nav": "gs-1/modern-history/constitutional-development/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes",
+  "nav": "gs-1/modern-history/constitutional-development/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes",
+    "file": "constitutional-development.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 13651,
+    "nav": "gs-1/modern-history/constitutional-development/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/diagrams",
+  "nav": "gs-1/modern-history/constitutional-development/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/diagrams",
+    "file": "constitutional-roadmap-1773-1947.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/diagrams/constitutional-roadmap-1773-1947.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4703,
+    "nav": "gs-1/modern-history/constitutional-development/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs",
+  "nav": "gs-1/modern-history/constitutional-development/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs",
+    "file": "constitutional-development-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 6394,
+    "nav": "gs-1/modern-history/constitutional-development/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes",
+  "nav": "gs-1/modern-history/constitutional-development/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes",
+    "file": "constitutional-development-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3706,
+    "nav": "gs-1/modern-history/constitutional-development/short"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/modern-history/detailed-notes",
   "nav": "gs-1/modern-history/notes",
   "files": [
@@ -366,6 +846,231 @@ window.CONTENT_DIRS = [
     "ext": "md",
     "size": 172,
     "nav": "gs-1/modern-history/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points",
+  "nav": "gs-1/modern-history/east-india-company/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points",
+    "file": "advent-of-europeans-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 2456,
+    "nav": "gs-1/modern-history/east-india-company/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes",
+  "nav": "gs-1/modern-history/east-india-company/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes",
+    "file": "advent-of-europeans.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 14360,
+    "nav": "gs-1/modern-history/east-india-company/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/diagrams",
+  "nav": "gs-1/modern-history/east-india-company/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/diagrams",
+    "file": "major-battles-1757-1849.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/diagrams/major-battles-1757-1849.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 5666,
+    "nav": "gs-1/modern-history/east-india-company/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs",
+  "nav": "gs-1/modern-history/east-india-company/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs",
+    "file": "advent-of-europeans-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 5138,
+    "nav": "gs-1/modern-history/east-india-company/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes",
+  "nav": "gs-1/modern-history/east-india-company/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes",
+    "file": "advent-of-europeans-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 2652,
+    "nav": "gs-1/modern-history/east-india-company/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points",
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points",
+    "file": "gandhian-era-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 4140,
+    "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes",
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes",
+    "file": "gandhian-era-1919-1947.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 18464,
+    "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/diagrams",
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/diagrams",
+    "file": "gandhian-era-timeline-1919-1947.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/diagrams/gandhian-era-timeline-1919-1947.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 6351,
+    "nav": "gs-1/modern-history/gandhian-era-1919-1947/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs",
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs",
+    "file": "gandhian-era-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 6316,
+    "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes",
+  "nav": "gs-1/modern-history/gandhian-era-1919-1947/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes",
+    "file": "gandhian-era-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3650,
+    "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points",
+  "nav": "gs-1/modern-history/national-movement-1885-1919/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points",
+    "file": "national-movement-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3444,
+    "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes",
+  "nav": "gs-1/modern-history/national-movement-1885-1919/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes",
+    "file": "national-movement-1885-1919.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 11509,
+    "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/diagrams",
+  "nav": "gs-1/modern-history/national-movement-1885-1919/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/diagrams",
+    "file": "national-movement-phases.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/diagrams/national-movement-phases.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4589,
+    "nav": "gs-1/modern-history/national-movement-1885-1919/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs",
+  "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs",
+    "file": "national-movement-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 5986,
+    "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes",
+  "nav": "gs-1/modern-history/national-movement-1885-1919/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes",
+    "file": "national-movement-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3354,
+    "nav": "gs-1/modern-history/national-movement-1885-1919/short"
    }
   ]
  },
@@ -418,6 +1123,81 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points",
+  "nav": "gs-1/modern-history/socio-religious-reforms/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points",
+    "file": "socio-religious-reforms-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3241,
+    "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes",
+  "nav": "gs-1/modern-history/socio-religious-reforms/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes",
+    "file": "socio-religious-reforms.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 13974,
+    "nav": "gs-1/modern-history/socio-religious-reforms/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/diagrams",
+  "nav": "gs-1/modern-history/socio-religious-reforms/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/diagrams",
+    "file": "reformist-vs-revivalist.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/diagrams/reformist-vs-revivalist.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4712,
+    "nav": "gs-1/modern-history/socio-religious-reforms/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs",
+  "nav": "gs-1/modern-history/socio-religious-reforms/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs",
+    "file": "socio-religious-reforms-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 5028,
+    "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes",
+  "nav": "gs-1/modern-history/socio-religious-reforms/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes",
+    "file": "socio-religious-reforms-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 2509,
+    "nav": "gs-1/modern-history/socio-religious-reforms/short"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/physical-geography",
   "nav": "gs-1/physical-geography",
   "files": [
@@ -444,6 +1224,306 @@ window.CONTENT_DIRS = [
     "ext": "md",
     "size": 411,
     "nav": "gs-2"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
+  "nav": "gs-2/constitution-polity/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
+    "file": "constitution-points.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3149,
+    "nav": "gs-2/constitution-polity/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes",
+  "nav": "gs-2/constitution-polity/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes",
+    "file": "constitution-of-india.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 19717,
+    "nav": "gs-2/constitution-polity/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/diagrams",
+  "nav": "gs-2/constitution-polity/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/diagrams",
+    "file": "sources-of-the-constitution.svg",
+    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/diagrams/sources-of-the-constitution.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 5152,
+    "nav": "gs-2/constitution-polity/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs",
+  "nav": "gs-2/constitution-polity/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs",
+    "file": "constitution-polity-pyqs.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 7718,
+    "nav": "gs-2/constitution-polity/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes",
+  "nav": "gs-2/constitution-polity/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes",
+    "file": "constitution-revision.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3902,
+    "nav": "gs-2/constitution-polity/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points",
+  "nav": "gs-2/governance-administration/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points",
+    "file": "organs-points.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3580,
+    "nav": "gs-2/governance-administration/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes",
+  "nav": "gs-2/governance-administration/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes",
+    "file": "parliament-executive-judiciary.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 12741,
+    "nav": "gs-2/governance-administration/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/diagrams",
+  "nav": "gs-2/governance-administration/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/diagrams",
+    "file": "three-organs-chart.svg",
+    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/diagrams/three-organs-chart.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 7195,
+    "nav": "gs-2/governance-administration/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs",
+  "nav": "gs-2/governance-administration/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs",
+    "file": "governance-administration-pyqs.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 7763,
+    "nav": "gs-2/governance-administration/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes",
+  "nav": "gs-2/governance-administration/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes",
+    "file": "organs-of-government-revision.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3111,
+    "nav": "gs-2/governance-administration/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points",
+  "nav": "gs-2/international-relations/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points",
+    "file": "ir-points.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3759,
+    "nav": "gs-2/international-relations/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes",
+  "nav": "gs-2/international-relations/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes",
+    "file": "india-foreign-policy-ir.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 14472,
+    "nav": "gs-2/international-relations/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/diagrams",
+  "nav": "gs-2/international-relations/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/diagrams",
+    "file": "foreign-policy-framework.svg",
+    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/diagrams/foreign-policy-framework.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 6110,
+    "nav": "gs-2/international-relations/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs",
+  "nav": "gs-2/international-relations/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs",
+    "file": "international-relations-pyqs.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 7498,
+    "nav": "gs-2/international-relations/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes",
+  "nav": "gs-2/international-relations/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes",
+    "file": "ir-revision.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3223,
+    "nav": "gs-2/international-relations/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points",
+  "nav": "gs-2/social-justice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points",
+    "file": "social-justice-points.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 2850,
+    "nav": "gs-2/social-justice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes",
+  "nav": "gs-2/social-justice/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes",
+    "file": "social-justice-welfare.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 13572,
+    "nav": "gs-2/social-justice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/diagrams",
+  "nav": "gs-2/social-justice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/diagrams",
+    "file": "welfare-architecture.svg",
+    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/diagrams/welfare-architecture.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 5632,
+    "nav": "gs-2/social-justice/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs",
+  "nav": "gs-2/social-justice/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs",
+    "file": "social-justice-pyqs.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 6918,
+    "nav": "gs-2/social-justice/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes",
+  "nav": "gs-2/social-justice/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes",
+    "file": "social-justice-revision.md",
+    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3000,
+    "nav": "gs-2/social-justice/short"
    }
   ]
  },
