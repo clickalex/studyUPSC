@@ -27,6 +27,198 @@ window.SEARCH_DATA = [
   "chars": 232
  },
  {
+  "nav": "gs-1/geography-world-india/bullets",
+  "file": "geography-world-india-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geography of India & World — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 3,
+    "text": "India's physiography"
+   },
+   {
+    "level": 3,
+    "text": "Rivers"
+   },
+   {
+    "level": 3,
+    "text": "Resources (India match-ups)"
+   },
+   {
+    "level": 3,
+    "text": "World resources"
+   },
+   {
+    "level": 3,
+    "text": "Population & settlements"
+   },
+   {
+    "level": 3,
+    "text": "Transport & chokepoints"
+   },
+   {
+    "level": 3,
+    "text": "Current-development hooks"
+   }
+  ],
+  "text": "Geography of India & World — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) India's physiography Himadri (Greater Himalaya, Everest 8,848 m) · Himachal (Lesser — hill stations) · Shiwaliks (youngest — duns : Dehradun, Kathmandu). Bhabar (stones, streams sink) → Terai (marshy, springs re emerge) → alluvial plain (khadar floodplain vs bhangar upland) . Western Ghats ( 1,600 km, continuous escarpment) vs Eastern Ghats (discontinuous) ; highest — Anamudi (2,695 m, Kerala) ; highest eastern — Mahendragiri (Odisha) . Aravalli — India's oldest fold mountains; Guru Shikhar (1,722 m) . Narmada — rift valley between Vindhya & Satpura ; Sardar Sarovar on it. Deccan slopes east → peninsular rivers pour into the Bay of Bengal. Barren Island (A&N) — India's only active volcano; Indira Point (Great Nicobar) — India's southernmost (subsided after the 2004 tsunami). Rivers Indus : rises ",
+  "chars": 3532
+ },
+ {
+  "nav": "gs-1/geography-world-india/notes",
+  "file": "geography-of-india-and-world.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geography of India & the World: Physiography, Resources, Distribution & Mapping — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "1. India's physiographic canvas (N → S)"
+   },
+   {
+    "level": 3,
+    "text": "Drainage — the two systems"
+   },
+   {
+    "level": 3,
+    "text": "Indian climate & water resources"
+   },
+   {
+    "level": 2,
+    "text": "2. Resources — India & the world (the Mains \"distribution\" angle)"
+   },
+   {
+    "level": 3,
+    "text": "India's mineral & energy map (state → resource)"
+   },
+   {
+    "level": 3,
+    "text": "Industrial location logic (use in frame answers)"
+   },
+   {
+    "level": 3,
+    "text": "World resource map (memorise the famous regions)"
+   },
+   {
+    "level": 3,
+    "text": "World industrial regions"
+   },
+   {
+    "level": 2,
+    "text": "3. India's agriculture geography"
+   },
+   {
+    "level": 2,
+    "text": "4. Population & settlement"
+   },
+   {
+    "level": 2,
+    "text": "5. Transport & connectivity geography"
+   },
+   {
+    "level": 2,
+    "text": "6. Mapping & geography as an answer tool"
+   },
+   {
+    "level": 2,
+    "text": "7. Quick PYQ angles"
+   },
+   {
+    "level": 2,
+    "text": "8. Sources & Further Reading"
+   }
+  ],
+  "text": "Geography of India & the World: Physiography, Resources, Distribution & Mapping — Detailed Notes Syllabus slot: GS 1 (Mains) · Geography of India & World — Resources, Distribution, Mapping Also relevant for: Prelims GS Paper I — Geography; GS 3 (resources & infrastructure links) 1. India's physiographic canvas (N → S) Region Extent Key facts The Himalayas Northern wall, 2,400 km, 250–400 km wide Three parallel ranges: Himadri (Greater Himalaya — granite core, permanent snow: Everest, Kanchenjunga, Nanda Devi) ; Himachal (Lesser — Pir Panjal, Dhauladhar; hill stations: Shimla, Mussoorie, Darjeeling) ; Shiwaliks (outermost, youngest — duns: Dehradun, Kathmandu valley) Indo Gangetic Brahmaputra Plains 2,400 km north south band The world's largest alluvial plain; khadar (floodplain) vs bhangar (older, higher) ; regional names: Bhabar (coarse, sub surface flow) & Terai (marshy) in UP–Uttarakh",
+  "chars": 11078
+ },
+ {
+  "nav": "gs-1/geography-world-india/pyqs",
+  "file": "geography-world-india-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geography of India & World — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Geography of India & World — PYQs & Model Answers UPSC Prelims PYQs Q1. (2016) Which of the following hills/mountain ranges run from the north east to the south west ? (a) Aravalli (b) Satpura (c) Vindhya (d) Western Ghats Model answer: (a) — the Aravallis run SW from Delhi toward Gujarat; Western Ghats run NNW–SSE; Vindhya–Satpura run broadly east–west. Q2. (2017) Which one of the following is the correct sequence of the given hills starting from the north and going toward the south? (a) Nallamalai → Nilgiri → Javadi → Anamalai (b) Anamalai → Nilgiri → Javadi → Nallamalai (c) Nallamalai → Javadi → Nilgiri → Anamalai (d) Anamalai → Javadi → Nilgiri → Nallamalai Model answer: (c) — N.→S.: Nallamalai (Eastern Ghats, AP) → Javadi → Nilgiri (the tri junction) → Anamalai (south of Palakkad gap's line). Q3. (2019) Consider the following pairs: River ↔ Origin 1. Brahmaputra — near Lake Mansarov",
+  "chars": 6074
+ },
+ {
+  "nav": "gs-1/geography-world-india/short",
+  "file": "geography-world-india-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geography of India & World — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "India's physiography (snap memory: \"H-P-P-C-I\")"
+   },
+   {
+    "level": 2,
+    "text": "Rivers — the pattern"
+   },
+   {
+    "level": 2,
+    "text": "Climate & water (India)"
+   },
+   {
+    "level": 2,
+    "text": "India's resources (match-region cheat table)"
+   },
+   {
+    "level": 2,
+    "text": "World resource anchors"
+   },
+   {
+    "level": 2,
+    "text": "People & settlements"
+   },
+   {
+    "level": 2,
+    "text": "Quick PYQ answers"
+   }
+  ],
+  "text": "Geography of India & World — Short Revision Notes One liner India's geography runs north wall → alluvial plains → peninsular shield → twin coasts , with a monsoon fed, west flowing exception river system (Narmada/Tapti = rift valley estuaries) — whose resources (Chotanagpur minerals, Mumbai High oil, Brahmaputra water) and world chokepoints (Malacca–Hormuz–Suez) shape its economy. India's physiography (snap memory: \"H P P C I\") Himalayas (Himadri–Himachal–Shiwalik) → Plains (Bhabar–Terai; Khadar–Bhangar) → Peninsula (Western Ghats 1,600 km, Anamudi 2,695 m; Aravalli = oldest folds; Narmada's rift valley) → Coasts (east = deltas; west = estuaries) → Islands (A&N w/ Barren Island volcano; Lakshadweep atolls). Rivers — the pattern Himalayan (perennial) : Indus (Panchnad — Jhelum/Chenab/Ravi/Beas/Sutlej), Ganga (Gangotri + Alaknanda + Yamuna), Brahmaputra (Mansarovar origin, Namcha Barwa U t",
+  "chars": 2880
+ },
+ {
   "nav": "gs-1/indian-society",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/README.md",
@@ -1293,6 +1485,181 @@ window.SEARCH_DATA = [
   "chars": 2154
  },
  {
+  "nav": "gs-1/physical-geography/bullets",
+  "file": "physical-geography-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physical Geography — Key Bullet Points / Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Mindmap"
+   },
+   {
+    "level": 2,
+    "text": "Bullet facts (prelims gold)"
+   },
+   {
+    "level": 3,
+    "text": "Earth interior & tectonics"
+   },
+   {
+    "level": 3,
+    "text": "Climatology"
+   },
+   {
+    "level": 3,
+    "text": "Oceanography"
+   },
+   {
+    "level": 3,
+    "text": "Biogeography"
+   },
+   {
+    "level": 2,
+    "text": "Diagram recall for Mains answers"
+   }
+  ],
+  "text": "Physical Geography — Key Bullet Points / Mindmap Mindmap Bullet facts (prelims gold) Earth interior & tectonics SIAL (continental crust) floats over SIMA (oceanic crust). Moho — crust/mantle; Gutenberg — mantle/core; Lehmann — outer/inner core. S waves can't pass through liquid → outer core is liquid. P waves travel through all media — fastest. Wegener (1912) — continental drift; mechanism came from Hess (1962) sea floor spreading & the plate tectonics formalism (1967). 7 major plates ; India on the Indo Australian plate colliding with Eurasian → the Himalayas . Deccan Traps ( 66 million years) — Réunion hotspot — basalt floods covering much of the Deccan. India seismic Zone V = highest risk; 2004 tsunami from the Sumatra megathrust ; INCOIS (Hyderabad) = tsunami warning centre. Climatology Troposphere = weather layer; lapse rate 6.5°C/km ; ozone layer in the stratosphere . Pressure belt",
+  "chars": 2904
+ },
+ {
+  "nav": "gs-1/physical-geography/notes",
+  "file": "physical-geography.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physical Geography: Geomorphology, Climatology, Oceanography & Biogeography — Detailed Notes"
+   },
+   {
+    "level": 2,
+    "text": "PART A — GEOMORPHOLOGY: Earth's Interior & Landforms"
+   },
+   {
+    "level": 3,
+    "text": "1. Earth's interior (source → structure)"
+   },
+   {
+    "level": 3,
+    "text": "2. Continental Drift → Plate Tectonics"
+   },
+   {
+    "level": 3,
+    "text": "3. Plate boundaries — the classification every map answer needs"
+   },
+   {
+    "level": 3,
+    "text": "4. Landforms & rock cycle"
+   },
+   {
+    "level": 3,
+    "text": "5. Earthquakes & tsunamis (India-relevant)"
+   },
+   {
+    "level": 2,
+    "text": "PART B — CLIMATOLOGY: Atmosphere, Monsoon & Cyclones"
+   },
+   {
+    "level": 3,
+    "text": "1. Atmosphere — structure & composition"
+   },
+   {
+    "level": 3,
+    "text": "2. Heat & pressure engine"
+   },
+   {
+    "level": 3,
+    "text": "3. The Indian Monsoon — mechanism (Mains-worthy depth)"
+   },
+   {
+    "level": 3,
+    "text": "4. Cyclones — the twin classes"
+   },
+   {
+    "level": 3,
+    "text": "5. Climate classification (Köppen quick code)"
+   },
+   {
+    "level": 3,
+    "text": "6. Climate-change signals in the physical system (gate way to GS-3 environment)"
+   },
+   {
+    "level": 2,
+    "text": "PART C — OCEANOGRAPHY"
+   },
+   {
+    "level": 3,
+    "text": "1. Ocean-floor relief (depth order, from the coast)"
+   },
+   {
+    "level": 3,
+    "text": "2. Temperature & salinity"
+   },
+   {
+    "level": 3,
+    "text": "3. Currents (memorise direction + temperature)"
+   },
+   {
+    "level": 3,
+    "text": "4. Tides & India's coast"
+   },
+   {
+    "level": 2,
+    "text": "PART D — BIOGEOGRAPHY (soils & natural vegetation)"
+   },
+   {
+    "level": 3,
+    "text": "Soils"
+   },
+   {
+    "level": 3,
+    "text": "Natural vegetation & biomes"
+   },
+   {
+    "level": 2,
+    "text": "Quick reference — PYQ angles on this topic"
+   },
+   {
+    "level": 2,
+    "text": "Sources & Further Reading"
+   }
+  ],
+  "text": "Physical Geography: Geomorphology, Climatology, Oceanography & Biogeography — Detailed Notes Syllabus slot: GS 1 (Mains) · Physical Geography: Geomorphology, Climatology, Oceanography Also relevant for: Prelims GS Paper I — Geography · Environment & Ecology PART A — GEOMORPHOLOGY: Earth's Interior & Landforms 1. Earth's interior (source → structure) Layer Depth Composition & facts Crust (Lithosphere's top) 0– 35 km (continental &lt;70 km under mountains; oceanic crust 5–10 km) SIAL (continental: silica + aluminium) floating over SIMA (silica + magnesium, the ocean floor material) Mohorovičić discontinuity (Moho) crust–mantle boundary P wave velocity jumps Mantle 35–2900 km Upper mantle + Asthenosphere (the plastic \"soggy\" layer on which plates move, 100–250 km) + lower mantle; Gutenberg discontinuity at the base (mantle–core) Outer core 2900– 5150 km Liquid iron nickel (generates the Ear",
+  "chars": 12656
+ },
+ {
+  "nav": "gs-1/physical-geography/pyqs",
+  "file": "physical-geography-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physical Geography — PYQs & Model Answers"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Prelims PYQs"
+   },
+   {
+    "level": 2,
+    "text": "UPSC Mains PYQs"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   },
+   {
+    "level": 3,
+    "text": "Model answer skeleton"
+   }
+  ],
+  "text": "Physical Geography — PYQs & Model Answers UPSC Prelims PYQs Q1. (2015) In the structure of planet Earth, below the mantle, the core is mainly made up of which one of the following? (a) Aluminium (b) Chromium (c) Iron (d) Silicon Model answer: (c) — the core is iron nickel; the crustal rocks are dominated by silica, aluminium (SIAL) and magnesium (SIMA). Q2. (2016) With reference to the ocean currents , consider the following: 1. The Gulf Stream is a warm current. 2. The Oyashio (Kurile) is a cold current. 3. The Benguela is a warm current. Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3 Model answer: (a) — the Benguela is a cold current off SW Africa (the companion fact: it underlies the Namib's aridity). Q3. (2013) Which one of the following pairs correctly contains the phenomenon and the region of maximum impact? (a)",
+  "chars": 5780
+ },
+ {
   "nav": "gs-1/physical-geography",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
@@ -1304,6 +1671,55 @@ window.SEARCH_DATA = [
   ],
   "text": "Physical Geography (GS 1) Geomorphology · Climatology · Oceanography · Biogeography · World physical geography. Tip: keep map practice in diagrams/ and use pyqs/ for map based questions.",
   "chars": 186
+ },
+ {
+  "nav": "gs-1/physical-geography/short",
+  "file": "physical-geography-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physical Geography — Short Revision Notes"
+   },
+   {
+    "level": 2,
+    "text": "One-liner"
+   },
+   {
+    "level": 2,
+    "text": "Earth interior (memorise order & discontinuities)"
+   },
+   {
+    "level": 2,
+    "text": "Plate boundaries (example table)"
+   },
+   {
+    "level": 2,
+    "text": "Monsoon mechanism (5-step answer frame)"
+   },
+   {
+    "level": 2,
+    "text": "Pattern facts to never miss"
+   },
+   {
+    "level": 2,
+    "text": "Oceanography one-liners"
+   },
+   {
+    "level": 2,
+    "text": "Biogeography quick palette"
+   },
+   {
+    "level": 2,
+    "text": "Recent tools (show current awareness)"
+   },
+   {
+    "level": 2,
+    "text": "PYQ favourites"
+   }
+  ],
+  "text": "Physical Geography — Short Revision Notes One liner From the crust core ward (crust → mantle → outer core → inner core) to the atmosphere skyward (troposphere → exosphere), physical geography explains landforms through plate tectonics , rainfall through the monsoon machine (ITCZ + jets + ENSO/IOD), and ocean behaviour through currents, salinity and tides . Earth interior (memorise order & discontinuities) Crust (SIAL over SIMA) → Moho → Mantle (asthenosphere 100–250 km) → Gutenberg → liquid outer core (S waves stop here — the proof) → Lehmann → solid inner core . Plate boundaries (example table) Boundary Process Example Divergent new crust at ridges/rifts Mid Atlantic Ridge; East African Rift Convergent fold mtns / trenches / arcs Himalayas ; Andes; Japan Transform lateral slide San Andreas Fault Hotspot gift: Deccan Traps ( 66 Ma, Réunion hotspot) — the world's largest basalt province i",
+  "chars": 3213
  },
  {
   "nav": "gs-2/constitution-polity/bullets",

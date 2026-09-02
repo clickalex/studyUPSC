@@ -19,6 +19,51 @@ window.CONTENT_INDEX = [
   "nav": "gs-1/art-and-culture"
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
+  "file": "geography-world-india-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 4721,
+  "nav": "gs-1/geography-world-india/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes",
+  "file": "geography-of-india-and-world.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 12102,
+  "nav": "gs-1/geography-world-india/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/diagrams",
+  "file": "india-physiography-rivers.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/diagrams/india-physiography-rivers.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 6020,
+  "nav": "gs-1/geography-world-india/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs",
+  "file": "geography-world-india-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 6481,
+  "nav": "gs-1/geography-world-india/pyqs"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes",
+  "file": "geography-world-india-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3248,
+  "nav": "gs-1/geography-world-india/short"
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/indian-society",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/README.md",
@@ -343,6 +388,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-1/modern-history/socio-religious-reforms/short"
  },
  {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points",
+  "file": "physical-geography-points.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3779,
+  "nav": "gs-1/physical-geography/bullets"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes",
+  "file": "physical-geography.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 13937,
+  "nav": "gs-1/physical-geography/notes"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/diagrams",
+  "file": "earth-structure-and-plates.svg",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/diagrams/earth-structure-and-plates.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 5950,
+  "nav": "gs-1/physical-geography/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs",
+  "file": "physical-geography-pyqs.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 6081,
+  "nav": "gs-1/physical-geography/pyqs"
+ },
+ {
   "dir": "content/mains/gs-1-heritage-geography-society/physical-geography",
   "file": "README.md",
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
@@ -350,6 +431,15 @@ window.CONTENT_INDEX = [
   "ext": "md",
   "size": 199,
   "nav": "gs-1/physical-geography"
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes",
+  "file": "physical-geography-revision.md",
+  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.md",
+  "kind": "doc",
+  "ext": "md",
+  "size": 3594,
+  "nav": "gs-1/physical-geography/short"
  },
  {
   "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
@@ -684,6 +774,81 @@ window.CONTENT_DIRS = [
     "ext": "md",
     "size": 247,
     "nav": "gs-1/art-and-culture"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
+  "nav": "gs-1/geography-world-india/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
+    "file": "geography-world-india-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 4721,
+    "nav": "gs-1/geography-world-india/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes",
+  "nav": "gs-1/geography-world-india/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes",
+    "file": "geography-of-india-and-world.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 12102,
+    "nav": "gs-1/geography-world-india/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/diagrams",
+  "nav": "gs-1/geography-world-india/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/diagrams",
+    "file": "india-physiography-rivers.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/diagrams/india-physiography-rivers.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 6020,
+    "nav": "gs-1/geography-world-india/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs",
+  "nav": "gs-1/geography-world-india/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs",
+    "file": "geography-world-india-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 6481,
+    "nav": "gs-1/geography-world-india/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes",
+  "nav": "gs-1/geography-world-india/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes",
+    "file": "geography-world-india-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3248,
+    "nav": "gs-1/geography-world-india/short"
    }
   ]
  },
@@ -1209,6 +1374,81 @@ window.CONTENT_DIRS = [
     "ext": "md",
     "size": 199,
     "nav": "gs-1/physical-geography"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points",
+  "nav": "gs-1/physical-geography/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points",
+    "file": "physical-geography-points.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3779,
+    "nav": "gs-1/physical-geography/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes",
+  "nav": "gs-1/physical-geography/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes",
+    "file": "physical-geography.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 13937,
+    "nav": "gs-1/physical-geography/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/diagrams",
+  "nav": "gs-1/physical-geography/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/diagrams",
+    "file": "earth-structure-and-plates.svg",
+    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/diagrams/earth-structure-and-plates.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 5950,
+    "nav": "gs-1/physical-geography/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs",
+  "nav": "gs-1/physical-geography/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs",
+    "file": "physical-geography-pyqs.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 6081,
+    "nav": "gs-1/physical-geography/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes",
+  "nav": "gs-1/physical-geography/short",
+  "files": [
+   {
+    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes",
+    "file": "physical-geography-revision.md",
+    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.md",
+    "kind": "doc",
+    "ext": "md",
+    "size": 3594,
+    "nav": "gs-1/physical-geography/short"
    }
   ]
  },
