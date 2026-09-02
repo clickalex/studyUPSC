@@ -1,0 +1,65 @@
+# =============================================================================
+# studyUPSC — GitHub Pages deployment (GitHub Actions)
+# -----------------------------------------------------------------------------
+# How it works:
+#   1. Checks out the repo
+#   2. Regenerates assets/js/file-index.js and assets/js/search-data.js from
+#      the content/ folder using the local CLI (no npm install needed)
+#   3. Uploads the whole `upsc-portal/` directory as a Pages artifact
+#   4. Deploys it to GitHub Pages (built-in deploy-pages action)
+#
+# Repository Settings needed (one-time, no secrets):
+#   Settings → Pages → Build and deployment → Source: "GitHub Actions"
+# =============================================================================
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:        # lets you trigger a deploy manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Regenerate the file index + full-text search data from content/
+      - name: Generate indexes (cli/generate.mjs)
+        run: |
+          cd upsc-portal
+          node cli/generate.mjs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: upsc-portal
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
