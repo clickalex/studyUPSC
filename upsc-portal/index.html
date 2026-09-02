@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>studyUPSC — UPSC Civil Services Exam Preparation Portal</title>
+  <meta name="description" content="Interactive UPSC CSE (IAS/IPS) preparation portal: full Prelims & Mains syllabus, notes, revision, PYQs, diagrams, revision tracker and instant search. Deploys free on GitHub Pages.">
+  <link id="favicon-progress" rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+
+  <!-- Tailwind CSS (CDN). Swap for a local build before going offline — see README. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+            serif: ['"Source Serif 4"', 'Georgia', 'serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Data (syllabus tree + generated file/search indexes) -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/file-index.js"></script>
+  <script src="assets/js/search-data.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 antialiased">
+
+  <!-- Mobile overlay -->
+  <div id="sidebar-overlay" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-30 hidden lg:hidden"></div>
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside id="sidebar"
+         class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-slate-800/95 border-r border-slate-200 dark:border-slate-700
+                flex flex-col -translate-x-full lg:translate-x-0 transition-transform duration-200">
+  </aside>
+
+  <!-- ===================== MAIN ===================== -->
+  <div class="lg:pl-72 flex flex-col min-h-screen">
+
+    <!-- Topbar -->
+    <header class="sticky top-0 z-20 bg-slate-50/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-200 dark:border-slate-700">
+      <div class="flex items-center gap-3 px-4 sm:px-6 h-14">
+        <button id="sidebar-toggle" aria-label="Toggle navigation"
+                class="lg:hidden p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+
+        <a href="#/" class="font-extrabold text-lg tracking-tight text-slate-900 dark:text-white">
+          study<span class="text-amber-500">UPSC</span>
+        </a>
+        <span class="hidden sm:inline text-[11px] font-semibold uppercase tracking-wider text-slate-400 border border-slate-200 dark:border-slate-700 rounded-full px-2 py-0.5">
+          IAS · IPS · IFS
+        </span>
+
+        <div class="flex-1"></div>
+
+        <button onclick="openSearch()" class="hidden md:flex items-center gap-2 text-[13px] text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-1.5 hover:border-amber-400 transition-colors w-56">
+          <span>🔍</span><span class="flex-1 text-left truncate">Search syllabus &amp; notes…</span>
+          <kbd class="kbd">Ctrl K</kbd>
+        </button>
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" aria-label="Search">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" aria-label="Toggle dark mode"></button>
+        <a href="#/tracker" class="hidden sm:flex p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" title="Revision tracker">✅</a>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <main id="app" class="flex-1"></main>
+
+    <footer class="border-t border-slate-200 dark:border-slate-700 mt-10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-5 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-2">
+        <span>📚 studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
+        <span>Progress is stored locally in your browser. <a class="hover:text-amber-500 underline" href="#/tracker">Tracker</a> · <a class="hover:text-amber-500 underline" href="#/search">Search</a></span>
+      </div>
+    </footer>
+  </div>
+
+  <noscript>
+    <div style="padding:1rem;text-align:center;font-family:sans-serif">
+      studyUPSC needs JavaScript for navigation, search and the revision tracker. Please enable it.
+    </div>
+  </noscript>
+</body>
+</html>

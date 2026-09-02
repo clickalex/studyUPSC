@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Modern Indian History timeline 1757–1947 — studyUPSC sample diagram -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="378" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Modern Indian History — Timeline 1757–1947</text>
+
+  <!-- Column labels -->
+  <text x="150" y="60" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">COMPANY RULE</text>
+  <text x="640" y="60" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">CROWN RULE &amp; NATIONAL MOVEMENT</text>
+
+  <!-- Column 1 line -->
+  <line x1="90" y1="72" x2="90" y2="344" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- Column 2 line -->
+  <line x1="580" y1="72" x2="580" y2="344" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Column 1 events -->
+  <circle cx="90" cy="88"  r="6" fill="#f59e0b"/>
+  <text x="112" y="92" font-size="13" font-weight="700" fill="#92400e">1757</text>
+  <text x="164" y="92" font-size="13" fill="#334155">Battle of Plassey — Company rule begins in Bengal</text>
+
+  <circle cx="90" cy="120" r="6" fill="#f59e0b"/>
+  <text x="112" y="124" font-size="13" font-weight="700" fill="#92400e">1764–65</text>
+  <text x="164" y="124" font-size="13" fill="#334155">Battle of Buxar → Diwani of Bengal, Bihar, Orissa</text>
+
+  <circle cx="90" cy="152" r="6" fill="#f59e0b"/>
+  <text x="112" y="156" font-size="13" font-weight="700" fill="#92400e">1793</text>
+  <text x="164" y="156" font-size="13" fill="#334155">Permanent Settlement (Cornwallis)</text>
+
+  <circle cx="90" cy="184" r="6" fill="#f59e0b"/>
+  <text x="112" y="188" font-size="13" font-weight="700" fill="#92400e">1813</text>
+  <text x="164" y="188" font-size="13" fill="#334155">Charter Act — ends Company's trade monopoly</text>
+
+  <circle cx="90" cy="216" r="6" fill="#f59e0b"/>
+  <text x="112" y="220" font-size="13" font-weight="700" fill="#92400e">1829</text>
+  <text x="164" y="220" font-size="13" fill="#334155">Sati abolished (Bentinck); widow remarriage 1856</text>
+
+  <circle cx="90" cy="248" r="6" fill="#f59e0b"/>
+  <text x="112" y="252" font-size="13" font-weight="700" fill="#92400e">1853</text>
+  <text x="164" y="252" font-size="13" fill="#334155">First railway (Bombay–Thane) &amp; telegraph</text>
+
+  <circle cx="90" cy="280" r="8" fill="#ef4444"/>
+  <text x="112" y="284" font-size="13" font-weight="700" fill="#b91c1c">1857</text>
+  <text x="164" y="284" font-size="13" font-weight="700" fill="#334155">Revolt of 1857 — first major uprising</text>
+
+  <circle cx="90" cy="312" r="6" fill="#f59e0b"/>
+  <text x="112" y="316" font-size="13" font-weight="700" fill="#92400e">1858</text>
+  <text x="164" y="316" font-size="13" fill="#334155">GoI Act — Crown rule; Queen's Proclamation</text>
+
+  <circle cx="90" cy="344" r="6" fill="#f59e0b"/>
+  <text x="112" y="348" font-size="13" font-weight="700" fill="#92400e">1885</text>
+  <text x="164" y="348" font-size="13" fill="#334155">Indian National Congress founded (A.O. Hume)</text>
+
+  <!-- Column 2 events -->
+  <circle cx="580" cy="88" r="6" fill="#f59e0b"/>
+  <text x="602" y="92" font-size="13" font-weight="700" fill="#92400e">1905</text>
+  <text x="654" y="92" font-size="13" fill="#334155">Partition of Bengal → Swadeshi movement</text>
+
+  <circle cx="580" cy="120" r="6" fill="#f59e0b"/>
+  <text x="602" y="124" font-size="13" font-weight="700" fill="#92400e">1909</text>
+  <text x="654" y="124" font-size="13" fill="#334155">Minto–Morley Reforms — separate electorates</text>
+
+  <circle cx="580" cy="152" r="6" fill="#f59e0b"/>
+  <text x="602" y="156" font-size="13" font-weight="700" fill="#92400e">1919</text>
+  <text x="654" y="156" font-size="13" fill="#334155">Rowlatt Act → Jallianwala Bagh; Montagu–Chelmsford</text>
+
+  <circle cx="580" cy="184" r="6" fill="#f59e0b"/>
+  <text x="602" y="188" font-size="13" font-weight="700" fill="#92400e">1920–22</text>
+  <text x="654" y="188" font-size="13" fill="#334155">Non-Cooperation Movement (Gandhi)</text>
+
+  <circle cx="580" cy="216" r="6" fill="#f59e0b"/>
+  <text x="602" y="220" font-size="13" font-weight="700" fill="#92400e">1930</text>
+  <text x="654" y="220" font-size="13" fill="#334155">Dandi March → Civil Disobedience Movement</text>
+
+  <circle cx="580" cy="248" r="6" fill="#f59e0b"/>
+  <text x="602" y="252" font-size="13" font-weight="700" fill="#92400e">1935</text>
+  <text x="654" y="252" font-size="13" fill="#334155">Government of India Act — provincial autonomy</text>
+
+  <circle cx="580" cy="280" r="6" fill="#f59e0b"/>
+  <text x="602" y="284" font-size="13" font-weight="700" fill="#92400e">1942</text>
+  <text x="654" y="284" font-size="13" fill="#334155">Quit India Movement ("Do or Die")</text>
+
+  <circle cx="580" cy="312" r="6" fill="#f59e0b"/>
+  <text x="602" y="316" font-size="13" font-weight="700" fill="#92400e">1946</text>
+  <text x="654" y="316" font-size="13" fill="#334155">Cabinet Mission → Constituent Assembly</text>
+
+  <circle cx="580" cy="344" r="8" fill="#22c55e"/>
+  <text x="602" y="348" font-size="13" font-weight="700" fill="#15803d">1947</text>
+  <text x="654" y="348" font-size="13" font-weight="700" fill="#334155">Independence &amp; Partition — 15 August</text>
+</svg>
