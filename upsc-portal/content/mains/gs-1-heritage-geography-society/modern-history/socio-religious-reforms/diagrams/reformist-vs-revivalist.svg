@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reformist vs Revivalist reform movements — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="558" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Socio-Religious Reform — Reformist vs Revivalist</text>
+
+  <!-- Left column: reformist -->
+  <rect x="30" y="56" width="405" height="44" rx="10" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="232" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">REFORMIST — reinterpret &amp; modernise</text>
+
+  <!-- Right column: revivalist -->
+  <rect x="465" y="56" width="405" height="44" rx="10" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="668" y="84" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">REVIVALIST — assert &amp; defend</text>
+
+  <!-- Reformist rows -->
+  <g font-size="12.5" fill="#334155">
+    <rect x="30" y="116" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="133" font-weight="700" fill="#0f172a">Brahmo Samaj, 1828</text>
+    <text x="46" y="148">Raja Rammohan Roy · monotheism · anti-sati</text>
+
+    <rect x="30" y="164" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="181" font-weight="700" fill="#0f172a">Young Bengal, c. 1826</text>
+    <text x="46" y="196">Henry Vivian Derozio · radical rationalism</text>
+
+    <rect x="30" y="212" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="229" font-weight="700" fill="#0f172a">Prarthana Samaj, 1867 (Bombay)</text>
+    <text x="46" y="244">Pandurang brothers · Ranade · Bhandarkar</text>
+
+    <rect x="30" y="260" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="277" font-weight="700" fill="#0f172a">Satyashodhak Samaj, 1873 (Pune)</text>
+    <text x="46" y="292">Jyotiba Phule · anti-caste · Gulamgiri</text>
+
+    <rect x="30" y="308" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="325" font-weight="700" fill="#0f172a">Aligarh Movement, 1875</text>
+    <text x="46" y="340">Sir Syed Ahmad Khan · MAO College · modern Islam</text>
+
+    <rect x="30" y="356" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="373" font-weight="700" fill="#0f172a">Theosophical Society, 1882 (Adyar)</text>
+    <text x="46" y="388">Blavatsky &amp; Olcott · Annie Besant</text>
+
+    <rect x="30" y="404" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="46" y="421" font-weight="700" fill="#0f172a">Ramakrishna Mission, 1897</text>
+    <text x="46" y="436">Swami Vivekananda · neo-Vedanta · Chicago 1893</text>
+  </g>
+
+  <!-- Revivalist rows -->
+  <g font-size="12.5" fill="#334155">
+    <rect x="465" y="116" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="481" y="133" font-weight="700" fill="#0f172a">Arya Samaj, 1875</text>
+    <text x="481" y="148">Dayananda Saraswati · "Back to the Vedas"</text>
+
+    <rect x="465" y="164" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="481" y="181" font-weight="700" fill="#0f172a">Deoband, 1867</text>
+    <text x="481" y="196">Nanautavi &amp; Gangohi · Dar-ul-Uloom</text>
+
+    <rect x="465" y="212" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="481" y="229" font-weight="700" fill="#0f172a">Wahabi Movement, 1820s–31</text>
+    <text x="481" y="244">Sayyid Ahmad Barelvi · Balakot 1831</text>
+
+    <rect x="465" y="260" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="481" y="277" font-weight="700" fill="#0f172a">Singh Sabha, 1870s (Punjab)</text>
+    <text x="481" y="292">Sikh reform; Gurmukhi &amp; Punjabi revival</text>
+
+    <rect x="465" y="308" width="405" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="481" y="325" font-weight="700" fill="#0f172a">Kookas / Namdharis (1840s+)</text>
+    <text x="481" y="340">Baba Ram Singh · early boycott of British goods</text>
+  </g>
+
+  <!-- Bottom bridge -->
+  <rect x="30" y="472" width="840" height="60" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="450" y="495" text-anchor="middle" font-size="13" font-weight="700" fill="#9a3412">Both strands created the modern public sphere (press, schools, associations)</text>
+  <text x="450" y="515" text-anchor="middle" font-size="12.5" fill="#9a3412">→ the social base from which the Indian National Congress emerged in 1885</text>
+</svg>

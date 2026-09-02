@@ -350,6 +350,8 @@ window.SYLLABUS_DATA = {
       tag: '250 marks',
       summary: 'Ethical reasoning, case studies, attitude, emotional intelligence and public service values.',
       sub: [
+        { id: 'ethics-foundations', title: 'Ethics Foundations: Interface, Attitude, Aptitude & EI (study set)', tag: 'full 5-section set' },
+        { id: 'governance-probity-case-studies', title: 'Governance, Probity & Case-Study Method (study set)', tag: 'full 5-section set' },
         { id: 'ethics-human-interface', title: 'Ethics & Human Interface: essence, determinants, dimensions' },
         { id: 'attitude', title: 'Attitude: content, structure, influence & moral attitudes' },
         { id: 'aptitude-foundations', title: 'Aptitude & Foundational Values: integrity, impartiality, non-partisanship' },
