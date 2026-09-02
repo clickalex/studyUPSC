@@ -1,0 +1,19 @@
+# Economics (Optional) — Orientation & Starter Framework
+
+## Why candidates pick it
+- GS-3 economy runs concurrent prep dividends; analytical derivation-culture gives precision-marking shelter; formal-answer format advantages the mathematically tidy. Needs genuine quantitative comfort.
+
+## Syllabus map
+- **Paper-I (Micro/Macro/Monetary/Public/Intl)**: micro theory — consumer & producer theory refinements (Slutsky vs Hicksian decompositions), market structures, welfare-economics box (Pareto-optimality, social-welfare functions, Arrow impossibility), asymmetric information (Akerlof-Spence-Stiglitz trinity); general equilibrium trace (Edgeworth); macro enumeration — income-determination (Keynesian cross → IS-LM → AD-AS), consumption hypotheses (Keynes-Friedman-Modigliani-Fisher traces), investment accelerator, demand-for-money theories (Fisher-Baumol-Tobin/Keynes), money-supply mechanics (H-theory credit-multiplier), inflation mechanics (Phillips expectations-augmented/Friedman-Phelps NAIRU discourses), business-cycle theories, rational-expectations revolution (Lucas critiques), new-classical/new-Keynesian synthesis, growth economics — Harrod-Domar logic → Solow exogenous → Romer endogenous → new growth cross-country evidence; public economics — taxation principles & incidence frameworks, public-debt sustainability (Domar rule), Musgrave three-branch taxonomy of fiscal functions; international-trade theory — comparative advantage refinements (Ricardian→Heckscher-Ohlin—Leontief paradox—Krugman new-trade), BoP analytics (elasticity/absorption/monetary approaches), exchange-rate regimes & India's managed-float literature, GATT-WTO process descriptions.
+- **Paper-II (Indian economy)**: pre-independence structure debates (drain-of-wealth; deindustrialisation Roy-Morris etc); planning progression & sectoral performances; post-1991 reform scorecards (BoP crisis-to-liberalisation implementation code); monetary-policy evolution (monetary targeting → MIA → flexible-inflation-targeting formalisation 2016 with MPC structure); fiscal skirmishes (FRBM statutes, deficit-mantras, GST + tax-buoyancy events, 14/15/16-FC devolution narratives); agriculture-transitions (Green Revolution productivity/variance maps, MSP mechanism critiques, NFSA entitlements, market-reform statutes 2020 farm-laws + unfortunate-repeal aftermath studies); industry-structure (MRTP-era → delicensing → PLI era); labour stats scarce-data frames (PLFS-derived characterisations, informality + 2020s codes consolidation (four labour codes pending implementation grid)) and inflation-unemployment interplays (stagflation non-presence); poverty-empirics battles (Tendulkar-Rangarajan lines; World-Bank $2.15+ methodology debates incl. 2017 PPP revisions); financial-sector-evolution (nationalisation→reforms→NPA+IBC efficacies→bad-bank NARCL formation); external-sector track (liberalised capital account caution rope; rupee management arc; FTAs record — UAE CEPA/status-quo; Atmanirbhar lens ®global-value-chain participation details).
+
+## Framework skeleton
+- Answers: model/diagram (labelled) → assumptions → result → real-India calibration (1 data point with source-year) → critique/caveat.
+- Diagram fiscal: PPF diagram for tradeoffs, Philips-curve tradeoff composites, Solow steady-state geometry, Lorenz/Gini visual hooks.
+
+## Standard spine books
+- H L Ahuja (micro+macro; unavoidable), Dornbusch-Fischer (macro-trim), Mankiw (textbook smoothness), Salvatore (international) — plus RBI occassional papers/guides + EPW data-drops for Paper-II; Economic Survey latest + RBI Annual Report as the orientation backbone.
+
+## Caution
+- Syllabus expects *formal* treatment; story-telling answers scored poorly — drill derivations until they read as choreography.
+- Volatility alert: macro readings require tolerable comfort of calculus-lite work (differentiation/optimisation symbols).

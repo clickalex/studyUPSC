@@ -601,7 +601,7 @@
     app.innerHTML = shell('<div id="doc-body" class="animate-pulse"><div class="h-6 w-1/3 rounded bg-slate-200 dark:bg-slate-700 mb-3"></div><div class="h-3 w-full rounded bg-slate-100 dark:bg-slate-700 mb-2"></div><div class="h-3 w-5/6 rounded bg-slate-100 dark:bg-slate-700 mb-2"></div><div class="h-3 w-4/6 rounded bg-slate-100 dark:bg-slate-700"></div></div>',
       { crumbs: crumbsForNavFromRel(entry) });
 
-    var icon = entry.kind === 'image' ? '🖼️' : entry.kind === 'pdf' ? '📕' : '📄';
+    var icon = entry.kind === 'image' ? '🖼️' : entry.kind === 'pdf' ? '📕' : (entry.ext === 'html' ? '🌐' : '📄');
     if (entry.kind === 'image') {
       var imgSrc = rel;
       app.innerHTML = shell(
@@ -615,11 +615,12 @@
       attachDocNav(entry);
       return;
     }
-    if (entry.kind === 'pdf') {
+    if (entry.kind === 'pdf' || entry.ext === 'html') {
+      var isHtml = entry.ext === 'html';
       app.innerHTML = shell(
         '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4">' +
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
-        '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">📕 ' + esc(entry.file) + '</h1>' +
+        '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
         '<div class="flex gap-2"><a class="btn-ghost text-[12px]" href="' + esc(rel) + '" target="_blank" rel="noopener">Open ↗</a>' +
         '<a class="btn-primary text-[12px]" href="' + esc(rel) + '" download>Download ⬇</a></div></div>' +

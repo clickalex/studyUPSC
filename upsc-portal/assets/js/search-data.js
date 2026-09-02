@@ -4008,6 +4008,182 @@ window.SEARCH_DATA = [
   "chars": 3089
  },
  {
+  "nav": "gs-4/aptitude-foundations/short",
+  "file": "aptitude-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Aptitude & Foundational Values — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "Aptitude framing"
+   },
+   {
+    "level": 2,
+    "text": "Value definitions for answers"
+   },
+   {
+    "level": 2,
+    "text": "Where do they get shaped? (determinants)"
+   },
+   {
+    "level": 2,
+    "text": "Conflicts observed in exams"
+   },
+   {
+    "level": 2,
+    "text": "Drills"
+   },
+   {
+    "level": 2,
+    "text": "Answer scaffold"
+   }
+  ],
+  "text": "Aptitude & Foundational Values — Leaf Pack Aptitude framing Aptitude = potential to acquire proficiency (distinct from intelligence and from skill). For civil service: cognitive + administrative temperament (frustration tolerance, ambiguity comfort, responsibility appetite) + values. Foundational values codified by UPSC/exam tradition: integrity, impartiality, non partisanship, objectivity, dedication to public service, empathy, tolerance, compassion toward weaker sections . Value definitions for answers Integrity — coherence of word, value and action; financial+intellectual honesty; behavioural consistency under low observability. Impartiality — equal treatment irrespective of personal affiliations; decision on merit documented (file note logic). Non partisanship — serve constitutional government of the day without political indenture; advise fearlessly, implement lawful political decis",
+  "chars": 2922
+ },
+ {
+  "nav": "gs-4/attitude/short",
+  "file": "attitude-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes/attitude-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Attitude — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "Structure (ABC)"
+   },
+   {
+    "level": 2,
+    "text": "Functions (Katz)"
+   },
+   {
+    "level": 2,
+    "text": "Formation & change"
+   },
+   {
+    "level": 2,
+    "text": "Moral & political attitudes"
+   },
+   {
+    "level": 2,
+    "text": "Measurement practice"
+   },
+   {
+    "level": 2,
+    "text": "Civil-service applications"
+   },
+   {
+    "level": 2,
+    "text": "One-liners"
+   }
+  ],
+  "text": "Attitude — Leaf Pack Structure (ABC) A ffective (feelings), B ehavioural (actions/tendencies), C ognitive (beliefs) components. Function fit measures: self report scales (Likert/semantic differential), behavioural observation. Functions (Katz) Knowledge (understanding world) · Ego defensive (self image protection) · Value expressive (identity signalling) · Instrumental/adjustive (reward pursuit). Administrative relevance: campaigns fail if aimed at the wrong function — anti open defecation messaging initially misfired on identity ego channels in some belts; later dignity/identity reframing (women led messaging) landed better. Formation & change Formation agents: family, peers, school, media, direct experience, classical/operant conditioning, social learning (Bandura modelling). Change levers: persuasive communication — Elaboration Likelihood Model : central route (argument quality — info",
+  "chars": 2852
+ },
+ {
+  "nav": "gs-4/case-studies/short",
+  "file": "case-studies-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Case Studies — Method Pack"
+   },
+   {
+    "level": 2,
+    "text": "The template (every case uses this)"
+   },
+   {
+    "level": 2,
+    "text": "High-yield case archetypes with model hinges"
+   },
+   {
+    "level": 3,
+    "text": "Illegal orders"
+   },
+   {
+    "level": 3,
+    "text": "Conflict of interest (family member bidder)"
+   },
+   {
+    "level": 3,
+    "text": "Service-delivery triage under scarcity (oxygen/bed/drug)"
+   },
+   {
+    "level": 3,
+    "text": "Land acquisition resistance (tribal/forest zones)"
+   },
+   {
+    "level": 3,
+    "text": "Whistleblower asymmetry (junior spots fraud)"
+   },
+   {
+    "level": 3,
+    "text": "Grievance overload (municipality under flood of complaints)"
+   },
+   {
+    "level": 2,
+    "text": "Answer-form steps for paper"
+   },
+   {
+    "level": 2,
+    "text": "Common fallacies to dodge"
+   },
+   {
+    "level": 2,
+    "text": "Practice cadence"
+   }
+  ],
+  "text": "Case Studies — Method Pack The template (every case uses this) 1. Dilemma wording — name the tension (legality vs compassion; loyalty vs conscience; efficiency vs equity). 2. Stakeholder map — list who bears costs/benefits; mark the least advantaged. 3. Option set — realistic 3–4 options, avoid strawman extremes (\"do nothing\"/\"resign on the spot\"). 4. Filter stack — legality → deontological (duty/norm) → consequentialist (outcome) → virtue (character) → care (relationships). 5. Decision + principle statement — pick, and say the principle honoured. 6. Documentation & escalation — written orders, file notes, vigilance/audit escalation paths. 7. Systemic fix — SOP/code change, training, transparency dashboard — show the \"institutional learning\" move. 8. Message to institution — one line closure: what your action signals about integrity standards. High yield case archetypes with model hinges",
+  "chars": 3065
+ },
+ {
+  "nav": "gs-4/emotional-intelligence/short",
+  "file": "ei-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes/ei-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Emotional Intelligence — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "Models"
+   },
+   {
+    "level": 2,
+    "text": "Civil-services applications"
+   },
+   {
+    "level": 2,
+    "text": "Empathy — design usage"
+   },
+   {
+    "level": 2,
+    "text": "Dark-side sophistication (use in answers for balance)"
+   },
+   {
+    "level": 2,
+    "text": "Building EI institutionally"
+   },
+   {
+    "level": 2,
+    "text": "One-active-method nugget for answers"
+   },
+   {
+    "level": 2,
+    "text": "Quote-safe anchors"
+   }
+  ],
+  "text": "Emotional Intelligence — Leaf Pack Models Goleman 5 : self awareness, self regulation, motivation (intrinsic), empathy, social skill. Mayer–Salovey four branch ability model : perceive emotions → use emotions→ integrate thought → understand emotions → manage emotions. Related constructs: EQ/EI vs IQ ; social intelligence (Thorndike line); emotional labour (service work performance discipline — Arlie Hochschild). Civil services applications Policing crowd situations: de escalation protocols; riot control tone setter stories from 2020s public order events. Grievance arena: front desk empathy scripts + expectation management; CPGRAMS dashboards (state quality ranked). Negotiation rooms: land acquisition talks, labour strike conversations, hostage/release mediations — calibrated empathy channel. Crisis narrative: disaster briefings (Kerala floods, Wayanad landslides) — authority + composure ",
+  "chars": 2503
+ },
+ {
   "nav": "gs-4/ethics-foundations/bullets",
   "file": "ethics-foundations-points.md",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points/ethics-foundations-points.md",
@@ -4150,6 +4326,43 @@ window.SEARCH_DATA = [
   ],
   "text": "Ethics Foundations — Revision Notes Thinker quotables + framework cards; this is the \"citation engine\" for GS 4. Foundational values (memorise the UPSC phrase list) Integrity · Impartiality · Non partisanship · Objectivity · Dedication to public service · Empathy · Tolerance · Compassion toward weaker sections . Attitude card ABC = Affect, Behaviour, Cognition. Katz functions: knowledge · ego defensive · value expressive · instrumental. Persuasion: ELM central (logic) vs peripheral (cues); source credibility × framing × audience. Applications: polio vaccine campaigns (celebrity cues + mosque trust signals) vs sanitation behaviour change failures without identity alignment. EI card Goleman 5 : self awareness · self regulation · motivation · empathy · social skill. Mayer Salovey 4 branches: perceive → use → understand → manage. Admin uses: de escalation, grievance redress empathy maps, neg",
   "chars": 3490
+ },
+ {
+  "nav": "gs-4/ethics-human-interface/short",
+  "file": "ethics-interface-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Ethics & Human Interface — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "Essence"
+   },
+   {
+    "level": 2,
+    "text": "Determinants of ethical action"
+   },
+   {
+    "level": 2,
+    "text": "Dimensions & consequences"
+   },
+   {
+    "level": 2,
+    "text": "Approaches to resolve dilemmas"
+   },
+   {
+    "level": 2,
+    "text": "Quick-cite thinkers"
+   },
+   {
+    "level": 2,
+    "text": "FAQs (mini-skeletons)"
+   }
+  ],
+  "text": "Ethics & Human Interface — Leaf Pack Deep material lives in mains/gs 4 ethics integrity aptitude/ethics foundations/detailed notes/ethics foundations.md . This is the leaf level drill for the syllabus facet. Essence Ethics = the systematic study of right/wrong conduct standards; morality = the actual norms a community lives by; values = prized end states (integrity, compassion); norms = enforceable behavioural rules. Meta ethics (what \"good\" means) / normative ethics (deontology — Kant; consequentialism — Bentham/Mill; virtue — Aristotle) / applied ethics (medical, bioethics, AI, media, corporate governance). Ethical prism test: Is it legal? Is it fair to all stakeholders? Would it withstand publicity (front page test)? Does it protect the weakest affected? Determinants of ethical action Personal: conscience formation, self esteem security, cognitive moral development stage (Kohlberg), e",
+  "chars": 3180
  },
  {
   "nav": "gs-4/governance-probity-case-studies/bullets",
@@ -4300,6 +4513,113 @@ window.SEARCH_DATA = [
   "chars": 3655
  },
  {
+  "nav": "gs-4/moral-thinkers/short",
+  "file": "moral-thinkers-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Moral Thinkers & Philosophers — Leaf Pack (Rapid Cards)"
+   },
+   {
+    "level": 2,
+    "text": "Western canon cards"
+   },
+   {
+    "level": 2,
+    "text": "Indian canon cards"
+   },
+   {
+    "level": 2,
+    "text": "Map recall table"
+   }
+  ],
+  "text": "Moral Thinkers & Philosophers — Leaf Pack (Rapid Cards) Western canon cards Socrates : \"unexamined life unworthy\"; conscience over groupthink — urban hubris yokels trial moral teaching. Plato : philosopher king; justice as harmony; cave allegory = knowledge liberation vs shadows. Aristotle : virtue = habituated mean between extremes; phronesis = practical wisdom (administrative judgment gold standard concept); eudaimonia = flourishing end state. Kant : categorical imperative (universalise / humanity as end); autonomy; \"good will\" as motivation anchor. Bentham : utility calculus intro (quantitative); J.S. Mill : qualitative pleasures refinement + harm principle (On Liberty) + representative government insights. Rawls : original position → veil of ignorance → two principles (equal liberty; difference principle for inequalities helping least advantaged) → welfare state ethic backbone. Nozic",
+  "chars": 3533
+ },
+ {
+  "nav": "gs-4/probity-governance/short",
+  "file": "probity-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Probity in Governance — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "Working definition"
+   },
+   {
+    "level": 2,
+    "text": "Instrument lattice"
+   },
+   {
+    "level": 2,
+    "text": "Information-sharing & transparency debates"
+   },
+   {
+    "level": 2,
+    "text": "Corruption phenomenology (PYQ word-bank)"
+   },
+   {
+    "level": 2,
+    "text": "Ethical leadership in organisations"
+   },
+   {
+    "level": 2,
+    "text": "Case-chunks for exams"
+   },
+   {
+    "level": 2,
+    "text": "One-liners"
+   }
+  ],
+  "text": "Probity in Governance — Leaf Pack Working definition Probity = confirmed integrity in public life: compliance with law + adherence to moral standards + procedural correctness in decision making. Adjacent to: rectitude (uprightness in complex pressures), propriety (process legitimacy). Instrument lattice Transparency: RTI 2005 (Sec 4 proactive disclosure; ICs; 2019 amendments debates on tenure), audit trails, public dashboards (GeM statistics, CPGRAMS), electoral funding transparency (post Electoral Bonds struck Feb 2024 — disclosure vacuum = live question). Accountability stacks: hierarchical (departmental enquiries), legal (courts, PC Act), professional (CVC/ICAD style reviews), political (parliamentary committees, question hour), social (social audits, gram sabhas, media). Anti corruption: PC Act 1988 (+2018), PMLA 2002, CBI under DSPE frame + CVC supervision; ED actor footprint; annua",
+  "chars": 3109
+ },
+ {
+  "nav": "gs-4/public-service-values/short",
+  "file": "public-service-values-pack.md",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes/public-service-values-pack.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Public Service Values & Ethics in Administration — Leaf Pack"
+   },
+   {
+    "level": 2,
+    "text": "The spine"
+   },
+   {
+    "level": 2,
+    "text": "Constitutional-legal frame"
+   },
+   {
+    "level": 2,
+    "text": "Civil-service neutrality: debates"
+   },
+   {
+    "level": 2,
+    "text": "Work culture & quality of service delivery"
+   },
+   {
+    "level": 2,
+    "text": "Utilisation of public funds (integrity lens)"
+   },
+   {
+    "level": 2,
+    "text": "Case-triggers in exam"
+   },
+   {
+    "level": 2,
+    "text": "One-liners"
+   }
+  ],
+  "text": "Public Service Values & Ethics in Administration — Leaf Pack The spine Civil service distinctness: permanent, professional, politically neutral agent of constitutional order — serves governments, not parties (\"serve fearlessly, advise honestly, comply lawfully\"). Values catalogue drill: integrity · impartiality · non partisanship · objectivity · dedication · empathy + accountability + transparency + rule of law + equity first + efficiency + resilience. Constitutional legal frame Art 311 dismissal protection shield (inquiry requirement) — service security logic for honest advice. All India Services (Conduct) Rules 1968 + CCS Conduct Rules 1964: integrity clause, gift ceilings, dowry bar, sexual harassment prohibitions, bigamy and joint family property declarations, political neutrality expectations, private trade/employment restrictions. Prevention of Corruption Act 1988 (+2018 amendment:",
+  "chars": 3559
+ },
+ {
   "nav": "gs-4",
   "file": "README.md",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/README.md",
@@ -4373,6 +4693,367 @@ window.SEARCH_DATA = [
   ],
   "text": "Choosing an Optional Subject — Decision Guide The optional (2 papers × 250 = 500 marks) is the single largest scoring block in Mains after GS. This note is the selection playbook; per subject deep notes are a separate expansion track. The selection stakes 500/1750 Mains written marks ≈ 29% of merit weight. Optional score spread is wider than GS spread in most years — a strong optional choice frequently swings final rank lists more than incremental GS effort. Time budget reality: optionals absorb 8–10 hours/week of a serious attempt for 6–9 months. The 7 factor selection matrix 1. Graduation overlap — reduces marginal cost of basics; strongest predictor of sustained comfort. 2. Interest stamina — you will re read the syllabus 3–4 times; fatigue risk is real. 3. Material ecosystem — standard books, coaching handouts, evaluated test series availability, peer community size. 4. GS overlap — ",
   "chars": 4183
+ },
+ {
+  "nav": "optional-subjects/optional-anthropology/short",
+  "file": "anthropology-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-anthropology/short-notes/anthropology-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Anthropology (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Core framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap & answer texture"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "First-90-days plan"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Anthropology (Optional) — Orientation & Starter Framework Why candidates pick it Compact syllabus among humanities subjects; diagram friendly answers; GS overlap in tribal affairs, common lessons with sociology; scoring historically kind to disciplined writers. Syllabus map Paper I : meaning/scope of anthropology (physical/social cultural/archaeological/linguistic threads); human evolution (fossil sequence — Australopithecus → Homo habilis → erectus → sapiens; tool tech eras); primates; marriage family kinship frameworks; economic/political organisations (band tribe chiefdom state); religion (animism, animatism, totemism), anthropological theories (classical evolutionism → diffusionism → functionalism (Malinowski, Radcliffe Brown) → structuralism (Levi Strauss) → cultural materialism (Harris) → postmodern turns); research methods (fieldwork, participant observation tradition from Malinow",
+  "chars": 3128
+ },
+ {
+  "nav": "optional-subjects/optional-economics/short",
+  "file": "economics-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-economics/short-notes/economics-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Economics (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Economics (Optional) — Orientation & Starter Framework Why candidates pick it GS 3 economy runs concurrent prep dividends; analytical derivation culture gives precision marking shelter; formal answer format advantages the mathematically tidy. Needs genuine quantitative comfort. Syllabus map Paper I (Micro/Macro/Monetary/Public/Intl) : micro theory — consumer & producer theory refinements (Slutsky vs Hicksian decompositions), market structures, welfare economics box (Pareto optimality, social welfare functions, Arrow impossibility), asymmetric information (Akerlof Spence Stiglitz trinity); general equilibrium trace (Edgeworth); macro enumeration — income determination (Keynesian cross → IS LM → AD AS), consumption hypotheses (Keynes Friedman Modigliani Fisher traces), investment accelerator, demand for money theories (Fisher Baumol Tobin/Keynes), money supply mechanics (H theory credit mu",
+  "chars": 3831
+ },
+ {
+  "nav": "optional-subjects/optional-geography/short",
+  "file": "geography-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-geography/short-notes/geography-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geography (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap & answer texture"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "First-90-days plan"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Geography (Optional) — Orientation & Starter Framework Why candidates pick it GS 1 geography + prelims maps overlap is genuinely strong; universal manageable material; visual answers (maps/diagrams) reward accuracy; but syllabus is on the larger side. Syllabus map Paper I (Principles) : geomorphology (endogenetic/exogenetic processes, plate tectonics, slope development, channel morphology); climatology (composition/instability/cyclones/jet streams/monsoon+ENSO/NAM etc dynamics); oceanography (T S properties, currents, tides, coral reefs, marine resources, sea level change debate); biogeography (soil genesis, ecosystems, biomes, biogeochemical cycles, deforestation debate, social forestry); environmental geography (hazard management, EIA principles, environmentalism phases); perspectives (determinism possibilism; regional/methods sequence; quantification turn and behavioural turn); econom",
+  "chars": 3923
+ },
+ {
+  "nav": "optional-subjects/optional-history/short",
+  "file": "history-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-history/short-notes/history-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "History (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Follow-on skills"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "History (Optional) — Orientation & Starter Framework Why candidates pick it Deep GS 1 modern+world+heritage overlap; map questions add scorable precision; but syllabus breadth is famously heavy — volume discipline decides viability. Syllabus map Paper I (Ancient + Medieval India) : prehistory & proto history (Indus civilisation); Vedic corpus & pastoral agri transition; mahajanapadas→Mauryan state formation (megasthenes/Indica + edicts archaeology); post Mauryan trade urban explosion; Sangam social life; Gupta state & cultural fluorescence; regional kingdoms (Cholas admin/irrigation, Pallavas, Rashtrakutas, Chalukyas, Pratiharas + Arabs contact); post 750 socio cultural trends (shramanic residue→bhakti consolidation). Medieval: early medieval state debates (feudalism vs integrative polity conversation: R S Sharma vs B D Chattopadhyaya etc); Delhi sultanate (politics, iqta economy, Mongol",
+  "chars": 3857
+ },
+ {
+  "nav": "optional-subjects/optional-philosophy/short",
+  "file": "philosophy-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-philosophy/short-notes/philosophy-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Philosophy (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Philosophy (Optional) — Orientation & Starter Framework Why candidates pick it Compact syllabus (among the smallest), essay + GS 4 ethic bridges, pleasing logical answer formats; requires comfort with abstraction — strong verbal/written discipline pays. Syllabus map Paper I (History & Problems of Philosophy) : Plato Aristotle (forms/substance); rationalists (Descartes Spinoza Leibniz); empiricists (Locke Berkeley Hume); Kant (Copernican turn, categorical imperatives); Hegel (dialectic); Moore Russell (analytic shift, logical atomism); Logical Positivism (verification theory → falsifiability Popper); Wittgenstein (language games, meaning as use); Phenomenology (Husserl); Existentialism (Sartre/Kierkegaard); Quine & Strawson (analytic continental bridges contemp); applied problems units. Contemporary units recurring in PYQs: theory of meaning; truth correspondence coherence; realism ideali",
+  "chars": 3010
+ },
+ {
+  "nav": "optional-subjects/optional-polity/short",
+  "file": "psir-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-polity/short-notes/psir-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Political Science & International Relations (PSIR) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap & answer texture"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Political Science & International Relations (PSIR) — Orientation & Starter Framework Why candidates pick it GS 2 polity & IR halves sync up; IR literate aspirants gain essay+interview compounds; answer style mirrors GS writing with theory premium. Syllabus map Paper I : Part A political theory (theories of state — liberal/neo liberal/Marxist/Gramscian/feminist; justice & Rawls vs communitarian; equality debates; rights (Human rights three generation discourse); democracy (procedural deliberative); power (Foucault Weber scales); ideology tracks (liberalism, conservatism, socialism.. incl. neo lines); debates in western canon (Plato→Machiavelli→Hobbes…); political ideologies stack; Part B: Indian political thought (Vedic dharmashastra → Buddhist arthashastra heritage → Renaissance blend (Rammohan) → Moderate Extremist → Gandhian Nehruvian socialist/Ambedkarite streams → modern indian think",
+  "chars": 3896
+ },
+ {
+  "nav": "optional-subjects/optional-psychology/short",
+  "file": "psychology-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-psychology/short-notes/psychology-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Psychology (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Psychology (Optional) — Orientation & Starter Framework Why candidates pick it GS 4 overlap in EI/attitude; tight syllabus; scoring history experiences steady median performance; useful for candidates with inclination toward human behavior science. Syllabus map Paper I (Foundations) : scope methods (experimental, correlational, field/biological bases — nervous system/brain localisation + sensors perception modules incl. signal detection theory; learning theories (classical/operant/observational — Bandura social learning; conditioning applications); memory models (multi store → working memory Baddeley; forgetting curves Ebbinghaus); thinking problem solving & intelligence (psychometrics — Spearman/Thurstone/Cattell Horn fluid crystallised, Gardner multiple intelligences, Sternberg triarchic, emotional intelligence stream); motivation & emotion (Maslow, intrinsic extrinsic debates, cogniti",
+  "chars": 3208
+ },
+ {
+  "nav": "optional-subjects/optional-public-administration/short",
+  "file": "pub-admin-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-public-administration/short-notes/pub-admin-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Public Administration (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why candidates pick it"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map"
+   },
+   {
+    "level": 2,
+    "text": "Framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Public Administration (Optional) — Orientation & Starter Framework Why candidates pick it GS 2 governance heartland sync + GS 4 ethics resonance; small to medium ecosystem (coaching footprint lighter than sociology/thinner than 2010s peak but sufficient). Syllabus map Paper I : administrative theory lineage (Classical/Wilson Taylor Fayol Gulick, Human Relations/ Mayo McGregor, Behavioural/Simon Barnard, Systems/Open system; Public Choice (Buchanan), NPM (self institution logic), Governance buzz (network governance), post NPM (Neo Weberian state)); theories/meanings on organisation, bureaucracy (Weber type); accountability & control (executive legislative judicial triads + citizen centricry right to information); administrative behaviour (decision making: Herbert Simon's bounded rationality; communication, morale, motivation (Maslow/Herzberg/McGregor), leadership (LIKERT style systems)); ",
+  "chars": 3936
+ },
+ {
+  "nav": "optional-subjects/optional-sociology/short",
+  "file": "sociology-orientation.md",
+  "rel": "content/mains/optional-subjects/optional-sociology/short-notes/sociology-orientation.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sociology (Optional) — Orientation & Starter Framework"
+   },
+   {
+    "level": 2,
+    "text": "Why it attracts candidates"
+   },
+   {
+    "level": 2,
+    "text": "Syllabus map (2 papers)"
+   },
+   {
+    "level": 2,
+    "text": "Core framework skeleton"
+   },
+   {
+    "level": 2,
+    "text": "Standard spine books"
+   },
+   {
+    "level": 2,
+    "text": "Overlap & answer texture"
+   },
+   {
+    "level": 2,
+    "text": "PYQ pattern notes"
+   },
+   {
+    "level": 2,
+    "text": "First-90-days plan"
+   },
+   {
+    "level": 2,
+    "text": "Caution"
+   }
+  ],
+  "text": "Sociology (Optional) — Orientation & Starter Framework Starter framework pack. Deep per unit notes are an expansion track; use this to decide and to structure first pass study. Why it attracts candidates Compact ish syllabus, GS 1 society overlap, essay resonance (poverty/social change/gender prompts), strong material ecosystem (textbooks, test banks, toppers copies). Syllabus map (2 papers) Paper I (Fundamentals) : discipline origins (Comte, Spencer); methods (positivism, hermeneutics, fieldwork logic); sociological thinkers (Marx, Weber, Durkheim, Mead, Merton); stratification (class, status, power); family marriage kinship; religion; social change + development frames. Paper II (Indian society) : Indological/textual (Ghurye) vs field views (Marriott, Srinivas); caste system theories; tribal communities (integration vs isolation debates); rural social organisation; social classes in In",
+  "chars": 2950
  },
  {
   "nav": "optional-subjects/pyqs",

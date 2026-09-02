@@ -216,9 +216,15 @@ function extractHeadings(md) {
 
 function buildSearchData(files, entries) {
   const docs = [];
+  const mdStems = new Set(files.filter(f => /\.md$/i.test(f.file)).map(f => f.rel.replace(/\.md$/i, '')));
   for (const f of files) {
     const ext = f.file.split('.').pop().toLowerCase();
     if (!TEXT_EXTS.has(ext)) continue; // only text documents are full-text indexed
+    // skip generated HTML mirrors (md2html.py) — the .md original is indexed
+    if (ext === 'html' || ext === 'htm') {
+      if (f.file === 'index.html' && path.dirname(f.rel) === 'content') continue; // catalog
+      if (mdStems.has(f.rel.replace(/\.(html?)$/i, ''))) continue;
+    }
     if (isScaffoldStub(f.abs)) continue; // skip auto-generated scaffold stubs
     try {
       const raw = fs.readFileSync(f.abs, 'utf8').slice(0, 40000);
