@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Indian economic reform timeline — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="478" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Indian Economic Policy — The Timeline</text>
+
+  <!-- Spine -->
+  <line x1="60" y1="250" x2="840" y2="250" stroke="#cbd5e1" stroke-width="3"/>
+
+  <!-- Era bands below the spine -->
+  <g font-size="10" font-weight="700" letter-spacing="1.5">
+    <rect x="60" y="262" width="190" height="26" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="155" y="279" text-anchor="middle" fill="#475569">PLANNING ERA</text>
+    <rect x="254" y="262" width="130" height="26" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <text x="319" y="279" text-anchor="middle" fill="#475569">CONTROLS ERA</text>
+    <rect x="388" y="262" width="230" height="26" rx="6" fill="#fffbeb" stroke="#f59e0b"/>
+    <text x="503" y="279" text-anchor="middle" fill="#92400e">LIBERALISATION + CONSOLIDATION</text>
+    <rect x="622" y="262" width="220" height="26" rx="6" fill="#f0fdf4" stroke="#22c55e"/>
+    <text x="732" y="279" text-anchor="middle" fill="#166534">MISSION MODE</text>
+  </g>
+
+  <!-- Top nodes -->
+  <g font-size="11" fill="#334155">
+    <circle cx="110" cy="250" r="6" fill="#f59e0b"/>
+    <text x="110" y="226" text-anchor="middle" font-weight="700" fill="#92400e">1950</text>
+    <text x="110" y="212" text-anchor="middle">Planning Commission estd.</text>
+
+    <circle cx="221" cy="250" r="6" fill="#f59e0b"/>
+    <text x="221" y="226" text-anchor="middle" font-weight="700" fill="#92400e">1969</text>
+    <text x="221" y="212" text-anchor="middle">14 banks nationalised</text>
+
+    <circle cx="331" cy="250" r="8" fill="#ef4444"/>
+    <text x="331" y="226" text-anchor="middle" font-weight="700" fill="#b91c1c">1991</text>
+    <text x="331" y="212" text-anchor="middle" font-weight="700" fill="#b91c1c">LPG reforms (Rao–Manmohan)</text>
+
+    <circle cx="442" cy="250" r="6" fill="#f59e0b"/>
+    <text x="442" y="226" text-anchor="middle" font-weight="700" fill="#92400e">2003</text>
+    <text x="442" y="212" text-anchor="middle">FRBM Act</text>
+
+    <circle cx="553" cy="250" r="6" fill="#f59e0b"/>
+    <text x="553" y="226" text-anchor="middle" font-weight="700" fill="#92400e">2009</text>
+    <text x="553" y="212" text-anchor="middle">Aadhaar / UIDAI</text>
+
+    <circle cx="630" cy="250" r="6" fill="#22c55e"/>
+    <text x="630" y="226" text-anchor="middle" font-weight="700" fill="#166534">2015</text>
+    <text x="630" y="212" text-anchor="middle">NITI Aayog replaces Planning Commission</text>
+
+    <circle cx="700" cy="250" r="6" fill="#22c55e"/>
+    <text x="700" y="226" text-anchor="middle" font-weight="700" fill="#166534">2016</text>
+    <text x="700" y="212" text-anchor="middle">IBC + MPC framework</text>
+
+    <circle cx="768" cy="250" r="8" fill="#22c55e"/>
+    <text x="768" y="226" text-anchor="middle" font-weight="700" fill="#166534">1 Jul 2017</text>
+    <text x="768" y="212" text-anchor="middle">GST rollout</text>
+
+    <circle cx="830" cy="250" r="6" fill="#22c55e"/>
+    <text x="830" y="226" text-anchor="middle" font-weight="700" fill="#166534">2025</text>
+    <text x="830" y="212" text-anchor="middle">GST 2.0 rationalisation (Sep)</text>
+  </g>
+
+  <!-- Bottom nodes -->
+  <g font-size="11" fill="#334155">
+    <circle cx="165" cy="250" r="5" fill="#f59e0b"/>
+    <text x="165" y="310" text-anchor="middle" font-weight="700" fill="#92400e">1948/56</text>
+    <text x="165" y="324" text-anchor="middle">Industrial Policy Resolutions</text>
+
+    <circle cx="276" cy="250" r="5" fill="#f59e0b"/>
+    <text x="276" y="310" text-anchor="middle" font-weight="700" fill="#92400e">1966</text>
+    <text x="276" y="324" text-anchor="middle">Green Revolution begins</text>
+
+    <circle cx="386" cy="250" r="5" fill="#f59e0b"/>
+    <text x="386" y="310" text-anchor="middle" font-weight="700" fill="#92400e">1992</text>
+    <text x="386" y="324" text-anchor="middle">SEBI statutory</text>
+
+    <circle cx="497" cy="250" r="5" fill="#f59e0b"/>
+    <text x="497" y="310" text-anchor="middle" font-weight="700" fill="#92400e">2005-06</text>
+    <text x="497" y="324" text-anchor="middle">VAT · MGNREGA</text>
+
+    <circle cx="665" cy="250" r="5" fill="#22c55e"/>
+    <text x="665" y="310" text-anchor="middle" font-weight="700" fill="#166534">2020</text>
+    <text x="665" y="324" text-anchor="middle">PLI schemes (14 sectors)</text>
+
+    <circle cx="736" cy="250" r="5" fill="#22c55e"/>
+    <text x="736" y="310" text-anchor="middle" font-weight="700" fill="#166534">2021</text>
+    <text x="736" y="324" text-anchor="middle">Gati Shakti · NARCL</text>
+  </g>
+
+  <!-- Where we stand card -->
+  <rect x="30" y="356" width="840" height="44" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="450" y="376" text-anchor="middle" font-size="12.5" fill="#92400e">Where India stands (2026): <tspan font-weight="700">~4th largest economy (~$4.2 tn)</tspan> · services ~55% GVA · agriculture ~17% GVA but 46% jobs</text>
+  <text x="450" y="393" text-anchor="middle" font-size="12" fill="#92400e">Monetary anchor: <tspan font-weight="700">CPI 4% ± 2% (MPC since 2016)</tspan> · Fiscal anchor: debt-GDP glide path post-FY25</text>
+
+  <!-- Footer -->
+  <rect x="30" y="418" width="840" height="40" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="450" y="443" text-anchor="middle" font-size="12.5" fill="#334155">Read it as three waves: state-led <tspan font-weight="700">planning</tspan> → crisis-driven <tspan font-weight="700">liberalisation</tspan> → digital <tspan font-weight="700">formalisation</tspan></text>
+</svg>
