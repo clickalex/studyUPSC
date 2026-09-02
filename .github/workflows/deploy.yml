@@ -1,1 +1,70 @@
+# =============================================================================
+# studyUPSC — GitHub Pages deployment (CLI mirror of .github/workflows/deploy.yml)
+# -----------------------------------------------------------------------------
+# If you prefer not to use GitHub Actions, deploy manually from a terminal:
+#
+#   cd upsc-portal
+#   node cli/generate.mjs        # rebuild file-index.js + search-data.js
+#   git add -A && git commit -m "update content" && git push
+#
+#   Then in your repository go to:
+#     Settings → Pages → Source: "Deploy from a branch"
+#     Branch: main  /  Folder: /upsc-portal   →  Save
+#
+# The /(root) site will then be live at:
+#   https://<your-username>.github.io/studyUPSC/
+#
+# For 1-click deploys on every push, copy this file to
+# .github/workflows/deploy.yml at your repository root.
+# =============================================================================
+name: Deploy to GitHub Pages
 
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate indexes (cli/generate.mjs)
+        run: |
+          cd upsc-portal
+          node cli/generate.mjs
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: upsc-portal
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
