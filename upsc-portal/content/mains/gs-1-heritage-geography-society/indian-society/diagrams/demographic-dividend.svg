@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .sm{font-size:10px;fill:#64748b}
+      .md{font-size:11px;fill:#334155}
+      .axis{stroke:#cbd5e1;stroke-width:2;fill:none}
+      .tick{stroke:#94a3b8;stroke-width:1}
+      .bar-young{fill:#f59e0b;opacity:.85}
+      .bar-work{fill:#22c55e;opacity:.85}
+      .bar-old{fill:#94a3b8;opacity:.75}
+      .anno{font-size:11px;fill:#0f172a;font-weight:600}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bg3)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">India's Demographic Dividend — Age Structure, 2021 vs 2051 (illustrative)</text>
+  <text x="30" y="56" class="s">Share of population by broad age groups — policy window ~2023–2040 (NFHS-5 anchored; 2051 is UN-WPP-style projection band)</text>
+
+  <!-- Legend -->
+  <rect x="620" y="66" width="14" height="14" class="bar-young"/><text x="642" y="78" class="md">0–14 (young)</text>
+  <rect x="620" y="86" width="14" height="14" class="bar-work"/><text x="642" y="98" class="md">15–64 (working age)</text>
+  <rect x="620" y="106" width="14" height="14" class="bar-old"/><text x="642" y="118" class="md">65+ (elderly)</text>
+
+  <!-- 2021 column -->
+  <text x="180" y="96" class="anno" text-anchor="middle">2021 (estimated)</text>
+  <g>
+    <!-- Young ~26% · Working ~67% · Old ~7% stacked to ~330px scale -->
+    <rect x="120" y="110" width="120" height="86" class="bar-young"/>
+    <rect x="120" y="196" width="120" height="221" class="bar-work"/>
+    <rect x="120" y="417" width="120" height="23" class="bar-old"/>
+    <text x="180" y="160" class="md" text-anchor="middle" fill="#0f172a">26%</text>
+    <text x="180" y="310" class="md" text-anchor="middle" fill="#0f172a">67%</text>
+    <text x="180" y="434" class="md" text-anchor="middle" fill="#0f172a">7%</text>
+  </g>
+  <text x="180" y="470" class="md" text-anchor="middle">Dependency ratio ~ moderate · dividend opening</text>
+
+  <!-- Arrow -->
+  <g>
+    <line x1="260" y1="280" x2="640" y2="280" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+    <polygon points="648,280 632,272 632,288" fill="#64748b"/>
+    <text x="450" y="262" class="anno" text-anchor="middle">~30 years — peak dividend window closes by ~2040</text>
+  </g>
+
+  <!-- 2051 column -->
+  <text x="700" y="96" class="anno" text-anchor="middle">2051 (projected)</text>
+  <g>
+    <!-- Young ~18% · Working ~64% · Old ~18% -->
+    <rect x="640" y="110" width="120" height="59" class="bar-young"/>
+    <rect x="640" y="169" width="120" height="212" class="bar-work"/>
+    <rect x="640" y="381" width="120" height="59" class="bar-old"/>
+    <text x="700" y="146" class="md" text-anchor="middle" fill="#0f172a">18%</text>
+    <text x="700" y="278" class="md" text-anchor="middle" fill="#0f172a">64%</text>
+    <text x="700" y="414" class="md" text-anchor="middle" fill="#0f172a">18%</text>
+  </g>
+  <text x="700" y="470" class="md" text-anchor="middle">Aged bulge rises — support-ratio question returns</text>
+
+  <!-- Call-out bullets -->
+  <g>
+    <rect x="60" y="300" width="560" height="60" rx="8" fill="#f1f5f9" stroke="#e2e8f0"/>
+    <circle cx="78" cy="320" r="4" fill="#f59e0b"/>
+    <text x="90" y="324" class="md">TFR now ~2.0 (NFHS-5) — below replacement; fertility dividend has been 'banked'.</text>
+    <circle cx="78" cy="342" r="4" fill="#22c55e"/>
+    <text x="90" y="346" class="md">Dependency trough ~2025–35 — what jobs, skills and female LFPR do with it decides the payoff.</text>
+  </g>
+
+  <!-- Footer strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Sources (concept): NFHS-5 (2019–21) · UN World Population Prospects bands · SRS-based projections</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-I · Indian Society</text>
+</svg>

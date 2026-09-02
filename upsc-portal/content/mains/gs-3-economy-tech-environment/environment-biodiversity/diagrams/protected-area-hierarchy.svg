@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgEnv" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .lab{font-size:11px;fill:#334155;font-weight:600}
+      .sm{font-size:10px;fill:#64748b}
+      .num{font-size:13px;fill:#0f172a;font-weight:700}
+      .amberbar{fill:#f59e0b}
+      .greenbar{fill:#22c55e}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bgEnv)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">India's Protected-Area Ladder &amp; Conservation Programmes</text>
+  <text x="30" y="56" class="s">Legal bases · approximate counts (2025 band) · flagship project overlays</text>
+
+  <!-- Box stack left: hierarchy -->
+  <g>
+    <rect x="40" y="80" width="420" height="56" class="card" rx="10"/>
+    <rect x="40" y="80" width="10" height="56" rx="5" class="greenbar"/>
+    <text x="64" y="102" class="lab">National Parks — WPA 1972 §35</text>
+    <text x="64" y="120" class="sm">~107 parks · strict inviolate core · no grazing; e.g., Jim Corbett (1936, first as Hailey NP), Kaziranga</text>
+
+    <rect x="40" y="146" width="420" height="56" class="card" rx="10"/>
+    <rect x="40" y="146" width="10" height="56" rx="5" class="greenbar"/>
+    <text x="64" y="168" class="lab">Wildlife Sanctuaries — WPA §18/26A</text>
+    <text x="64" y="186" class="sm">~570+ · rights-continuum allowed to be settled · flexing protection norms</text>
+
+    <rect x="40" y="212" width="420" height="56" class="card" rx="10"/>
+    <rect x="40" y="212" width="10" height="56" rx="5" class="amberbar"/>
+    <text x="64" y="234" class="lab">Conservation Reserves — WPA §36A</text>
+    <text x="64" y="252" class="sm">community/state partnerships; buffer connectors (corridor logic)</text>
+
+    <rect x="40" y="278" width="420" height="56" class="card" rx="10"/>
+    <rect x="40" y="278" width="10" height="56" rx="5" class="amberbar"/>
+    <text x="64" y="300" class="lab">Community Reserves — WPA §36C</text>
+    <text x="64" y="318" class="sm">private/community lands with voluntary conservation; e.g., Kokkarebellur, Melkote</text>
+
+    <rect x="40" y="344" width="420" height="66" class="card" rx="10"/>
+    <rect x="40" y="344" width="10" height="66" rx="5" class="greenbar"/>
+    <text x="64" y="366" class="lab">Tiger Reserves — WPA §38V (Project Tiger 1973)</text>
+    <text x="64" y="384" class="sm">57+ reserves · latest: Ratapani · Guru Ghasidas–Tamor Pingla (2024 cohort)</text>
+    <text x="64" y="400" class="sm">NTCA statutory oversight; core-buffer strategy; Tiger census 2022 = 3,682</text>
+  </g>
+
+  <!-- Right column: programme overlays -->
+  <g>
+    <rect x="500" y="80" width="420" height="72" class="card" rx="10"/>
+    <text x="520" y="104" class="lab">Ramsar Wetlands — 80+ sites</text>
+    <text x="520" y="122" class="sm">1971 Convention; Montreux Record; additions each Feb 2</text>
+    <text x="520" y="138" class="sm">e.g., Chilika (1981), Keoladeo (1981), Sundarbans (2019), Sambhar/Asthamudi clusters</text>
+
+    <rect x="500" y="162" width="420" height="72" class="card" rx="10"/>
+    <text x="520" y="186" class="lab">Biosphere Reserves — 18 (MAB programme)</text>
+    <text x="520" y="204" class="sm">Nilgiri (1986 first) · Nanda Devi · Sunderbans · Panna (2020)</text>
+    <text x="520" y="220" class="sm">World Network list: 12 of 18 registered incl. Gulf of Mannar, Khangchendzonga</text>
+
+    <rect x="500" y="244" width="420" height="72" class="card" rx="10"/>
+    <text x="520" y="268" class="lab">Project Elephant (1992) &amp; Corridors</text>
+    <text x="520" y="286" class="sm">33 elephant reserves · 132 corridors listed (2010); updates rolling</text>
+    <text x="520" y="302" class="sm">Synchronised census (2023–25) band ~27–30k; elephant = Schedule I WPA</text>
+
+    <rect x="500" y="326" width="420" height="84" class="card" rx="10"/>
+    <text x="520" y="350" class="lab">Species focal missions</text>
+    <text x="520" y="368" class="sm">Cheetah Action Plan (Kuno 2022 → Gandhi Sagar phasing)</text>
+    <text x="520" y="384" class="sm">Snow Leopard SPAI estimate ~718 (2024) · Great Indian Bustard (GIB) captive</text>
+    <text x="520" y="400" class="sm">breeding in Rajasthan · Project Hangul (Dachigam)</text>
+  </g>
+
+  <!-- Footer strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Counts are time-stamped bands — verify latest MoEFCC/NTCA/WII releases before quoting in exam.</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-III · Environment &amp; Biodiversity</text>
+</svg>

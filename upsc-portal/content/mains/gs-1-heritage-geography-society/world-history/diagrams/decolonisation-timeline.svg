@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .axis{stroke:#cbd5e1;stroke-width:2}
+      .tick{stroke:#94a3b8;stroke-width:1}
+      .sm{font-size:10px;fill:#64748b}
+      .md{font-size:11px;fill:#334155}
+      .node{fill:#fff;stroke:#334155}
+      .amber{fill:#f59e0b}.green{fill:#22c55e}
+      .foot{font-size:10px;fill:#94a3b8}
+      .region{font-size:10px;font-weight:600;fill:#0f172a;letter-spacing:.06em}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bg2)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Decolonisation Waves, 1945–1994</text>
+  <text x="30" y="56" class="s">Asia (upper track, amber) vs Africa (lower track, green) — path variants: negotiated, armed, post-coup</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="200" x2="880" y2="200" class="axis"/>
+  <line x1="80" y1="350" x2="880" y2="350" class="axis"/>
+
+  <text x="40" y="205" class="region">ASIA</text>
+  <text x="40" y="355" class="region">AFRICA</text>
+
+  <!-- Axis ticks -->
+  <g>
+    <line x1="80"  y1="190" x2="80"  y2="210" class="tick"/><text x="80"  y="224" class="sm" text-anchor="middle">1945</text>
+    <line x1="240" y1="190" x2="240" y2="210" class="tick"/><text x="240" y="224" class="sm" text-anchor="middle">1950</text>
+    <line x1="400" y1="190" x2="400" y2="210" class="tick"/><text x="400" y="224" class="sm" text-anchor="middle">1955</text>
+    <line x1="560" y1="190" x2="560" y2="210" class="tick"/><text x="560" y="224" class="sm" text-anchor="middle">1960</text>
+    <line x1="720" y1="190" x2="720" y2="210" class="tick"/><text x="720" y="224" class="sm" text-anchor="middle">1970</text>
+    <line x1="880" y1="190" x2="880" y2="210" class="tick"/><text x="880" y="210" class="sm" text-anchor="middle">1994</text>
+
+    <line x1="80"  y1="340" x2="80"  y2="360" class="tick"/><text x="80"  y="374" class="sm" text-anchor="middle">1945</text>
+    <line x1="240" y1="340" x2="240" y2="360" class="tick"/><text x="240" y="374" class="sm" text-anchor="middle">1950</text>
+    <line x1="400" y1="340" x2="400" y2="360" class="tick"/><text x="400" y="374" class="sm" text-anchor="middle">1955</text>
+    <line x1="560" y1="340" x2="560" y2="360" class="tick"/><text x="560" y="374" class="sm" text-anchor="middle">1960</text>
+    <line x1="720" y1="340" x2="720" y2="360" class="tick"/><text x="720" y="374" class="sm" text-anchor="middle">1975</text>
+    <line x1="880" y1="340" x2="880" y2="360" class="tick"/><text x="880" y="374" class="sm" text-anchor="middle">1994</text>
+  </g>
+
+  <!-- Asia events -->
+  <circle cx="150" cy="200" r="8" class="node"/><circle cx="150" cy="200" r="4" class="amber"/>
+  <text x="150" y="168" class="md" text-anchor="middle">1947 · India-Pakistan</text>
+  <text x="150" y="154" class="sm" text-anchor="middle">negotiated transfer</text>
+
+  <circle cx="300" cy="200" r="8" class="node"/><circle cx="300" cy="200" r="4" class="amber"/>
+  <text x="300" y="168" class="md" text-anchor="middle">1954 · Dien Bien Phu</text>
+  <text x="300" y="154" class="sm" text-anchor="middle">Vietnam defeats France</text>
+
+  <circle cx="400" cy="200" r="8" class="node"/><circle cx="400" cy="200" r="4" class="amber"/>
+  <text x="400" y="168" class="md" text-anchor="middle">1955 · Bandung</text>
+  <text x="400" y="154" class="sm" text-anchor="middle">Afro-Asian solidarity</text>
+
+  <circle cx="460" cy="200" r="8" class="node"/><circle cx="460" cy="200" r="4" class="amber"/>
+  <text x="460" y="240" class="md" text-anchor="middle">1961 · NAM Belgrade</text>
+  <text x="460" y="254" class="sm" text-anchor="middle">Nehru–Tito–Nasser–Sukarno–Nkrumah</text>
+
+  <circle cx="620" cy="200" r="8" class="node"/><circle cx="620" cy="200" r="4" class="amber"/>
+  <text x="620" y="168" class="md" text-anchor="middle">1965 · Singapore</text>
+  <text x="620" y="154" class="sm" text-anchor="middle">separation &amp; statehood</text>
+
+  <!-- Africa events -->
+  <circle cx="330" cy="350" r="8" class="node"/><circle cx="330" cy="350" r="4" class="green"/>
+  <text x="330" y="318" class="md" text-anchor="middle">1957 · Ghana</text>
+  <text x="330" y="304" class="sm" text-anchor="middle">first sub-Saharan independence</text>
+
+  <circle cx="480" cy="350" r="8" class="node"/><circle cx="480" cy="350" r="4" class="green"/>
+  <text x="480" y="318" class="md" text-anchor="middle">1960 · "Year of Africa"</text>
+  <text x="480" y="304" class="sm" text-anchor="middle">17 states gain independence</text>
+
+  <circle cx="560" cy="350" r="8" class="node"/><circle cx="560" cy="350" r="4" class="green"/>
+  <text x="560" y="390" class="md" text-anchor="middle">1962 · Algeria</text>
+  <text x="560" y="404" class="sm" text-anchor="middle">after 8-year war vs France</text>
+
+  <circle cx="700" cy="350" r="8" class="node"/><circle cx="700" cy="350" r="4" class="green"/>
+  <text x="700" y="318" class="md" text-anchor="middle">1974–75 · Portuguese collapse</text>
+  <text x="700" y="304" class="sm" text-anchor="middle">Angola, Mozambique, Guinea-Bissau</text>
+
+  <circle cx="780" cy="350" r="8" class="node"/><circle cx="780" cy="350" r="4" class="green"/>
+  <text x="780" y="390" class="md" text-anchor="middle">1980 · Zimbabwe</text>
+  <text x="780" y="404" class="sm" text-anchor="middle">1990 · Namibia · 1994 · South Africa (apartheid ends)</text>
+
+  <!-- Footer strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <circle cx="40" cy="494" r="4" class="amber"/><text x="50" y="498" class="sm">Asia track (dominated by negotiated + military victory paths)</text>
+  <circle cx="420" cy="494" r="4" class="green"/><text x="430" y="498" class="sm">Africa track (mixed: mass nationalism, wars, post-coup transfers)</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-I · World History</text>
+</svg>

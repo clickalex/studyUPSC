@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgG4" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .step{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10px;fill:#64748b}
+      .amber{fill:#f59e0b}.green{fill:#22c55e}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bgG4)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">The GS-4 Case-Study Decision Wheel — a repeatable flow for any ethical dilemma</text>
+  <text x="30" y="56" class="s">Map stakeholders → filter through lenses → choose justified action → record and follow up</text>
+
+  <!-- Flow: 1 -> 2 -> 3 (top row); 4 -> 5 (bottom row) -->
+  <g>
+    <rect x="40" y="90" width="270" height="130" class="card" rx="12"/>
+    <rect x="40" y="90" width="10" height="130" rx="5" class="amber"/>
+    <text x="62" y="118" class="step">1 · Define the problem</text>
+    <text x="62" y="138" class="md">What exactly is wrong — fact, law,</text>
+    <text x="62" y="152" class="md">or value collision? Note the trigger.</text>
+    <text x="62" y="176" class="sm">Hint: name the dilemma, not just the symptom</text>
+    <text x="62" y="190" class="sm">(e.g. "illegal grazing eviction vs livelihood").</text>
+  </g>
+
+  <line x1="322" y1="155" x2="352" y2="155" class="cl"/>
+
+  <g>
+    <rect x="354" y="90" width="270" height="130" class="card" rx="12"/>
+    <rect x="354" y="90" width="10" height="130" rx="5" class="green"/>
+    <text x="376" y="118" class="step">2 · Stakeholders &amp; interests</text>
+    <text x="376" y="138" class="md">Citizens · juniors/seniors · institution ·</text>
+    <text x="376" y="152" class="md">political executive · vulnerable groups.</text>
+    <text x="376" y="176" class="sm">Map who bears the cost for each option;</text>
+    <text x="376" y="190" class="sm">flag least-advantaged (Rawls lens).</text>
+  </g>
+
+  <line x1="636" y1="155" x2="666" y2="155" class="cl"/>
+
+  <g>
+    <rect x="668" y="90" width="252" height="130" class="card" rx="12"/>
+    <rect x="668" y="90" width="10" height="130" rx="5" class="amber"/>
+    <text x="690" y="118" class="step">3 · Apply the filter stack</text>
+    <text x="690" y="138" class="md">Legal (rules) · Deontological (duty/norms)</text>
+    <text x="690" y="152" class="md">· Consequentialist (outcomes) · Virtue</text>
+    <text x="690" y="166" class="md">(character) · Care (relationships).</text>
+    <text x="690" y="186" class="sm">MiHA frame: most-harm-avoided test.</text>
+  </g>
+
+  <!-- Vertical connector down -->
+  <line x1="794" y1="222" x2="794" y2="284" class="cl"/>
+
+  <g>
+    <rect x="668" y="286" width="252" height="150" class="card" rx="12"/>
+    <rect x="668" y="286" width="10" height="150" rx="5" class="green"/>
+    <text x="690" y="314" class="step">4 · Decide &amp; justify</text>
+    <text x="690" y="334" class="md">Pick action + state the principle</text>
+    <text x="690" y="348" class="md">honoured (e.g., "least harm,</text>
+    <text x="690" y="362" class="md">maximum transparency").</text>
+    <text x="690" y="386" class="sm">Document in file; write if oral order,</text>
+    <text x="690" y="400" class="sm">anticipate audit trail (CVC lens).</text>
+  </g>
+
+  <line x1="656" y1="361" x2="626" y2="361" class="cl"/>
+
+  <g>
+    <rect x="354" y="286" width="270" height="150" class="card" rx="12"/>
+    <rect x="354" y="286" width="10" height="150" rx="5" class="amber"/>
+    <text x="376" y="314" class="step">5 · Follow up &amp; fix systems</text>
+    <text x="376" y="334" class="md">Outcome-metric (did the harm fall?);</text>
+    <text x="376" y="348" class="md">address root cause (SOP fix, training,</text>
+    <text x="376" y="362" class="md">hotline, grievance ergonomics).</text>
+    <text x="376" y="386" class="sm">Close the loop → public trust metric:</text>
+    <text x="376" y="400" class="sm">trust rebuilt = success test.</text>
+  </g>
+
+  <!-- Citation shelf -->
+  <rect x="40" y="286" width="270" height="150" class="card" rx="12"/>
+  <rect x="40" y="286" width="10" height="150" rx="5" class="green"/>
+  <text x="62" y="314" class="step">Thinkers on-call</text>
+  <text x="62" y="334" class="md">Kant · Mill · Rawls · Arendt · Gandhi</text>
+  <text x="62" y="348" class="md">Aristotle (phronesis) · Buddha (middle path)</text>
+  <text x="62" y="372" class="sm">Drop 1–2 citations per answer — enough to</text>
+  <text x="62" y="386" class="sm">signal framework literacy without name-dropping.</text>
+  <text x="62" y="410" class="sm">Nolan-7 in written form = 2-mark boost often.</text>
+
+  <!-- bottom footnotes -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Use the wheel on every GS-4 case. The filter stack &amp; written-record step are the most-rewarded parts per answer-key patterns.</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-IV · Ethics Foundations</text>
+</svg>

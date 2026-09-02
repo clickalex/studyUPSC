@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .title{font-size:20px;font-weight:700;fill:#0f172a}
+      .sub{font-size:12px;fill:#64748b}
+      .band{fill:none;stroke:#cbd5e1;stroke-width:2}
+      .tick{stroke:#94a3b8;stroke-width:1}
+      .lbl{font-size:11px;fill:#334155}
+      .lbl-sm{font-size:10px;fill:#64748b}
+      .node{fill:#ffffff;stroke:#334155}
+      .amber{fill:#f59e0b}
+      .green{fill:#22c55e}
+      .chip{rx:10}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bg)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="title">Indian Temple &amp; Monument Architecture — Timeline &amp; Style Lines</text>
+  <text x="30" y="56" class="sub">Nagara · Dravida · Vesara · Rock-cut &amp; Islamic transitions (2nd c. BCE → 18th c. CE)</text>
+
+  <!-- Baseline timeline -->
+  <line x1="60" y1="430" x2="900" y2="430" class="band"/>
+  <g>
+    <line x1="60" y1="424" x2="60" y2="436" class="tick"/><text x="60" y="452" class="lbl-sm" text-anchor="middle">200 BCE</text>
+    <line x1="180" y1="424" x2="180" y2="436" class="tick"/><text x="180" y="452" class="lbl-sm" text-anchor="middle">250 CE</text>
+    <line x1="300" y1="424" x2="300" y2="436" class="tick"/><text x="300" y="452" class="lbl-sm" text-anchor="middle">700 CE</text>
+    <line x1="420" y1="424" x2="420" y2="436" class="tick"/><text x="420" y="452" class="lbl-sm" text-anchor="middle">950 CE</text>
+    <line x1="540" y1="424" x2="540" y2="436" class="tick"/><text x="540" y="452" class="lbl-sm" text-anchor="middle">1050 CE</text>
+    <line x1="660" y1="424" x2="660" y2="436" class="tick"/><text x="660" y="452" class="lbl-sm" text-anchor="middle">1200 CE</text>
+    <line x1="780" y1="424" x2="780" y2="436" class="tick"/><text x="780" y="452" class="lbl-sm" text-anchor="middle">1550 CE</text>
+    <line x1="900" y1="424" x2="900" y2="436" class="tick"/><text x="900" y="452" class="lbl-sm" text-anchor="middle">1750+</text>
+  </g>
+
+  <!-- Events / nodes -->
+  <!-- Rock-cut Buddhist -->
+  <circle cx="110" cy="400" r="7" class="node"/><circle cx="110" cy="400" r="3.5" class="amber"/>
+  <text x="110" y="384" class="lbl" text-anchor="middle">Ajanta (Buddhist)</text>
+  <text x="110" y="370" class="lbl-sm" text-anchor="middle">2nd c. BCE–6th c. CE</text>
+
+  <circle cx="150" cy="330" r="7" class="node"/><circle cx="150" cy="330" r="3.5" class="green"/>
+  <text x="150" y="314" class="lbl" text-anchor="middle">Sanchi stupa + toranas</text>
+  <text x="150" y="300" class="lbl-sm" text-anchor="middle">Ashoka base; Shunga/Satavahana additions</text>
+
+  <circle cx="270" cy="380" r="7" class="node"/><circle cx="270" cy="380" r="3.5" class="amber"/>
+  <text x="270" y="364" class="lbl" text-anchor="middle">Ellora (34 caves)</text>
+  <text x="270" y="350" class="lbl-sm" text-anchor="middle">incl. Kailasa (Rashtrakuta, 8th c.)</text>
+
+  <!-- Nagara -->
+  <circle cx="430" cy="300" r="8" class="node"/><circle cx="430" cy="300" r="4" class="amber"/>
+  <text x="430" y="284" class="lbl" text-anchor="middle">Khajuraho (Chandela)</text>
+  <text x="430" y="270" class="lbl-sm" text-anchor="middle">Nagara peak: curvilinear shikhara, amalaka</text>
+
+  <circle cx="540" cy="250" r="8" class="node"/><circle cx="540" cy="250" r="4" class="green"/>
+  <text x="540" y="234" class="lbl" text-anchor="middle">Brihadisvara, Thanjavur (Rajaraja I, 1010)</text>
+  <text x="540" y="220" class="lbl-sm" text-anchor="middle">Dravida peak: pyramidal vimana + gopuram lineage</text>
+
+  <circle cx="620" cy="320" r="7" class="node"/><circle cx="620" cy="320" r="3.5" class="amber"/>
+  <text x="620" y="304" class="lbl" text-anchor="middle">Konark Sun Temple</text>
+  <text x="620" y="290" class="lbl-sm" text-anchor="middle">Eastern Ganga (13th c.) — chariot of Surya</text>
+
+  <!-- Vesara -->
+  <circle cx="470" cy="200" r="8" class="node"/><circle cx="470" cy="200" r="4" class="green"/>
+  <text x="470" y="184" class="lbl" text-anchor="middle">Pattadakal &amp; Badami (Chalukya)</text>
+  <text x="470" y="170" class="lbl-sm" text-anchor="middle">Vesara experiments; UNESCO ensemble</text>
+
+  <circle cx="600" cy="160" r="8" class="node"/><circle cx="600" cy="160" r="4" class="amber"/>
+  <text x="600" y="144" class="lbl" text-anchor="middle">Belur–Halebidu (Hoysala)</text>
+  <text x="600" y="130" class="lbl-sm" text-anchor="middle">soapstone filigree; stellate plan; UNESCO 2023</text>
+
+  <!-- Islamic / Sultanate / Mughal -->
+  <circle cx="700" cy="380" r="8" class="node"/><circle cx="700" cy="380" r="4" class="green"/>
+  <text x="700" y="364" class="lbl" text-anchor="middle">Qutb Minar &amp; Alai Darwaza</text>
+  <text x="700" y="350" class="lbl-sm" text-anchor="middle">Sultanate (Delhi) — arcuate turn</text>
+
+  <circle cx="800" cy="250" r="8" class="node"/><circle cx="800" cy="250" r="4" class="amber"/>
+  <text x="800" y="234" class="lbl" text-anchor="middle">Humayun's Tomb → Taj Mahal</text>
+  <text x="800" y="220" class="lbl-sm" text-anchor="middle">charbagh garden-tomb → Shah Jahan's marble apex</text>
+
+  <circle cx="860" cy="150" r="8" class="node"/><circle cx="860" cy="150" r="4" class="green"/>
+  <text x="860" y="134" class="lbl" text-anchor="middle">Deccan: Gol Gumbaz (1659)</text>
+  <text x="860" y="120" class="lbl-sm" text-anchor="middle">Bijapur dome; whispering gallery</text>
+
+  <!-- Footer legend strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <circle cx="40" cy="494" r="4" class="amber"/><text x="50" y="498" class="lbl-sm">Hindu / Nagara &amp; Vesara line</text>
+  <circle cx="240" cy="494" r="4" class="green"/><text x="250" y="498" class="lbl-sm">Buddhist, Dravida &amp; Islamic/Indo-Islamic line</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-I · Heritage &amp; Culture</text>
+</svg>

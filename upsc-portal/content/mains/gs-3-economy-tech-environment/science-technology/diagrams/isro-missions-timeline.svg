@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgST" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .axis{stroke:#cbd5e1;stroke-width:2;fill:none}
+      .tick{stroke:#94a3b8;stroke-width:1}
+      .sm{font-size:10px;fill:#64748b}
+      .md{font-size:11px;fill:#334155}
+      .node{fill:#fff;stroke:#334155}
+      .amber{fill:#f59e0b}.green{fill:#22c55e}
+      .legend{font-size:10px;fill:#334155}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bgST)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">ISRO Flagship Missions, 2023 → 2026 pipeline</text>
+  <text x="30" y="56" class="s">Completed milestones (green) · launched/in-flight (amber) · upcoming steps (grey outline)</text>
+
+  <!-- Axis -->
+  <line x1="70" y1="400" x2="890" y2="400" class="axis"/>
+  <g>
+    <line x1="100" y1="394" x2="100" y2="406" class="tick"/><text x="100" y="420" class="sm" text-anchor="middle">2023</text>
+    <line x1="300" y1="394" x2="300" y2="406" class="tick"/><text x="300" y="420" class="sm" text-anchor="middle">2024</text>
+    <line x1="500" y1="394" x2="500" y2="406" class="tick"/><text x="500" y="420" class="sm" text-anchor="middle">2025</text>
+    <line x1="700" y1="394" x2="700" y2="406" class="tick"/><text x="700" y="420" class="sm" text-anchor="middle">2026</text>
+    <line x1="890" y1="394" x2="890" y2="406" class="tick"/><text x="890" y="420" class="sm" text-anchor="middle">…</text>
+  </g>
+
+  <!-- 2023 stack -->
+  <circle cx="120" cy="330" r="8" class="node"/><circle cx="120" cy="330" r="4" class="green"/>
+  <text x="120" y="298" class="md" text-anchor="middle">Chandrayaan-3</text>
+  <text x="120" y="284" class="sm" text-anchor="middle">south-polar soft landing · 23 Aug</text>
+
+  <circle cx="210" cy="250" r="8" class="node"/><circle cx="210" cy="250" r="4" class="green"/>
+  <text x="210" y="218" class="md" text-anchor="middle">Aditya-L1</text>
+  <text x="210" y="204" class="sm" text-anchor="middle">first solar observatory · L1 halo from Sep</text>
+
+  <circle cx="260" cy="320" r="8" class="node"/><circle cx="260" cy="320" r="4" class="green"/>
+  <text x="260" y="288" class="md" text-anchor="middle">Gaganyaan TV-D1</text>
+  <text x="260" y="274" class="sm" text-anchor="middle">crew-escape abort test · Oct</text>
+
+  <!-- 2024 stack -->
+  <circle cx="330" cy="360" r="8" class="node"/><circle cx="330" cy="360" r="4" class="green"/>
+  <text x="330" y="330" class="md" text-anchor="middle">XPoSat</text>
+  <text x="330" y="316" class="sm" text-anchor="middle">X-ray polarimetry · Jan</text>
+
+  <circle cx="380" cy="270" r="8" class="node"/><circle cx="380" cy="270" r="4" class="green"/>
+  <text x="380" y="238" class="md" text-anchor="middle">INSAT-3DS · SSLV D-3</text>
+  <text x="380" y="224" class="sm" text-anchor="middle">meteorology + EOS-08</text>
+
+  <circle cx="430" cy="330" r="8" class="node"/><circle cx="430" cy="330" r="4" class="green"/>
+  <text x="430" y="298" class="md" text-anchor="middle">SpaDeX launch</text>
+  <text x="430" y="284" class="sm" text-anchor="middle">docking tech demo · 30 Dec</text>
+
+  <!-- 2025 stack -->
+  <circle cx="510" cy="300" r="8" class="node"/><circle cx="510" cy="300" r="4" class="green"/>
+  <text x="510" y="268" class="md" text-anchor="middle">SpaDeX docking</text>
+  <text x="510" y="254" class="sm" text-anchor="middle">autonomous dock &amp; undock · Jan</text>
+
+  <circle cx="560" cy="230" r="8" class="node"/><circle cx="560" cy="230" r="4" class="amber"/>
+  <text x="560" y="198" class="md" text-anchor="middle">NISAR</text>
+  <text x="560" y="184" class="sm" text-anchor="middle">ISRO-NASA SAR · Jul (GSLV-F16)</text>
+
+  <circle cx="620" cy="330" r="8" class="node"/><circle cx="620" cy="330" r="4" class="green"/>
+  <text x="620" y="298" class="md" text-anchor="middle">Gaganyaan G1/G2 pipeline</text>
+  <text x="620" y="284" class="sm" text-anchor="middle">uncrewed qualification flights</text>
+
+  <!-- 2026 stack -->
+  <circle cx="720" cy="260" r="8" class="node"/><circle cx="720" cy="260" r="4" class="amber"/>
+  <text x="720" y="228" class="md" text-anchor="middle">Crewed Gaganyaan window</text>
+  <text x="720" y="214" class="sm" text-anchor="middle">post-qualified hardware</text>
+
+  <circle cx="800" cy="320" r="8" class="node"/><circle cx="800" cy="320" r="3.5" fill="#94a3b8"/>
+  <text x="800" y="288" class="md" text-anchor="middle">Bharatiya Antariksh Station</text>
+  <text x="800" y="274" class="sm" text-anchor="middle">operational target ~2035</text>
+
+  <!-- Caption box -->
+  <rect x="60" y="60" width="480" height="70" rx="10" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <circle cx="80" cy="82" r="4" class="green"/>
+  <text x="92" y="86" class="md">Ch-3 remains the pivotal credibility event — future landers inherit its Lander Cargo design lineage.</text>
+  <circle cx="80" cy="104" r="4" class="amber"/>
+  <text x="92" y="108" class="md">SpaDeX docking (Jan 2025) is the structural unlock toward an Indian space station.</text>
+
+  <!-- Footer strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Illustrative placements: dates reflect public ISRO/PIB releases; future items are indicative not committed.</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-III · Science &amp; Technology</text>
+</svg>

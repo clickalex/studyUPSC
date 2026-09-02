@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgSec" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .hd{font-size:12px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10px;fill:#64748b}
+      .amber{fill:#f59e0b}.green{fill:#22c55e}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bgSec)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">India's Border Forces — Geography, Threats &amp; Fixes</text>
+  <text x="30" y="56" class="s">Border × guarding force × live issue × technology/Policy response</text>
+
+  <!-- Cards grid: 3 columns x 2 rows -->
+  <g>
+    <rect x="40" y="80" width="280" height="150" class="card" rx="10"/>
+    <circle cx="60" cy="104" r="6" class="amber"/>
+    <text x="76" y="108" class="hd">India–Pakistan · 3,323 km</text>
+    <text x="64" y="128" class="md">Force: BSF</text>
+    <text x="64" y="144" class="sm">Threats: drone-drops (Punjab), infiltration across LC, smuggling</text>
+    <text x="64" y="158" class="sm">Fixes: anti-UAS procurement; smart fencing/CIBMS; IWT "abeyance"</text>
+    <text x="64" y="172" class="sm">2025 marker: post-Op Sindoor escalation-management posture</text>
+    <text x="64" y="186" class="sm">Water: Ravi-Beas revival projects on Indian side</text>
+
+    <rect x="340" y="80" width="280" height="150" class="card" rx="10"/>
+    <circle cx="360" cy="104" r="6" class="amber"/>
+    <text x="376" y="108" class="hd">India–China (LAC) · 3,488 km</text>
+    <text x="364" y="128" class="md">Forces: ITBP + Indian Army</text>
+    <text x="364" y="144" class="sm">Status: post-Galwan buffer zones; Oct-24 patrolling resumption</text>
+    <text x="364" y="158" class="sm">Infra: Atal Tunnel '20 · Sela Tunnel '24 · Shinku La plan · VVP-II villages</text>
+    <text x="364" y="172" class="sm">Friction: Depsang/Demchok patrolling legacy; Yangtse flashpoints</text>
+    <text x="364" y="186" class="sm">Trade lever: LAC confidence-building measures (new WMCC rounds)</text>
+
+    <rect x="640" y="80" width="280" height="150" class="card" rx="10"/>
+    <circle cx="660" cy="104" r="6" class="green"/>
+    <text x="676" y="108" class="hd">India–Nepal · 1,751 km</text>
+    <text x="664" y="128" class="md">Force: SSB (open border)</text>
+    <text x="664" y="144" class="sm">Issues: currency+smuggling misuse; Kalapani-Lipulekh territorial</text>
+    <text x="664" y="158" class="sm">dispute; Madhesi-linked political temperature</text>
+    <text x="664" y="172" class="sm">Fixes: Integrated Check Posts (ICP); bilateral mechanisms (IG/SG talks)</text>
+    <text x="664" y="186" class="sm">Connectivity: Jaynagar-Kurtha railway + petroleum pipeline</text>
+  </g>
+
+  <g>
+    <rect x="40" y="250" width="280" height="150" class="card" rx="10"/>
+    <circle cx="60" cy="274" r="6" class="green"/>
+    <text x="76" y="278" class="hd">India–Bangladesh · 4,096 km</text>
+    <text x="64" y="298" class="md">Force: BSF</text>
+    <text x="64" y="314" class="sm">Issues: riverine fencing gaps; cattle/human smuggling; post-Hasina</text>
+    <text x="64" y="328" class="sm">(Aug 2024) custodial pressures at zero-line</text>
+    <text x="64" y="342" class="sm">Fixes: CIBMS tech deployment in Sunderbans; Joint River Commission</text>
+    <text x="64" y="356" class="sm">activated; Maitree/pipeline/fibre connectivity pace tracking</text>
+
+    <rect x="340" y="250" width="280" height="150" class="card" rx="10"/>
+    <circle cx="360" cy="274" r="6" class="amber"/>
+    <text x="376" y="278" class="hd">India–Myanmar · 1,643 km</text>
+    <text x="364" y="298" class="md">Force: Assam Rifles</text>
+    <text x="364" y="314" class="sm">FMR suspended (Dec 2024); fencing debate in Mizoram/Nagaland/Manipur</text>
+    <text x="364" y="328" class="sm">Spillover: Myanmar civil-war refugees; Kuki-Chin cross-border kinships</text>
+    <text x="364" y="342" class="sm">Fixes: border haats; ICP Moreh upgrade; Act East Kaladan multimodal</text>
+    <text x="364" y="356" class="sm">(Sittwe inland waterway commissioning phases)</text>
+
+    <rect x="640" y="250" width="280" height="150" class="card" rx="10"/>
+    <circle cx="660" cy="274" r="6" class="green"/>
+    <text x="676" y="278" class="hd">India–Bhutan · 699 km</text>
+    <text x="664" y="298" class="md">Force: SSB</text>
+    <text x="664" y="314" class="sm">Stable but linked to Doklam trijunction watch + China sway politics</text>
+    <text x="664" y="328" class="sm">Hydropower interdependency as anchor</text>
+    <text x="664" y="342" class="sm">Fixes: joint boundary panels; economic interdependence anchors</text>
+    <text x="664" y="356" class="sm">Gelephu Mindfulness City as regional pivot</text>
+
+    <!-- Coastal note card -->
+    <rect x="40" y="416" width="880" height="56" class="card" rx="10"/>
+    <circle cx="60" cy="444" r="6" class="amber"/>
+    <text x="76" y="448" class="hd">Coastal + Island watch</text>
+    <text x="64" y="464" class="sm">NC3I network + coastal radar Phase I/II · Sagar Kavach drills · ICG expansion (200+ vessels ambition) · ANC tri-service command anchors Andaman defence logic</text>
+  </g>
+
+  <!-- Footer strip -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Border lengths = MHA-cited approximations; "live issue" rows reflect mid-2026 public reporting; verify for exam.</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-III · Security &amp; Disaster</text>
+</svg>
