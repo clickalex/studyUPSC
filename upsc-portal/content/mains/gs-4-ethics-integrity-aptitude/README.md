@@ -1,6 +1,11 @@
 # General Studies IV — Ethics, Integrity & Aptitude
 
-Ethics & Human Interface · Attitude · Emotional Intelligence · Thinkers · Probity in Governance · Case Studies.
+Two topic folders, each with the standard 5-section set
+(`detailed-notes/` · `short-notes/` · `bullet-points/` · `diagrams/` · `pyqs/`):
 
-> Case studies are the highest-scoring part — keep a `case-studies/` folder of
-> solved cases with framework notes.
+- `ethics-foundations/` — ethics & human interface, attitude, aptitude, EI, thinkers, conscience
+- `governance-probity-case-studies/` — probity, transparency/RTI, corruption, service delivery, case-study method
+
+Companion: `../essay-frameworks/` covers the Mains essay paper (not a GS folder).
+
+After adding/editing files: `node cli/generate.mjs` from `upsc-portal/` re-indexes them.

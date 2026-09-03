@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Earth's interior + plate boundaries — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="558" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Earth's Interior &amp; Plate Boundaries</text>
+
+  <!-- Left: Earth half cross-section -->
+  <g>
+    <!-- circles centered at (400, 300) -->
+    <circle cx="400" cy="300" r="210" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+    <circle cx="400" cy="300" r="150" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="400" cy="300" r="78" fill="#ffedd5" stroke="#fb923c" stroke-width="2"/>
+    <circle cx="400" cy="300" r="30" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+
+    <!-- labels -->
+    <text x="400" y="96" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">CRUST (0–35 km; oceanic ~5–10 km) — SIAL over SIMA</text>
+    <text x="400" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="#92400e">MANTLE (~35–2900 km) — asthenosphere ~100–250 km</text>
+    <text x="400" y="230" text-anchor="middle" font-size="12" font-weight="700" fill="#c2410c">OUTER CORE (2900–5150 km) — liquid Fe-Ni</text>
+    <text x="400" y="296" text-anchor="middle" font-size="11.5" font-weight="700" fill="#9a3412">INNER CORE solid</text>
+    <text x="400" y="312" text-anchor="middle" font-size="11.5" fill="#9a3412">Fe-Ni ~5150–6371 km</text>
+
+    <!-- discontinuity ticks -->
+    <g font-size="10.5" fill="#64748b">
+      <text x="200" y="500" font-weight="700">Discontinuities:</text>
+      <text x="200" y="516">Moho — crust/mantle · Gutenberg — mantle/core</text>
+      <text x="200" y="532">Lehmann — outer/inner core</text>
+      <text x="200" y="548">Proof: S-waves stop at the outer core (liquid)</text>
+    </g>
+  </g>
+
+  <!-- Right: plate boundaries column -->
+  <text x="660" y="90" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">PLATE BOUNDARIES</text>
+
+  <g font-size="11.5">
+    <rect x="560" y="104" width="310" height="92" rx="8" fill="#fffbeb" stroke="#f59e0b"/>
+    <text x="574" y="124" font-weight="700" fill="#92400e">DIVERGENT (constructive)</text>
+    <text x="574" y="141" fill="#334155">Plates separate; magma rises — new crust</text>
+    <text x="574" y="156" fill="#334155">Examples: Mid-Atlantic Ridge · East African Rift</text>
+    <text x="574" y="171" fill="#334155">Landforms: mid-ocean ridges · rift valleys</text>
+    <!-- arrows: apart -->
+    <line x1="600" y1="182" x2="575" y2="182" stroke="#92400e" stroke-width="2" marker-end="url(#aL)"/>
+    <line x1="700" y1="182" x2="725" y2="182" stroke="#92400e" stroke-width="2" marker-end="url(#aR)"/>
+
+    <rect x="560" y="210" width="310" height="92" rx="8" fill="#fef2f2" stroke="#ef4444"/>
+    <text x="574" y="230" font-weight="700" fill="#b91c1c">CONVERGENT (destructive)</text>
+    <text x="574" y="247" fill="#334155">Collision / subduction — crust is consumed</text>
+    <text x="574" y="262" fill="#334155">Examples: Himalayas (Indo-Australian × Eurasian)</text>
+    <text x="574" y="277" fill="#334155">Landforms: fold mountains · island arcs · trenches</text>
+    <!-- arrows: together -->
+    <line x1="575" y1="289" x2="600" y2="289" stroke="#b91c1c" stroke-width="2" marker-end="url(#aR)"/>
+    <line x1="725" y1="289" x2="700" y2="289" stroke="#b91c1c" stroke-width="2" marker-end="url(#aL)"/>
+
+    <rect x="560" y="316" width="310" height="92" rx="8" fill="#f0fdf4" stroke="#22c55e"/>
+    <text x="574" y="336" font-weight="700" fill="#166534">TRANSFORM (conservative)</text>
+    <text x="574" y="353" fill="#334155">Plates slide laterally — crust neither made nor lost</text>
+    <text x="574" y="368" fill="#334155">Example: San Andreas Fault (Pacific × N. American)</text>
+    <text x="574" y="383" fill="#334155">Landforms: fault zones · offset streams</text>
+    <!-- arrows: opposite vertical -->
+    <line x1="613" y1="378" x2="613" y2="400" stroke="#166534" stroke-width="2" marker-end="url(#aD)"/>
+    <line x1="687" y1="400" x2="687" y2="378" stroke="#166534" stroke-width="2" marker-end="url(#aU)"/>
+  </g>
+
+  <defs>
+    <marker id="aL" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M6,0 L0,3 L6,6 Z" fill="#64748b"/></marker>
+    <marker id="aR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
+    <marker id="aD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
+    <marker id="aU" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/></marker>
+  </defs>
+
+  <!-- Footer -->
+  <rect x="30" y="438" width="510" height="76" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="44" y="460" font-size="12" font-weight="700" fill="#0f172a">Geology headline events for answers</text>
+  <g font-size="11.5" fill="#334155">
+    <text x="44" y="478">• Wegener (1912) drift hypothesis → Hess (1962) seafloor spreading → plate tectonics (1967)</text>
+    <text x="44" y="495">• Deccan Traps (~66 Ma; Réunion hotspot) · 2004 tsunami — Sumatra megathrust</text>
+  </g>
+
+  <rect x="560" y="424" width="310" height="90" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="574" y="446" font-size="12" font-weight="700" fill="#92400e">India's seismic reality</text>
+  <g font-size="11.5" fill="#334155">
+    <text x="574" y="464">• India rides the Indo-Australian plate into Eurasia</text>
+    <text x="574" y="480">• Zone V = highest risk (NE, Kashmir, Kutch)</text>
+    <text x="574" y="496">• Tsunami warning centre: INCOIS, Hyderabad (2004+)</text>
+  </g>
+</svg>

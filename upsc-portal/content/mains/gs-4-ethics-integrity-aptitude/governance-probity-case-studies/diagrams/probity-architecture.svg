@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgP" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .hd{font-size:12px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10px;fill:#64748b}
+      .amber{fill:#f59e0b}.green{fill:#22c55e}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="520" rx="14" fill="url(#bgP)" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Probity Architecture — Prevention, Detection, Correction loops</text>
+  <text x="30" y="56" class="s">Mapping the instruments across an integrity cycle (with statutory citers)</text>
+
+  <!-- Three vertical bands -->
+  <g>
+    <rect x="40" y="80" width="280" height="340" class="card" rx="12"/>
+    <rect x="40" y="80" width="280" height="34" rx="12" fill="#fef3c7"/>
+    <text x="56" y="102" class="hd">PREVENTION (upstream)</text>
+    <text x="60" y="134" class="md">• Codes — AIS 1968 · CCS 1964 conduct rules</text>
+    <text x="60" y="152" class="md">• Ethics training — LBSNAA modules ("2nd ARC")</text>
+    <text x="60" y="170" class="md">• Conflict-of-interest disclosures · gift norms</text>
+    <text x="60" y="188" class="md">• Citizen charters → Sevottam service standards</text>
+    <text x="60" y="206" class="md">• GeM + CPPP (e-procurement) · Integrity Pacts/IEM</text>
+    <text x="60" y="224" class="md">• Social audit pipelines (MGNREGA → AP model)</text>
+    <text x="60" y="242" class="md">• Whistle-blower protection (WBP Act 2014)</text>
+    <text x="60" y="260" class="md">• Open data + Sec 4 RTI proactive disclosure</text>
+    <text x="60" y="288" class="sm">Moral of band: system design removes temptation pathways.</text>
+    <text x="60" y="306" class="sm">Tools anchor: Nolan-7 values + 2nd ARC ethics-in-gov chapters.</text>
+    <text x="60" y="336" class="sm">Quality signals: ISO-certified services; faceless assessment (IT)</text>
+    <text x="60" y="354" class="sm">reduces contact-based corruption; DBT plumbing works upstream.</text>
+    <text x="60" y="372" class="sm">Budget hooks: GFR 2017, procurement manuals, VGF/PPP discipline.</text>
+  </g>
+
+  <g>
+    <rect x="340" y="80" width="280" height="340" class="card" rx="12"/>
+    <rect x="340" y="80" width="280" height="34" rx="12" fill="#dcfce7"/>
+    <text x="356" y="102" class="hd">DETECTION &amp; INVESTIGATION</text>
+    <text x="360" y="134" class="md">• Audit — CAG (constitutional; PAC downstream)</text>
+    <text x="360" y="152" class="md">• CVC supervision over departmental vigilance (CVOs)</text>
+    <text x="360" y="170" class="md">• CBI — DSPE-derived; fixed tenure (Vineet Narain)</text>
+    <text x="360" y="188" class="md">• ED — PMLA tail-enforcement of predicate offences</text>
+    <text x="360" y="206" class="md">• Lokpal &amp; Lokayuktas Act 2013 (civic complainant)</text>
+    <text x="360" y="224" class="md">• Internal: IB-led surprise checks; e-audit trails</text>
+    <text x="360" y="242" class="md">• Fast-follow via IT Act + I4C for cyber-fraud syndicates</text>
+    <text x="360" y="260" class="md">• Forensic audit ecosystems (SFIO, banks' early-warning sig.)</text>
+    <text x="360" y="288" class="sm">Reforms tension: s17A prior-approval shields vs proactive hunt.</text>
+    <text x="360" y="306" class="sm">Balance saved through judicial oversight (quash/transfer options).</text>
+    <text x="360" y="336" class="sm">Constraint: capacity (vacancies, forensic staff) &amp; state consent</text>
+    <text x="360" y="354" class="sm">for CBI — general consent withdrawal churn (multistate cases).</text>
+    <text x="360" y="372" class="sm">Track note: ED conviction-rate debates highlight process quality.</text>
+  </g>
+
+  <g>
+    <rect x="640" y="80" width="280" height="340" class="card" rx="12"/>
+    <rect x="640" y="80" width="280" height="34" rx="12" fill="#e0f2fe"/>
+    <text x="656" y="102" class="hd">CORRECTION &amp; ACCOUNTABILITY</text>
+    <text x="660" y="134" class="md">• Prosecution &amp; courts (PC Act penalties post-BNS/BNSS 2023)</text>
+    <text x="660" y="152" class="md">• Departmental discipline — CCA rules; promotion bars</text>
+    <text x="660" y="170" class="md">• Asset recovery — PMLA attachment; shell-company strike-offs</text>
+    <text x="660" y="188" class="md">• Service-level compensation (MP Lok Sewa / Sakala-style penalties)</text>
+    <text x="660" y="206" class="md">• Systemic redress — CPGRAMS closure metrics + Sevottam re-certs</text>
+    <text x="660" y="224" class="md">• Reform learning — post-scam GFR tweaks, GeM category reviews</text>
+    <text x="660" y="242" class="md">• Public messaging — transparency reports (CVC annual, audit news)</text>
+    <text x="660" y="260" class="md"> defeat lessons-learned: integrity dashboards; outcome metrics</text>
+    <text x="660" y="288" class="sm">Equity guard: justice to least-advantaged insured via compensation</text>
+    <text x="660" y="306" class="sm">clauses and exception-desks in DBT/pension flows.</text>
+    <text x="660" y="336" class="sm">Most-overlooked: closure-reports quality ("treated-as-closed" loops</text>
+    <text x="660" y="354" class="sm">in CPGRAMS) — auditors should re-sample citizen confirmations.</text>
+    <text x="660" y="372" class="sm">KPI north-star: public trust indices, not merely conviction counts.</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="24" y="482" width="912" height="24" rx="6" fill="#f1f5f9"/>
+  <text x="40" y="498" class="sm">Loop logic: prevention failures become detection loads; detection feeds correction; correction experiences re-engineer prevention.</text>
+  <text x="880" y="498" class="foot" text-anchor="end">StudyUPSC · GS-IV · Governance &amp; Probity</text>
+</svg>

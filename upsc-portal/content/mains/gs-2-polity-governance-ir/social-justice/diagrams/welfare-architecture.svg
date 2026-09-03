@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- India's welfare state architecture — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="578" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">India's Welfare State Architecture</text>
+  <text x="450" y="56" text-anchor="middle" font-size="12" fill="#64748b">Constitution → rights → delivery stack → missions (as of 2026)</text>
+
+  <!-- Layer 1: Constitution -->
+  <rect x="30" y="72" width="840" height="52" rx="10" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="450" y="94" text-anchor="middle" font-size="12.5" font-weight="700" fill="#b91c1c">CONSTITUTION</text>
+  <text x="450" y="112" text-anchor="middle" font-size="11.5" fill="#334155">Preamble (justice) · FRs 14–16, 17, 21, 21A · DPSP 38–47 · 73rd/74th Amendments (local delivery)</text>
+
+  <!-- Layer 2: Rights instruments -->
+  <rect x="30" y="136" width="840" height="52" rx="10" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="450" y="158" text-anchor="middle" font-size="12.5" font-weight="700" fill="#92400e">RIGHTS INSTRUMENTS (statutes)</text>
+  <text x="450" y="176" text-anchor="middle" font-size="11.5" fill="#334155">RTI 2005 · RTE 2009 · NFSA 2013 · FRA 2006 · RPwD 2016 · PoA 1989 · Employment guarantee: MGNREGA 2005 → VB-G RAM G 2025/26</text>
+
+  <!-- Layer 3: Delivery stack -->
+  <rect x="30" y="200" width="840" height="64" rx="10" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="450" y="224" text-anchor="middle" font-size="12.5" font-weight="700" fill="#166534">DELIVERY STACK — JAM + LOCAL INSTITUTIONS</text>
+  <text x="450" y="243" text-anchor="middle" font-size="11.5" fill="#334155">Jan Dhan (56 cr+) · Aadhaar · Mobile → DBT · SECC-2011 registries · e-Shram (29 cr+)</text>
+  <text x="450" y="258" text-anchor="middle" font-size="11.5" fill="#334155">Gram Panchayats · Anganwadis (14 lakh) · SHGs (DAY-NRLM) · PDS shops (5.4 lakh) · bank correspondents</text>
+
+  <!-- Layer 4: Mission grid -->
+  <text x="450" y="292" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">MISSION GRID (by domain)</text>
+  <g font-size="11.5">
+    <rect x="30" y="304" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="324" font-weight="700" fill="#0f172a">Employment</text>
+    <text x="44" y="340" fill="#334155">VB-G RAM G — 125 days,</text>
+    <text x="44" y="355" fill="#334155">60:40 funding — from 1 Jul 2026</text>
+
+    <rect x="238" y="304" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="252" y="324" font-weight="700" fill="#0f172a">Food &amp; Nutrition</text>
+    <text x="252" y="340" fill="#334155">NFSA 2013 · PMGKAY</text>
+    <text x="252" y="355" fill="#334155">POSHAN 2.0 · PM POSHAN</text>
+
+    <rect x="446" y="304" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="460" y="324" font-weight="700" fill="#0f172a">Health</text>
+    <text x="460" y="340" fill="#334155">PM-JAY ₹5 lakh (70+ all)</text>
+    <text x="460" y="355" fill="#334155">AAMs 1.5 lakh · ABDM</text>
+
+    <rect x="654" y="304" width="216" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="668" y="324" font-weight="700" fill="#0f172a">Education &amp; HRD</text>
+    <text x="668" y="340" fill="#334155">RTE 2009 · NEP 2020 (5+3+3+4)</text>
+    <text x="668" y="355" fill="#334155">NIPUN Bharat · PM SHRI</text>
+
+    <rect x="30" y="380" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="44" y="400" font-weight="700" fill="#0f172a">Housing</text>
+    <text x="44" y="416" fill="#334155">PMAY-G/U (2015–16)</text>
+    <text x="44" y="431" fill="#334155">PMAY 2.0 (2024–29)</text>
+
+    <rect x="238" y="380" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="252" y="400" font-weight="700" fill="#0f172a">Water &amp; Sanitation</text>
+    <text x="252" y="416" fill="#334155">Swachh Bharat 2014</text>
+    <text x="252" y="431" fill="#334155">JJM 2019 → extended 2028</text>
+
+    <rect x="446" y="380" width="196" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="460" y="400" font-weight="700" fill="#0f172a">Women</text>
+    <text x="460" y="416" fill="#334155">BBBP'15 · Mission Shakti'21</text>
+    <text x="460" y="431" fill="#334155">106th Amend. — 33% (pending delimitation)</text>
+
+    <rect x="654" y="380" width="216" height="66" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="668" y="400" font-weight="700" fill="#0f172a">Vulnerable sections</text>
+    <text x="668" y="416" fill="#334155">PoA-AJAY · PM-JANMAN (PVTG)</text>
+    <text x="668" y="431" fill="#334155">Eklavya schools · Dharti Aaba ('24)</text>
+  </g>
+
+  <!-- Layer 5: Outcome metrics -->
+  <rect x="30" y="474" width="840" height="40" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="450" y="499" text-anchor="middle" font-size="12" fill="#92400e">Outcome data to cite: <tspan font-weight="700">NFHS-5 · PLFS · NITI SDG Index · National Health Accounts</tspan> — every scheme answer should quote one</text>
+
+  <!-- Footer -->
+  <rect x="30" y="526" width="840" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="450" y="547" text-anchor="middle" font-size="12" fill="#334155">Design eras: rights-based (2004–14) → saturation (2014–24) → <tspan font-weight="700">mission-mode guarantees (2025–)</tspan></text>
+</svg>

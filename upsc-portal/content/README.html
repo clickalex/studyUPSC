@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>content/ — Study Material Library · studyUPSC</title>
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#f59e0b;--bg:#f8fafc;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:32px 20px 80px}
+header{border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:24px;background:var(--card)}
+header .wrap{padding:0 20px;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.brand{font-weight:800;font-size:18px}
+.brand span{color:var(--accent)}
+.crumb{font-size:12px;color:var(--sub)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 34px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+h1{font-size:26px;line-height:1.25;margin:.2em 0 .5em}
+h2{font-size:20px;margin:1.4em 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.25em}
+h3{font-size:17px;margin:1.2em 0 .4em}
+h4,h5,h6{font-size:15px;margin:1em 0 .3em}
+a{color:#b45309;text-decoration:none}a:hover{text-decoration:underline}
+code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;background:#f1f5f9;border-radius:6px}
+code{padding:.15em .4em}
+pre{padding:14px 16px;overflow-x:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+blockquote{margin:1em 0;padding:.6em 1em;border-left:4px solid var(--accent);background:#fffbeb;border-radius:0 8px 8px 0;color:#44403c}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92em;display:block;overflow-x:auto}
+table td,table th{border:1px solid var(--line);padding:.45em .7em;text-align:left;vertical-align:top}
+table th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+ul,ol{padding-left:1.5em}
+li{margin:.25em 0}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
+footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
+@media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand">study<span>UPSC</span></div><div class="crumb">content</div><div class="crumb no-print" style="margin-left:auto"><a href="index.html">📚 All documents</a> · <a href="README.md">Markdown source</a></div></div></header>
+<div class="wrap"><div class="card">
+<h1 id="content-study-material-library">content/ — Study Material Library</h1>
+<p>Two branches mirror the exam. Every folder below corresponds to a node of the syllabus tree in <code>assets/js/data.js</code>, and every node has its own material (316 Markdown chapters, each with a styled <code>.html</code> twin, plus 23 SVG diagrams).</p>
+<pre><code>content/
+├── prelims/
+│   ├── gs1/                          # → paper "prelims-gs1"  (176 files)
+│   │   ├── history-culture/          #   4 branches · 19 leaf topics
+│   │   ├── geography/                #   4 branches · 12 leaf topics
+│   │   ├── polity-governance/        #   4 branches · 15 leaf topics
+│   │   ├── economy/                  #   5 branches · 12 leaf topics
+│   │   ├── environment-ecology/      #   3 branches ·  7 leaf topics
+│   │   └── science-tech/             #   2 branches ·  5 leaf topics
+│   │       └── &lt;branch&gt;/&lt;leaf&gt;/{short-notes/&lt;leaf&gt;-notes.md, pyqs/&lt;leaf&gt;-mcqs.md}
+│   ├── csat/                         # → "prelims-csat": comprehension, logical-reasoning,
+│   │                                 #   decision-making, numeracy (+ strategy notes, PYQ trends)
+│   └── mocks/                        # → "prelims-mocks"
+│       ├── full-length/pyqs/         #   GS-I mock 01 — 100 Qs, key + explanations
+│       ├── sectional-tests/pyqs/     #   6 subjects × 20 Qs
+│       └── csat-mock/pyqs/           #   30 Qs with worked solutions
+└── mains/
+    ├── gs-1-heritage-geography-society/   # → "gs-1"  (46 files, 11 SVGs)
+    │   ├── modern-history/&lt;6 sub-chapters&gt;/ · indian-heritage-culture/ · world-history/
+    │   └── indian-society/ · physical-geography/ · geography-world-india/
+    ├── gs-2-polity-governance-ir/         # → "gs-2"  constitution-polity, governance-administration,
+    │                                      #           social-justice, international-relations
+    ├── gs-3-economy-tech-environment/     # → "gs-3"  indian-economy, agriculture-food, science-technology,
+    │                                      #           environment-biodiversity, security-disaster
+    ├── gs-4-ethics-integrity-aptitude/    # → "gs-4"  8 syllabus facets + 2 study sets
+    ├── essay-frameworks/                  # → "essay" frameworks, topic bank, quotes, toppers' analysis
+    ├── optional-subjects/                 # 9 optionals: sociology, public-administration, history, geography,
+    │                                      #   polity (PSIR), philosophy, anthropology, economics, psychology
+    └── practice/                          # → "mains-practice"
+        ├── gs-1-practice/pyqs/ … gs-3-practice/pyqs/   # 30 questions each with answer frameworks
+        ├── gs-4-practice/pyqs/                         # 20 theory Qs + 6 case studies
+        └── essay-practice/pyqs/                        # 24 topics with outlines</code></pre>
+<p><strong>The five canonical sections</strong> under a Mains topic: <code>detailed-notes/</code> <code>short-notes/</code> <code>bullet-points/</code> <code>diagrams/</code> <code>pyqs/</code> Prelims leaves use the two that matter for MCQ preparation: <code>short-notes/</code> (fact card with a <strong>Traps</strong> list) and <code>pyqs/</code> (10 keyed MCQs).</p>
+<h2 id="conventions">Conventions</h2>
+<ul><li>Content-only tree: <strong>no empty placeholder folders</strong> (<code>find content -type d -empty</code> must print nothing).</li><li>Every prelims fact card opens with a syllabus pointer line, e.g. <code>&gt; Prelims GS-I › Geography › Indian Geography.</code></li><li>MCQ files end with an <code>## Answer key</code> table (<code>| Q | Ans | Why |</code>).</li><li>After adding or editing files, from <code>upsc-portal/</code> run</li></ul>
+<p><code>python3 cli/md2html.py</code> (HTML twins + <code>content/index.html</code>) and <code>node cli/generate.mjs</code> (file index + full-text search). Pushing to <code>main</code> also re-runs the generator through GitHub Actions.</p>
+</div>
+<footer>studyUPSC · generated from Markdown · print-friendly (Ctrl/Cmd+P)</footer>
+</div>
+</body>
+</html>

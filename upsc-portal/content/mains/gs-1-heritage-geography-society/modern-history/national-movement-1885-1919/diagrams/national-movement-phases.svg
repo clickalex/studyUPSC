@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Phases of the national movement 1885–1919 — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="518" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">Phases of the National Movement, 1885–1919</text>
+
+  <!-- Backbone -->
+  <line x1="60" y1="330" x2="840" y2="330" stroke="#cbd5e1" stroke-width="3"/>
+
+  <!-- Phase 1: Moderates -->
+  <rect x="60" y="60" width="250" height="180" rx="12" fill="#fffbeb" stroke="#f59e0b"/>
+  <text x="185" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">PHASE 1 · MODERATES</text>
+  <text x="185" y="106" text-anchor="middle" font-size="12" fill="#92400e">1885–1905</text>
+  <g font-size="11.5" fill="#334155">
+    <text x="76" y="134">• INC founded Bombay, 1885</text>
+    <text x="76" y="156">• Prayer &amp; petition methods</text>
+    <text x="76" y="178">• Naoroji · Mehta · Gokhale · Banerjee</text>
+    <text x="76" y="200">• Drain theory; councils reform</text>
+    <text x="76" y="222">• Indian Councils Act 1892</text>
+  </g>
+  <line x1="185" y1="240" x2="185" y2="330" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="185" cy="330" r="7" fill="#f59e0b"/>
+
+  <!-- Phase 2: Extremists -->
+  <rect x="340" y="60" width="230" height="180" rx="12" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="455" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#b91c1c">PHASE 2 · EXTREMISTS</text>
+  <text x="455" y="106" text-anchor="middle" font-size="12" fill="#b91c1c">1905–1919</text>
+  <g font-size="11.5" fill="#334155">
+    <text x="356" y="134">• Partition of Bengal 1905</text>
+    <text x="356" y="156">• Swadeshi &amp; Boycott</text>
+    <text x="356" y="178">• Tilak · Pal · Lajpat Rai · Aurobindo</text>
+    <text x="356" y="200">• Surat Split 1907</text>
+    <text x="356" y="222">• Partition annulled 1911</text>
+  </g>
+  <line x1="455" y1="240" x2="455" y2="330" stroke="#ef4444" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="455" cy="330" r="7" fill="#ef4444"/>
+
+  <!-- Phase 3: Gandhian dawn -->
+  <rect x="600" y="60" width="240" height="180" rx="12" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="720" y="86" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">PHASE 3 · GANDHIAN DAWN</text>
+  <text x="720" y="106" text-anchor="middle" font-size="12" fill="#166534">1915–1919</text>
+  <g font-size="11.5" fill="#334155">
+    <text x="616" y="134">• Gandhi returns, Jan 1915</text>
+    <text x="616" y="156">• Champaran 1917</text>
+    <text x="616" y="178">• Ahmedabad &amp; Kheda 1918</text>
+    <text x="616" y="200">• Rowlatt Satyagraha 1919</text>
+    <text x="616" y="222">• Jallianwala Bagh, 13 Apr 1919</text>
+  </g>
+  <line x1="720" y1="240" x2="720" y2="330" stroke="#22c55e" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="720" cy="330" r="7" fill="#22c55e"/>
+
+  <!-- Timeline markers below the backbone -->
+  <g font-size="11.5" fill="#334155">
+    <text x="80" y="356" font-weight="700" fill="#92400e">1885</text>
+    <text x="80" y="372">INC founded (Bombay)</text>
+
+    <text x="210" y="356" font-weight="700" fill="#92400e">1892</text>
+    <text x="210" y="372">Councils Act</text>
+
+    <text x="330" y="356" font-weight="700" fill="#b91c1c">1905</text>
+    <text x="330" y="372">Bengal partitioned</text>
+
+    <text x="450" y="356" font-weight="700" fill="#b91c1c">1907</text>
+    <text x="450" y="372">Surat Split</text>
+
+    <text x="560" y="356" font-weight="700" fill="#92400e">1916</text>
+    <text x="560" y="372">Lucknow Pact + Home Rule Leagues</text>
+
+    <text x="750" y="356" font-weight="700" fill="#166534">1919</text>
+    <text x="750" y="372">Rowlatt · Jallianwala</text>
+  </g>
+
+  <!-- Footer: the Girnar note — "Muslim League context" -->
+  <rect x="60" y="418" width="780" height="72" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="90" y="442" font-size="12.5" font-weight="700" fill="#0f172a">Parallel track: the Muslim League (1906)</text>
+  <g font-size="12" fill="#334155">
+    <text x="90" y="462">Founded at Dacca (30 Dec 1906) — Aga Khan, Nawab Salimullah · backed by Minto after the Simla Deputation.</text>
+    <text x="90" y="480">Lucknow Pact 1916 — Congress conceded separate electorates → tactical cooperation that ended by 1920.</text>
+  </g>
+</svg>

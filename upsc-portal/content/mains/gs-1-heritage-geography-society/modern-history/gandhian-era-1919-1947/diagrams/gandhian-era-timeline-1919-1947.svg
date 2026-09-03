@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gandhian era timeline 1919–1947 — studyUPSC -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" font-family="Inter, system-ui, sans-serif">
+  <rect x="1" y="1" width="898" height="698" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="450" y="34" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">The Gandhian Era — Timeline 1919–1947</text>
+
+  <!-- Column labels -->
+  <text x="150" y="60" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">MASS MOVEMENTS</text>
+  <text x="640" y="60" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#94a3b8">CONSTITUTIONAL &amp; WARTIME</text>
+
+  <!-- Column lines -->
+  <line x1="90" y1="72" x2="90" y2="664" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="580" y1="72" x2="580" y2="664" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Left: mass movements -->
+  <circle cx="90" cy="88" r="6" fill="#ef4444"/>
+  <text x="112" y="92" font-size="13" font-weight="700" fill="#b91c1c">1919</text>
+  <text x="172" y="92" font-size="13" fill="#334155">Rowlatt Act · Jallianwala Bagh (13 Apr)</text>
+
+  <circle cx="90" cy="120" r="6" fill="#f59e0b"/>
+  <text x="112" y="124" font-size="13" font-weight="700" fill="#92400e">1920</text>
+  <text x="172" y="124" font-size="13" fill="#334155">Non-Cooperation + Khilafat launched (Nagpur)</text>
+
+  <circle cx="90" cy="152" r="6" fill="#f59e0b"/>
+  <text x="112" y="156" font-size="13" font-weight="700" fill="#92400e">1922</text>
+  <text x="172" y="156" font-size="13" fill="#334155">Chauri Chaura (5 Feb) → movement withdrawn</text>
+
+  <circle cx="90" cy="184" r="6" fill="#f59e0b"/>
+  <text x="112" y="188" font-size="13" font-weight="700" fill="#92400e">1923</text>
+  <text x="172" y="188" font-size="13" fill="#334155">Swaraj Party (C.R. Das &amp; Motilal Nehru)</text>
+
+  <circle cx="90" cy="216" r="6" fill="#f59e0b"/>
+  <text x="112" y="220" font-size="13" font-weight="700" fill="#92400e">1928</text>
+  <text x="172" y="220" font-size="13" fill="#334155">Simon boycott · Bardoli · Nehru Report</text>
+
+  <circle cx="90" cy="248" r="8" fill="#ef4444"/>
+  <text x="112" y="252" font-size="13" font-weight="700" fill="#b91c1c">1930</text>
+  <text x="172" y="252" font-size="13" font-weight="700" fill="#334155">Dandi March → Salt Satyagraha → Civil Disobedience</text>
+
+  <circle cx="90" cy="280" r="6" fill="#f59e0b"/>
+  <text x="112" y="284" font-size="13" font-weight="700" fill="#92400e">1931</text>
+  <text x="172" y="284" font-size="13" fill="#334155">Gandhi–Irwin Pact · Karachi session · RTC-II</text>
+
+  <circle cx="90" cy="312" r="6" fill="#f59e0b"/>
+  <text x="112" y="316" font-size="13" font-weight="700" fill="#92400e">1932</text>
+  <text x="172" y="316" font-size="13" fill="#334155">Communal Award → Poona Pact (24 Sep)</text>
+
+  <circle cx="90" cy="344" r="6" fill="#f59e0b"/>
+  <text x="112" y="348" font-size="13" font-weight="700" fill="#92400e">1934</text>
+  <text x="172" y="348" font-size="13" fill="#334155">Civil Disobedience withdrawn (May)</text>
+
+  <circle cx="90" cy="376" r="6" fill="#f59e0b"/>
+  <text x="112" y="380" font-size="13" font-weight="700" fill="#92400e">1937–39</text>
+  <text x="172" y="380" font-size="13" fill="#334155">Congress provincial ministries (resign 1939)</text>
+
+  <circle cx="90" cy="408" r="8" fill="#ef4444"/>
+  <text x="112" y="412" font-size="13" font-weight="700" fill="#b91c1c">1942</text>
+  <text x="172" y="412" font-size="13" font-weight="700" fill="#334155">Quit India — "Do or Die" (8 Aug)</text>
+
+  <circle cx="90" cy="440" r="6" fill="#f59e0b"/>
+  <text x="112" y="444" font-size="13" font-weight="700" fill="#92400e">1943</text>
+  <text x="172" y="444" font-size="13" fill="#334155">Azad Hind Government (Singapore) — Bose</text>
+
+  <!-- Right: constitutional & wartime -->
+  <circle cx="580" cy="88" r="6" fill="#f59e0b"/>
+  <text x="602" y="92" font-size="13" font-weight="700" fill="#92400e">1935</text>
+  <text x="654" y="92" font-size="13" fill="#334155">Government of India Act</text>
+
+  <circle cx="580" cy="120" r="6" fill="#f59e0b"/>
+  <text x="602" y="124" font-size="13" font-weight="700" fill="#92400e">1940</text>
+  <text x="654" y="124" font-size="13" fill="#334155">Pakistan Resolution (Lahore, Mar)</text>
+
+  <circle cx="580" cy="152" r="6" fill="#f59e0b"/>
+  <text x="602" y="156" font-size="13" font-weight="700" fill="#92400e">1942</text>
+  <text x="654" y="156" font-size="13" fill="#334155">Cripps Mission failure (Mar)</text>
+
+  <circle cx="580" cy="184" r="6" fill="#f59e0b"/>
+  <text x="602" y="188" font-size="13" font-weight="700" fill="#92400e">1945</text>
+  <text x="654" y="188" font-size="13" fill="#334155">Wavell Plan · INA trials at Red Fort</text>
+
+  <circle cx="580" cy="216" r="6" fill="#f59e0b"/>
+  <text x="602" y="220" font-size="13" font-weight="700" fill="#92400e">1946</text>
+  <text x="654" y="220" font-size="13" fill="#334155">Cabinet Mission · Direct Action Day (16 Aug)</text>
+
+  <circle cx="580" cy="248" r="6" fill="#f59e0b"/>
+  <text x="602" y="252" font-size="13" font-weight="700" fill="#92400e">1946</text>
+  <text x="654" y="252" font-size="13" fill="#334155">Constituent Assembly first meets (9 Dec)</text>
+
+  <circle cx="580" cy="280" r="8" fill="#22c55e"/>
+  <text x="602" y="284" font-size="13" font-weight="700" fill="#166534">1947</text>
+  <text x="654" y="284" font-size="13" font-weight="700" fill="#334155">Independence Act (18 Jul) → 15 August</text>
+
+  <circle cx="580" cy="312" r="6" fill="#64748b"/>
+  <text x="602" y="316" font-size="13" font-weight="700" fill="#475569">1948</text>
+  <text x="654" y="316" font-size="13" fill="#334155">Gandhi assassinated (30 Jan)</text>
+
+  <!-- Footer -->
+  <rect x="30" y="600" width="840" height="56" rx="8" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="450" y="624" text-anchor="middle" font-size="12.5" fill="#92400e">Three great mass campaigns: <tspan font-weight="700">Non-Cooperation (1920–22) · Civil Disobedience (1930–34) · Quit India (1942)</tspan></text>
+  <text x="450" y="644" text-anchor="middle" font-size="12" fill="#92400e">Parallel streams: Swarajists · Revolutionaries (Bhagat Singh) · INA (Bose) · peasant &amp; labour movements</text>
+</svg>

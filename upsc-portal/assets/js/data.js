@@ -293,6 +293,18 @@ window.SYLLABUS_DATA = {
         { id: 'numeracy', title: 'Basic Numeracy & Data Interpretation (Class X level)' }
       ]
     },
+    {
+      id: 'prelims-mocks', stage: 'prelims',
+      title: 'Mock Tests & Sectional Practice (Prelims)',
+      short: 'Mocks',
+      tag: 'practice · timed',
+      summary: 'Full-length GS Paper I mock (100 Qs), six subject-wise sectional tests and a CSAT mock — every question carries an answer key and a one-line explanation.',
+      sub: [
+        { id: 'full-length', title: 'Full-Length Mock — GS Paper I (100 Qs · 2 hours)', tag: 'answer key + explanations' },
+        { id: 'sectional-tests', title: 'Sectional Tests — 6 subjects × 20 Qs', tag: '25 minutes each' },
+        { id: 'csat-mock', title: 'CSAT Mock — 30 Qs (45 minutes)', tag: 'worked solutions' }
+      ]
+    },
 
     /* ------------------------------------------------------------------ */
     /*  MAINS                                                              */
@@ -306,7 +318,17 @@ window.SYLLABUS_DATA = {
       summary: 'Heritage and culture, modern & world history, geography of India and the world, and Indian society.',
       sub: [
         { id: 'indian-heritage-culture', title: 'Indian Heritage & Culture', tag: '25% of paper' },
-        { id: 'modern-history', title: 'Modern Indian History (mid-18th century onward)', tag: '25% of paper' },
+        {
+          id: 'modern-history', title: 'Modern Indian History (mid-18th century onward)', tag: '25% of paper',
+          sub: [
+            { id: 'east-india-company', title: 'Advent of Europeans & East India Company (1757–1857)' },
+            { id: 'revolt-1857', title: 'Revolt of 1857 & Aftermath' },
+            { id: 'socio-religious-reforms', title: 'Socio-Religious Reform Movements' },
+            { id: 'national-movement-1885-1919', title: 'National Movement: Moderates, Extremists & Early Gandhian Era (1885–1919)' },
+            { id: 'gandhian-era-1919-1947', title: 'Gandhian Era: Non-Cooperation to Quit India (1919–1947)' },
+            { id: 'constitutional-development', title: 'Constitutional Development & Government of India Acts' }
+          ]
+        },
         { id: 'world-history', title: 'World History (industrial revolution, world wars, redrawal of national boundaries)', tag: '15% of paper' },
         { id: 'indian-society', title: 'Indian Society (diversity, women, poverty, urbanisation)', tag: '15% of paper' },
         { id: 'physical-geography', title: 'Physical Geography: Geomorphology, Climatology, Oceanography', tag: '20% of paper' },
@@ -350,6 +372,8 @@ window.SYLLABUS_DATA = {
       tag: '250 marks',
       summary: 'Ethical reasoning, case studies, attitude, emotional intelligence and public service values.',
       sub: [
+        { id: 'ethics-foundations', title: 'Ethics Foundations: Interface, Attitude, Aptitude & EI (study set)', tag: 'full 5-section set' },
+        { id: 'governance-probity-case-studies', title: 'Governance, Probity & Case-Study Method (study set)', tag: 'full 5-section set' },
         { id: 'ethics-human-interface', title: 'Ethics & Human Interface: essence, determinants, dimensions' },
         { id: 'attitude', title: 'Attitude: content, structure, influence & moral attitudes' },
         { id: 'aptitude-foundations', title: 'Aptitude & Foundational Values: integrity, impartiality, non-partisanship' },
@@ -389,6 +413,20 @@ window.SYLLABUS_DATA = {
         { id: 'optional-anthropology', title: 'Anthropology' },
         { id: 'optional-economics', title: 'Economics' },
         { id: 'optional-psychology', title: 'Psychology' }
+      ]
+    },
+    {
+      id: 'mains-practice', stage: 'mains',
+      title: 'Mains Practice — Question Bank & Answer Frameworks',
+      short: 'Practice',
+      tag: 'answer writing',
+      summary: 'Paper-wise practice questions in UPSC format (10 & 15 markers) with structured answer frameworks, GS-IV case studies and essay practice topics with outlines.',
+      sub: [
+        { id: 'gs-1-practice', title: 'GS I — practice questions with answer frameworks' },
+        { id: 'gs-2-practice', title: 'GS II — practice questions with answer frameworks' },
+        { id: 'gs-3-practice', title: 'GS III — practice questions with answer frameworks' },
+        { id: 'gs-4-practice', title: 'GS IV — theory questions + case studies with model approaches' },
+        { id: 'essay-practice', title: 'Essay — practice topics with outlines' }
       ]
     }
   ]
