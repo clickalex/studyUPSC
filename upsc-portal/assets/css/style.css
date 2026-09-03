@@ -107,6 +107,58 @@ body.sidebar-open #sidebar-overlay { display: block; }
 /* markdown table zebra */
 .md-content tbody tr:nth-child(even) { background: rgba(148,163,184,.07); }
 
+/* ---------- inlined standalone HTML pages ----------
+   Document pages (mirrors/catalog) use bare semantic tags without the
+   renderer's md-* classes — style them to match the portal look. */
+.md-content h1, .md-content h2, .md-content h3, .md-content h4,
+.md-content h5, .md-content h6 {
+  font-family: var(--tw-font-sans, system-ui, sans-serif);
+  color: #0f172a; font-weight: 700; scroll-margin-top: 5rem;
+}
+.dark .md-content h1, .dark .md-content h2, .dark .md-content h3,
+.dark .md-content h4, .dark .md-content h5, .dark .md-content h6 { color: #f1f5f9; }
+.md-content h1 { font-size: 1.45rem; margin: 1.2rem 0 .6rem; padding-bottom: .4rem; border-bottom: 2px solid #f59e0b33; }
+.md-content h2 { font-size: 1.25rem; margin: 1.5rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid #e2e8f0; }
+.dark .md-content h2 { border-bottom-color: #334155; }
+.md-content h3 { font-size: 1.08rem; margin: 1.2rem 0 .4rem; }
+.md-content h4, .md-content h5, .md-content h6 { font-size: 1rem; margin: 1rem 0 .3rem; }
+.md-content table {
+  border-collapse: collapse; width: 100%; margin: 1rem 0;
+  font-size: .92em; display: block; overflow-x: auto;
+}
+.md-content th, .md-content td {
+  border: 1px solid #e2e8f0; padding: .45em .7em;
+  text-align: left; vertical-align: top;
+}
+.dark .md-content th, .dark .md-content td { border-color: #334155; }
+.md-content th { background: #f1f5f9; font-weight: 700; }
+.dark .md-content th { background: #1e293b; }
+.md-content blockquote {
+  margin: 1rem 0; padding: .6em 1em;
+  border-left: 4px solid #f59e0b; background: #fffbeb;
+  border-radius: 0 .5rem .5rem 0; color: #44403c;
+}
+.dark .md-content blockquote { background: rgba(120, 53, 15, .25); color: #d6d3d1; }
+.md-content p { margin: .6rem 0; }
+.md-content ul, .md-content ol { padding-left: 1.5rem; margin: .6rem 0; }
+.md-content li { margin: .25rem 0; }
+.md-content hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
+.dark .md-content hr { border-top-color: #334155; }
+.md-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .82em; background: #f1f5f9; color: #0f172a;
+  padding: .1rem .35rem; border-radius: .375rem; border: 1px solid #e2e8f0;
+}
+.dark .md-content code { background: #1e293b; color: #fbbf24; border-color: #334155; }
+.md-content pre {
+  background: #0f172a; color: #e2e8f0; border-radius: .75rem;
+  padding: .9rem 1.1rem; overflow-x: auto; font-size: .82rem;
+  line-height: 1.6; margin: .8rem 0;
+}
+.md-content pre code { background: none; border: none; color: inherit; padding: 0; }
+.md-content img, .md-content svg { max-width: 100%; height: auto; }
+.md-content del { opacity: .7; }
+
 /* thin scrollbars */
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }

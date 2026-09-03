@@ -38,10 +38,10 @@ footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 </style>
 </head>
 <body>
-<header><div class="wrap"><div class="brand">study<span>UPSC</span></div><div class="crumb">content</div><div class="crumb no-print" style="margin-left:auto"><a href="index.html">📚 All documents</a> · <a href="README.md">Markdown source</a></div></div></header>
+<header><div class="wrap"><div class="brand">study<span>UPSC</span></div><div class="crumb">content</div><div class="crumb no-print" style="margin-left:auto"><a href="index.html">📚 All documents</a></div></div></header>
 <div class="wrap"><div class="card">
 <h1 id="content-study-material-library">content/ — Study Material Library</h1>
-<p>Two branches mirror the exam. Every folder below corresponds to a node of the syllabus tree in <code>assets/js/data.js</code>, and every node has its own material (316 Markdown chapters, each with a styled <code>.html</code> twin, plus 23 SVG diagrams).</p>
+<p>Two branches mirror the exam. Every folder below corresponds to a node of the syllabus tree in <code>assets/js/data.js</code>, and every node has its own material (316 chapters — each a styled, print-ready <code>.html</code> page — plus 23 SVG diagrams).</p>
 <pre><code>content/
 ├── prelims/
 │   ├── gs1/                          # → paper "prelims-gs1"  (176 files)
@@ -51,7 +51,7 @@ footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 │   │   ├── economy/                  #   5 branches · 12 leaf topics
 │   │   ├── environment-ecology/      #   3 branches ·  7 leaf topics
 │   │   └── science-tech/             #   2 branches ·  5 leaf topics
-│   │       └── &lt;branch&gt;/&lt;leaf&gt;/{short-notes/&lt;leaf&gt;-notes.md, pyqs/&lt;leaf&gt;-mcqs.md}
+│   │       └── &lt;branch&gt;/&lt;leaf&gt;/{short-notes/&lt;leaf&gt;-notes.html, pyqs/&lt;leaf&gt;-mcqs.html}
 │   ├── csat/                         # → "prelims-csat": comprehension, logical-reasoning,
 │   │                                 #   decision-making, numeracy (+ strategy notes, PYQ trends)
 │   └── mocks/                        # → "prelims-mocks"
@@ -79,7 +79,7 @@ footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 <ul><li>Content-only tree: <strong>no empty placeholder folders</strong> (<code>find content -type d -empty</code> must print nothing).</li><li>Every prelims fact card opens with a syllabus pointer line, e.g. <code>&gt; Prelims GS-I › Geography › Indian Geography.</code></li><li>MCQ files end with an <code>## Answer key</code> table (<code>| Q | Ans | Why |</code>).</li><li>After adding or editing files, from <code>upsc-portal/</code> run</li></ul>
 <p><code>python3 cli/md2html.py</code> (HTML twins + <code>content/index.html</code>) and <code>node cli/generate.mjs</code> (file index + full-text search). Pushing to <code>main</code> also re-runs the generator through GitHub Actions.</p>
 </div>
-<footer>studyUPSC · generated from Markdown · print-friendly (Ctrl/Cmd+P)</footer>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 </body>
 </html>

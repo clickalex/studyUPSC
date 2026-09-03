@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 156866,
+  "size": 107411,
   "nav": ""
  },
  {
@@ -15,16 +15,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-frameworks/bullet-points/essay-writing-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5767,
-  "nav": "essay/essay/bullets"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-frameworks/bullet-points",
-  "file": "essay-writing-points.md",
-  "rel": "content/mains/essay-frameworks/essay-frameworks/bullet-points/essay-writing-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2582,
+  "size": 5683,
   "nav": "essay/essay/bullets"
  },
  {
@@ -33,16 +24,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10401,
-  "nav": "essay/essay/notes"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-frameworks/detailed-notes",
-  "file": "essay-writing.md",
-  "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5955,
+  "size": 10326,
   "nav": "essay/essay/notes"
  },
  {
@@ -60,16 +42,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-frameworks/pyqs/essay-frameworks-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7513,
-  "nav": "essay/essay/pyqs"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-frameworks/pyqs",
-  "file": "essay-frameworks-pyqs.md",
-  "rel": "content/mains/essay-frameworks/essay-frameworks/pyqs/essay-frameworks-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4072,
+  "size": 7428,
   "nav": "essay/essay/pyqs"
  },
  {
@@ -78,16 +51,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-frameworks/short-notes/essay-writing-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6580,
-  "nav": "essay/essay/short"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-frameworks/short-notes",
-  "file": "essay-writing-revision.md",
-  "rel": "content/mains/essay-frameworks/essay-frameworks/short-notes/essay-writing-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3046,
+  "size": 6494,
   "nav": "essay/essay/short"
  },
  {
@@ -96,16 +60,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7631,
-  "nav": "essay/essay-quotes/notes"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-quotes/detailed-notes",
-  "file": "quote-bank.md",
-  "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3924,
+  "size": 7557,
   "nav": "essay/essay-quotes/notes"
  },
  {
@@ -114,16 +69,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9408,
-  "nav": "essay/essay-topics/notes"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-topics/detailed-notes",
-  "file": "topic-bank.md",
-  "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5552,
+  "size": 9340,
   "nav": "essay/essay-topics/notes"
  },
  {
@@ -132,16 +78,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7532,
-  "nav": "essay/essay-toppers/notes"
- },
- {
-  "dir": "content/mains/essay-frameworks/essay-toppers/detailed-notes",
-  "file": "toppers-analysis.md",
-  "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4028,
+  "size": 7456,
   "nav": "essay/essay-toppers/notes"
  },
  {
@@ -150,16 +87,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9006,
-  "nav": "gs-1/geography-world-india/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
-  "file": "geography-world-india-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4721,
+  "size": 8914,
   "nav": "gs-1/geography-world-india/bullets"
  },
  {
@@ -168,16 +96,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18399,
-  "nav": "gs-1/geography-world-india/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes",
-  "file": "geography-of-india-and-world.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12102,
+  "size": 18309,
   "nav": "gs-1/geography-world-india/notes"
  },
  {
@@ -195,16 +114,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10600,
-  "nav": "gs-1/geography-world-india/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs",
-  "file": "geography-world-india-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6481,
+  "size": 10510,
   "nav": "gs-1/geography-world-india/pyqs"
  },
  {
@@ -213,16 +123,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7200,
-  "nav": "gs-1/geography-world-india/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes",
-  "file": "geography-world-india-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3248,
+  "size": 7106,
   "nav": "gs-1/geography-world-india/short"
  },
  {
@@ -231,16 +132,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points/heritage-culture-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5911,
-  "nav": "gs-1/indian-heritage-culture/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points",
-  "file": "heritage-culture-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points/heritage-culture-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2695,
+  "size": 5824,
   "nav": "gs-1/indian-heritage-culture/bullets"
  },
  {
@@ -249,16 +141,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14236,
-  "nav": "gs-1/indian-heritage-culture/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes",
-  "file": "indian-heritage-culture.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8718,
+  "size": 14151,
   "nav": "gs-1/indian-heritage-culture/notes"
  },
  {
@@ -276,16 +159,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs/heritage-culture-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7768,
-  "nav": "gs-1/indian-heritage-culture/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs",
-  "file": "heritage-culture-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs/heritage-culture-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4361,
+  "size": 7683,
   "nav": "gs-1/indian-heritage-culture/pyqs"
  },
  {
@@ -294,16 +168,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes/heritage-culture-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6753,
-  "nav": "gs-1/indian-heritage-culture/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes",
-  "file": "heritage-culture-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes/heritage-culture-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3270,
+  "size": 6664,
   "nav": "gs-1/indian-heritage-culture/short"
  },
  {
@@ -312,16 +177,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points/indian-society-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6296,
-  "nav": "gs-1/indian-society/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points",
-  "file": "indian-society-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points/indian-society-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3121,
+  "size": 6211,
   "nav": "gs-1/indian-society/bullets"
  },
  {
@@ -330,16 +186,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11073,
-  "nav": "gs-1/indian-society/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes",
-  "file": "indian-society.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7013,
+  "size": 10997,
   "nav": "gs-1/indian-society/notes"
  },
  {
@@ -357,16 +204,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs/indian-society-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7560,
-  "nav": "gs-1/indian-society/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs",
-  "file": "indian-society-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs/indian-society-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4313,
+  "size": 7477,
   "nav": "gs-1/indian-society/pyqs"
  },
  {
@@ -375,16 +213,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes/indian-society-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6265,
-  "nav": "gs-1/indian-society/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes",
-  "file": "indian-society-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes/indian-society-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2774,
+  "size": 6178,
   "nav": "gs-1/indian-society/short"
  },
  {
@@ -393,16 +222,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7962,
-  "nav": "gs-1/modern-history/constitutional-development/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points",
-  "file": "constitutional-development-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4056,
+  "size": 7865,
   "nav": "gs-1/modern-history/constitutional-development/bullets"
  },
  {
@@ -411,16 +231,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20120,
-  "nav": "gs-1/modern-history/constitutional-development/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes",
-  "file": "constitutional-development.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 13651,
+  "size": 20032,
   "nav": "gs-1/modern-history/constitutional-development/notes"
  },
  {
@@ -438,16 +249,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10404,
-  "nav": "gs-1/modern-history/constitutional-development/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs",
-  "file": "constitutional-development-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6394,
+  "size": 10309,
   "nav": "gs-1/modern-history/constitutional-development/pyqs"
  },
  {
@@ -456,16 +258,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7770,
-  "nav": "gs-1/modern-history/constitutional-development/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes",
-  "file": "constitutional-development-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3706,
+  "size": 7671,
   "nav": "gs-1/modern-history/constitutional-development/short"
  },
  {
@@ -474,16 +267,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6036,
-  "nav": "gs-1/modern-history/east-india-company/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points",
-  "file": "advent-of-europeans-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2456,
+  "size": 5946,
   "nav": "gs-1/modern-history/east-india-company/bullets"
  },
  {
@@ -492,16 +276,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22199,
-  "nav": "gs-1/modern-history/east-india-company/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes",
-  "file": "advent-of-europeans.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 14360,
+  "size": 22118,
   "nav": "gs-1/modern-history/east-india-company/notes"
  },
  {
@@ -519,16 +294,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9180,
-  "nav": "gs-1/modern-history/east-india-company/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs",
-  "file": "advent-of-europeans-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5138,
+  "size": 9092,
   "nav": "gs-1/modern-history/east-india-company/pyqs"
  },
  {
@@ -537,16 +303,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6641,
-  "nav": "gs-1/modern-history/east-india-company/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes",
-  "file": "advent-of-europeans-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2652,
+  "size": 6549,
   "nav": "gs-1/modern-history/east-india-company/short"
  },
  {
@@ -555,16 +312,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8189,
-  "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points",
-  "file": "gandhian-era-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4140,
+  "size": 8106,
   "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
  },
  {
@@ -573,16 +321,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.html",
   "kind": "doc",
   "ext": "html",
-  "size": 26842,
-  "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes",
-  "file": "gandhian-era-1919-1947.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 18464,
+  "size": 26758,
   "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
  },
  {
@@ -600,16 +339,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10386,
-  "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs",
-  "file": "gandhian-era-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6316,
+  "size": 10305,
   "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
  },
  {
@@ -618,16 +348,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7852,
-  "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes",
-  "file": "gandhian-era-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3650,
+  "size": 7767,
   "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
  },
  {
@@ -636,16 +357,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7122,
-  "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points",
-  "file": "national-movement-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3444,
+  "size": 7034,
   "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
  },
  {
@@ -654,16 +366,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17766,
-  "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes",
-  "file": "national-movement-1885-1919.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 11509,
+  "size": 17677,
   "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
  },
  {
@@ -681,16 +384,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10020,
-  "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs",
-  "file": "national-movement-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5986,
+  "size": 9934,
   "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
  },
  {
@@ -699,16 +393,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7354,
-  "nav": "gs-1/modern-history/national-movement-1885-1919/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes",
-  "file": "national-movement-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3354,
+  "size": 7264,
   "nav": "gs-1/modern-history/national-movement-1885-1919/short"
  },
  {
@@ -717,16 +402,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points/revolt-1857-mindmap.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5191,
-  "nav": "gs-1/modern-history/revolt-1857/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points",
-  "file": "revolt-1857-mindmap.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points/revolt-1857-mindmap.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1850,
+  "size": 5108,
   "nav": "gs-1/modern-history/revolt-1857/bullets"
  },
  {
@@ -735,16 +411,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10383,
-  "nav": "gs-1/modern-history/revolt-1857/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes",
-  "file": "revolt-1857.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5771,
+  "size": 10310,
   "nav": "gs-1/modern-history/revolt-1857/notes"
  },
  {
@@ -762,16 +429,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs/revolt-1857-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6349,
-  "nav": "gs-1/modern-history/revolt-1857/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs",
-  "file": "revolt-1857-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs/revolt-1857-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2984,
+  "size": 6269,
   "nav": "gs-1/modern-history/revolt-1857/pyqs"
  },
  {
@@ -780,16 +438,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes/revolt-1857-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5169,
-  "nav": "gs-1/modern-history/revolt-1857/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes",
-  "file": "revolt-1857-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes/revolt-1857-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1694,
+  "size": 5085,
   "nav": "gs-1/modern-history/revolt-1857/short"
  },
  {
@@ -798,16 +447,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7012,
-  "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points",
-  "file": "socio-religious-reforms-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3241,
+  "size": 6918,
   "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
  },
  {
@@ -816,16 +456,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21514,
-  "nav": "gs-1/modern-history/socio-religious-reforms/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes",
-  "file": "socio-religious-reforms.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 13974,
+  "size": 21429,
   "nav": "gs-1/modern-history/socio-religious-reforms/notes"
  },
  {
@@ -843,16 +474,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9078,
-  "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs",
-  "file": "socio-religious-reforms-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5028,
+  "size": 8986,
   "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
  },
  {
@@ -861,16 +483,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6617,
-  "nav": "gs-1/modern-history/socio-religious-reforms/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes",
-  "file": "socio-religious-reforms-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2509,
+  "size": 6521,
   "nav": "gs-1/modern-history/socio-religious-reforms/short"
  },
  {
@@ -879,16 +492,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7865,
-  "nav": "gs-1/physical-geography/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points",
-  "file": "physical-geography-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3779,
+  "size": 7776,
   "nav": "gs-1/physical-geography/bullets"
  },
  {
@@ -897,16 +501,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21358,
-  "nav": "gs-1/physical-geography/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes",
-  "file": "physical-geography.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 13937,
+  "size": 21278,
   "nav": "gs-1/physical-geography/notes"
  },
  {
@@ -924,16 +519,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9960,
-  "nav": "gs-1/physical-geography/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs",
-  "file": "physical-geography-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6081,
+  "size": 9873,
   "nav": "gs-1/physical-geography/pyqs"
  },
  {
@@ -942,16 +528,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 3023,
-  "nav": "gs-1/physical-geography"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography",
-  "file": "README.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 199,
+  "size": 2953,
   "nav": "gs-1/physical-geography"
  },
  {
@@ -960,16 +537,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7874,
-  "nav": "gs-1/physical-geography/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes",
-  "file": "physical-geography-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3594,
+  "size": 7783,
   "nav": "gs-1/physical-geography/short"
  },
  {
@@ -978,16 +546,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 4453,
-  "nav": "gs-1"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society",
-  "file": "README.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1315,
+  "size": 4376,
   "nav": "gs-1"
  },
  {
@@ -996,16 +555,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points/world-history-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5855,
-  "nav": "gs-1/world-history/bullets"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points",
-  "file": "world-history-points.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points/world-history-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2848,
+  "size": 5771,
   "nav": "gs-1/world-history/bullets"
  },
  {
@@ -1014,16 +564,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10838,
-  "nav": "gs-1/world-history/notes"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes",
-  "file": "world-history.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6322,
+  "size": 10763,
   "nav": "gs-1/world-history/notes"
  },
  {
@@ -1041,16 +582,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/world-history/pyqs/world-history-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7282,
-  "nav": "gs-1/world-history/pyqs"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/world-history/pyqs",
-  "file": "world-history-pyqs.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/world-history/pyqs/world-history-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4034,
+  "size": 7200,
   "nav": "gs-1/world-history/pyqs"
  },
  {
@@ -1059,16 +591,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/world-history/short-notes/world-history-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5987,
-  "nav": "gs-1/world-history/short"
- },
- {
-  "dir": "content/mains/gs-1-heritage-geography-society/world-history/short-notes",
-  "file": "world-history-revision.md",
-  "rel": "content/mains/gs-1-heritage-geography-society/world-history/short-notes/world-history-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2742,
+  "size": 5901,
   "nav": "gs-1/world-history/short"
  },
  {
@@ -1077,16 +600,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6937,
-  "nav": "gs-2/constitution-polity/bullets"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
-  "file": "constitution-points.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3149,
+  "size": 6854,
   "nav": "gs-2/constitution-polity/bullets"
  },
  {
@@ -1095,16 +609,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.html",
   "kind": "doc",
   "ext": "html",
-  "size": 28170,
-  "nav": "gs-2/constitution-polity/notes"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes",
-  "file": "constitution-of-india.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 19717,
+  "size": 28087,
   "nav": "gs-2/constitution-polity/notes"
  },
  {
@@ -1122,16 +627,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12056,
-  "nav": "gs-2/constitution-polity/pyqs"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs",
-  "file": "constitution-polity-pyqs.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7718,
+  "size": 11968,
   "nav": "gs-2/constitution-polity/pyqs"
  },
  {
@@ -1140,16 +636,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8004,
-  "nav": "gs-2/constitution-polity/short"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes",
-  "file": "constitution-revision.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3902,
+  "size": 7919,
   "nav": "gs-2/constitution-polity/short"
  },
  {
@@ -1158,16 +645,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7373,
-  "nav": "gs-2/governance-administration/bullets"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points",
-  "file": "organs-points.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3580,
+  "size": 7296,
   "nav": "gs-2/governance-administration/bullets"
  },
  {
@@ -1176,16 +654,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.html",
   "kind": "doc",
   "ext": "html",
-  "size": 19652,
-  "nav": "gs-2/governance-administration/notes"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes",
-  "file": "parliament-executive-judiciary.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12741,
+  "size": 19560,
   "nav": "gs-2/governance-administration/notes"
  },
  {
@@ -1203,16 +672,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11970,
-  "nav": "gs-2/governance-administration/pyqs"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs",
-  "file": "governance-administration-pyqs.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7763,
+  "size": 11876,
   "nav": "gs-2/governance-administration/pyqs"
  },
  {
@@ -1221,16 +681,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7106,
-  "nav": "gs-2/governance-administration/short"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes",
-  "file": "organs-of-government-revision.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3111,
+  "size": 7013,
   "nav": "gs-2/governance-administration/short"
  },
  {
@@ -1239,16 +690,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7784,
-  "nav": "gs-2/international-relations/bullets"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points",
-  "file": "ir-points.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3759,
+  "size": 7711,
   "nav": "gs-2/international-relations/bullets"
  },
  {
@@ -1257,16 +699,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21460,
-  "nav": "gs-2/international-relations/notes"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes",
-  "file": "india-foreign-policy-ir.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 14472,
+  "size": 21375,
   "nav": "gs-2/international-relations/notes"
  },
  {
@@ -1284,16 +717,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11800,
-  "nav": "gs-2/international-relations/pyqs"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs",
-  "file": "international-relations-pyqs.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7498,
+  "size": 11708,
   "nav": "gs-2/international-relations/pyqs"
  },
  {
@@ -1302,16 +726,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7163,
-  "nav": "gs-2/international-relations/short"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes",
-  "file": "ir-revision.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3223,
+  "size": 7088,
   "nav": "gs-2/international-relations/short"
  },
  {
@@ -1320,16 +735,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 3681,
-  "nav": "gs-2"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir",
-  "file": "README.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 676,
+  "size": 3611,
   "nav": "gs-2"
  },
  {
@@ -1338,16 +744,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6502,
-  "nav": "gs-2/social-justice/bullets"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points",
-  "file": "social-justice-points.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2850,
+  "size": 6417,
   "nav": "gs-2/social-justice/bullets"
  },
  {
@@ -1356,16 +753,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20365,
-  "nav": "gs-2/social-justice/notes"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes",
-  "file": "social-justice-welfare.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 13572,
+  "size": 20281,
   "nav": "gs-2/social-justice/notes"
  },
  {
@@ -1383,16 +771,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11023,
-  "nav": "gs-2/social-justice/pyqs"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs",
-  "file": "social-justice-pyqs.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6918,
+  "size": 10940,
   "nav": "gs-2/social-justice/pyqs"
  },
  {
@@ -1401,16 +780,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7159,
-  "nav": "gs-2/social-justice/short"
- },
- {
-  "dir": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes",
-  "file": "social-justice-revision.md",
-  "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3000,
+  "size": 7072,
   "nav": "gs-2/social-justice/short"
  },
  {
@@ -1419,16 +789,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points/agriculture-food-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7613,
-  "nav": "gs-3/agriculture-food/bullets"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points",
-  "file": "agriculture-food-points.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points/agriculture-food-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3783,
+  "size": 7526,
   "nav": "gs-3/agriculture-food/bullets"
  },
  {
@@ -1437,16 +798,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16524,
-  "nav": "gs-3/agriculture-food/notes"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes",
-  "file": "agriculture-and-food-security.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 10847,
+  "size": 16433,
   "nav": "gs-3/agriculture-food/notes"
  },
  {
@@ -1464,16 +816,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs/agriculture-food-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10198,
-  "nav": "gs-3/agriculture-food/pyqs"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs",
-  "file": "agriculture-food-pyqs.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs/agriculture-food-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6219,
+  "size": 10113,
   "nav": "gs-3/agriculture-food/pyqs"
  },
  {
@@ -1482,16 +825,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes/agriculture-food-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7058,
-  "nav": "gs-3/agriculture-food/short"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes",
-  "file": "agriculture-food-revision.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes/agriculture-food-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3103,
+  "size": 6969,
   "nav": "gs-3/agriculture-food/short"
  },
  {
@@ -1500,16 +834,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points/environment-biodiversity-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6304,
-  "nav": "gs-3/environment-biodiversity/bullets"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points",
-  "file": "environment-biodiversity-points.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points/environment-biodiversity-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3093,
+  "size": 6209,
   "nav": "gs-3/environment-biodiversity/bullets"
  },
  {
@@ -1518,16 +843,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9719,
-  "nav": "gs-3/environment-biodiversity/notes"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes",
-  "file": "environment-biodiversity.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5464,
+  "size": 9633,
   "nav": "gs-3/environment-biodiversity/notes"
  },
  {
@@ -1545,16 +861,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs/environment-biodiversity-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8300,
-  "nav": "gs-3/environment-biodiversity/pyqs"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs",
-  "file": "environment-biodiversity-pyqs.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs/environment-biodiversity-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4935,
+  "size": 8207,
   "nav": "gs-3/environment-biodiversity/pyqs"
  },
  {
@@ -1563,16 +870,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes/environment-biodiversity-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6368,
-  "nav": "gs-3/environment-biodiversity/short"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes",
-  "file": "environment-biodiversity-revision.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes/environment-biodiversity-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2789,
+  "size": 6271,
   "nav": "gs-3/environment-biodiversity/short"
  },
  {
@@ -1581,16 +879,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points/indian-economy-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7076,
-  "nav": "gs-3/indian-economy/bullets"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points",
-  "file": "indian-economy-points.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points/indian-economy-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3390,
+  "size": 6991,
   "nav": "gs-3/indian-economy/bullets"
  },
  {
@@ -1599,16 +888,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17858,
-  "nav": "gs-3/indian-economy/notes"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes",
-  "file": "indian-economy.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12255,
+  "size": 17782,
   "nav": "gs-3/indian-economy/notes"
  },
  {
@@ -1626,16 +906,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs/indian-economy-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11049,
-  "nav": "gs-3/indian-economy/pyqs"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs",
-  "file": "indian-economy-pyqs.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs/indian-economy-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6941,
+  "size": 10966,
   "nav": "gs-3/indian-economy/pyqs"
  },
  {
@@ -1644,16 +915,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes/indian-economy-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6228,
-  "nav": "gs-3/indian-economy/short"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes",
-  "file": "indian-economy-revision.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes/indian-economy-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2438,
+  "size": 6141,
   "nav": "gs-3/indian-economy/short"
  },
  {
@@ -1662,16 +924,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 3779,
-  "nav": "gs-3"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment",
-  "file": "README.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 762,
+  "size": 3709,
   "nav": "gs-3"
  },
  {
@@ -1680,16 +933,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points/science-tech-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6120,
-  "nav": "gs-3/science-technology/bullets"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points",
-  "file": "science-tech-points.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points/science-tech-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2970,
+  "size": 6037,
   "nav": "gs-3/science-technology/bullets"
  },
  {
@@ -1698,16 +942,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11579,
-  "nav": "gs-3/science-technology/notes"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes",
-  "file": "science-technology.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7292,
+  "size": 11499,
   "nav": "gs-3/science-technology/notes"
  },
  {
@@ -1725,16 +960,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs/science-tech-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7384,
-  "nav": "gs-3/science-technology/pyqs"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs",
-  "file": "science-tech-pyqs.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs/science-tech-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4114,
+  "size": 7303,
   "nav": "gs-3/science-technology/pyqs"
  },
  {
@@ -1743,16 +969,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes/science-tech-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7128,
-  "nav": "gs-3/science-technology/short"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes",
-  "file": "science-tech-revision.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes/science-tech-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3514,
+  "size": 7043,
   "nav": "gs-3/science-technology/short"
  },
  {
@@ -1761,16 +978,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points/security-disaster-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6194,
-  "nav": "gs-3/security-disaster/bullets"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points",
-  "file": "security-disaster-points.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points/security-disaster-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3058,
+  "size": 6106,
   "nav": "gs-3/security-disaster/bullets"
  },
  {
@@ -1779,16 +987,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12866,
-  "nav": "gs-3/security-disaster/notes"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes",
-  "file": "security-disaster.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8338,
+  "size": 12787,
   "nav": "gs-3/security-disaster/notes"
  },
  {
@@ -1806,16 +1005,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs/security-disaster-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7812,
-  "nav": "gs-3/security-disaster/pyqs"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs",
-  "file": "security-disaster-pyqs.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs/security-disaster-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4538,
+  "size": 7726,
   "nav": "gs-3/security-disaster/pyqs"
  },
  {
@@ -1824,16 +1014,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes/security-disaster-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6743,
-  "nav": "gs-3/security-disaster/short"
- },
- {
-  "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes",
-  "file": "security-disaster-revision.md",
-  "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes/security-disaster-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3293,
+  "size": 6653,
   "nav": "gs-3/security-disaster/short"
  },
  {
@@ -1842,16 +1023,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6358,
-  "nav": "gs-4/aptitude-foundations/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes",
-  "file": "aptitude-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3047,
+  "size": 6281,
   "nav": "gs-4/aptitude-foundations/short"
  },
  {
@@ -1860,16 +1032,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes/attitude-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6245,
-  "nav": "gs-4/attitude/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes",
-  "file": "attitude-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes/attitude-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2969,
+  "size": 6168,
   "nav": "gs-4/attitude/short"
  },
  {
@@ -1878,16 +1041,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6853,
-  "nav": "gs-4/case-studies/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes",
-  "file": "case-studies-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3218,
+  "size": 6772,
   "nav": "gs-4/case-studies/short"
  },
  {
@@ -1896,16 +1050,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes/ei-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5929,
-  "nav": "gs-4/emotional-intelligence/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes",
-  "file": "ei-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes/ei-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2617,
+  "size": 5858,
   "nav": "gs-4/emotional-intelligence/short"
  },
  {
@@ -1914,16 +1059,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points/ethics-foundations-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6379,
-  "nav": "gs-4/ethics-foundations/bullets"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points",
-  "file": "ethics-foundations-points.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points/ethics-foundations-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3092,
+  "size": 6290,
   "nav": "gs-4/ethics-foundations/bullets"
  },
  {
@@ -1932,16 +1068,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12968,
-  "nav": "gs-4/ethics-foundations/notes"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes",
-  "file": "ethics-foundations.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8344,
+  "size": 12888,
   "nav": "gs-4/ethics-foundations/notes"
  },
  {
@@ -1959,16 +1086,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs/ethics-foundations-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8041,
-  "nav": "gs-4/ethics-foundations/pyqs"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs",
-  "file": "ethics-foundations-pyqs.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs/ethics-foundations-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4584,
+  "size": 7954,
   "nav": "gs-4/ethics-foundations/pyqs"
  },
  {
@@ -1977,16 +1095,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes/ethics-foundations-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7480,
-  "nav": "gs-4/ethics-foundations/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes",
-  "file": "ethics-foundations-revision.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes/ethics-foundations-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3745,
+  "size": 7389,
   "nav": "gs-4/ethics-foundations/short"
  },
  {
@@ -1995,16 +1104,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6745,
-  "nav": "gs-4/ethics-human-interface/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes",
-  "file": "ethics-interface-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3335,
+  "size": 6662,
   "nav": "gs-4/ethics-human-interface/short"
  },
  {
@@ -2013,16 +1113,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points/governance-probity-points.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6348,
-  "nav": "gs-4/governance-probity-case-studies/bullets"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points",
-  "file": "governance-probity-points.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points/governance-probity-points.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3169,
+  "size": 6259,
   "nav": "gs-4/governance-probity-case-studies/bullets"
  },
  {
@@ -2031,16 +1122,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10429,
-  "nav": "gs-4/governance-probity-case-studies/notes"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes",
-  "file": "governance-probity-case-studies.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6473,
+  "size": 10336,
   "nav": "gs-4/governance-probity-case-studies/notes"
  },
  {
@@ -2058,16 +1140,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs/governance-probity-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10262,
-  "nav": "gs-4/governance-probity-case-studies/pyqs"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs",
-  "file": "governance-probity-pyqs.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs/governance-probity-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6630,
+  "size": 10175,
   "nav": "gs-4/governance-probity-case-studies/pyqs"
  },
  {
@@ -2076,16 +1149,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes/governance-probity-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7829,
-  "nav": "gs-4/governance-probity-case-studies/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes",
-  "file": "governance-probity-revision.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes/governance-probity-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3930,
+  "size": 7738,
   "nav": "gs-4/governance-probity-case-studies/short"
  },
  {
@@ -2094,16 +1158,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7686,
-  "nav": "gs-4/moral-thinkers/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes",
-  "file": "moral-thinkers-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3821,
+  "size": 7603,
   "nav": "gs-4/moral-thinkers/short"
  },
  {
@@ -2112,16 +1167,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6489,
-  "nav": "gs-4/probity-governance/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes",
-  "file": "probity-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3196,
+  "size": 6413,
   "nav": "gs-4/probity-governance/short"
  },
  {
@@ -2130,16 +1176,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes/public-service-values-pack.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7048,
-  "nav": "gs-4/public-service-values/short"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes",
-  "file": "public-service-values-pack.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes/public-service-values-pack.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3669,
+  "size": 6958,
   "nav": "gs-4/public-service-values/short"
  },
  {
@@ -2148,16 +1185,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 3557,
-  "nav": "gs-4"
- },
- {
-  "dir": "content/mains/gs-4-ethics-integrity-aptitude",
-  "file": "README.md",
-  "rel": "content/mains/gs-4-ethics-integrity-aptitude/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 585,
+  "size": 3487,
   "nav": "gs-4"
  },
  {
@@ -2166,16 +1194,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/bullet-points/optional-comparison.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6834,
-  "nav": "optional-subjects/bullets"
- },
- {
-  "dir": "content/mains/optional-subjects/bullet-points",
-  "file": "optional-comparison.md",
-  "rel": "content/mains/optional-subjects/bullet-points/optional-comparison.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2872,
+  "size": 6753,
   "nav": "optional-subjects/bullets"
  },
  {
@@ -2184,16 +1203,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8173,
-  "nav": "optional-subjects/notes"
- },
- {
-  "dir": "content/mains/optional-subjects/detailed-notes",
-  "file": "choosing-an-optional.md",
-  "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4433,
+  "size": 8089,
   "nav": "optional-subjects/notes"
  },
  {
@@ -2202,16 +1212,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-anthropology/short-notes/anthropology-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6567,
-  "nav": "optional-subjects/optional-anthropology/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-anthropology/short-notes",
-  "file": "anthropology-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-anthropology/short-notes/anthropology-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3239,
+  "size": 6479,
   "nav": "optional-subjects/optional-anthropology/short"
  },
  {
@@ -2220,16 +1221,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-economics/short-notes/economics-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7089,
-  "nav": "optional-subjects/optional-economics/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-economics/short-notes",
-  "file": "economics-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-economics/short-notes/economics-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3935,
+  "size": 7004,
   "nav": "optional-subjects/optional-economics/short"
  },
  {
@@ -2238,16 +1230,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-geography/short-notes/geography-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7315,
-  "nav": "optional-subjects/optional-geography/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-geography/short-notes",
-  "file": "geography-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-geography/short-notes/geography-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4014,
+  "size": 7230,
   "nav": "optional-subjects/optional-geography/short"
  },
  {
@@ -2256,16 +1239,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-history/short-notes/history-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7141,
-  "nav": "optional-subjects/optional-history/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-history/short-notes",
-  "file": "history-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-history/short-notes/history-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3941,
+  "size": 7058,
   "nav": "optional-subjects/optional-history/short"
  },
  {
@@ -2274,16 +1248,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-philosophy/short-notes/philosophy-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6322,
-  "nav": "optional-subjects/optional-philosophy/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-philosophy/short-notes",
-  "file": "philosophy-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-philosophy/short-notes/philosophy-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3095,
+  "size": 6236,
   "nav": "optional-subjects/optional-philosophy/short"
  },
  {
@@ -2292,16 +1257,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-polity/short-notes/psir-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7302,
-  "nav": "optional-subjects/optional-polity/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-polity/short-notes",
-  "file": "psir-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-polity/short-notes/psir-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4000,
+  "size": 7222,
   "nav": "optional-subjects/optional-polity/short"
  },
  {
@@ -2310,16 +1266,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-psychology/short-notes/psychology-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6525,
-  "nav": "optional-subjects/optional-psychology/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-psychology/short-notes",
-  "file": "psychology-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-psychology/short-notes/psychology-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3289,
+  "size": 6439,
   "nav": "optional-subjects/optional-psychology/short"
  },
  {
@@ -2328,16 +1275,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-public-administration/short-notes/pub-admin-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7232,
-  "nav": "optional-subjects/optional-public-administration/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-public-administration/short-notes",
-  "file": "pub-admin-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-public-administration/short-notes/pub-admin-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4007,
+  "size": 7147,
   "nav": "optional-subjects/optional-public-administration/short"
  },
  {
@@ -2346,16 +1284,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-sociology/short-notes/sociology-orientation.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6392,
-  "nav": "optional-subjects/optional-sociology/short"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-sociology/short-notes",
-  "file": "sociology-orientation.md",
-  "rel": "content/mains/optional-subjects/optional-sociology/short-notes/sociology-orientation.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3050,
+  "size": 6307,
   "nav": "optional-subjects/optional-sociology/short"
  },
  {
@@ -2364,16 +1293,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/pyqs/optional-subjects-faq.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6205,
-  "nav": "optional-subjects/pyqs"
- },
- {
-  "dir": "content/mains/optional-subjects/pyqs",
-  "file": "optional-subjects-faq.md",
-  "rel": "content/mains/optional-subjects/pyqs/optional-subjects-faq.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3183,
+  "size": 6120,
   "nav": "optional-subjects/pyqs"
  },
  {
@@ -2382,16 +1302,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.html",
   "kind": "doc",
   "ext": "html",
-  "size": 13083,
-  "nav": "mains-practice/essay-practice/pyqs"
- },
- {
-  "dir": "content/mains/practice/essay-practice/pyqs",
-  "file": "essay-topics-outlines.md",
-  "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8708,
+  "size": 12998,
   "nav": "mains-practice/essay-practice/pyqs"
  },
  {
@@ -2400,16 +1311,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-1-practice/pyqs/gs-1-question-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20626,
-  "nav": "mains-practice/gs-1-practice/pyqs"
- },
- {
-  "dir": "content/mains/practice/gs-1-practice/pyqs",
-  "file": "gs-1-question-bank.md",
-  "rel": "content/mains/practice/gs-1-practice/pyqs/gs-1-question-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16189,
+  "size": 20544,
   "nav": "mains-practice/gs-1-practice/pyqs"
  },
  {
@@ -2418,16 +1320,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20747,
-  "nav": "mains-practice/gs-2-practice/pyqs"
- },
- {
-  "dir": "content/mains/practice/gs-2-practice/pyqs",
-  "file": "gs-2-question-bank.md",
-  "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16388,
+  "size": 20665,
   "nav": "mains-practice/gs-2-practice/pyqs"
  },
  {
@@ -2436,16 +1329,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-3-practice/pyqs/gs-3-question-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 19964,
-  "nav": "mains-practice/gs-3-practice/pyqs"
- },
- {
-  "dir": "content/mains/practice/gs-3-practice/pyqs",
-  "file": "gs-3-question-bank.md",
-  "rel": "content/mains/practice/gs-3-practice/pyqs/gs-3-question-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15597,
+  "size": 19882,
   "nav": "mains-practice/gs-3-practice/pyqs"
  },
  {
@@ -2454,16 +1338,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 24638,
-  "nav": "mains-practice/gs-4-practice/pyqs"
- },
- {
-  "dir": "content/mains/practice/gs-4-practice/pyqs",
-  "file": "gs-4-question-bank.md",
-  "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 19890,
+  "size": 24556,
   "nav": "mains-practice/gs-4-practice/pyqs"
  },
  {
@@ -2472,16 +1347,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7756,
-  "nav": "prelims-csat/comprehension/short"
- },
- {
-  "dir": "content/prelims/csat/comprehension/short-notes",
-  "file": "comprehension-drills.md",
-  "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4260,
+  "size": 7672,
   "nav": "prelims-csat/comprehension/short"
  },
  {
@@ -2490,16 +1356,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/decision-making/short-notes/decision-making-drills.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8389,
-  "nav": "prelims-csat/decision-making/short"
- },
- {
-  "dir": "content/prelims/csat/decision-making/short-notes",
-  "file": "decision-making-drills.md",
-  "rel": "content/prelims/csat/decision-making/short-notes/decision-making-drills.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4843,
+  "size": 8303,
   "nav": "prelims-csat/decision-making/short"
  },
  {
@@ -2508,16 +1365,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/logical-reasoning/short-notes/reasoning-drills.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6571,
-  "nav": "prelims-csat/logical-reasoning/short"
- },
- {
-  "dir": "content/prelims/csat/logical-reasoning/short-notes",
-  "file": "reasoning-drills.md",
-  "rel": "content/prelims/csat/logical-reasoning/short-notes/reasoning-drills.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3053,
+  "size": 6491,
   "nav": "prelims-csat/logical-reasoning/short"
  },
  {
@@ -2526,16 +1374,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/numeracy/short-notes/numeracy-drills.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7373,
-  "nav": "prelims-csat/numeracy/short"
- },
- {
-  "dir": "content/prelims/csat/numeracy/short-notes",
-  "file": "numeracy-drills.md",
-  "rel": "content/prelims/csat/numeracy/short-notes/numeracy-drills.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3552,
+  "size": 7294,
   "nav": "prelims-csat/numeracy/short"
  },
  {
@@ -2544,16 +1383,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/pyqs/csat-practice.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6763,
-  "nav": "prelims-csat/pyqs"
- },
- {
-  "dir": "content/prelims/csat/pyqs",
-  "file": "csat-practice.md",
-  "rel": "content/prelims/csat/pyqs/csat-practice.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3425,
+  "size": 6686,
   "nav": "prelims-csat/pyqs"
  },
  {
@@ -2562,16 +1392,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/short-notes/csat-strategy.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6761,
-  "nav": "prelims-csat/short"
- },
- {
-  "dir": "content/prelims/csat/short-notes",
-  "file": "csat-strategy.md",
-  "rel": "content/prelims/csat/short-notes/csat-strategy.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3291,
+  "size": 6684,
   "nav": "prelims-csat/short"
  },
  {
@@ -2580,16 +1401,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7017,
-  "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs",
-  "file": "fdi-investment-mcqs.md",
-  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3605,
+  "size": 6934,
   "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs"
  },
  {
@@ -2598,16 +1410,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes/fdi-investment-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 15639,
-  "nav": "prelims-gs1/economy/external-sector/fdi-investment/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes",
-  "file": "fdi-investment-notes.md",
-  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes/fdi-investment-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 11732,
+  "size": 15555,
   "nav": "prelims-gs1/economy/external-sector/fdi-investment/short"
  },
  {
@@ -2616,16 +1419,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/short-notes/external-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7431,
-  "nav": "prelims-gs1/economy/external-sector/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/external-sector/short-notes",
-  "file": "external-prelims.md",
-  "rel": "content/prelims/gs1/economy/external-sector/short-notes/external-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3999,
+  "size": 7351,
   "nav": "prelims-gs1/economy/external-sector/short"
  },
  {
@@ -2634,16 +1428,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6729,
-  "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs",
-  "file": "trade-bop-mcqs.md",
-  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3328,
+  "size": 6651,
   "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs"
  },
  {
@@ -2652,16 +1437,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes/trade-bop-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16879,
-  "nav": "prelims-gs1/economy/external-sector/trade-bop/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes",
-  "file": "trade-bop-notes.md",
-  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes/trade-bop-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12923,
+  "size": 16800,
   "nav": "prelims-gs1/economy/external-sector/trade-bop/short"
  },
  {
@@ -2670,16 +1446,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6833,
-  "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs",
-  "file": "capital-markets-mcqs.md",
-  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3424,
+  "size": 6749,
   "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs"
  },
  {
@@ -2688,16 +1455,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes/capital-markets-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12433,
-  "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes",
-  "file": "capital-markets-notes.md",
-  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes/capital-markets-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8644,
+  "size": 12348,
   "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
  },
  {
@@ -2706,16 +1464,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs/financial-inclusion-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6732,
-  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs",
-  "file": "financial-inclusion-mcqs.md",
-  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs/financial-inclusion-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3266,
+  "size": 6644,
   "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/pyqs"
  },
  {
@@ -2724,16 +1473,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes/financial-inclusion-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16580,
-  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes",
-  "file": "financial-inclusion-notes.md",
-  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes/financial-inclusion-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12333,
+  "size": 16491,
   "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/short"
  },
  {
@@ -2742,16 +1482,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/short-notes/finmarkets-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7143,
-  "nav": "prelims-gs1/economy/financial-markets/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/financial-markets/short-notes",
-  "file": "finmarkets-prelims.md",
-  "rel": "content/prelims/gs1/economy/financial-markets/short-notes/finmarkets-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3614,
+  "size": 7061,
   "nav": "prelims-gs1/economy/financial-markets/short"
  },
  {
@@ -2760,16 +1491,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6331,
-  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs",
-  "file": "fiscal-policy-mcqs.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2905,
+  "size": 6249,
   "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs"
  },
  {
@@ -2778,16 +1500,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes/fiscal-policy-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 23206,
-  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes",
-  "file": "fiscal-policy-notes.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes/fiscal-policy-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 18697,
+  "size": 23123,
   "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short"
  },
  {
@@ -2796,16 +1509,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6629,
-  "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs",
-  "file": "money-banking-mcqs.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3213,
+  "size": 6547,
   "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs"
  },
  {
@@ -2814,16 +1518,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes/money-banking-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17784,
-  "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes",
-  "file": "money-banking-notes.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes/money-banking-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 13627,
+  "size": 17701,
   "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
  },
  {
@@ -2832,16 +1527,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/national-income/pyqs/national-income-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6533,
-  "nav": "prelims-gs1/economy/macro-economy/national-income/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/national-income/pyqs",
-  "file": "national-income-mcqs.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/national-income/pyqs/national-income-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3103,
+  "size": 6449,
   "nav": "prelims-gs1/economy/macro-economy/national-income/pyqs"
  },
  {
@@ -2850,16 +1536,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/national-income/short-notes/national-income-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10599,
-  "nav": "prelims-gs1/economy/macro-economy/national-income/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/national-income/short-notes",
-  "file": "national-income-notes.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/national-income/short-notes/national-income-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6639,
+  "size": 10514,
   "nav": "prelims-gs1/economy/macro-economy/national-income/short"
  },
  {
@@ -2868,16 +1545,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/short-notes/macro-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6875,
-  "nav": "prelims-gs1/economy/macro-economy/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/macro-economy/short-notes",
-  "file": "macro-prelims.md",
-  "rel": "content/prelims/gs1/economy/macro-economy/short-notes/macro-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3435,
+  "size": 6798,
   "nav": "prelims-gs1/economy/macro-economy/short"
  },
  {
@@ -2886,16 +1554,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6770,
-  "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/planning-growth/human-development/pyqs",
-  "file": "human-development-mcqs.md",
-  "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3297,
+  "size": 6684,
   "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs"
  },
  {
@@ -2904,16 +1563,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/human-development/short-notes/human-development-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20367,
-  "nav": "prelims-gs1/economy/planning-growth/human-development/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/planning-growth/human-development/short-notes",
-  "file": "human-development-notes.md",
-  "rel": "content/prelims/gs1/economy/planning-growth/human-development/short-notes/human-development-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15347,
+  "size": 20280,
   "nav": "prelims-gs1/economy/planning-growth/human-development/short"
  },
  {
@@ -2922,16 +1572,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs/niti-aayog-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6810,
-  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs",
-  "file": "niti-aayog-mcqs.md",
-  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs/niti-aayog-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3386,
+  "size": 6731,
   "nav": "prelims-gs1/economy/planning-growth/niti-aayog/pyqs"
  },
  {
@@ -2940,16 +1581,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes/niti-aayog-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18769,
-  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes",
-  "file": "niti-aayog-notes.md",
-  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes/niti-aayog-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15007,
+  "size": 18689,
   "nav": "prelims-gs1/economy/planning-growth/niti-aayog/short"
  },
  {
@@ -2958,16 +1590,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/short-notes/planning-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7979,
-  "nav": "prelims-gs1/economy/planning-growth/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/planning-growth/short-notes",
-  "file": "planning-prelims.md",
-  "rel": "content/prelims/gs1/economy/planning-growth/short-notes/planning-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4400,
+  "size": 7899,
   "nav": "prelims-gs1/economy/planning-growth/short"
  },
  {
@@ -2976,16 +1599,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/pyqs/economy-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6356,
-  "nav": "prelims-gs1/economy/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/pyqs",
-  "file": "economy-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/economy/pyqs/economy-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3133,
+  "size": 6272,
   "nav": "prelims-gs1/economy/pyqs"
  },
  {
@@ -2994,16 +1608,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6546,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs",
-  "file": "agriculture-mcqs.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3156,
+  "size": 6466,
   "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs"
  },
  {
@@ -3012,16 +1617,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes/agriculture-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18348,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes",
-  "file": "agriculture-notes.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes/agriculture-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 14495,
+  "size": 18267,
   "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short"
  },
  {
@@ -3030,16 +1626,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6556,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs",
-  "file": "industry-msme-mcqs.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3133,
+  "size": 6474,
   "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs"
  },
  {
@@ -3048,16 +1635,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes/industry-msme-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20477,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes",
-  "file": "industry-msme-notes.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes/industry-msme-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16690,
+  "size": 20394,
   "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
  },
  {
@@ -3066,16 +1644,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs/services-infrastructure-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6857,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs",
-  "file": "services-infrastructure-mcqs.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs/services-infrastructure-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3425,
+  "size": 6765,
   "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/pyqs"
  },
  {
@@ -3084,16 +1653,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes/services-infrastructure-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 27240,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes",
-  "file": "services-infrastructure-notes.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes/services-infrastructure-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 23685,
+  "size": 27147,
   "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/short"
  },
  {
@@ -3102,16 +1662,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/short-notes/sectors-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7807,
-  "nav": "prelims-gs1/economy/sectors-indian-economy/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/sectors-indian-economy/short-notes",
-  "file": "sectors-prelims.md",
-  "rel": "content/prelims/gs1/economy/sectors-indian-economy/short-notes/sectors-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4366,
+  "size": 7728,
   "nav": "prelims-gs1/economy/sectors-indian-economy/short"
  },
  {
@@ -3120,16 +1671,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/short-notes/economy-prelims-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6881,
-  "nav": "prelims-gs1/economy/short"
- },
- {
-  "dir": "content/prelims/gs1/economy/short-notes",
-  "file": "economy-prelims-revision.md",
-  "rel": "content/prelims/gs1/economy/short-notes/economy-prelims-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3419,
+  "size": 6793,
   "nav": "prelims-gs1/economy/short"
  },
  {
@@ -3138,16 +1680,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7340,
-  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
-  "file": "acts-conventions-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3873,
+  "size": 7255,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs"
  },
  {
@@ -3156,16 +1689,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes/acts-conventions-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21135,
-  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes",
-  "file": "acts-conventions-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes/acts-conventions-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15026,
+  "size": 21049,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
  },
  {
@@ -3174,16 +1698,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs/institutions-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6816,
-  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs",
-  "file": "institutions-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs/institutions-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3403,
+  "size": 6735,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/pyqs"
  },
  {
@@ -3192,16 +1707,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes/institutions-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14214,
-  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes",
-  "file": "institutions-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes/institutions-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 9168,
+  "size": 14132,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/short"
  },
  {
@@ -3210,16 +1716,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes/acts-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8566,
-  "nav": "prelims-gs1/environment-ecology/acts-policies-env/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes",
-  "file": "acts-prelims.md",
-  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes/acts-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4732,
+  "size": 8490,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/short"
  },
  {
@@ -3228,16 +1725,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6885,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
-  "file": "biodiversity-india-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3406,
+  "size": 6798,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs"
  },
  {
@@ -3246,16 +1734,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes/biodiversity-india-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17753,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes",
-  "file": "biodiversity-india-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes/biodiversity-india-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12952,
+  "size": 17665,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
  },
  {
@@ -3264,16 +1743,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs/ecosystems-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6712,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs",
-  "file": "ecosystems-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs/ecosystems-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3237,
+  "size": 6633,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs"
  },
  {
@@ -3282,16 +1752,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes/ecosystems-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14872,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes",
-  "file": "ecosystems-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes/ecosystems-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 10070,
+  "size": 14792,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/short"
  },
  {
@@ -3300,16 +1761,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes/ecology-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8147,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes",
-  "file": "ecology-prelims.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes/ecology-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4504,
+  "size": 8068,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short"
  },
  {
@@ -3318,16 +1770,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6799,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
-  "file": "species-conservation-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3328,
+  "size": 6710,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs"
  },
  {
@@ -3336,16 +1779,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes/species-conservation-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21946,
-  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes",
-  "file": "species-conservation-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes/species-conservation-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16652,
+  "size": 21856,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short"
  },
  {
@@ -3354,16 +1788,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7079,
-  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs",
-  "file": "climate-change-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3621,
+  "size": 6996,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs"
  },
  {
@@ -3372,16 +1797,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes/climate-change-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 30150,
-  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes",
-  "file": "climate-change-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes/climate-change-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 25858,
+  "size": 30066,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
  },
  {
@@ -3390,16 +1806,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs/pollution-waste-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6984,
-  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs",
-  "file": "pollution-waste-mcqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs/pollution-waste-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3543,
+  "size": 6900,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/pyqs"
  },
  {
@@ -3408,16 +1815,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes/pollution-waste-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 30561,
-  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes",
-  "file": "pollution-waste-notes.md",
-  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes/pollution-waste-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 26096,
+  "size": 30476,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/short"
  },
  {
@@ -3426,16 +1824,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes/issues-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7837,
-  "nav": "prelims-gs1/environment-ecology/environmental-issues/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes",
-  "file": "issues-prelims.md",
-  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes/issues-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4259,
+  "size": 7759,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/short"
  },
  {
@@ -3444,16 +1833,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/pyqs/environment-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6136,
-  "nav": "prelims-gs1/environment-ecology/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/pyqs",
-  "file": "environment-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/environment-ecology/pyqs/environment-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2867,
+  "size": 6048,
   "nav": "prelims-gs1/environment-ecology/pyqs"
  },
  {
@@ -3462,16 +1842,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/short-notes/environment-prelims-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7394,
-  "nav": "prelims-gs1/environment-ecology/short"
- },
- {
-  "dir": "content/prelims/gs1/environment-ecology/short-notes",
-  "file": "environment-prelims-revision.md",
-  "rel": "content/prelims/gs1/environment-ecology/short-notes/environment-prelims-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3627,
+  "size": 7302,
   "nav": "prelims-gs1/environment-ecology/short"
  },
  {
@@ -3480,16 +1851,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5543,
-  "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs",
-  "file": "climate-india-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2237,
+  "size": 5461,
   "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs"
  },
  {
@@ -3498,16 +1860,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes/climate-india-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9937,
-  "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes",
-  "file": "climate-india-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes/climate-india-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6112,
+  "size": 9854,
   "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
  },
  {
@@ -3516,16 +1869,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs/drainage-rivers-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5840,
-  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs",
-  "file": "drainage-rivers-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs/drainage-rivers-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2426,
+  "size": 5756,
   "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/pyqs"
  },
  {
@@ -3534,16 +1878,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes/drainage-rivers-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18822,
-  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes",
-  "file": "drainage-rivers-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes/drainage-rivers-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12442,
+  "size": 18737,
   "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short"
  },
  {
@@ -3552,16 +1887,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5316,
-  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs",
-  "file": "minerals-industries-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1974,
+  "size": 5228,
   "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs"
  },
  {
@@ -3570,16 +1896,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes/minerals-industries-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16794,
-  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes",
-  "file": "minerals-industries-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes/minerals-industries-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 11805,
+  "size": 16705,
   "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
  },
  {
@@ -3588,16 +1905,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs/physiography-india-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5399,
-  "nav": "prelims-gs1/geography/indian-geography/physiography-india/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs",
-  "file": "physiography-india-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs/physiography-india-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2076,
+  "size": 5312,
   "nav": "prelims-gs1/geography/indian-geography/physiography-india/pyqs"
  },
  {
@@ -3606,16 +1914,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes/physiography-india-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 13162,
-  "nav": "prelims-gs1/geography/indian-geography/physiography-india/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes",
-  "file": "physiography-india-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes/physiography-india-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 8636,
+  "size": 13074,
   "nav": "prelims-gs1/geography/indian-geography/physiography-india/short"
  },
  {
@@ -3624,16 +1923,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/short-notes/indian-geo-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8821,
-  "nav": "prelims-gs1/geography/indian-geography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/short-notes",
-  "file": "indian-geo-prelims.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/short-notes/indian-geo-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5326,
+  "size": 8739,
   "nav": "prelims-gs1/geography/indian-geography/short"
  },
  {
@@ -3642,16 +1932,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5458,
-  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs",
-  "file": "soils-agriculture-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2112,
+  "size": 5372,
   "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs"
  },
  {
@@ -3660,16 +1941,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes/soils-agriculture-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 15405,
-  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes",
-  "file": "soils-agriculture-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes/soils-agriculture-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 10566,
+  "size": 15318,
   "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
  },
  {
@@ -3678,16 +1950,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs/transport-settlements-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5592,
-  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs",
-  "file": "transport-settlements-mcqs.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs/transport-settlements-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2247,
+  "size": 5502,
   "nav": "prelims-gs1/geography/indian-geography/transport-settlements/pyqs"
  },
  {
@@ -3696,16 +1959,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes/transport-settlements-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18811,
-  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes",
-  "file": "transport-settlements-notes.md",
-  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes/transport-settlements-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12325,
+  "size": 18720,
   "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short"
  },
  {
@@ -3714,16 +1968,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6774,
-  "nav": "prelims-gs1/geography/maps-india-world/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/maps-india-world/short-notes",
-  "file": "map-drills.md",
-  "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3394,
+  "size": 6700,
   "nav": "prelims-gs1/geography/maps-india-world/short"
  },
  {
@@ -3732,16 +1977,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs/biogeography-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5558,
-  "nav": "prelims-gs1/geography/physical-geography/biogeography/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs",
-  "file": "biogeography-mcqs.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs/biogeography-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2203,
+  "size": 5477,
   "nav": "prelims-gs1/geography/physical-geography/biogeography/pyqs"
  },
  {
@@ -3750,16 +1986,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes/biogeography-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12008,
-  "nav": "prelims-gs1/geography/physical-geography/biogeography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes",
-  "file": "biogeography-notes.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes/biogeography-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7026,
+  "size": 11926,
   "nav": "prelims-gs1/geography/physical-geography/biogeography/short"
  },
  {
@@ -3768,16 +1995,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5519,
-  "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/climatology/pyqs",
-  "file": "climatology-mcqs.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2232,
+  "size": 5439,
   "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs"
  },
  {
@@ -3786,16 +2004,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/climatology/short-notes/climatology-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11207,
-  "nav": "prelims-gs1/geography/physical-geography/climatology/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/climatology/short-notes",
-  "file": "climatology-notes.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/climatology/short-notes/climatology-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7185,
+  "size": 11126,
   "nav": "prelims-gs1/geography/physical-geography/climatology/short"
  },
  {
@@ -3804,16 +2013,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5340,
-  "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs",
-  "file": "geomorphology-mcqs.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2033,
+  "size": 5258,
   "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs"
  },
  {
@@ -3822,16 +2022,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes/geomorphology-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11063,
-  "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes",
-  "file": "geomorphology-notes.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes/geomorphology-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6823,
+  "size": 10980,
   "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
  },
  {
@@ -3840,16 +2031,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs/oceanography-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5356,
-  "nav": "prelims-gs1/geography/physical-geography/oceanography/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs",
-  "file": "oceanography-mcqs.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs/oceanography-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2064,
+  "size": 5275,
   "nav": "prelims-gs1/geography/physical-geography/oceanography/pyqs"
  },
  {
@@ -3858,16 +2040,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes/oceanography-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9584,
-  "nav": "prelims-gs1/geography/physical-geography/oceanography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes",
-  "file": "oceanography-notes.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes/oceanography-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5513,
+  "size": 9502,
   "nav": "prelims-gs1/geography/physical-geography/oceanography/short"
  },
  {
@@ -3876,16 +2049,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/short-notes/physical-geo-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7462,
-  "nav": "prelims-gs1/geography/physical-geography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/physical-geography/short-notes",
-  "file": "physical-geo-prelims.md",
-  "rel": "content/prelims/gs1/geography/physical-geography/short-notes/physical-geo-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4098,
+  "size": 7378,
   "nav": "prelims-gs1/geography/physical-geography/short"
  },
  {
@@ -3894,16 +2058,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/pyqs/geography-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6131,
-  "nav": "prelims-gs1/geography/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/pyqs",
-  "file": "geography-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/geography/pyqs/geography-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2837,
+  "size": 6045,
   "nav": "prelims-gs1/geography/pyqs"
  },
  {
@@ -3912,16 +2067,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/short-notes/geography-prelims-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7196,
-  "nav": "prelims-gs1/geography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/short-notes",
-  "file": "geography-prelims-revision.md",
-  "rel": "content/prelims/gs1/geography/short-notes/geography-prelims-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3624,
+  "size": 7106,
   "nav": "prelims-gs1/geography/short"
  },
  {
@@ -3930,16 +2076,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/short-notes/world-geo-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7733,
-  "nav": "prelims-gs1/geography/world-geography/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/world-geography/short-notes",
-  "file": "world-geo-prelims.md",
-  "rel": "content/prelims/gs1/geography/world-geography/short-notes/world-geo-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4278,
+  "size": 7652,
   "nav": "prelims-gs1/geography/world-geography/short"
  },
  {
@@ -3948,16 +2085,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5431,
-  "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/world-geography/world-economic/pyqs",
-  "file": "world-economic-mcqs.md",
-  "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2089,
+  "size": 5348,
   "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs"
  },
  {
@@ -3966,16 +2094,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-economic/short-notes/world-economic-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20803,
-  "nav": "prelims-gs1/geography/world-geography/world-economic/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/world-geography/world-economic/short-notes",
-  "file": "world-economic-notes.md",
-  "rel": "content/prelims/gs1/geography/world-geography/world-economic/short-notes/world-economic-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15779,
+  "size": 20719,
   "nav": "prelims-gs1/geography/world-geography/world-economic/short"
  },
  {
@@ -3984,16 +2103,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-physical/pyqs/world-physical-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5429,
-  "nav": "prelims-gs1/geography/world-geography/world-physical/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/geography/world-geography/world-physical/pyqs",
-  "file": "world-physical-mcqs.md",
-  "rel": "content/prelims/gs1/geography/world-geography/world-physical/pyqs/world-physical-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2116,
+  "size": 5346,
   "nav": "prelims-gs1/geography/world-geography/world-physical/pyqs"
  },
  {
@@ -4002,16 +2112,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-physical/short-notes/world-physical-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16578,
-  "nav": "prelims-gs1/geography/world-geography/world-physical/short"
- },
- {
-  "dir": "content/prelims/gs1/geography/world-geography/world-physical/short-notes",
-  "file": "world-physical-notes.md",
-  "rel": "content/prelims/gs1/geography/world-geography/world-physical/short-notes/world-physical-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12147,
+  "size": 16494,
   "nav": "prelims-gs1/geography/world-geography/world-physical/short"
  },
  {
@@ -4020,16 +2121,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5956,
-  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
-  "file": "mahajanapadas-mauryan-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2453,
+  "size": 5866,
   "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs"
  },
  {
@@ -4038,16 +2130,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes/mahajanapadas-mauryan-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10187,
-  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes",
-  "file": "mahajanapadas-mauryan-notes.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes/mahajanapadas-mauryan-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6062,
+  "size": 10096,
   "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
  },
  {
@@ -4056,16 +2139,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs/post-mauryan-gupta-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5682,
-  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs",
-  "file": "post-mauryan-gupta-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs/post-mauryan-gupta-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2255,
+  "size": 5595,
   "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs"
  },
  {
@@ -4074,16 +2148,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes/post-mauryan-gupta-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9498,
-  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes",
-  "file": "post-mauryan-gupta-notes.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes/post-mauryan-gupta-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5480,
+  "size": 9410,
   "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/short"
  },
  {
@@ -4092,16 +2157,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/pyqs/ancient-history-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6225,
-  "nav": "prelims-gs1/history-culture/ancient-history/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/pyqs",
-  "file": "ancient-history-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/pyqs/ancient-history-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2910,
+  "size": 6133,
   "nav": "prelims-gs1/history-culture/ancient-history/pyqs"
  },
  {
@@ -4110,16 +2166,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/short-notes/ancient-history-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9662,
-  "nav": "prelims-gs1/history-culture/ancient-history/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/short-notes",
-  "file": "ancient-history-prelims.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/short-notes/ancient-history-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5925,
+  "size": 9575,
   "nav": "prelims-gs1/history-culture/ancient-history/short"
  },
  {
@@ -4128,16 +2175,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5168,
-  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
-  "file": "stone-bronze-age-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1839,
+  "size": 5083,
   "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs"
  },
  {
@@ -4146,16 +2184,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes/stone-bronze-age-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7718,
-  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes",
-  "file": "stone-bronze-age-notes.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes/stone-bronze-age-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3774,
+  "size": 7632,
   "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
  },
  {
@@ -4164,16 +2193,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs/vedic-age-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5191,
-  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs",
-  "file": "vedic-age-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs/vedic-age-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1891,
+  "size": 5113,
   "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/pyqs"
  },
  {
@@ -4182,16 +2202,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes/vedic-age-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7791,
-  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes",
-  "file": "vedic-age-notes.md",
-  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes/vedic-age-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3821,
+  "size": 7712,
   "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short"
  },
  {
@@ -4200,16 +2211,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5295,
-  "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs",
-  "file": "architecture-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2004,
+  "size": 5214,
   "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs"
  },
  {
@@ -4218,16 +2220,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes/architecture-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8923,
-  "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes",
-  "file": "architecture-notes.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes/architecture-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4922,
+  "size": 8841,
   "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
  },
  {
@@ -4236,16 +2229,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs/fairs-festivals-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5488,
-  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs",
-  "file": "fairs-festivals-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs/fairs-festivals-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2160,
+  "size": 5404,
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/pyqs"
  },
  {
@@ -4254,16 +2238,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9356,
-  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes",
-  "file": "fairs-festivals-notes.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5808,
+  "size": 9271,
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
  },
  {
@@ -4272,16 +2247,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5332,
-  "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs",
-  "file": "music-dance-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1938,
+  "size": 5252,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs"
  },
  {
@@ -4290,16 +2256,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10129,
-  "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes",
-  "file": "music-dance-notes.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5754,
+  "size": 10048,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
  },
  {
@@ -4308,16 +2265,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/painting/pyqs/painting-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5098,
-  "nav": "prelims-gs1/history-culture/art-culture/painting/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/painting/pyqs",
-  "file": "painting-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/painting/pyqs/painting-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1799,
+  "size": 5021,
   "nav": "prelims-gs1/history-culture/art-culture/painting/pyqs"
  },
  {
@@ -4326,16 +2274,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/painting/short-notes/painting-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9240,
-  "nav": "prelims-gs1/history-culture/art-culture/painting/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/painting/short-notes",
-  "file": "painting-notes.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/painting/short-notes/painting-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4942,
+  "size": 9162,
   "nav": "prelims-gs1/history-culture/art-culture/painting/short"
  },
  {
@@ -4344,16 +2283,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/pyqs/art-culture-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6090,
-  "nav": "prelims-gs1/history-culture/art-culture/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/pyqs",
-  "file": "art-culture-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/pyqs/art-culture-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2803,
+  "size": 6002,
   "nav": "prelims-gs1/history-culture/art-culture/pyqs"
  },
  {
@@ -4362,16 +2292,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5311,
-  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs",
-  "file": "scriptures-languages-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1910,
+  "size": 5222,
   "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs"
  },
  {
@@ -4380,16 +2301,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes/scriptures-languages-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 13661,
-  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes",
-  "file": "scriptures-languages-notes.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes/scriptures-languages-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 9164,
+  "size": 13571,
   "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/short"
  },
  {
@@ -4398,16 +2310,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/short-notes/art-culture-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9200,
-  "nav": "prelims-gs1/history-culture/art-culture/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/art-culture/short-notes",
-  "file": "art-culture-prelims.md",
-  "rel": "content/prelims/gs1/history-culture/art-culture/short-notes/art-culture-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5196,
+  "size": 9117,
   "nav": "prelims-gs1/history-culture/art-culture/short"
  },
  {
@@ -4416,16 +2319,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5342,
-  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
-  "file": "delhi-sultanate-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1989,
+  "size": 5258,
   "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs"
  },
  {
@@ -4434,16 +2328,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes/delhi-sultanate-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7663,
-  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes",
-  "file": "delhi-sultanate-notes.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes/delhi-sultanate-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3786,
+  "size": 7578,
   "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
  },
  {
@@ -4452,16 +2337,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs/early-medieval-kingdoms-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5385,
-  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs",
-  "file": "early-medieval-kingdoms-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs/early-medieval-kingdoms-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2009,
+  "size": 5293,
   "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs"
  },
  {
@@ -4470,16 +2346,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes/early-medieval-kingdoms-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6814,
-  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes",
-  "file": "early-medieval-kingdoms-notes.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes/early-medieval-kingdoms-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3179,
+  "size": 6721,
   "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short"
  },
  {
@@ -4488,16 +2355,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5239,
-  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
-  "file": "marathas-vijayanagara-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1856,
+  "size": 5149,
   "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs"
  },
  {
@@ -4506,16 +2364,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes/marathas-vijayanagara-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8040,
-  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes",
-  "file": "marathas-vijayanagara-notes.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes/marathas-vijayanagara-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4265,
+  "size": 7949,
   "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
  },
  {
@@ -4524,16 +2373,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs/mughal-empire-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5248,
-  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs",
-  "file": "mughal-empire-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs/mughal-empire-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 1896,
+  "size": 5166,
   "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/pyqs"
  },
  {
@@ -4542,16 +2382,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes/mughal-empire-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7671,
-  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes",
-  "file": "mughal-empire-notes.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes/mughal-empire-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3995,
+  "size": 7588,
   "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/short"
  },
  {
@@ -4560,16 +2391,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/pyqs/medieval-history-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6057,
-  "nav": "prelims-gs1/history-culture/medieval-history/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/pyqs",
-  "file": "medieval-history-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/pyqs/medieval-history-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2807,
+  "size": 5964,
   "nav": "prelims-gs1/history-culture/medieval-history/pyqs"
  },
  {
@@ -4578,16 +2400,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/short-notes/medieval-history-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11422,
-  "nav": "prelims-gs1/history-culture/medieval-history/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/medieval-history/short-notes",
-  "file": "medieval-history-prelims.md",
-  "rel": "content/prelims/gs1/history-culture/medieval-history/short-notes/medieval-history-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7297,
+  "size": 11334,
   "nav": "prelims-gs1/history-culture/medieval-history/short"
  },
  {
@@ -4596,16 +2409,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5517,
-  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs",
-  "file": "constitutional-development-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2164,
+  "size": 5422,
   "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs"
  },
  {
@@ -4614,16 +2418,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes/constitutional-development-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7971,
-  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes",
-  "file": "constitutional-development-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes/constitutional-development-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4002,
+  "size": 7875,
   "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
  },
  {
@@ -4632,16 +2427,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs/east-india-company-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5801,
-  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs",
-  "file": "east-india-company-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs/east-india-company-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2421,
+  "size": 5714,
   "nav": "prelims-gs1/history-culture/modern-history/east-india-company/pyqs"
  },
  {
@@ -4650,16 +2436,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes/east-india-company-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7167,
-  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes",
-  "file": "east-india-company-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes/east-india-company-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3404,
+  "size": 7083,
   "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short"
  },
  {
@@ -4668,16 +2445,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5450,
-  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
-  "file": "gandhian-era-1919-1947-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2118,
+  "size": 5359,
   "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs"
  },
  {
@@ -4686,16 +2454,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-1919-1947-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7594,
-  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes",
-  "file": "gandhian-era-1919-1947-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-1919-1947-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3941,
+  "size": 7502,
   "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
  },
  {
@@ -4704,16 +2463,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs/national-movement-1885-1919-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5557,
-  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs",
-  "file": "national-movement-1885-1919-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs/national-movement-1885-1919-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2198,
+  "size": 5461,
   "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/pyqs"
  },
  {
@@ -4722,16 +2472,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes/national-movement-1885-1919-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7023,
-  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes",
-  "file": "national-movement-1885-1919-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes/national-movement-1885-1919-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3408,
+  "size": 6926,
   "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/short"
  },
  {
@@ -4740,16 +2481,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/pyqs/modern-history-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6042,
-  "nav": "prelims-gs1/history-culture/modern-history/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/pyqs",
-  "file": "modern-history-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/pyqs/modern-history-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2782,
+  "size": 5953,
   "nav": "prelims-gs1/history-culture/modern-history/pyqs"
  },
  {
@@ -4758,16 +2490,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5654,
-  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs",
-  "file": "revolt-1857-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2340,
+  "size": 5574,
   "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs"
  },
  {
@@ -4776,16 +2499,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes/revolt-1857-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7268,
-  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes",
-  "file": "revolt-1857-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes/revolt-1857-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3460,
+  "size": 7187,
   "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/short"
  },
  {
@@ -4794,16 +2508,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/short-notes/socio-religious-reform-quick.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6784,
-  "nav": "prelims-gs1/history-culture/modern-history/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/short-notes",
-  "file": "socio-religious-reform-quick.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/short-notes/socio-religious-reform-quick.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2801,
+  "size": 6692,
   "nav": "prelims-gs1/history-culture/modern-history/short"
  },
  {
@@ -4812,16 +2517,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5738,
-  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs",
-  "file": "socio-religious-reforms-mcqs.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2404,
+  "size": 5646,
   "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/pyqs"
  },
  {
@@ -4830,16 +2526,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7973,
-  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short"
- },
- {
-  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes",
-  "file": "socio-religious-reforms-notes.md",
-  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3709,
+  "size": 7880,
   "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short"
  },
  {
@@ -4848,16 +2535,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6548,
-  "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs",
-  "file": "amendments-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3121,
+  "size": 6469,
   "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs"
  },
  {
@@ -4866,16 +2544,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes/amendments-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 15663,
-  "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes",
-  "file": "amendments-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes/amendments-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 9774,
+  "size": 15583,
   "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
  },
  {
@@ -4884,16 +2553,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs/federal-structure-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6834,
-  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs",
-  "file": "federal-structure-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs/federal-structure-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3367,
+  "size": 6748,
   "nav": "prelims-gs1/polity-governance/constitution/federal-structure/pyqs"
  },
  {
@@ -4902,16 +2562,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes/federal-structure-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 23472,
-  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes",
-  "file": "federal-structure-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes/federal-structure-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 18278,
+  "size": 23385,
   "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short"
  },
  {
@@ -4920,16 +2571,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6641,
-  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
-  "file": "fundamental-rights-dpsp-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3180,
+  "size": 6549,
   "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs"
  },
  {
@@ -4938,16 +2580,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes/fundamental-rights-dpsp-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 15944,
-  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes",
-  "file": "fundamental-rights-dpsp-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes/fundamental-rights-dpsp-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 11162,
+  "size": 15851,
   "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
  },
  {
@@ -4956,16 +2589,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs/making-features-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5611,
-  "nav": "prelims-gs1/polity-governance/constitution/making-features/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs",
-  "file": "making-features-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs/making-features-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2259,
+  "size": 5527,
   "nav": "prelims-gs1/polity-governance/constitution/making-features/pyqs"
  },
  {
@@ -4974,16 +2598,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes/making-features-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14635,
-  "nav": "prelims-gs1/polity-governance/constitution/making-features/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes",
-  "file": "making-features-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes/making-features-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 10052,
+  "size": 14550,
   "nav": "prelims-gs1/polity-governance/constitution/making-features/short"
  },
  {
@@ -4992,16 +2607,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/short-notes/constitution-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8646,
-  "nav": "prelims-gs1/polity-governance/constitution/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/constitution/short-notes",
-  "file": "constitution-prelims.md",
-  "rel": "content/prelims/gs1/polity-governance/constitution/short-notes/constitution-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4890,
+  "size": 8564,
   "nav": "prelims-gs1/polity-governance/constitution/short"
  },
  {
@@ -5010,16 +2616,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7343,
-  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs",
-  "file": "constitutional-bodies-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3924,
+  "size": 7253,
   "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs"
  },
  {
@@ -5028,16 +2625,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes/constitutional-bodies-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22189,
-  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes",
-  "file": "constitutional-bodies-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes/constitutional-bodies-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16034,
+  "size": 22098,
   "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
  },
  {
@@ -5046,16 +2634,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs/e-governance-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7210,
-  "nav": "prelims-gs1/polity-governance/governance/e-governance/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs",
-  "file": "e-governance-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs/e-governance-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3746,
+  "size": 7129,
   "nav": "prelims-gs1/polity-governance/governance/e-governance/pyqs"
  },
  {
@@ -5064,16 +2643,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes/e-governance-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16695,
-  "nav": "prelims-gs1/polity-governance/governance/e-governance/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes",
-  "file": "e-governance-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes/e-governance-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12550,
+  "size": 16613,
   "nav": "prelims-gs1/polity-governance/governance/e-governance/short"
  },
  {
@@ -5082,16 +2652,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6755,
-  "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs",
-  "file": "local-govt-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3368,
+  "size": 6676,
   "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs"
  },
  {
@@ -5100,16 +2661,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes/local-govt-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16790,
-  "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes",
-  "file": "local-govt-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes/local-govt-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 12375,
+  "size": 16710,
   "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
  },
  {
@@ -5118,16 +2670,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs/schemes-policies-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6830,
-  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs",
-  "file": "schemes-policies-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs/schemes-policies-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3402,
+  "size": 6745,
   "nav": "prelims-gs1/polity-governance/governance/schemes-policies/pyqs"
  },
  {
@@ -5136,16 +2679,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes/schemes-policies-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 25253,
-  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes",
-  "file": "schemes-policies-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes/schemes-policies-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 18324,
+  "size": 25167,
   "nav": "prelims-gs1/polity-governance/governance/schemes-policies/short"
  },
  {
@@ -5154,16 +2688,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8503,
-  "nav": "prelims-gs1/polity-governance/governance/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/short-notes",
-  "file": "governance-prelims.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4755,
+  "size": 8421,
   "nav": "prelims-gs1/polity-governance/governance/short"
  },
  {
@@ -5172,16 +2697,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs/statutory-bodies-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7618,
-  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs",
-  "file": "statutory-bodies-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs/statutory-bodies-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4163,
+  "size": 7533,
   "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/pyqs"
  },
  {
@@ -5190,16 +2706,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes/statutory-bodies-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22094,
-  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes",
-  "file": "statutory-bodies-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes/statutory-bodies-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15635,
+  "size": 22008,
   "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short"
  },
  {
@@ -5208,16 +2715,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6516,
-  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs",
-  "file": "bilateral-ties-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3088,
+  "size": 6433,
   "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs"
  },
  {
@@ -5226,16 +2724,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes/bilateral-ties-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 28375,
-  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes",
-  "file": "bilateral-ties-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes/bilateral-ties-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 23626,
+  "size": 28291,
   "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short"
  },
  {
@@ -5244,16 +2733,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6246,
-  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs",
-  "file": "global-groups-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2800,
+  "size": 6164,
   "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs"
  },
  {
@@ -5262,16 +2742,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes/global-groups-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22216,
-  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes",
-  "file": "global-groups-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes/global-groups-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 14383,
+  "size": 22133,
   "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
  },
  {
@@ -5280,16 +2751,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs/multilateral-forums-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6676,
-  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs",
-  "file": "multilateral-forums-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs/multilateral-forums-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3193,
+  "size": 6588,
   "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/pyqs"
  },
  {
@@ -5298,16 +2760,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 31697,
-  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes",
-  "file": "multilateral-forums-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 25128,
+  "size": 31608,
   "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
  },
  {
@@ -5316,16 +2769,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9291,
-  "nav": "prelims-gs1/polity-governance/international-relations/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/international-relations/short-notes",
-  "file": "ir-prelims.md",
-  "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5528,
+  "size": 9217,
   "nav": "prelims-gs1/polity-governance/international-relations/short"
  },
  {
@@ -5334,16 +2778,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs/executive-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7609,
-  "nav": "prelims-gs1/polity-governance/organs-govt/executive/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs",
-  "file": "executive-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs/executive-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4203,
+  "size": 7531,
   "nav": "prelims-gs1/polity-governance/organs-govt/executive/pyqs"
  },
  {
@@ -5352,16 +2787,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes/executive-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 19902,
-  "nav": "prelims-gs1/polity-governance/organs-govt/executive/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes",
-  "file": "executive-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes/executive-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 15146,
+  "size": 19823,
   "nav": "prelims-gs1/polity-governance/organs-govt/executive/short"
  },
  {
@@ -5370,16 +2796,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7070,
-  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs",
-  "file": "judiciary-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3698,
+  "size": 6992,
   "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs"
  },
  {
@@ -5388,16 +2805,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes/judiciary-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21895,
-  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes",
-  "file": "judiciary-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes/judiciary-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 16349,
+  "size": 21816,
   "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
  },
  {
@@ -5406,16 +2814,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs/parliament-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7637,
-  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs",
-  "file": "parliament-mcqs.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs/parliament-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4261,
+  "size": 7558,
   "nav": "prelims-gs1/polity-governance/organs-govt/parliament/pyqs"
  },
  {
@@ -5424,16 +2823,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes/parliament-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22495,
-  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes",
-  "file": "parliament-notes.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes/parliament-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 17217,
+  "size": 22415,
   "nav": "prelims-gs1/polity-governance/organs-govt/parliament/short"
  },
  {
@@ -5442,16 +2832,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/short-notes/organs-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9020,
-  "nav": "prelims-gs1/polity-governance/organs-govt/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/organs-govt/short-notes",
-  "file": "organs-prelims.md",
-  "rel": "content/prelims/gs1/polity-governance/organs-govt/short-notes/organs-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5337,
+  "size": 8942,
   "nav": "prelims-gs1/polity-governance/organs-govt/short"
  },
  {
@@ -5460,16 +2841,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/pyqs/polity-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5872,
-  "nav": "prelims-gs1/polity-governance/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/pyqs",
-  "file": "polity-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/polity-governance/pyqs/polity-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2625,
+  "size": 5789,
   "nav": "prelims-gs1/polity-governance/pyqs"
  },
  {
@@ -5478,16 +2850,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/short-notes/polity-prelims-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7585,
-  "nav": "prelims-gs1/polity-governance/short"
- },
- {
-  "dir": "content/prelims/gs1/polity-governance/short-notes",
-  "file": "polity-prelims-revision.md",
-  "rel": "content/prelims/gs1/polity-governance/short-notes/polity-prelims-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4040,
+  "size": 7498,
   "nav": "prelims-gs1/polity-governance/short"
  },
  {
@@ -5496,16 +2859,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6577,
-  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs",
-  "file": "physics-chem-bio-mcqs.md",
-  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3126,
+  "size": 6492,
   "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs"
  },
  {
@@ -5514,16 +2868,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes/physics-chem-bio-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 43225,
-  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes",
-  "file": "physics-chem-bio-notes.md",
-  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes/physics-chem-bio-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 38133,
+  "size": 43139,
   "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/short"
  },
  {
@@ -5532,16 +2877,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/basic-science/short-notes/basic-science-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8026,
-  "nav": "prelims-gs1/science-tech/basic-science/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/basic-science/short-notes",
-  "file": "basic-science-prelims.md",
-  "rel": "content/prelims/gs1/science-tech/basic-science/short-notes/basic-science-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 4631,
+  "size": 7941,
   "nav": "prelims-gs1/science-tech/basic-science/short"
  },
  {
@@ -5550,16 +2886,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7391,
-  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs",
-  "file": "ai-it-mcqs.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3987,
+  "size": 7317,
   "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs"
  },
  {
@@ -5568,16 +2895,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes/ai-it-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 41644,
-  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes",
-  "file": "ai-it-notes.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes/ai-it-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 36959,
+  "size": 41569,
   "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short"
  },
  {
@@ -5586,16 +2904,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7113,
-  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs",
-  "file": "biotech-health-mcqs.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3683,
+  "size": 7030,
   "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs"
  },
  {
@@ -5604,16 +2913,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes/biotech-health-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20848,
-  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes",
-  "file": "biotech-health-notes.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes/biotech-health-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 17206,
+  "size": 20764,
   "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
  },
  {
@@ -5622,16 +2922,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs/defence-nuclear-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7116,
-  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs",
-  "file": "defence-nuclear-mcqs.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs/defence-nuclear-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3679,
+  "size": 7032,
   "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/pyqs"
  },
  {
@@ -5640,16 +2931,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes/defence-nuclear-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 33870,
-  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes",
-  "file": "defence-nuclear-notes.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes/defence-nuclear-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 27805,
+  "size": 33785,
   "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/short"
  },
  {
@@ -5658,16 +2940,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/short-notes/emerging-tech-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9868,
-  "nav": "prelims-gs1/science-tech/emerging-tech/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/short-notes",
-  "file": "emerging-tech-prelims.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/short-notes/emerging-tech-prelims.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6112,
+  "size": 9783,
   "nav": "prelims-gs1/science-tech/emerging-tech/short"
  },
  {
@@ -5676,16 +2949,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs/space-missions-mcqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6932,
-  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs",
-  "file": "space-missions-mcqs.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs/space-missions-mcqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3506,
+  "size": 6849,
   "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/pyqs"
  },
  {
@@ -5694,16 +2958,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes/space-missions-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 27699,
-  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes",
-  "file": "space-missions-notes.md",
-  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes/space-missions-notes.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 24031,
+  "size": 27615,
   "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/short"
  },
  {
@@ -5712,16 +2967,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/pyqs/scitech-prelims-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5499,
-  "nav": "prelims-gs1/science-tech/pyqs"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/pyqs",
-  "file": "scitech-prelims-pyqs.md",
-  "rel": "content/prelims/gs1/science-tech/pyqs/scitech-prelims-pyqs.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 2312,
+  "size": 5415,
   "nav": "prelims-gs1/science-tech/pyqs"
  },
  {
@@ -5730,16 +2976,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/short-notes/scitech-prelims-revision.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7204,
-  "nav": "prelims-gs1/science-tech/short"
- },
- {
-  "dir": "content/prelims/gs1/science-tech/short-notes",
-  "file": "scitech-prelims-revision.md",
-  "rel": "content/prelims/gs1/science-tech/short-notes/scitech-prelims-revision.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3600,
+  "size": 7116,
   "nav": "prelims-gs1/science-tech/short"
  },
  {
@@ -5748,16 +2985,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14556,
-  "nav": "prelims-mocks/csat-mock/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/csat-mock/pyqs",
-  "file": "csat-mock-30q.md",
-  "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 9866,
+  "size": 14479,
   "nav": "prelims-mocks/csat-mock/pyqs"
  },
  {
@@ -5766,16 +2994,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.html",
   "kind": "doc",
   "ext": "html",
-  "size": 48105,
-  "nav": "prelims-mocks/full-length/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/full-length/pyqs",
-  "file": "gs1-full-length-mock-01.md",
-  "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 38237,
+  "size": 48018,
   "nav": "prelims-mocks/full-length/pyqs"
  },
  {
@@ -5784,16 +3003,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/economy-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10465,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "economy-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/economy-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6636,
+  "size": 10380,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5802,16 +3012,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/environment-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10225,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "environment-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/environment-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 6358,
+  "size": 10136,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5820,16 +3021,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/geography-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9187,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "geography-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/geography-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5352,
+  "size": 9100,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5838,16 +3030,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/history-culture-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9247,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "history-culture-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/history-culture-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5380,
+  "size": 9154,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5856,16 +3039,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/polity-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11089,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "polity-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/polity-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 7231,
+  "size": 11005,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5874,16 +3048,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/mocks/sectional-tests/pyqs/science-tech-sectional-20q.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9466,
-  "nav": "prelims-mocks/sectional-tests/pyqs"
- },
- {
-  "dir": "content/prelims/mocks/sectional-tests/pyqs",
-  "file": "science-tech-sectional-20q.md",
-  "rel": "content/prelims/mocks/sectional-tests/pyqs/science-tech-sectional-20q.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 5596,
+  "size": 9376,
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
@@ -5892,16 +3057,7 @@ window.CONTENT_INDEX = [
   "rel": "content/README.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6921,
-  "nav": ""
- },
- {
-  "dir": "content",
-  "file": "README.md",
-  "rel": "content/README.md",
-  "kind": "doc",
-  "ext": "md",
-  "size": 3824,
+  "size": 6860,
   "nav": ""
  }
 ];
@@ -5917,7 +3073,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 156866,
+    "size": 107411,
     "nav": ""
    },
    {
@@ -5926,16 +3082,7 @@ window.CONTENT_DIRS = [
     "rel": "content/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6921,
-    "nav": ""
-   },
-   {
-    "dir": "content",
-    "file": "README.md",
-    "rel": "content/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3824,
+    "size": 6860,
     "nav": ""
    }
   ]
@@ -5950,16 +3097,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-frameworks/bullet-points/essay-writing-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5767,
-    "nav": "essay/essay/bullets"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-frameworks/bullet-points",
-    "file": "essay-writing-points.md",
-    "rel": "content/mains/essay-frameworks/essay-frameworks/bullet-points/essay-writing-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2582,
+    "size": 5683,
     "nav": "essay/essay/bullets"
    }
   ]
@@ -5974,16 +3112,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10401,
-    "nav": "essay/essay/notes"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-frameworks/detailed-notes",
-    "file": "essay-writing.md",
-    "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5955,
+    "size": 10326,
     "nav": "essay/essay/notes"
    }
   ]
@@ -6013,16 +3142,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-frameworks/pyqs/essay-frameworks-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7513,
-    "nav": "essay/essay/pyqs"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-frameworks/pyqs",
-    "file": "essay-frameworks-pyqs.md",
-    "rel": "content/mains/essay-frameworks/essay-frameworks/pyqs/essay-frameworks-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4072,
+    "size": 7428,
     "nav": "essay/essay/pyqs"
    }
   ]
@@ -6037,16 +3157,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-frameworks/short-notes/essay-writing-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6580,
-    "nav": "essay/essay/short"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-frameworks/short-notes",
-    "file": "essay-writing-revision.md",
-    "rel": "content/mains/essay-frameworks/essay-frameworks/short-notes/essay-writing-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3046,
+    "size": 6494,
     "nav": "essay/essay/short"
    }
   ]
@@ -6061,16 +3172,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7631,
-    "nav": "essay/essay-quotes/notes"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-quotes/detailed-notes",
-    "file": "quote-bank.md",
-    "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3924,
+    "size": 7557,
     "nav": "essay/essay-quotes/notes"
    }
   ]
@@ -6085,16 +3187,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9408,
-    "nav": "essay/essay-topics/notes"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-topics/detailed-notes",
-    "file": "topic-bank.md",
-    "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5552,
+    "size": 9340,
     "nav": "essay/essay-topics/notes"
    }
   ]
@@ -6109,16 +3202,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7532,
-    "nav": "essay/essay-toppers/notes"
-   },
-   {
-    "dir": "content/mains/essay-frameworks/essay-toppers/detailed-notes",
-    "file": "toppers-analysis.md",
-    "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4028,
+    "size": 7456,
     "nav": "essay/essay-toppers/notes"
    }
   ]
@@ -6133,16 +3217,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 4453,
-    "nav": "gs-1"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society",
-    "file": "README.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1315,
+    "size": 4376,
     "nav": "gs-1"
    }
   ]
@@ -6157,16 +3232,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9006,
-    "nav": "gs-1/geography-world-india/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
-    "file": "geography-world-india-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points/geography-world-india-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4721,
+    "size": 8914,
     "nav": "gs-1/geography-world-india/bullets"
    }
   ]
@@ -6181,16 +3247,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18399,
-    "nav": "gs-1/geography-world-india/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes",
-    "file": "geography-of-india-and-world.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12102,
+    "size": 18309,
     "nav": "gs-1/geography-world-india/notes"
    }
   ]
@@ -6220,16 +3277,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10600,
-    "nav": "gs-1/geography-world-india/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs",
-    "file": "geography-world-india-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/pyqs/geography-world-india-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6481,
+    "size": 10510,
     "nav": "gs-1/geography-world-india/pyqs"
    }
   ]
@@ -6244,16 +3292,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7200,
-    "nav": "gs-1/geography-world-india/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes",
-    "file": "geography-world-india-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/short-notes/geography-world-india-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3248,
+    "size": 7106,
     "nav": "gs-1/geography-world-india/short"
    }
   ]
@@ -6268,16 +3307,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points/heritage-culture-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5911,
-    "nav": "gs-1/indian-heritage-culture/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points",
-    "file": "heritage-culture-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/bullet-points/heritage-culture-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2695,
+    "size": 5824,
     "nav": "gs-1/indian-heritage-culture/bullets"
    }
   ]
@@ -6292,16 +3322,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14236,
-    "nav": "gs-1/indian-heritage-culture/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes",
-    "file": "indian-heritage-culture.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8718,
+    "size": 14151,
     "nav": "gs-1/indian-heritage-culture/notes"
    }
   ]
@@ -6331,16 +3352,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs/heritage-culture-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7768,
-    "nav": "gs-1/indian-heritage-culture/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs",
-    "file": "heritage-culture-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/pyqs/heritage-culture-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4361,
+    "size": 7683,
     "nav": "gs-1/indian-heritage-culture/pyqs"
    }
   ]
@@ -6355,16 +3367,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes/heritage-culture-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6753,
-    "nav": "gs-1/indian-heritage-culture/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes",
-    "file": "heritage-culture-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/short-notes/heritage-culture-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3270,
+    "size": 6664,
     "nav": "gs-1/indian-heritage-culture/short"
    }
   ]
@@ -6379,16 +3382,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points/indian-society-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6296,
-    "nav": "gs-1/indian-society/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points",
-    "file": "indian-society-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-society/bullet-points/indian-society-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3121,
+    "size": 6211,
     "nav": "gs-1/indian-society/bullets"
    }
   ]
@@ -6403,16 +3397,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11073,
-    "nav": "gs-1/indian-society/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes",
-    "file": "indian-society.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7013,
+    "size": 10997,
     "nav": "gs-1/indian-society/notes"
    }
   ]
@@ -6442,16 +3427,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs/indian-society-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7560,
-    "nav": "gs-1/indian-society/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs",
-    "file": "indian-society-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-society/pyqs/indian-society-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4313,
+    "size": 7477,
     "nav": "gs-1/indian-society/pyqs"
    }
   ]
@@ -6466,16 +3442,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes/indian-society-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6265,
-    "nav": "gs-1/indian-society/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes",
-    "file": "indian-society-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/indian-society/short-notes/indian-society-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2774,
+    "size": 6178,
     "nav": "gs-1/indian-society/short"
    }
   ]
@@ -6490,16 +3457,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7962,
-    "nav": "gs-1/modern-history/constitutional-development/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points",
-    "file": "constitutional-development-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/bullet-points/constitutional-development-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4056,
+    "size": 7865,
     "nav": "gs-1/modern-history/constitutional-development/bullets"
    }
   ]
@@ -6514,16 +3472,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20120,
-    "nav": "gs-1/modern-history/constitutional-development/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes",
-    "file": "constitutional-development.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 13651,
+    "size": 20032,
     "nav": "gs-1/modern-history/constitutional-development/notes"
    }
   ]
@@ -6553,16 +3502,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10404,
-    "nav": "gs-1/modern-history/constitutional-development/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs",
-    "file": "constitutional-development-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/pyqs/constitutional-development-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6394,
+    "size": 10309,
     "nav": "gs-1/modern-history/constitutional-development/pyqs"
    }
   ]
@@ -6577,16 +3517,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7770,
-    "nav": "gs-1/modern-history/constitutional-development/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes",
-    "file": "constitutional-development-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/short-notes/constitutional-development-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3706,
+    "size": 7671,
     "nav": "gs-1/modern-history/constitutional-development/short"
    }
   ]
@@ -6601,16 +3532,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6036,
-    "nav": "gs-1/modern-history/east-india-company/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points",
-    "file": "advent-of-europeans-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/bullet-points/advent-of-europeans-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2456,
+    "size": 5946,
     "nav": "gs-1/modern-history/east-india-company/bullets"
    }
   ]
@@ -6625,16 +3547,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22199,
-    "nav": "gs-1/modern-history/east-india-company/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes",
-    "file": "advent-of-europeans.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 14360,
+    "size": 22118,
     "nav": "gs-1/modern-history/east-india-company/notes"
    }
   ]
@@ -6664,16 +3577,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9180,
-    "nav": "gs-1/modern-history/east-india-company/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs",
-    "file": "advent-of-europeans-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/pyqs/advent-of-europeans-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5138,
+    "size": 9092,
     "nav": "gs-1/modern-history/east-india-company/pyqs"
    }
   ]
@@ -6688,16 +3592,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6641,
-    "nav": "gs-1/modern-history/east-india-company/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes",
-    "file": "advent-of-europeans-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/short-notes/advent-of-europeans-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2652,
+    "size": 6549,
     "nav": "gs-1/modern-history/east-india-company/short"
    }
   ]
@@ -6712,16 +3607,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8189,
-    "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points",
-    "file": "gandhian-era-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4140,
+    "size": 8106,
     "nav": "gs-1/modern-history/gandhian-era-1919-1947/bullets"
    }
   ]
@@ -6736,16 +3622,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.html",
     "kind": "doc",
     "ext": "html",
-    "size": 26842,
-    "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes",
-    "file": "gandhian-era-1919-1947.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 18464,
+    "size": 26758,
     "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
    }
   ]
@@ -6775,16 +3652,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10386,
-    "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs",
-    "file": "gandhian-era-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6316,
+    "size": 10305,
     "nav": "gs-1/modern-history/gandhian-era-1919-1947/pyqs"
    }
   ]
@@ -6799,16 +3667,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7852,
-    "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes",
-    "file": "gandhian-era-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3650,
+    "size": 7767,
     "nav": "gs-1/modern-history/gandhian-era-1919-1947/short"
    }
   ]
@@ -6823,16 +3682,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7122,
-    "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points",
-    "file": "national-movement-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/bullet-points/national-movement-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3444,
+    "size": 7034,
     "nav": "gs-1/modern-history/national-movement-1885-1919/bullets"
    }
   ]
@@ -6847,16 +3697,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17766,
-    "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes",
-    "file": "national-movement-1885-1919.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 11509,
+    "size": 17677,
     "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
    }
   ]
@@ -6886,16 +3727,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10020,
-    "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs",
-    "file": "national-movement-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/pyqs/national-movement-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5986,
+    "size": 9934,
     "nav": "gs-1/modern-history/national-movement-1885-1919/pyqs"
    }
   ]
@@ -6910,16 +3742,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7354,
-    "nav": "gs-1/modern-history/national-movement-1885-1919/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes",
-    "file": "national-movement-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/short-notes/national-movement-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3354,
+    "size": 7264,
     "nav": "gs-1/modern-history/national-movement-1885-1919/short"
    }
   ]
@@ -6934,16 +3757,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points/revolt-1857-mindmap.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5191,
-    "nav": "gs-1/modern-history/revolt-1857/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points",
-    "file": "revolt-1857-mindmap.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/bullet-points/revolt-1857-mindmap.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1850,
+    "size": 5108,
     "nav": "gs-1/modern-history/revolt-1857/bullets"
    }
   ]
@@ -6958,16 +3772,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10383,
-    "nav": "gs-1/modern-history/revolt-1857/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes",
-    "file": "revolt-1857.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5771,
+    "size": 10310,
     "nav": "gs-1/modern-history/revolt-1857/notes"
    }
   ]
@@ -6997,16 +3802,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs/revolt-1857-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6349,
-    "nav": "gs-1/modern-history/revolt-1857/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs",
-    "file": "revolt-1857-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs/revolt-1857-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2984,
+    "size": 6269,
     "nav": "gs-1/modern-history/revolt-1857/pyqs"
    }
   ]
@@ -7021,16 +3817,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes/revolt-1857-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5169,
-    "nav": "gs-1/modern-history/revolt-1857/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes",
-    "file": "revolt-1857-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/short-notes/revolt-1857-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1694,
+    "size": 5085,
     "nav": "gs-1/modern-history/revolt-1857/short"
    }
   ]
@@ -7045,16 +3832,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7012,
-    "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points",
-    "file": "socio-religious-reforms-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3241,
+    "size": 6918,
     "nav": "gs-1/modern-history/socio-religious-reforms/bullets"
    }
   ]
@@ -7069,16 +3847,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21514,
-    "nav": "gs-1/modern-history/socio-religious-reforms/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes",
-    "file": "socio-religious-reforms.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 13974,
+    "size": 21429,
     "nav": "gs-1/modern-history/socio-religious-reforms/notes"
    }
   ]
@@ -7108,16 +3877,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9078,
-    "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs",
-    "file": "socio-religious-reforms-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5028,
+    "size": 8986,
     "nav": "gs-1/modern-history/socio-religious-reforms/pyqs"
    }
   ]
@@ -7132,16 +3892,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6617,
-    "nav": "gs-1/modern-history/socio-religious-reforms/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes",
-    "file": "socio-religious-reforms-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2509,
+    "size": 6521,
     "nav": "gs-1/modern-history/socio-religious-reforms/short"
    }
   ]
@@ -7156,16 +3907,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 3023,
-    "nav": "gs-1/physical-geography"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography",
-    "file": "README.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 199,
+    "size": 2953,
     "nav": "gs-1/physical-geography"
    }
   ]
@@ -7180,16 +3922,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7865,
-    "nav": "gs-1/physical-geography/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points",
-    "file": "physical-geography-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/bullet-points/physical-geography-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3779,
+    "size": 7776,
     "nav": "gs-1/physical-geography/bullets"
    }
   ]
@@ -7204,16 +3937,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21358,
-    "nav": "gs-1/physical-geography/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes",
-    "file": "physical-geography.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 13937,
+    "size": 21278,
     "nav": "gs-1/physical-geography/notes"
    }
   ]
@@ -7243,16 +3967,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9960,
-    "nav": "gs-1/physical-geography/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs",
-    "file": "physical-geography-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/pyqs/physical-geography-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6081,
+    "size": 9873,
     "nav": "gs-1/physical-geography/pyqs"
    }
   ]
@@ -7267,16 +3982,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7874,
-    "nav": "gs-1/physical-geography/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes",
-    "file": "physical-geography-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/short-notes/physical-geography-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3594,
+    "size": 7783,
     "nav": "gs-1/physical-geography/short"
    }
   ]
@@ -7291,16 +3997,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points/world-history-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5855,
-    "nav": "gs-1/world-history/bullets"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points",
-    "file": "world-history-points.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/world-history/bullet-points/world-history-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2848,
+    "size": 5771,
     "nav": "gs-1/world-history/bullets"
    }
   ]
@@ -7315,16 +4012,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10838,
-    "nav": "gs-1/world-history/notes"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes",
-    "file": "world-history.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6322,
+    "size": 10763,
     "nav": "gs-1/world-history/notes"
    }
   ]
@@ -7354,16 +4042,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/world-history/pyqs/world-history-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7282,
-    "nav": "gs-1/world-history/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/world-history/pyqs",
-    "file": "world-history-pyqs.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/world-history/pyqs/world-history-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4034,
+    "size": 7200,
     "nav": "gs-1/world-history/pyqs"
    }
   ]
@@ -7378,16 +4057,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/world-history/short-notes/world-history-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5987,
-    "nav": "gs-1/world-history/short"
-   },
-   {
-    "dir": "content/mains/gs-1-heritage-geography-society/world-history/short-notes",
-    "file": "world-history-revision.md",
-    "rel": "content/mains/gs-1-heritage-geography-society/world-history/short-notes/world-history-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2742,
+    "size": 5901,
     "nav": "gs-1/world-history/short"
    }
   ]
@@ -7402,16 +4072,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 3681,
-    "nav": "gs-2"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir",
-    "file": "README.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 676,
+    "size": 3611,
     "nav": "gs-2"
    }
   ]
@@ -7426,16 +4087,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6937,
-    "nav": "gs-2/constitution-polity/bullets"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points",
-    "file": "constitution-points.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/bullet-points/constitution-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3149,
+    "size": 6854,
     "nav": "gs-2/constitution-polity/bullets"
    }
   ]
@@ -7450,16 +4102,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.html",
     "kind": "doc",
     "ext": "html",
-    "size": 28170,
-    "nav": "gs-2/constitution-polity/notes"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes",
-    "file": "constitution-of-india.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 19717,
+    "size": 28087,
     "nav": "gs-2/constitution-polity/notes"
    }
   ]
@@ -7489,16 +4132,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12056,
-    "nav": "gs-2/constitution-polity/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs",
-    "file": "constitution-polity-pyqs.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/pyqs/constitution-polity-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7718,
+    "size": 11968,
     "nav": "gs-2/constitution-polity/pyqs"
    }
   ]
@@ -7513,16 +4147,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8004,
-    "nav": "gs-2/constitution-polity/short"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes",
-    "file": "constitution-revision.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/short-notes/constitution-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3902,
+    "size": 7919,
     "nav": "gs-2/constitution-polity/short"
    }
   ]
@@ -7537,16 +4162,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7373,
-    "nav": "gs-2/governance-administration/bullets"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points",
-    "file": "organs-points.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/bullet-points/organs-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3580,
+    "size": 7296,
     "nav": "gs-2/governance-administration/bullets"
    }
   ]
@@ -7561,16 +4177,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.html",
     "kind": "doc",
     "ext": "html",
-    "size": 19652,
-    "nav": "gs-2/governance-administration/notes"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes",
-    "file": "parliament-executive-judiciary.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12741,
+    "size": 19560,
     "nav": "gs-2/governance-administration/notes"
    }
   ]
@@ -7600,16 +4207,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11970,
-    "nav": "gs-2/governance-administration/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs",
-    "file": "governance-administration-pyqs.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/pyqs/governance-administration-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7763,
+    "size": 11876,
     "nav": "gs-2/governance-administration/pyqs"
    }
   ]
@@ -7624,16 +4222,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7106,
-    "nav": "gs-2/governance-administration/short"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes",
-    "file": "organs-of-government-revision.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/short-notes/organs-of-government-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3111,
+    "size": 7013,
     "nav": "gs-2/governance-administration/short"
    }
   ]
@@ -7648,16 +4237,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7784,
-    "nav": "gs-2/international-relations/bullets"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points",
-    "file": "ir-points.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/bullet-points/ir-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3759,
+    "size": 7711,
     "nav": "gs-2/international-relations/bullets"
    }
   ]
@@ -7672,16 +4252,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21460,
-    "nav": "gs-2/international-relations/notes"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes",
-    "file": "india-foreign-policy-ir.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 14472,
+    "size": 21375,
     "nav": "gs-2/international-relations/notes"
    }
   ]
@@ -7711,16 +4282,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11800,
-    "nav": "gs-2/international-relations/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs",
-    "file": "international-relations-pyqs.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/pyqs/international-relations-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7498,
+    "size": 11708,
     "nav": "gs-2/international-relations/pyqs"
    }
   ]
@@ -7735,16 +4297,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7163,
-    "nav": "gs-2/international-relations/short"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes",
-    "file": "ir-revision.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/international-relations/short-notes/ir-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3223,
+    "size": 7088,
     "nav": "gs-2/international-relations/short"
    }
   ]
@@ -7759,16 +4312,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6502,
-    "nav": "gs-2/social-justice/bullets"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points",
-    "file": "social-justice-points.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/bullet-points/social-justice-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2850,
+    "size": 6417,
     "nav": "gs-2/social-justice/bullets"
    }
   ]
@@ -7783,16 +4327,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20365,
-    "nav": "gs-2/social-justice/notes"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes",
-    "file": "social-justice-welfare.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 13572,
+    "size": 20281,
     "nav": "gs-2/social-justice/notes"
    }
   ]
@@ -7822,16 +4357,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11023,
-    "nav": "gs-2/social-justice/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs",
-    "file": "social-justice-pyqs.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/pyqs/social-justice-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6918,
+    "size": 10940,
     "nav": "gs-2/social-justice/pyqs"
    }
   ]
@@ -7846,16 +4372,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7159,
-    "nav": "gs-2/social-justice/short"
-   },
-   {
-    "dir": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes",
-    "file": "social-justice-revision.md",
-    "rel": "content/mains/gs-2-polity-governance-ir/social-justice/short-notes/social-justice-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3000,
+    "size": 7072,
     "nav": "gs-2/social-justice/short"
    }
   ]
@@ -7870,16 +4387,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 3779,
-    "nav": "gs-3"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment",
-    "file": "README.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 762,
+    "size": 3709,
     "nav": "gs-3"
    }
   ]
@@ -7894,16 +4402,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points/agriculture-food-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7613,
-    "nav": "gs-3/agriculture-food/bullets"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points",
-    "file": "agriculture-food-points.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/bullet-points/agriculture-food-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3783,
+    "size": 7526,
     "nav": "gs-3/agriculture-food/bullets"
    }
   ]
@@ -7918,16 +4417,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16524,
-    "nav": "gs-3/agriculture-food/notes"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes",
-    "file": "agriculture-and-food-security.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 10847,
+    "size": 16433,
     "nav": "gs-3/agriculture-food/notes"
    }
   ]
@@ -7957,16 +4447,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs/agriculture-food-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10198,
-    "nav": "gs-3/agriculture-food/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs",
-    "file": "agriculture-food-pyqs.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/pyqs/agriculture-food-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6219,
+    "size": 10113,
     "nav": "gs-3/agriculture-food/pyqs"
    }
   ]
@@ -7981,16 +4462,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes/agriculture-food-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7058,
-    "nav": "gs-3/agriculture-food/short"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes",
-    "file": "agriculture-food-revision.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/short-notes/agriculture-food-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3103,
+    "size": 6969,
     "nav": "gs-3/agriculture-food/short"
    }
   ]
@@ -8005,16 +4477,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points/environment-biodiversity-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6304,
-    "nav": "gs-3/environment-biodiversity/bullets"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points",
-    "file": "environment-biodiversity-points.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/bullet-points/environment-biodiversity-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3093,
+    "size": 6209,
     "nav": "gs-3/environment-biodiversity/bullets"
    }
   ]
@@ -8029,16 +4492,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9719,
-    "nav": "gs-3/environment-biodiversity/notes"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes",
-    "file": "environment-biodiversity.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5464,
+    "size": 9633,
     "nav": "gs-3/environment-biodiversity/notes"
    }
   ]
@@ -8068,16 +4522,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs/environment-biodiversity-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8300,
-    "nav": "gs-3/environment-biodiversity/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs",
-    "file": "environment-biodiversity-pyqs.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/pyqs/environment-biodiversity-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4935,
+    "size": 8207,
     "nav": "gs-3/environment-biodiversity/pyqs"
    }
   ]
@@ -8092,16 +4537,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes/environment-biodiversity-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6368,
-    "nav": "gs-3/environment-biodiversity/short"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes",
-    "file": "environment-biodiversity-revision.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/short-notes/environment-biodiversity-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2789,
+    "size": 6271,
     "nav": "gs-3/environment-biodiversity/short"
    }
   ]
@@ -8116,16 +4552,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points/indian-economy-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7076,
-    "nav": "gs-3/indian-economy/bullets"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points",
-    "file": "indian-economy-points.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/bullet-points/indian-economy-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3390,
+    "size": 6991,
     "nav": "gs-3/indian-economy/bullets"
    }
   ]
@@ -8140,16 +4567,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17858,
-    "nav": "gs-3/indian-economy/notes"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes",
-    "file": "indian-economy.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12255,
+    "size": 17782,
     "nav": "gs-3/indian-economy/notes"
    }
   ]
@@ -8179,16 +4597,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs/indian-economy-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11049,
-    "nav": "gs-3/indian-economy/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs",
-    "file": "indian-economy-pyqs.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/pyqs/indian-economy-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6941,
+    "size": 10966,
     "nav": "gs-3/indian-economy/pyqs"
    }
   ]
@@ -8203,16 +4612,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes/indian-economy-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6228,
-    "nav": "gs-3/indian-economy/short"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes",
-    "file": "indian-economy-revision.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/short-notes/indian-economy-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2438,
+    "size": 6141,
     "nav": "gs-3/indian-economy/short"
    }
   ]
@@ -8227,16 +4627,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points/science-tech-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6120,
-    "nav": "gs-3/science-technology/bullets"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points",
-    "file": "science-tech-points.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/science-technology/bullet-points/science-tech-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2970,
+    "size": 6037,
     "nav": "gs-3/science-technology/bullets"
    }
   ]
@@ -8251,16 +4642,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11579,
-    "nav": "gs-3/science-technology/notes"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes",
-    "file": "science-technology.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7292,
+    "size": 11499,
     "nav": "gs-3/science-technology/notes"
    }
   ]
@@ -8290,16 +4672,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs/science-tech-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7384,
-    "nav": "gs-3/science-technology/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs",
-    "file": "science-tech-pyqs.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/science-technology/pyqs/science-tech-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4114,
+    "size": 7303,
     "nav": "gs-3/science-technology/pyqs"
    }
   ]
@@ -8314,16 +4687,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes/science-tech-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7128,
-    "nav": "gs-3/science-technology/short"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes",
-    "file": "science-tech-revision.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/science-technology/short-notes/science-tech-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3514,
+    "size": 7043,
     "nav": "gs-3/science-technology/short"
    }
   ]
@@ -8338,16 +4702,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points/security-disaster-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6194,
-    "nav": "gs-3/security-disaster/bullets"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points",
-    "file": "security-disaster-points.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/bullet-points/security-disaster-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3058,
+    "size": 6106,
     "nav": "gs-3/security-disaster/bullets"
    }
   ]
@@ -8362,16 +4717,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12866,
-    "nav": "gs-3/security-disaster/notes"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes",
-    "file": "security-disaster.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8338,
+    "size": 12787,
     "nav": "gs-3/security-disaster/notes"
    }
   ]
@@ -8401,16 +4747,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs/security-disaster-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7812,
-    "nav": "gs-3/security-disaster/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs",
-    "file": "security-disaster-pyqs.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/pyqs/security-disaster-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4538,
+    "size": 7726,
     "nav": "gs-3/security-disaster/pyqs"
    }
   ]
@@ -8425,16 +4762,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes/security-disaster-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6743,
-    "nav": "gs-3/security-disaster/short"
-   },
-   {
-    "dir": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes",
-    "file": "security-disaster-revision.md",
-    "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/short-notes/security-disaster-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3293,
+    "size": 6653,
     "nav": "gs-3/security-disaster/short"
    }
   ]
@@ -8449,16 +4777,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/README.html",
     "kind": "doc",
     "ext": "html",
-    "size": 3557,
-    "nav": "gs-4"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude",
-    "file": "README.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/README.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 585,
+    "size": 3487,
     "nav": "gs-4"
    }
   ]
@@ -8473,16 +4792,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6358,
-    "nav": "gs-4/aptitude-foundations/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes",
-    "file": "aptitude-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3047,
+    "size": 6281,
     "nav": "gs-4/aptitude-foundations/short"
    }
   ]
@@ -8497,16 +4807,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes/attitude-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6245,
-    "nav": "gs-4/attitude/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes",
-    "file": "attitude-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes/attitude-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2969,
+    "size": 6168,
     "nav": "gs-4/attitude/short"
    }
   ]
@@ -8521,16 +4822,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6853,
-    "nav": "gs-4/case-studies/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes",
-    "file": "case-studies-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3218,
+    "size": 6772,
     "nav": "gs-4/case-studies/short"
    }
   ]
@@ -8545,16 +4837,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes/ei-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5929,
-    "nav": "gs-4/emotional-intelligence/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes",
-    "file": "ei-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes/ei-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2617,
+    "size": 5858,
     "nav": "gs-4/emotional-intelligence/short"
    }
   ]
@@ -8569,16 +4852,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points/ethics-foundations-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6379,
-    "nav": "gs-4/ethics-foundations/bullets"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points",
-    "file": "ethics-foundations-points.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/bullet-points/ethics-foundations-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3092,
+    "size": 6290,
     "nav": "gs-4/ethics-foundations/bullets"
    }
   ]
@@ -8593,16 +4867,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12968,
-    "nav": "gs-4/ethics-foundations/notes"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes",
-    "file": "ethics-foundations.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8344,
+    "size": 12888,
     "nav": "gs-4/ethics-foundations/notes"
    }
   ]
@@ -8632,16 +4897,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs/ethics-foundations-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8041,
-    "nav": "gs-4/ethics-foundations/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs",
-    "file": "ethics-foundations-pyqs.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/pyqs/ethics-foundations-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4584,
+    "size": 7954,
     "nav": "gs-4/ethics-foundations/pyqs"
    }
   ]
@@ -8656,16 +4912,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes/ethics-foundations-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7480,
-    "nav": "gs-4/ethics-foundations/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes",
-    "file": "ethics-foundations-revision.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/short-notes/ethics-foundations-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3745,
+    "size": 7389,
     "nav": "gs-4/ethics-foundations/short"
    }
   ]
@@ -8680,16 +4927,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6745,
-    "nav": "gs-4/ethics-human-interface/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes",
-    "file": "ethics-interface-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3335,
+    "size": 6662,
     "nav": "gs-4/ethics-human-interface/short"
    }
   ]
@@ -8704,16 +4942,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points/governance-probity-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6348,
-    "nav": "gs-4/governance-probity-case-studies/bullets"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points",
-    "file": "governance-probity-points.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/bullet-points/governance-probity-points.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3169,
+    "size": 6259,
     "nav": "gs-4/governance-probity-case-studies/bullets"
    }
   ]
@@ -8728,16 +4957,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10429,
-    "nav": "gs-4/governance-probity-case-studies/notes"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes",
-    "file": "governance-probity-case-studies.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6473,
+    "size": 10336,
     "nav": "gs-4/governance-probity-case-studies/notes"
    }
   ]
@@ -8767,16 +4987,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs/governance-probity-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10262,
-    "nav": "gs-4/governance-probity-case-studies/pyqs"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs",
-    "file": "governance-probity-pyqs.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/pyqs/governance-probity-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6630,
+    "size": 10175,
     "nav": "gs-4/governance-probity-case-studies/pyqs"
    }
   ]
@@ -8791,16 +5002,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes/governance-probity-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7829,
-    "nav": "gs-4/governance-probity-case-studies/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes",
-    "file": "governance-probity-revision.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/short-notes/governance-probity-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3930,
+    "size": 7738,
     "nav": "gs-4/governance-probity-case-studies/short"
    }
   ]
@@ -8815,16 +5017,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7686,
-    "nav": "gs-4/moral-thinkers/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes",
-    "file": "moral-thinkers-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3821,
+    "size": 7603,
     "nav": "gs-4/moral-thinkers/short"
    }
   ]
@@ -8839,16 +5032,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6489,
-    "nav": "gs-4/probity-governance/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes",
-    "file": "probity-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3196,
+    "size": 6413,
     "nav": "gs-4/probity-governance/short"
    }
   ]
@@ -8863,16 +5047,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes/public-service-values-pack.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7048,
-    "nav": "gs-4/public-service-values/short"
-   },
-   {
-    "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes",
-    "file": "public-service-values-pack.md",
-    "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes/public-service-values-pack.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3669,
+    "size": 6958,
     "nav": "gs-4/public-service-values/short"
    }
   ]
@@ -8887,16 +5062,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/bullet-points/optional-comparison.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6834,
-    "nav": "optional-subjects/bullets"
-   },
-   {
-    "dir": "content/mains/optional-subjects/bullet-points",
-    "file": "optional-comparison.md",
-    "rel": "content/mains/optional-subjects/bullet-points/optional-comparison.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2872,
+    "size": 6753,
     "nav": "optional-subjects/bullets"
    }
   ]
@@ -8911,16 +5077,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8173,
-    "nav": "optional-subjects/notes"
-   },
-   {
-    "dir": "content/mains/optional-subjects/detailed-notes",
-    "file": "choosing-an-optional.md",
-    "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4433,
+    "size": 8089,
     "nav": "optional-subjects/notes"
    }
   ]
@@ -8935,16 +5092,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-anthropology/short-notes/anthropology-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6567,
-    "nav": "optional-subjects/optional-anthropology/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-anthropology/short-notes",
-    "file": "anthropology-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-anthropology/short-notes/anthropology-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3239,
+    "size": 6479,
     "nav": "optional-subjects/optional-anthropology/short"
    }
   ]
@@ -8959,16 +5107,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-economics/short-notes/economics-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7089,
-    "nav": "optional-subjects/optional-economics/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-economics/short-notes",
-    "file": "economics-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-economics/short-notes/economics-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3935,
+    "size": 7004,
     "nav": "optional-subjects/optional-economics/short"
    }
   ]
@@ -8983,16 +5122,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-geography/short-notes/geography-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7315,
-    "nav": "optional-subjects/optional-geography/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-geography/short-notes",
-    "file": "geography-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-geography/short-notes/geography-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4014,
+    "size": 7230,
     "nav": "optional-subjects/optional-geography/short"
    }
   ]
@@ -9007,16 +5137,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-history/short-notes/history-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7141,
-    "nav": "optional-subjects/optional-history/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-history/short-notes",
-    "file": "history-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-history/short-notes/history-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3941,
+    "size": 7058,
     "nav": "optional-subjects/optional-history/short"
    }
   ]
@@ -9031,16 +5152,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-philosophy/short-notes/philosophy-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6322,
-    "nav": "optional-subjects/optional-philosophy/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-philosophy/short-notes",
-    "file": "philosophy-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-philosophy/short-notes/philosophy-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3095,
+    "size": 6236,
     "nav": "optional-subjects/optional-philosophy/short"
    }
   ]
@@ -9055,16 +5167,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-polity/short-notes/psir-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7302,
-    "nav": "optional-subjects/optional-polity/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-polity/short-notes",
-    "file": "psir-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-polity/short-notes/psir-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4000,
+    "size": 7222,
     "nav": "optional-subjects/optional-polity/short"
    }
   ]
@@ -9079,16 +5182,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-psychology/short-notes/psychology-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6525,
-    "nav": "optional-subjects/optional-psychology/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-psychology/short-notes",
-    "file": "psychology-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-psychology/short-notes/psychology-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3289,
+    "size": 6439,
     "nav": "optional-subjects/optional-psychology/short"
    }
   ]
@@ -9103,16 +5197,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-public-administration/short-notes/pub-admin-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7232,
-    "nav": "optional-subjects/optional-public-administration/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-public-administration/short-notes",
-    "file": "pub-admin-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-public-administration/short-notes/pub-admin-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4007,
+    "size": 7147,
     "nav": "optional-subjects/optional-public-administration/short"
    }
   ]
@@ -9127,16 +5212,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-sociology/short-notes/sociology-orientation.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6392,
-    "nav": "optional-subjects/optional-sociology/short"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-sociology/short-notes",
-    "file": "sociology-orientation.md",
-    "rel": "content/mains/optional-subjects/optional-sociology/short-notes/sociology-orientation.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3050,
+    "size": 6307,
     "nav": "optional-subjects/optional-sociology/short"
    }
   ]
@@ -9151,16 +5227,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/pyqs/optional-subjects-faq.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6205,
-    "nav": "optional-subjects/pyqs"
-   },
-   {
-    "dir": "content/mains/optional-subjects/pyqs",
-    "file": "optional-subjects-faq.md",
-    "rel": "content/mains/optional-subjects/pyqs/optional-subjects-faq.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3183,
+    "size": 6120,
     "nav": "optional-subjects/pyqs"
    }
   ]
@@ -9175,16 +5242,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.html",
     "kind": "doc",
     "ext": "html",
-    "size": 13083,
-    "nav": "mains-practice/essay-practice/pyqs"
-   },
-   {
-    "dir": "content/mains/practice/essay-practice/pyqs",
-    "file": "essay-topics-outlines.md",
-    "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8708,
+    "size": 12998,
     "nav": "mains-practice/essay-practice/pyqs"
    }
   ]
@@ -9199,16 +5257,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-1-practice/pyqs/gs-1-question-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20626,
-    "nav": "mains-practice/gs-1-practice/pyqs"
-   },
-   {
-    "dir": "content/mains/practice/gs-1-practice/pyqs",
-    "file": "gs-1-question-bank.md",
-    "rel": "content/mains/practice/gs-1-practice/pyqs/gs-1-question-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16189,
+    "size": 20544,
     "nav": "mains-practice/gs-1-practice/pyqs"
    }
   ]
@@ -9223,16 +5272,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20747,
-    "nav": "mains-practice/gs-2-practice/pyqs"
-   },
-   {
-    "dir": "content/mains/practice/gs-2-practice/pyqs",
-    "file": "gs-2-question-bank.md",
-    "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16388,
+    "size": 20665,
     "nav": "mains-practice/gs-2-practice/pyqs"
    }
   ]
@@ -9247,16 +5287,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-3-practice/pyqs/gs-3-question-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 19964,
-    "nav": "mains-practice/gs-3-practice/pyqs"
-   },
-   {
-    "dir": "content/mains/practice/gs-3-practice/pyqs",
-    "file": "gs-3-question-bank.md",
-    "rel": "content/mains/practice/gs-3-practice/pyqs/gs-3-question-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15597,
+    "size": 19882,
     "nav": "mains-practice/gs-3-practice/pyqs"
    }
   ]
@@ -9271,16 +5302,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 24638,
-    "nav": "mains-practice/gs-4-practice/pyqs"
-   },
-   {
-    "dir": "content/mains/practice/gs-4-practice/pyqs",
-    "file": "gs-4-question-bank.md",
-    "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 19890,
+    "size": 24556,
     "nav": "mains-practice/gs-4-practice/pyqs"
    }
   ]
@@ -9295,16 +5317,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7756,
-    "nav": "prelims-csat/comprehension/short"
-   },
-   {
-    "dir": "content/prelims/csat/comprehension/short-notes",
-    "file": "comprehension-drills.md",
-    "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4260,
+    "size": 7672,
     "nav": "prelims-csat/comprehension/short"
    }
   ]
@@ -9319,16 +5332,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/decision-making/short-notes/decision-making-drills.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8389,
-    "nav": "prelims-csat/decision-making/short"
-   },
-   {
-    "dir": "content/prelims/csat/decision-making/short-notes",
-    "file": "decision-making-drills.md",
-    "rel": "content/prelims/csat/decision-making/short-notes/decision-making-drills.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4843,
+    "size": 8303,
     "nav": "prelims-csat/decision-making/short"
    }
   ]
@@ -9343,16 +5347,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/logical-reasoning/short-notes/reasoning-drills.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6571,
-    "nav": "prelims-csat/logical-reasoning/short"
-   },
-   {
-    "dir": "content/prelims/csat/logical-reasoning/short-notes",
-    "file": "reasoning-drills.md",
-    "rel": "content/prelims/csat/logical-reasoning/short-notes/reasoning-drills.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3053,
+    "size": 6491,
     "nav": "prelims-csat/logical-reasoning/short"
    }
   ]
@@ -9367,16 +5362,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/numeracy/short-notes/numeracy-drills.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7373,
-    "nav": "prelims-csat/numeracy/short"
-   },
-   {
-    "dir": "content/prelims/csat/numeracy/short-notes",
-    "file": "numeracy-drills.md",
-    "rel": "content/prelims/csat/numeracy/short-notes/numeracy-drills.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3552,
+    "size": 7294,
     "nav": "prelims-csat/numeracy/short"
    }
   ]
@@ -9391,16 +5377,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/pyqs/csat-practice.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6763,
-    "nav": "prelims-csat/pyqs"
-   },
-   {
-    "dir": "content/prelims/csat/pyqs",
-    "file": "csat-practice.md",
-    "rel": "content/prelims/csat/pyqs/csat-practice.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3425,
+    "size": 6686,
     "nav": "prelims-csat/pyqs"
    }
   ]
@@ -9415,16 +5392,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/short-notes/csat-strategy.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6761,
-    "nav": "prelims-csat/short"
-   },
-   {
-    "dir": "content/prelims/csat/short-notes",
-    "file": "csat-strategy.md",
-    "rel": "content/prelims/csat/short-notes/csat-strategy.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3291,
+    "size": 6684,
     "nav": "prelims-csat/short"
    }
   ]
@@ -9439,16 +5407,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7017,
-    "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs",
-    "file": "fdi-investment-mcqs.md",
-    "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3605,
+    "size": 6934,
     "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs"
    }
   ]
@@ -9463,16 +5422,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes/fdi-investment-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 15639,
-    "nav": "prelims-gs1/economy/external-sector/fdi-investment/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes",
-    "file": "fdi-investment-notes.md",
-    "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes/fdi-investment-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 11732,
+    "size": 15555,
     "nav": "prelims-gs1/economy/external-sector/fdi-investment/short"
    }
   ]
@@ -9487,16 +5437,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/short-notes/external-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7431,
-    "nav": "prelims-gs1/economy/external-sector/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/external-sector/short-notes",
-    "file": "external-prelims.md",
-    "rel": "content/prelims/gs1/economy/external-sector/short-notes/external-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3999,
+    "size": 7351,
     "nav": "prelims-gs1/economy/external-sector/short"
    }
   ]
@@ -9511,16 +5452,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6729,
-    "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs",
-    "file": "trade-bop-mcqs.md",
-    "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3328,
+    "size": 6651,
     "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs"
    }
   ]
@@ -9535,16 +5467,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes/trade-bop-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16879,
-    "nav": "prelims-gs1/economy/external-sector/trade-bop/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes",
-    "file": "trade-bop-notes.md",
-    "rel": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes/trade-bop-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12923,
+    "size": 16800,
     "nav": "prelims-gs1/economy/external-sector/trade-bop/short"
    }
   ]
@@ -9559,16 +5482,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6833,
-    "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs",
-    "file": "capital-markets-mcqs.md",
-    "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3424,
+    "size": 6749,
     "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs"
    }
   ]
@@ -9583,16 +5497,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes/capital-markets-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12433,
-    "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes",
-    "file": "capital-markets-notes.md",
-    "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes/capital-markets-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8644,
+    "size": 12348,
     "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
    }
   ]
@@ -9607,16 +5512,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs/financial-inclusion-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6732,
-    "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs",
-    "file": "financial-inclusion-mcqs.md",
-    "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs/financial-inclusion-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3266,
+    "size": 6644,
     "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/pyqs"
    }
   ]
@@ -9631,16 +5527,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes/financial-inclusion-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16580,
-    "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes",
-    "file": "financial-inclusion-notes.md",
-    "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes/financial-inclusion-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12333,
+    "size": 16491,
     "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/short"
    }
   ]
@@ -9655,16 +5542,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/short-notes/finmarkets-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7143,
-    "nav": "prelims-gs1/economy/financial-markets/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/financial-markets/short-notes",
-    "file": "finmarkets-prelims.md",
-    "rel": "content/prelims/gs1/economy/financial-markets/short-notes/finmarkets-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3614,
+    "size": 7061,
     "nav": "prelims-gs1/economy/financial-markets/short"
    }
   ]
@@ -9679,16 +5557,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6331,
-    "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs",
-    "file": "fiscal-policy-mcqs.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2905,
+    "size": 6249,
     "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs"
    }
   ]
@@ -9703,16 +5572,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes/fiscal-policy-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 23206,
-    "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes",
-    "file": "fiscal-policy-notes.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes/fiscal-policy-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 18697,
+    "size": 23123,
     "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short"
    }
   ]
@@ -9727,16 +5587,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6629,
-    "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs",
-    "file": "money-banking-mcqs.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3213,
+    "size": 6547,
     "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs"
    }
   ]
@@ -9751,16 +5602,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes/money-banking-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17784,
-    "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes",
-    "file": "money-banking-notes.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes/money-banking-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 13627,
+    "size": 17701,
     "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
    }
   ]
@@ -9775,16 +5617,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/national-income/pyqs/national-income-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6533,
-    "nav": "prelims-gs1/economy/macro-economy/national-income/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/national-income/pyqs",
-    "file": "national-income-mcqs.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/national-income/pyqs/national-income-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3103,
+    "size": 6449,
     "nav": "prelims-gs1/economy/macro-economy/national-income/pyqs"
    }
   ]
@@ -9799,16 +5632,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/national-income/short-notes/national-income-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10599,
-    "nav": "prelims-gs1/economy/macro-economy/national-income/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/national-income/short-notes",
-    "file": "national-income-notes.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/national-income/short-notes/national-income-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6639,
+    "size": 10514,
     "nav": "prelims-gs1/economy/macro-economy/national-income/short"
    }
   ]
@@ -9823,16 +5647,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/short-notes/macro-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6875,
-    "nav": "prelims-gs1/economy/macro-economy/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/macro-economy/short-notes",
-    "file": "macro-prelims.md",
-    "rel": "content/prelims/gs1/economy/macro-economy/short-notes/macro-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3435,
+    "size": 6798,
     "nav": "prelims-gs1/economy/macro-economy/short"
    }
   ]
@@ -9847,16 +5662,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6770,
-    "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/planning-growth/human-development/pyqs",
-    "file": "human-development-mcqs.md",
-    "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3297,
+    "size": 6684,
     "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs"
    }
   ]
@@ -9871,16 +5677,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/human-development/short-notes/human-development-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20367,
-    "nav": "prelims-gs1/economy/planning-growth/human-development/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/planning-growth/human-development/short-notes",
-    "file": "human-development-notes.md",
-    "rel": "content/prelims/gs1/economy/planning-growth/human-development/short-notes/human-development-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15347,
+    "size": 20280,
     "nav": "prelims-gs1/economy/planning-growth/human-development/short"
    }
   ]
@@ -9895,16 +5692,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs/niti-aayog-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6810,
-    "nav": "prelims-gs1/economy/planning-growth/niti-aayog/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs",
-    "file": "niti-aayog-mcqs.md",
-    "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs/niti-aayog-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3386,
+    "size": 6731,
     "nav": "prelims-gs1/economy/planning-growth/niti-aayog/pyqs"
    }
   ]
@@ -9919,16 +5707,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes/niti-aayog-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18769,
-    "nav": "prelims-gs1/economy/planning-growth/niti-aayog/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes",
-    "file": "niti-aayog-notes.md",
-    "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes/niti-aayog-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15007,
+    "size": 18689,
     "nav": "prelims-gs1/economy/planning-growth/niti-aayog/short"
    }
   ]
@@ -9943,16 +5722,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/short-notes/planning-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7979,
-    "nav": "prelims-gs1/economy/planning-growth/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/planning-growth/short-notes",
-    "file": "planning-prelims.md",
-    "rel": "content/prelims/gs1/economy/planning-growth/short-notes/planning-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4400,
+    "size": 7899,
     "nav": "prelims-gs1/economy/planning-growth/short"
    }
   ]
@@ -9967,16 +5737,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/pyqs/economy-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6356,
-    "nav": "prelims-gs1/economy/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/pyqs",
-    "file": "economy-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/economy/pyqs/economy-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3133,
+    "size": 6272,
     "nav": "prelims-gs1/economy/pyqs"
    }
   ]
@@ -9991,16 +5752,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6546,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs",
-    "file": "agriculture-mcqs.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3156,
+    "size": 6466,
     "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs"
    }
   ]
@@ -10015,16 +5767,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes/agriculture-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18348,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes",
-    "file": "agriculture-notes.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes/agriculture-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 14495,
+    "size": 18267,
     "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short"
    }
   ]
@@ -10039,16 +5782,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6556,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs",
-    "file": "industry-msme-mcqs.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3133,
+    "size": 6474,
     "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs"
    }
   ]
@@ -10063,16 +5797,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes/industry-msme-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20477,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes",
-    "file": "industry-msme-notes.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes/industry-msme-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16690,
+    "size": 20394,
     "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
    }
   ]
@@ -10087,16 +5812,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs/services-infrastructure-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6857,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs",
-    "file": "services-infrastructure-mcqs.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs/services-infrastructure-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3425,
+    "size": 6765,
     "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/pyqs"
    }
   ]
@@ -10111,16 +5827,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes/services-infrastructure-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 27240,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes",
-    "file": "services-infrastructure-notes.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes/services-infrastructure-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 23685,
+    "size": 27147,
     "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/short"
    }
   ]
@@ -10135,16 +5842,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/short-notes/sectors-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7807,
-    "nav": "prelims-gs1/economy/sectors-indian-economy/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/sectors-indian-economy/short-notes",
-    "file": "sectors-prelims.md",
-    "rel": "content/prelims/gs1/economy/sectors-indian-economy/short-notes/sectors-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4366,
+    "size": 7728,
     "nav": "prelims-gs1/economy/sectors-indian-economy/short"
    }
   ]
@@ -10159,16 +5857,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/short-notes/economy-prelims-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6881,
-    "nav": "prelims-gs1/economy/short"
-   },
-   {
-    "dir": "content/prelims/gs1/economy/short-notes",
-    "file": "economy-prelims-revision.md",
-    "rel": "content/prelims/gs1/economy/short-notes/economy-prelims-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3419,
+    "size": 6793,
     "nav": "prelims-gs1/economy/short"
    }
   ]
@@ -10183,16 +5872,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7340,
-    "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
-    "file": "acts-conventions-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3873,
+    "size": 7255,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs"
    }
   ]
@@ -10207,16 +5887,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes/acts-conventions-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21135,
-    "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes",
-    "file": "acts-conventions-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes/acts-conventions-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15026,
+    "size": 21049,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
    }
   ]
@@ -10231,16 +5902,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs/institutions-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6816,
-    "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs",
-    "file": "institutions-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs/institutions-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3403,
+    "size": 6735,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/pyqs"
    }
   ]
@@ -10255,16 +5917,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes/institutions-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14214,
-    "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes",
-    "file": "institutions-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes/institutions-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 9168,
+    "size": 14132,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/short"
    }
   ]
@@ -10279,16 +5932,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes/acts-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8566,
-    "nav": "prelims-gs1/environment-ecology/acts-policies-env/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes",
-    "file": "acts-prelims.md",
-    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes/acts-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4732,
+    "size": 8490,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/short"
    }
   ]
@@ -10303,16 +5947,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6885,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
-    "file": "biodiversity-india-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3406,
+    "size": 6798,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs"
    }
   ]
@@ -10327,16 +5962,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes/biodiversity-india-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17753,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes",
-    "file": "biodiversity-india-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes/biodiversity-india-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12952,
+    "size": 17665,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
    }
   ]
@@ -10351,16 +5977,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs/ecosystems-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6712,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs",
-    "file": "ecosystems-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs/ecosystems-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3237,
+    "size": 6633,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs"
    }
   ]
@@ -10375,16 +5992,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes/ecosystems-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14872,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes",
-    "file": "ecosystems-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes/ecosystems-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 10070,
+    "size": 14792,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/short"
    }
   ]
@@ -10399,16 +6007,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes/ecology-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8147,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes",
-    "file": "ecology-prelims.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/short-notes/ecology-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4504,
+    "size": 8068,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short"
    }
   ]
@@ -10423,16 +6022,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6799,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
-    "file": "species-conservation-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3328,
+    "size": 6710,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs"
    }
   ]
@@ -10447,16 +6037,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes/species-conservation-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21946,
-    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes",
-    "file": "species-conservation-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes/species-conservation-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16652,
+    "size": 21856,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short"
    }
   ]
@@ -10471,16 +6052,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7079,
-    "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs",
-    "file": "climate-change-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3621,
+    "size": 6996,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs"
    }
   ]
@@ -10495,16 +6067,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes/climate-change-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 30150,
-    "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes",
-    "file": "climate-change-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes/climate-change-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 25858,
+    "size": 30066,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
    }
   ]
@@ -10519,16 +6082,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs/pollution-waste-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6984,
-    "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs",
-    "file": "pollution-waste-mcqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs/pollution-waste-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3543,
+    "size": 6900,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/pyqs"
    }
   ]
@@ -10543,16 +6097,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes/pollution-waste-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 30561,
-    "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes",
-    "file": "pollution-waste-notes.md",
-    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes/pollution-waste-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 26096,
+    "size": 30476,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/short"
    }
   ]
@@ -10567,16 +6112,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes/issues-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7837,
-    "nav": "prelims-gs1/environment-ecology/environmental-issues/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes",
-    "file": "issues-prelims.md",
-    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/short-notes/issues-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4259,
+    "size": 7759,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/short"
    }
   ]
@@ -10591,16 +6127,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/pyqs/environment-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6136,
-    "nav": "prelims-gs1/environment-ecology/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/pyqs",
-    "file": "environment-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/environment-ecology/pyqs/environment-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2867,
+    "size": 6048,
     "nav": "prelims-gs1/environment-ecology/pyqs"
    }
   ]
@@ -10615,16 +6142,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/short-notes/environment-prelims-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7394,
-    "nav": "prelims-gs1/environment-ecology/short"
-   },
-   {
-    "dir": "content/prelims/gs1/environment-ecology/short-notes",
-    "file": "environment-prelims-revision.md",
-    "rel": "content/prelims/gs1/environment-ecology/short-notes/environment-prelims-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3627,
+    "size": 7302,
     "nav": "prelims-gs1/environment-ecology/short"
    }
   ]
@@ -10639,16 +6157,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5543,
-    "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs",
-    "file": "climate-india-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2237,
+    "size": 5461,
     "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs"
    }
   ]
@@ -10663,16 +6172,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes/climate-india-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9937,
-    "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes",
-    "file": "climate-india-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes/climate-india-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6112,
+    "size": 9854,
     "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
    }
   ]
@@ -10687,16 +6187,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs/drainage-rivers-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5840,
-    "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs",
-    "file": "drainage-rivers-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs/drainage-rivers-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2426,
+    "size": 5756,
     "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/pyqs"
    }
   ]
@@ -10711,16 +6202,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes/drainage-rivers-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18822,
-    "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes",
-    "file": "drainage-rivers-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes/drainage-rivers-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12442,
+    "size": 18737,
     "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short"
    }
   ]
@@ -10735,16 +6217,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5316,
-    "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs",
-    "file": "minerals-industries-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1974,
+    "size": 5228,
     "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs"
    }
   ]
@@ -10759,16 +6232,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes/minerals-industries-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16794,
-    "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes",
-    "file": "minerals-industries-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes/minerals-industries-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 11805,
+    "size": 16705,
     "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
    }
   ]
@@ -10783,16 +6247,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs/physiography-india-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5399,
-    "nav": "prelims-gs1/geography/indian-geography/physiography-india/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs",
-    "file": "physiography-india-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs/physiography-india-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2076,
+    "size": 5312,
     "nav": "prelims-gs1/geography/indian-geography/physiography-india/pyqs"
    }
   ]
@@ -10807,16 +6262,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes/physiography-india-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 13162,
-    "nav": "prelims-gs1/geography/indian-geography/physiography-india/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes",
-    "file": "physiography-india-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes/physiography-india-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 8636,
+    "size": 13074,
     "nav": "prelims-gs1/geography/indian-geography/physiography-india/short"
    }
   ]
@@ -10831,16 +6277,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/short-notes/indian-geo-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8821,
-    "nav": "prelims-gs1/geography/indian-geography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/short-notes",
-    "file": "indian-geo-prelims.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/short-notes/indian-geo-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5326,
+    "size": 8739,
     "nav": "prelims-gs1/geography/indian-geography/short"
    }
   ]
@@ -10855,16 +6292,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5458,
-    "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs",
-    "file": "soils-agriculture-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2112,
+    "size": 5372,
     "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs"
    }
   ]
@@ -10879,16 +6307,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes/soils-agriculture-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 15405,
-    "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes",
-    "file": "soils-agriculture-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes/soils-agriculture-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 10566,
+    "size": 15318,
     "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
    }
   ]
@@ -10903,16 +6322,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs/transport-settlements-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5592,
-    "nav": "prelims-gs1/geography/indian-geography/transport-settlements/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs",
-    "file": "transport-settlements-mcqs.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs/transport-settlements-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2247,
+    "size": 5502,
     "nav": "prelims-gs1/geography/indian-geography/transport-settlements/pyqs"
    }
   ]
@@ -10927,16 +6337,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes/transport-settlements-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18811,
-    "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes",
-    "file": "transport-settlements-notes.md",
-    "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes/transport-settlements-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12325,
+    "size": 18720,
     "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short"
    }
   ]
@@ -10951,16 +6352,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6774,
-    "nav": "prelims-gs1/geography/maps-india-world/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/maps-india-world/short-notes",
-    "file": "map-drills.md",
-    "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3394,
+    "size": 6700,
     "nav": "prelims-gs1/geography/maps-india-world/short"
    }
   ]
@@ -10975,16 +6367,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs/biogeography-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5558,
-    "nav": "prelims-gs1/geography/physical-geography/biogeography/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs",
-    "file": "biogeography-mcqs.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs/biogeography-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2203,
+    "size": 5477,
     "nav": "prelims-gs1/geography/physical-geography/biogeography/pyqs"
    }
   ]
@@ -10999,16 +6382,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes/biogeography-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12008,
-    "nav": "prelims-gs1/geography/physical-geography/biogeography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes",
-    "file": "biogeography-notes.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes/biogeography-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7026,
+    "size": 11926,
     "nav": "prelims-gs1/geography/physical-geography/biogeography/short"
    }
   ]
@@ -11023,16 +6397,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5519,
-    "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/climatology/pyqs",
-    "file": "climatology-mcqs.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2232,
+    "size": 5439,
     "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs"
    }
   ]
@@ -11047,16 +6412,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/climatology/short-notes/climatology-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11207,
-    "nav": "prelims-gs1/geography/physical-geography/climatology/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/climatology/short-notes",
-    "file": "climatology-notes.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/climatology/short-notes/climatology-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7185,
+    "size": 11126,
     "nav": "prelims-gs1/geography/physical-geography/climatology/short"
    }
   ]
@@ -11071,16 +6427,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5340,
-    "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs",
-    "file": "geomorphology-mcqs.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2033,
+    "size": 5258,
     "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs"
    }
   ]
@@ -11095,16 +6442,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes/geomorphology-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11063,
-    "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes",
-    "file": "geomorphology-notes.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes/geomorphology-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6823,
+    "size": 10980,
     "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
    }
   ]
@@ -11119,16 +6457,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs/oceanography-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5356,
-    "nav": "prelims-gs1/geography/physical-geography/oceanography/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs",
-    "file": "oceanography-mcqs.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs/oceanography-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2064,
+    "size": 5275,
     "nav": "prelims-gs1/geography/physical-geography/oceanography/pyqs"
    }
   ]
@@ -11143,16 +6472,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes/oceanography-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9584,
-    "nav": "prelims-gs1/geography/physical-geography/oceanography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes",
-    "file": "oceanography-notes.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes/oceanography-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5513,
+    "size": 9502,
     "nav": "prelims-gs1/geography/physical-geography/oceanography/short"
    }
   ]
@@ -11167,16 +6487,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/short-notes/physical-geo-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7462,
-    "nav": "prelims-gs1/geography/physical-geography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/physical-geography/short-notes",
-    "file": "physical-geo-prelims.md",
-    "rel": "content/prelims/gs1/geography/physical-geography/short-notes/physical-geo-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4098,
+    "size": 7378,
     "nav": "prelims-gs1/geography/physical-geography/short"
    }
   ]
@@ -11191,16 +6502,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/pyqs/geography-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6131,
-    "nav": "prelims-gs1/geography/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/pyqs",
-    "file": "geography-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/geography/pyqs/geography-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2837,
+    "size": 6045,
     "nav": "prelims-gs1/geography/pyqs"
    }
   ]
@@ -11215,16 +6517,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/short-notes/geography-prelims-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7196,
-    "nav": "prelims-gs1/geography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/short-notes",
-    "file": "geography-prelims-revision.md",
-    "rel": "content/prelims/gs1/geography/short-notes/geography-prelims-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3624,
+    "size": 7106,
     "nav": "prelims-gs1/geography/short"
    }
   ]
@@ -11239,16 +6532,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/short-notes/world-geo-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7733,
-    "nav": "prelims-gs1/geography/world-geography/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/world-geography/short-notes",
-    "file": "world-geo-prelims.md",
-    "rel": "content/prelims/gs1/geography/world-geography/short-notes/world-geo-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4278,
+    "size": 7652,
     "nav": "prelims-gs1/geography/world-geography/short"
    }
   ]
@@ -11263,16 +6547,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5431,
-    "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/world-geography/world-economic/pyqs",
-    "file": "world-economic-mcqs.md",
-    "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2089,
+    "size": 5348,
     "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs"
    }
   ]
@@ -11287,16 +6562,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-economic/short-notes/world-economic-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20803,
-    "nav": "prelims-gs1/geography/world-geography/world-economic/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/world-geography/world-economic/short-notes",
-    "file": "world-economic-notes.md",
-    "rel": "content/prelims/gs1/geography/world-geography/world-economic/short-notes/world-economic-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15779,
+    "size": 20719,
     "nav": "prelims-gs1/geography/world-geography/world-economic/short"
    }
   ]
@@ -11311,16 +6577,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-physical/pyqs/world-physical-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5429,
-    "nav": "prelims-gs1/geography/world-geography/world-physical/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/world-geography/world-physical/pyqs",
-    "file": "world-physical-mcqs.md",
-    "rel": "content/prelims/gs1/geography/world-geography/world-physical/pyqs/world-physical-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2116,
+    "size": 5346,
     "nav": "prelims-gs1/geography/world-geography/world-physical/pyqs"
    }
   ]
@@ -11335,16 +6592,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-physical/short-notes/world-physical-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16578,
-    "nav": "prelims-gs1/geography/world-geography/world-physical/short"
-   },
-   {
-    "dir": "content/prelims/gs1/geography/world-geography/world-physical/short-notes",
-    "file": "world-physical-notes.md",
-    "rel": "content/prelims/gs1/geography/world-geography/world-physical/short-notes/world-physical-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12147,
+    "size": 16494,
     "nav": "prelims-gs1/geography/world-geography/world-physical/short"
    }
   ]
@@ -11359,16 +6607,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5956,
-    "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
-    "file": "mahajanapadas-mauryan-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2453,
+    "size": 5866,
     "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs"
    }
   ]
@@ -11383,16 +6622,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes/mahajanapadas-mauryan-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10187,
-    "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes",
-    "file": "mahajanapadas-mauryan-notes.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes/mahajanapadas-mauryan-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6062,
+    "size": 10096,
     "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
    }
   ]
@@ -11407,16 +6637,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs/post-mauryan-gupta-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5682,
-    "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs",
-    "file": "post-mauryan-gupta-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs/post-mauryan-gupta-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2255,
+    "size": 5595,
     "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs"
    }
   ]
@@ -11431,16 +6652,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes/post-mauryan-gupta-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9498,
-    "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes",
-    "file": "post-mauryan-gupta-notes.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes/post-mauryan-gupta-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5480,
+    "size": 9410,
     "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/short"
    }
   ]
@@ -11455,16 +6667,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/pyqs/ancient-history-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6225,
-    "nav": "prelims-gs1/history-culture/ancient-history/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/pyqs",
-    "file": "ancient-history-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/pyqs/ancient-history-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2910,
+    "size": 6133,
     "nav": "prelims-gs1/history-culture/ancient-history/pyqs"
    }
   ]
@@ -11479,16 +6682,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/short-notes/ancient-history-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9662,
-    "nav": "prelims-gs1/history-culture/ancient-history/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/short-notes",
-    "file": "ancient-history-prelims.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/short-notes/ancient-history-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5925,
+    "size": 9575,
     "nav": "prelims-gs1/history-culture/ancient-history/short"
    }
   ]
@@ -11503,16 +6697,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5168,
-    "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
-    "file": "stone-bronze-age-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1839,
+    "size": 5083,
     "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs"
    }
   ]
@@ -11527,16 +6712,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes/stone-bronze-age-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7718,
-    "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes",
-    "file": "stone-bronze-age-notes.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes/stone-bronze-age-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3774,
+    "size": 7632,
     "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
    }
   ]
@@ -11551,16 +6727,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs/vedic-age-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5191,
-    "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs",
-    "file": "vedic-age-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs/vedic-age-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1891,
+    "size": 5113,
     "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/pyqs"
    }
   ]
@@ -11575,16 +6742,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes/vedic-age-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7791,
-    "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes",
-    "file": "vedic-age-notes.md",
-    "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes/vedic-age-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3821,
+    "size": 7712,
     "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short"
    }
   ]
@@ -11599,16 +6757,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5295,
-    "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs",
-    "file": "architecture-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2004,
+    "size": 5214,
     "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs"
    }
   ]
@@ -11623,16 +6772,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes/architecture-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8923,
-    "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes",
-    "file": "architecture-notes.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes/architecture-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4922,
+    "size": 8841,
     "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
    }
   ]
@@ -11647,16 +6787,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs/fairs-festivals-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5488,
-    "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs",
-    "file": "fairs-festivals-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs/fairs-festivals-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2160,
+    "size": 5404,
     "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/pyqs"
    }
   ]
@@ -11671,16 +6802,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9356,
-    "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes",
-    "file": "fairs-festivals-notes.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5808,
+    "size": 9271,
     "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
    }
   ]
@@ -11695,16 +6817,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5332,
-    "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs",
-    "file": "music-dance-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1938,
+    "size": 5252,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs"
    }
   ]
@@ -11719,16 +6832,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10129,
-    "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes",
-    "file": "music-dance-notes.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5754,
+    "size": 10048,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
    }
   ]
@@ -11743,16 +6847,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/painting/pyqs/painting-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5098,
-    "nav": "prelims-gs1/history-culture/art-culture/painting/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/painting/pyqs",
-    "file": "painting-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/painting/pyqs/painting-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1799,
+    "size": 5021,
     "nav": "prelims-gs1/history-culture/art-culture/painting/pyqs"
    }
   ]
@@ -11767,16 +6862,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/painting/short-notes/painting-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9240,
-    "nav": "prelims-gs1/history-culture/art-culture/painting/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/painting/short-notes",
-    "file": "painting-notes.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/painting/short-notes/painting-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4942,
+    "size": 9162,
     "nav": "prelims-gs1/history-culture/art-culture/painting/short"
    }
   ]
@@ -11791,16 +6877,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/pyqs/art-culture-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6090,
-    "nav": "prelims-gs1/history-culture/art-culture/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/pyqs",
-    "file": "art-culture-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/pyqs/art-culture-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2803,
+    "size": 6002,
     "nav": "prelims-gs1/history-culture/art-culture/pyqs"
    }
   ]
@@ -11815,16 +6892,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5311,
-    "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs",
-    "file": "scriptures-languages-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1910,
+    "size": 5222,
     "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs"
    }
   ]
@@ -11839,16 +6907,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes/scriptures-languages-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 13661,
-    "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes",
-    "file": "scriptures-languages-notes.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes/scriptures-languages-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 9164,
+    "size": 13571,
     "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/short"
    }
   ]
@@ -11863,16 +6922,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/short-notes/art-culture-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9200,
-    "nav": "prelims-gs1/history-culture/art-culture/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/art-culture/short-notes",
-    "file": "art-culture-prelims.md",
-    "rel": "content/prelims/gs1/history-culture/art-culture/short-notes/art-culture-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5196,
+    "size": 9117,
     "nav": "prelims-gs1/history-culture/art-culture/short"
    }
   ]
@@ -11887,16 +6937,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5342,
-    "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
-    "file": "delhi-sultanate-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1989,
+    "size": 5258,
     "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs"
    }
   ]
@@ -11911,16 +6952,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes/delhi-sultanate-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7663,
-    "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes",
-    "file": "delhi-sultanate-notes.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes/delhi-sultanate-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3786,
+    "size": 7578,
     "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
    }
   ]
@@ -11935,16 +6967,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs/early-medieval-kingdoms-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5385,
-    "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs",
-    "file": "early-medieval-kingdoms-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs/early-medieval-kingdoms-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2009,
+    "size": 5293,
     "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs"
    }
   ]
@@ -11959,16 +6982,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes/early-medieval-kingdoms-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6814,
-    "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes",
-    "file": "early-medieval-kingdoms-notes.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes/early-medieval-kingdoms-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3179,
+    "size": 6721,
     "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short"
    }
   ]
@@ -11983,16 +6997,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5239,
-    "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
-    "file": "marathas-vijayanagara-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1856,
+    "size": 5149,
     "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs"
    }
   ]
@@ -12007,16 +7012,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes/marathas-vijayanagara-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8040,
-    "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes",
-    "file": "marathas-vijayanagara-notes.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes/marathas-vijayanagara-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4265,
+    "size": 7949,
     "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
    }
   ]
@@ -12031,16 +7027,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs/mughal-empire-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5248,
-    "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs",
-    "file": "mughal-empire-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs/mughal-empire-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 1896,
+    "size": 5166,
     "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/pyqs"
    }
   ]
@@ -12055,16 +7042,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes/mughal-empire-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7671,
-    "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes",
-    "file": "mughal-empire-notes.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes/mughal-empire-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3995,
+    "size": 7588,
     "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/short"
    }
   ]
@@ -12079,16 +7057,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/pyqs/medieval-history-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6057,
-    "nav": "prelims-gs1/history-culture/medieval-history/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/pyqs",
-    "file": "medieval-history-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/pyqs/medieval-history-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2807,
+    "size": 5964,
     "nav": "prelims-gs1/history-culture/medieval-history/pyqs"
    }
   ]
@@ -12103,16 +7072,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/short-notes/medieval-history-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11422,
-    "nav": "prelims-gs1/history-culture/medieval-history/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/medieval-history/short-notes",
-    "file": "medieval-history-prelims.md",
-    "rel": "content/prelims/gs1/history-culture/medieval-history/short-notes/medieval-history-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7297,
+    "size": 11334,
     "nav": "prelims-gs1/history-culture/medieval-history/short"
    }
   ]
@@ -12127,16 +7087,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5517,
-    "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs",
-    "file": "constitutional-development-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2164,
+    "size": 5422,
     "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs"
    }
   ]
@@ -12151,16 +7102,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes/constitutional-development-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7971,
-    "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes",
-    "file": "constitutional-development-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes/constitutional-development-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4002,
+    "size": 7875,
     "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
    }
   ]
@@ -12175,16 +7117,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs/east-india-company-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5801,
-    "nav": "prelims-gs1/history-culture/modern-history/east-india-company/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs",
-    "file": "east-india-company-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs/east-india-company-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2421,
+    "size": 5714,
     "nav": "prelims-gs1/history-culture/modern-history/east-india-company/pyqs"
    }
   ]
@@ -12199,16 +7132,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes/east-india-company-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7167,
-    "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes",
-    "file": "east-india-company-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes/east-india-company-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3404,
+    "size": 7083,
     "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short"
    }
   ]
@@ -12223,16 +7147,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5450,
-    "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
-    "file": "gandhian-era-1919-1947-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2118,
+    "size": 5359,
     "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs"
    }
   ]
@@ -12247,16 +7162,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-1919-1947-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7594,
-    "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes",
-    "file": "gandhian-era-1919-1947-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-1919-1947-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3941,
+    "size": 7502,
     "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
    }
   ]
@@ -12271,16 +7177,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs/national-movement-1885-1919-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5557,
-    "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs",
-    "file": "national-movement-1885-1919-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs/national-movement-1885-1919-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2198,
+    "size": 5461,
     "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/pyqs"
    }
   ]
@@ -12295,16 +7192,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes/national-movement-1885-1919-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7023,
-    "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes",
-    "file": "national-movement-1885-1919-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes/national-movement-1885-1919-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3408,
+    "size": 6926,
     "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/short"
    }
   ]
@@ -12319,16 +7207,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/pyqs/modern-history-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6042,
-    "nav": "prelims-gs1/history-culture/modern-history/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/pyqs",
-    "file": "modern-history-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/pyqs/modern-history-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2782,
+    "size": 5953,
     "nav": "prelims-gs1/history-culture/modern-history/pyqs"
    }
   ]
@@ -12343,16 +7222,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5654,
-    "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs",
-    "file": "revolt-1857-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2340,
+    "size": 5574,
     "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs"
    }
   ]
@@ -12367,16 +7237,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes/revolt-1857-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7268,
-    "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes",
-    "file": "revolt-1857-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes/revolt-1857-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3460,
+    "size": 7187,
     "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/short"
    }
   ]
@@ -12391,16 +7252,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/short-notes/socio-religious-reform-quick.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6784,
-    "nav": "prelims-gs1/history-culture/modern-history/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/short-notes",
-    "file": "socio-religious-reform-quick.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/short-notes/socio-religious-reform-quick.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2801,
+    "size": 6692,
     "nav": "prelims-gs1/history-culture/modern-history/short"
    }
   ]
@@ -12415,16 +7267,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5738,
-    "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs",
-    "file": "socio-religious-reforms-mcqs.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2404,
+    "size": 5646,
     "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/pyqs"
    }
   ]
@@ -12439,16 +7282,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7973,
-    "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short"
-   },
-   {
-    "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes",
-    "file": "socio-religious-reforms-notes.md",
-    "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3709,
+    "size": 7880,
     "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short"
    }
   ]
@@ -12463,16 +7297,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6548,
-    "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs",
-    "file": "amendments-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3121,
+    "size": 6469,
     "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs"
    }
   ]
@@ -12487,16 +7312,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes/amendments-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 15663,
-    "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes",
-    "file": "amendments-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes/amendments-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 9774,
+    "size": 15583,
     "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
    }
   ]
@@ -12511,16 +7327,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs/federal-structure-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6834,
-    "nav": "prelims-gs1/polity-governance/constitution/federal-structure/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs",
-    "file": "federal-structure-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs/federal-structure-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3367,
+    "size": 6748,
     "nav": "prelims-gs1/polity-governance/constitution/federal-structure/pyqs"
    }
   ]
@@ -12535,16 +7342,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes/federal-structure-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 23472,
-    "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes",
-    "file": "federal-structure-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes/federal-structure-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 18278,
+    "size": 23385,
     "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short"
    }
   ]
@@ -12559,16 +7357,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6641,
-    "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
-    "file": "fundamental-rights-dpsp-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3180,
+    "size": 6549,
     "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs"
    }
   ]
@@ -12583,16 +7372,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes/fundamental-rights-dpsp-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 15944,
-    "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes",
-    "file": "fundamental-rights-dpsp-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes/fundamental-rights-dpsp-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 11162,
+    "size": 15851,
     "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
    }
   ]
@@ -12607,16 +7387,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs/making-features-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5611,
-    "nav": "prelims-gs1/polity-governance/constitution/making-features/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs",
-    "file": "making-features-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs/making-features-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2259,
+    "size": 5527,
     "nav": "prelims-gs1/polity-governance/constitution/making-features/pyqs"
    }
   ]
@@ -12631,16 +7402,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes/making-features-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14635,
-    "nav": "prelims-gs1/polity-governance/constitution/making-features/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes",
-    "file": "making-features-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes/making-features-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 10052,
+    "size": 14550,
     "nav": "prelims-gs1/polity-governance/constitution/making-features/short"
    }
   ]
@@ -12655,16 +7417,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/short-notes/constitution-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8646,
-    "nav": "prelims-gs1/polity-governance/constitution/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/constitution/short-notes",
-    "file": "constitution-prelims.md",
-    "rel": "content/prelims/gs1/polity-governance/constitution/short-notes/constitution-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4890,
+    "size": 8564,
     "nav": "prelims-gs1/polity-governance/constitution/short"
    }
   ]
@@ -12679,16 +7432,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7343,
-    "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs",
-    "file": "constitutional-bodies-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3924,
+    "size": 7253,
     "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs"
    }
   ]
@@ -12703,16 +7447,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes/constitutional-bodies-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22189,
-    "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes",
-    "file": "constitutional-bodies-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes/constitutional-bodies-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16034,
+    "size": 22098,
     "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
    }
   ]
@@ -12727,16 +7462,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs/e-governance-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7210,
-    "nav": "prelims-gs1/polity-governance/governance/e-governance/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs",
-    "file": "e-governance-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs/e-governance-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3746,
+    "size": 7129,
     "nav": "prelims-gs1/polity-governance/governance/e-governance/pyqs"
    }
   ]
@@ -12751,16 +7477,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes/e-governance-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16695,
-    "nav": "prelims-gs1/polity-governance/governance/e-governance/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes",
-    "file": "e-governance-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes/e-governance-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12550,
+    "size": 16613,
     "nav": "prelims-gs1/polity-governance/governance/e-governance/short"
    }
   ]
@@ -12775,16 +7492,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6755,
-    "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs",
-    "file": "local-govt-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3368,
+    "size": 6676,
     "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs"
    }
   ]
@@ -12799,16 +7507,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes/local-govt-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16790,
-    "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes",
-    "file": "local-govt-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes/local-govt-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 12375,
+    "size": 16710,
     "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
    }
   ]
@@ -12823,16 +7522,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs/schemes-policies-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6830,
-    "nav": "prelims-gs1/polity-governance/governance/schemes-policies/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs",
-    "file": "schemes-policies-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs/schemes-policies-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3402,
+    "size": 6745,
     "nav": "prelims-gs1/polity-governance/governance/schemes-policies/pyqs"
    }
   ]
@@ -12847,16 +7537,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes/schemes-policies-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 25253,
-    "nav": "prelims-gs1/polity-governance/governance/schemes-policies/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes",
-    "file": "schemes-policies-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes/schemes-policies-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 18324,
+    "size": 25167,
     "nav": "prelims-gs1/polity-governance/governance/schemes-policies/short"
    }
   ]
@@ -12871,16 +7552,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8503,
-    "nav": "prelims-gs1/polity-governance/governance/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/short-notes",
-    "file": "governance-prelims.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4755,
+    "size": 8421,
     "nav": "prelims-gs1/polity-governance/governance/short"
    }
   ]
@@ -12895,16 +7567,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs/statutory-bodies-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7618,
-    "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs",
-    "file": "statutory-bodies-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs/statutory-bodies-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4163,
+    "size": 7533,
     "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/pyqs"
    }
   ]
@@ -12919,16 +7582,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes/statutory-bodies-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22094,
-    "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes",
-    "file": "statutory-bodies-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes/statutory-bodies-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15635,
+    "size": 22008,
     "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short"
    }
   ]
@@ -12943,16 +7597,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6516,
-    "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs",
-    "file": "bilateral-ties-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3088,
+    "size": 6433,
     "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs"
    }
   ]
@@ -12967,16 +7612,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes/bilateral-ties-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 28375,
-    "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes",
-    "file": "bilateral-ties-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes/bilateral-ties-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 23626,
+    "size": 28291,
     "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short"
    }
   ]
@@ -12991,16 +7627,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6246,
-    "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs",
-    "file": "global-groups-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2800,
+    "size": 6164,
     "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs"
    }
   ]
@@ -13015,16 +7642,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes/global-groups-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22216,
-    "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes",
-    "file": "global-groups-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes/global-groups-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 14383,
+    "size": 22133,
     "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
    }
   ]
@@ -13039,16 +7657,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs/multilateral-forums-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6676,
-    "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs",
-    "file": "multilateral-forums-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs/multilateral-forums-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3193,
+    "size": 6588,
     "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/pyqs"
    }
   ]
@@ -13063,16 +7672,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 31697,
-    "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes",
-    "file": "multilateral-forums-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 25128,
+    "size": 31608,
     "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
    }
   ]
@@ -13087,16 +7687,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9291,
-    "nav": "prelims-gs1/polity-governance/international-relations/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/international-relations/short-notes",
-    "file": "ir-prelims.md",
-    "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5528,
+    "size": 9217,
     "nav": "prelims-gs1/polity-governance/international-relations/short"
    }
   ]
@@ -13111,16 +7702,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs/executive-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7609,
-    "nav": "prelims-gs1/polity-governance/organs-govt/executive/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs",
-    "file": "executive-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs/executive-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4203,
+    "size": 7531,
     "nav": "prelims-gs1/polity-governance/organs-govt/executive/pyqs"
    }
   ]
@@ -13135,16 +7717,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes/executive-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 19902,
-    "nav": "prelims-gs1/polity-governance/organs-govt/executive/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes",
-    "file": "executive-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes/executive-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 15146,
+    "size": 19823,
     "nav": "prelims-gs1/polity-governance/organs-govt/executive/short"
    }
   ]
@@ -13159,16 +7732,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7070,
-    "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs",
-    "file": "judiciary-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3698,
+    "size": 6992,
     "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs"
    }
   ]
@@ -13183,16 +7747,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes/judiciary-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21895,
-    "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes",
-    "file": "judiciary-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes/judiciary-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 16349,
+    "size": 21816,
     "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
    }
   ]
@@ -13207,16 +7762,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs/parliament-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7637,
-    "nav": "prelims-gs1/polity-governance/organs-govt/parliament/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs",
-    "file": "parliament-mcqs.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs/parliament-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4261,
+    "size": 7558,
     "nav": "prelims-gs1/polity-governance/organs-govt/parliament/pyqs"
    }
   ]
@@ -13231,16 +7777,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes/parliament-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22495,
-    "nav": "prelims-gs1/polity-governance/organs-govt/parliament/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes",
-    "file": "parliament-notes.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes/parliament-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 17217,
+    "size": 22415,
     "nav": "prelims-gs1/polity-governance/organs-govt/parliament/short"
    }
   ]
@@ -13255,16 +7792,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/short-notes/organs-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9020,
-    "nav": "prelims-gs1/polity-governance/organs-govt/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/organs-govt/short-notes",
-    "file": "organs-prelims.md",
-    "rel": "content/prelims/gs1/polity-governance/organs-govt/short-notes/organs-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5337,
+    "size": 8942,
     "nav": "prelims-gs1/polity-governance/organs-govt/short"
    }
   ]
@@ -13279,16 +7807,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/pyqs/polity-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5872,
-    "nav": "prelims-gs1/polity-governance/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/pyqs",
-    "file": "polity-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/polity-governance/pyqs/polity-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2625,
+    "size": 5789,
     "nav": "prelims-gs1/polity-governance/pyqs"
    }
   ]
@@ -13303,16 +7822,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/short-notes/polity-prelims-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7585,
-    "nav": "prelims-gs1/polity-governance/short"
-   },
-   {
-    "dir": "content/prelims/gs1/polity-governance/short-notes",
-    "file": "polity-prelims-revision.md",
-    "rel": "content/prelims/gs1/polity-governance/short-notes/polity-prelims-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4040,
+    "size": 7498,
     "nav": "prelims-gs1/polity-governance/short"
    }
   ]
@@ -13327,16 +7837,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6577,
-    "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs",
-    "file": "physics-chem-bio-mcqs.md",
-    "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3126,
+    "size": 6492,
     "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs"
    }
   ]
@@ -13351,16 +7852,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes/physics-chem-bio-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 43225,
-    "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes",
-    "file": "physics-chem-bio-notes.md",
-    "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes/physics-chem-bio-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 38133,
+    "size": 43139,
     "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/short"
    }
   ]
@@ -13375,16 +7867,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/basic-science/short-notes/basic-science-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8026,
-    "nav": "prelims-gs1/science-tech/basic-science/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/basic-science/short-notes",
-    "file": "basic-science-prelims.md",
-    "rel": "content/prelims/gs1/science-tech/basic-science/short-notes/basic-science-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 4631,
+    "size": 7941,
     "nav": "prelims-gs1/science-tech/basic-science/short"
    }
   ]
@@ -13399,16 +7882,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7391,
-    "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs",
-    "file": "ai-it-mcqs.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3987,
+    "size": 7317,
     "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs"
    }
   ]
@@ -13423,16 +7897,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes/ai-it-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 41644,
-    "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes",
-    "file": "ai-it-notes.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes/ai-it-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 36959,
+    "size": 41569,
     "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short"
    }
   ]
@@ -13447,16 +7912,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7113,
-    "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs",
-    "file": "biotech-health-mcqs.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3683,
+    "size": 7030,
     "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs"
    }
   ]
@@ -13471,16 +7927,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes/biotech-health-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20848,
-    "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes",
-    "file": "biotech-health-notes.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes/biotech-health-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 17206,
+    "size": 20764,
     "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
    }
   ]
@@ -13495,16 +7942,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs/defence-nuclear-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7116,
-    "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs",
-    "file": "defence-nuclear-mcqs.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs/defence-nuclear-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3679,
+    "size": 7032,
     "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/pyqs"
    }
   ]
@@ -13519,16 +7957,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes/defence-nuclear-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 33870,
-    "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes",
-    "file": "defence-nuclear-notes.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes/defence-nuclear-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 27805,
+    "size": 33785,
     "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/short"
    }
   ]
@@ -13543,16 +7972,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/short-notes/emerging-tech-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9868,
-    "nav": "prelims-gs1/science-tech/emerging-tech/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/short-notes",
-    "file": "emerging-tech-prelims.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/short-notes/emerging-tech-prelims.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6112,
+    "size": 9783,
     "nav": "prelims-gs1/science-tech/emerging-tech/short"
    }
   ]
@@ -13567,16 +7987,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs/space-missions-mcqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6932,
-    "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs",
-    "file": "space-missions-mcqs.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs/space-missions-mcqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3506,
+    "size": 6849,
     "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/pyqs"
    }
   ]
@@ -13591,16 +8002,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes/space-missions-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 27699,
-    "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes",
-    "file": "space-missions-notes.md",
-    "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes/space-missions-notes.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 24031,
+    "size": 27615,
     "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/short"
    }
   ]
@@ -13615,16 +8017,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/pyqs/scitech-prelims-pyqs.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5499,
-    "nav": "prelims-gs1/science-tech/pyqs"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/pyqs",
-    "file": "scitech-prelims-pyqs.md",
-    "rel": "content/prelims/gs1/science-tech/pyqs/scitech-prelims-pyqs.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 2312,
+    "size": 5415,
     "nav": "prelims-gs1/science-tech/pyqs"
    }
   ]
@@ -13639,16 +8032,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/short-notes/scitech-prelims-revision.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7204,
-    "nav": "prelims-gs1/science-tech/short"
-   },
-   {
-    "dir": "content/prelims/gs1/science-tech/short-notes",
-    "file": "scitech-prelims-revision.md",
-    "rel": "content/prelims/gs1/science-tech/short-notes/scitech-prelims-revision.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 3600,
+    "size": 7116,
     "nav": "prelims-gs1/science-tech/short"
    }
   ]
@@ -13663,16 +8047,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14556,
-    "nav": "prelims-mocks/csat-mock/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/csat-mock/pyqs",
-    "file": "csat-mock-30q.md",
-    "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 9866,
+    "size": 14479,
     "nav": "prelims-mocks/csat-mock/pyqs"
    }
   ]
@@ -13687,16 +8062,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.html",
     "kind": "doc",
     "ext": "html",
-    "size": 48105,
-    "nav": "prelims-mocks/full-length/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/full-length/pyqs",
-    "file": "gs1-full-length-mock-01.md",
-    "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 38237,
+    "size": 48018,
     "nav": "prelims-mocks/full-length/pyqs"
    }
   ]
@@ -13711,16 +8077,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/economy-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10465,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "economy-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/economy-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6636,
+    "size": 10380,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    },
    {
@@ -13729,16 +8086,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/environment-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10225,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "environment-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/environment-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 6358,
+    "size": 10136,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    },
    {
@@ -13747,16 +8095,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/geography-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9187,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "geography-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/geography-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5352,
+    "size": 9100,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    },
    {
@@ -13765,16 +8104,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/history-culture-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9247,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "history-culture-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/history-culture-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5380,
+    "size": 9154,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    },
    {
@@ -13783,16 +8113,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/polity-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11089,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "polity-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/polity-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 7231,
+    "size": 11005,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    },
    {
@@ -13801,16 +8122,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/mocks/sectional-tests/pyqs/science-tech-sectional-20q.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9466,
-    "nav": "prelims-mocks/sectional-tests/pyqs"
-   },
-   {
-    "dir": "content/prelims/mocks/sectional-tests/pyqs",
-    "file": "science-tech-sectional-20q.md",
-    "rel": "content/prelims/mocks/sectional-tests/pyqs/science-tech-sectional-20q.md",
-    "kind": "doc",
-    "ext": "md",
-    "size": 5596,
+    "size": 9376,
     "nav": "prelims-mocks/sectional-tests/pyqs"
    }
   ]

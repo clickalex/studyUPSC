@@ -345,7 +345,7 @@
     html += '<div class="grid lg:grid-cols-3 gap-6 mt-8">';
     html += '<div class="lg:col-span-2 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6">' +
       '<h2 class="text-lg font-bold mb-1">🗂️ How this portal is organised</h2>' +
-      '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Every syllabus topic branches into five content sections. Drop your own Markdown notes, images and PDFs into <code class="code">content/</code> and run the generator to index them.</p>' +
+      '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Every syllabus topic branches into five content sections. Drop your own HTML pages, images and PDFs into <code class="code">content/</code> and run the generator to index them.</p>' +
       '<div class="grid sm:grid-cols-5 gap-2">' + SECTIONS.map(function (s) {
         return '<div class="rounded-xl border border-slate-200 dark:border-slate-700 p-3 text-center hover:border-amber-400 transition-colors"><div class="text-2xl mb-1">' + s.icon + '</div><div class="text-[11px] font-semibold text-slate-700 dark:text-slate-200 leading-tight">' + esc(s.title) + '</div></div>';
       }).join('') + '</div></div>';
@@ -464,7 +464,7 @@
       html += renderFileGroups(node.nav, dirs, files);
     } else {
       html += '<div class="rounded-2xl border border-dashed border-slate-300 dark:border-slate-600 p-6 text-center text-sm text-slate-500 dark:text-slate-400 mb-6">' +
-        'No study material yet — drop Markdown notes, images or PDFs into <code class="code">upsc-portal/content/</code>, ' +
+        'No study material yet — drop HTML pages, images or PDFs into <code class="code">upsc-portal/content/</code>, ' +
         'then run <code class="code">node cli/generate.mjs</code>.<br>' +
         '<a class="text-amber-600 dark:text-amber-400 font-semibold" href="#/tracker">→ Track this paper in the Revision Tracker</a></div>';
     }
@@ -610,56 +610,94 @@
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<a class="btn-ghost text-[12px]" href="' + esc(imgSrc) + '" download>Download ⬇</a></div>' +
+        '</div>' +
         '<img src="' + esc(imgSrc) + '" alt="' + esc(entry.file) + '" class="w-full rounded-xl border border-slate-200 dark:border-slate-700" onclick="openImageViewer(\'' + esc(rel.replace(/'/g, "\\'")) + '\')" style="cursor:zoom-in"></div>',
         { crumbs: crumbsForNavFromRel(entry) });
       attachDocNav(entry);
       return;
     }
-    if (entry.kind === 'pdf' || entry.ext === 'html') {
+    if (entry.kind === 'pdf') {
       app.innerHTML = shell(
         '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4">' +
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<div class="flex gap-2"><a class="btn-ghost text-[12px]" href="' + esc(rel) + '" target="_blank" rel="noopener">Open ↗</a>' +
-        '<a class="btn-primary text-[12px]" href="' + esc(rel) + '" download>Download ⬇</a></div></div>' +
+        '</div>' +
         '<iframe src="' + esc(rel) + '" class="w-full h-[70vh] rounded-xl border border-slate-200 dark:border-slate-700" title="' + esc(entry.file) + '"></iframe></div>',
         { crumbs: crumbsForNavFromRel(entry) });
       attachDocNav(entry);
       return;
     }
 
-    /* text document */
+    /* HTML + text documents — rendered inline as pages of this site.
+       No "open raw" / "download" options: everything stays in the portal. */
     fetch(rel).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.text();
-    }).then(function (text) {
-      var dir = entry.dir === 'content' ? '' : entry.dir.replace(/^content\//, '');
-      var body = mdToHtml(text, dir);
+    }).then(function (raw) {
+      var baseDir = entry.dir; /* site-relative: matches INDEX rel paths */
+      var body, title;
+      if (entry.ext === 'html' || entry.ext === 'htm') {
+        var doc = new DOMParser().parseFromString(raw, 'text/html');
+        doc.querySelectorAll('script,style,iframe,object,embed,link,meta').forEach(function (n) { n.remove(); });
+        var card = doc.querySelector('.card') || doc.body;
+        var h1 = card.querySelector('h1');
+        title = ((doc.title || '').replace(/\s*·\s*studyUPSC\s*$/i, '') || (h1 ? h1.textContent : '') || entry.file.replace(/\.html?$/i, '')).trim();
+        body = card.innerHTML;
+      } else {
+        title = entry.file.replace(/\.(md|txt|html?)$/i, '');
+        body = mdToHtml(raw, baseDir);
+      }
       var toc = mdToc(body);
       var appHtml = '<div class="grid lg:grid-cols-4 gap-6">' +
         '<div class="lg:col-span-3">' +
         '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 overflow-hidden">' +
         '<div class="px-5 sm:px-8 pt-5 flex items-center justify-between flex-wrap gap-2 border-b border-slate-100 dark:border-slate-800 pb-4">' +
-        '<div><h1 class="text-xl font-extrabold text-slate-900 dark:text-white">' + esc(entry.file.replace(/\.(md|txt|html?)$/i, '')) + '</h1>' +
+        '<div><h1 class="text-xl font-extrabold text-slate-900 dark:text-white">' + esc(title) + '</h1>' +
         '<p class="text-[11px] text-slate-400 mt-0.5">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<div class="flex gap-2"><button class="btn-ghost text-[12px]" onclick="copyDoc()" id="copy-btn">📋 Copy</button>' +
-        '<a class="btn-ghost text-[12px]" href="' + esc(rel) + '" target="_blank" rel="noopener">Raw ↗</a></div></div>' +
+        '</div>' +
         '<div class="md-content px-5 sm:px-8 py-6">' + body + '</div></div>' +
         prevNextHtml(entry) + '</div>' +
         (toc ? '<aside class="hidden lg:block"><div class="sticky top-20 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4 text-sm">' +
           '<div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">On this page</div>' + toc + '</div></aside>' : '') +
         '</div>';
       app.innerHTML = shell(appHtml, { crumbs: crumbsForNavFromRel(entry) });
+      /* internal links/images inside the article stay inside the portal */
+      rewriteInlineLinks($('.md-content'), baseDir);
       attachDocNav(entry);
-      window._activeDocText = text;
       /* highlight search query if any */
       if (window._searchQuery) highlightInDoc(window._searchQuery);
     }).catch(function (err) {
       app.innerHTML = shell('<div class="rounded-2xl border border-red-200 dark:border-red-900 bg-red-50 dark:bg-red-900/20 p-6 text-sm text-red-700 dark:text-red-300">' +
-        'Could not load <code class="code">' + esc(rel) + '</code> (' + esc(err.message) + ').<br>Run <code class="code">node cli/generate.mjs</code> and reload if the file was added recently.</div>',
+        'Could not load <code class="code">' + esc(rel) + '</code> (' + esc(err.message) + ').<br>Regenerate the indexes with <code class="code">node cli/generate.mjs</code> and reload if the file was added recently.</div>',
         { crumbs: crumbsForNavFromRel(entry) });
+    });
+  }
+
+  /* Resolve relative links/images inside an inlined article so that every
+     click stays inside the SPA (routes to #/doc/…) and images resolve. */
+  function rewriteInlineLinks(container, baseDir) {
+    if (!container) return;
+    container.querySelectorAll('a[href]').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (!href || href.charAt(0) === '#') return;
+      if (/^(https?:|mailto:|data:)/i.test(href)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); return; }
+      var r = resolveHref(href, baseDir);
+      if (r && entryByRel(r)) {
+        a.setAttribute('href', '#/doc/' + encodeURIComponent(r));
+        a.classList.add('md-internal');
+      } else {
+        a.setAttribute('href', r || href);
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener');
+      }
+    });
+    container.querySelectorAll('img[src]').forEach(function (img) {
+      var src = img.getAttribute('src') || '';
+      if (/^(https?:|data:)/i.test(src)) return;
+      img.setAttribute('src', resolveHref(src, baseDir));
+      img.setAttribute('loading', 'lazy');
+      img.classList.add('rounded-xl', 'border', 'border-slate-200', 'dark:border-slate-700', 'my-3', 'max-w-full');
     });
   }
 
@@ -698,16 +736,6 @@
       (next ? '<a href="#/doc/' + encodeURIComponent(next.rel) + '" class="btn-ghost text-[12px]">' + esc(shortName(next.file)) + ' →</a>' : '') + '</div>';
   }
   function shortName(f) { return f.replace(/\.(md|txt|html?)$/i, '').replace(/[-_]/g, ' ').slice(0, 42); }
-
-  window.copyDoc = function () {
-    var t = window._activeDocText;
-    if (!t) return;
-    navigator.clipboard.writeText(t).then(function () {
-      var b = $('#copy-btn');
-      if (b) { b.textContent = '✓ Copied'; setTimeout(function () { b.textContent = '📋 Copy'; }, 1500); }
-      toast('Copied raw document to clipboard');
-    });
-  };
 
   /* ------------------------------------------------------------------ */
   /*  Markdown renderer (safe — HTML is escaped first)                    */
