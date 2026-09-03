@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Scripts &amp; Languages — quick map</text>
+  <text x="30" y="54" class="s">prelims · match language → script → text</text>
+  <rect x="30" y="88" width="289" height="139" rx="10" class="card"/>
+  <text x="44" y="114" class="h">INDUS</text>
+  <text x="44" y="134" class="md">Undeciphered</text>
+  <text x="44" y="151" class="md">Boustrophedon debate</text>
+  <text x="44" y="168" class="md">Seals: pashupati, unicorn</text>
+  <rect x="335" y="88" width="289" height="139" rx="10" class="card"/>
+  <text x="349" y="114" class="h">BRAHMI</text>
+  <text x="349" y="134" class="md">Ashokan edicts (Prakrit)</text>
+  <text x="349" y="151" class="md">Kharosthi = NW variant</text>
+  <text x="349" y="168" class="md">Ashoka left, rightward</text>
+  <text x="349" y="185" class="md">Parent of most Indic scripts</text>
+  <rect x="641" y="88" width="289" height="139" rx="10" class="card"/>
+  <text x="655" y="114" class="h">PRAKRIT-PALI</text>
+  <text x="655" y="134" class="md">Edicts language = Prakrit</text>
+  <text x="655" y="151" class="md">Pali: Tipitaka</text>
+  <text x="655" y="168" class="md">Ardhamagadhi: Jain Agamas</text>
+  <text x="655" y="185" class="md">Gatha-sattasai: Hala</text>
+  <rect x="30" y="243" width="289" height="139" rx="10" class="card"/>
+  <text x="44" y="269" class="h">SANSKRIT</text>
+  <text x="44" y="289" class="md">Panini: Ashtadhyayi</text>
+  <text x="44" y="306" class="md">Classical: Kalidasa era</text>
+  <text x="44" y="323" class="md">Rudradaman first major record</text>
+  <text x="44" y="340" class="md">Copper-plate charters</text>
+  <rect x="335" y="243" width="289" height="139" rx="10" class="card"/>
+  <text x="349" y="269" class="h">TAMIL &amp; SANGAM</text>
+  <text x="349" y="289" class="md">Tolkappiyam grammar</text>
+  <text x="349" y="306" class="md">Sangam corpus 8 anthologies</text>
+  <text x="349" y="323" class="md">Vatteluttu script</text>
+  <text x="349" y="340" class="md">Tirukkural: Tiruvalluvar</text>
+  <rect x="641" y="243" width="289" height="139" rx="10" class="card"/>
+  <text x="655" y="269" class="h">MEDIEVAL-MODERN</text>
+  <text x="655" y="289" class="md">Apabhramsa → Hindi branch</text>
+  <text x="655" y="306" class="md">Devanagari standardises</text>
+  <text x="655" y="323" class="md">Urdu: Delhi/Lucknow</text>
+  <text x="655" y="340" class="md">Nastaliq vs Devanagari press</text>
+  <text x="655" y="357" class="md">8th Schedule: 22 languages</text>
+  <text x="30" y="436" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

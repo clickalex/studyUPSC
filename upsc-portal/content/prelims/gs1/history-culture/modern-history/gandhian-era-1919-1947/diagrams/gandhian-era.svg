@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Gandhian Era 1919-1947</text>
+  <text x="30" y="54" class="s">prelims · movement → year</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">1919</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">Rowlatt satyagraha</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">first all-India movement</text>
+  <line x1="180.0" y1="150" x2="180.0" y2="188" class="ln"/>
+  <circle cx="180.0" cy="150" r="6" class="dot"/>
+  <text x="180.0" y="210" text-anchor="middle" class="e">1920-22</text>
+  <text x="180.0" y="227" text-anchor="middle" class="d">Non-Cooperation</text>
+  <text x="180.0" y="243" text-anchor="middle" class="d">Chauri Chaura halt</text>
+  <line x1="300.0" y1="150" x2="300.0" y2="112" class="ln"/>
+  <circle cx="300.0" cy="150" r="6" class="dot"/>
+  <text x="300.0" y="82" text-anchor="middle" class="e">1930</text>
+  <text x="300.0" y="99" text-anchor="middle" class="d">CIVIL DISOBEDIENCE</text>
+  <text x="300.0" y="76" text-anchor="middle" class="d">Dandi 12 Mar-6 Apr</text>
+  <line x1="420.0" y1="150" x2="420.0" y2="188" class="ln"/>
+  <circle cx="420.0" cy="150" r="6" class="dot"/>
+  <text x="420.0" y="210" text-anchor="middle" class="e">1931</text>
+  <text x="420.0" y="227" text-anchor="middle" class="d">Gandhi-Irwin + Karachi</text>
+  <text x="420.0" y="243" text-anchor="middle" class="d">RTC-2 London</text>
+  <line x1="540.0" y1="150" x2="540.0" y2="112" class="ln"/>
+  <circle cx="540.0" cy="150" r="6" class="dot"/>
+  <text x="540.0" y="82" text-anchor="middle" class="e">1937</text>
+  <text x="540.0" y="99" text-anchor="middle" class="d">Provincial ministries</text>
+  <text x="540.0" y="76" text-anchor="middle" class="d">Congress rules</text>
+  <line x1="660.0" y1="150" x2="660.0" y2="188" class="ln"/>
+  <circle cx="660.0" cy="150" r="6" class="dot"/>
+  <text x="660.0" y="210" text-anchor="middle" class="e">1942</text>
+  <text x="660.0" y="227" text-anchor="middle" class="d">QUIT INDIA</text>
+  <text x="660.0" y="243" text-anchor="middle" class="d">8 Aug; Do or Die</text>
+  <line x1="780.0" y1="150" x2="780.0" y2="112" class="ln"/>
+  <circle cx="780.0" cy="150" r="6" class="dot"/>
+  <text x="780.0" y="82" text-anchor="middle" class="e">1946</text>
+  <text x="780.0" y="99" text-anchor="middle" class="d">Cabinet Mission</text>
+  <text x="780.0" y="76" text-anchor="middle" class="d">Interim govt</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="188" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="210" text-anchor="middle" class="e">1947</text>
+  <text x="900.0" y="227" text-anchor="middle" class="d">INDEPENDENCE</text>
+  <text x="900.0" y="243" text-anchor="middle" class="d">15 Aug; partition</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

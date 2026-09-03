@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Stone, Bronze &amp; Iron Ages — site timeline</text>
+  <text x="30" y="54" class="s">prelims · Indian prehistory: tool cultures, first farming, megaliths</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">2.6 mya+</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">Lower Palaeolithic</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">handaxes · Attirampakkam</text>
+  <line x1="228.0" y1="150" x2="228.0" y2="188" class="ln"/>
+  <circle cx="228.0" cy="150" r="6" class="dot"/>
+  <text x="228.0" y="210" text-anchor="middle" class="e">Middle/Upper</text>
+  <text x="228.0" y="227" text-anchor="middle" class="d">flakes &amp; blades</text>
+  <text x="228.0" y="243" text-anchor="middle" class="d">Bhimbetka rock art</text>
+  <line x1="396.0" y1="150" x2="396.0" y2="112" class="ln"/>
+  <circle cx="396.0" cy="150" r="6" class="dot"/>
+  <text x="396.0" y="82" text-anchor="middle" class="e">10-6 k BCE</text>
+  <text x="396.0" y="99" text-anchor="middle" class="d">Mesolithic</text>
+  <text x="396.0" y="76" text-anchor="middle" class="d">microliths · Bagor, Adamgarh</text>
+  <line x1="564.0" y1="150" x2="564.0" y2="188" class="ln"/>
+  <circle cx="564.0" cy="150" r="6" class="dot"/>
+  <text x="564.0" y="210" text-anchor="middle" class="e">7000 BCE</text>
+  <text x="564.0" y="227" text-anchor="middle" class="d">Neolithic</text>
+  <text x="564.0" y="243" text-anchor="middle" class="d">Mehrgarh farming · Burzahom</text>
+  <line x1="732.0" y1="150" x2="732.0" y2="112" class="ln"/>
+  <circle cx="732.0" cy="150" r="6" class="dot"/>
+  <text x="732.0" y="82" text-anchor="middle" class="e">2800-700</text>
+  <text x="732.0" y="99" text-anchor="middle" class="d">Chalcolithic</text>
+  <text x="732.0" y="76" text-anchor="middle" class="d">Ahar, Jorwe · copper+stone</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="188" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="210" text-anchor="middle" class="e">1500-500</text>
+  <text x="900.0" y="227" text-anchor="middle" class="d">Iron / Megalith</text>
+  <text x="900.0" y="243" text-anchor="middle" class="d">S. India &amp; Vidarbha burials</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

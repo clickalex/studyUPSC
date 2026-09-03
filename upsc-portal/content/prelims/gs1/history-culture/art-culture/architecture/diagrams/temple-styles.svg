@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="484" viewBox="0 0 960 484" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="484" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Temple Styles — Nagara · Dravida · Vesara</text>
+  <text x="30" y="54" class="s">prelims · match style → features → examples</text>
+  <rect x="30" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="114" class="h">NAGARA (North)</text>
+  <text x="44" y="134" class="md">Curvilinear shikhara</text>
+  <text x="44" y="151" class="md">Amalaka + kalasha crown</text>
+  <text x="44" y="168" class="md">Panchayatana layouts</text>
+  <text x="44" y="185" class="md">Khajuraho: Kandariya</text>
+  <text x="44" y="202" class="md">Odisha: Lingaraja, Konark</text>
+  <text x="44" y="219" class="md">Solanki: Modhera (Sun)</text>
+  <rect x="488" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="114" class="h">DRAVIDA (South)</text>
+  <text x="502" y="134" class="md">Pyramidal vimana tiers</text>
+  <text x="502" y="151" class="md">Gopuram gateway grows</text>
+  <text x="502" y="168" class="md">Pallava rathas (Mamalla)</text>
+  <text x="502" y="185" class="md">Chola: Brihadeshwara 1010</text>
+  <text x="502" y="202" class="md">Pandya: tall gopurams</text>
+  <text x="502" y="219" class="md">Nayaka: kalyana mandapas</text>
+  <rect x="30" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="286" class="h">VESARA (Deccan)</text>
+  <text x="44" y="306" class="md">Nagara-Dravida hybrid</text>
+  <text x="44" y="323" class="md">Chalukya: Badami, Pattadakal</text>
+  <text x="44" y="340" class="md">Rashtrakuta: Kailasa (Ellora)</text>
+  <text x="44" y="357" class="md">Hoysala: star platforms</text>
+  <text x="44" y="374" class="md">Belur, Halebidu, Somnathpur</text>
+  <text x="44" y="391" class="md">Soapstone, lathe pillars</text>
+  <rect x="488" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="286" class="h">MATCH TRAPS</text>
+  <text x="502" y="306" class="md">Kailasa Ellora = Rashtrakuta</text>
+  <text x="502" y="323" class="md">Shore temple = Narasimhavarman II</text>
+  <text x="502" y="340" class="md">Brihadeshwara = Rajaraja I</text>
+  <text x="502" y="357" class="md">Khajuraho = Chandelas</text>
+  <text x="502" y="374" class="md">Pattadakal = UNESCO, both styles</text>
+  <text x="502" y="391" class="md">Gopuram ≠ shikhara</text>
+  <text x="30" y="470" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

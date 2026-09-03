@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 124133,
+  "size": 126402,
   "nav": ""
  },
  {
@@ -3016,6 +3016,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/world-geography/world-physical/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullet-points",
+  "file": "mahajanapadas-mauryan-points.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullet-points/mahajanapadas-mauryan-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4520,
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes",
+  "file": "mahajanapadas-mauryan-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes/mahajanapadas-mauryan-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6857,
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams",
+  "file": "maurya-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams/maurya-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3393,
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
   "file": "mahajanapadas-mauryan-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.html",
@@ -3032,6 +3059,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 10096,
   "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/bullet-points",
+  "file": "post-mauryan-gupta-points.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/bullet-points/post-mauryan-gupta-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4262,
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes",
+  "file": "post-mauryan-gupta-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes/post-mauryan-gupta-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7165,
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams",
+  "file": "post-mauryan-gupta-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams/post-mauryan-gupta-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3307,
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs",
@@ -3070,6 +3124,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/ancient-history/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/bullet-points",
+  "file": "stone-bronze-age-points.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/bullet-points/stone-bronze-age-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4456,
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes",
+  "file": "stone-bronze-age-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes/stone-bronze-age-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6153,
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/diagrams",
+  "file": "prehistoric-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/diagrams/prehistoric-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3041,
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
   "file": "stone-bronze-age-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.html",
@@ -3086,6 +3167,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7632,
   "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/bullet-points",
+  "file": "vedic-age-points.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/bullet-points/vedic-age-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4328,
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/detailed-notes",
+  "file": "vedic-age-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/detailed-notes/vedic-age-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6188,
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/diagrams",
+  "file": "early-later-vedic.svg",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/diagrams/early-later-vedic.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2927,
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs",
@@ -3106,6 +3214,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/bullet-points",
+  "file": "architecture-points.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/bullet-points/architecture-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4443,
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes",
+  "file": "architecture-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes/architecture-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6454,
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/diagrams",
+  "file": "temple-styles.svg",
+  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/diagrams/temple-styles.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2902,
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs",
   "file": "architecture-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.html",
@@ -3122,6 +3257,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 8841,
   "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/bullet-points",
+  "file": "fairs-festivals-points.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/bullet-points/fairs-festivals-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4309,
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes",
+  "file": "fairs-festivals-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes/fairs-festivals-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6520,
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/diagrams",
+  "file": "festivals-map.svg",
+  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/diagrams/festivals-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2815,
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs",
@@ -3142,6 +3304,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/bullet-points",
+  "file": "music-dance-points.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/bullet-points/music-dance-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4461,
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes",
+  "file": "music-dance-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes/music-dance-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6808,
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/diagrams",
+  "file": "classical-dances.svg",
+  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/diagrams/classical-dances.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3390,
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs",
   "file": "music-dance-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.html",
@@ -3158,6 +3347,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 10048,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/bullet-points",
+  "file": "painting-points.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/painting/bullet-points/painting-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4403,
+  "nav": "prelims-gs1/history-culture/art-culture/painting/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes",
+  "file": "painting-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes/painting-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6852,
+  "nav": "prelims-gs1/history-culture/art-culture/painting/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/diagrams",
+  "file": "painting-schools.svg",
+  "rel": "content/prelims/gs1/history-culture/art-culture/painting/diagrams/painting-schools.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3475,
+  "nav": "prelims-gs1/history-culture/art-culture/painting/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/art-culture/painting/pyqs",
@@ -3187,6 +3403,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/art-culture/pyqs"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/bullet-points",
+  "file": "scriptures-languages-points.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/bullet-points/scriptures-languages-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4586,
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes",
+  "file": "scriptures-languages-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes/scriptures-languages-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6924,
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/diagrams",
+  "file": "scripts-languages.svg",
+  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/diagrams/scripts-languages.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3092,
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs",
   "file": "scriptures-languages-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.html",
@@ -3214,6 +3457,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/art-culture/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/bullet-points",
+  "file": "delhi-sultanate-points.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/bullet-points/delhi-sultanate-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4392,
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes",
+  "file": "delhi-sultanate-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes/delhi-sultanate-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7392,
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/diagrams",
+  "file": "sultanate-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/diagrams/sultanate-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3658,
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
   "file": "delhi-sultanate-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.html",
@@ -3230,6 +3500,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7578,
   "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/bullet-points",
+  "file": "early-medieval-kingdoms-points.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/bullet-points/early-medieval-kingdoms-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4315,
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes",
+  "file": "early-medieval-kingdoms-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes/early-medieval-kingdoms-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6873,
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams",
+  "file": "early-medieval-powers.svg",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams/early-medieval-powers.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3009,
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs",
@@ -3250,6 +3547,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/bullet-points",
+  "file": "marathas-vijayanagara-points.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/bullet-points/marathas-vijayanagara-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4443,
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes",
+  "file": "marathas-vijayanagara-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes/marathas-vijayanagara-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6910,
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams",
+  "file": "deccan-maratha-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams/deccan-maratha-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3648,
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
   "file": "marathas-vijayanagara-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.html",
@@ -3266,6 +3590,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7949,
   "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/bullet-points",
+  "file": "mughal-empire-points.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/bullet-points/mughal-empire-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4485,
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes",
+  "file": "mughal-empire-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes/mughal-empire-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7797,
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/diagrams",
+  "file": "mughal-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/diagrams/mughal-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3299,
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs",
@@ -3304,6 +3655,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/medieval-history/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/bullet-points",
+  "file": "constitutional-development-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/bullet-points/constitutional-development-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4733,
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes",
+  "file": "constitutional-development-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes/constitutional-development-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7032,
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/diagrams",
+  "file": "acts-timeline.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/diagrams/acts-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3991,
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs",
   "file": "constitutional-development-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.html",
@@ -3320,6 +3698,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7875,
   "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/bullet-points",
+  "file": "east-india-company-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/bullet-points/east-india-company-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4575,
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes",
+  "file": "east-india-company-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes/east-india-company-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7031,
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/diagrams",
+  "file": "company-expansion.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/diagrams/company-expansion.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3613,
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs",
@@ -3340,6 +3745,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/bullet-points",
+  "file": "gandhian-era-1919-1947-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-1919-1947-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4957,
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes",
+  "file": "gandhian-era-1919-1947-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6995,
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams",
+  "file": "gandhian-era.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams/gandhian-era.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3586,
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
   "file": "gandhian-era-1919-1947-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.html",
@@ -3356,6 +3788,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7502,
   "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/bullet-points",
+  "file": "national-movement-1885-1919-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/bullet-points/national-movement-1885-1919-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4666,
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes",
+  "file": "national-movement-1885-1919-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7420,
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/diagrams",
+  "file": "nm-1885-1919.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/diagrams/nm-1885-1919.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3605,
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs",
@@ -3385,6 +3844,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/modern-history/pyqs"
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/bullet-points",
+  "file": "revolt-1857-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/bullet-points/revolt-1857-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4532,
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes",
+  "file": "revolt-1857-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes/revolt-1857-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6445,
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/diagrams",
+  "file": "revolt-1857.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/diagrams/revolt-1857.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2912,
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs",
   "file": "revolt-1857-mcqs.html",
   "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.html",
@@ -3410,6 +3896,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6692,
   "nav": "prelims-gs1/history-culture/modern-history/short"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/bullet-points",
+  "file": "socio-religious-reforms-points.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4725,
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes",
+  "file": "socio-religious-reforms-detailed.html",
+  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6822,
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/diagrams",
+  "file": "reform-map.svg",
+  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/diagrams/reform-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3174,
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/diagrams"
  },
  {
   "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs",
@@ -3973,7 +4486,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 124133,
+    "size": 126402,
     "nav": ""
    },
    {
@@ -8998,6 +9511,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullet-points",
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullet-points",
+    "file": "mahajanapadas-mauryan-points.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullet-points/mahajanapadas-mauryan-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4520,
+    "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes",
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes",
+    "file": "mahajanapadas-mauryan-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes/mahajanapadas-mauryan-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6857,
+    "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams",
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams",
+    "file": "maurya-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams/maurya-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3393,
+    "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
   "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
   "files": [
@@ -9024,6 +9582,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 10096,
     "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/bullet-points",
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/bullet-points",
+    "file": "post-mauryan-gupta-points.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/bullet-points/post-mauryan-gupta-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4262,
+    "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes",
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes",
+    "file": "post-mauryan-gupta-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes/post-mauryan-gupta-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7165,
+    "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams",
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams",
+    "file": "post-mauryan-gupta-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams/post-mauryan-gupta-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3307,
+    "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/diagrams"
    }
   ]
  },
@@ -9088,6 +9691,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/bullet-points",
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/bullet-points",
+    "file": "stone-bronze-age-points.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/bullet-points/stone-bronze-age-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4456,
+    "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes",
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes",
+    "file": "stone-bronze-age-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes/stone-bronze-age-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6153,
+    "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/diagrams",
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/diagrams",
+    "file": "prehistoric-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/diagrams/prehistoric-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3041,
+    "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
   "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
   "files": [
@@ -9114,6 +9762,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7632,
     "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/bullet-points",
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/bullet-points",
+    "file": "vedic-age-points.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/bullet-points/vedic-age-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4328,
+    "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/detailed-notes",
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/detailed-notes",
+    "file": "vedic-age-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/detailed-notes/vedic-age-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6188,
+    "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/diagrams",
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/ancient-history/vedic-age/diagrams",
+    "file": "early-later-vedic.svg",
+    "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/diagrams/early-later-vedic.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2927,
+    "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/diagrams"
    }
   ]
  },
@@ -9148,6 +9841,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/bullet-points",
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/architecture/bullet-points",
+    "file": "architecture-points.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/architecture/bullet-points/architecture-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4443,
+    "nav": "prelims-gs1/history-culture/art-culture/architecture/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes",
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes",
+    "file": "architecture-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes/architecture-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6454,
+    "nav": "prelims-gs1/history-culture/art-culture/architecture/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/architecture/diagrams",
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/architecture/diagrams",
+    "file": "temple-styles.svg",
+    "rel": "content/prelims/gs1/history-culture/art-culture/architecture/diagrams/temple-styles.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2902,
+    "nav": "prelims-gs1/history-culture/art-culture/architecture/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs",
   "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs",
   "files": [
@@ -9174,6 +9912,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 8841,
     "nav": "prelims-gs1/history-culture/art-culture/architecture/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/bullet-points",
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/bullet-points",
+    "file": "fairs-festivals-points.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/bullet-points/fairs-festivals-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4309,
+    "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes",
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes",
+    "file": "fairs-festivals-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes/fairs-festivals-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6520,
+    "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/diagrams",
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/diagrams",
+    "file": "festivals-map.svg",
+    "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/diagrams/festivals-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2815,
+    "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/diagrams"
    }
   ]
  },
@@ -9208,6 +9991,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/bullet-points",
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/bullet-points",
+    "file": "music-dance-points.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/bullet-points/music-dance-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4461,
+    "nav": "prelims-gs1/history-culture/art-culture/music-dance/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes",
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes",
+    "file": "music-dance-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes/music-dance-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6808,
+    "nav": "prelims-gs1/history-culture/art-culture/music-dance/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/diagrams",
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/diagrams",
+    "file": "classical-dances.svg",
+    "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/diagrams/classical-dances.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3390,
+    "nav": "prelims-gs1/history-culture/art-culture/music-dance/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs",
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs",
   "files": [
@@ -9234,6 +10062,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 10048,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/bullet-points",
+  "nav": "prelims-gs1/history-culture/art-culture/painting/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/painting/bullet-points",
+    "file": "painting-points.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/painting/bullet-points/painting-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4403,
+    "nav": "prelims-gs1/history-culture/art-culture/painting/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes",
+  "nav": "prelims-gs1/history-culture/art-culture/painting/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes",
+    "file": "painting-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes/painting-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6852,
+    "nav": "prelims-gs1/history-culture/art-culture/painting/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/painting/diagrams",
+  "nav": "prelims-gs1/history-culture/art-culture/painting/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/painting/diagrams",
+    "file": "painting-schools.svg",
+    "rel": "content/prelims/gs1/history-culture/art-culture/painting/diagrams/painting-schools.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3475,
+    "nav": "prelims-gs1/history-culture/art-culture/painting/diagrams"
    }
   ]
  },
@@ -9283,6 +10156,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/bullet-points",
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/bullet-points",
+    "file": "scriptures-languages-points.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/bullet-points/scriptures-languages-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4586,
+    "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes",
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes",
+    "file": "scriptures-languages-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes/scriptures-languages-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6924,
+    "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/diagrams",
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/diagrams",
+    "file": "scripts-languages.svg",
+    "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/diagrams/scripts-languages.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3092,
+    "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs",
   "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs",
   "files": [
@@ -9328,6 +10246,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/bullet-points",
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/bullet-points",
+    "file": "delhi-sultanate-points.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/bullet-points/delhi-sultanate-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4392,
+    "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes",
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes",
+    "file": "delhi-sultanate-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes/delhi-sultanate-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7392,
+    "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/diagrams",
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/diagrams",
+    "file": "sultanate-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/diagrams/sultanate-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3658,
+    "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
   "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
   "files": [
@@ -9354,6 +10317,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7578,
     "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/bullet-points",
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/bullet-points",
+    "file": "early-medieval-kingdoms-points.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/bullet-points/early-medieval-kingdoms-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4315,
+    "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes",
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes",
+    "file": "early-medieval-kingdoms-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes/early-medieval-kingdoms-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6873,
+    "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams",
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams",
+    "file": "early-medieval-powers.svg",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams/early-medieval-powers.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3009,
+    "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/diagrams"
    }
   ]
  },
@@ -9388,6 +10396,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/bullet-points",
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/bullet-points",
+    "file": "marathas-vijayanagara-points.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/bullet-points/marathas-vijayanagara-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4443,
+    "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes",
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes",
+    "file": "marathas-vijayanagara-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes/marathas-vijayanagara-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6910,
+    "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams",
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams",
+    "file": "deccan-maratha-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams/deccan-maratha-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3648,
+    "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
   "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
   "files": [
@@ -9414,6 +10467,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7949,
     "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/bullet-points",
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/bullet-points",
+    "file": "mughal-empire-points.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/bullet-points/mughal-empire-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4485,
+    "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes",
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes",
+    "file": "mughal-empire-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes/mughal-empire-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7797,
+    "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/diagrams",
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/diagrams",
+    "file": "mughal-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/diagrams/mughal-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3299,
+    "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/diagrams"
    }
   ]
  },
@@ -9478,6 +10576,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/bullet-points",
+    "file": "constitutional-development-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/bullet-points/constitutional-development-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4733,
+    "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes",
+    "file": "constitutional-development-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes/constitutional-development-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7032,
+    "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/diagrams",
+    "file": "acts-timeline.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/diagrams/acts-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3991,
+    "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs",
   "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs",
   "files": [
@@ -9504,6 +10647,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7875,
     "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/bullet-points",
+    "file": "east-india-company-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/bullet-points/east-india-company-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4575,
+    "nav": "prelims-gs1/history-culture/modern-history/east-india-company/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes",
+    "file": "east-india-company-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes/east-india-company-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7031,
+    "nav": "prelims-gs1/history-culture/modern-history/east-india-company/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/east-india-company/diagrams",
+    "file": "company-expansion.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/diagrams/company-expansion.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3613,
+    "nav": "prelims-gs1/history-culture/modern-history/east-india-company/diagrams"
    }
   ]
  },
@@ -9538,6 +10726,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/bullet-points",
+    "file": "gandhian-era-1919-1947-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/bullet-points/gandhian-era-1919-1947-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4957,
+    "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes",
+    "file": "gandhian-era-1919-1947-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6995,
+    "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams",
+    "file": "gandhian-era.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams/gandhian-era.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3586,
+    "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
   "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
   "files": [
@@ -9564,6 +10797,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7502,
     "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/bullet-points",
+    "file": "national-movement-1885-1919-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/bullet-points/national-movement-1885-1919-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4666,
+    "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes",
+    "file": "national-movement-1885-1919-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7420,
+    "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/diagrams",
+    "file": "nm-1885-1919.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/diagrams/nm-1885-1919.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3605,
+    "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/diagrams"
    }
   ]
  },
@@ -9613,6 +10891,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/bullet-points",
+    "file": "revolt-1857-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/bullet-points/revolt-1857-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4532,
+    "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes",
+    "file": "revolt-1857-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes/revolt-1857-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6445,
+    "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/diagrams",
+    "file": "revolt-1857.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/diagrams/revolt-1857.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2912,
+    "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs",
   "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs",
   "files": [
@@ -9654,6 +10977,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6692,
     "nav": "prelims-gs1/history-culture/modern-history/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/bullet-points",
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/bullet-points",
+    "file": "socio-religious-reforms-points.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/bullet-points/socio-religious-reforms-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4725,
+    "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes",
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes",
+    "file": "socio-religious-reforms-detailed.html",
+    "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6822,
+    "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/diagrams",
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/diagrams",
+    "file": "reform-map.svg",
+    "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/diagrams/reform-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3174,
+    "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/diagrams"
    }
   ]
  },
