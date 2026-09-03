@@ -2250,8 +2250,8 @@ window.SEARCH_DATA = [
     "text": "General Studies I — Heritage, Geography & Society"
    }
   ],
-  "text": "General Studies I — Heritage, Geography & Society Seven topic folders; each substantive topic carries the standard 5 section set ( detailed notes/ · short notes/ · bullet points/ · diagrams/ · pyqs/ ): modern history/ — sub topics: east india company, revolt 1857, socio religious reforms, national movement 1885 1919, gandhian era 1919 1947, constitutional development physical geography/ — geomorphology, climatology, oceanography, biogeography geography world india/ — physiography, rivers, agriculture, resources, world geo patterns indian heritage culture/ — architecture, painting, music/dance, literature, festivals world history/ — industrial revolution, ideologies, world wars, decolonisation, cold war indian society/ — caste, gender, population, urbanisation, communalism, globalisation After adding/editing files: node cli/generate.mjs from upsc portal/ re indexes them.",
-  "chars": 882
+  "text": "General Studies I — Heritage, Geography & Society Six topic folders (Modern History carries six sub chapters); every topic has the standard 5 section set ( detailed notes/ · short notes/ · bullet points/ · diagrams/ · pyqs/ ) — 46 Markdown chapters and 11 SVG diagrams/maps in all: modern history/ — sub chapters: east india company , revolt 1857 , socio religious reforms , national movement 1885 1919 , gandhian era 1919 1947 , constitutional development indian heritage culture/ — architecture, sculpture & painting, music/dance/theatre, literature, festivals & fairs, UNESCO lists world history/ — industrial revolution, ideologies, world wars, redrawal of boundaries, decolonisation, cold war indian society/ — diversity, caste, women, population, poverty, urbanisation, communalism, regionalism, globalisation physical geography/ — geomorphology, climatology, oceanography, biogeography geograp",
+  "chars": 1243
  },
  {
   "nav": "gs-1/world-history/bullets",
@@ -5069,6 +5069,199 @@ window.SEARCH_DATA = [
   "chars": 3111
  },
  {
+  "nav": "mains-practice/essay-practice/pyqs",
+  "file": "essay-topics-outlines.md",
+  "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Essay Practice — 24 Topics with Outlines"
+   },
+   {
+    "level": 2,
+    "text": "How to structure any essay"
+   },
+   {
+    "level": 2,
+    "text": "A. Philosophical / Abstract"
+   },
+   {
+    "level": 2,
+    "text": "B. Society, Culture & Gender"
+   },
+   {
+    "level": 2,
+    "text": "C. Economy & Polity"
+   },
+   {
+    "level": 2,
+    "text": "D. Science, Ethics & Governance"
+   },
+   {
+    "level": 3,
+    "text": "Evaluation checklist for self-marking (out of 125)"
+   }
+  ],
+  "text": "Essay Practice — 24 Topics with Outlines Two essays of 1,000–1,200 words each in three hours; each section offers four topics. Below are 24 topics across the philosophical, socio economic, polity and science–society families UPSC favours, each with a thesis, a five part structure, and the anchors (thinkers, examples, data) that lift an essay from 'average' to 'above 130'. How to structure any essay 1. Hook (anecdote, quotation, paradox) → 2. Thesis in one sentence → 3. Dimensions (historical, social, economic, political, ethical, technological, ecological, personal) chosen for the topic → 4. Counter view and reconciliation → 5. Forward looking conclusion that returns to the hook. A. Philosophical / Abstract 1. 'Thinking is like a game; it does not begin unless there is an opposite team.' Thesis: dialectic is the engine of knowledge and democracy. Anchors: Socratic method, Buddhist counci",
+  "chars": 8269
+ },
+ {
+  "nav": "mains-practice/gs-1-practice/pyqs",
+  "file": "gs-1-question-bank.md",
+  "rel": "content/mains/practice/gs-1-practice/pyqs/gs-1-question-bank.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "GS Paper I — Practice Question Bank with Answer Frameworks"
+   },
+   {
+    "level": 2,
+    "text": "A. Indian Heritage & Culture"
+   },
+   {
+    "level": 2,
+    "text": "B. Modern Indian History"
+   },
+   {
+    "level": 2,
+    "text": "C. World History"
+   },
+   {
+    "level": 2,
+    "text": "D. Indian Society"
+   },
+   {
+    "level": 2,
+    "text": "E. Geography"
+   },
+   {
+    "level": 3,
+    "text": "How to use this bank"
+   }
+  ],
+  "text": "GS Paper I — Practice Question Bank with Answer Frameworks 30 original questions in the UPSC pattern (10 markers ≈ 150 words, 15 markers ≈ 250 words). Each carries a compact answer framework — the introduction hook, the body skeleton with the examples an examiner expects, and a forward looking conclusion. Write full answers against a clock (7 minutes for 10 marks, 11 minutes for 15) and compare structure, not wording. A. Indian Heritage & Culture Q1. (10 marks) Discuss how the Chola temple architecture reflects the political and economic power of the Chola state. Intro: Brihadeeswara (1010 CE) as 'imperial temple' — Rajaraja I's inscription listing endowments. Body: vimana height as royal statement; temple as landlord, banker and employer (devadana grants, 400 dancers, 600 staff); bronze casting (Nataraja) linked to guild patronage; temple town urbanisation (Thanjavur, Gangaikondacholapu",
+  "chars": 15710
+ },
+ {
+  "nav": "mains-practice/gs-2-practice/pyqs",
+  "file": "gs-2-question-bank.md",
+  "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "GS Paper II — Practice Question Bank with Answer Frameworks"
+   },
+   {
+    "level": 2,
+    "text": "A. Constitution & Polity"
+   },
+   {
+    "level": 2,
+    "text": "B. Governance & Social Justice"
+   },
+   {
+    "level": 2,
+    "text": "C. International Relations"
+   },
+   {
+    "level": 2,
+    "text": "D. Governance Institutions & Miscellaneous"
+   },
+   {
+    "level": 3,
+    "text": "Using this bank"
+   }
+  ],
+  "text": "GS Paper II — Practice Question Bank with Answer Frameworks 30 original questions (polity, governance, social justice, international relations) with compact answer frameworks. 10 markers ≈ 150 words; 15 markers ≈ 250 words. Frameworks list the constitutional provisions, judgments, committee reports and data an examiner expects — write the full answer yourself. A. Constitution & Polity Q1. (10 marks) 'The basic structure doctrine is a judicial innovation that has strengthened, not weakened, parliamentary democracy.' Discuss. Body: Kesavananda (1973) as a response to Golaknath/24th Amendment; elements — supremacy of Constitution, judicial review, federalism, secularism, free and fair elections (Indira Gandhi case), rule of law; applications — Minerva Mills, NJAC (2015); critique — undefined, counter majoritarian; defence — prevents 'constitutional dictatorship', used sparingly; 2023 debate",
+  "chars": 15856
+ },
+ {
+  "nav": "mains-practice/gs-3-practice/pyqs",
+  "file": "gs-3-question-bank.md",
+  "rel": "content/mains/practice/gs-3-practice/pyqs/gs-3-question-bank.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "GS Paper III — Practice Question Bank with Answer Frameworks"
+   },
+   {
+    "level": 2,
+    "text": "A. Economy"
+   },
+   {
+    "level": 2,
+    "text": "B. Agriculture & Food"
+   },
+   {
+    "level": 2,
+    "text": "C. Science & Technology"
+   },
+   {
+    "level": 2,
+    "text": "D. Environment & Disaster Management"
+   },
+   {
+    "level": 2,
+    "text": "E. Internal Security"
+   },
+   {
+    "level": 3,
+    "text": "Using this bank"
+   }
+  ],
+  "text": "GS Paper III — Practice Question Bank with Answer Frameworks 30 original questions (economy, agriculture, science & technology, environment, disaster management, internal security) with compact answer frameworks. Data points reflect the position as of early 2026 — update numbers before the exam. A. Economy Q1. (15 marks) 'India's growth is investment led but consumption constrained.' Examine with reference to recent trends and Budget 2025–26. Body: GFCF 30% of GDP, public capex ₹11.2 lakh crore; private capex revival uneven; consumption — rural recovery post 2024 monsoon, urban slowdown, K shape; Budget levers — income tax relief (₹12 lakh exemption), GST 2.0 (Sept 2025); wage stagnation, household debt (RBI FSR); way forward — labour intensive manufacturing, urban jobs, credit to MSMEs. Q2. (10 marks) Discuss the rationale and risks of the RBI's shift to a neutral stance and rate cuts i",
+  "chars": 15086
+ },
+ {
+  "nav": "mains-practice/gs-4-practice/pyqs",
+  "file": "gs-4-question-bank.md",
+  "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "GS Paper IV — Practice Question Bank: Theory Questions & Case Studies"
+   },
+   {
+    "level": 2,
+    "text": "Section A — Theory"
+   },
+   {
+    "level": 2,
+    "text": "Section B — Case Studies"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 1 — The Tender and the MLA (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 2 — The Data Breach You Discovered (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 3 — Flood Relief and the Caste Line (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 4 — The Pharmaceutical Inspector (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 5 — The Coaching Class Teacher (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Case Study 6 — The Friend at the Border Post (20 marks)"
+   },
+   {
+    "level": 3,
+    "text": "Answering GS-IV under time"
+   }
+  ],
+  "text": "GS Paper IV — Practice Question Bank: Theory Questions & Case Studies Section A: 20 theory questions (10 marks each ≈ 150 words) with answer approaches. Section B: 6 case studies (20 marks each ≈ 250 words) with a stakeholder–options–decision framework and a model approach. The scoring pattern rewards: (1) identifying the exact ethical issue, (2) applying a named framework or thinker, (3) an implementable, lawful decision, (4) a concrete example. Section A — Theory Q1. Distinguish between ethics, morals and law with examples from public administration. Why does a legal act sometimes remain unethical? Approach: definitions — ethics (reasoned standards), morals (personal/cultural beliefs), law (state enforced minimum); example — a legally valid eviction of slum dwellers in winter without rehabilitation; Bentham's 'law is a fence, ethics the garden'; lesson — discretion must be filled by co",
+  "chars": 19374
+ },
+ {
   "nav": "prelims-csat/comprehension/short",
   "file": "comprehension-drills.md",
   "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.md",
@@ -5291,6 +5484,48 @@ window.SEARCH_DATA = [
   "chars": 3113
  },
  {
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs",
+  "file": "fdi-investment-mcqs.md",
+  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "FDI, FPI & Investment Policy — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "FDI, FPI & Investment Policy — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about India's FDI policy: 1. The consolidated FDI policy is issued by the Department for Promotion of Industry and Internal Trade. 2. The Foreign Investment Promotion Board approves all government route proposals. 3. Investments from countries sharing a land border with India require government approval irrespective of sector. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q2. Foreign direct investment is prohibited in which of the following? 1. Lottery and gambling 2. Atomic energy 3. Manufacturing of cigarettes 4. Construction development of townships (a) 1 and 2 only (b) 1, 2 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q3. Which of the following sectors permit 100% FDI under the automatic route? 1. Telecom services 2. Coal min",
+  "chars": 3424
+ },
+ {
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/short",
+  "file": "fdi-investment-notes.md",
+  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/short-notes/fdi-investment-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "FDI, FPI & Investment Policy — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "FDI framework"
+   },
+   {
+    "level": 2,
+    "text": "Numbers"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "FDI, FPI & Investment Policy — Prelims Fact Card Prelims GS I › Economy › External Sector. FDI routes and caps, FPI rules, investment numbers, key institutions and 2024–25 policy changes. FDI framework Governed by FEMA 1999 + FEM (Non Debt Instruments) Rules 2019 (Finance Ministry) + Consolidated FDI Policy (DPIIT; 2020 + Press Notes) ; routes — automatic (no approval; most sectors 100%) and government (via DPIIT's Foreign Investment Facilitation Portal — FIPB abolished 2017; sectoral ministry decides within 8–10 weeks); Press Note 3 (Apr 2020) — investments from countries sharing land border (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan) or beneficial owner there need government approval (Chinese proposals — easing debated in 2025; Economic Survey 2024 favoured selective FDI; approvals remain case by case). Prohibited : lottery, gambling/betting, chit funds, Nidhi, T",
+  "chars": 11288
+ },
+ {
   "nav": "prelims-gs1/economy/external-sector/short",
   "file": "external-prelims.md",
   "rel": "content/prelims/gs1/economy/external-sector/short-notes/external-prelims.md",
@@ -5332,6 +5567,132 @@ window.SEARCH_DATA = [
   "chars": 3834
  },
  {
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs",
+  "file": "trade-bop-mcqs.md",
+  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Trade & Balance of Payments — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Trade & Balance of Payments — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following are recorded in the current account of India's Balance of Payments? 1. Remittances from Indians working abroad 2. Foreign direct investment inflows 3. Software services exports 4. Interest paid on external commercial borrowings (a) 1, 3 and 4 (b) 1 and 2 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. Consider India's external sector in 2024–25: 1. The merchandise trade deficit was a record of about $287 billion. 2. The current account deficit was below 1% of GDP. 3. Services exports exceeded $380 billion. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. In 2024–25, India's largest source of imports and the country with which India ran its largest bilateral trade deficit was: (a) United States (b) China (c) Russia (d) UAE Q4. Under the Liberalis",
+  "chars": 3150
+ },
+ {
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/short",
+  "file": "trade-bop-notes.md",
+  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/short-notes/trade-bop-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Trade & Balance of Payments — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Balance of Payments"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Trade & Balance of Payments — Prelims Fact Card Prelims GS I › Economy › External Sector. BoP structure, trade numbers FY25, exchange rate regime, forex reserves, external debt, trade policy instruments and FTAs. Balance of Payments Current account = trade in goods + services + primary income (investment income, compensation) + secondary income (remittances, transfers). Capital/financial account = FDI, FPI, ECBs, NRI deposits, banking capital, trade credit, official (IMF/SDR). Errors & omissions; overall balance = change in reserves . India's BoP in RBI's format (quarterly); CAD FY25 0.6% of GDP ($23.3 bn); Q4 FY25 surplus $13.5 bn (1.3%); FY24 0.7%; FY23 2.0%; FY13 4.8% peak; Q1 FY26 CAD 0.2% ($2.4 bn); Q2 FY26 1.3% ; Goods trade deficit FY25 $287 bn record; services surplus $189 bn; remittances $135 bn (FY25; $129 bn calendar 2024 — world 1st; 3.4% of GDP; US largest source 28%, Gulf 3",
+  "chars": 12450
+ },
+ {
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs",
+  "file": "capital-markets-mcqs.md",
+  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Capital Markets & SEBI — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Capital Markets & SEBI — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following instruments belong to the money market? 1. Treasury bills 2. Certificates of deposit 3. Corporate debentures 4. Commercial paper (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. Consider the following statements about SEBI: 1. It was established as a statutory body in 1988. 2. Appeals against its orders lie with the Securities Appellate Tribunal and then the Supreme Court. 3. It regulates commodity derivatives since the merger of the Forward Markets Commission. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. \"T+1 settlement\" in Indian stock exchanges means: (a) Trades are settled one hour after execution (b) Securities and funds change hands one working day after the trade date (c) Traders get one extra day to pay margins (",
+  "chars": 3248
+ },
+ {
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/short",
+  "file": "capital-markets-notes.md",
+  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/short-notes/capital-markets-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Capital Markets & SEBI — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Structure"
+   },
+   {
+    "level": 2,
+    "text": "Instruments & concepts"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Capital Markets & SEBI — Prelims Fact Card Prelims GS I › Economy › Financial Markets. Primary and secondary markets, instruments, regulators, market infrastructure and recent reforms. Structure Money market (≤1 year: call money, T bills 91/182/364 day, CPs, CDs, repo/TREPS — RBI regulates) vs capital market ( 1 year: equity, bonds — SEBI regulates; G secs jointly RBI/SEBI); primary market (IPO, FPO, rights, QIP, preferential, OFS, private placement, InvIT/REIT offers) vs secondary market (exchanges — NSE 1992 (largest by volume; world's largest derivatives exchange), BSE 1875 (Asia's oldest), MSEI, NSE IFSC & India INX at GIFT City; Calcutta SE defunct); commodity derivatives — MCX (metals/energy) and NCDEX (agri); FMC merged into SEBI 2015. SEBI : statutory 1992 (set up 1988); chair Tuhin Kanta Pandey (Mar 2025; earlier Madhabi Puri Buch — first woman, 2022–25); board 9 (chair + 2 Fina",
+  "chars": 8309
+ },
+ {
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/pyqs",
+  "file": "financial-inclusion-mcqs.md",
+  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs/financial-inclusion-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Financial Inclusion, Digital Payments & Insurance — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Financial Inclusion, Digital Payments & Insurance — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about Payments Banks: 1. They cannot extend loans. 2. They can accept demand deposits up to ₹2 lakh per customer. 3. They can issue credit cards. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The Unified Payments Interface is operated by: (a) Reserve Bank of India directly (b) National Payments Corporation of India, a not for profit company owned by banks (c) Department of Financial Services (d) Indian Banks' Association Q3. Which of the following payment systems are owned and operated by the RBI itself? 1. RTGS 2. NEFT 3. IMPS 4. UPI (a) 1 and 2 (b) 3 and 4 (c) 1, 2 and 3 (d) 1, 2, 3 and 4 Q4. Under the Pradhan Mantri Fasal Bima Yojana, the maximum premium payable by farmers for kharif food crops i",
+  "chars": 3062
+ },
+ {
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/short",
+  "file": "financial-inclusion-notes.md",
+  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/short-notes/financial-inclusion-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Financial Inclusion, Digital Payments & Insurance — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Banking outreach"
+   },
+   {
+    "level": 2,
+    "text": "Digital payments"
+   },
+   {
+    "level": 2,
+    "text": "Insurance & pensions"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Financial Inclusion, Digital Payments & Insurance — Prelims Fact Card Prelims GS I › Economy › Financial Markets. JAM trinity, banking outreach, digital public infrastructure, insurance/pension coverage and the regulators behind them. Banking outreach Pradhan Mantri Jan Dhan Yojana (Aug 2014) : 56 crore accounts (Aug 2025; 55% women, 67% rural/semi urban), deposits ₹2.6 lakh crore; RuPay card with ₹2 lakh accident cover; overdraft ₹10,000; zero balance share fell from 58% (2015) to 8% ; Financial Inclusion Index (RBI, since 2021) 67.0 (Mar 2025; 64.2 previous) ; Global Findex 2025 — India adults with account 89% . JAM trinity (Jan Dhan + Aadhaar (UIDAI, 2009; Aadhaar Act 2016 — money bill; Puttaswamy 2018 upheld with limits) + Mobile); DBT — ₹44 lakh crore cumulative; savings ₹3.5 lakh crore (leakage plugged); Aadhaar enabled Payment System (AePS) ; Business Correspondents (2006) ; Bank ",
+  "chars": 11698
+ },
+ {
   "nav": "prelims-gs1/economy/financial-markets/short",
   "file": "finmarkets-prelims.md",
   "rel": "content/prelims/gs1/economy/financial-markets/short-notes/finmarkets-prelims.md",
@@ -5369,6 +5730,124 @@ window.SEARCH_DATA = [
   "chars": 3398
  },
  {
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs",
+  "file": "fiscal-policy-mcqs.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fiscal Policy, Budget & Taxation — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Fiscal Policy, Budget & Taxation — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Fiscal deficit equals: (a) Revenue expenditure − revenue receipts (b) Total expenditure − (revenue receipts + non debt capital receipts) (c) Total expenditure − total receipts including borrowings (d) Fiscal deficit − interest payments Q2. Which of the following are non debt capital receipts of the Union Government? 1. Disinvestment proceeds 2. Recovery of loans 3. Dividend from the RBI 4. Market borrowings (a) 1 and 2 (b) 1, 2 and 3 (c) 2 and 4 (d) 1, 3 and 4 Q3. The Union Budget 2025–26 set the fiscal deficit target at: (a) 4.9% of GDP (b) 4.8% of GDP (c) 4.4% of GDP (d) 3.0% of GDP Q4. Consider GST 2.0 effective 22 September 2025: 1. The 12% and 28% slabs were abolished. 2. A 40% rate applies to de merit goods such as pan masala and aerated drinks. 3. Ind",
+  "chars": 2718
+ },
+ {
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short",
+  "file": "fiscal-policy-notes.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/short-notes/fiscal-policy-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fiscal Policy, Budget & Taxation — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Deficits & concepts"
+   },
+   {
+    "level": 2,
+    "text": "Taxes"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Fiscal Policy, Budget & Taxation — Prelims Fact Card Prelims GS I › Economy › Macro economy. Deficits, FRBM, Budget 2025–26 numbers, tax structure (direct, GST 2.0), public debt and fiscal federalism figures. Deficits & concepts Revenue deficit = revenue expenditure − revenue receipts (BE 2025–26: 1.5% of GDP); Effective RD = RD − grants for creation of capital assets; Fiscal deficit = total expenditure − (revenue receipts + non debt capital receipts) = total borrowing ( BE 2025–26: 4.4% (₹15.69 lakh cr); FY25 RE 4.8%; FY24 5.6%; FY21 9.2% peak ); Primary deficit = FD − interest payments (0.8% BE 2025–26); Monetised deficit (RBI's net credit to govt; ad hoc T bills ended 1997 → WMA); Budget deficit (obsolete); Debt–GDP: Centre 56–57%; general govt 81% (IMF 2025); FRBM target 40 Centre/60 general by 2024–25 (missed); new anchor — debt GDP 50 ± 1% by 31 Mar 2031 (Budget 2025 — fiscal conso",
+  "chars": 17847
+ },
+ {
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs",
+  "file": "money-banking-mcqs.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Money, Banking & Monetary Policy — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Money, Banking & Monetary Policy — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Broad money (M3) in India is defined as: (a) Currency with the public + demand deposits with banks (b) M1 + time deposits with banks (c) M1 + savings deposits with post offices (d) Reserve money + net foreign exchange assets of RBI Q2. Consider the Monetary Policy Committee: 1. The inflation target is fixed by the MPC every five years. 2. External members are appointed for four years and are not eligible for reappointment. 3. If inflation stays outside the tolerance band for three consecutive quarters, the RBI must report to the Central Government. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. In the Liquidity Adjustment Facility corridor since April 2022, the floor and ceiling are respectively: (a) Reverse repo rate and bank rate (b) Standing Depos",
+  "chars": 3043
+ },
+ {
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/short",
+  "file": "money-banking-notes.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/short-notes/money-banking-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Money, Banking & Monetary Policy — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Money & RBI"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Money, Banking & Monetary Policy — Prelims Fact Card Prelims GS I › Economy › Macro economy. Money supply, RBI tools, banking structure, NPAs, payment systems and 2025 numbers. Money & RBI Money supply : M0 (reserve money = currency in circulation + bankers' deposits with RBI + other deposits); M1 = currency with public + demand deposits + other deposits with RBI ; M2 = M1 + savings deposits with post offices; M3 (broad money) = M1 + time deposits ; M4 = M3 + total post office deposits. Money multiplier = M3/M0 ( 5.3) ; velocity; high powered money. Currency in circulation ₹38 lakh cr ; ₹2,000 notes withdrawn May 2023 (98.3% returned); ₹500 note largest share ( 86% by value); coins by GoI (Coinage Act 2011); ₹1 note signed by Finance Secretary; notes by RBI (RBI Act s 22; minimum reserve system 1957 — ₹200 cr of which ₹115 cr gold); e₹ (CBDC — wholesale Nov 2022, retail Dec 2022; ₹1,000 ",
+  "chars": 13025
+ },
+ {
+  "nav": "prelims-gs1/economy/macro-economy/national-income/pyqs",
+  "file": "national-income-mcqs.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/national-income/pyqs/national-income-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Income & Growth Accounting — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "National Income & Growth Accounting — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. GDP at market prices is obtained from GVA at basic prices by: (a) Adding production taxes and subtracting production subsidies (b) Adding product taxes and subtracting product subsidies (c) Subtracting depreciation (d) Adding net factor income from abroad Q2. Consider the following: 1. Net National Product at factor cost is called National Income. 2. India's GNP is larger than its GDP because net factor income from abroad is positive. 3. Per capita income is computed using Net National Income. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. Which of the following are included in the estimation of GDP? 1. Imputed rent of owner occupied houses 2. Old age pensions paid by the Government 3. Sale of a second hand car 4. Government spending on salaries o",
+  "chars": 2929
+ },
+ {
+  "nav": "prelims-gs1/economy/macro-economy/national-income/short",
+  "file": "national-income-notes.md",
+  "rel": "content/prelims/gs1/economy/macro-economy/national-income/short-notes/national-income-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Income & Growth Accounting — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Concepts"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "National Income & Growth Accounting — Prelims Fact Card Prelims GS I › Economy › Macro economy. GDP/GVA/GNP/NNP definitions, base years, deflators, India's growth numbers and the concepts UPSC keeps testing. Concepts GDP = market value of all final goods & services produced within domestic territory in a year. Three methods — production (GVA + product taxes − subsidies), income (wages + rent + interest + profit + mixed income + depreciation + net indirect taxes), expenditure (C + I + G + (X − M)). GVA (basic prices) = output − intermediate consumption; GDP (market prices) = GVA + product taxes − product subsidies (GST, excise, customs are product taxes; fertiliser/food subsidies are product subsidies). GVA at factor cost = GVA basic − production taxes + production subsidies (production taxes: land revenue, stamp duty, professional tax). GNP = GDP + Net Factor Income from Abroad (NFIA) ; ",
+  "chars": 6216
+ },
+ {
   "nav": "prelims-gs1/economy/macro-economy/short",
   "file": "macro-prelims.md",
   "rel": "content/prelims/gs1/economy/macro-economy/short-notes/macro-prelims.md",
@@ -5404,6 +5883,94 @@ window.SEARCH_DATA = [
   ],
   "text": "Macroeconomy — Prelims Drill National income algebra GDP (market) = Σ GVA (basic) + product taxes − product subsidies; GNP = GDP + NFIA. Depreciation shift: NNP = GNP − depreciation; national income = NNP at factor cost . Base years: National accounts 2011–12 ; IIP 2011–12; WPI 2011–12 (L=100); CPI C 2012; CPI AL/RL 1986–87 (revision underway). Real vs nominal: real uses constant prices (base yr); nominal current prices; GDP deflator = nominal/real × 100 . Growth maths: 6.5% real growth approx doubling in 11 years (rule of 72). Inflation set Types: demand pull / cost push / built in (wage price spiral) / creeping walking galloping hyper stagflation = stagnation + inflation. Measures: CPI C (MPC anchor: 4% ± 2% band to Mar 2031 , extended 2025), CPI IW (industrial workers → DA linkage; Labour Bureau), CPI AL/RL (rural labour/agri labour), WPI (697 commodities; base 2011–12; no services). ",
   "chars": 3223
+ },
+ {
+  "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs",
+  "file": "human-development-mcqs.md",
+  "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Human Development, Poverty, Employment & Social Sector — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Human Development, Poverty, Employment & Social Sector — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following pairs of indices and their publishers: 1. Human Development Index — UNDP 2. Global Hunger Index — FAO 3. Global Gender Gap Index — World Economic Forum 4. Global Innovation Index — WIPO Which pairs are correctly matched? (a) 1, 3 and 4 (b) 1 and 2 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. In the Human Development Report 2025, India was placed at rank: (a) 116 (b) 130 (c) 134 (d) 142 Q3. The Periodic Labour Force Survey for 2023–24 reported which of the following? 1. Labour force participation rate (15+, usual status) of about 60% 2. Unemployment rate of about 3.2% 3. Female labour force participation rate below 25% (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. The Global Multidimensional Poverty Index is joint",
+  "chars": 3116
+ },
+ {
+  "nav": "prelims-gs1/economy/planning-growth/human-development/short",
+  "file": "human-development-notes.md",
+  "rel": "content/prelims/gs1/economy/planning-growth/human-development/short-notes/human-development-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Human Development, Poverty, Employment & Social Sector — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Global indices (latest editions)"
+   },
+   {
+    "level": 2,
+    "text": "Poverty & inequality (India data)"
+   },
+   {
+    "level": 2,
+    "text": "Employment & education & health numbers"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Human Development, Poverty, Employment & Social Sector — Prelims Fact Card Prelims GS I › Economy › Planning & Growth. Global indices and India's ranks, poverty and inequality data, employment surveys, and flagship social sector schemes. Global indices (latest editions) Index Publisher India Human Development Index (HDR 2025) UNDP 130/193 (0.685; medium; up from 133) Gender Inequality Index UNDP 102/193 Global Gender Gap 2025 WEF 131/148 (economic participation weakest) Global Hunger Index 2025 Concern/Welthungerhilfe 102/123 (score 25.8, 'serious'; India disputes) Multidimensional Poverty Index 2024 UNDP/OPHI 16.4% poor (234 million — largest number) World Happiness Report 2025 Oxford/Gallup 118/147 Global Innovation Index 2025 WIPO 38/139 Human Capital Index 2020 World Bank 116/174 (0.49) Corruption Perceptions Index 2024 Transparency Intl 96/180 Press Freedom 2025 RSF 151/180 Global P",
+  "chars": 14499
+ },
+ {
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/pyqs",
+  "file": "niti-aayog-mcqs.md",
+  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs/niti-aayog-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Planning, NITI Aayog & Growth Strategy — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Planning, NITI Aayog & Growth Strategy — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about NITI Aayog: 1. It was created by an Act of Parliament in 2015. 2. Its Governing Council comprises the Prime Minister, Chief Ministers and Lieutenant Governors/administrators of Union Territories. 3. It allocates plan funds to states. (a) 1 and 2 (b) 2 only (c) 1 and 3 (d) 2 and 3 Q2. Match the Five Year Plans with their features: 1. Second Plan — Mahalanobis heavy industry strategy 2. Eighth Plan — launched after two years of annual plans and coincided with liberalisation 3. Twelfth Plan — theme \"faster, more inclusive and sustainable growth\" Which of the above are correctly matched? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. The \"plan holiday\" in India's planning history refers to: (a) 1978–80 when t",
+  "chars": 3196
+ },
+ {
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/short",
+  "file": "niti-aayog-notes.md",
+  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/short-notes/niti-aayog-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Planning, NITI Aayog & Growth Strategy — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Planning history"
+   },
+   {
+    "level": 2,
+    "text": "Growth strategy & numbers"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Planning, NITI Aayog & Growth Strategy — Prelims Fact Card Prelims GS I › Economy › Planning & Growth. From Five Year Plans to NITI Aayog, its indices and reports, and the numbers behind India's growth targets. Planning history Early plans : Visvesvaraya's Planned Economy for India (1934); National Planning Committee (1938, Nehru); Bombay Plan (1944, industrialists); People's Plan (M.N. Roy); Gandhian Plan (S.N. Agarwal); Sarvodaya Plan (Jayaprakash Narayan). Planning Commission set up by Cabinet resolution March 1950 (non statutory, extra constitutional; PM chairman; Deputy chairman first Gulzarilal Nanda; last Montek Singh Ahluwalia); National Development Council 1952. Five Year Plans : 1st (1951–56; Harrod Domar; agriculture; achieved 3.6% vs 2.1% target); 2nd (1956–61; Mahalanobis heavy industry model; Bhilai/Rourkela/Durgapur steel) ; 3rd (1961–66; wars, drought → plan holidays 1966",
+  "chars": 14462
  },
  {
   "nav": "prelims-gs1/economy/planning-growth/short",
@@ -5462,6 +6029,124 @@ window.SEARCH_DATA = [
   ],
   "text": "Indian Economy — Prelims PYQs Macro patterned; answers original; cross check live CA before exam. Q1. Which correctly describes the components of revenue deficit ? (a) Total expenditure minus total receipts (b) Revenue expenditure minus revenue receipts (c) Fiscal deficit minus interest payments (d) Capital expenditure minus capital receipts Model answer: (b). Fiscal deficit uses total figures; (c) is primary deficit. Q2. The MPC's inflation target band as of March 2031 framework is: (a) 2% ± 1% (b) 4% ± 2% (c) 5% ± 1% (d) 6% point target Model answer: (b). 4% ± 2% band, extended via 2025 government notification through FY30 31. Q3. Which tool drains liquidity without explicit collateral transfer to the RBI? (a) Repo (b) Reverse repo (c) Standing Deposit Facility (SDF) (d) MSF Model answer: (c). SDF (introduced April 2022) absorbs liquidity without collateral — floor of the LAF corridor.",
   "chars": 2988
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs",
+  "file": "agriculture-mcqs.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Agriculture Economy — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Agriculture Economy — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider Minimum Support Prices: 1. MSP is recommended by the Commission for Agricultural Costs and Prices and approved by the Cabinet Committee on Economic Affairs. 2. MSP has statutory backing under the Essential Commodities Act. 3. The Fair and Remunerative Price for sugarcane is announced separately from MSP. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q2. The MSP formula adopted since 2018–19 fixes MSP at 1.5 times the: (a) C2 cost (b) A2 cost (c) A2 + FL cost (d) Market price of the previous year Q3. Which of the following statements about India's agricultural production is/are correct? 1. Horticulture production has exceeded foodgrain production since 2012–13. 2. India is the world's largest producer of milk, pulses and jute. 3. India is the largest exporte",
+  "chars": 2981
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short",
+  "file": "agriculture-notes.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/short-notes/agriculture-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Agriculture Economy — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Size & structure"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Agriculture Economy — Prelims Fact Card Prelims GS I › Economy › Sectors. Production numbers, MSP/procurement, credit, marketing reforms, subsidies, insurance and agri trade — the economics side (physical geography of crops sits under Geography › Indian Geography › Soils & Agriculture). Size & structure Agriculture & allied GVA share 16% (FY25) but 46.1% employment (PLFS 2023–24) ; growth FY25 4.6% (record kharif/rabi); allied sectors (livestock 30% of agri GVA, fisheries 7%) faster than crops; Agriculture Census 2015–16: 14.6 cr holdings; avg 1.08 ha; small & marginal 86% (47% area) ; 11th Agri Census 2021–22 ongoing (digital); foodgrain 2024–25 (4th AE): 354.6 MT record — rice 149.1, wheat 117.5, maize 42.3, pulses 25.2, oilseeds 42.6 MT; sugarcane 450 MT; cotton 30.7 mn bales; horticulture 367 MT ( foodgrain since 2012–13) ; India ranks : 1st milk (239 MT 2023–24; 25% world), pulses, ",
+  "chars": 13916
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs",
+  "file": "industry-msme-mcqs.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Industry, Manufacturing & MSMEs — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Industry, Manufacturing & MSMEs — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Under the MSME classification effective 1 April 2025, a \"small\" enterprise is one with investment in plant and machinery not exceeding ₹25 crore and turnover not exceeding: (a) ₹50 crore (b) ₹100 crore (c) ₹250 crore (d) ₹500 crore Q2. Consider the Index of Industrial Production: 1. Manufacturing has a weight of about 78%. 2. It is compiled by the Department for Promotion of Industry and Internal Trade. 3. Its base year is 2011–12. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. Which of the following industries still require compulsory industrial licensing? 1. Cigarettes 2. Alcoholic drinks 3. Cement 4. Industrial explosives (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q4. Consider the four Labour Codes: 1. They subsume 29 central labou",
+  "chars": 2926
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short",
+  "file": "industry-msme-notes.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/short-notes/industry-msme-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Industry, Manufacturing & MSMEs — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Policy timeline & structure"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Industry, Manufacturing & MSMEs — Prelims Fact Card Prelims GS I › Economy › Sectors. Industrial policy timeline, IIP, PLI/Make in India, MSME definitions & schemes, labour codes, key sector facts (steel, auto, textiles, pharma, electronics, semiconductors). Policy timeline & structure Industrial Policy Resolutions 1948 (mixed economy), 1956 (Schedule A/B/C; 'economic constitution'; Mahalanobis), 1977 (small scale; Janata), 1980, 1991 New Industrial Policy (24 July; delicensing except 18 → now 4 (alcohol, cigarettes, hazardous chemicals, explosives (+defence/aerospace electronics via IDR Act); MRTP threshold removed; FDI 51% automatic 34 industries; public sector reserved 8 → 2 (atomic energy, railway operations)); New Industrial Policy (draft 2022–23, pending); Make in India (25 Sept 2014; 25 sectors; manufacturing 25% of GDP by 2025 — still 17%) ; PLI (Mar 2020; 14 sectors ₹1.97 lakh c",
+  "chars": 16066
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/pyqs",
+  "file": "services-infrastructure-mcqs.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs/services-infrastructure-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Services & Infrastructure — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Services & Infrastructure — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider India's power sector as of mid 2025: 1. Non fossil sources account for about half of installed capacity. 2. Coal still contributes roughly 70% of electricity generation. 3. Installed solar capacity exceeds installed wind capacity. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. Which of the following is India's first dedicated deep water container transshipment port? (a) Vadhavan (b) Vizhinjam (c) Galathea Bay (d) Mundra Q3. Consider the Dedicated Freight Corridors: 1. The Eastern DFC runs from Ludhiana to Dankuni. 2. The Western DFC connects Dadri to Jawaharlal Nehru Port. 3. Both corridors were fully commissioned by 2020. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. The Bharatiya Vayuyan Adhiniyam, 2024 replaces the: (a) Airports Authori",
+  "chars": 3241
+ },
+ {
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/short",
+  "file": "services-infrastructure-notes.md",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/short-notes/services-infrastructure-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Services & Infrastructure — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Services"
+   },
+   {
+    "level": 2,
+    "text": "Infrastructure"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Services & Infrastructure — Prelims Fact Card Prelims GS I › Economy › Sectors. Services (IT, tourism, telecom), and infrastructure — roads, rail, ports, airports, power, energy, urban — with programme names, numbers and regulators. Services 55% of GVA, 30% of employment; services exports $387 bn FY25 (India 7th largest services exporter; 4.3% share) ; IT BPM $283 bn (Nasscom FY25; exports $224 bn; 5.8 mn jobs; US 55%); GCCs 1,800+; Services PMI 60 (2025) ; Trade in services surplus $190 bn offsets goods deficit $287 bn ; Mode 1–4 (GATS) ; Tourism : FTAs 9.95 mn 2024 (10.93 mn 2019 peak); forex $28 bn; domestic 2.5 bn visits; Tourism 5% GDP, 7.6 cr jobs (WTTC) ; Swadesh Darshan 2.0, PRASHAD (Pilgrimage), Dekho Apna Desh, Chalo India, e Visa 172 countries, 'Iconic 50 destinations (Budget 2025 — states' challenge mode)', 'Heal in India', 'Travel for LiFE', 'India ranked 39 in WEF Travel & ",
+  "chars": 23069
  },
  {
   "nav": "prelims-gs1/economy/sectors-indian-economy/short",
@@ -5546,6 +6231,90 @@ window.SEARCH_DATA = [
   "chars": 3232
  },
  {
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
+  "file": "acts-conventions-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Environmental Acts & International Conventions — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Environmental Acts & International Conventions — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. The National Green Tribunal has jurisdiction over civil cases arising under which of the following laws? 1. Water (Prevention and Control of Pollution) Act, 1974 2. Wild Life (Protection) Act, 1972 3. Forest (Conservation) Act, 1980 4. Biological Diversity Act, 2002 (a) 1, 2 and 3 (b) 1, 3 and 4 (c) 2 and 4 (d) 1, 2, 3 and 4 Q2. Which of the following were introduced by the Constitution (Forty second Amendment) Act, 1976? 1. Article 48A directing the State to protect the environment 2. Fundamental duty under Article 51A(g) 3. Transfer of \"forests\" and \"wildlife\" to the Concurrent List (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Consider the following pairs of conventions and their subjects: 1. Rotterdam Convention — prior informed co",
+  "chars": 3691
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short",
+  "file": "acts-conventions-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/short-notes/acts-conventions-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Environmental Acts & International Conventions — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Indian legislation timeline"
+   },
+   {
+    "level": 2,
+    "text": "International conventions ready-reckoner"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Environmental Acts & International Conventions — Prelims Fact Card Prelims GS I › Environment & Ecology › Acts, Policies & Institutions. Domestic legislation timeline and the treaty ready reckoner (year, place, purpose, India's status). Indian legislation timeline Year Act / instrument Core points 1927 Indian Forest Act Reserved, protected, village forests; still the base forest law; colonial revenue orientation 1960 Prevention of Cruelty to Animals Act Animal Welfare Board (1962); Jallikattu — SC 2014 ban; state amendments (TN/Karnataka/Maharashtra 2017) upheld by SC Constitution Bench May 2023 1972 Wild Life (Protection) Act Schedules; NP/WLS/CR/CoR; CZA 1992; NBWL & NTCA (2002/2006); 2022 amendment — 4 schedules, CITES, invasive species; Art 48A & 51A(g) added by 42nd Amendment 1976; 'forests' & 'wildlife' moved to Concurrent List (1976) 1974 Water Act Art 252; CPCB/SPCBs; consent; 20",
+  "chars": 13924
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/pyqs",
+  "file": "institutions-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs/institutions-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Environmental Institutions — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Environmental Institutions — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following pairs of bodies and their chairpersons: 1. National Board for Wildlife — Prime Minister 2. National Tiger Conservation Authority — Union Environment Minister 3. National Disaster Management Authority — Union Home Minister Which pairs are correctly matched? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The Central Pollution Control Board was constituted under: (a) The Environment (Protection) Act, 1986 (b) The Air (Prevention and Control of Pollution) Act, 1981 (c) The Water (Prevention and Control of Pollution) Act, 1974 (d) An executive resolution of 1972 Q3. Which of the following bodies were created by amendments to the Wild Life (Protection) Act, 1972? 1. Central Zoo Authority 2. National Tiger Conservation Authority 3. Wildlife",
+  "chars": 3233
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/short",
+  "file": "institutions-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/short-notes/institutions-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Environmental Institutions: MoEFCC, CPCB, NGT, Wildlife Boards — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Ministry level"
+   },
+   {
+    "level": 2,
+    "text": "Statutory bodies (parent law → composition → function)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Environmental Institutions: MoEFCC, CPCB, NGT, Wildlife Boards — Prelims Fact Card Prelims GS I › Environment & Ecology › Acts, Policies & Institutions. Who does what — statutory vs executive, parent law, chair, and the trap facts. Ministry level MoEFCC (1985 as MoEF; 'Climate Change' added 2014; Minister Bhupender Yadav; MoS Kirti Vardhan Singh); nodal for UNFCCC, CBD, UNCCD, CITES, Ramsar, Montreal; divisions/bodies under it : CPCB, FSI, WII, BSI, ZSI, ICFRE, IIFM, IPIRTI, GBPNIHE, NBA, CZA, NTCA, WCCB, NMCG (authority), NAEB, Animal Welfare Board, GEAC, FAC, NBWL (Standing Committee), National Afforestation & Eco development Board, ENVIS, Green Skill , PARIVESH (2018; single window clearances) , Directorate of Forest Education , Indira Gandhi National Forest Academy (Dehradun — IFS training) , Indian Forest Service (1966; All India Service under Art 312 — created via 1966 Act; cadre c",
+  "chars": 8521
+ },
+ {
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/short",
   "file": "acts-prelims.md",
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/short-notes/acts-prelims.md",
@@ -5577,6 +6346,98 @@ window.SEARCH_DATA = [
   ],
   "text": "Environmental Acts & Institutions — Prelims Drill Acts timeline (chronological spine) 1. Wildlife (Protection) Act 1972 — schedules I–VI (2022 amendment rationalised them into four: I & II animal protection tiers, III plants, IV vermin — provisions took effect April 2023); protected areas NPs/WLS; community reserves; the NBWL is chaired by the PM. 2. Water (Prevention & Control of Pollution) Act 1974 — CPCB/SPCBs born; consent to operate regime. 3. Air (Prevention & Control of Pollution) Act 1981 . 4. Environment (Protection) Act 1986 — post Bhopal umbrella; Section 5 powers (directions incl closure), Section 3 central rules engine; EIA/CRZ/waste rules hang under it. 5. Public Liability Insurance Act 1991 (immediate relief). 6. Biological Diversity Act 2002 — NBA Chennai + SBBs + BMCs ; benefit sharing; 2023 amendment relaxed penalties→monetary exemptions debate. 7. Scheduled Tribes & Ot",
   "chars": 4399
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
+  "file": "biodiversity-india-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biodiversity of India: Hotspots & Protected Areas — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Biodiversity of India: Hotspots & Protected Areas — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following global biodiversity hotspots extend into Indian territory? 1. Himalaya 2. Indo Burma 3. Sundaland 4. Western Ghats–Sri Lanka (a) 1, 2 and 4 (b) 1 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. Consider the following statements: 1. A National Park cannot have its boundaries altered except by a resolution of the State Legislature. 2. Grazing of livestock can be permitted inside a Wildlife Sanctuary by the Chief Wildlife Warden. 3. Community Reserves are declared on land owned by the government. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match the following superlatives: 1. Largest National Park — Hemis 2. First Biosphere Reserve — Nilgiri 3. Largest Tiger Reserve — Nagarjunsagar Srisailam 4. State with most Ramsa",
+  "chars": 3229
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short",
+  "file": "biodiversity-india-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short-notes/biodiversity-india-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biodiversity of India: Hotspots & Protected Areas — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Biodiversity basics"
+   },
+   {
+    "level": 2,
+    "text": "Protected area network (WII ENVIS, 2025)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Biodiversity of India: Hotspots & Protected Areas — Prelims Fact Card Prelims GS I › Environment & Ecology › Ecology & Biodiversity. Numbers, categories and the \"which is where\" facts that recur in every prelims. Biodiversity basics Biodiversity (Walter Rosen 1985; E.O. Wilson popularised) — genetic, species, ecosystem levels; alpha (within habitat), beta (between habitats), gamma (landscape). Species–area relationship (Alexander von Humboldt; log S = log C + Z log A; Z 0.1–0.2 for small areas, 0.6–1.2 for continents). Latitudinal gradient — tropics richer (Amazon 40,000 plant species). Rivet popper hypothesis (Paul Ehrlich). Evil quartet of extinction (habitat loss/fragmentation, over exploitation, alien invasion, co extinction). Sixth mass extinction (Anthropocene); IUCN: 47,000 species threatened (2025; 28% assessed); Living Planet Index 2024: −73% since 1970 (WWF). India : 2.4% of wo",
+  "chars": 12288
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs",
+  "file": "ecosystems-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs/ecosystems-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Ecosystems, Food Chains & Nutrient Cycles — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Ecosystems, Food Chains & Nutrient Cycles — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following ecological pyramids can be inverted? 1. Pyramid of energy 2. Pyramid of biomass in an aquatic ecosystem 3. Pyramid of numbers in a single large tree ecosystem (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. Consider the following statements about the phosphorus cycle: 1. Unlike carbon and nitrogen, it has no significant gaseous phase. 2. Phosphorus is often the limiting nutrient in freshwater ecosystems. 3. Weathering of rocks is the main natural source of phosphates. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Which one of the following correctly sequences the steps of the nitrogen cycle by which ammonium is converted to atmospheric nitrogen? (a) Nitrification → assimilation → denitrification (b) Ammonificat",
+  "chars": 3047
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/short",
+  "file": "ecosystems-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/short-notes/ecosystems-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Ecosystems, Food Chains & Nutrient Cycles — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Basic concepts"
+   },
+   {
+    "level": 2,
+    "text": "Energy flow & productivity"
+   },
+   {
+    "level": 2,
+    "text": "Biogeochemical cycles"
+   },
+   {
+    "level": 2,
+    "text": "Major ecosystem types (quick facts)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Ecosystems, Food Chains & Nutrient Cycles — Prelims Fact Card Prelims GS I › Environment & Ecology › Ecology & Biodiversity. Core ecological concepts that UPSC tests through statement based questions. Basic concepts Ecology (Haeckel 1866); ecosystem (Tansley 1935) = biotic + abiotic components interacting; biome = large regional ecosystem defined by climate and dominant vegetation (tundra, taiga, temperate deciduous, grassland, desert, tropical rainforest, savanna, chaparral); biosphere ; ecotone = transition zone (edge effect — higher diversity; e.g., mangroves, estuaries, grassland–forest edge); ecotype ; ecological niche (Grinnell/Elton/Hutchinson — functional role; Gause's competitive exclusion principle); habitat = address, niche = profession. Levels : individual → population → community → ecosystem → landscape → biome → biosphere. Population attributes : natality, mortality, sex ra",
+  "chars": 9348
  },
  {
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short",
@@ -5626,6 +6487,140 @@ window.SEARCH_DATA = [
   ],
   "text": "Ecology & Biodiversity — Prelims Drill Bio foundations Ecosystem functions: producers → consumers → decomposers; 10% energy transfer law (Lindeman) ; productivity (GPP=NPP+respiration); food chains (grazing vs detritus) & webs. Biomes quick: tundra · taiga (boreal conifer) · temperate deciduous · Mediterranean · grassland · savanna · desert · tropical rainforest; India spans tropical forest→montane→desert. Conservation hotspots (global designation logic) Criteria (Conservation International): ≥1,500 endemic vascular plants + ≥70% habitat loss. India's four : (1) The Himalayas (eastern), (2) Indo Burma, (3) Western Ghats & Sri Lanka, (4) Sundaland (Nicobar group). Protected area numbers (use ranges at exam) National Parks 107 · Wildlife Sanctuaries 570+ · Conservation Reserves 100 · Community Reserves 200+ · Tiger Reserves 57+ (newest: Ratapani & Guru Ghasidas–Tamor Pingla cohort 2024–25)",
   "chars": 4210
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
+  "file": "species-conservation-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Species in News & Conservation Projects — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Species in News & Conservation Projects — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. In the IUCN Red List, which of the following categories together constitute \"threatened\" species? (a) Extinct in the Wild, Critically Endangered, Endangered (b) Critically Endangered, Endangered, Vulnerable (c) Endangered, Vulnerable, Near Threatened (d) Critically Endangered, Endangered, Vulnerable, Near Threatened Q2. Consider the following statements about CITES: 1. Appendix I species may be traded commercially under a quota system. 2. All eight species of pangolins are listed in Appendix I. 3. Red sanders of India is listed in Appendix II. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Which of the following species were downlisted (moved to a lower threat category) by IUCN in recent years? 1. Snow leopard 2. Greater adjutant stork 3. Grea",
+  "chars": 3156
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short",
+  "file": "species-conservation-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/short-notes/species-conservation-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Species in News & Conservation Projects — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Classification systems"
+   },
+   {
+    "level": 2,
+    "text": "Species in news (2024–25 quick list)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Species in News & Conservation Projects — Prelims Fact Card Prelims GS I › Environment & Ecology › Ecology & Biodiversity. IUCN categories, CITES appendices, WPA schedules and a ready reckoner of species that appear in current affairs. Classification systems IUCN Red List (1964) : EX → EW → CR → EN → VU → NT → LC → DD → NE ; threatened = CR + EN + VU; criteria A–E (population decline, range, small population, very small, quantitative). Green Status of Species (2021) measures recovery. India CR examples : Great Indian Bustard, Bengal florican, Jerdon's courser, forest owlet (EN since 2018), white rumped/Indian/slender billed/red headed vultures, gharial, pygmy hog (EN), Malabar civet, Namdapha flying squirrel, Kashmir stag (CR), sociable lapwing, spoon billed sandpiper, Siberian crane, northern river terrapin, red crowned roofed turtle, Kondana rat, large rock rat, hawksbill turtle, Sumat",
+  "chars": 15849
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs",
+  "file": "climate-change-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climate Change, IPCC & Carbon Markets — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Climate Change, IPCC & Carbon Markets — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about the Intergovernmental Panel on Climate Change: 1. It was established jointly by WMO and UNEP in 1988. 2. It conducts its own original climate research. 3. Its Sixth Assessment cycle concluded with a Synthesis Report in 2023. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q2. Which of the following greenhouse gases also depletes stratospheric ozone? (a) Methane (b) Nitrous oxide (c) Sulphur hexafluoride (d) Carbon dioxide Q3. India's updated Nationally Determined Contribution (2022) commits to which of the following by 2030? 1. Reducing the emissions intensity of GDP by 45% from 2005 levels 2. Achieving 50% of cumulative installed electric power capacity from non fossil sources 3. Reaching net zero emissions (a",
+  "chars": 3453
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short",
+  "file": "climate-change-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/short-notes/climate-change-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climate Change, IPCC & Carbon Markets — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Science basics"
+   },
+   {
+    "level": 2,
+    "text": "IPCC & international regime"
+   },
+   {
+    "level": 2,
+    "text": "India's policy & carbon markets"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Climate Change, IPCC & Carbon Markets — Prelims Fact Card Prelims GS I › Environment & Ecology › Environmental Issues. Science, negotiations, India's commitments and the market mechanisms that dominate current affairs questions. Science basics Greenhouse effect (Fourier 1824; Tyndall; Arrhenius 1896); GHGs — water vapour (largest natural), CO₂ ( 76% of anthropogenic forcing; 425 ppm 2025 vs 280 pre industrial; Mauna Loa Keeling curve) , CH₄ (GWP 100 28–30; 84 over 20 yr; 1,930 ppb; sources — wetlands, rice, livestock enteric fermentation, landfills, fossil leaks; Global Methane Pledge 2021 (30% cut by 2030; India not signatory)) , N₂O (GWP 273; fertiliser; ozone depleting) , fluorinated gases (HFCs GWP thousands — Kigali; SF₆ GWP 24,300 highest; PFCs; NF₃) , ozone (tropospheric — a GHG; stratospheric — protective) ; black carbon (short lived climate pollutant; not a gas); aerosols cool (",
+  "chars": 25060
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/pyqs",
+  "file": "pollution-waste-mcqs.md",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs/pollution-waste-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Pollution, Waste Management & EIA — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Pollution, Waste Management & EIA — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following are secondary air pollutants? 1. Ground level ozone 2. Sulphur dioxide 3. Peroxyacetyl nitrate 4. Carbon monoxide (a) 1 and 3 (b) 2 and 4 (c) 1, 2 and 3 (d) 1, 3 and 4 Q2. Consider the following statements about the Commission for Air Quality Management: 1. It is a statutory body established in 2021. 2. Its jurisdiction covers the National Capital Region and adjoining areas. 3. Stage IV of the Graded Response Action Plan is triggered when the AQI exceeds 450. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Under the Bio Medical Waste Management Rules, 2016, discarded sharps such as needles and scalpels are to be disposed of in: (a) Yellow bags (b) Red bags (c) White translucent puncture proof containers (d) Blue cardboard boxes",
+  "chars": 3377
+ },
+ {
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/short",
+  "file": "pollution-waste-notes.md",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/short-notes/pollution-waste-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Pollution, Waste Management & EIA — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Air pollution"
+   },
+   {
+    "level": 2,
+    "text": "Waste rules (2016 family + updates)"
+   },
+   {
+    "level": 2,
+    "text": "Environmental Impact Assessment"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Pollution, Waste Management & EIA — Prelims Fact Card Prelims GS I › Environment & Ecology › Environmental Issues. Air, water, soil and noise pollution; the waste rules; and the environmental clearance process. Air pollution Pollutants : primary (SO₂, NOₓ, CO, PM, VOCs, NH₃, Pb) vs secondary (ground level ozone (NOₓ + VOC + sunlight), PAN, sulphate/nitrate aerosols, smog); PM₂.₅ (≤2.5 µm; combustion; deepest lung penetration) vs PM₁₀ ; NAAQS 2009 (12 pollutants incl. benzene, BaP, As, Ni, NH₃, O₃, Pb; PM₂.₅ annual 40 µg/m³, 24 hr 60; WHO 2021 guideline 5/15) — revision drafted 2025; AQI (2014; 'One Number One Colour One Description'; 8 pollutants; 0–50 good … 401–500 severe; IITK developed) ; SAFAR (IITM Pune) ; National Clean Air Programme (2019; 131 non attainment cities; target 20–30% → revised 40% PM₁₀ reduction by 2025–26 vs 2017; ₹11,000 cr plus FC 15 air quality grants for million",
+  "chars": 25177
  },
  {
   "nav": "prelims-gs1/environment-ecology/environmental-issues/short",
@@ -5723,6 +6718,218 @@ window.SEARCH_DATA = [
   "chars": 3360
  },
  {
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs",
+  "file": "climate-india-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climate of India — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Climate of India — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Western disturbances that bring winter rain to north west India originate over the: (a) Bay of Bengal (b) Arabian Sea (c) Mediterranean Sea (d) Caspian Sea Q2. Consider the Arabian Sea branch of the monsoon: 1. It causes heavy rain on the windward Western Ghats. 2. The Aravallis lie parallel to it, so Rajasthan receives little rain. 3. It reaches Delhi before the Bay of Bengal branch. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Tamil Nadu receives most of its annual rainfall during: (a) June–September (b) October–December (c) January–February (d) March–May Q4. Kalbaisakhi refers to: (a) Pre monsoon dust storms of Uttar Pradesh (b) Pre monsoon thunderstorms of West Bengal and Assam (c) Winter fog of Punjab (d) Retreating monsoon cyclones of Odisha Q5. As per the re",
+  "chars": 2072
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/short",
+  "file": "climate-india-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/short-notes/climate-india-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climate of India: Monsoon Mechanism, Seasons & Rainfall Distribution — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Controls"
+   },
+   {
+    "level": 2,
+    "text": "Seasons (IMD)"
+   },
+   {
+    "level": 2,
+    "text": "Rainfall distribution"
+   },
+   {
+    "level": 2,
+    "text": "IMD & forecasting"
+   },
+   {
+    "level": 2,
+    "text": "Climate change signals (India)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Climate of India: Monsoon Mechanism, Seasons & Rainfall Distribution — Prelims Fact Card Prelims GS I › Geography › Indian Geography. India specific layer on top of the climatology card: seasons, rainfall map, drought/flood geography, IMD terminology. Controls Latitude (Tropic of Cancer bisects — tropical S, sub tropical N), Himalaya (blocks Siberian cold; forces monsoon rain), land–sea contrast, altitude (Shimla vs Ludhiana), relief (Ghats windward/leeward), jet streams (STJ south of Himalaya in winter → western disturbances; TEJ in summer), pressure systems (Siberian high winter; Thar heat low summer), ENSO/IOD, distance from sea (continentality — Delhi range 20 °C+ vs Kochi 3 °C), currents negligible. Seasons (IMD) 1. Winter (Jan–Feb) : NE trades; Siberian high; clear skies, inversion, frost; western disturbances (Mediterranean; via Iran Afghanistan; 4–5/month; rabi rain Punjab Haryan",
+  "chars": 5778
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/pyqs",
+  "file": "drainage-rivers-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs/drainage-rivers-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Drainage & Rivers of India — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Drainage & Rivers of India — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following rivers rises in the Rakas Tal near Mansarovar? (a) Indus (b) Sutlej (c) Brahmaputra (d) Ghaghara Q2. Match the confluence with the tributary at the Panch Prayag: A. Rudraprayag — 1. Pindar · B. Karnaprayag — 2. Mandakini · C. Nandprayag — 3. Nandakini (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. Consider: 1. The Pranhita is the largest tributary of the Godavari. 2. The Tungabhadra joins the Krishna in Andhra Pradesh. 3. The Kabini, a tributary of the Kaveri, rises in Kerala. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Which river flows through a rift valley and ends in an estuary in the Gulf of Khambhat? (a) Mahanadi (b) Narmada (c) Krishna (d) Pennar Q5. The Ken–Betwa link project, the first under the Inter",
+  "chars": 2246
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short",
+  "file": "drainage-rivers-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/short-notes/drainage-rivers-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Drainage System & Major Rivers of India — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Classification"
+   },
+   {
+    "level": 2,
+    "text": "Indus system (2,880 km; India 1,114; Indus Waters Treaty 1960 — India: Ravi-Beas-Sutlej; Pakistan: Indus-Jhelum-Chenab; India held IWT \"in abeyance\" April 2025)"
+   },
+   {
+    "level": 2,
+    "text": "Ganga system (2,525 km; longest in India; basin 26% area; National River 2008; Namami Gange 2014; NMCG)"
+   },
+   {
+    "level": 2,
+    "text": "Brahmaputra system (2,900 km; India 916 km; largest volume; Yarlung Tsangpo — Chemayungdung/Angsi glacier near Mansarovar; flows east 1,200 km in Tibet; Namcha Barwa U-turn (Great Bend; China's Medog mega-dam 2024–25); enters Arunachal as Siang/Dihang; joins Dibang & Lohit at Sadiya → Brahmaputra; Assam braided 700 km; Majuli; Dhubri → Bangladesh as Jamuna; joins Padma at Goalundo; Meghna (Barak) at Chandpur)"
+   },
+   {
+    "level": 2,
+    "text": "Peninsular rivers"
+   },
+   {
+    "level": 2,
+    "text": "Water disputes, tribunals & links"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Drainage System & Major Rivers of India — Prelims Fact Card Prelims GS I › Geography › Indian Geography. Source–tributary–dam–city matching, plus recent river linked news. Classification Himalayan (perennial; antecedent gorges; meanders) vs Peninsular (seasonal; older; graded; Narmada, Tapi, Mahi, Sabarmati, Periyar westward — rift/estuary; Godavari, Krishna, Kaveri, Mahanadi eastward — deltas). Drainage patterns: dendritic (Ganga), trellis (Singhbhum), radial (Amarkantak), rectangular (Vindhya), centripetal (Loktak), parallel (W Ghats streams), deranged. Water divide: Delhi ridge–Aravalli–Sahyadri (Bay of Bengal 77% vs Arabian Sea 23%). Antecedent rivers: Indus, Sutlej, Brahmaputra (cut Himalaya); superimposed: Damodar, Subarnarekha, Chambal, Banas. Indus system (2,880 km; India 1,114; Indus Waters Treaty 1960 — India: Ravi Beas Sutlej; Pakistan: Indus Jhelum Chenab; India held IWT \"in ",
+  "chars": 11485
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs",
+  "file": "minerals-industries-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Minerals, Energy & Industries — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Minerals, Energy & Industries — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Match the mine with the mineral: A. Rampura Agucha — 1. Chromite · B. Sukinda — 2. Zinc · C. Malanjkhand — 3. Copper (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q2. Consider Indian coal: 1. Gondwana coalfields account for about 98% of reserves. 2. Neyveli is a bituminous coalfield. 3. Raniganj is the oldest coalfield. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. India's largest onshore oil field is located in: (a) Assam (b) Gujarat (c) Rajasthan (d) Andhra Pradesh Q4. Which steel plant was set up with Soviet collaboration and is known for producing rails? (a) Rourkela (b) Durgapur (c) Bhilai (d) Salem Q5. Consider the eight core industries index: 1. Refinery products carry the highest weight. 2. Cement has a higher weight than coal.",
+  "chars": 1822
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short",
+  "file": "minerals-industries-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/short-notes/minerals-industries-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Minerals, Energy Resources & Industries of India — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Minerals (Indian Minerals Yearbook; leaders 2022–23)"
+   },
+   {
+    "level": 2,
+    "text": "Energy (installed capacity ~ 490 GW, Jul 2025)"
+   },
+   {
+    "level": 2,
+    "text": "Industries — location logic & belts"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Minerals, Energy Resources & Industries of India — Prelims Fact Card Prelims GS I › Geography › Indian Geography. Mineral–state–mine matching, energy mix numbers, industrial location logic. Minerals (Indian Minerals Yearbook; leaders 2022–23) Mineral Leading states/mines Hooks Iron ore Odisha ( 55%; Keonjhar, Sundargarh, Mayurbhanj), Chhattisgarh (Bailadila — Dantewada; exported via Vizag), Karnataka (Bellary Hospet, Kudremukh, Bababudan), Jharkhand (Singhbhum — Noamundi, Gua), Goa haematite (Odisha Jharkhand CG) & magnetite (Karnataka/Goa); 4th producer; export duty 2022 Manganese MP (Balaghat), Maharashtra (Nagpur Bhandara), Odisha (Sundargarh), Karnataka; MOIL ferro alloys Bauxite Odisha ( 50%; Koraput — Panchpatmali/NALCO; Kalahandi — Lanjigarh/Vedanta; Niyamgiri) , Gujarat (Jamnagar), Jharkhand (Lohardaga), MH, CG (Mainpat), Andhra aluminium — NALCO Angul, Hindalco Renukoot, BALCO K",
+  "chars": 11105
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/pyqs",
+  "file": "physiography-india-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs/physiography-india-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physiography of India — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Physiography of India — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The highest peak located wholly within Indian territory is: (a) Kangchenjunga (b) Nanda Devi (c) Kamet (d) Nanga Parbat Q2. Arrange from north to south: 1. Nine Degree Channel 2. Eight Degree Channel 3. Ten Degree Channel (a) 3 1 2 (b) 1 3 2 (c) 3 2 1 (d) 2 1 3 Q3. Match the pass with the state/UT: A. Shipki La — 1. Sikkim · B. Nathu La — 2. Himachal Pradesh · C. Lipulekh — 3. Uttarakhand (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. Consider the Tropic of Cancer: 1. It passes through eight Indian states. 2. Mizoram and Tripura are among them. 3. It passes through Bihar. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q5. The Palghat (Palakkad) gap connects: (a) Madurai and Kollam (b) Coimbatore and Palakkad (c) Mumbai and Pune (d) Kolhapur and ",
+  "chars": 1908
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/short",
+  "file": "physiography-india-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/short-notes/physiography-india-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Physiography of India: Himalayas, Plains, Plateau, Coasts & Islands — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Frame"
+   },
+   {
+    "level": 2,
+    "text": "Himalayas (young fold; Tethys; ~2,400 km arc, 150–400 km wide; syntaxial bends Nanga Parbat & Namcha Barwa)"
+   },
+   {
+    "level": 2,
+    "text": "Northern plains (7 lakh km²; 2,400 km; alluvium up to 2,000 m thick)"
+   },
+   {
+    "level": 2,
+    "text": "Peninsular plateau (oldest — Gondwana; Archaean)"
+   },
+   {
+    "level": 2,
+    "text": "Coasts & islands"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Physiography of India: Himalayas, Plains, Plateau, Coasts & Islands — Prelims Fact Card Prelims GS I › Geography › Indian Geography. Map anchored facts: ranges, passes, peaks, hills, coastal plains and islands. Frame Area 32.87 lakh km² (7th; 2.4% of world land; 17.7% population); lat 8°4′–37°6′ N, long 68°7′–97°25′ E; N–S 3,214 km, E–W 2,933 km; Tropic of Cancer through 8 states (Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram); IST 82°30′ E (Mirzapur); land frontier 15,200 km (Bangladesh 4,096 longest → China 3,488 → Pakistan 3,323 → Nepal 1,751 → Myanmar 1,643 → Bhutan 699 → Afghanistan 106); coastline 7,516 km ( Gujarat longest 1,600; then Andhra/TN; new 2024 measurement 11,098 km); southernmost point Indira Point (Great Nicobar; 6°45′), mainland Kanyakumari (8°4′); Indira Col northernmost. Himalayas (young fold; Tethys; 2,400 km arc, 150–400 km wide; syntaxial ",
+  "chars": 8109
+ },
+ {
   "nav": "prelims-gs1/geography/indian-geography/short",
   "file": "indian-geo-prelims.md",
   "rel": "content/prelims/gs1/geography/indian-geography/short-notes/indian-geo-prelims.md",
@@ -5760,6 +6967,118 @@ window.SEARCH_DATA = [
   "chars": 5097
  },
  {
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs",
+  "file": "soils-agriculture-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Soils, Irrigation & Agriculture — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Soils, Irrigation & Agriculture — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following crops is most closely associated with black (regur) soil? (a) Jute (b) Cotton (c) Tea (d) Rice Q2. Match the state with its leading crop: A. Assam — 1. Coffee · B. Karnataka — 2. Tea · C. Kerala — 3. Rubber (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. Consider the Minimum Support Price system: 1. MSP is recommended by the CACP and approved by the CCEA. 2. Sugarcane is covered by an FRP rather than an MSP. 3. MSP is announced for 22 mandated crops. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. The largest source of irrigation in India by net irrigated area is: (a) Canals (b) Tanks (c) Wells and tube wells (d) Lift irrigation from rivers Q5. Cropping intensity is calculated as: (a) Net sown area ÷ gross crop",
+  "chars": 1952
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short",
+  "file": "soils-agriculture-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/short-notes/soils-agriculture-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Soils, Irrigation & Agriculture Patterns of India — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Land use & basics (2021–22, ~328 Mha reporting ~307)"
+   },
+   {
+    "level": 2,
+    "text": "Crops: conditions, leaders (Agri Stats 2023–24)"
+   },
+   {
+    "level": 2,
+    "text": "Irrigation"
+   },
+   {
+    "level": 2,
+    "text": "Agriculture policy & institutions (prelims hooks)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Soils, Irrigation & Agriculture Patterns of India — Prelims Fact Card Prelims GS I › Geography › Indian Geography. Crop–condition–state matching, irrigation sources, cropping seasons; soil detail sits in the biogeography card. Land use & basics (2021–22, 328 Mha reporting 307) Net sown area 140 Mha ( 46%); gross cropped 220 Mha; cropping intensity 155% ; forests 72 Mha; fallow 25 Mha; culturable waste 12; barren 17; net irrigated 76 Mha ( 55% of net sown ); rainfed 45%. Agriculture 16–18% GVA, 45% workforce. Landholdings avg 1.08 ha (Agri Census 2015–16); 86% small & marginal. Cropping seasons: Kharif (Jun–Oct; rice, maize, jowar, bajra, cotton, jute, groundnut, soybean, tur, moong, urad, sugarcane planting), Rabi (Oct–Mar; wheat, barley, gram, mustard, peas, linseed, lentil/masoor), Zaid (Mar–Jun; watermelon, cucumber, fodder, moong). Kerala rice: virippu/mundakan/punja ; Bengal aus/ama",
+  "chars": 9889
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/pyqs",
+  "file": "transport-settlements-mcqs.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs/transport-settlements-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Transport, Trade & Settlements — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Transport, Trade & Settlements — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Under the 2010 National Highway numbering scheme: (a) Odd numbers run north–south (b) Even numbers run north–south (c) Numbers increase from south to north for E–W highways (d) All NHs have three digit numbers Q2. Match the port with its description: A. Visakhapatnam — 1. Largest container port · B. JNPT — 2. Riverine port · C. Kolkata — 3. Deepest natural landlocked harbour (a) A 3 B 1 C 2 (b) A 1 B 3 C 2 (c) A 2 B 1 C 3 (d) A 3 B 2 C 1 Q3. Consider a \"census town\" as per Census 2011: 1. Minimum population of 5,000. 2. At least 75% of male main workers engaged in non agricultural pursuits. 3. Governed by a municipality. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Which of the following was India's most urbanised state in Census 2011? (a) Maharashtra",
+  "chars": 2071
+ },
+ {
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short",
+  "file": "transport-settlements-notes.md",
+  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/short-notes/transport-settlements-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Transport, Trade & Human Settlements — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Roads (~63.7 lakh km — 2nd largest network; NH 1,46,000 km = 2% length, 40% traffic)"
+   },
+   {
+    "level": 2,
+    "text": "Railways (68,584 route km; 4th largest; 1853 Bori Bunder–Thane 34 km; 17 zones (+South Coast Vizag 2019 = 18); 8,000 stations; 1.2 crore passengers/day; ~1.6 bn t freight)"
+   },
+   {
+    "level": 2,
+    "text": "Water & ports (95% trade by volume, 68–70% by value; 12 major + ~200 non-major)"
+   },
+   {
+    "level": 2,
+    "text": "Air (3rd largest domestic market; ~160 operational airports; UDAN 2016 — RCS; 600+ routes; UDAN 2.0 2025 — 120 new destinations)"
+   },
+   {
+    "level": 2,
+    "text": "Pipelines & others"
+   },
+   {
+    "level": 2,
+    "text": "Trade (2024–25: goods exports $437 bn, services $387 bn; total exports $825 bn record; imports goods $915 bn; trade deficit goods ~$283 bn; top partners — US #1 export destination ($86 bn) & largest trading partner ($132 bn), China largest import source & deficit (~$99 bn), UAE, Saudi, Russia (oil), Singapore, Netherlands; top exports — petroleum products, gems & jewellery, electronics (smartphones ~$24 bn), drugs, engineering, rice, textiles; imports — crude, gold (~$58 bn), electronics, coal, machinery, vegetable oil; FTAs — ASEAN (2010), Japan, Korea CEPA, SAFTA, UAE CEPA 2022, Australia ECTA 2022, EFTA TEPA 2024 ($100 bn investment; in force Oct 2025), UK CETA July 2025, Mauritius; under negotiation — EU, US BTA (2025 tariff 50% shock Aug 2025), Oman, Peru, Chile, Israel; RCEP opted out 2019; IPEF (3 of 4 pillars); WTO (Doha; MC13 Abu Dhabi 2024 — e-commerce moratorium extended, fisheries, agriculture stalemate; India's PSH); ports — JNPT/Mundra/Chennai; Foreign Trade Policy 2023 (no sunset; $2 tn by 2030; districts as export hubs; e-commerce; rupee trade; RoDTEP; Towns of Export Excellence; Advance authorisation; EPCG; SEZ → DESH Bill pending); INSTC (Chabahar–Bandar Abbas–Astrakhan), IMEC (2023 G20), Chennai–Vladivostok, Kaladan, BBIN, BIMSTEC (Bangkok summit 2025; maritime cooperation), Northern Sea Route; GIFT-IFSC; Forex reserves ~$700 bn (peak $704 bn Sept 2024; ~$690 bn Aug 2025); rupee ~₹87–88/$ (2025)."
+   },
+   {
+    "level": 2,
+    "text": "Settlements (Census 2011; next Census 2027 — houselisting April 2026; caste enumeration approved 2025)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Transport, Trade & Human Settlements — Prelims Fact Card Prelims GS I › Geography › Indian Geography. Network firsts and numbers, ports/waterways, Census 2011 settlement definitions and urbanisation data. Roads ( 63.7 lakh km — 2nd largest network; NH 1,46,000 km = 2% length, 40% traffic) Classification: NH (MoRTH/NHAI 1995; numbering 2010 — odd E W, even N S; NH 44 longest Srinagar–Kanyakumari 3,745 km; NH 548/118 shortest), SH, district, rural (PMGSY 2000 — 500/250 population; PMGSY IV 2024), border roads ( BRO 1960 ; Project Himank; Umling La), Golden Quadrilateral (5,846 km; Delhi Mumbai Chennai Kolkata; NHDP 1998), N S (Srinagar–Kanyakumari) & E W (Silchar–Porbandar) corridors , Bharatmala (2017; 34,800 km; economic corridors), expressways (Delhi–Mumbai 1,386 km — longest under construction; Purvanchal, Ganga (594 km), Bundelkhand, Samruddhi (Nagpur–Mumbai), Agra–Lucknow, Yamuna, Mu",
+  "chars": 11606
+ },
+ {
   "nav": "prelims-gs1/geography/maps-india-world/short",
   "file": "map-drills.md",
   "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.md",
@@ -5791,6 +7110,210 @@ window.SEARCH_DATA = [
   ],
   "text": "Map Practice — Method & Drills (Prelims) Map questions almost always reward position/sequence recall. Build a weekly 15 minute drill loop using blank outline maps (Sketchy/Exammaps books or blank printouts). Method 1. Triangle anchors : fix 3 memory points per region first (e.g., S Asia: Gwadar Karachi West, Dhaka East, Assam's Sadiya NE) then fill middles by interpolation. 2. Sequence runs : learn orders, not singles — e.g., Himalayan passes west→east; major ports north→south on each coast. 3. Relation frames : Which desert is east of Andes? (Patagonian rain shadow). What strait connects Bay of Bengal–S China Sea region? (Malacca). Learn via \"through X one reaches Y\" phrasing. 4. News anchored marking : every fortnight, plot 10 current affairs locations (conflicts, projects, storms) on an outline map. India lists to rehearse Mountain passes W→E : Banihal (Pir Panjal tunnel corridor) → Z",
   "chars": 3195
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/pyqs",
+  "file": "biogeography-mcqs.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs/biogeography-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biogeography (Soils & Vegetation) — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Biogeography (Soils & Vegetation) — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. \"Self ploughing\" nature and high moisture retention are characteristics of: (a) Alluvial soil (b) Black (regur) soil (c) Laterite soil (d) Red soil Q2. Consider laterite soils: 1. They form under high temperature and heavy rainfall with alternating wet–dry seasons. 2. They are rich in silica and humus. 3. They harden irreversibly on exposure and are cut into bricks. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. Match the temperate grassland with its region: A. Pampas — 1. South Africa · B. Veld — 2. Argentina · C. Downs — 3. Australia (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. Which soil forming process dominates in cool, humid coniferous regions, producing ash grey acidic soils? (a) Laterisation (b) Calcification (c) Podzol",
+  "chars": 2049
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/short",
+  "file": "biogeography-notes.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/short-notes/biogeography-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biogeography: Soils & Natural Vegetation — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Soil formation & profile"
+   },
+   {
+    "level": 2,
+    "text": "Indian soils (ICAR 8 major)"
+   },
+   {
+    "level": 2,
+    "text": "World biomes & natural vegetation (climate → vegetation → soil → fauna)"
+   },
+   {
+    "level": 2,
+    "text": "India's vegetation (Champion & Seth 1968 — 16 types; ISFR 2023: forest cover 7,15,343 km² = 21.76%, tree cover 3.41%, total 25.17%; MP largest area, Mizoram highest %; Lakshadweep ~90%; mangroves 4,992 km² — WB 42%)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Biogeography: Soils & Natural Vegetation — Prelims Fact Card Prelims GS I › Geography › Physical Geography. Soil type traits (ICAR classification) and biome–climate matching. Soil formation & profile Factors (Jenny): parent material, climate, relief, organisms, time ( Cl O R P T ). Processes: weathering → humification → eluviation/illuviation, laterisation (hot wet; silica leached, Fe/Al oxides stay), podzolisation (cool wet coniferous; acidic, ash grey), calcification (semi arid; CaCO₃), salinisation/alkalisation (arid; capillary rise), gleisation (waterlogged). Profile: O (organic) → A (topsoil, humus; eluviation) → E → B (illuviation; subsoil) → C (regolith) → R (bedrock). Texture triangle (sand silt clay; loam best); pH (6.5–7.5 ideal); soil health card (12 parameters — NPK, S, Zn, Fe, Cu, Mn, B, pH, EC, OC); NBSS&LUP (Nagpur). Indian soils (ICAR 8 major) Soil Area & regions Traits C",
+  "chars": 6407
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs",
+  "file": "climatology-mcqs.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climatology — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Climatology — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Tropical cyclones do not form within about 5° of the equator because: (a) Sea surface temperatures are too low (b) The Coriolis force is negligible (c) Wind shear is too strong (d) Humidity is insufficient Q2. Consider the Tropical Easterly Jet: 1. It flows over India during the summer monsoon. 2. It results from heating of the Tibetan plateau. 3. It lies south of the Subtropical Westerly Jet. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match the local wind with its region: A. Chinook — 1. Adriatic · B. Bora — 2. Rockies · C. Harmattan — 3. West Africa (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. A positive Indian Ocean Dipole is characterised by: (a) Warmer waters off Sumatra than off East Africa (b) Warmer western Indian Ocean and cooler easter",
+  "chars": 2074
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/climatology/short",
+  "file": "climatology-notes.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/climatology/short-notes/climatology-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Climatology: Atmosphere, Cyclones & Monsoon — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Atmosphere"
+   },
+   {
+    "level": 2,
+    "text": "Tropical cyclones"
+   },
+   {
+    "level": 2,
+    "text": "Monsoon (India)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Climatology: Atmosphere, Cyclones & Monsoon — Prelims Fact Card Prelims GS I › Geography › Physical Geography. Mechanism questions (why/where) dominate; keep the diagrams in your head. Atmosphere Composition: N₂ 78.08%, O₂ 20.95%, Ar 0.93%, CO₂ 0.04% (≈420 ppm 2024) ; water vapour 0–4%; ozone (10–50 km, peak 25 km; Dobson unit). Layers: troposphere (8 km poles–18 km equator; lapse rate 6.5 °C/km; all weather; tropopause) → stratosphere (ozone; temperature rises; jets fly) → mesosphere (coldest −90 °C; meteors burn) → thermosphere/ionosphere (aurora, radio reflection; ISS 400 km) → exosphere. Homosphere/heterosphere split at 80 km. Insolation & heat budget: 1.94 cal/cm²/min solar constant; albedo 30–35% (planetary); 51% absorbed by surface; greenhouse (H₂O, CO₂, CH₄, N₂O, O₃, CFCs); terrestrial radiation long wave; latitudinal heat balance → winds/currents; aphelion 4 July, perihelion 3 J",
+  "chars": 6687
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs",
+  "file": "geomorphology-mcqs.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geomorphology — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Geomorphology — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The fact that S waves do not travel through the outer core indicates that it is: (a) Very dense solid (b) Liquid (c) Made of iron only (d) At very low pressure Q2. Match the landform with the agent: A. Drumlin — 1. Wind · B. Barchan — 2. Glacier · C. Stalagmite — 3. Groundwater (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. Consider: 1. Sedimentary rocks cover about three fourths of the earth's land surface but form a small fraction of crustal volume. 2. Marble is a metamorphosed form of sandstone. 3. Gneiss is a foliated metamorphic rock. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q4. A \"bird's foot\" delta is best exemplified by the: (a) Nile (b) Ganga (c) Mississippi (d) Tiber Q5. Which of the following are landforms of glacial erosion ? 1. Cirque",
+  "chars": 1873
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/short",
+  "file": "geomorphology-notes.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/short-notes/geomorphology-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Geomorphology: Earth, Landforms & Rocks — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Earth's interior"
+   },
+   {
+    "level": 2,
+    "text": "Plate tectonics & continental drift"
+   },
+   {
+    "level": 2,
+    "text": "Rocks & minerals"
+   },
+   {
+    "level": 2,
+    "text": "Landforms by agent (define-by-feature bank)"
+   },
+   {
+    "level": 2,
+    "text": "Mountains & structural forms"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Geomorphology: Earth, Landforms & Rocks — Prelims Fact Card Prelims GS I › Geography › Physical Geography. Concept definition questions (which landform is formed by X?) plus earth interior facts. Earth's interior Layers: crust (continental sial 30–70 km, oceanic sima 5–10 km; Conrad discontinuity between) → Mohorovičić (Moho) → mantle (to 2,900 km; asthenosphere 100–200 km partially molten; Repetti 700 km) → Gutenberg → outer core (liquid; no S waves; nife ) → Lehmann → inner core (solid; 5,150–6,371 km). Evidence: seismic waves — P (longitudinal, all media, fastest), S (transverse, solids only; shadow zone 105°–145° for S entirely beyond 105°; P shadow 105°–145°), L/R surface waves (most destructive). Density 2.7 crust → 13 core; temperature 5,500 °C core. Earthquakes: focus/hypocentre & epicentre ; scales — Richter (magnitude, log₁₀; energy ×31.6 per unit), Mercalli (intensity I–XII), ",
+  "chars": 6346
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/pyqs",
+  "file": "oceanography-mcqs.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs/oceanography-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Oceanography — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Oceanography — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following is a cold current? (a) Kuroshio (b) Agulhas (c) Benguela (d) Brazil Q2. Consider ocean salinity: 1. It is highest at the equator due to high temperature. 2. The Bay of Bengal is less saline than the Arabian Sea. 3. Lake Van has salinity higher than the Dead Sea. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Spring tides occur: (a) Only in spring (b) At the first and third quarters of the moon (c) At new and full moon (d) When the moon is at apogee Q4. Under UNCLOS, the Exclusive Economic Zone extends up to: (a) 12 nautical miles (b) 24 nautical miles (c) 200 nautical miles (d) 350 nautical miles Q5. The Grand Banks of Newfoundland are a rich fishing ground because of the meeting of: (a) Kuroshio and Oyashio (b) Gulf Stream and Labrador (c) Brazil ",
+  "chars": 1917
+ },
+ {
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/short",
+  "file": "oceanography-notes.md",
+  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/short-notes/oceanography-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Oceanography: Relief, Temperature, Salinity, Currents & Tides — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Relief & basics"
+   },
+   {
+    "level": 2,
+    "text": "Temperature & salinity"
+   },
+   {
+    "level": 2,
+    "text": "Currents (gyres clockwise NH, anticlockwise SH — Coriolis; western boundary currents warm, fast, narrow)"
+   },
+   {
+    "level": 2,
+    "text": "Tides"
+   },
+   {
+    "level": 2,
+    "text": "Coral & marine ecology hooks"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Oceanography: Relief, Temperature, Salinity, Currents & Tides — Prelims Fact Card Prelims GS I › Geography › Physical Geography. Current–coast matching, salinity anomalies, and tide mechanics. Relief & basics Oceans 71% (361 million km²); Pacific (largest, deepest — Mariana Trench/Challenger Deep 10,994 m ), Atlantic (S shaped; Puerto Rico trench), Indian (Java/Sunda trench), Southern (60° S; 2000), Arctic (smallest, shallowest). Relief: continental shelf (avg 80 km; 150–200 m; 7.5%; fishing/oil — Siberian widest), continental slope (2–5°; shelf break; submarine canyons), continental rise, abyssal plain (40%), mid ocean ridges (Mid Atlantic; 65,000 km system), trenches (subduction), seamounts/guyots (flat topped), atolls, submarine canyons (Congo), banks (Dogger, Grand Banks), Sea knolls. Sediments: terrigenous (mud), biogenic oozes (calcareous — Globigerina, pteropod (<4,000 m; CCD); si",
+  "chars": 5131
  },
  {
   "nav": "prelims-gs1/geography/physical-geography/short",
@@ -5929,6 +7452,202 @@ window.SEARCH_DATA = [
   "chars": 4040
  },
  {
+  "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs",
+  "file": "world-economic-mcqs.md",
+  "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "World Economic & Human Geography — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "World Economic & Human Geography — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which country is the largest exporter of tea although China and India are the largest producers? (a) Sri Lanka (b) Kenya (c) Vietnam (d) Türkiye Q2. Match the mine/region with the mineral: A. Escondida — 1. Iron ore · B. Pilbara — 2. Copper · C. Bayan Obo — 3. Rare earths (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 2 C 1 (d) A 2 B 3 C 1 Q3. Consider cobalt: 1. The Democratic Republic of Congo supplies about 70% of world mine output. 2. China dominates cobalt refining. 3. Indonesia has emerged as the second largest producer. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Which of the following pairs of shifting cultivation names and regions is/are correct? 1. Milpa — Mexico 2. Ladang — Malaysia 3. Chena — Sri Lanka (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d)",
+  "chars": 1929
+ },
+ {
+  "nav": "prelims-gs1/geography/world-geography/world-economic/short",
+  "file": "world-economic-notes.md",
+  "rel": "content/prelims/gs1/geography/world-geography/world-economic/short-notes/world-economic-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "World Economic & Human Geography — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Agriculture: leading producers (FAO 2023) & regions"
+   },
+   {
+    "level": 2,
+    "text": "Minerals & energy: leaders"
+   },
+   {
+    "level": 2,
+    "text": "Industry & trade geography"
+   },
+   {
+    "level": 2,
+    "text": "Population & human geography (World Population Prospects 2024)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "World Economic & Human Geography — Prelims Fact Card Prelims GS I › Geography › World Geography. Producer rankings, resource belts, population/migration facts and geopolitical geography that UPSC pulls from current affairs. Agriculture: leading producers (FAO 2023) & regions Crop Top producers Regions/hooks Rice China, India, Bangladesh, Indonesia, Vietnam India largest exporter (40%) Wheat China, India, Russia, USA, France Russia largest exporter; Ukraine \"breadbasket\"; Prairies, Pampas, Punjab, Murray Darling Maize USA (Corn Belt), China, Brazil, Argentina, India Soybean Brazil, USA, Argentina, China, India Cerrado deforestation Sugarcane Brazil, India, China, Thailand Cotton China, India, USA, Brazil, Pakistan Coffee Brazil, Vietnam (robusta), Colombia, Indonesia, Ethiopia (origin) India 7th Tea China, India, Kenya (largest exporter), Sri Lanka, Turkey Cocoa Côte d'Ivoire, Ghana (60%+",
+  "chars": 14984
+ },
+ {
+  "nav": "prelims-gs1/geography/world-geography/world-physical/pyqs",
+  "file": "world-physical-mcqs.md",
+  "rel": "content/prelims/gs1/geography/world-geography/world-physical/pyqs/world-physical-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "World Physical Geography — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "World Physical Geography — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which strait connects the Red Sea with the Gulf of Aden? (a) Hormuz (b) Bab el Mandeb (c) Tiran (d) Malacca Q2. Match the river with the sea/ocean it drains into: A. Volga — 1. Black Sea · B. Danube — 2. Caspian Sea · C. Rhine — 3. North Sea (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. Consider Lake Baikal: 1. It is the deepest freshwater lake in the world. 2. It holds about 20% of the world's unfrozen surface freshwater. 3. It lies in a rift zone. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. The Atacama desert's extreme aridity is primarily due to: (a) Its location on the east coast of South America (b) The cold Humboldt current and rain shadow of the Andes (c) Its high latitude (d) The warm Brazil current Q5. Which of the following ",
+  "chars": 1961
+ },
+ {
+  "nav": "prelims-gs1/geography/world-geography/world-physical/short",
+  "file": "world-physical-notes.md",
+  "rel": "content/prelims/gs1/geography/world-geography/world-physical/short-notes/world-physical-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "World Physical Geography: Continents, Oceans, Mountains, Rivers & Climates — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Continents & extremes"
+   },
+   {
+    "level": 2,
+    "text": "Oceans, seas & straits (chokepoints)"
+   },
+   {
+    "level": 2,
+    "text": "World climatic types (Köppen; region–vegetation–features)"
+   },
+   {
+    "level": 2,
+    "text": "Volcanoes, quakes & hazards in news"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "World Physical Geography: Continents, Oceans, Mountains, Rivers & Climates — Prelims Fact Card Prelims GS I › Geography › World Geography. Map anchored: place in news questions need a mental atlas; this card is that atlas in compressed form. Continents & extremes Asia (44.6 mn km²; Everest 8,849; Dead Sea −430 m lowest land; Caspian largest lake; Baikal deepest 1,642 m & largest by volume; Tibet highest plateau; Gobi cold desert; Arabian, Thar, Taklamakan, Kyzylkum, Karakum deserts; Yangtze longest 6,300; Mekong; Ob Irtysh, Yenisei, Lena (Arctic); Amur; Indus–Ganga–Brahmaputra; Tigris–Euphrates (Mesopotamia; Shatt al Arab); Aral Sea shrinkage; Lake Balkhash, Issyk Kul, Tonlé Sap (reversing flow), Urmia, Van). Africa (30.4; Kilimanjaro 5,895 — stratovolcano Tanzania; Lake Assal Djibouti −155 m; Sahara largest hot desert; Kalahari, Namib (Sossusvlei), Danakil; Nile 6,650 longest (White Nil",
+  "chars": 11581
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs",
+  "file": "mahajanapadas-mauryan-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/pyqs/mahajanapadas-mauryan-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Mahajanapadas, Buddhism, Jainism & Mauryas — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Mahajanapadas, Buddhism, Jainism & Mauryas — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which Mahajanapada lay south of the Vindhyas? (a) Avanti (b) Chedi (c) Ashmaka (d) Matsya Q2. Match the Buddhist councils with patrons: A. First — 1. Kalashoka · B. Second — 2. Ajatashatru · C. Fourth — 3. Kanishka (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 2 B 3 C 1 (d) A 3 B 2 C 1 Q3. Consider Jainism: 1. Parshvanatha prescribed four vows; Mahavira added celibacy. 2. The final Jain canon was compiled at the Vallabhi council. 3. Mahavira attained kaivalya at Pavapuri. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. In which of the following places does Ashoka's personal name appear? (a) Girnar (b) Maski (c) Dhauli (d) Topra Q5. The Kandahar bilingual edict of Ashoka is in: (a) Brahmi and Kharosthi (b) Greek and Aramaic (c) Prakrit and Greek (d) ",
+  "chars": 2261
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/short",
+  "file": "mahajanapadas-mauryan-notes.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/short-notes/mahajanapadas-mauryan-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Mahajanapadas, Buddhism, Jainism & the Mauryan Empire — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Sixteen Mahajanapadas (c. 6th BCE; Anguttara Nikaya, Bhagavati Sutra)"
+   },
+   {
+    "level": 2,
+    "text": "Buddhism"
+   },
+   {
+    "level": 2,
+    "text": "Jainism"
+   },
+   {
+    "level": 2,
+    "text": "Mauryan Empire (321–185 BCE)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Mahajanapadas, Buddhism, Jainism & the Mauryan Empire — Prelims Fact Card Prelims GS I › History & Culture › Ancient History. Heaviest weighted ancient block: religion facts + Ashokan edicts + Mauryan administration. Sixteen Mahajanapadas (c. 6th BCE; Anguttara Nikaya, Bhagavati Sutra) Monarchies : Magadha (Rajgir/Girivraja → Pataliputra), Kosala (Shravasti; Prasenajit), Vatsa (Kaushambi; Udayana), Avanti (Ujjain/Mahishmati; Pradyota), Anga (Champa), Kashi (Varanasi), Chedi (Shuktimati), Matsya (Viratnagar), Shurasena (Mathura), Ashmaka (Potali/Paudanya — only one south of Vindhyas, Godavari), Gandhara (Taxila), Kamboja (Rajpur/Hatak). Republics (gana sanghas) : Vajji/Vrijji (Vaishali; Licchavis), Malla (Kusinara & Pava), Kuru (Indraprastha), Panchala (Ahichchhatra & Kampilya). Magadha's rise: Haryanka ( Bimbisara — Gandhaka army, matrimonial; Ajatashatru — war engines rathamusala , maha",
+  "chars": 5744
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs",
+  "file": "post-mauryan-gupta-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/pyqs/post-mauryan-gupta-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Post-Mauryan & Gupta — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Post Mauryan & Gupta — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. The Junagadh rock inscription of 150 CE, the first long Sanskrit inscription, belongs to: (a) Gautamiputra Satakarni (b) Rudradaman I (c) Kanishka (d) Samudragupta Q2. The Heliodorus pillar at Besnagar records the devotion of a Greek ambassador to: (a) Buddha (b) Shiva (c) Vasudeva (d) Surya Q3. Match: A. Gandhara — 1. red sandstone · B. Mathura — 2. white marble · C. Amaravati — 3. grey schist (a) A 3 B 1 C 2 (b) A 1 B 3 C 2 (c) A 2 B 1 C 3 (d) A 3 B 2 C 1 Q4. Consider the Satavahanas: 1. They issued coins mainly in lead. 2. They used matronymics. 3. Naneghat inscription records the earliest land grant to Brahmanas. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q5. The Allahabad pillar inscription was composed by: (a) Harishena (b) Ravikirti (c) Banabhatta (d) Vas",
+  "chars": 2081
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/short",
+  "file": "post-mauryan-gupta-notes.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/short-notes/post-mauryan-gupta-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Post-Mauryan Age & Gupta Empire (c. 185 BCE–550 CE) — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Post-Mauryan dynasties"
+   },
+   {
+    "level": 2,
+    "text": "Art schools"
+   },
+   {
+    "level": 2,
+    "text": "Guptas (c. 320–550 CE)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Post Mauryan Age & Gupta Empire (c. 185 BCE–550 CE) — Prelims Fact Card Prelims GS I › History & Culture › Ancient History. Dynasty–ruler–inscription/coin–art school matching, plus Gupta \"golden age\" facts. Post Mauryan dynasties Shungas (185–73 BCE; Pushyamitra — ashvamedha; Patanjali Mahabhashya ; Bharhut stupa railings, Sanchi gateways began; Heliodorus pillar Besnagar 113 BCE — Garuda pillar, Bhagavata; Agnimitra — Kalidasa's Malavikagnimitram ) → Kanvas (Vasudeva 73 BCE). Satavahanas (Deccan; Simuka; Pratishthana/Paithan & Amaravati; Gautamiputra Satakarni — Nasik prashasti by Gautami Balashri; destroyed Shakas (Nahapana coins restruck); Vasishthiputra Pulumavi; Yajna Sri Satakarni — ship coins; lead coins ; Prakrit; matronymics; land grants to Brahmanas (earliest — Naneghat, Naganika); Karle, Bhaja, Kanheri chaitya; Amaravati school, Nagarjunakonda; Gathasaptasati (Hala); Brihatkat",
+  "chars": 5106
+ },
+ {
   "nav": "prelims-gs1/history-culture/ancient-history/pyqs",
   "file": "ancient-history-prelims-pyqs.md",
   "rel": "content/prelims/gs1/history-culture/ancient-history/pyqs/ancient-history-prelims-pyqs.md",
@@ -5991,6 +7710,302 @@ window.SEARCH_DATA = [
   "chars": 5659
  },
  {
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/pyqs",
+  "file": "stone-bronze-age-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/pyqs/stone-bronze-age-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Stone Age & Indus Valley — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Stone Age & Indus Valley — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Match: A. Ploughed field — 1. Lothal · B. Dockyard — 2. Kalibangan · C. Only city without citadel — 3. Chanhudaro (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 2 C 1 (d) A 2 B 3 C 1 Q2. Consider Harappan civilisation: 1. They used iron tools. 2. Their script is written boustrophedon. 3. The unicorn is the most common motif on seals. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Which Neolithic site in Kashmir is known for pit dwellings and dog burials? (a) Gufkral (b) Burzahom (c) Chirand (d) Mehrgarh Q4. The Mesopotamian texts refer to the Indus region as: (a) Dilmun (b) Magan (c) Meluhha (d) Aratta Q5. Which Harappan site is UNESCO inscribed (2021) and known for its water reservoirs and a large signboard? (a) Rakhigarhi (b) Dholavira (c) Lothal (d) Banawali Q6",
+  "chars": 1689
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/short",
+  "file": "stone-bronze-age-notes.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/short-notes/stone-bronze-age-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Prehistory: Stone Age & Indus Valley Civilisation — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Stone Age ladder"
+   },
+   {
+    "level": 2,
+    "text": "Harappan/Indus (c. 2600–1900 BCE mature)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Prehistory: Stone Age & Indus Valley Civilisation — Prelims Fact Card Prelims GS I › History & Culture › Ancient History. Site–feature matching (especially Harappan) recurs almost every year. Stone Age ladder Palaeolithic (up to 10,000 BCE): Lower — Soan valley (pebble tools), Bhimbetka, Attirampakkam, Hunsgi; Middle — Nevasa, Bhimbetka (flakes); Upper — Bhimbetka paintings, Patne, bone tools at Kurnool caves; Homo erectus Hathnora (Narmada) skull. Mesolithic ( 10,000–6,000 BCE): microliths; Bagor (Rajasthan; earliest domestication evidence claim), Adamgarh (MP), Langhnaj (Gujarat), Sarai Nahar Rai & Mahadaha (UP; burials), Bhimbetka rock art. Neolithic : Mehrgarh (Balochistan; c. 7000 BCE; wheat barley, cattle; pre Harappan), Burzahom (Kashmir; pit dwellings, dog burials), Gufkral, Chirand (Bihar; bone tools), Koldihwa (rice claim 6000 BCE), Hallur, Maski, Piklihal, Sanganakallu, Utnur ",
+  "chars": 3466
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/pyqs",
+  "file": "vedic-age-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/pyqs/vedic-age-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Vedic Age — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Vedic Age — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Gayatri mantra is found in which mandala of the Rig Veda and addressed to which deity? (a) 10th; Indra (b) 3rd; Savitri (c) 1st; Agni (d) 7th; Varuna Q2. Match: A. Chandogya — 1. Yajur · B. Brihadaranyaka — 2. Sama · C. Mundaka — 3. Atharva (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. The Battle of Ten Kings (Dasarajna) was fought on the river: (a) Sindhu (b) Vitasta (c) Parushni (d) Sarasvati Q4. Consider Rig Vedic polity: 1. Vidatha was the oldest assembly. 2. Bali was a compulsory tax. 3. The rajan was assisted by the purohita and senani. (a) 1 and 3 (b) 2 and 3 (c) 1 and 2 (d) 1, 2 and 3 Q5. Painted Grey Ware culture is generally associated with: (a) Harappan phase (b) Rig Vedic period (c) Later Vedic period (d) Mauryan period Q6. Which Vedanga deals ",
+  "chars": 1730
+ },
+ {
+  "nav": "prelims-gs1/history-culture/ancient-history/vedic-age/short",
+  "file": "vedic-age-notes.md",
+  "rel": "content/prelims/gs1/history-culture/ancient-history/vedic-age/short-notes/vedic-age-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Vedic Age & Later Vedic Period — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Sources & chronology"
+   },
+   {
+    "level": 2,
+    "text": "The four Vedas"
+   },
+   {
+    "level": 2,
+    "text": "Rig Vedic society & polity"
+   },
+   {
+    "level": 2,
+    "text": "Later Vedic changes"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Vedic Age & Later Vedic Period — Prelims Fact Card Prelims GS I › History & Culture › Ancient History. Text classification and social term questions dominate. Sources & chronology Early/Rig Vedic c. 1500–1000 BCE (Sapta Sindhu — Punjab, Afghanistan); Later Vedic c. 1000–600 BCE (Ganga Yamuna doab; Kuru Panchala ); archaeology: Painted Grey Ware (PGW) = later Vedic; iron ( shyama/krishna ayas ) from 1000 BCE (Atranjikhera). Boghaz Koi (Hittite–Mitanni) inscription 1400 BCE — Indra, Mitra, Varuna, Nasatya. The four Vedas Veda Content Brahmana Upanishad (main) Hook Rig 1,028 hymns, 10 mandalas (2–7 family books oldest; 10th latest — Purusha Sukta, Nasadiya) Aitareya, Kaushitaki Aitareya, Kaushitaki Gayatri mantra (3rd mandala, Vishvamitra, to Savitri); hotri priest Sama melodies (1,549 verses; 75 original) Panchavimsha, Jaiminiya Chandogya, Kena udgatri ; origin of Indian music Yajur sacrif",
+  "chars": 3511
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/pyqs",
+  "file": "architecture-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/pyqs/architecture-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Architecture — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Architecture — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following is a feature of the Nagara style rather than Dravida? (a) Enclosure walls with gopurams (b) Curvilinear shikhara topped by an amalaka (c) Storeyed pyramidal vimana (d) A temple tank within the complex Q2. Consider the Hoysala temples: 1. Built mainly of soapstone. 2. Have stellate (star shaped) plans. 3. Belur and Halebidu were inscribed as UNESCO sites in 2023. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match: A. Rekha deul — 1. Khajuraho · B. Panchayatana on high jagati — 2. Odisha · C. Trefoil arches — 3. Kashmir (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. At Ellora, the Kailasa temple is cave number: (a) 10 (b) 12 (c) 16 (d) 29 Q5. The \"double dome\" technique in India appears first in: (a) Alai Darwaza (b) Sikandar L",
+  "chars": 1854
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/architecture/short",
+  "file": "architecture-notes.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/architecture/short-notes/architecture-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Architecture: Temple Styles, Forts & Monuments — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Temple styles (Shilpa texts: Nagara north, Dravida south, Vesara Deccan)"
+   },
+   {
+    "level": 2,
+    "text": "Indo-Islamic (arch, dome, minaret, pietra dura, jali, charbagh)"
+   },
+   {
+    "level": 2,
+    "text": "Colonial"
+   },
+   {
+    "level": 2,
+    "text": "UNESCO recent (India total 43 as of 2024)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Architecture: Temple Styles, Forts & Monuments — Prelims Fact Card Prelims GS I › History & Culture › Art & Culture. Style identification by feature is the exam's approach; learn the vocabulary first. Temple styles (Shilpa texts: Nagara north, Dravida south, Vesara Deccan) Feature Nagara Dravida Vesara Superstructure shikhara curvilinear (rekha prasada); amalaka + kalasha on top vimana pyramidal storeys ( talas ); stupi/shikhara octagonal cap hybrid; shorter vimana Enclosure usually none high walls, gopuram gateways, tank — Plan panchayatana ; garbhagriha, antarala, mandapa, ardha/maha mandapa garbhagriha, antarala, mandapa , Nandi mandapa , dvarapalas stellate plans (Hoysala) Sub schools Odisha/Kalinga ( deul , jagamohana , rekha/pidha/khakhara deul ; Lingaraja, Konark, Jagannath, Mukteshwar), Khajuraho/Chandela (Kandariya Mahadeva; sandstone; erotic panels; high jagati ), Solanki/Maru ",
+  "chars": 4626
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/pyqs",
+  "file": "fairs-festivals-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/pyqs/fairs-festivals-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fairs, Festivals & Heritage — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Fairs, Festivals & Heritage — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Match: A. Chapchar Kut — 1. Nagaland · B. Hornbill — 2. Mizoram · C. Wangala — 3. Meghalaya (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q2. Which of the following Bihu festivals marks the Assamese New Year in April? (a) Bhogali Bihu (b) Kongali Bihu (c) Rongali Bihu (d) Magh Bihu Q3. Consider the Kumbh Mela: 1. It is held at four places on three different rivers plus the Sangam. 2. It was inscribed on UNESCO's ICH list in 2017. 3. The Ujjain Kumbh is called Simhastha. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. The Sonepur mela of Bihar is famous as: (a) A camel fair (b) Asia's largest cattle fair (c) A tribal barter fair (d) A crafts fair Q5. Which of the following pairs is/are correctly matched? 1. Jonbeel mela — Assam, barter syst",
+  "chars": 2006
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short",
+  "file": "fairs-festivals-notes.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fairs, Festivals, Puppetry & Cultural Heritage — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Harvest & seasonal festivals (state map)"
+   },
+   {
+    "level": 2,
+    "text": "Fairs (melas)"
+   },
+   {
+    "level": 2,
+    "text": "Heritage institutions & tags"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Fairs, Festivals, Puppetry & Cultural Heritage — Prelims Fact Card Prelims GS I › History & Culture › Art & Culture. Festival–state–season matching, GI tags and heritage institutions. Harvest & seasonal festivals (state map) Makar Sankranti cluster (Jan 14–15): Pongal (TN; Bhogi, Thai/Surya, Mattu, Kaanum), Lohri (Punjab, day before), Bihu — Magh/Bhogali (Assam; also Rongali/Bohag Apr, Kati/Kongali Oct), Uttarayan kites (Gujarat), Makaravilakku (Sabarimala), Poush Sankranti (Bengal). Spring/new year (Apr): Baisakhi (Punjab; Khalsa 1699), Vishu (Kerala), Puthandu (TN), Poila Boishakh (Bengal), Bohag Bihu, Ugadi (AP/Karnataka), Gudi Padwa (Maharashtra), Cheti Chand (Sindhi), Navreh (Kashmir), Sajibu Cheiraoba (Manipur). Monsoon/autumn: Onam (Kerala; Mahabali; Vallamkali; Pookalam; Thiruvathira), Hornbill (Nagaland; Dec 1–10; Kisama), Nuakhai (Odisha), Wangala (Garo; 100 drums), Ka Pomblang",
+  "chars": 5630
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/pyqs",
+  "file": "music-dance-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/pyqs/music-dance-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Music, Dance & Theatre — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Music, Dance & Theatre — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which classical dance uses the tarangam , performed on the rim of a brass plate? (a) Odissi (b) Kuchipudi (c) Mohiniyattam (d) Sattriya Q2. Consider: 1. Sattriya was recognised as a classical dance in 2000. 2. It originated in the Vaishnava monasteries founded by Sankaradeva. 3. It is performed to the chenda and maddalam . (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match: A. Tholu Bommalata — 1. Rajasthan · B. Kathputli — 2. Andhra Pradesh · C. Ravanachhaya — 3. Odisha (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. The 72 melakarta scheme of Carnatic music was systematised by: (a) Purandara Dasa (b) Venkatamakhin (c) Tyagaraja (d) Bhatkhande Q5. Khayal as a Hindustani form is associated with the patronage of: (a) Akbar (b) Muhammad Shah",
+  "chars": 1770
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/music-dance/short",
+  "file": "music-dance-notes.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Music, Dance & Theatre Forms — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Classical dance (8 recognised by Sangeet Natak Akademi; Ministry lists 8 — Chhau is SNA-listed too)"
+   },
+   {
+    "level": 2,
+    "text": "Classical music"
+   },
+   {
+    "level": 2,
+    "text": "Theatre & folk drama"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Music, Dance & Theatre Forms — Prelims Fact Card Prelims GS I › History & Culture › Art & Culture. State–form–exponent matching plus instrument classification. Classical dance (8 recognised by Sangeet Natak Akademi; Ministry lists 8 — Chhau is SNA listed too) Dance State Text/tradition Hooks & exponents Bharatanatyam Tamil Nadu Natya Shastra , Abhinaya Darpana (Nandikeshvara) Sadir → revived by E. Krishna Iyer, Rukmini Devi Arundale (Kalakshetra 1936); Margam (alarippu → jatiswaram → shabdam → varnam → padam → tillana); ekaharya ; Balasaraswati, Padma Subrahmanyam, Alarmel Valli Kathak UP (Lucknow, Jaipur, Banaras gharanas) Kathakars, Bhakti (Raslila), Mughal courts tatkar , chakkars , gat , Wajid Ali Shah patron; Birju Maharaj, Sitara Devi, Shambhu Maharaj Kathakali Kerala Ramanattam , Krishnanattam male, masks like make up ( pacha green heroes, kathi , thadi , kari , minukku ); chenda,",
+  "chars": 5338
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/painting/pyqs",
+  "file": "painting-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/painting/pyqs/painting-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Painting — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Painting — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Ajanta murals were executed in the: (a) True fresco (buon fresco) technique (b) Tempera on dry plaster (c) Oil on canvas (d) Encaustic technique Q2. Bani Thani is a celebrated painting of the: (a) Bundi school (b) Kishangarh school (c) Kangra school (d) Mewar school Q3. Consider Mughal painting: 1. Ustad Mansur was famed for natural history studies under Jahangir. 2. The Hamzanama was commissioned by Shah Jahan. 3. Mir Sayyid Ali and Abdus Samad came with Humayun from Persia. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q4. Match: A. Warli — 1. Bihar · B. Madhubani — 2. Maharashtra · C. Gond — 3. Madhya Pradesh (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q5. The \"farther eye\" protruding beyond the face is a hallmark of: (a) Pala manuscripts (b) Western ",
+  "chars": 1643
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/painting/short",
+  "file": "painting-notes.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/painting/short-notes/painting-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Painting: Cave, Miniature, Mughal & Modern Schools — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Pre-historic & cave"
+   },
+   {
+    "level": 2,
+    "text": "Manuscript/miniature (east & west)"
+   },
+   {
+    "level": 2,
+    "text": "Mughal school"
+   },
+   {
+    "level": 2,
+    "text": "Rajasthani (Rajput) schools"
+   },
+   {
+    "level": 2,
+    "text": "Pahari schools"
+   },
+   {
+    "level": 2,
+    "text": "Company & Modern"
+   },
+   {
+    "level": 2,
+    "text": "Folk & tribal (GI-tagged mostly)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Painting: Cave, Miniature, Mughal & Modern Schools — Prelims Fact Card Prelims GS I › History & Culture › Art & Culture. School identification by patron/theme/palette; a favourite for \"consider the following\" questions. Pre historic & cave Bhimbetka (MP; Wakankar 1957; Mesolithic hunting scenes; UNESCO 2003). Ajanta (2nd BCE–6th CE; tempera/fresco secco on dry plaster; Padmapani & Vajrapani (cave 1), Dying Princess (16), Jataka narratives; Vakataka phase), Bagh (MP; Gupta; secular), Sittanavasal (TN; Pandya; Jain; lotus pond), Ellora (Kailasa ceiling), Badami (Chalukya Mangalesha, cave 3 — earliest Brahmanical), Lepakshi (Vijayanagara; Veerabhadra; no primary colours, black outlines), Armamalai, Jogimara (Chhattisgarh; earliest c. 1st BCE), Kerala murals (Mattancherry, Padmanabhapuram). Vishnudharmottara Purana ( Chitrasutra ; shadanga — six limbs of painting, cited via Vatsyayana). Manu",
+  "chars": 4592
+ },
+ {
   "nav": "prelims-gs1/history-culture/art-culture/pyqs",
   "file": "art-culture-prelims-pyqs.md",
   "rel": "content/prelims/gs1/history-culture/art-culture/pyqs/art-culture-prelims-pyqs.md",
@@ -6002,6 +8017,52 @@ window.SEARCH_DATA = [
   ],
   "text": "Art & Culture — Prelims PYQs Q1. Which of these classical dances draws from Sankardeva's Vaishnavite monasteries? (a) Manipuri (b) Sattriya (c) Odissi (d) Kathak Model answer: (b). Classical since 2000; ankia naats + borgeet core. Q2. The \"Bani Thani\" painting belongs to which school? (a) Bundi (b) Kishangarh (c) Kangra (d) Kangra Basohli hybrids Model answer: (b). Nihal Chand's iconic curvilinear portrait style, Kishangarh court (Rajasthan). Q3. Regarding manuscripts/scripts: 1. Kharoshthi was written right to left. 2. Brahmi was used in most Ashokan edicts. (a) 1 only (b) 2 only (c) Both (d) Neither Model answer: (c). Kharoshthi right to left (Gandhara region) vs Brahmi left to right — standard dual trap. Q4. UNESCO intangible heritage entry for Garba corresponds to which year? (a) 2017 (b) 2021 (c) 2023 (d) 2024 Model answer: (c). Sequencing anchors: Kumbh 2017, Durga Puja 2021, Garba",
   "chars": 2678
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/pyqs",
+  "file": "scriptures-languages-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/pyqs/scriptures-languages-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Scriptures, Languages & Literature — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Scriptures, Languages & Literature — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Tirukkural belongs to which corpus of Tamil literature? (a) Ettutogai (b) Pattuppattu (c) Padinenkilkanakku (d) Tirumurai Q2. Match: A. Rajatarangini — 1. Somadeva · B. Kathasaritsagara — 2. Kalhana · C. Harshacharita — 3. Banabhatta (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q3. Consider the Eighth Schedule: 1. It currently lists 22 languages. 2. English is one of them. 3. Bodo, Dogri, Maithili and Santali were added by the 92nd Amendment. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q4. Which of the following classical languages is NOT in the Eighth Schedule? (a) Odia (b) Malayalam (c) Prakrit (d) Kannada Q5. The Kharosthi script: 1. Was written right to left. 2. Was derived from Aramaic. 3. Was used in the Shahbazgarhi and Mans",
+  "chars": 1748
+ },
+ {
+  "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/short",
+  "file": "scriptures-languages-notes.md",
+  "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/short-notes/scriptures-languages-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Scriptures, Languages & Literature — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Religious & philosophical texts"
+   },
+   {
+    "level": 2,
+    "text": "Secular classics"
+   },
+   {
+    "level": 2,
+    "text": "Languages & scripts"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Scriptures, Languages & Literature — Prelims Fact Card Prelims GS I › History & Culture › Art & Culture. Text–author–language matching and the Eighth Schedule/classical language list. Religious & philosophical texts Vedic corpus (see Vedic card): Samhitas → Brahmanas → Aranyakas → Upanishads; Vedangas; Sutras (Shrauta, Grihya, Dharma — Gautama, Baudhayana, Apastamba, Vasishtha); Smritis — Manusmriti (c. 200 BCE–200 CE), Yajnavalkya (Mitakshara by Vijnaneshvara; Dayabhaga — Jimutavahana, Bengal), Narada, Parashara. Epics: Mahabharata (Vyasa; 18 parvas; Jaya 8,800 → Bharata 24,000 → 1,00,000 shatasahasri samhita ; Bhagavad Gita in Bhishma parva, 18 chapters, 700 shlokas), Ramayana (Valmiki; 7 kandas; 24,000 verses; adikavya ). Puranas (18 Maha; pancha lakshana — sarga, pratisarga, vamsha, manvantara, vamshanucharita; Vishnu, Bhagavata, Matsya (oldest), Vayu, Markandeya (Devi Mahatmya), Agn",
+  "chars": 8802
  },
  {
   "nav": "prelims-gs1/history-culture/art-culture/short",
@@ -6047,6 +8108,198 @@ window.SEARCH_DATA = [
   ],
   "text": "Art & Culture — Prelims Drill Sheet Speed pairing volume; overlaps mains indian heritage culture — that set carries the depth; this is the pairing grid. Temples ↔ dynasty ↔ state Kandariya Mahadeva — Chandela — MP (Khajuraho UNESCO) Lakshmana, Vishvanatha, Parshvanatha — Chandela — Khajuraho cluster Brihadisvara — Rajaraja I Chola — Thanjavur TN (UNESCO 1987 core) Gangaikonda Cholapuram — Rajendra I — TN Airavatesvara — Rajaraja II — Darasuram TN Shore temple, Pancha Rathas — Pallava — Mahabalipuram (Narasimhavarman I/II) Kailasa (cave 16) — Rashtrakuta Krishna I — Ellora MH Trimurti — Elephanta caves — MH (Kalachuri era attribution) Sun temple Konark — Narasimhadeva I E Ganga — Odisha (13th c.) Jagannath Puri — Eastern Ganga — Odisha Lingaraja — Somavamshi Kesari lineage — Bhubaneswar Hoysaleswara Halebidu, Chennakesava Belur — Hoysala — Karnataka (UNESCO 2023) Vithala & Virupaksha — Vi",
   "chars": 4776
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/pyqs",
+  "file": "delhi-sultanate-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/pyqs/delhi-sultanate-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Delhi Sultanate — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Delhi Sultanate — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Turkan i Chahalgani was: (a) Alauddin's market regulation (b) A corps of forty Turkish nobles created by Iltutmish (c) A Mongol frontier garrison (d) Firoz Tughlaq's slave department Q2. Consider Alauddin Khalji's military reforms: 1. Introduction of dagh and chehra 2. Payment of soldiers through iqta only 3. Maintenance of a large standing army paid in cash (a) 1 and 3 (b) 2 and 3 (c) 1 and 2 (d) 1, 2 and 3 Q3. Diwan i Kohi was a department of: (a) Charity (b) Agriculture (c) Slaves (d) Correspondence Q4. Which Sultan shifted two Ashokan pillars to Delhi? (a) Iltutmish (b) Alauddin Khalji (c) Firoz Shah Tughlaq (d) Sikandar Lodi Q5. Match: A. Tabaqat i Nasiri — 1. Barani · B. Tarikh i Firozshahi — 2. Minhaj us Siraj · C. Futuh us Salatin — 3. Isami (a) A 2 B 1 C 3 (b) A ",
+  "chars": 1827
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/short",
+  "file": "delhi-sultanate-notes.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/short-notes/delhi-sultanate-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Delhi Sultanate (1206–1526) — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Dynasties & rulers (five, in order)"
+   },
+   {
+    "level": 2,
+    "text": "Administration vocabulary"
+   },
+   {
+    "level": 2,
+    "text": "Culture & architecture"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Delhi Sultanate (1206–1526) — Prelims Fact Card Prelims GS I › History & Culture › Medieval History. Ruler–reform–monument matching plus a few economic administration terms. Dynasties & rulers (five, in order) Dynasty Years Rulers & hooks Mamluk / Slave 1206–90 Aibak (Qutb Minar begun, Quwwat ul Islam, Adhai din ka Jhonpra; died playing chaugan 1210) · Iltutmish (real founder; capital Lahore→Delhi; silver tanka & copper jital ; Iqta system; Chahalgani/Turkan i Chahalgani (40); mansab of Caliph 1229; completed Qutb Minar) · Raziya 1236–40 (first woman ruler; Yakut) · Balban (1266–87; Zil i Ilahi , sijda & paibos , Persian Nauroz ; blood and iron; crushed Chahalgani; Diwan i Arz military dept) Khalji 1290–1320 Jalaluddin · Alauddin (1296–1316) — market control ( Diwan i Riyasat , Shahna i Mandi ), first standing army with dagh (branding) & chehra (descriptive roll), land revenue 50% ( khar",
+  "chars": 3485
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs",
+  "file": "early-medieval-kingdoms-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/pyqs/early-medieval-kingdoms-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Rajputs, Palas & Cholas — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Rajputs, Palas & Cholas — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Kailasa temple at Ellora was built under the patronage of: (a) Chalukya Pulakeshin II (b) Rashtrakuta Krishna I (c) Chola Rajaraja I (d) Pallava Narasimhavarman Q2. The Uttaramerur inscriptions describing the kudavolai system belong to the reign of: (a) Rajaraja I (b) Rajendra I (c) Parantaka I (d) Kulottunga I Q3. Match: A. Somapura Mahavihara — 1. Dharmapala · B. Vikramashila — 2. Dharmapala · C. Odantapuri — 3. Gopala (a) A 1 B 2 C 3 (b) A 3 B 1 C 2 (c) A 2 B 3 C 1 (d) A 1 B 3 C 2 Q4. Consider: 1. Rajendra I led a naval expedition against the Srivijaya kingdom. 2. He assumed the title Gangaikonda after reaching the Ganga. (a) 1 only (b) 2 only (c) Both (d) Neither Q5. Which temple is associated with the Eastern Ganga ruler Narasimhadeva I? (a) Lingaraja (b) Jag",
+  "chars": 1851
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/short",
+  "file": "early-medieval-kingdoms-notes.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/short-notes/early-medieval-kingdoms-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Rajput Kingdoms, Palas & Cholas (c. 750–1200) — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Tripartite struggle for Kannauj (8th–9th c.)"
+   },
+   {
+    "level": 2,
+    "text": "Rajput clans"
+   },
+   {
+    "level": 2,
+    "text": "Cholas (imperial phase 850–1279)"
+   },
+   {
+    "level": 2,
+    "text": "Other south"
+   },
+   {
+    "level": 2,
+    "text": "Arab & Turkish contact"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Rajput Kingdoms, Palas & Cholas (c. 750–1200) — Prelims Fact Card Prelims GS I › History & Culture › Medieval History. Dynasty–capital–founder–monument matching is the pattern. Tripartite struggle for Kannauj (8th–9th c.) Palas (Bengal Bihar; Gopala elected c. 750; Dharmapala — Vikramashila, Somapura/Paharpur; Devapala — Nalanda patron; Buddhist), Pratiharas (Nagabhata I repelled Arabs; Mihira Bhoja ; Kannauj capital; Al Masudi calls them Al Juzr), Rashtrakutas (Dantidurga; Krishna I — Kailasa temple Ellora ; Amoghavarsha — Kavirajamarga , Manyakheta; Govinda III; Indra III sacked Kannauj 916). Rajput clans Chauhans/Chahamanas (Ajmer Delhi; Prithviraj III — Tarain 1191 win, 1192 loss; Prithviraj Raso Chand Bardai), Chandelas (Khajuraho; Kandariya Mahadeva c. 1030; Vidyadhara vs Mahmud), Paramaras (Malwa; Bhoja — Bhojpur, Bhojshala, Samarangana Sutradhara ), Solankis/Chaulukyas (Gujarat; ",
+  "chars": 2972
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs",
+  "file": "marathas-vijayanagara-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/pyqs/marathas-vijayanagara-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Vijayanagara, Bahmani & Marathas — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Vijayanagara, Bahmani & Marathas — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Arrange the Vijayanagara dynasties in order: 1. Tuluva 2. Saluva 3. Aravidu 4. Sangama (a) 4 2 1 3 (b) 4 1 2 3 (c) 2 4 1 3 (d) 4 2 3 1 Q2. The Persian envoy Abdur Razzaq visited Vijayanagara during the reign of: (a) Harihara II (b) Deva Raya II (c) Krishnadeva Raya (d) Achyuta Raya Q3. Amuktamalyada , composed by Krishnadeva Raya, is a work in: (a) Sanskrit (b) Kannada (c) Telugu (d) Tamil Q4. Which Deccan Sultanate did NOT join the coalition at Talikota (1565)? (a) Bijapur (b) Golconda (c) Ahmednagar (d) Berar Q5. Mahmud Gawan is associated with: (a) Vijayanagara (b) Bahmani kingdom (c) Bijapur (d) Golconda Q6. In Shivaji's Ashtapradhan, the Sumant was responsible for: (a) Finance (b) Foreign affairs (c) Justice (d) Religious matters Q7. Consider: 1. Chauth ",
+  "chars": 1703
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/short",
+  "file": "marathas-vijayanagara-notes.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/short-notes/marathas-vijayanagara-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Vijayanagara, Bahmani & Maratha Kingdoms — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Vijayanagara (1336–1646)"
+   },
+   {
+    "level": 2,
+    "text": "Bahmani (1347–1527) & Deccan Sultanates"
+   },
+   {
+    "level": 2,
+    "text": "Marathas"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Vijayanagara, Bahmani & Maratha Kingdoms — Prelims Fact Card Prelims GS I › History & Culture › Medieval History. Dynasties, travellers, battles, and Maratha administrative terms. Vijayanagara (1336–1646) Founded 1336 by Harihara & Bukka (Sangama; guru Vidyaranya); capital Hampi (Tungabhadra). Four dynasties: Sangama (1336–1485; Deva Raya II — \"Gajabetekara\", Turkish archers, Abdur Razzaq visit 1443) → Saluva (1485–1505; Narasimha) → Tuluva (1505–70; Krishnadeva Raya 1509–29 — Amuktamalyada (Telugu), Jambavati Kalyanam (Sanskrit), Ashtadiggajas (Allasani Peddana — Andhra Kavita Pitamaha), Raichur 1520, Hazara Rama & Vitthala temples, Krishnapura; Portuguese Domingo Paes, Duarte Barbosa; Nuniz under Achyuta Raya) → Aravidu (1570–1646; Penukonda, Chandragiri, Vellore). Talikota/Rakshasi Tangadi 1565 — Rama Raya killed by Deccan Sultanate coalition (Bijapur, Ahmednagar, Golconda, Bidar; Ber",
+  "chars": 3996
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/pyqs",
+  "file": "mughal-empire-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/pyqs/mughal-empire-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Mughal Empire — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Mughal Empire — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Ain i Dahsala revenue system was formulated by: (a) Bairam Khan (b) Todar Mal (c) Abul Fazl (d) Mir Fathullah Shirazi Q2. Consider: 1. Akbar abolished jizya in 1564. 2. Aurangzeb reimposed it in 1679. 3. Jahangir abolished the pilgrim tax. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. The du aspa sih aspa rank was introduced by: (a) Akbar (b) Jahangir (c) Shah Jahan (d) Aurangzeb Q4. Pietra dura inlay work first appears on a large scale in: (a) Humayun's tomb (b) Itimad ud Daula's tomb (c) Taj Mahal (d) Akbar's tomb at Sikandra Q5. Match: A. Razmnama — 1. Dara Shukoh · B. Sirr i Akbar — 2. Persian Mahabharata · C. Muntakhab ut Tawarikh — 3. Badauni (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q6. The Battle of Samugarh (1658) was fought between: ",
+  "chars": 1729
+ },
+ {
+  "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/short",
+  "file": "mughal-empire-notes.md",
+  "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/short-notes/mughal-empire-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Mughal Empire (1526–1707) — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Rulers & battles"
+   },
+   {
+    "level": 2,
+    "text": "Administration terms"
+   },
+   {
+    "level": 2,
+    "text": "Culture"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Mughal Empire (1526–1707) — Prelims Fact Card Prelims GS I › History & Culture › Medieval History. Battles, buildings, books and revenue terms — the four B R pillars. Rulers & battles Babur (1526–30): Panipat I 21 Apr 1526 ( tulughma , araba ; Ibrahim Lodi), Khanwa 1527 (Rana Sanga; jihad , tamgha abolished), Chanderi 1528, Ghaghra 1529; Baburnama (Turki); Kabuli Bagh mosque Panipat. Humayun (1530–40, 1555–56): Chausa 1539 & Kannauj 1540 vs Sher Shah; regained Delhi 1555 (Machhiwara, Sirhind); died 1556 (library fall); Gulbadan's Humayunnama ; Dinpanah. Sur interregnum (1540–55): Sher Shah — rupiya (178 grains), dam , Grand Trunk Road repair & sarais, patta qabuliyat , land measurement ( sikandari gaz , zabt seeds), Purana Qila, Sasaram tomb, Rohtasgarh; died Kalinjar 1545; Tarikh i Sher Shahi (Abbas Khan Sarwani). Akbar (1556–1605): Panipat II 1556 (Hemu; Bairam Khan regent till 1560), ",
+  "chars": 3750
  },
  {
   "nav": "prelims-gs1/history-culture/medieval-history/pyqs",
@@ -6115,6 +8368,206 @@ window.SEARCH_DATA = [
   "chars": 6890
  },
  {
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/pyqs",
+  "file": "constitutional-development-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/pyqs/constitutional-development-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Constitutional Development — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which Act designated the Governor General of Bengal as the Governor General of India? (a) Regulating Act 1773 (b) Charter Act 1833 (c) Charter Act 1853 (d) GoI Act 1858 Q2. Consider: 1. The Charter Act of 1853 introduced open competition for the civil services. 2. The same Act fixed the Company's charter for another 20 years. (a) 1 only (b) 2 only (c) Both (d) Neither Q3. The portfolio system in the Governor General's council was introduced under: (a) Indian Councils Act 1861 (b) Indian Councils Act 1892 (c) Indian Councils Act 1909 (d) GoI Act 1919 Q4. The first Indian to join the Viceroy's Executive Council was: (a) Sir Dinkar Rao (b) Satyendra Prasad Sinha (c) Tej Bahadur Sapru (d) Srinivasa Sastri Q5. Which of the following was introduced by the GoI Act 1919? 1",
+  "chars": 2022
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/short",
+  "file": "constitutional-development-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/short-notes/constitutional-development-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Development & Government of India Acts — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Company rule (1773–1853)"
+   },
+   {
+    "level": 2,
+    "text": "Crown rule (1858–1947)"
+   },
+   {
+    "level": 2,
+    "text": "Franchise & representation ladder"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Constitutional Development & Government of India Acts — Prelims Fact Card Prelims GS I › History & Culture › Modern History (also feeds Polity). \"Which Act introduced X?\" — this card is the answer bank. Company rule (1773–1853) Act Key provisions Regulating Act 1773 Governor of Bengal → Governor General of Bengal (Warren Hastings) with 4 member council; Supreme Court at Calcutta 1774 (Impey); Company servants barred from private trade; Court of Directors to report revenue/civil/military affairs Amending Act 1781 (Act of Settlement) Governor General & council exempted from SC jurisdiction for official acts Pitt's India Act 1784 Board of Control (political) + Court of Directors (commercial) — \"double government\"; territories first called \"British possessions in India\" Act of 1786 Cornwallis could override council; GG also C in C Charter Act 1793 20 year charter renewal; salaries from India",
+  "chars": 3703
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/pyqs",
+  "file": "east-india-company-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/pyqs/east-india-company-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans & EIC — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Advent of Europeans & EIC — Practice MCQs 8 original prelims pattern questions (statement, sequence, match). Key with one line reasoning at the end. Q1. Arrange in chronological order of establishing a settlement in India: 1. Dutch 2. Danes 3. French 4. Portuguese (a) 4 1 2 3 (b) 4 1 3 2 (c) 1 4 2 3 (d) 4 2 1 3 Q2. Consider the statements about the Treaty of Allahabad (1765): 1. It granted the Diwani of Bengal, Bihar and Orissa to the Company. 2. It was signed with Siraj ud Daulah. 3. Kora and Allahabad were given to Shah Alam II. Which are correct? (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. The \"Dual Government\" of Bengal was abolished by: (a) Robert Clive (b) Warren Hastings (c) Cornwallis (d) Wellesley Q4. Which of the following was annexed by Dalhousie on grounds of misgovernance rather than the Doctrine of Lapse? (a) Jhansi (b) Satara (c) Awadh (d) Nagpur Q5. Match the l",
+  "chars": 2255
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/east-india-company/short",
+  "file": "east-india-company-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/short-notes/east-india-company-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Advent of Europeans & East India Company (1757–1857) — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Arrival sequence (the classic ordering question)"
+   },
+   {
+    "level": 2,
+    "text": "Bengal: from trader to ruler"
+   },
+   {
+    "level": 2,
+    "text": "Expansion wars & instruments"
+   },
+   {
+    "level": 2,
+    "text": "Land-revenue systems"
+   },
+   {
+    "level": 2,
+    "text": "Regulating framework (Acts you must sequence)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Advent of Europeans & East India Company (1757–1857) — Prelims Fact Card Prelims GS I › History & Culture › Modern History. Dedicated leaf card; the branch pack is ../../short notes/modern history prelims revision.md and the practice set is ../pyqs/east india company mcqs.md . Arrival sequence (the classic ordering question) Portuguese 1498 (Vasco da Gama, Calicut; Cochin factory 1503; Goa captured by Albuquerque 1510) → Dutch 1602 VOC (Masulipatnam 1605, Pulicat; defeated at Bedara 1759) → English EIC charter 31 Dec 1600 (Surat factory 1613; Madras 1639; Bombay 1668 from Charles II; Calcutta 1690 Job Charnock) → Danes 1616 (Tranquebar, Serampore) → French 1664 (Surat 1668, Pondicherry 1674 by François Martin). Carnatic Wars: I (1746–48, Aix la Chapelle) · II (1749–54, Dupleix recalled) · III (1758–63, Wandiwash 1760 , Paris 1763 — French reduced to trading posts). Bengal: from trader to",
+  "chars": 3147
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs",
+  "file": "gandhian-era-1919-1947-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/pyqs/gandhian-era-1919-1947-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era 1919–1947 — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Gandhian Era 1919–1947 — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Non Cooperation programme was ratified with a new Congress constitution at the: (a) Calcutta special session 1920 (b) Nagpur session 1920 (c) Ahmedabad session 1921 (d) Gaya session 1922 Q2. Which session adopted the resolution on Fundamental Rights and National Economic Programme? (a) Lahore 1929 (b) Karachi 1931 (c) Faizpur 1936 (d) Haripura 1938 Q3. Consider the statements on the Poona Pact (1932): 1. It replaced separate electorates for depressed classes with reserved seats under joint electorates. 2. It was signed between Gandhi and Jinnah. (a) 1 only (b) 2 only (c) Both (d) Neither Q4. Arrange chronologically: 1. Cripps Mission 2. August Offer 3. Quit India 4. Individual Satyagraha (a) 2 4 1 3 (b) 4 2 1 3 (c) 2 1 4 3 (d) 1 2 4 3 Q5. The parallel \"Jatiya Sarka",
+  "chars": 1960
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/short",
+  "file": "gandhian-era-1919-1947-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/short-notes/gandhian-era-1919-1947-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Gandhian Era 1919–1947 — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "1919–1922: Khilafat & Non-Cooperation"
+   },
+   {
+    "level": 2,
+    "text": "1927–1931: Simon to Gandhi–Irwin"
+   },
+   {
+    "level": 2,
+    "text": "1932–1939: Communal Award to war"
+   },
+   {
+    "level": 2,
+    "text": "1940–1947: Endgame"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Gandhian Era 1919–1947 — Prelims Fact Card Prelims GS I › History & Culture › Modern History. The dense timeline questions come from here; memorise the year to event ladder. 1919–1922: Khilafat & Non Cooperation Khilafat Committee 1919 (Ali brothers, Maulana Azad); All India Khilafat Conference Nov 1919 Delhi; Gandhi president. Non Cooperation adopted at Calcutta special session Sept 1920 (Lala Lajpat Rai), confirmed Nagpur Dec 1920 (C. Vijayaraghavachariar) — new Congress constitution, PCCs on linguistic basis, 4 anna membership. Programme: boycott of titles, courts, schools, councils, foreign cloth; Tilak Swaraj Fund (₹1 crore); national institutions (Jamia Millia, Kashi Vidyapeeth, Gujarat Vidyapeeth). Chauri Chaura 5 Feb 1922 → Bardoli resolution 12 Feb withdraws; Gandhi tried March 1922 (Judge Broomfield, 6 years). Swaraj Party 1923 (C.R. Das president, Motilal Nehru secretary; Gaya",
+  "chars": 3695
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/pyqs",
+  "file": "national-movement-1885-1919-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/pyqs/national-movement-1885-1919-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement 1885–1919 — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "National Movement 1885–1919 — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The first session of the Indian National Congress (1885) was presided over by: (a) A.O. Hume (b) W.C. Bonnerjee (c) Dadabhai Naoroji (d) Badruddin Tyabji Q2. Consider: 1. The Surat split of 1907 occurred under the presidency of Rash Behari Ghosh. 2. The Moderates and Extremists reunited at the Lucknow session of 1916. (a) 1 only (b) 2 only (c) Both (d) Neither Q3. The \"Drain of Wealth\" theory is most closely associated with: (a) R.C. Dutt (b) Dadabhai Naoroji (c) M.G. Ranade (d) G.K. Gokhale Q4. Arrange chronologically: 1. Partition of Bengal 2. Founding of Muslim League 3. Morley Minto Reforms 4. Ghadar Party (a) 1 2 3 4 (b) 2 1 3 4 (c) 1 3 2 4 (d) 1 2 4 3 Q5. Which of the following Home Rule League statements is correct? (a) Besant's League was founded before Ti",
+  "chars": 2048
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/short",
+  "file": "national-movement-1885-1919-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/short-notes/national-movement-1885-1919-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "National Movement 1885–1919: Moderates, Extremists & Early Gandhi — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Pre-Congress associations"
+   },
+   {
+    "level": 2,
+    "text": "Congress founding & sessions"
+   },
+   {
+    "level": 2,
+    "text": "Moderate phase 1885–1905 — methods & economic critique"
+   },
+   {
+    "level": 2,
+    "text": "Extremist phase 1905–1919"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "National Movement 1885–1919: Moderates, Extremists & Early Gandhi — Prelims Fact Card Prelims GS I › History & Culture › Modern History. Session president and year event matching is the exam's favourite here. Pre Congress associations Landholders' Society 1838 · British Indian Association 1851 (Calcutta) · East India Association 1866 London (Naoroji) · Poona Sarvajanik Sabha 1870 (Ranade, Joshi) · Indian Association 1876 (S.N. Banerjea, Anandamohan Bose) · Madras Mahajan Sabha 1884 · Bombay Presidency Association 1885. Ilbert Bill controversy 1883 (Ripon) → \"white mutiny\" → lesson in organisation. Congress founding & sessions 28 Dec 1885 , Gokuldas Tejpal Sanskrit College, Bombay; 72 delegates; W.C. Bonnerjee president; A.O. Hume general secretary. Firsts: Badruddin Tyabji (1887 Madras, first Muslim) · George Yule (1888, first Englishman) · Annie Besant (1917 Calcutta, first woman) · Sar",
+  "chars": 3231
+ },
+ {
   "nav": "prelims-gs1/history-culture/modern-history/pyqs",
   "file": "modern-history-prelims-pyqs.md",
   "rel": "content/prelims/gs1/history-culture/modern-history/pyqs/modern-history-prelims-pyqs.md",
@@ -6126,6 +8579,64 @@ window.SEARCH_DATA = [
   ],
   "text": "Modern History — Prelims PYQs Pairs with short notes/socio religious reform quick.md in this folder. Pattern faithful MCQs. Q1. The correct chronological order is: (a) Regulating Act → Charter Act 1833 → Pitts India Act → Act of 1858 (b) Pitts India Act → Regulating Act → Charter Act 1833 → Act of 1858 (c) Regulating Act → Pitts India Act → Charter Act 1833 → Act of 1858 (d) Charter Act 1833 → Regulating Act → Pitts India Act → Act of 1858 Model answer: (c). 1773 Regulating → 1784 Pitt's → 1833 Charter → 1858 Crown takeover. Q2. Permanent Settlement (1793) was implemented by: (a) Cornwallis (b) Wellesley (c) Hastings (d) Bentinck Model answer: (a). Bengal Bihar Orissa zamindari freeze; contrast with Ryotwari (Munro/Read) & Mahalwari. Q3. [PYQ pattern] The Ilbert Bill controversy (1883) concerned: (a) European judges over Indian subjects (b) Indian judges over European subjects (c) Press ",
   "chars": 2628
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/pyqs",
+  "file": "revolt-1857-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/pyqs/revolt-1857-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Revolt of 1857 — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Revolt of 1857 — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following pairs is/are correctly matched? 1. Lucknow — Begum Hazrat Mahal · 2. Bareilly — Khan Bahadur Khan · 3. Arrah — Maulvi Ahmadullah (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The General Service Enlistment Act (1856) is associated with the Revolt because it: (a) Cut the bhatta of sepoys serving in Sindh (b) Required new recruits to serve overseas if ordered (c) Introduced the greased cartridges (d) Barred Brahmins from the Bengal Army Q3. Consider the statements: 1. Bahadur Shah Zafar was tried and exiled to Rangoon. 2. Tantia Tope was captured due to betrayal by Man Singh and executed in 1859. (a) 1 only (b) 2 only (c) Both (d) Neither Q4. After the Revolt, the ratio of European to Indian troops in the Bengal Army was fixed at: (a) 1:1 (b) 1:2 ",
+  "chars": 2190
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/short",
+  "file": "revolt-1857-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/short-notes/revolt-1857-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Revolt of 1857 & Aftermath — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Trigger & spread"
+   },
+   {
+    "level": 2,
+    "text": "Centres and leaders (high-yield match)"
+   },
+   {
+    "level": 2,
+    "text": "Who stayed aloof"
+   },
+   {
+    "level": 2,
+    "text": "Causes checklist"
+   },
+   {
+    "level": 2,
+    "text": "Aftermath — institutional redesign"
+   },
+   {
+    "level": 2,
+    "text": "Interpretations (names only, for match questions)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Revolt of 1857 & Aftermath — Prelims Fact Card Prelims GS I › History & Culture › Modern History. Mains depth notes exist under mains/gs 1 heritage geography society/modern history/revolt 1857/ ; this card is the MCQ precision layer. Trigger & spread Immediate spark: greased cartridges of the Enfield P 53 rifle ; Mangal Pandey , 34th BNI, Barrackpore, 29 March 1857 . Outbreak 10 May 1857 Meerut (3rd Light Cavalry) → Delhi 11 May → Bahadur Shah Zafar proclaimed emperor. Not a mutiny alone: peasants, taluqdars of Awadh, artisans; half of Bengal Army's sepoys were from Awadh/NWP. Centres and leaders (high yield match) Centre Indian leader British suppressor Delhi Bahadur Shah II, Gen. Bakht Khan John Nicholson, Hudson (captured Zafar) Kanpur Nana Saheb, Tantia Tope, Azimullah Khan Colin Campbell Lucknow Begum Hazrat Mahal (son Birjis Qadr) Havelock, Outram, Campbell Jhansi Rani Lakshmibai H",
+  "chars": 3213
  },
  {
   "nav": "prelims-gs1/history-culture/modern-history/short",
@@ -6163,6 +8674,248 @@ window.SEARCH_DATA = [
   ],
   "text": "Socio Religious Reform Movements — Quick Prelims Notes The big picture Reform movements (19th–early 20th c.) responded to colonial modernity + missionary criticism. Two strands: reformist (within tradition) and revivalist (assert tradition). Reformist (liberal, often western educated founders) Movement Founder Year Key points Brahmo Samaj Rammohan Roy 1828 Against sati, idolatry, caste; monotheism; \"father of Indian renaissance\" Young Bengal Henry Vivian Derozio 1820s Radical rationalism; free thinking; The Bengal Gazette Prarthana Samaj Dadoba Pandurang / Atmaram Pandurang 1867 Bombay; theistic worship, social reform; M. G. Ranade joined Aligarh Movement Sir Syed Ahmed Khan 1875 MAO College (Aligarh); modern education for Muslims; Tahzib ul Akhlaq Theosophical Society H. P. Blavatsky & Col. Olcott (India: Annie Besant) 1875 / 1882 Revive Hindu/Buddhist spirituality; Besant → Home Rule L",
   "chars": 2462
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/pyqs",
+  "file": "socio-religious-reforms-mcqs.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/pyqs/socio-religious-reforms-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reforms — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Socio Religious Reforms — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. Match: A. Satyashodhak Samaj — 1. Dadoba Pandurang · B. Paramahansa Mandali — 2. Jyotiba Phule · C. Prarthana Samaj — 3. Atmaram Pandurang (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 2 B 3 C 1 (d) A 3 B 1 C 2 Q2. The Sadharan Brahmo Samaj (1878) was formed after a split caused by: (a) Debendranath's rejection of Vedic infallibility (b) Keshab Chandra Sen marrying his minor daughter to the Cooch Behar prince (c) Rammohan Roy's death (d) The Age of Consent Act Q3. Which Act fixed the minimum age of marriage at 14 for girls and 18 for boys? (a) Native Marriage Act 1872 (b) Age of Consent Act 1891 (c) Sarda Act 1929 (d) Special Marriage Act 1954 Q4. Consider: 1. Arya Samaj was founded at Lahore in 1875. 2. The DAV movement and the Gurukul Kangri represented rival wings within A",
+  "chars": 2256
+ },
+ {
+  "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short",
+  "file": "socio-religious-reforms-notes.md",
+  "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/short-notes/socio-religious-reforms-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Socio-Religious Reform Movements — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Founders, years, places (the match bank)"
+   },
+   {
+    "level": 2,
+    "text": "Legislation ladder"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Socio Religious Reform Movements — Prelims Fact Card Prelims GS I › History & Culture › Modern History. Match the founder questions dominate; this card is built for that. Founders, years, places (the match bank) Movement / body Founder Year · Place Hook Atmiya Sabha Rammohan Roy 1815 Calcutta precursor to Brahmo Brahmo Sabha / Samaj Rammohan Roy 1828 Calcutta Sati abolished 1829 (Bentinck, Regulation XVII) Tattvabodhini Sabha Debendranath Tagore 1839 joined Brahmo 1843 Brahmo Samaj of India Keshab Chandra Sen 1866 split; Adi Brahmo (Debendranath) Sadharan Brahmo Samaj Anandamohan Bose, Shivnath Shastri 1878 after Cooch Behar marriage Young Bengal Henry Vivian Derozio 1820s Hindu College radicals Dharma Sabha Radhakanta Deb 1830 orthodox, opposed Sati abolition Paramahansa Mandali Dadoba Pandurang 1849 Bombay secret Prarthana Samaj Atmaram Pandurang (Keshab's influence) 1867 Bombay Ranade",
+  "chars": 3275
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs",
+  "file": "amendments-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Amendments & Landmark Judgements — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Amendments & Landmark Judgements — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the procedure under Article 368: 1. A Constitution Amendment Bill can be introduced only in the Lok Sabha. 2. There is no provision for a joint sitting in case of disagreement between the Houses. 3. State legislatures must ratify within six months where ratification is required. (a) 1 and 2 (b) 2 only (c) 2 and 3 (d) 1, 2 and 3 Q2. Which of the following can be amended by a simple majority of Parliament outside Article 368? 1. Formation of new states (Art 3) 2. Abolition of legislative councils (Art 169) 3. Fundamental Rights 4. Fifth Schedule (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q3. Match the amendment with its subject: A. 61st — 1. Anti defection · B. 52nd — 2. Voting age 18 · C. 91st — 3. Council of Ministers capped at 15% ",
+  "chars": 2947
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/short",
+  "file": "amendments-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/short-notes/amendments-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Amendments & Landmark Judgements — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Procedure (Art 368, Part XX; South Africa model)"
+   },
+   {
+    "level": 2,
+    "text": "Amendments to remember (year — theme)"
+   },
+   {
+    "level": 2,
+    "text": "Landmark cases ladder (name → principle)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Amendments & Landmark Judgements — Prelims Fact Card Prelims GS I › Polity › Constitution. Amendment procedure, the \"must know\" amendments list (106 as of 2025), and a case law ladder. Procedure (Art 368, Part XX; South Africa model) Bill in either House (not state legislature); by minister or private member; no prior Presidential recommendation ; passed in each House separately by special majority (majority of total membership + ≥2/3 present & voting); no joint sitting ; President must assent (24th Amdt 1971); for federal provisions — ratification by ≥half the state legislatures by simple majority (no time limit; states can't amend). Three routes: (i) simple majority (outside 368) — Arts 2, 3, 4 (states), 169 (legislative councils), 5th & 6th Schedule paras, citizenship, salaries, quorum, English use, SC judges number, etc.; (ii) special majority — FRs, DPSP, most provisions; (iii) spec",
+  "chars": 8781
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/pyqs",
+  "file": "federal-structure-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs/federal-structure-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Federal Structure & Centre–State Relations — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Federal Structure & Centre–State Relations — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Under Article 249, Parliament can legislate on a State List subject if: (a) The Lok Sabha passes a resolution by two thirds majority (b) The Rajya Sabha passes a resolution by two thirds of members present and voting (c) Two or more states request it (d) The President issues an ordinance Q2. Consider Article 252: 1. Parliament legislates on a State List matter at the request of two or more state legislatures. 2. Such a law applies only to the requesting states and any state that later adopts it. 3. The state legislatures may amend or repeal the law. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match the timeline with the emergency: A. Approval within one month by special majority — 1. Article 360 · B. Approval within two months by simple ",
+  "chars": 3191
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short",
+  "file": "federal-structure-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/short-notes/federal-structure-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Federal Structure & Centre–State Relations — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Federal features vs unitary bias"
+   },
+   {
+    "level": 2,
+    "text": "Legislative relations (Part XI, Arts 245–255)"
+   },
+   {
+    "level": 2,
+    "text": "Administrative relations (Part XI, Arts 256–263)"
+   },
+   {
+    "level": 2,
+    "text": "Financial relations (Part XII, Arts 264–293)"
+   },
+   {
+    "level": 2,
+    "text": "Emergency provisions (Part XVIII, Arts 352–360)"
+   },
+   {
+    "level": 2,
+    "text": "Inter-state relations & bodies"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Federal Structure & Centre–State Relations — Prelims Fact Card Prelims GS I › Polity › Constitution. Legislative/administrative/financial relations, emergency provisions, inter state bodies and the federalism cases. Federal features vs unitary bias Federal: dual polity, written Constitution, division of powers (7th Schedule), supremacy of Constitution, rigidity (368 proviso), independent judiciary, bicameralism. Unitary: strong Centre, single Constitution (J&K exception ended 2019), single citizenship, flexibility, integrated judiciary, All India Services (312), emergency provisions, Governor as Centre's agent, states' unequal RS representation, Parliament can alter state boundaries (Art 3 — states' views only, not consent; Presidential recommendation needed), integrated election machinery/audit, veto over state bills (200/201), Art 249/252/253, residuary with Centre (248; Entry 97). \"In",
+  "chars": 17471
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
+  "file": "fundamental-rights-dpsp-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fundamental Rights, DPSP & Duties — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Fundamental Rights, DPSP & Duties — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following Fundamental Rights is available to foreigners as well as citizens? (a) Article 15 (b) Article 16 (c) Article 19 (d) Article 21 Q2. Consider Article 20: 1. Protection against ex post facto laws applies to civil liabilities also. 2. Protection against double jeopardy is available only in proceedings before a court or judicial tribunal. 3. Protection against self incrimination extends to compulsory production of material objects. (a) 1 only (b) 2 only (c) 1 and 3 (d) 2 and 3 Q3. The writ of quo warranto : 1. Can be sought only by the aggrieved person. 2. Is issued to examine the legality of a person's claim to a public office. 3. Cannot be issued against a private office. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Under Artic",
+  "chars": 3003
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short",
+  "file": "fundamental-rights-dpsp-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/short-notes/fundamental-rights-dpsp-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Fundamental Rights, DPSP & Fundamental Duties — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Fundamental Rights (Part III, Arts 12–35; \"Magna Carta of India\"; originally 7 — property removed by 44th (1978) → Art 300A legal right)"
+   },
+   {
+    "level": 2,
+    "text": "Directive Principles (Part IV, Arts 36–51; Ireland; non-justiciable Art 37 but \"fundamental in governance\"; \"novel features\" — Ambedkar; \"cheque payable at convenience\" — K.T. Shah; \"manifesto of aims\" — Austin \"conscience\")"
+   },
+   {
+    "level": 2,
+    "text": "Fundamental Duties (Part IVA, Art 51A; 42nd 1976 — Swaran Singh Committee (recommended 8); 10 duties; 11th by 86th 2002; USSR; non-justiciable; citizens only)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Fundamental Rights, DPSP & Fundamental Duties — Prelims Fact Card Prelims GS I › Polity › Constitution. Article level precision on Part III, IV and IVA plus the landmark case anchors. Fundamental Rights (Part III, Arts 12–35; \"Magna Carta of India\"; originally 7 — property removed by 44th (1978) → Art 300A legal right) Art 12 State (includes local & \"other authorities\" — statutory bodies, PSUs; judiciary in administrative capacity; BCCI not State); Art 13 judicial review (laws inconsistent void; \"law\" includes ordinances, bye laws, customs; constitutional amendments excluded per 13(4) — 24th Amdt, but subject to basic structure). Equality (14–18) : 14 equality before law (negative, UK) & equal protection (positive, USA) — reasonable classification test (intelligible differentia + rational nexus), exceptions (President/Governor Art 361, MPs 105, foreign sovereigns); 15 no discrimination o",
+  "chars": 10657
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/pyqs",
+  "file": "making-features-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs/making-features-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Making of the Constitution & Preamble — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Making of the Constitution & Preamble — Practice MCQs 8 original prelims pattern questions; key with one line reasoning at the end. Q1. The Constituent Assembly's first meeting was held on 9 December 1946 under the temporary chairmanship of: (a) Rajendra Prasad (b) Sachchidananda Sinha (c) B.N. Rau (d) H.C. Mukherjee Q2. Consider the Objectives Resolution: 1. It was moved by Jawaharlal Nehru on 13 December 1946. 2. It was adopted on 22 January 1947. 3. Its modified version forms the Preamble. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match the borrowed feature with its source: A. Directive Principles — 1. Australia · B. Concurrent List — 2. Ireland · C. Procedure established by law — 3. Japan (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C 1 Q4. Which words were added to the Preamble by the 42nd Amendment (1976)? (a) Sovereign, Democratic, Republic (b) Socialis",
+  "chars": 2109
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/short",
+  "file": "making-features-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/short-notes/making-features-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Making of the Constitution, Preamble & Basic Features — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Constituent Assembly"
+   },
+   {
+    "level": 2,
+    "text": "Sources (borrowed features)"
+   },
+   {
+    "level": 2,
+    "text": "Preamble (42nd Amendment 1976 added Socialist, Secular, Integrity — only amendment so far)"
+   },
+   {
+    "level": 2,
+    "text": "Salient features"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Making of the Constitution, Preamble & Basic Features — Prelims Fact Card Prelims GS I › Polity › Constitution. Dates, committees, sources and Preamble keywords — the highest frequency polity block. Constituent Assembly Idea: M.N. Roy 1934; Congress demand 1935; August Offer 1940 accepted principle; Cabinet Mission May 1946 — framework: 389 members (296 British India — provinces 292 + chief commissioners' provinces 4; 93 princely states); indirect election by provincial assemblies (proportional representation, single transferable vote); seats by population 1:10 lakh; communities — Muslims, Sikhs, General. Elections July–Aug 1946: Congress 208, League 73, others 15. After partition: 299 members (229 provinces + 70 states). First meeting 9 Dec 1946 (League boycott); Sachchidananda Sinha temporary president; Rajendra Prasad elected president 11 Dec 1946; H.C. Mukherjee & V.T. Krishnamachari",
+  "chars": 9507
  },
  {
   "nav": "prelims-gs1/polity-governance/constitution/short",
@@ -6206,6 +8959,198 @@ window.SEARCH_DATA = [
   "chars": 4539
  },
  {
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs",
+  "file": "constitutional-bodies-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Bodies — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Constitutional Bodies — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Under the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023, the selection committee consists of: (a) The Prime Minister, the Chief Justice of India and the Leader of Opposition in the Lok Sabha (b) The Prime Minister, a Union Cabinet Minister nominated by the PM and the Leader of Opposition in the Lok Sabha (c) The President, the Vice President and the Speaker (d) The Prime Minister, the Home Minister and the Law Minister Q2. Consider the Election Commission of India: 1. It conducts elections to the offices of President and Vice President. 2. It conducts elections to Panchayats and Municipalities. 3. Election Commissioners can be removed only on the recommendation of the Chief Election Commis",
+  "chars": 3750
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short",
+  "file": "constitutional-bodies-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/short-notes/constitutional-bodies-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Constitutional Bodies — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Comparison table"
+   },
+   {
+    "level": 2,
+    "text": "Election Commission (Art 324–329)"
+   },
+   {
+    "level": 2,
+    "text": "UPSC & SPSC (Arts 315–323)"
+   },
+   {
+    "level": 2,
+    "text": "Finance Commission (Art 280) — see federal-structure card; CAG (Art 148–151)"
+   },
+   {
+    "level": 2,
+    "text": "National Commissions (338/338A/338B), Linguistic minorities, others"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Constitutional Bodies — Prelims Fact Card Prelims GS I › Polity › Governance. Election Commission, UPSC/SPSC, Finance Commission, CAG, AG, NCSC/NCST/NCBC, Special Officer for Linguistic Minorities, GST Council, and a comparison table. Comparison table Body Article Composition Appointed by Tenure Removal Election Commission 324 CEC + 2 ECs (multi member since 1993; 1989–90 briefly) President — 2023 Act: PM + Union Minister + LoP committee (Search committee: Law Minister + 2 secretaries) 6 yrs or 65 CEC like SC judge (special majority); ECs on CEC's recommendation UPSC 315–323 Chairman + members (≤11; half with 10 yrs govt service) President 6 yrs or 65 President on SC inquiry (misbehaviour) or directly (insolvent, paid employment, infirmity) SPSC 315 Chairman + members Governor 6 yrs or 62 President (same grounds) Finance Commission 280 Chairman + 4 President as specified — CAG 148–151 si",
+  "chars": 14890
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/pyqs",
+  "file": "e-governance-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs/e-governance-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "E-Governance & Digital Public Infrastructure — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "E Governance & Digital Public Infrastructure — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the Digital Personal Data Protection Act, 2023: 1. It applies to personal data collected in digital form or digitised later. 2. The Data Protection Board of India can impose penalties of up to ₹250 crore for failure to take reasonable security safeguards. 3. It mandates that all personal data of Indians be stored only in India. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. Which of the following are Section 8 (not for profit) companies? 1. National Payments Corporation of India 2. Open Network for Digital Commerce 3. Goods and Services Tax Network 4. Unique Identification Authority of India (a) 1, 2 and 3 (b) 1 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q3. Match the institution with its parent: A. CERT In — 1. Ministry of Electroni",
+  "chars": 3568
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/short",
+  "file": "e-governance-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/short-notes/e-governance-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "E-Governance & Digital Public Infrastructure — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Evolution & models"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "E Governance & Digital Public Infrastructure — Prelims Fact Card Prelims GS I › Polity › Governance. Digital India pillars, India Stack/DPI, key platforms, data laws (DPDP, IT Rules), cyber security institutions and current numbers. Evolution & models NIC 1976; NICNET 1987; National e Governance Plan 2006 (27 → 31 MMPs) ; IT Act 2000 (amended 2008 — s 66A struck 2015 Shreya Singhal; s 69A blocking upheld; s 79 intermediary safe harbour); Digital India 1 July 2015 (9 pillars — broadband highways, universal mobile, public internet access, e governance reform, e Kranti, information for all, electronics manufacturing, IT for jobs, early harvest; ₹15,000 cr; extended to 2026 ₹14,903 cr); e Kranti (44 MMPs); Models — G2C, G2B, G2G, G2E ; Stages (Gartner) — presence, interaction, transaction, transformation ; SMART governance (Simple, Moral, Accountable, Responsive, Transparent — 2nd ARC 11th r",
+  "chars": 12061
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs",
+  "file": "local-govt-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Local Government — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Local Government — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following provisions of the 73rd Amendment are compulsory for states? 1. Reservation of one third of seats for women 2. Reservation of seats for Other Backward Classes 3. Constitution of a State Finance Commission every five years 4. Endowing Panchayats with powers to levy taxes (a) 1 and 3 (b) 1, 2 and 3 (c) 2 and 4 (d) 1, 3 and 4 Q2. The State Election Commissioner can be removed from office: (a) By the Governor at his pleasure (b) In the same manner and on the same grounds as a judge of a High Court (c) By a resolution of the state legislature by simple majority (d) By the Chief Election Commissioner Q3. Consider the Panchayats (Extension to the Scheduled Areas) Act, 1996: 1. It applies to the Fifth Schedule areas of ten states. 2. Every Panchayat in a Sched",
+  "chars": 3202
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/short",
+  "file": "local-govt-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/short-notes/local-govt-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Local Government — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Evolution"
+   },
+   {
+    "level": 2,
+    "text": "73rd Amendment — Part IX (Arts 243–243O) + 11th Schedule (29 subjects)"
+   },
+   {
+    "level": 2,
+    "text": "74th Amendment — Part IXA (Arts 243P–243ZG) + 12th Schedule (18)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Local Government — Prelims Fact Card Prelims GS I › Polity › Governance. Panchayati Raj (73rd), Municipalities (74th), PESA, Schedule areas, urban governance, and the numbers examiners love. Evolution Rig vedic sabha/samiti; Chola kudavolai (Uttaramerur inscription — Parantaka I 920 CE); Mughal kotwal; Lord Ripon 1882 — \"Magna Carta of local self government\" ; Mayo 1870 resolution; Royal Commission on Decentralisation 1907 (Hobhouse); Montagu Chelmsford 1919 (transferred subject); GoI Act 1935 (provincial autonomy); Art 40 DPSP ; Gandhi's Gram Swaraj; Community Development Programme 1952 (2 Oct) , National Extension Service 1953 → Balwant Rai Mehta 1957 (3 tier; \"democratic decentralisation\"; Rajasthan Nagaur 2 Oct 1959 first (Nehru); Andhra second) ; Ashok Mehta 1978 (2 tier — zila parishad + mandal panchayat; party based; constitutional recognition; Nyaya Panchayats) ; G.V.K. Rao 1985 ",
+  "chars": 11790
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/pyqs",
+  "file": "schemes-policies-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs/schemes-policies-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Government Schemes & Policies — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Government Schemes & Policies — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider PM KISAN: 1. It is a Centrally Sponsored Scheme with 60:40 funding. 2. It provides ₹6,000 per year in three equal instalments. 3. It is implemented by the Ministry of Rural Development. (a) 2 only (b) 1 and 2 (c) 2 and 3 (d) 1, 2 and 3 Q2. Under the Pradhan Mantri Fasal Bima Yojana, the maximum premium payable by farmers for kharif food crops is: (a) 1.5% of the sum insured (b) 2% of the sum insured (c) 5% of the sum insured (d) 10% of the sum insured Q3. Match the scheme with the ministry: A. PM Vishwakarma — 1. Ministry of Micro, Small and Medium Enterprises · B. PM KUSUM — 2. Ministry of New and Renewable Energy · C. SVAMITVA — 3. Ministry of Panchayati Raj (a) A 1 B 2 C 3 (b) A 2 B 1 C 3 (c) A 1 B 3 C 2 (d) A 3 B 2 C 1 Q4. Consider the National Foo",
+  "chars": 3198
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/short",
+  "file": "schemes-policies-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/short-notes/schemes-policies-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Government Schemes & Policies — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Rural development, employment & livelihoods"
+   },
+   {
+    "level": 2,
+    "text": "Agriculture & food"
+   },
+   {
+    "level": 2,
+    "text": "Health & education"
+   },
+   {
+    "level": 2,
+    "text": "Finance, inclusion, infrastructure, welfare"
+   },
+   {
+    "level": 2,
+    "text": "How to remember funding patterns"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Government Schemes & Policies — Prelims Fact Card Prelims GS I › Polity › Governance. Ministry wise flagship schemes with launch year, target group, funding pattern and the one detail UPSC tests. Rural development, employment & livelihoods Scheme Year Ministry Testable detail MGNREGA 2005 (Act; 2 Feb 2006 Anantapur) Rural Dev 100 days legal guarantee; unemployment allowance; 60:40 wage:material at GP level; wage 90:10 Centre; social audit s 17; ABPS mandatory 2024; NMMS app; 2025–26 BE ₹86,000 cr; VB G RAM G Act Dec 2025 replaces it — 125 days; 60:40 cost sharing; 60 day pause during agri season DAY NRLM 2011 RD 10 cr women in 91 lakh SHGs (2025); Lakhpati Didi (1 cr achieved; target 3 cr) ; Drone Didi (15,000); Bank Sakhi PMAY G 2016 RD 2.95 cr + 2 cr new (2024–29); ₹1.2 lakh plain / ₹1.3 lakh hilly; 60:40; Awaas+ 2024 survey PMGSY 2000 RD PMGSY IV (2024–29): 25,000 habitations, 62,500 ",
+  "chars": 16863
+ },
+ {
   "nav": "prelims-gs1/polity-governance/governance/short",
   "file": "governance-prelims.md",
   "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.md",
@@ -6241,6 +9186,178 @@ window.SEARCH_DATA = [
   ],
   "text": "Governance, Bodies & Schemes — Prelims Revision Constitutional vs statutory vs executive (the ever green table) Constitutional : Election Commission (Art 324) · UPSC/SPSCs (315–323) · CAG (148) · Finance Commission (280) · GST Council (279A) · AG (76)/Advocate General (165) · NCSC (338) · NCST (338A) · NCBC (338B) · Inter State Council (263) · Zonal Councils (statutory! States Reorganisation Act 1956 — perennial trap) · Scheduled Areas machinery (5th/6th Sched; Tribes Advisory Council 244; DPCs). Statutory : NHRC (Protection of Human Rights Act 1993) · NCPCR (CPCR Act 2005) · NCW (1990 Act) · NCBC origin (pre 2018 statutory) · Lokpal (Lokpal & Lokayuktas Act 2013) · CIC/SIC (RTI 2005) · CVC (2003) · NGT (2010) · CCI (2002 Act) · NALSA (1987 Act) · UIDAI (Aadhaar Act 2016) · UGC/AICTE (statutory respective) · TRAI · SEBI(1992) · IRDAI · RBI (statutory 1934) · ARCs (SARFAESI lineage). Exec",
   "chars": 4470
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/pyqs",
+  "file": "statutory-bodies-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs/statutory-bodies-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Statutory, Regulatory & Quasi-Judicial Bodies — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Statutory, Regulatory & Quasi Judicial Bodies — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the National Human Rights Commission: 1. Its chairperson must be a retired Chief Justice of India. 2. The chairpersons of the National Commission for Backward Classes and the National Commission for Protection of Child Rights are deemed members. 3. It can inquire into a matter more than one year after the alleged violation. (a) 1 and 2 (b) 2 only (c) 2 and 3 (d) 1, 2 and 3 Q2. Match the appointment committee with the office: A. PM, Leader of Opposition, CJI or his nominee — 1. Central Vigilance Commissioner · B. PM, Home Minister, Leader of Opposition — 2. Director, CBI · C. PM, Leader of Opposition, a Union Cabinet Minister nominated by PM — 3. Chief Information Commissioner (a) A 2 B 1 C 3 (b) A 1 B 2 C 3 (c) A 3 B 1 C 2 (d) A 2 B 3 C",
+  "chars": 3991
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short",
+  "file": "statutory-bodies-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/short-notes/statutory-bodies-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Statutory, Regulatory & Quasi-Judicial Bodies — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Master table"
+   },
+   {
+    "level": 2,
+    "text": "Ombudsman & accountability architecture"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Statutory, Regulatory & Quasi Judicial Bodies — Prelims Fact Card Prelims GS I › Polity › Governance. NHRC, CIC, CVC, CBI, Lokpal, NCW/NCM/NCPCR, NITI Aayog and the sectoral regulators — who created them, who heads them, what they can and cannot do. Master table Body Basis Year Head / composition Key facts NHRC Protection of Human Rights Act 1993 (amended 2006, 2019) 1993 Chair: ex CJI or ex SC judge (2019); 5 members + 7 ex officio (NCM, NCSC, NCST, NCW, NCBC, NCPCR, CC Disabilities); 3 yrs/70 Recommendatory; 1 year limitation; armed forces — only Union report; Justice V. Ramasubramanian chair (Dec 2024); GANHRI accreditation deferred 2023 SHRC same — Chair ex HC CJ or HC judge (2019) appointed by Governor (committee), removed by President CIC RTI Act 2005 2005 CIC + ≤10 ICs; term & salary by Centre ( 2019 Amdt — 3 yrs) Committee: PM, LoP, Union Minister; Heeralal Samariya CIC (Nov 2023",
+  "chars": 14378
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs",
+  "file": "bilateral-ties-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "India's Bilateral Relations — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "India's Bilateral Relations — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Under the Indus Waters Treaty (1960): 1. India has unrestricted use of the waters of the Ravi, Beas and Sutlej. 2. Pakistan has rights over the Indus, Jhelum and Chenab, subject to India's limited non consumptive uses. 3. The treaty was brokered by the United Nations. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. Match the port with the country: A. Chabahar — 1. Iran · B. Sittwe — 2. Myanmar · C. Hambantota — 3. Sri Lanka · D. Duqm — 4. Oman (a) A 1 B 2 C 3 D 4 (b) A 2 B 1 C 3 D 4 (c) A 1 B 3 C 2 D 4 (d) A 4 B 2 C 3 D 1 Q3. Which of the following \"foundational\" defence agreements has India signed with the United States? 1. LEMOA 2. COMCASA 3. BECA 4. AUKUS (a) 1, 2 and 3 (b) 1 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q4. Consider the India–Bangladesh Land ",
+  "chars": 2885
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short",
+  "file": "bilateral-ties-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/short-notes/bilateral-ties-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "India's Bilateral Relations — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Neighbourhood"
+   },
+   {
+    "level": 2,
+    "text": "Major powers & key partners"
+   },
+   {
+    "level": 2,
+    "text": "Exercises quick list (bilateral)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "India's Bilateral Relations — Prelims Fact Card Prelims GS I › Polity › International Relations (prelims relevant facts). Neighbourhood, major powers, key agreements, exercises, and 2024–25 developments. Neighbourhood Country Testable facts Pakistan Simla 1972; Lahore 1999; LoC 740 km; IB; Sir Creek; IWT 1960 (World Bank; Indus, Jhelum, Chenab to Pak; Ravi, Beas, Sutlej to India; held in abeyance 23 Apr 2025 after Pahalgam; Court of Arbitration June 2025 'supplemental award' rejected by India; neutral expert Kishenganga/Ratle) ; Kartarpur corridor 2019 (suspended May 2025); Operation Sindoor 7–10 May 2025 (9 terror sites; ceasefire 10 May; Pak Op Bunyan um Marsoos) ; Pahalgam 22 Apr 2025 (26 killed; TRF — US FTO July 2025); trade suspended (Attari); MFN withdrawn 2019; no cricket bilateral; SAARC stalled since 2016; Shehbaz Sharif PM; Asim Munir Field Marshal (May 2025); Pak–Saudi Strate",
+  "chars": 22780
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs",
+  "file": "global-groups-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Global Groupings, Reports & Indices — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Global Groupings, Reports & Indices — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following countries is NOT a member of the Regional Comprehensive Economic Partnership (RCEP)? (a) Japan (b) Australia (c) India (d) New Zealand Q2. Consider the Colombo Security Conclave: 1. Its members are India, Sri Lanka, Maldives, Mauritius and Bangladesh. 2. Seychelles participates as an observer. 3. Its secretariat is located in New Delhi. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Match the report with its publisher: A. Global Hunger Index — 1. Concern Worldwide & Welthungerhilfe · B. Global Innovation Index — 2. WIPO · C. Global Gender Gap Report — 3. World Economic Forum · D. World Investment Report — 4. UNCTAD (a) A 1 B 2 C 3 D 4 (b) A 2 B 1 C 3 D 4 (c) A 1 B 3 C 2 D 4 (d) A 4 B 2 C 3 D 1 Q4. Which of the following are ",
+  "chars": 2613
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short",
+  "file": "global-groups-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/short-notes/global-groups-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Global Groupings, Reports & Indices — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Membership cheat-sheet"
+   },
+   {
+    "level": 2,
+    "text": "Reports → publisher (memorise)"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Global Groupings, Reports & Indices — Prelims Fact Card Prelims GS I › Polity › International Relations. \"Which country is NOT a member\" style facts: membership lists of groupings, who publishes which report/index, and India's latest ranks. Membership cheat sheet Grouping Members (count) Non members often used as traps G7 US, UK, France, Germany, Italy, Canada, Japan (+EU) Russia (out 2014), China, India (invitee) G20 G7 + Argentina, Australia, Brazil, China, India, Indonesia, Mexico, Russia, Saudi, South Africa, South Korea, Türkiye + EU + AU (2023) Spain (permanent guest), Nigeria, Egypt, Iran BRICS (10) Brazil, Russia, India, China, South Africa, Egypt, Ethiopia, Iran, UAE, Indonesia Saudi (undecided), Argentina (declined), Türkiye (partner invited) SCO (10) China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, India, Pakistan, Iran (2023), Belarus (2024) Afghanistan/Mongolia",
+  "chars": 12792
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/pyqs",
+  "file": "multilateral-forums-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs/multilateral-forums-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Multilateral Forums & International Organisations — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Multilateral Forums & International Organisations — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Match the organisation with its headquarters: A. International Solar Alliance — 1. Gurugram · B. Coalition for Disaster Resilient Infrastructure — 2. New Delhi · C. Indian Ocean Rim Association — 3. Ebène, Mauritius · D. BIMSTEC — 4. Dhaka (a) A 1 B 2 C 3 D 4 (b) A 2 B 1 C 3 D 4 (c) A 1 B 2 C 4 D 3 (d) A 2 B 1 C 4 D 3 Q2. India is a member of which of the following export control regimes? 1. Missile Technology Control Regime 2. Wassenaar Arrangement 3. Australia Group 4. Nuclear Suppliers Group (a) 1, 2 and 3 (b) 1 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q3. Consider BRICS as of 2025: 1. Indonesia became a full member in January 2025. 2. Saudi Arabia has formally completed its accession as a full member. 3. India holds the BRICS chairship in ",
+  "chars": 3015
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short",
+  "file": "multilateral-forums-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Multilateral Forums & International Organisations — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "United Nations system"
+   },
+   {
+    "level": 2,
+    "text": "Bretton Woods, trade & finance"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Multilateral Forums & International Organisations — Prelims Fact Card Prelims GS I › Polity › International Relations. UN system, Bretton Woods, WTO, regional/plurilateral forums and India's membership status — a HQ/year/head table plus 2024–25 summits. United Nations system Body HQ Est. Head (2025) India facts UN New York 24 Oct 1945 (51 founders; 193 members; South Sudan 2011 last) SG António Guterres (till Dec 2026; selection 2026) India founding member; UNGA President 2025–26 Annalena Baerbock ; UN80 reforms; UNSC reform (G4 — India, Japan, Germany, Brazil; L.69; IGN; UfC opposes); India UNSC non permanent 8 times (last 2021–22; candidate 2028–29) UNSC New York 1945 rotating presidency P5 + 10 (2 yrs); 2025 elected: Bahrain, Colombia, DRC, Latvia, Liberia (2026–27); 1267 Committee (TRF designation blocked by China; Pahalgam statement Apr 2025); Resolution 2758 ECOSOC NY 1945 54 membe",
+  "chars": 23727
  },
  {
   "nav": "prelims-gs1/polity-governance/international-relations/short",
@@ -6282,6 +9399,164 @@ window.SEARCH_DATA = [
   ],
   "text": "International Relations — Prelims Revision UN system drill Founding 1945 (Charter signed San Francisco June; in force 24 Oct); 6 principal organs : GA, UNSC, ECOSOC, Trusteeship Council, ICJ (The Hague), Secretariat. UNSC = 15 members : P5 (US, UK, France, Russia, China) with veto + 10 elected for 2 year terms (regional slots: Africa 3, Asia Pacific 2, Latin America 2, WEOG 2, Eastern Europe 1). India terms: most recent 2021 22 (8th). GA resolutions non binding (except budget/internal); UNGA 2023 themes etc; UNSC reform groups: G4 (India, Germany, Japan, Brazil), L.69 (developing bloc), Coffee Club/Uniting for Consensus (Italy, Pakistan etc). Agencies location pairing: UNESCO Paris · UNICEF NY · WHO Geneva · FAO Rome · ILO Geneva · IAEA Vienna · WMO Geneva · IMO London · ICAO Montreal · UPU Bern (oldest level) · ITU Geneva · UNIDO Vienna · WIPO Geneva · IFAD Rome. Global financial eco bo",
   "chars": 5234
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/pyqs",
+  "file": "executive-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs/executive-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Union & State Executive — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Union & State Executive — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Who among the following participate in the election of the President of India? 1. Nominated members of the Rajya Sabha 2. Elected members of the Legislative Assembly of Puducherry 3. Members of Legislative Councils 4. Elected members of the Lok Sabha (a) 2 and 4 (b) 1, 2 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. Consider the impeachment of the President: 1. The charge must be signed by at least one fourth of the members of the House initiating it. 2. The resolution must be passed by two thirds of the members present and voting. 3. Nominated members of Parliament can participate in the process. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. The pardoning power of the Governor under Article 161 differs from that of the President under Article 72 in that the Go",
+  "chars": 4035
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/short",
+  "file": "executive-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/short-notes/executive-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Union & State Executive — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "President (Arts 52–62, 72–78)"
+   },
+   {
+    "level": 2,
+    "text": "Vice-President (Arts 63–71)"
+   },
+   {
+    "level": 2,
+    "text": "Prime Minister & Council of Ministers (Arts 74–75)"
+   },
+   {
+    "level": 2,
+    "text": "Governor (Arts 153–162, 200–201, 213)"
+   },
+   {
+    "level": 2,
+    "text": "Chief Minister, State CoM, Advocate General"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Union & State Executive — Prelims Fact Card Prelims GS I › Polity › Organs of Government. President, Vice President, PM & Council of Ministers, Attorney General; Governor, CM, Advocate General. President (Arts 52–62, 72–78) Election (Art 54/55): electoral college — elected MPs + elected MLAs of states + Delhi & Puducherry (70th Amdt 1992; the J&K UT assembly is not included unless Art 54 is amended; Ladakh has no legislature) — no nominated members, no MLCs; proportional representation by single transferable vote, secret ballot ; uniformity & parity — MLA vote = state population (1971 census till 2026) ÷ (elected MLAs × 1000); MP vote = total MLA votes ÷ elected MPs (2022 value 700 ; 2017 708); quota = (valid votes ÷ 2) + 1; disputes → SC (Art 71) ; election can't be challenged on vacancies in college; nomination — 50 proposers + 50 seconders, ₹15,000 deposit; qualifications — citizen, 3",
+  "chars": 14465
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs",
+  "file": "judiciary-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Judiciary — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Judiciary — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the qualifications for a judge of the Supreme Court: 1. A person must be at least 45 years of age. 2. A distinguished jurist in the opinion of the President is eligible. 3. Five years as a High Court judge or ten years as a High Court advocate qualifies a person. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The original and exclusive jurisdiction of the Supreme Court under Article 131 does NOT extend to: 1. Inter state river water disputes 2. Matters referred to the Finance Commission 3. A dispute between the Union and a state over the Union's borrowing limits imposed on the state (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. With reference to writ jurisdiction: 1. Article 226 empowers High Courts to issue writs for enforcement of Fundamental Rights and",
+  "chars": 3524
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short",
+  "file": "judiciary-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/short-notes/judiciary-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Judiciary — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Supreme Court (Part V ch IV, Arts 124–147)"
+   },
+   {
+    "level": 2,
+    "text": "High Courts (Part VI ch V, Arts 214–231)"
+   },
+   {
+    "level": 2,
+    "text": "Tribunals & other adjudicators"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Judiciary — Prelims Fact Card Prelims GS I › Polity › Organs of Government. Supreme Court, High Courts, subordinate courts, tribunals, judicial review, PIL and the collegium. Supreme Court (Part V ch IV, Arts 124–147) Strength 34 (CJI + 33; Supreme Court (Number of Judges) Amendment Act 2019; originally 1+7); appointment by President (Art 124(2)) after consultation → collegium (CJI + 4 senior most for SC; CJI + 2 for HC; Second Judges 1993, Third 1998 ; NJAC (99th Amdt) struck 2015 — 4:1 ; MoP pending); qualifications — citizen; HC judge 5 yrs / HC advocate 10 yrs / distinguished jurist (never appointed); no minimum age; oath by President; retire 65 (HC 62) ; resignation to President; removal — Art 124(4) — \"proved misbehaviour or incapacity\"; Judges (Inquiry) Act 1968 — motion 100 LS/50 RS members; Speaker/Chairman admits; 3 member committee (SC judge, HC CJ, jurist); special majority b",
+  "chars": 15391
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/pyqs",
+  "file": "parliament-mcqs.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs/parliament-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Parliament — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Parliament — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about a joint sitting of Parliament: 1. It can be summoned to resolve a deadlock over a Money Bill. 2. It is presided over by the Speaker of the Lok Sabha. 3. Only three joint sittings have been held so far. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. Which of the following bills lapse on the dissolution of the Lok Sabha? 1. A bill pending in the Rajya Sabha that has not been passed by the Lok Sabha. 2. A bill passed by the Lok Sabha and pending in the Rajya Sabha. 3. A bill passed by both Houses and awaiting the President's assent. (a) 1 only (b) 2 only (c) 1 and 2 (d) 2 and 3 Q3. Consider the Rajya Sabha: 1. Its members are elected by the elected members of state legislative assemblies by proportional representation with a single tra",
+  "chars": 4085
+ },
+ {
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/short",
+  "file": "parliament-notes.md",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/short-notes/parliament-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Parliament — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Composition (Part V, Arts 79–122)"
+   },
+   {
+    "level": 2,
+    "text": "Officers"
+   },
+   {
+    "level": 2,
+    "text": "Sessions & devices"
+   },
+   {
+    "level": 2,
+    "text": "Legislation"
+   },
+   {
+    "level": 2,
+    "text": "Financial procedure"
+   },
+   {
+    "level": 2,
+    "text": "Privileges, immunities, misc"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Parliament — Prelims Fact Card Prelims GS I › Polity › Organs of Government. Composition, officers, sessions, bills, budget, committees, privileges and anti defection. Composition (Part V, Arts 79–122) Parliament = President + RS + LS (Art 79). LS : max 550 (530 states + 20 UTs; Art 81) — Anglo Indian nomination (Art 331) ended by 104th Amdt 2020 ; current strength 543 ; term 5 yrs (dissolvable); seats frozen on 1971 census till first census after 2026 (84th); readjustment on 2001 census (87th) within states. RS : max 250 (238 elected + 12 nominated — literature, science, art, social service); current 245 (233 + 12); permanent , 1/3 retire every 2 yrs; term 6 yrs (RPA 1951, not Constitution); elected by state MLAs by proportional representation — single transferable vote , open ballot (2003); domicile requirement removed 2003 (Kuldip Nayar 2006 upheld); UP 31, MH & TN 19, WB 16, Bihar 16",
+  "chars": 16343
  },
  {
   "nav": "prelims-gs1/polity-governance/organs-govt/short",
@@ -6403,6 +9678,52 @@ window.SEARCH_DATA = [
   "chars": 3850
  },
  {
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs",
+  "file": "physics-chem-bio-mcqs.md",
+  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Everyday Physics, Chemistry & Biology — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Everyday Physics, Chemistry & Biology — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Which of the following phenomena are explained by total internal reflection? 1. Mirage on a hot road 2. Working of optical fibres 3. Blue colour of the sky 4. Brilliance of a cut diamond (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q2. Aquatic life survives in frozen lakes during winter because: (a) Ice is a good conductor of heat (b) Water has maximum density at 4 °C, so the coldest water and ice stay at the surface (c) Fish generate their own heat (d) Dissolved salts lower the freezing point to −10 °C Q3. An induction cooktop will NOT heat a vessel made of: (a) Cast iron (b) Stainless steel with a magnetic base (c) Aluminium (d) Enamelled steel Q4. Consider the following statements about nuclear reactors: 1. Heavy water acts as a modera",
+  "chars": 2935
+ },
+ {
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/short",
+  "file": "physics-chem-bio-notes.md",
+  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/short-notes/physics-chem-bio-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Everyday Physics, Chemistry & Biology — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Physics in daily life"
+   },
+   {
+    "level": 2,
+    "text": "Chemistry in daily life"
+   },
+   {
+    "level": 2,
+    "text": "Biology & human body"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Everyday Physics, Chemistry & Biology — Prelims Fact Card Prelims GS I › Science & Technology › Basic Science. NCERT level concepts that UPSC frames as application questions (why does something happen), plus the human body and disease facts that recur. Physics in daily life Light : refraction — twinkling of stars, apparent depth, mirage (total internal reflection + hot air density gradient), rainbow (dispersion + TIR in raindrops; primary 42°, secondary reversed colours), blue sky (Rayleigh scattering ∝ 1/λ⁴), red sunsets (longer path), white clouds (Mie scattering), danger signals red (least scattered); optical fibre (TIR); lenses — myopia (concave; eye too long), hypermetropia (convex), presbyopia (bifocal), astigmatism (cylindrical); LASER (coherent), LED (electroluminescence; blue LED Nobel 2014); polarisation (sunglasses, 3 D films); diffraction (CD colours); interference (soap bubb",
+  "chars": 36862
+ },
+ {
   "nav": "prelims-gs1/science-tech/basic-science/short",
   "file": "basic-science-prelims.md",
   "rel": "content/prelims/gs1/science-tech/basic-science/short-notes/basic-science-prelims.md",
@@ -6430,6 +9751,144 @@ window.SEARCH_DATA = [
   ],
   "text": "Basic Science — Prelims Drill Physics quicks Laws/statements pairing: Newton's 1st inertia (Galileo attribution) · 2nd F=ma · 3rd action reaction · Archimedes (buoyancy) · Bernoulli (lift principle misuse caution) · Pascal (hydraulic press) · Ohm V=IR · Faraday (induction) · Lenz (direction) · Kepler (planetary) · Titius Bode· Doppler (ambulance pitch) · Steffan Boltzman (radiation) · Planck Einstein photon E=hν · photoelectric (Einstein Nobel 1921). Instrument purpose: pyrometer (high temperatures), sphygmomanometer (BP), altimeter, anemometer (wind speed), Fathometer (ocean depth echo), odometer, tachometer (rpm), hydrometer (relative density of liquids; NOT hygrometer — humidity), lactometer (milk), audiometer, galvanometer vs ammeter vs voltmeter vs potentiometer. Units: SI base 7 (m, kg, s, A, K, mol, cd); derived staples (N=kg·m/s², J, W, Pa, Hz, C, V, Ω, S, F, T, Wb, H); knots (na",
   "chars": 4337
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs",
+  "file": "ai-it-mcqs.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "AI, IT, Semiconductors & Quantum — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "AI, IT, Semiconductors & Quantum — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about the IndiaAI Mission: 1. It was approved by the Union Cabinet in March 2024 with an outlay of over ₹10,000 crore. 2. One of its pillars is the creation of a shared compute facility of graphics processing units. 3. It is implemented by the Department of Science and Technology. Which are correct? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The Nobel Prize in Physics 2024 was awarded for: (a) The discovery of attosecond pulses of light (b) Foundational discoveries enabling machine learning with artificial neural networks (c) Experiments with entangled photons (d) Macroscopic quantum tunnelling in electric circuits Q3. Consider the following statements about the Telecommunications Act, 2023: 1. It repeals the Ind",
+  "chars": 3817
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short",
+  "file": "ai-it-notes.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/short-notes/ai-it-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "AI, IT, Semiconductors & Quantum — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Artificial intelligence"
+   },
+   {
+    "level": 2,
+    "text": "IT, telecom & cyber"
+   },
+   {
+    "level": 2,
+    "text": "Semiconductors"
+   },
+   {
+    "level": 2,
+    "text": "Quantum"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "AI, IT, Semiconductors & Quantum — Prelims Fact Card Prelims GS I › Science & Technology › Emerging Technologies. Concepts, India's missions and laws, and the global developments that feed prelims questions. Artificial intelligence Concepts : AI ⊃ machine learning ⊃ deep learning (neural networks — Hinton/Hopfield Nobel Physics 2024; LeCun/Bengio/Hinton Turing 2018); supervised/unsupervised/reinforcement learning (Barto & Sutton Turing 2024); transformers (2017 'Attention is all you need') ; large language models — GPT 4o/GPT 5 (OpenAI Aug 2025), Gemini 2.5/3 (Google), Claude 4 (Anthropic), Llama 4 (Meta — open weights), Grok 4 (xAI), DeepSeek R1 (China Jan 2025 — low cost reasoning shock), Qwen (Alibaba), Kimi, Mistral (France); generative AI (text, image — DALL E/Midjourney/Stable Diffusion; video — Sora/Veo 3; voice); hallucination ; RAG ; fine tuning ; parameters/tokens ; agentic AI ",
+  "chars": 35860
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs",
+  "file": "biotech-health-mcqs.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biotechnology & Health Technologies — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Biotechnology & Health Technologies — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. Consider the following statements about CRISPR Cas9: 1. It is derived from a bacterial adaptive immune system. 2. A guide RNA directs the Cas9 enzyme to the target DNA sequence. 3. Base editing requires a double strand break in DNA. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q2. The first genome edited rice varieties released in India in 2025, DRR Dhan 100 (Kamala) and Pusa DST Rice 1, were developed using: (a) Transgenic insertion of Bt genes (b) Site directed nuclease (SDN 1/SDN 2) editing without foreign DNA (c) Marker assisted backcrossing (d) Mutation breeding with gamma rays Q3. Which of the following genetically modified crops are commercially cultivated in India as of 2025? 1. Bt cotton 2. Bt brinjal 3. GM mustard DMH 11 4. Golden rice (a)",
+  "chars": 3510
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short",
+  "file": "biotech-health-notes.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/short-notes/biotech-health-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Biotechnology & Health Technologies — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Gene editing & genomics"
+   },
+   {
+    "level": 2,
+    "text": "GM crops & agri-biotech"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Biotechnology & Health Technologies — Prelims Fact Card Prelims GS I › Science & Technology › Emerging Technologies. Gene editing, genomics, GM crops, vaccines/therapeutics platforms, and India's biotech policy and institutions. Gene editing & genomics CRISPR Cas9 (Doudna & Charpentier — Nobel Chemistry 2020; bacterial immune system; guide RNA + Cas9 nuclease → double strand break → NHEJ (knock out) or HDR (knock in)); variants — Cas12, Cas13 (RNA), base editing (single letter, no cut — David Liu), prime editing , epigenome editing ; Casgevy (exa cel; Vertex/CRISPR Tx) — first approved CRISPR therapy (UK Nov 2023; US Dec 2023) for sickle cell & β thalassaemia; ₹ 25 crore ; first personalised CRISPR (baby KJ — CPS1 deficiency, Philadelphia May 2025 — in vivo base editing) ; India: BIRSA 101 (sickle cell gene editing therapy — CSIR IGIB; first Indian CRISPR trial at CMC Vellore 2025); FELU",
+  "chars": 16763
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/pyqs",
+  "file": "defence-nuclear-mcqs.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs/defence-nuclear-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Defence, Missiles & Nuclear Technology — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Defence, Missiles & Nuclear Technology — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. \"Mission Divyastra\" conducted in March 2024 refers to: (a) India's first test of an anti satellite weapon (b) The first flight test of Agni V with multiple independently targetable re entry vehicles (c) The maiden launch of a K 4 submarine launched missile (d) The induction of the S 400 system Q2. Consider the following pairs of missiles and their categories: 1. Pralay — tactical quasi ballistic missile 2. Astra — beyond visual range air to air missile 3. Rudram — anti ship cruise missile 4. Nirbhay — subsonic land attack cruise missile Which pairs are correctly matched? (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4 Q3. Consider the following statements about BrahMos: 1. It is a joint venture between DRDO and Russia's NPO Mashinostroyeniy",
+  "chars": 3507
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/short",
+  "file": "defence-nuclear-notes.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/short-notes/defence-nuclear-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Defence, Missiles & Nuclear Technology — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "Missiles (DRDO unless noted)"
+   },
+   {
+    "level": 2,
+    "text": "Platforms & indigenous programmes"
+   },
+   {
+    "level": 2,
+    "text": "Nuclear programme & technology"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Defence, Missiles & Nuclear Technology — Prelims Fact Card Prelims GS I › Science & Technology › Emerging Technologies. Missile families and ranges, indigenous platforms, defence reforms/exports, nuclear fuel cycle and India's nuclear programme, plus the treaty positions. Missiles (DRDO unless noted) Missile Type Range / notes Agni I SRBM 700–900 km; single stage solid Agni II MRBM 2,000+ km Agni III IRBM 3,000–3,500 km Agni IV IRBM 4,000 km Agni V ICBM class 5,000–5,500+ km; Mission Divyastra (Mar 2024) — first MIRV test ; canisterised; road/rail mobile; Agni 5 bunker buster variant reported 2025 Agni Prime (Agni P) MRBM 1,000–2,000 km; two stage canisterised; rail launched test Sept 2025 Agni VI ICBM under development (8,000+ km; MIRV) Prithvi II / Dhanush SRBM 350 km / ship launched; Prithvi Defence Vehicle K 15 (Sagarika/B 05) SLBM 750 km; on INS Arihant class K 4 SLBM 3,500 km; test",
+  "chars": 26549
  },
  {
   "nav": "prelims-gs1/science-tech/emerging-tech/short",
@@ -6471,6 +9930,44 @@ window.SEARCH_DATA = [
   ],
   "text": "Emerging Tech — Prelims Drill Missions & money anchors (2023–26 frame) IndiaAI Mission (₹10,371 cr; Mar 2024) : compute pillar (GPU pooling — tender outcome toward 38,000 GPUs provisioning programmes), AIKosh datasets, skilling (Data & AI Labs), application development (agri/health/logistics), startup financing, Safe & Trustworthy AI → India's AI Safety Institute (announced 2025) ; frontier models homespun (AI4Bharat IndicTrans2; BharatGen IIT B consortium 2024; Krutrim & Sarvam private builds; Hanooman family). National Quantum Mission (₹6,003 cr; Apr 2023) : T Hubs at IISc + IIT Madras/Kanpur/Delhi triads; verticals: computing (superconducting, photonic, ion trap, neutral atom), communication (QKD free space + fibre; network build with BSNL + army pilots), sensing/metrology, materials & devices; announced target horizon 50–100 qubit class machines by mid decade (verify current mileston",
   "chars": 5815
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/pyqs",
+  "file": "space-missions-mcqs.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs/space-missions-mcqs.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Space: Missions, ISRO & Satellites — Practice MCQs"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Space: Missions, ISRO & Satellites — Practice MCQs 10 original prelims pattern questions; key with one line reasoning at the end. Q1. With the SpaDeX mission in January 2025, India became the fourth country to demonstrate: (a) Soft landing on the Moon (b) Autonomous in orbit docking of two spacecraft (c) Reusable launch vehicle landing (d) Anti satellite capability Q2. Consider the following statements about NISAR: 1. It is a joint NASA–ISRO Earth observation satellite carrying L band and S band synthetic aperture radars. 2. It was launched by a PSLV into a sun synchronous orbit. 3. NASA provided the L band radar and ISRO the S band radar. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3 Q3. Group Captain Shubhanshu Shukla's spaceflight in June–July 2025 was: (a) The first crewed Gaganyaan mission (b) A Soyuz flight to the Russian segment of the ISS (c) The Axiom 4 commercial mission o",
+  "chars": 3322
+ },
+ {
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/short",
+  "file": "space-missions-notes.md",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/short-notes/space-missions-notes.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Space: Missions, ISRO & Satellites — Prelims Fact Card"
+   },
+   {
+    "level": 2,
+    "text": "ISRO basics"
+   },
+   {
+    "level": 2,
+    "text": "Traps"
+   }
+  ],
+  "text": "Space: Missions, ISRO & Satellites — Prelims Fact Card Prelims GS I › Science & Technology › Emerging Technologies. ISRO's launchers, satellites, science missions, human spaceflight, policy/private sector, and the global missions that share headlines. ISRO basics ISRO (1969; Vikram Sarabhai; HQ Bengaluru; under Department of Space (1972) → PM; Space Commission ; Chairman V. Narayanan (Jan 2025; earlier S. Somanath 2022–25) ); centres — VSSC Thiruvananthapuram (launch vehicles), LPSC (liquid propulsion; Valiamala/Bengaluru), SDSC SHAR Sriharikota (2 pads; 3rd pad approved Jan 2025 ₹3,985 cr; Kulasekarapattinam (TN) SSLV port — 2026 ), URSC Bengaluru (satellites), SAC Ahmedabad (payloads), NRSC Hyderabad (remote sensing; Bhuvan), ISTRAC (tracking), IPRC Mahendragiri (engine tests), HSFC (human spaceflight; 2019), IIRS Dehradun , NARL Gadanki , PRL Ahmedabad , IIST Thiruvananthapuram , SCL ",
+  "chars": 23409
  },
  {
   "nav": "prelims-gs1/science-tech/pyqs",
@@ -6535,6 +10032,186 @@ window.SEARCH_DATA = [
   "chars": 3394
  },
  {
+  "nav": "prelims-mocks/csat-mock/pyqs",
+  "file": "csat-mock-30q.md",
+  "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "CSAT Mock — Paper II (30 Questions · 45 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Part A — Reading Comprehension (Q1–Q10)"
+   },
+   {
+    "level": 2,
+    "text": "Part B — Quantitative Aptitude (Q11–Q20)"
+   },
+   {
+    "level": 2,
+    "text": "Part C — Logical Reasoning & Data Interpretation (Q21–Q30)"
+   },
+   {
+    "level": 2,
+    "text": "Worked Solutions"
+   }
+  ],
+  "text": "CSAT Mock — Paper II (30 Questions · 45 Minutes) Qualifying paper: 33% (66/200) needed. This 30 question set mirrors the real mix — reading comprehension 10, quantitative aptitude 10, logical reasoning & data interpretation 10. Marking +2.5 / −0.83. Worked solutions follow the questions. Part A — Reading Comprehension (Q1–Q10) Passage 1. Urbanisation in India is often described as 'messy and hidden'. Messy, because a large share of urban growth takes the form of unplanned peripheral sprawl and informal settlements; hidden, because official definitions understate the extent of urbanisation. Census towns—settlements that meet the demographic criteria of a town but continue to be governed as villages—illustrate this. They receive neither the infrastructure investment of statutory towns nor the rural programmes tailored to villages, and fall through the cracks of public policy. Q1. Which one",
+  "chars": 9285
+ },
+ {
+  "nav": "prelims-mocks/full-length/pyqs",
+  "file": "gs1-full-length-mock-01.md",
+  "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Full-Length Mock Test 01 — Prelims GS Paper I (100 Questions · 2 Hours)"
+   },
+   {
+    "level": 2,
+    "text": "Section A — History & Culture (Q1–Q15)"
+   },
+   {
+    "level": 2,
+    "text": "Section B — Geography (Q16–Q27)"
+   },
+   {
+    "level": 2,
+    "text": "Section C — Polity & Governance (Q28–Q42)"
+   },
+   {
+    "level": 2,
+    "text": "Section D — Economy (Q43–Q57)"
+   },
+   {
+    "level": 2,
+    "text": "Section E — Environment & Ecology (Q58–Q72)"
+   },
+   {
+    "level": 2,
+    "text": "Section F — Science & Technology (Q73–Q84)"
+   },
+   {
+    "level": 2,
+    "text": "Section G — Current Affairs, IR & Miscellaneous (Q85–Q100)"
+   },
+   {
+    "level": 2,
+    "text": "Answer Key with Explanations"
+   },
+   {
+    "level": 3,
+    "text": "Scoring"
+   }
+  ],
+  "text": "Full Length Mock Test 01 — Prelims GS Paper I (100 Questions · 2 Hours) Instructions. 100 questions, 200 marks, 2 hours. +2 for a correct answer, −0.66 for a wrong one, 0 for a blank. Attempt in one sitting with an OMR style sheet; use the answer key and one line explanations at the end only after the timer stops. Subject mix mirrors the recent UPSC pattern: History & Culture 15 · Geography 12 · Polity & Governance 15 · Economy 15 · Environment 15 · Science & Technology 12 · Current Affairs, IR & Miscellaneous 16. Section A — History & Culture (Q1–Q15) Q1. Consider the following pairs of Harappan sites and the features they are known for: 1. Dholavira — elaborate water reservoirs and a signboard of large script signs 2. Lothal — dockyard 3. Kalibangan — ploughed field 4. Rakhigarhi — largest Harappan site within present day India How many of the pairs are correctly matched? (a) Only one ",
+  "chars": 36671
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "economy-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/economy-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — Economy (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — Economy (20 Questions · 25 Minutes) +2 / −0.66 marking. Macro concepts, banking, fiscal policy, external sector and current schemes. Key with one line reasoning at the end. Q1. Gross Value Added at basic prices equals GDP at market prices: (a) Plus product taxes minus product subsidies (b) Minus product taxes plus product subsidies (c) Plus depreciation (d) Minus net factor income from abroad Q2. The base year for India's current GDP series is: (a) 2004–05 (b) 2011–12 (c) 2017–18 (d) 2022–23 Q3. Consider the following statements about inflation measurement: 1. CPI (Combined) is compiled by the National Statistics Office. 2. WPI is compiled by the Office of the Economic Adviser, DPIIT. 3. Food has a weight of about 46% in CPI (Combined) under the 2012 base. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Which of the following instruments are used by the RBI to abs",
+  "chars": 6299
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "environment-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/environment-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — Environment & Ecology (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — Environment & Ecology (20 Questions · 25 Minutes) +2 / −0.66 marking. Ecology concepts, biodiversity, climate negotiations, pollution law and institutions. Key with one line reasoning at the end. Q1. In an ecological pyramid, which of the following is always upright? (a) Pyramid of numbers (b) Pyramid of biomass (c) Pyramid of energy (d) None of the above Q2. 'Ecotone' refers to: (a) A zone of transition between two ecosystems (b) The functional role of a species (c) A layer of vegetation in a forest (d) The total genetic variation in a population Q3. Which of the following are 'keystone species' examples commonly cited? 1. Sea otter 2. Elephant in savanna 3. Fig trees in tropical forests (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Consider the following statements about mangroves: 1. Sundarbans has the largest mangrove cover in India. 2. Gujarat has the secon",
+  "chars": 6053
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "geography-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/geography-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — Geography (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — Geography (20 Questions · 25 Minutes) +2 / −0.66 marking. Physical, Indian and world geography with map based items. Key with one line reasoning at the end. Q1. Which one of the following layers of the atmosphere contains the ozone layer and shows a temperature increase with altitude? (a) Troposphere (b) Stratosphere (c) Mesosphere (d) Thermosphere Q2. Consider the following statements: 1. The Coriolis force is maximum at the equator. 2. Winds are deflected to the right in the Northern Hemisphere. 3. Tropical cyclones do not form within about 5° of the equator. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. 'Mistral' is a: (a) Warm, dry wind of the Rockies (b) Cold, dry wind blowing down the Rhone valley to the Mediterranean (c) Hot wind of the Sahara blowing into Italy (d) Local wind of the Argentine pampas Q4. Consider the following pairs of plate boundaries an",
+  "chars": 5027
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "history-culture-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/history-culture-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — History & Culture (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — History & Culture (20 Questions · 25 Minutes) +2 / −0.66 marking. Covers ancient, medieval, modern history and art & culture in the proportion UPSC has used since 2020. Key with one line reasoning at the end. Q1. The Bhimbetka rock shelters, a UNESCO World Heritage Site, are located in: (a) Chhattisgarh (b) Madhya Pradesh (c) Maharashtra (d) Odisha Q2. Which Harappan site has yielded evidence of a stadium like structure and a 'signboard' of ten large script signs? (a) Mohenjo daro (b) Harappa (c) Dholavira (d) Banawali Q3. The Vedic text that deals with rituals and is attached to the Rig Veda is: (a) Aitareya Brahmana (b) Shatapatha Brahmana (c) Gopatha Brahmana (d) Taittiriya Brahmana Q4. Consider the following statements about Jainism: 1. Mahavira was the 24th Tirthankara. 2. The first Jain Council was held at Vallabhi. 3. The Digambara–Svetambara split is traditionall",
+  "chars": 5061
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "polity-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/polity-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — Polity & Governance (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — Polity & Governance (20 Questions · 25 Minutes) +2 / −0.66 marking. Constitution, institutions, recent amendments and landmark judgments. Key with one line reasoning at the end. Q1. The idea of a Constituent Assembly for India was first put forward by: (a) M.N. Roy in 1934 (b) Jawaharlal Nehru in 1938 (c) The Cabinet Mission in 1946 (d) The Cripps Mission in 1942 Q2. Which of the following provisions came into force on 26 November 1949 itself? 1. Citizenship 2. Elections 3. Provisional Parliament 4. Fundamental Rights (a) 1, 2 and 3 (b) 2 and 4 (c) 1 and 4 (d) 1, 2, 3 and 4 Q3. Consider the following statements about Article 21A: 1. It was inserted by the 86th Constitutional Amendment Act, 2002. 2. It covers children aged 6 to 14 years. 3. A corresponding Fundamental Duty was added under Article 51A(k). (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q4. Under which A",
+  "chars": 6934
+ },
+ {
+  "nav": "prelims-mocks/sectional-tests/pyqs",
+  "file": "science-tech-sectional-20q.md",
+  "rel": "content/prelims/mocks/sectional-tests/pyqs/science-tech-sectional-20q.md",
+  "headings": [
+   {
+    "level": 1,
+    "text": "Sectional Test — Science & Technology (20 Questions · 25 Minutes)"
+   },
+   {
+    "level": 2,
+    "text": "Answer key"
+   }
+  ],
+  "text": "Sectional Test — Science & Technology (20 Questions · 25 Minutes) +2 / −0.66 marking. Basic science, space, biotech, defence and emerging technologies. Key with one line reasoning at the end. Q1. Which of the following is the SI unit of radioactivity? (a) Gray (b) Sievert (c) Becquerel (d) Curie Q2. Consider the following statements: 1. Sound travels faster in water than in air. 2. Ultrasound has frequencies below 20 Hz. 3. The Doppler effect is used in radar speed guns. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3 Q3. Vitamin B12 deficiency causes: (a) Scurvy (b) Pernicious anaemia (c) Rickets (d) Night blindness Q4. Consider the following pairs of diseases and pathogens: 1. Kala azar — Leishmania 2. Nipah — bacterium 3. Chikungunya — virus 4. Sleeping sickness — Trypanosoma How many pairs are correctly matched? (a) One (b) Two (c) Three (d) Four Q5. Which one of the following lau",
+  "chars": 5287
+ },
+ {
   "nav": "",
   "file": "README.md",
   "rel": "content/README.md",
@@ -6542,9 +10219,13 @@ window.SEARCH_DATA = [
    {
     "level": 1,
     "text": "content/ — Study Material Library"
+   },
+   {
+    "level": 2,
+    "text": "Conventions"
    }
   ],
-  "text": "content/ — Study Material Library Two branches mirror the exam: The five canonical sections under every topic: detailed notes/ short notes/ bullet points/ diagrams/ pyqs/ Add Markdown ( .md ), images ( .png/.jpg/.svg/.gif ) or PDFs anywhere under content/ . After adding files run node cli/generate.mjs (or just push — the GitHub Actions workflow regenerates indexes automatically). Run node cli/generate.mjs sync to auto create the 5 section scaffold under every topic folder.",
-  "chars": 477
+  "text": "content/ — Study Material Library Two branches mirror the exam. Every folder below corresponds to a node of the syllabus tree in assets/js/data.js , and every node has its own material (316 Markdown chapters, each with a styled .html twin, plus 23 SVG diagrams). The five canonical sections under a Mains topic: detailed notes/ short notes/ bullet points/ diagrams/ pyqs/ Prelims leaves use the two that matter for MCQ preparation: short notes/ (fact card with a Traps list) and pyqs/ (10 keyed MCQs). Conventions Content only tree: no empty placeholder folders ( find content type d empty must print nothing). Every prelims fact card opens with a syllabus pointer line, e.g. Prelims GS I › Geography › Indian Geography. MCQ files end with an Answer key table ( Q Ans Why ). After adding or editing files, from upsc portal/ run python3 cli/md2html.py (HTML twins + content/index.html ) and node cli/g",
+  "chars": 1011
  }
 ];

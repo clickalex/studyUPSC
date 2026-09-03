@@ -34,6 +34,8 @@ const FOLDER_ALIASES = {
   'gs1': 'prelims-gs1',
   'prelims-gs1': 'prelims-gs1',
   'csat': 'prelims-csat',
+  'mocks': 'prelims-mocks',
+  'practice': 'mains-practice',
   'essay-frameworks': 'essay',
   'essay': 'essay',
   'optional-subjects': 'optional-subjects',

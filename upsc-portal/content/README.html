@@ -41,28 +41,43 @@ footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 <header><div class="wrap"><div class="brand">study<span>UPSC</span></div><div class="crumb">content</div><div class="crumb no-print" style="margin-left:auto"><a href="index.html">📚 All documents</a> · <a href="README.md">Markdown source</a></div></div></header>
 <div class="wrap"><div class="card">
 <h1 id="content-study-material-library">content/ — Study Material Library</h1>
-<p>Two branches mirror the exam:</p>
+<p>Two branches mirror the exam. Every folder below corresponds to a node of the syllabus tree in <code>assets/js/data.js</code>, and every node has its own material (316 Markdown chapters, each with a styled <code>.html</code> twin, plus 23 SVG diagrams).</p>
 <pre><code>content/
-├── prelims/                # GS Paper I &amp; CSAT material
-│   ├── gs1/                #  → syllabus paper "prelims-gs1"
-│   │   └── history-culture/modern-history/…
-│   └── csat/               #  → syllabus paper "prelims-csat"
-└── mains/                  # Mains papers
-    ├── gs-1-heritage-geography-society/   # → "gs-1"
-    │   ├── modern-history/                # topic with full 5-section scaffold
-    │   ├── art-and-culture/
-    │   ├── physical-geography/
-    │   └── indian-society/
-    ├── gs-2-polity-governance-ir/         # → "gs-2"
-    ├── gs-3-economy-tech-environment/     # → "gs-3"
-    ├── gs-4-ethics-integrity-aptitude/    # → "gs-4"
-    ├── essay-frameworks/                  # → "essay"
-    └── optional-subjects/</code></pre>
-<p><strong>The five canonical sections</strong> under every topic: <code>detailed-notes/</code> <code>short-notes/</code> <code>bullet-points/</code> <code>diagrams/</code> <code>pyqs/</code></p>
-<ul><li>Add Markdown (<code>.md</code>), images (<code>.png/.jpg/.svg/.gif</code>) or PDFs anywhere under <code>content/</code>.</li><li>After adding files run <code>node cli/generate.mjs</code> (or just push — the GitHub</li></ul>
-<p>Actions workflow regenerates indexes automatically).</p>
-<ul><li>Run <code>node cli/generate.mjs --sync</code> to auto-create the 5-section scaffold</li></ul>
-<p>under every topic folder.</p>
+├── prelims/
+│   ├── gs1/                          # → paper "prelims-gs1"  (176 files)
+│   │   ├── history-culture/          #   4 branches · 19 leaf topics
+│   │   ├── geography/                #   4 branches · 12 leaf topics
+│   │   ├── polity-governance/        #   4 branches · 15 leaf topics
+│   │   ├── economy/                  #   5 branches · 12 leaf topics
+│   │   ├── environment-ecology/      #   3 branches ·  7 leaf topics
+│   │   └── science-tech/             #   2 branches ·  5 leaf topics
+│   │       └── &lt;branch&gt;/&lt;leaf&gt;/{short-notes/&lt;leaf&gt;-notes.md, pyqs/&lt;leaf&gt;-mcqs.md}
+│   ├── csat/                         # → "prelims-csat": comprehension, logical-reasoning,
+│   │                                 #   decision-making, numeracy (+ strategy notes, PYQ trends)
+│   └── mocks/                        # → "prelims-mocks"
+│       ├── full-length/pyqs/         #   GS-I mock 01 — 100 Qs, key + explanations
+│       ├── sectional-tests/pyqs/     #   6 subjects × 20 Qs
+│       └── csat-mock/pyqs/           #   30 Qs with worked solutions
+└── mains/
+    ├── gs-1-heritage-geography-society/   # → "gs-1"  (46 files, 11 SVGs)
+    │   ├── modern-history/&lt;6 sub-chapters&gt;/ · indian-heritage-culture/ · world-history/
+    │   └── indian-society/ · physical-geography/ · geography-world-india/
+    ├── gs-2-polity-governance-ir/         # → "gs-2"  constitution-polity, governance-administration,
+    │                                      #           social-justice, international-relations
+    ├── gs-3-economy-tech-environment/     # → "gs-3"  indian-economy, agriculture-food, science-technology,
+    │                                      #           environment-biodiversity, security-disaster
+    ├── gs-4-ethics-integrity-aptitude/    # → "gs-4"  8 syllabus facets + 2 study sets
+    ├── essay-frameworks/                  # → "essay" frameworks, topic bank, quotes, toppers' analysis
+    ├── optional-subjects/                 # 9 optionals: sociology, public-administration, history, geography,
+    │                                      #   polity (PSIR), philosophy, anthropology, economics, psychology
+    └── practice/                          # → "mains-practice"
+        ├── gs-1-practice/pyqs/ … gs-3-practice/pyqs/   # 30 questions each with answer frameworks
+        ├── gs-4-practice/pyqs/                         # 20 theory Qs + 6 case studies
+        └── essay-practice/pyqs/                        # 24 topics with outlines</code></pre>
+<p><strong>The five canonical sections</strong> under a Mains topic: <code>detailed-notes/</code> <code>short-notes/</code> <code>bullet-points/</code> <code>diagrams/</code> <code>pyqs/</code> Prelims leaves use the two that matter for MCQ preparation: <code>short-notes/</code> (fact card with a <strong>Traps</strong> list) and <code>pyqs/</code> (10 keyed MCQs).</p>
+<h2 id="conventions">Conventions</h2>
+<ul><li>Content-only tree: <strong>no empty placeholder folders</strong> (<code>find content -type d -empty</code> must print nothing).</li><li>Every prelims fact card opens with a syllabus pointer line, e.g. <code>&gt; Prelims GS-I › Geography › Indian Geography.</code></li><li>MCQ files end with an <code>## Answer key</code> table (<code>| Q | Ans | Why |</code>).</li><li>After adding or editing files, from <code>upsc-portal/</code> run</li></ul>
+<p><code>python3 cli/md2html.py</code> (HTML twins + <code>content/index.html</code>) and <code>node cli/generate.mjs</code> (file index + full-text search). Pushing to <code>main</code> also re-runs the generator through GitHub Actions.</p>
 </div>
 <footer>studyUPSC · generated from Markdown · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
