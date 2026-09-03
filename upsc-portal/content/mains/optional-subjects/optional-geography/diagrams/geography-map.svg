@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Geography optional — the map decides, the models anchor</text>
+  <text x="30" y="56" class="s">strongest GS-1/Prelims overlap · largest syllabus · diagram discipline is the scoring engine</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — PHYSICAL + HUMAN</text>
+  <text x="56" y="126" class="md">Geomorph: plates · isostasy (Airy/Pratt) · landform cycles</text>
+  <text x="56" y="146" class="md">Climatology: heat budget · jets · fronts · monsoon lineage</text>
+  <text x="56" y="166" class="md">Oceanography: currents · ENSO · corals · Law-of-Sea edge</text>
+  <text x="56" y="186" class="md">Soils · biomes (Whittaker) · environmental frames</text>
+  <text x="56" y="208" class="md">Human: determinism→possibilism→neodeterminism</text>
+  <text x="56" y="228" class="md">Population: Malthus/Boserup · demographic transition · migration</text>
+  <text x="56" y="248" class="md">Models: von Thünen · Weber/Losch · Christaller · Zipf</text>
+  <text x="56" y="284" class="sm">formula: process → landform/consequence → example → diagram</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — INDIA + PLANNING</text>
+  <text x="536" y="126" class="md">Physical: structure-relief · antecedent drainage · monsoon coupling</text>
+  <text x="536" y="146" class="md">Vegetation · soils · agro-climatic regions</text>
+  <text x="536" y="166" class="md">Population &amp; migration belts · census towns · fringe dynamics</text>
+  <text x="536" y="186" class="md">Agriculture (cropping regions, irrigation, watershed) · industry</text>
+  <text x="536" y="206" class="md">Corridors &amp; ports (DMIC, waterways) · energy transition geography</text>
+  <text x="536" y="226" class="md">Planning: regions · 371-series asymmetries · reorganisation</text>
+  <text x="536" y="246" class="md">Contemporary: floods · urban heat · river-linking · smart cities</text>
+  <text x="536" y="282" class="sm">formula: spatial vocabulary + scheme anchor + India map</text>
+  <path d="M 460 195 L 520 195" class="cl"/>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS + DAILY DRILLS</text>
+  <text x="60" y="374" class="md">wk 1-3 geomorph+climatology · wk 4 ocean+bio · wk 5-6 human+models · wk 7-9 India core · wk 10 planning/issues · wk 11 map-intensive · wk 12 PYQ map</text>
+  <text x="60" y="392" class="sm">daily: 1 India map + 1 diagram (15 min) · pre-rehearsed shelf: plates, ITCZ shift, conveyor, rings, hexagons, DT pyramid</text>
+  <text x="30" y="432" class="foot">studyUPSC · geography optional diagram · pair with detailed-notes/geography-syllabus-map.html</text>
+</svg>

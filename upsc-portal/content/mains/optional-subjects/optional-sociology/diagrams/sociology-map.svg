@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Sociology optional — toolkit first, India next, craft always</text>
+  <text x="30" y="56" class="s">the deepest GS overlap of any optional: GS-1 society · GS-2 welfare · essay · interview</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — THE TOOLKIT</text>
+  <text x="56" y="126" class="md">Sociology as science · methods (survey, fieldwork, comparative)</text>
+  <text x="56" y="146" class="md">THINKERS — Marx: class, alienation · Durkheim: facts, suicide</text>
+  <text x="56" y="164" class="md">Weber: action, bureaucracy, Protestant ethic · Parsons: systems</text>
+  <text x="56" y="182" class="md">Merton: anomie, functions · Mead: self (I–Me)</text>
+  <text x="56" y="204" class="md">Structures: stratification (caste-class debate) · work · religion</text>
+  <text x="56" y="222" class="md">Kinship &amp; family types · social change lines</text>
+  <text x="56" y="244" class="md">Development &amp; dependency · movements · population · urban</text>
+  <text x="56" y="282" class="sm">formula: thinker → concept → application → critique</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — INDIAN SOCIETY</text>
+  <text x="536" y="126" class="md">Lenses: indological · structural-functional · Marxist</text>
+  <text x="536" y="146" class="md">Colonial impact · village canon: Srinivas · Beteille · Dube</text>
+  <text x="536" y="166" class="md">Caste (features, theories, change) · class · tribe continuum</text>
+  <text x="536" y="186" class="md">Kinship regions · religious communities</text>
+  <text x="536" y="206" class="md">Change: sanskritization · westernization · modernization (Y. Singh)</text>
+  <text x="536" y="226" class="md">Movements: peasant · Dalit/backward · women · environment</text>
+  <text x="536" y="246" class="md">Challenges: communalism · regionalism · migration · informality</text>
+  <text x="536" y="282" class="sm">rule: one Indian study + one datum per answer — or it is an essay, not sociology</text>
+  <path d="M 460 195 L 520 195" class="cl"/>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS</text>
+  <text x="60" y="374" class="md">wk 1-2 science+methods · wk 3-5 thinkers (two/week + passages) · wk 6-7 stratification/kinship/religion · wk 8-10 paper-2 + ethnography notebook · wk 11 movements + current · wk 12 PYQ map</text>
+  <text x="60" y="392" class="sm">big pool warning: margins come from craft (names, studies, data) — not syllabus completion</text>
+  <text x="30" y="432" class="foot">studyUPSC · sociology optional diagram · pair with detailed-notes/sociology-syllabus-map.html</text>
+</svg>
