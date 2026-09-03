@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 178380,
+  "size": 178602,
   "nav": ""
  },
  {
@@ -5950,6 +5950,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/science-tech/short"
  },
  {
+  "dir": "content/prelims/mocks/csat-mock/bullet-points",
+  "file": "csat-mock-points.html",
+  "rel": "content/prelims/mocks/csat-mock/bullet-points/csat-mock-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3674,
+  "nav": "prelims-mocks/csat-mock/bullets"
+ },
+ {
+  "dir": "content/prelims/mocks/csat-mock/detailed-notes",
+  "file": "csat-mock-detailed.html",
+  "rel": "content/prelims/mocks/csat-mock/detailed-notes/csat-mock-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4886,
+  "nav": "prelims-mocks/csat-mock/notes"
+ },
+ {
+  "dir": "content/prelims/mocks/csat-mock/diagrams",
+  "file": "csat-mock.svg",
+  "rel": "content/prelims/mocks/csat-mock/diagrams/csat-mock.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2327,
+  "nav": "prelims-mocks/csat-mock/diagrams"
+ },
+ {
   "dir": "content/prelims/mocks/csat-mock/pyqs",
   "file": "csat-mock-30q.html",
   "rel": "content/prelims/mocks/csat-mock/pyqs/csat-mock-30q.html",
@@ -5959,6 +5986,42 @@ window.CONTENT_INDEX = [
   "nav": "prelims-mocks/csat-mock/pyqs"
  },
  {
+  "dir": "content/prelims/mocks/csat-mock/short-notes",
+  "file": "csat-mock-brief.html",
+  "rel": "content/prelims/mocks/csat-mock/short-notes/csat-mock-brief.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3548,
+  "nav": "prelims-mocks/csat-mock/short"
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/bullet-points",
+  "file": "full-length-points.html",
+  "rel": "content/prelims/mocks/full-length/bullet-points/full-length-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3755,
+  "nav": "prelims-mocks/full-length/bullets"
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/detailed-notes",
+  "file": "full-length-detailed.html",
+  "rel": "content/prelims/mocks/full-length/detailed-notes/full-length-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4790,
+  "nav": "prelims-mocks/full-length/notes"
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/diagrams",
+  "file": "full-length.svg",
+  "rel": "content/prelims/mocks/full-length/diagrams/full-length.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2908,
+  "nav": "prelims-mocks/full-length/diagrams"
+ },
+ {
   "dir": "content/prelims/mocks/full-length/pyqs",
   "file": "gs1-full-length-mock-01.html",
   "rel": "content/prelims/mocks/full-length/pyqs/gs1-full-length-mock-01.html",
@@ -5966,6 +6029,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 48018,
   "nav": "prelims-mocks/full-length/pyqs"
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/short-notes",
+  "file": "full-length-brief.html",
+  "rel": "content/prelims/mocks/full-length/short-notes/full-length-brief.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3525,
+  "nav": "prelims-mocks/full-length/short"
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/bullet-points",
+  "file": "sectional-tests-points.html",
+  "rel": "content/prelims/mocks/sectional-tests/bullet-points/sectional-tests-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3674,
+  "nav": "prelims-mocks/sectional-tests/bullets"
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/detailed-notes",
+  "file": "sectional-tests-detailed.html",
+  "rel": "content/prelims/mocks/sectional-tests/detailed-notes/sectional-tests-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4615,
+  "nav": "prelims-mocks/sectional-tests/notes"
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/diagrams",
+  "file": "sectional-tests.svg",
+  "rel": "content/prelims/mocks/sectional-tests/diagrams/sectional-tests.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2313,
+  "nav": "prelims-mocks/sectional-tests/diagrams"
  },
  {
   "dir": "content/prelims/mocks/sectional-tests/pyqs",
@@ -6022,6 +6121,15 @@ window.CONTENT_INDEX = [
   "nav": "prelims-mocks/sectional-tests/pyqs"
  },
  {
+  "dir": "content/prelims/mocks/sectional-tests/short-notes",
+  "file": "sectional-brief.html",
+  "rel": "content/prelims/mocks/sectional-tests/short-notes/sectional-brief.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3510,
+  "nav": "prelims-mocks/sectional-tests/short"
+ },
+ {
   "dir": "content",
   "file": "README.html",
   "rel": "content/README.html",
@@ -6043,7 +6151,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 178380,
+    "size": 178602,
     "nav": ""
    },
    {
@@ -15958,6 +16066,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/mocks/csat-mock/bullet-points",
+  "nav": "prelims-mocks/csat-mock/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/csat-mock/bullet-points",
+    "file": "csat-mock-points.html",
+    "rel": "content/prelims/mocks/csat-mock/bullet-points/csat-mock-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3674,
+    "nav": "prelims-mocks/csat-mock/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/csat-mock/detailed-notes",
+  "nav": "prelims-mocks/csat-mock/notes",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/csat-mock/detailed-notes",
+    "file": "csat-mock-detailed.html",
+    "rel": "content/prelims/mocks/csat-mock/detailed-notes/csat-mock-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4886,
+    "nav": "prelims-mocks/csat-mock/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/csat-mock/diagrams",
+  "nav": "prelims-mocks/csat-mock/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/csat-mock/diagrams",
+    "file": "csat-mock.svg",
+    "rel": "content/prelims/mocks/csat-mock/diagrams/csat-mock.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2327,
+    "nav": "prelims-mocks/csat-mock/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/mocks/csat-mock/pyqs",
   "nav": "prelims-mocks/csat-mock/pyqs",
   "files": [
@@ -15973,6 +16126,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/mocks/csat-mock/short-notes",
+  "nav": "prelims-mocks/csat-mock/short",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/csat-mock/short-notes",
+    "file": "csat-mock-brief.html",
+    "rel": "content/prelims/mocks/csat-mock/short-notes/csat-mock-brief.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3548,
+    "nav": "prelims-mocks/csat-mock/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/bullet-points",
+  "nav": "prelims-mocks/full-length/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/full-length/bullet-points",
+    "file": "full-length-points.html",
+    "rel": "content/prelims/mocks/full-length/bullet-points/full-length-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3755,
+    "nav": "prelims-mocks/full-length/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/detailed-notes",
+  "nav": "prelims-mocks/full-length/notes",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/full-length/detailed-notes",
+    "file": "full-length-detailed.html",
+    "rel": "content/prelims/mocks/full-length/detailed-notes/full-length-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4790,
+    "nav": "prelims-mocks/full-length/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/diagrams",
+  "nav": "prelims-mocks/full-length/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/full-length/diagrams",
+    "file": "full-length.svg",
+    "rel": "content/prelims/mocks/full-length/diagrams/full-length.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2908,
+    "nav": "prelims-mocks/full-length/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/mocks/full-length/pyqs",
   "nav": "prelims-mocks/full-length/pyqs",
   "files": [
@@ -15984,6 +16197,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 48018,
     "nav": "prelims-mocks/full-length/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/full-length/short-notes",
+  "nav": "prelims-mocks/full-length/short",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/full-length/short-notes",
+    "file": "full-length-brief.html",
+    "rel": "content/prelims/mocks/full-length/short-notes/full-length-brief.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3525,
+    "nav": "prelims-mocks/full-length/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/bullet-points",
+  "nav": "prelims-mocks/sectional-tests/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/sectional-tests/bullet-points",
+    "file": "sectional-tests-points.html",
+    "rel": "content/prelims/mocks/sectional-tests/bullet-points/sectional-tests-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3674,
+    "nav": "prelims-mocks/sectional-tests/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/detailed-notes",
+  "nav": "prelims-mocks/sectional-tests/notes",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/sectional-tests/detailed-notes",
+    "file": "sectional-tests-detailed.html",
+    "rel": "content/prelims/mocks/sectional-tests/detailed-notes/sectional-tests-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4615,
+    "nav": "prelims-mocks/sectional-tests/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/diagrams",
+  "nav": "prelims-mocks/sectional-tests/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/sectional-tests/diagrams",
+    "file": "sectional-tests.svg",
+    "rel": "content/prelims/mocks/sectional-tests/diagrams/sectional-tests.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2313,
+    "nav": "prelims-mocks/sectional-tests/diagrams"
    }
   ]
  },
@@ -16044,6 +16317,21 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 9376,
     "nav": "prelims-mocks/sectional-tests/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/mocks/sectional-tests/short-notes",
+  "nav": "prelims-mocks/sectional-tests/short",
+  "files": [
+   {
+    "dir": "content/prelims/mocks/sectional-tests/short-notes",
+    "file": "sectional-brief.html",
+    "rel": "content/prelims/mocks/sectional-tests/short-notes/sectional-brief.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3510,
+    "nav": "prelims-mocks/sectional-tests/short"
    }
   ]
  }
