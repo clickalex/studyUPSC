@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Ecosystems — Levels &amp; Functions</text>
+  <text x="30" y="54" class="s">prelims · concept → anchor</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">LEVELS</text>
+  <text x="44" y="134" class="md">organism → population → community</text>
+  <text x="44" y="151" class="md">ecosystem → biome → biosphere</text>
+  <text x="44" y="168" class="md">biome = climax climate community</text>
+  <text x="44" y="185" class="md">ecotone: transition zone (high edge effect)</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">FUNCTIONS</text>
+  <text x="502" y="134" class="md">energy flow: one-way, 10% law</text>
+  <text x="502" y="151" class="md">nutrient cycling: gaseous-sedimentary</text>
+  <text x="502" y="168" class="md">succession: lichen → climax</text>
+  <text x="502" y="185" class="md">pyramids: energy always upright</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">PRODUCTIVITY</text>
+  <text x="44" y="272" class="md">GPP minus respiration = NPP</text>
+  <text x="44" y="289" class="md">NPP highest: reefs-tropical forest</text>
+  <text x="44" y="306" class="md">open ocean = low NPP, huge area</text>
+  <text x="44" y="323" class="md">estuary-mangrove: high productivity</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">AQUATIC TYPES</text>
+  <text x="502" y="272" class="md">wetland: Ramsar definition</text>
+  <text x="502" y="289" class="md">mangrove: halophytes, vivipary</text>
+  <text x="502" y="306" class="md">coral: algae symbiosis (zooxanthellae)</text>
+  <text x="502" y="323" class="md">estuary: brackish nursery</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

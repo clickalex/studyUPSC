@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 159306,
+  "size": 178380,
   "nav": ""
  },
  {
@@ -2242,6 +2242,42 @@ window.CONTENT_INDEX = [
   "nav": "mains-practice/gs-4-practice/short"
  },
  {
+  "dir": "content/prelims/csat/comprehension/bullet-points",
+  "file": "comprehension-points.html",
+  "rel": "content/prelims/csat/comprehension/bullet-points/comprehension-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3744,
+  "nav": "prelims-csat/comprehension/bullets"
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/detailed-notes",
+  "file": "comprehension-detailed.html",
+  "rel": "content/prelims/csat/comprehension/detailed-notes/comprehension-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5534,
+  "nav": "prelims-csat/comprehension/notes"
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/diagrams",
+  "file": "comprehension.svg",
+  "rel": "content/prelims/csat/comprehension/diagrams/comprehension.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2376,
+  "nav": "prelims-csat/comprehension/diagrams"
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/pyqs",
+  "file": "comprehension-pyqs.html",
+  "rel": "content/prelims/csat/comprehension/pyqs/comprehension-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6082,
+  "nav": "prelims-csat/comprehension/pyqs"
+ },
+ {
   "dir": "content/prelims/csat/comprehension/short-notes",
   "file": "comprehension-drills.html",
   "rel": "content/prelims/csat/comprehension/short-notes/comprehension-drills.html",
@@ -2249,6 +2285,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7672,
   "nav": "prelims-csat/comprehension/short"
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/bullet-points",
+  "file": "decision-making-points.html",
+  "rel": "content/prelims/csat/decision-making/bullet-points/decision-making-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3796,
+  "nav": "prelims-csat/decision-making/bullets"
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/detailed-notes",
+  "file": "decision-making-detailed.html",
+  "rel": "content/prelims/csat/decision-making/detailed-notes/decision-making-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5248,
+  "nav": "prelims-csat/decision-making/notes"
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/diagrams",
+  "file": "decision-making.svg",
+  "rel": "content/prelims/csat/decision-making/diagrams/decision-making.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2335,
+  "nav": "prelims-csat/decision-making/diagrams"
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/pyqs",
+  "file": "decision-making-pyqs.html",
+  "rel": "content/prelims/csat/decision-making/pyqs/decision-making-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5932,
+  "nav": "prelims-csat/decision-making/pyqs"
  },
  {
   "dir": "content/prelims/csat/decision-making/short-notes",
@@ -2260,6 +2332,42 @@ window.CONTENT_INDEX = [
   "nav": "prelims-csat/decision-making/short"
  },
  {
+  "dir": "content/prelims/csat/logical-reasoning/bullet-points",
+  "file": "logical-reasoning-points.html",
+  "rel": "content/prelims/csat/logical-reasoning/bullet-points/logical-reasoning-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3787,
+  "nav": "prelims-csat/logical-reasoning/bullets"
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/detailed-notes",
+  "file": "logical-reasoning-detailed.html",
+  "rel": "content/prelims/csat/logical-reasoning/detailed-notes/logical-reasoning-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5297,
+  "nav": "prelims-csat/logical-reasoning/notes"
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/diagrams",
+  "file": "reasoning.svg",
+  "rel": "content/prelims/csat/logical-reasoning/diagrams/reasoning.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2365,
+  "nav": "prelims-csat/logical-reasoning/diagrams"
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/pyqs",
+  "file": "logical-reasoning-pyqs.html",
+  "rel": "content/prelims/csat/logical-reasoning/pyqs/logical-reasoning-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5489,
+  "nav": "prelims-csat/logical-reasoning/pyqs"
+ },
+ {
   "dir": "content/prelims/csat/logical-reasoning/short-notes",
   "file": "reasoning-drills.html",
   "rel": "content/prelims/csat/logical-reasoning/short-notes/reasoning-drills.html",
@@ -2267,6 +2375,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6491,
   "nav": "prelims-csat/logical-reasoning/short"
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/bullet-points",
+  "file": "numeracy-points.html",
+  "rel": "content/prelims/csat/numeracy/bullet-points/numeracy-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3793,
+  "nav": "prelims-csat/numeracy/bullets"
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/detailed-notes",
+  "file": "numeracy-detailed.html",
+  "rel": "content/prelims/csat/numeracy/detailed-notes/numeracy-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5491,
+  "nav": "prelims-csat/numeracy/notes"
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/diagrams",
+  "file": "numeracy.svg",
+  "rel": "content/prelims/csat/numeracy/diagrams/numeracy.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2316,
+  "nav": "prelims-csat/numeracy/diagrams"
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/pyqs",
+  "file": "numeracy-pyqs.html",
+  "rel": "content/prelims/csat/numeracy/pyqs/numeracy-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4806,
+  "nav": "prelims-csat/numeracy/pyqs"
  },
  {
   "dir": "content/prelims/csat/numeracy/short-notes",
@@ -2899,6 +3043,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/short"
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/bullet-points",
+  "file": "acts-conventions-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/bullet-points/acts-conventions-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4028,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes",
+  "file": "acts-conventions-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes/acts-conventions-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5376,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams",
+  "file": "acts-conventions.svg",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams/acts-conventions.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2286,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
   "file": "acts-conventions-mcqs.html",
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs/acts-conventions-mcqs.html",
@@ -2915,6 +3086,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 21049,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/bullet-points",
+  "file": "institutions-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/bullet-points/institutions-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3906,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes",
+  "file": "institutions-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes/institutions-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5470,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/diagrams",
+  "file": "institutions.svg",
+  "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/diagrams/institutions.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2346,
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/diagrams"
  },
  {
   "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/pyqs",
@@ -2944,6 +3142,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/short"
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullet-points",
+  "file": "biodiversity-india-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullet-points/biodiversity-india-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4053,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes",
+  "file": "biodiversity-india-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes/biodiversity-india-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5689,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams",
+  "file": "biodiversity.svg",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams/biodiversity.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2337,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
   "file": "biodiversity-india-mcqs.html",
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs/biodiversity-india-mcqs.html",
@@ -2960,6 +3185,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 17665,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/bullet-points",
+  "file": "ecosystems-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/bullet-points/ecosystems-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4094,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/detailed-notes",
+  "file": "ecosystems-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/detailed-notes/ecosystems-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5810,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams",
+  "file": "ecosystems.svg",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams/ecosystems.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2458,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams"
  },
  {
   "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/pyqs",
@@ -2989,6 +3241,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/short"
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/bullet-points",
+  "file": "species-conservation-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/bullet-points/species-conservation-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3990,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes",
+  "file": "species-conservation-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes/species-conservation-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5095,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams",
+  "file": "species-conservation.svg",
+  "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams/species-conservation.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3602,
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
   "file": "species-conservation-mcqs.html",
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs/species-conservation-mcqs.html",
@@ -3007,6 +3286,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/short"
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/bullet-points",
+  "file": "climate-change-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/bullet-points/climate-change-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4136,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes",
+  "file": "climate-change-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes/climate-change-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6241,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/diagrams",
+  "file": "climate-timeline.svg",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/diagrams/climate-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3564,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs",
   "file": "climate-change-mcqs.html",
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs/climate-change-mcqs.html",
@@ -3023,6 +3329,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 30066,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/bullet-points",
+  "file": "pollution-waste-points.html",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/bullet-points/pollution-waste-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4021,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes",
+  "file": "pollution-waste-detailed.html",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes/pollution-waste-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5664,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/diagrams",
+  "file": "pollution-waste.svg",
+  "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/diagrams/pollution-waste.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2320,
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/diagrams"
  },
  {
   "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/pyqs",
@@ -5710,7 +6043,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 159306,
+    "size": 178380,
     "nav": ""
    },
    {
@@ -9445,6 +9778,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/csat/comprehension/bullet-points",
+  "nav": "prelims-csat/comprehension/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/csat/comprehension/bullet-points",
+    "file": "comprehension-points.html",
+    "rel": "content/prelims/csat/comprehension/bullet-points/comprehension-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3744,
+    "nav": "prelims-csat/comprehension/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/detailed-notes",
+  "nav": "prelims-csat/comprehension/notes",
+  "files": [
+   {
+    "dir": "content/prelims/csat/comprehension/detailed-notes",
+    "file": "comprehension-detailed.html",
+    "rel": "content/prelims/csat/comprehension/detailed-notes/comprehension-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5534,
+    "nav": "prelims-csat/comprehension/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/diagrams",
+  "nav": "prelims-csat/comprehension/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/csat/comprehension/diagrams",
+    "file": "comprehension.svg",
+    "rel": "content/prelims/csat/comprehension/diagrams/comprehension.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2376,
+    "nav": "prelims-csat/comprehension/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/comprehension/pyqs",
+  "nav": "prelims-csat/comprehension/pyqs",
+  "files": [
+   {
+    "dir": "content/prelims/csat/comprehension/pyqs",
+    "file": "comprehension-pyqs.html",
+    "rel": "content/prelims/csat/comprehension/pyqs/comprehension-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6082,
+    "nav": "prelims-csat/comprehension/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/csat/comprehension/short-notes",
   "nav": "prelims-csat/comprehension/short",
   "files": [
@@ -9456,6 +9849,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7672,
     "nav": "prelims-csat/comprehension/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/bullet-points",
+  "nav": "prelims-csat/decision-making/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/csat/decision-making/bullet-points",
+    "file": "decision-making-points.html",
+    "rel": "content/prelims/csat/decision-making/bullet-points/decision-making-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3796,
+    "nav": "prelims-csat/decision-making/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/detailed-notes",
+  "nav": "prelims-csat/decision-making/notes",
+  "files": [
+   {
+    "dir": "content/prelims/csat/decision-making/detailed-notes",
+    "file": "decision-making-detailed.html",
+    "rel": "content/prelims/csat/decision-making/detailed-notes/decision-making-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5248,
+    "nav": "prelims-csat/decision-making/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/diagrams",
+  "nav": "prelims-csat/decision-making/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/csat/decision-making/diagrams",
+    "file": "decision-making.svg",
+    "rel": "content/prelims/csat/decision-making/diagrams/decision-making.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2335,
+    "nav": "prelims-csat/decision-making/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/decision-making/pyqs",
+  "nav": "prelims-csat/decision-making/pyqs",
+  "files": [
+   {
+    "dir": "content/prelims/csat/decision-making/pyqs",
+    "file": "decision-making-pyqs.html",
+    "rel": "content/prelims/csat/decision-making/pyqs/decision-making-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5932,
+    "nav": "prelims-csat/decision-making/pyqs"
    }
   ]
  },
@@ -9475,6 +9928,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/csat/logical-reasoning/bullet-points",
+  "nav": "prelims-csat/logical-reasoning/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/csat/logical-reasoning/bullet-points",
+    "file": "logical-reasoning-points.html",
+    "rel": "content/prelims/csat/logical-reasoning/bullet-points/logical-reasoning-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3787,
+    "nav": "prelims-csat/logical-reasoning/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/detailed-notes",
+  "nav": "prelims-csat/logical-reasoning/notes",
+  "files": [
+   {
+    "dir": "content/prelims/csat/logical-reasoning/detailed-notes",
+    "file": "logical-reasoning-detailed.html",
+    "rel": "content/prelims/csat/logical-reasoning/detailed-notes/logical-reasoning-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5297,
+    "nav": "prelims-csat/logical-reasoning/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/diagrams",
+  "nav": "prelims-csat/logical-reasoning/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/csat/logical-reasoning/diagrams",
+    "file": "reasoning.svg",
+    "rel": "content/prelims/csat/logical-reasoning/diagrams/reasoning.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2365,
+    "nav": "prelims-csat/logical-reasoning/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/logical-reasoning/pyqs",
+  "nav": "prelims-csat/logical-reasoning/pyqs",
+  "files": [
+   {
+    "dir": "content/prelims/csat/logical-reasoning/pyqs",
+    "file": "logical-reasoning-pyqs.html",
+    "rel": "content/prelims/csat/logical-reasoning/pyqs/logical-reasoning-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5489,
+    "nav": "prelims-csat/logical-reasoning/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/csat/logical-reasoning/short-notes",
   "nav": "prelims-csat/logical-reasoning/short",
   "files": [
@@ -9486,6 +9999,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6491,
     "nav": "prelims-csat/logical-reasoning/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/bullet-points",
+  "nav": "prelims-csat/numeracy/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/csat/numeracy/bullet-points",
+    "file": "numeracy-points.html",
+    "rel": "content/prelims/csat/numeracy/bullet-points/numeracy-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3793,
+    "nav": "prelims-csat/numeracy/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/detailed-notes",
+  "nav": "prelims-csat/numeracy/notes",
+  "files": [
+   {
+    "dir": "content/prelims/csat/numeracy/detailed-notes",
+    "file": "numeracy-detailed.html",
+    "rel": "content/prelims/csat/numeracy/detailed-notes/numeracy-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5491,
+    "nav": "prelims-csat/numeracy/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/diagrams",
+  "nav": "prelims-csat/numeracy/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/csat/numeracy/diagrams",
+    "file": "numeracy.svg",
+    "rel": "content/prelims/csat/numeracy/diagrams/numeracy.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2316,
+    "nav": "prelims-csat/numeracy/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/csat/numeracy/pyqs",
+  "nav": "prelims-csat/numeracy/pyqs",
+  "files": [
+   {
+    "dir": "content/prelims/csat/numeracy/pyqs",
+    "file": "numeracy-pyqs.html",
+    "rel": "content/prelims/csat/numeracy/pyqs/numeracy-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4806,
+    "nav": "prelims-csat/numeracy/pyqs"
    }
   ]
  },
@@ -10540,6 +11113,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/bullet-points",
+    "file": "acts-conventions-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/bullet-points/acts-conventions-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4028,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes",
+    "file": "acts-conventions-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes/acts-conventions-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5376,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams",
+    "file": "acts-conventions.svg",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams/acts-conventions.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2286,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/pyqs",
   "files": [
@@ -10566,6 +11184,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 21049,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/bullet-points",
+    "file": "institutions-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/bullet-points/institutions-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3906,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes",
+    "file": "institutions-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes/institutions-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5470,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/diagrams",
+  "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/diagrams",
+    "file": "institutions.svg",
+    "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/diagrams/institutions.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2346,
+    "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/diagrams"
    }
   ]
  },
@@ -10615,6 +11278,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullet-points",
+    "file": "biodiversity-india-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullet-points/biodiversity-india-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4053,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes",
+    "file": "biodiversity-india-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes/biodiversity-india-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5689,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams",
+    "file": "biodiversity.svg",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams/biodiversity.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2337,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/pyqs",
   "files": [
@@ -10641,6 +11349,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 17665,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/bullet-points",
+    "file": "ecosystems-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/bullet-points/ecosystems-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4094,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/detailed-notes",
+    "file": "ecosystems-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/detailed-notes/ecosystems-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5810,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams",
+    "file": "ecosystems.svg",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams/ecosystems.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2458,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems/diagrams"
    }
   ]
  },
@@ -10690,6 +11443,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/bullet-points",
+    "file": "species-conservation-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/bullet-points/species-conservation-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3990,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes",
+    "file": "species-conservation-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes/species-conservation-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5095,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams",
+  "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams",
+    "file": "species-conservation.svg",
+    "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams/species-conservation.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3602,
+    "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/pyqs",
   "files": [
@@ -10720,6 +11518,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/bullet-points",
+    "file": "climate-change-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/bullet-points/climate-change-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4136,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes",
+    "file": "climate-change-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes/climate-change-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6241,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/diagrams",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/diagrams",
+    "file": "climate-timeline.svg",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/diagrams/climate-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3564,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/pyqs",
   "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/pyqs",
   "files": [
@@ -10746,6 +11589,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 30066,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/bullet-points",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/bullet-points",
+    "file": "pollution-waste-points.html",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/bullet-points/pollution-waste-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4021,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes",
+    "file": "pollution-waste-detailed.html",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes/pollution-waste-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5664,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/diagrams",
+  "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/diagrams",
+    "file": "pollution-waste.svg",
+    "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/diagrams/pollution-waste.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2320,
+    "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/diagrams"
    }
   ]
  },
