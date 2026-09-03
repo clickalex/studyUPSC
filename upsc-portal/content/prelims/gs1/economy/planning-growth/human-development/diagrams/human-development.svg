@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Human Development &amp; Poverty metrics</text>
+  <text x="30" y="54" class="s">prelims · index → publisher</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">UNDP FAMILY</text>
+  <text x="44" y="134" class="md">HDI 1990 (life-edu-GNI)</text>
+  <text x="44" y="151" class="md">IHDI inequality-adjusted</text>
+  <text x="44" y="168" class="md">MPI 2010 UNDP+OPHI</text>
+  <text x="44" y="185" class="md">GII gender; PHDI planet 2020</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">INDIA NUMBERS</text>
+  <text x="502" y="134" class="md">HDI rank ~130/193 (2025)</text>
+  <text x="502" y="151" class="md">NITI MPI: NFHS-5 = 14.96%</text>
+  <text x="502" y="168" class="md">Tendulkar 21.9% (2011-12)</text>
+  <text x="502" y="185" class="md">medium-human-development band</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">POVERTY LINES</text>
+  <text x="44" y="272" class="md">Alagh 1979 → Lakdawala 1993</text>
+  <text x="44" y="289" class="md">Tendulkar 2009 report</text>
+  <text x="44" y="306" class="md">Rangarajan 2014 (~29.5%)</text>
+  <text x="44" y="323" class="md">calories 2400/2100</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">WELFARE INFRA</text>
+  <text x="502" y="272" class="md">NFSA 2013: 67% coverage</text>
+  <text x="502" y="289" class="md">ONORC 2019 portability</text>
+  <text x="502" y="306" class="md">SECC 2011 targeting base</text>
+  <text x="502" y="323" class="md">DBT: JDY-Aadhaar-mobile</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

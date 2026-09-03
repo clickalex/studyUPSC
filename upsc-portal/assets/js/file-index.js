@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 150492,
+  "size": 159306,
   "nav": ""
  },
  {
@@ -2296,6 +2296,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-csat/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/bullet-points",
+  "file": "fdi-investment-points.html",
+  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/bullet-points/fdi-investment-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4282,
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes",
+  "file": "fdi-investment-detailed.html",
+  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes/fdi-investment-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5528,
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/diagrams",
+  "file": "fdi-investment.svg",
+  "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/diagrams/fdi-investment.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2293,
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs",
   "file": "fdi-investment-mcqs.html",
   "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs/fdi-investment-mcqs.html",
@@ -2323,6 +2350,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/external-sector/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/bullet-points",
+  "file": "trade-bop-points.html",
+  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/bullet-points/trade-bop-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4043,
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/detailed-notes",
+  "file": "trade-bop-detailed.html",
+  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/detailed-notes/trade-bop-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5260,
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/diagrams",
+  "file": "trade-bop.svg",
+  "rel": "content/prelims/gs1/economy/external-sector/trade-bop/diagrams/trade-bop.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2233,
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs",
   "file": "trade-bop-mcqs.html",
   "rel": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs/trade-bop-mcqs.html",
@@ -2341,6 +2395,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/external-sector/trade-bop/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/bullet-points",
+  "file": "capital-markets-points.html",
+  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/bullet-points/capital-markets-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4188,
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes",
+  "file": "capital-markets-detailed.html",
+  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes/capital-markets-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5701,
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/diagrams",
+  "file": "capital-markets.svg",
+  "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/diagrams/capital-markets.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2393,
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs",
   "file": "capital-markets-mcqs.html",
   "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs/capital-markets-mcqs.html",
@@ -2357,6 +2438,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 12348,
   "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/bullet-points",
+  "file": "financial-inclusion-points.html",
+  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/bullet-points/financial-inclusion-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4300,
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/detailed-notes",
+  "file": "financial-inclusion-detailed.html",
+  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/detailed-notes/financial-inclusion-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5268,
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/diagrams",
+  "file": "financial-inclusion.svg",
+  "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/diagrams/financial-inclusion.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2354,
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/diagrams"
  },
  {
   "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/pyqs",
@@ -2386,6 +2494,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/financial-markets/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/bullet-points",
+  "file": "fiscal-policy-points.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/bullet-points/fiscal-policy-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4405,
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes",
+  "file": "fiscal-policy-detailed.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes/fiscal-policy-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5873,
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/diagrams",
+  "file": "fiscal-policy.svg",
+  "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/diagrams/fiscal-policy.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2199,
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs",
   "file": "fiscal-policy-mcqs.html",
   "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs/fiscal-policy-mcqs.html",
@@ -2404,6 +2539,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/bullet-points",
+  "file": "money-banking-points.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/bullet-points/money-banking-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4388,
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes",
+  "file": "money-banking-detailed.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes/money-banking-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6001,
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/diagrams",
+  "file": "money-banking.svg",
+  "rel": "content/prelims/gs1/economy/macro-economy/money-banking/diagrams/money-banking.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2239,
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs",
   "file": "money-banking-mcqs.html",
   "rel": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs/money-banking-mcqs.html",
@@ -2420,6 +2582,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 17701,
   "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/bullet-points",
+  "file": "national-income-points.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/national-income/bullet-points/national-income-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4067,
+  "nav": "prelims-gs1/economy/macro-economy/national-income/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/detailed-notes",
+  "file": "national-income-detailed.html",
+  "rel": "content/prelims/gs1/economy/macro-economy/national-income/detailed-notes/national-income-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5751,
+  "nav": "prelims-gs1/economy/macro-economy/national-income/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/diagrams",
+  "file": "national-income.svg",
+  "rel": "content/prelims/gs1/economy/macro-economy/national-income/diagrams/national-income.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2228,
+  "nav": "prelims-gs1/economy/macro-economy/national-income/diagrams"
  },
  {
   "dir": "content/prelims/gs1/economy/macro-economy/national-income/pyqs",
@@ -2449,6 +2638,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/macro-economy/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/bullet-points",
+  "file": "human-development-points.html",
+  "rel": "content/prelims/gs1/economy/planning-growth/human-development/bullet-points/human-development-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4171,
+  "nav": "prelims-gs1/economy/planning-growth/human-development/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes",
+  "file": "human-development-detailed.html",
+  "rel": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes/human-development-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5230,
+  "nav": "prelims-gs1/economy/planning-growth/human-development/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/diagrams",
+  "file": "human-development.svg",
+  "rel": "content/prelims/gs1/economy/planning-growth/human-development/diagrams/human-development.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2334,
+  "nav": "prelims-gs1/economy/planning-growth/human-development/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/planning-growth/human-development/pyqs",
   "file": "human-development-mcqs.html",
   "rel": "content/prelims/gs1/economy/planning-growth/human-development/pyqs/human-development-mcqs.html",
@@ -2465,6 +2681,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 20280,
   "nav": "prelims-gs1/economy/planning-growth/human-development/short"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/bullet-points",
+  "file": "niti-aayog-points.html",
+  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/bullet-points/niti-aayog-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3902,
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes",
+  "file": "niti-aayog-detailed.html",
+  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes/niti-aayog-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5520,
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/diagrams",
+  "file": "niti-evolution.svg",
+  "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/diagrams/niti-evolution.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2000,
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/diagrams"
  },
  {
   "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/pyqs",
@@ -2503,6 +2746,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/pyqs"
  },
  {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/bullet-points",
+  "file": "agriculture-points.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/bullet-points/agriculture-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4105,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes",
+  "file": "agriculture-detailed.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes/agriculture-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5141,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/diagrams",
+  "file": "agri-economy.svg",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/diagrams/agri-economy.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2309,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs",
   "file": "agriculture-mcqs.html",
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs/agriculture-mcqs.html",
@@ -2521,6 +2791,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/short"
  },
  {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/bullet-points",
+  "file": "industry-msme-points.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/bullet-points/industry-msme-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3892,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes",
+  "file": "industry-msme-detailed.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes/industry-msme-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4835,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/diagrams",
+  "file": "industry-msme.svg",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/diagrams/industry-msme.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 1930,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs",
   "file": "industry-msme-mcqs.html",
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs/industry-msme-mcqs.html",
@@ -2537,6 +2834,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 20394,
   "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/bullet-points",
+  "file": "services-infrastructure-points.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/bullet-points/services-infrastructure-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3969,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes",
+  "file": "services-infrastructure-detailed.html",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes/services-infrastructure-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4837,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/diagrams",
+  "file": "services-infra.svg",
+  "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/diagrams/services-infra.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 1924,
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/diagrams"
  },
  {
   "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/pyqs",
@@ -5032,6 +5356,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/short"
  },
  {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/bullet-points",
+  "file": "physics-chem-bio-points.html",
+  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/bullet-points/physics-chem-bio-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4184,
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes",
+  "file": "physics-chem-bio-detailed.html",
+  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes/physics-chem-bio-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5778,
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/diagrams",
+  "file": "basic-science.svg",
+  "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/diagrams/basic-science.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2300,
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs",
   "file": "physics-chem-bio-mcqs.html",
   "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs/physics-chem-bio-mcqs.html",
@@ -5059,6 +5410,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/science-tech/basic-science/short"
  },
  {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/bullet-points",
+  "file": "ai-it-points.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/bullet-points/ai-it-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3945,
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes",
+  "file": "ai-it-detailed.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes/ai-it-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5290,
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/diagrams",
+  "file": "ai-it.svg",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/diagrams/ai-it.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2299,
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs",
   "file": "ai-it-mcqs.html",
   "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs/ai-it-mcqs.html",
@@ -5077,6 +5455,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/short"
  },
  {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/bullet-points",
+  "file": "biotech-health-points.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/bullet-points/biotech-health-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3918,
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes",
+  "file": "biotech-health-detailed.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes/biotech-health-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5216,
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/diagrams",
+  "file": "biotech-health.svg",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/diagrams/biotech-health.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2295,
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs",
   "file": "biotech-health-mcqs.html",
   "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs/biotech-health-mcqs.html",
@@ -5093,6 +5498,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 20764,
   "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/bullet-points",
+  "file": "defence-nuclear-points.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/bullet-points/defence-nuclear-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4026,
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes",
+  "file": "defence-nuclear-detailed.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes/defence-nuclear-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5417,
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/diagrams",
+  "file": "defence-nuclear.svg",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/diagrams/defence-nuclear.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2322,
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/diagrams"
  },
  {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/pyqs",
@@ -5120,6 +5552,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 9783,
   "nav": "prelims-gs1/science-tech/emerging-tech/short"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/bullet-points",
+  "file": "space-missions-points.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/bullet-points/space-missions-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 3939,
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes",
+  "file": "space-missions-detailed.html",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes/space-missions-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5333,
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/diagrams",
+  "file": "space-timeline.svg",
+  "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/diagrams/space-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3616,
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/diagrams"
  },
  {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/pyqs",
@@ -5251,7 +5710,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 150492,
+    "size": 159306,
     "nav": ""
    },
    {
@@ -9076,6 +9535,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/bullet-points",
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/bullet-points",
+    "file": "fdi-investment-points.html",
+    "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/bullet-points/fdi-investment-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4282,
+    "nav": "prelims-gs1/economy/external-sector/fdi-investment/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes",
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes",
+    "file": "fdi-investment-detailed.html",
+    "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes/fdi-investment-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5528,
+    "nav": "prelims-gs1/economy/external-sector/fdi-investment/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/diagrams",
+  "nav": "prelims-gs1/economy/external-sector/fdi-investment/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/diagrams",
+    "file": "fdi-investment.svg",
+    "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/diagrams/fdi-investment.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2293,
+    "nav": "prelims-gs1/economy/external-sector/fdi-investment/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/external-sector/fdi-investment/pyqs",
   "nav": "prelims-gs1/economy/external-sector/fdi-investment/pyqs",
   "files": [
@@ -9121,6 +9625,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/bullet-points",
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/trade-bop/bullet-points",
+    "file": "trade-bop-points.html",
+    "rel": "content/prelims/gs1/economy/external-sector/trade-bop/bullet-points/trade-bop-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4043,
+    "nav": "prelims-gs1/economy/external-sector/trade-bop/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/detailed-notes",
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/trade-bop/detailed-notes",
+    "file": "trade-bop-detailed.html",
+    "rel": "content/prelims/gs1/economy/external-sector/trade-bop/detailed-notes/trade-bop-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5260,
+    "nav": "prelims-gs1/economy/external-sector/trade-bop/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/external-sector/trade-bop/diagrams",
+  "nav": "prelims-gs1/economy/external-sector/trade-bop/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/external-sector/trade-bop/diagrams",
+    "file": "trade-bop.svg",
+    "rel": "content/prelims/gs1/economy/external-sector/trade-bop/diagrams/trade-bop.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2233,
+    "nav": "prelims-gs1/economy/external-sector/trade-bop/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/external-sector/trade-bop/pyqs",
   "nav": "prelims-gs1/economy/external-sector/trade-bop/pyqs",
   "files": [
@@ -9151,6 +9700,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/bullet-points",
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/bullet-points",
+    "file": "capital-markets-points.html",
+    "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/bullet-points/capital-markets-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4188,
+    "nav": "prelims-gs1/economy/financial-markets/capital-markets/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes",
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes",
+    "file": "capital-markets-detailed.html",
+    "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes/capital-markets-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5701,
+    "nav": "prelims-gs1/economy/financial-markets/capital-markets/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/diagrams",
+  "nav": "prelims-gs1/economy/financial-markets/capital-markets/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/diagrams",
+    "file": "capital-markets.svg",
+    "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/diagrams/capital-markets.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2393,
+    "nav": "prelims-gs1/economy/financial-markets/capital-markets/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/financial-markets/capital-markets/pyqs",
   "nav": "prelims-gs1/economy/financial-markets/capital-markets/pyqs",
   "files": [
@@ -9177,6 +9771,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 12348,
     "nav": "prelims-gs1/economy/financial-markets/capital-markets/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/bullet-points",
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/bullet-points",
+    "file": "financial-inclusion-points.html",
+    "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/bullet-points/financial-inclusion-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4300,
+    "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/detailed-notes",
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/detailed-notes",
+    "file": "financial-inclusion-detailed.html",
+    "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/detailed-notes/financial-inclusion-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5268,
+    "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/diagrams",
+  "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/financial-markets/financial-inclusion/diagrams",
+    "file": "financial-inclusion.svg",
+    "rel": "content/prelims/gs1/economy/financial-markets/financial-inclusion/diagrams/financial-inclusion.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2354,
+    "nav": "prelims-gs1/economy/financial-markets/financial-inclusion/diagrams"
    }
   ]
  },
@@ -9226,6 +9865,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/bullet-points",
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/bullet-points",
+    "file": "fiscal-policy-points.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/bullet-points/fiscal-policy-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4405,
+    "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes",
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes",
+    "file": "fiscal-policy-detailed.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes/fiscal-policy-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5873,
+    "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/diagrams",
+  "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/diagrams",
+    "file": "fiscal-policy.svg",
+    "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/diagrams/fiscal-policy.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2199,
+    "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/macro-economy/fiscal-policy/pyqs",
   "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/pyqs",
   "files": [
@@ -9256,6 +9940,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/bullet-points",
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/money-banking/bullet-points",
+    "file": "money-banking-points.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/money-banking/bullet-points/money-banking-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4388,
+    "nav": "prelims-gs1/economy/macro-economy/money-banking/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes",
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes",
+    "file": "money-banking-detailed.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes/money-banking-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6001,
+    "nav": "prelims-gs1/economy/macro-economy/money-banking/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/money-banking/diagrams",
+  "nav": "prelims-gs1/economy/macro-economy/money-banking/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/money-banking/diagrams",
+    "file": "money-banking.svg",
+    "rel": "content/prelims/gs1/economy/macro-economy/money-banking/diagrams/money-banking.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2239,
+    "nav": "prelims-gs1/economy/macro-economy/money-banking/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/macro-economy/money-banking/pyqs",
   "nav": "prelims-gs1/economy/macro-economy/money-banking/pyqs",
   "files": [
@@ -9282,6 +10011,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 17701,
     "nav": "prelims-gs1/economy/macro-economy/money-banking/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/bullet-points",
+  "nav": "prelims-gs1/economy/macro-economy/national-income/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/national-income/bullet-points",
+    "file": "national-income-points.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/national-income/bullet-points/national-income-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4067,
+    "nav": "prelims-gs1/economy/macro-economy/national-income/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/detailed-notes",
+  "nav": "prelims-gs1/economy/macro-economy/national-income/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/national-income/detailed-notes",
+    "file": "national-income-detailed.html",
+    "rel": "content/prelims/gs1/economy/macro-economy/national-income/detailed-notes/national-income-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5751,
+    "nav": "prelims-gs1/economy/macro-economy/national-income/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/macro-economy/national-income/diagrams",
+  "nav": "prelims-gs1/economy/macro-economy/national-income/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/macro-economy/national-income/diagrams",
+    "file": "national-income.svg",
+    "rel": "content/prelims/gs1/economy/macro-economy/national-income/diagrams/national-income.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2228,
+    "nav": "prelims-gs1/economy/macro-economy/national-income/diagrams"
    }
   ]
  },
@@ -9331,6 +10105,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/bullet-points",
+  "nav": "prelims-gs1/economy/planning-growth/human-development/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/human-development/bullet-points",
+    "file": "human-development-points.html",
+    "rel": "content/prelims/gs1/economy/planning-growth/human-development/bullet-points/human-development-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4171,
+    "nav": "prelims-gs1/economy/planning-growth/human-development/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes",
+  "nav": "prelims-gs1/economy/planning-growth/human-development/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes",
+    "file": "human-development-detailed.html",
+    "rel": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes/human-development-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5230,
+    "nav": "prelims-gs1/economy/planning-growth/human-development/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/human-development/diagrams",
+  "nav": "prelims-gs1/economy/planning-growth/human-development/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/human-development/diagrams",
+    "file": "human-development.svg",
+    "rel": "content/prelims/gs1/economy/planning-growth/human-development/diagrams/human-development.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2334,
+    "nav": "prelims-gs1/economy/planning-growth/human-development/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/planning-growth/human-development/pyqs",
   "nav": "prelims-gs1/economy/planning-growth/human-development/pyqs",
   "files": [
@@ -9357,6 +10176,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 20280,
     "nav": "prelims-gs1/economy/planning-growth/human-development/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/bullet-points",
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/bullet-points",
+    "file": "niti-aayog-points.html",
+    "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/bullet-points/niti-aayog-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3902,
+    "nav": "prelims-gs1/economy/planning-growth/niti-aayog/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes",
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes",
+    "file": "niti-aayog-detailed.html",
+    "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes/niti-aayog-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5520,
+    "nav": "prelims-gs1/economy/planning-growth/niti-aayog/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/diagrams",
+  "nav": "prelims-gs1/economy/planning-growth/niti-aayog/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/planning-growth/niti-aayog/diagrams",
+    "file": "niti-evolution.svg",
+    "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/diagrams/niti-evolution.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2000,
+    "nav": "prelims-gs1/economy/planning-growth/niti-aayog/diagrams"
    }
   ]
  },
@@ -9421,6 +10285,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/bullet-points",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/bullet-points",
+    "file": "agriculture-points.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/bullet-points/agriculture-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4105,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes",
+    "file": "agriculture-detailed.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes/agriculture-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5141,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/diagrams",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/diagrams",
+    "file": "agri-economy.svg",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/diagrams/agri-economy.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2309,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/pyqs",
   "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/pyqs",
   "files": [
@@ -9451,6 +10360,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/bullet-points",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/bullet-points",
+    "file": "industry-msme-points.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/bullet-points/industry-msme-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3892,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes",
+    "file": "industry-msme-detailed.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes/industry-msme-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4835,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/diagrams",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/diagrams",
+    "file": "industry-msme.svg",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/diagrams/industry-msme.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 1930,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/pyqs",
   "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/pyqs",
   "files": [
@@ -9477,6 +10431,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 20394,
     "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/bullet-points",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/bullet-points",
+    "file": "services-infrastructure-points.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/bullet-points/services-infrastructure-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3969,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes",
+    "file": "services-infrastructure-detailed.html",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes/services-infrastructure-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4837,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/diagrams",
+  "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/diagrams",
+    "file": "services-infra.svg",
+    "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/diagrams/services-infra.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 1924,
+    "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/diagrams"
    }
   ]
  },
@@ -13636,6 +14635,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/bullet-points",
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/bullet-points",
+    "file": "physics-chem-bio-points.html",
+    "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/bullet-points/physics-chem-bio-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4184,
+    "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes",
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes",
+    "file": "physics-chem-bio-detailed.html",
+    "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes/physics-chem-bio-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5778,
+    "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/diagrams",
+  "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/diagrams",
+    "file": "basic-science.svg",
+    "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/diagrams/basic-science.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2300,
+    "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/pyqs",
   "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/pyqs",
   "files": [
@@ -13681,6 +14725,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/bullet-points",
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/bullet-points",
+    "file": "ai-it-points.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/bullet-points/ai-it-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3945,
+    "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes",
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes",
+    "file": "ai-it-detailed.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes/ai-it-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5290,
+    "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/diagrams",
+  "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/diagrams",
+    "file": "ai-it.svg",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/diagrams/ai-it.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2299,
+    "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/ai-it/pyqs",
   "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/pyqs",
   "files": [
@@ -13711,6 +14800,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/bullet-points",
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/bullet-points",
+    "file": "biotech-health-points.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/bullet-points/biotech-health-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3918,
+    "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes",
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes",
+    "file": "biotech-health-detailed.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes/biotech-health-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5216,
+    "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/diagrams",
+  "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/diagrams",
+    "file": "biotech-health.svg",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/diagrams/biotech-health.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2295,
+    "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/pyqs",
   "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/pyqs",
   "files": [
@@ -13737,6 +14871,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 20764,
     "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/bullet-points",
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/bullet-points",
+    "file": "defence-nuclear-points.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/bullet-points/defence-nuclear-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4026,
+    "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes",
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes",
+    "file": "defence-nuclear-detailed.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes/defence-nuclear-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5417,
+    "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/diagrams",
+  "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/diagrams",
+    "file": "defence-nuclear.svg",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/diagrams/defence-nuclear.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2322,
+    "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/diagrams"
    }
   ]
  },
@@ -13782,6 +14961,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 9783,
     "nav": "prelims-gs1/science-tech/emerging-tech/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/bullet-points",
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/bullet-points",
+    "file": "space-missions-points.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/bullet-points/space-missions-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 3939,
+    "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes",
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes",
+    "file": "space-missions-detailed.html",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes/space-missions-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5333,
+    "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/diagrams",
+  "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/science-tech/emerging-tech/space-missions/diagrams",
+    "file": "space-timeline.svg",
+    "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/diagrams/space-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3616,
+    "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/diagrams"
    }
   ]
  },

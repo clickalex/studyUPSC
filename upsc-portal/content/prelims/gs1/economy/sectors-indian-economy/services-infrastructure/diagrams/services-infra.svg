@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Services &amp; Infrastructure</text>
+  <text x="30" y="54" class="s">prelims · item → anchor</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">SERVICES SHARE</text>
+  <text x="44" y="134" class="md">~55% of GVA; IT-BPM ~8%</text>
+  <text x="44" y="151" class="md">GCC 1,600+ centres</text>
+  <text x="44" y="168" class="md">Swadesh Darshan 2.0 + PRASHAD</text>
+  <text x="44" y="185" class="md">logistics target 7.5% GDP</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">INFRA PIPELINE</text>
+  <text x="502" y="134" class="md">NIP ₹111 lakh cr (2019)</text>
+  <text x="502" y="151" class="md">Gati Shakti master plan 2021</text>
+  <text x="502" y="168" class="md">NMP monetisation ₹6L cr</text>
+  <text x="502" y="185" class="md">DFC east + west</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">ENERGY-URBAN</text>
+  <text x="44" y="272" class="md">PM Surya Ghar rooftop 2024</text>
+  <text x="44" y="289" class="md">RDSS DISCOM reform 2021</text>
+  <text x="44" y="306" class="md">AMRUT 2.0; SBM-U 2.0</text>
+  <text x="44" y="323" class="md">PM-eBus; SVAMITVA cards</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>
