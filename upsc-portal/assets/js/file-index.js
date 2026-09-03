@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 118665,
+  "size": 124133,
   "nav": ""
  },
  {
@@ -1648,6 +1648,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-anthropology/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-economics/bullet-points",
+  "file": "economics-points.html",
+  "rel": "content/mains/optional-subjects/optional-economics/bullet-points/economics-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5305,
+  "nav": "optional-subjects/optional-economics/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-economics/detailed-notes",
+  "file": "economics-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-economics/detailed-notes/economics-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7789,
+  "nav": "optional-subjects/optional-economics/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-economics/diagrams",
   "file": "economics-map.svg",
   "rel": "content/mains/optional-subjects/optional-economics/diagrams/economics-map.svg",
@@ -1657,31 +1675,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-economics/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-economics",
-  "file": "economics-points.html",
-  "rel": "content/mains/optional-subjects/optional-economics/economics-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5302,
-  "nav": "optional-subjects/optional-economics"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-economics",
+  "dir": "content/mains/optional-subjects/optional-economics/pyqs",
   "file": "economics-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-economics/economics-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-economics/pyqs/economics-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7004,
-  "nav": "optional-subjects/optional-economics"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-economics",
-  "file": "economics-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-economics/economics-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7786,
-  "nav": "optional-subjects/optional-economics"
+  "size": 7007,
+  "nav": "optional-subjects/optional-economics/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-economics/short-notes",
@@ -1693,6 +1693,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-economics/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-geography/bullet-points",
+  "file": "geography-points.html",
+  "rel": "content/mains/optional-subjects/optional-geography/bullet-points/geography-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5208,
+  "nav": "optional-subjects/optional-geography/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-geography/detailed-notes",
+  "file": "geography-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-geography/detailed-notes/geography-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7239,
+  "nav": "optional-subjects/optional-geography/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-geography/diagrams",
   "file": "geography-map.svg",
   "rel": "content/mains/optional-subjects/optional-geography/diagrams/geography-map.svg",
@@ -1702,31 +1720,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-geography/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-geography",
-  "file": "geography-points.html",
-  "rel": "content/mains/optional-subjects/optional-geography/geography-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5205,
-  "nav": "optional-subjects/optional-geography"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-geography",
+  "dir": "content/mains/optional-subjects/optional-geography/pyqs",
   "file": "geography-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-geography/geography-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-geography/pyqs/geography-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6735,
-  "nav": "optional-subjects/optional-geography"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-geography",
-  "file": "geography-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-geography/geography-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7236,
-  "nav": "optional-subjects/optional-geography"
+  "size": 6738,
+  "nav": "optional-subjects/optional-geography/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-geography/short-notes",
@@ -1738,6 +1738,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-geography/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-history/bullet-points",
+  "file": "history-points.html",
+  "rel": "content/mains/optional-subjects/optional-history/bullet-points/history-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5051,
+  "nav": "optional-subjects/optional-history/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-history/detailed-notes",
+  "file": "history-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-history/detailed-notes/history-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7597,
+  "nav": "optional-subjects/optional-history/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-history/diagrams",
   "file": "history-map.svg",
   "rel": "content/mains/optional-subjects/optional-history/diagrams/history-map.svg",
@@ -1747,31 +1765,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-history/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-history",
-  "file": "history-points.html",
-  "rel": "content/mains/optional-subjects/optional-history/history-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5048,
-  "nav": "optional-subjects/optional-history"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-history",
+  "dir": "content/mains/optional-subjects/optional-history/pyqs",
   "file": "history-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-history/history-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-history/pyqs/history-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7236,
-  "nav": "optional-subjects/optional-history"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-history",
-  "file": "history-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-history/history-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7594,
-  "nav": "optional-subjects/optional-history"
+  "size": 7239,
+  "nav": "optional-subjects/optional-history/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-history/short-notes",
@@ -1783,6 +1783,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-history/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-philosophy/bullet-points",
+  "file": "philosophy-points.html",
+  "rel": "content/mains/optional-subjects/optional-philosophy/bullet-points/philosophy-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5067,
+  "nav": "optional-subjects/optional-philosophy/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-philosophy/detailed-notes",
+  "file": "philosophy-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-philosophy/detailed-notes/philosophy-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7194,
+  "nav": "optional-subjects/optional-philosophy/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-philosophy/diagrams",
   "file": "philosophy-map.svg",
   "rel": "content/mains/optional-subjects/optional-philosophy/diagrams/philosophy-map.svg",
@@ -1792,31 +1810,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-philosophy/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-philosophy",
-  "file": "philosophy-points.html",
-  "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5064,
-  "nav": "optional-subjects/optional-philosophy"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-philosophy",
+  "dir": "content/mains/optional-subjects/optional-philosophy/pyqs",
   "file": "philosophy-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-philosophy/pyqs/philosophy-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7086,
-  "nav": "optional-subjects/optional-philosophy"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-philosophy",
-  "file": "philosophy-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7191,
-  "nav": "optional-subjects/optional-philosophy"
+  "size": 7089,
+  "nav": "optional-subjects/optional-philosophy/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-philosophy/short-notes",
@@ -1828,6 +1828,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-philosophy/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-polity/bullet-points",
+  "file": "psir-points.html",
+  "rel": "content/mains/optional-subjects/optional-polity/bullet-points/psir-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5035,
+  "nav": "optional-subjects/optional-polity/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-polity/detailed-notes",
+  "file": "psir-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-polity/detailed-notes/psir-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6838,
+  "nav": "optional-subjects/optional-polity/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-polity/diagrams",
   "file": "psir-map.svg",
   "rel": "content/mains/optional-subjects/optional-polity/diagrams/psir-map.svg",
@@ -1837,31 +1855,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-polity/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-polity",
-  "file": "psir-points.html",
-  "rel": "content/mains/optional-subjects/optional-polity/psir-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5032,
-  "nav": "optional-subjects/optional-polity"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-polity",
+  "dir": "content/mains/optional-subjects/optional-polity/pyqs",
   "file": "psir-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-polity/psir-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-polity/pyqs/psir-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6944,
-  "nav": "optional-subjects/optional-polity"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-polity",
-  "file": "psir-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-polity/psir-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 6835,
-  "nav": "optional-subjects/optional-polity"
+  "size": 6947,
+  "nav": "optional-subjects/optional-polity/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-polity/short-notes",
@@ -1873,6 +1873,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-polity/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-psychology/bullet-points",
+  "file": "psychology-points.html",
+  "rel": "content/mains/optional-subjects/optional-psychology/bullet-points/psychology-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5122,
+  "nav": "optional-subjects/optional-psychology/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-psychology/detailed-notes",
+  "file": "psychology-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-psychology/detailed-notes/psychology-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7632,
+  "nav": "optional-subjects/optional-psychology/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-psychology/diagrams",
   "file": "psychology-map.svg",
   "rel": "content/mains/optional-subjects/optional-psychology/diagrams/psychology-map.svg",
@@ -1882,31 +1900,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-psychology/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-psychology",
-  "file": "psychology-points.html",
-  "rel": "content/mains/optional-subjects/optional-psychology/psychology-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5119,
-  "nav": "optional-subjects/optional-psychology"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-psychology",
+  "dir": "content/mains/optional-subjects/optional-psychology/pyqs",
   "file": "psychology-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-psychology/psychology-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-psychology/pyqs/psychology-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6822,
-  "nav": "optional-subjects/optional-psychology"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-psychology",
-  "file": "psychology-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-psychology/psychology-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7629,
-  "nav": "optional-subjects/optional-psychology"
+  "size": 6825,
+  "nav": "optional-subjects/optional-psychology/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-psychology/short-notes",
@@ -1918,6 +1918,24 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-psychology/short"
  },
  {
+  "dir": "content/mains/optional-subjects/optional-public-administration/bullet-points",
+  "file": "pub-ad-points.html",
+  "rel": "content/mains/optional-subjects/optional-public-administration/bullet-points/pub-ad-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5097,
+  "nav": "optional-subjects/optional-public-administration/bullets"
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-public-administration/detailed-notes",
+  "file": "pub-ad-syllabus-map.html",
+  "rel": "content/mains/optional-subjects/optional-public-administration/detailed-notes/pub-ad-syllabus-map.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7825,
+  "nav": "optional-subjects/optional-public-administration/notes"
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-public-administration/diagrams",
   "file": "pub-ad-map.svg",
   "rel": "content/mains/optional-subjects/optional-public-administration/diagrams/pub-ad-map.svg",
@@ -1927,31 +1945,13 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/optional-public-administration/diagrams"
  },
  {
-  "dir": "content/mains/optional-subjects/optional-public-administration",
-  "file": "pub-ad-points.html",
-  "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-points.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 5094,
-  "nav": "optional-subjects/optional-public-administration"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-public-administration",
+  "dir": "content/mains/optional-subjects/optional-public-administration/pyqs",
   "file": "pub-ad-pyqs.html",
-  "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-pyqs.html",
+  "rel": "content/mains/optional-subjects/optional-public-administration/pyqs/pub-ad-pyqs.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7314,
-  "nav": "optional-subjects/optional-public-administration"
- },
- {
-  "dir": "content/mains/optional-subjects/optional-public-administration",
-  "file": "pub-ad-syllabus-map.html",
-  "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-syllabus-map.html",
-  "kind": "doc",
-  "ext": "html",
-  "size": 7822,
-  "nav": "optional-subjects/optional-public-administration"
+  "size": 7317,
+  "nav": "optional-subjects/optional-public-administration/pyqs"
  },
  {
   "dir": "content/mains/optional-subjects/optional-public-administration/short-notes",
@@ -3973,7 +3973,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 118665,
+    "size": 124133,
     "nav": ""
    },
    {
@@ -6718,35 +6718,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-economics",
-  "nav": "optional-subjects/optional-economics",
+  "dir": "content/mains/optional-subjects/optional-economics/bullet-points",
+  "nav": "optional-subjects/optional-economics/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-economics",
+    "dir": "content/mains/optional-subjects/optional-economics/bullet-points",
     "file": "economics-points.html",
-    "rel": "content/mains/optional-subjects/optional-economics/economics-points.html",
+    "rel": "content/mains/optional-subjects/optional-economics/bullet-points/economics-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5302,
-    "nav": "optional-subjects/optional-economics"
-   },
+    "size": 5305,
+    "nav": "optional-subjects/optional-economics/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-economics/detailed-notes",
+  "nav": "optional-subjects/optional-economics/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-economics",
-    "file": "economics-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-economics/economics-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 7004,
-    "nav": "optional-subjects/optional-economics"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-economics",
+    "dir": "content/mains/optional-subjects/optional-economics/detailed-notes",
     "file": "economics-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-economics/economics-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-economics/detailed-notes/economics-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7786,
-    "nav": "optional-subjects/optional-economics"
+    "size": 7789,
+    "nav": "optional-subjects/optional-economics/notes"
    }
   ]
  },
@@ -6766,6 +6763,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-economics/pyqs",
+  "nav": "optional-subjects/optional-economics/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-economics/pyqs",
+    "file": "economics-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-economics/pyqs/economics-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7007,
+    "nav": "optional-subjects/optional-economics/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-economics/short-notes",
   "nav": "optional-subjects/optional-economics/short",
   "files": [
@@ -6781,35 +6793,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-geography",
-  "nav": "optional-subjects/optional-geography",
+  "dir": "content/mains/optional-subjects/optional-geography/bullet-points",
+  "nav": "optional-subjects/optional-geography/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-geography",
+    "dir": "content/mains/optional-subjects/optional-geography/bullet-points",
     "file": "geography-points.html",
-    "rel": "content/mains/optional-subjects/optional-geography/geography-points.html",
+    "rel": "content/mains/optional-subjects/optional-geography/bullet-points/geography-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5205,
-    "nav": "optional-subjects/optional-geography"
-   },
+    "size": 5208,
+    "nav": "optional-subjects/optional-geography/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-geography/detailed-notes",
+  "nav": "optional-subjects/optional-geography/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-geography",
-    "file": "geography-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-geography/geography-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 6735,
-    "nav": "optional-subjects/optional-geography"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-geography",
+    "dir": "content/mains/optional-subjects/optional-geography/detailed-notes",
     "file": "geography-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-geography/geography-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-geography/detailed-notes/geography-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7236,
-    "nav": "optional-subjects/optional-geography"
+    "size": 7239,
+    "nav": "optional-subjects/optional-geography/notes"
    }
   ]
  },
@@ -6829,6 +6838,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-geography/pyqs",
+  "nav": "optional-subjects/optional-geography/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-geography/pyqs",
+    "file": "geography-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-geography/pyqs/geography-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6738,
+    "nav": "optional-subjects/optional-geography/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-geography/short-notes",
   "nav": "optional-subjects/optional-geography/short",
   "files": [
@@ -6844,35 +6868,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-history",
-  "nav": "optional-subjects/optional-history",
+  "dir": "content/mains/optional-subjects/optional-history/bullet-points",
+  "nav": "optional-subjects/optional-history/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-history",
+    "dir": "content/mains/optional-subjects/optional-history/bullet-points",
     "file": "history-points.html",
-    "rel": "content/mains/optional-subjects/optional-history/history-points.html",
+    "rel": "content/mains/optional-subjects/optional-history/bullet-points/history-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5048,
-    "nav": "optional-subjects/optional-history"
-   },
+    "size": 5051,
+    "nav": "optional-subjects/optional-history/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-history/detailed-notes",
+  "nav": "optional-subjects/optional-history/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-history",
-    "file": "history-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-history/history-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 7236,
-    "nav": "optional-subjects/optional-history"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-history",
+    "dir": "content/mains/optional-subjects/optional-history/detailed-notes",
     "file": "history-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-history/history-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-history/detailed-notes/history-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7594,
-    "nav": "optional-subjects/optional-history"
+    "size": 7597,
+    "nav": "optional-subjects/optional-history/notes"
    }
   ]
  },
@@ -6892,6 +6913,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-history/pyqs",
+  "nav": "optional-subjects/optional-history/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-history/pyqs",
+    "file": "history-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-history/pyqs/history-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7239,
+    "nav": "optional-subjects/optional-history/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-history/short-notes",
   "nav": "optional-subjects/optional-history/short",
   "files": [
@@ -6907,35 +6943,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-philosophy",
-  "nav": "optional-subjects/optional-philosophy",
+  "dir": "content/mains/optional-subjects/optional-philosophy/bullet-points",
+  "nav": "optional-subjects/optional-philosophy/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-philosophy",
+    "dir": "content/mains/optional-subjects/optional-philosophy/bullet-points",
     "file": "philosophy-points.html",
-    "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-points.html",
+    "rel": "content/mains/optional-subjects/optional-philosophy/bullet-points/philosophy-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5064,
-    "nav": "optional-subjects/optional-philosophy"
-   },
+    "size": 5067,
+    "nav": "optional-subjects/optional-philosophy/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-philosophy/detailed-notes",
+  "nav": "optional-subjects/optional-philosophy/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-philosophy",
-    "file": "philosophy-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 7086,
-    "nav": "optional-subjects/optional-philosophy"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-philosophy",
+    "dir": "content/mains/optional-subjects/optional-philosophy/detailed-notes",
     "file": "philosophy-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-philosophy/philosophy-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-philosophy/detailed-notes/philosophy-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7191,
-    "nav": "optional-subjects/optional-philosophy"
+    "size": 7194,
+    "nav": "optional-subjects/optional-philosophy/notes"
    }
   ]
  },
@@ -6955,6 +6988,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-philosophy/pyqs",
+  "nav": "optional-subjects/optional-philosophy/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-philosophy/pyqs",
+    "file": "philosophy-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-philosophy/pyqs/philosophy-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7089,
+    "nav": "optional-subjects/optional-philosophy/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-philosophy/short-notes",
   "nav": "optional-subjects/optional-philosophy/short",
   "files": [
@@ -6970,35 +7018,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-polity",
-  "nav": "optional-subjects/optional-polity",
+  "dir": "content/mains/optional-subjects/optional-polity/bullet-points",
+  "nav": "optional-subjects/optional-polity/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-polity",
+    "dir": "content/mains/optional-subjects/optional-polity/bullet-points",
     "file": "psir-points.html",
-    "rel": "content/mains/optional-subjects/optional-polity/psir-points.html",
+    "rel": "content/mains/optional-subjects/optional-polity/bullet-points/psir-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5032,
-    "nav": "optional-subjects/optional-polity"
-   },
+    "size": 5035,
+    "nav": "optional-subjects/optional-polity/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-polity/detailed-notes",
+  "nav": "optional-subjects/optional-polity/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-polity",
-    "file": "psir-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-polity/psir-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 6944,
-    "nav": "optional-subjects/optional-polity"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-polity",
+    "dir": "content/mains/optional-subjects/optional-polity/detailed-notes",
     "file": "psir-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-polity/psir-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-polity/detailed-notes/psir-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6835,
-    "nav": "optional-subjects/optional-polity"
+    "size": 6838,
+    "nav": "optional-subjects/optional-polity/notes"
    }
   ]
  },
@@ -7018,6 +7063,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-polity/pyqs",
+  "nav": "optional-subjects/optional-polity/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-polity/pyqs",
+    "file": "psir-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-polity/pyqs/psir-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6947,
+    "nav": "optional-subjects/optional-polity/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-polity/short-notes",
   "nav": "optional-subjects/optional-polity/short",
   "files": [
@@ -7033,35 +7093,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-psychology",
-  "nav": "optional-subjects/optional-psychology",
+  "dir": "content/mains/optional-subjects/optional-psychology/bullet-points",
+  "nav": "optional-subjects/optional-psychology/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-psychology",
+    "dir": "content/mains/optional-subjects/optional-psychology/bullet-points",
     "file": "psychology-points.html",
-    "rel": "content/mains/optional-subjects/optional-psychology/psychology-points.html",
+    "rel": "content/mains/optional-subjects/optional-psychology/bullet-points/psychology-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5119,
-    "nav": "optional-subjects/optional-psychology"
-   },
+    "size": 5122,
+    "nav": "optional-subjects/optional-psychology/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-psychology/detailed-notes",
+  "nav": "optional-subjects/optional-psychology/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-psychology",
-    "file": "psychology-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-psychology/psychology-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 6822,
-    "nav": "optional-subjects/optional-psychology"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-psychology",
+    "dir": "content/mains/optional-subjects/optional-psychology/detailed-notes",
     "file": "psychology-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-psychology/psychology-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-psychology/detailed-notes/psychology-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7629,
-    "nav": "optional-subjects/optional-psychology"
+    "size": 7632,
+    "nav": "optional-subjects/optional-psychology/notes"
    }
   ]
  },
@@ -7081,6 +7138,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/optional-subjects/optional-psychology/pyqs",
+  "nav": "optional-subjects/optional-psychology/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-psychology/pyqs",
+    "file": "psychology-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-psychology/pyqs/psychology-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6825,
+    "nav": "optional-subjects/optional-psychology/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/optional-subjects/optional-psychology/short-notes",
   "nav": "optional-subjects/optional-psychology/short",
   "files": [
@@ -7096,35 +7168,32 @@ window.CONTENT_DIRS = [
   ]
  },
  {
-  "dir": "content/mains/optional-subjects/optional-public-administration",
-  "nav": "optional-subjects/optional-public-administration",
+  "dir": "content/mains/optional-subjects/optional-public-administration/bullet-points",
+  "nav": "optional-subjects/optional-public-administration/bullets",
   "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-public-administration",
+    "dir": "content/mains/optional-subjects/optional-public-administration/bullet-points",
     "file": "pub-ad-points.html",
-    "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-points.html",
+    "rel": "content/mains/optional-subjects/optional-public-administration/bullet-points/pub-ad-points.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5094,
-    "nav": "optional-subjects/optional-public-administration"
-   },
+    "size": 5097,
+    "nav": "optional-subjects/optional-public-administration/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-public-administration/detailed-notes",
+  "nav": "optional-subjects/optional-public-administration/notes",
+  "files": [
    {
-    "dir": "content/mains/optional-subjects/optional-public-administration",
-    "file": "pub-ad-pyqs.html",
-    "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-pyqs.html",
-    "kind": "doc",
-    "ext": "html",
-    "size": 7314,
-    "nav": "optional-subjects/optional-public-administration"
-   },
-   {
-    "dir": "content/mains/optional-subjects/optional-public-administration",
+    "dir": "content/mains/optional-subjects/optional-public-administration/detailed-notes",
     "file": "pub-ad-syllabus-map.html",
-    "rel": "content/mains/optional-subjects/optional-public-administration/pub-ad-syllabus-map.html",
+    "rel": "content/mains/optional-subjects/optional-public-administration/detailed-notes/pub-ad-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7822,
-    "nav": "optional-subjects/optional-public-administration"
+    "size": 7825,
+    "nav": "optional-subjects/optional-public-administration/notes"
    }
   ]
  },
@@ -7140,6 +7209,21 @@ window.CONTENT_DIRS = [
     "ext": "svg",
     "size": 3866,
     "nav": "optional-subjects/optional-public-administration/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/optional-subjects/optional-public-administration/pyqs",
+  "nav": "optional-subjects/optional-public-administration/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/optional-subjects/optional-public-administration/pyqs",
+    "file": "pub-ad-pyqs.html",
+    "rel": "content/mains/optional-subjects/optional-public-administration/pyqs/pub-ad-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7317,
+    "nav": "optional-subjects/optional-public-administration/pyqs"
    }
   ]
  },
