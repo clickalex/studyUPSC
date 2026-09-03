@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 126402,
+  "size": 139967,
   "nav": ""
  },
  {
@@ -3943,6 +3943,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/bullet-points",
+  "file": "amendments-points.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/bullet-points/amendments-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4466,
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes",
+  "file": "amendments-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes/amendments-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6133,
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/diagrams",
+  "file": "key-amendments.svg",
+  "rel": "content/prelims/gs1/polity-governance/constitution/amendments/diagrams/key-amendments.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2584,
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs",
   "file": "amendments-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs/amendments-mcqs.html",
@@ -3959,6 +3986,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 15583,
   "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/bullet-points",
+  "file": "federal-structure-points.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/bullet-points/federal-structure-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4591,
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/detailed-notes",
+  "file": "federal-structure-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/detailed-notes/federal-structure-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6112,
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/diagrams",
+  "file": "centre-state-relations.svg",
+  "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/diagrams/centre-state-relations.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2581,
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/pyqs",
@@ -3979,6 +4033,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/constitution/federal-structure/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/bullet-points",
+  "file": "fundamental-rights-points.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/bullet-points/fundamental-rights-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4517,
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes",
+  "file": "fundamental-rights-dpsp-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes/fundamental-rights-dpsp-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6262,
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams",
+  "file": "fundamental-rights.svg",
+  "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams/fundamental-rights.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2801,
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
   "file": "fundamental-rights-dpsp-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs/fundamental-rights-dpsp-mcqs.html",
@@ -3995,6 +4076,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 15851,
   "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/bullet-points",
+  "file": "making-features-points.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/bullet-points/making-features-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4579,
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes",
+  "file": "making-features-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes/making-features-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6948,
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/diagrams",
+  "file": "constitution-making.svg",
+  "rel": "content/prelims/gs1/polity-governance/constitution/making-features/diagrams/constitution-making.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3331,
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/constitution/making-features/pyqs",
@@ -4024,6 +4132,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/constitution/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/bullet-points",
+  "file": "constitutional-bodies-points.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/bullet-points/constitutional-bodies-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4153,
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes",
+  "file": "constitutional-bodies-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes/constitutional-bodies-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5932,
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/diagrams",
+  "file": "bodies-map.svg",
+  "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/diagrams/bodies-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2763,
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs",
   "file": "constitutional-bodies-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs/constitutional-bodies-mcqs.html",
@@ -4040,6 +4175,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 22098,
   "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/bullet-points",
+  "file": "e-governance-points.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/bullet-points/e-governance-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4210,
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/detailed-notes",
+  "file": "e-governance-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/detailed-notes/e-governance-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5546,
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/diagrams",
+  "file": "digital-india.svg",
+  "rel": "content/prelims/gs1/polity-governance/governance/e-governance/diagrams/digital-india.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2335,
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/governance/e-governance/pyqs",
@@ -4060,6 +4222,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/governance/e-governance/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/bullet-points",
+  "file": "local-govt-points.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/bullet-points/local-govt-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4536,
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/detailed-notes",
+  "file": "local-govt-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/detailed-notes/local-govt-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5964,
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/diagrams",
+  "file": "local-govt.svg",
+  "rel": "content/prelims/gs1/polity-governance/governance/local-govt/diagrams/local-govt.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2423,
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs",
   "file": "local-govt-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs/local-govt-mcqs.html",
@@ -4076,6 +4265,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 16710,
   "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/bullet-points",
+  "file": "schemes-policies-points.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/bullet-points/schemes-policies-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4148,
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/detailed-notes",
+  "file": "schemes-policies-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/detailed-notes/schemes-policies-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5764,
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/diagrams",
+  "file": "flagship-schemes.svg",
+  "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/diagrams/flagship-schemes.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3152,
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/pyqs",
@@ -4101,8 +4317,35 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8421,
+  "size": 8404,
   "nav": "prelims-gs1/polity-governance/governance/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/bullet-points",
+  "file": "statutory-bodies-points.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/bullet-points/statutory-bodies-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4443,
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/detailed-notes",
+  "file": "statutory-bodies-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/detailed-notes/statutory-bodies-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5950,
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/diagrams",
+  "file": "bodies-map.svg",
+  "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/diagrams/bodies-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2763,
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/pyqs",
@@ -4123,6 +4366,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/bullet-points",
+  "file": "bilateral-ties-points.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/bullet-points/bilateral-ties-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4379,
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes",
+  "file": "bilateral-ties-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes/bilateral-ties-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6220,
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/diagrams",
+  "file": "bilateral-map.svg",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/diagrams/bilateral-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2454,
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs",
   "file": "bilateral-ties-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs/bilateral-ties-mcqs.html",
@@ -4141,6 +4411,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/bullet-points",
+  "file": "global-groups-points.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/bullet-points/global-groups-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4192,
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes",
+  "file": "global-groups-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes/global-groups-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5707,
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/diagrams",
+  "file": "groupings-map.svg",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/diagrams/groupings-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2242,
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs",
   "file": "global-groups-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs/global-groups-mcqs.html",
@@ -4157,6 +4454,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 22133,
   "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/bullet-points",
+  "file": "multilateral-forums-points.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/bullet-points/multilateral-forums-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4561,
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes",
+  "file": "multilateral-forums-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes/multilateral-forums-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6073,
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/diagrams",
+  "file": "multilateral-map.svg",
+  "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/diagrams/multilateral-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2324,
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/pyqs",
@@ -4182,8 +4506,35 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9217,
+  "size": 9054,
   "nav": "prelims-gs1/polity-governance/international-relations/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/bullet-points",
+  "file": "executive-points.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/bullet-points/executive-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4563,
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes",
+  "file": "executive-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes/executive-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6203,
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/diagrams",
+  "file": "president-powers.svg",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/diagrams/president-powers.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3692,
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/pyqs",
@@ -4204,6 +4555,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/polity-governance/organs-govt/executive/short"
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/bullet-points",
+  "file": "judiciary-points.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/bullet-points/judiciary-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4324,
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes",
+  "file": "judiciary-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes/judiciary-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6201,
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/diagrams",
+  "file": "judiciary-structure.svg",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/diagrams/judiciary-structure.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2488,
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs",
   "file": "judiciary-mcqs.html",
   "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs/judiciary-mcqs.html",
@@ -4220,6 +4598,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 21816,
   "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/bullet-points",
+  "file": "parliament-points.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/bullet-points/parliament-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4439,
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes",
+  "file": "parliament-detailed.html",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes/parliament-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6809,
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/diagrams",
+  "file": "bill-types.svg",
+  "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/diagrams/bill-types.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2746,
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/diagrams"
  },
  {
   "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/pyqs",
@@ -4486,7 +4891,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 126402,
+    "size": 139967,
     "nav": ""
    },
    {
@@ -11056,6 +11461,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/bullet-points",
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/amendments/bullet-points",
+    "file": "amendments-points.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/amendments/bullet-points/amendments-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4466,
+    "nav": "prelims-gs1/polity-governance/constitution/amendments/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes",
+    "file": "amendments-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes/amendments-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6133,
+    "nav": "prelims-gs1/polity-governance/constitution/amendments/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/amendments/diagrams",
+  "nav": "prelims-gs1/polity-governance/constitution/amendments/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/amendments/diagrams",
+    "file": "key-amendments.svg",
+    "rel": "content/prelims/gs1/polity-governance/constitution/amendments/diagrams/key-amendments.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2584,
+    "nav": "prelims-gs1/polity-governance/constitution/amendments/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/constitution/amendments/pyqs",
   "nav": "prelims-gs1/polity-governance/constitution/amendments/pyqs",
   "files": [
@@ -11082,6 +11532,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 15583,
     "nav": "prelims-gs1/polity-governance/constitution/amendments/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/bullet-points",
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/bullet-points",
+    "file": "federal-structure-points.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/bullet-points/federal-structure-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4591,
+    "nav": "prelims-gs1/polity-governance/constitution/federal-structure/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/detailed-notes",
+    "file": "federal-structure-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/detailed-notes/federal-structure-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6112,
+    "nav": "prelims-gs1/polity-governance/constitution/federal-structure/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/diagrams",
+  "nav": "prelims-gs1/polity-governance/constitution/federal-structure/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/federal-structure/diagrams",
+    "file": "centre-state-relations.svg",
+    "rel": "content/prelims/gs1/polity-governance/constitution/federal-structure/diagrams/centre-state-relations.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2581,
+    "nav": "prelims-gs1/polity-governance/constitution/federal-structure/diagrams"
    }
   ]
  },
@@ -11116,6 +11611,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/bullet-points",
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/bullet-points",
+    "file": "fundamental-rights-points.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/bullet-points/fundamental-rights-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4517,
+    "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes",
+    "file": "fundamental-rights-dpsp-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes/fundamental-rights-dpsp-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6262,
+    "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams",
+  "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams",
+    "file": "fundamental-rights.svg",
+    "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams/fundamental-rights.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2801,
+    "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
   "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/pyqs",
   "files": [
@@ -11142,6 +11682,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 15851,
     "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/bullet-points",
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/making-features/bullet-points",
+    "file": "making-features-points.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/making-features/bullet-points/making-features-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4579,
+    "nav": "prelims-gs1/polity-governance/constitution/making-features/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes",
+    "file": "making-features-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes/making-features-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6948,
+    "nav": "prelims-gs1/polity-governance/constitution/making-features/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/constitution/making-features/diagrams",
+  "nav": "prelims-gs1/polity-governance/constitution/making-features/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/constitution/making-features/diagrams",
+    "file": "constitution-making.svg",
+    "rel": "content/prelims/gs1/polity-governance/constitution/making-features/diagrams/constitution-making.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3331,
+    "nav": "prelims-gs1/polity-governance/constitution/making-features/diagrams"
    }
   ]
  },
@@ -11191,6 +11776,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/bullet-points",
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/bullet-points",
+    "file": "constitutional-bodies-points.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/bullet-points/constitutional-bodies-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4153,
+    "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes",
+    "file": "constitutional-bodies-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes/constitutional-bodies-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5932,
+    "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/diagrams",
+  "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/diagrams",
+    "file": "bodies-map.svg",
+    "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/diagrams/bodies-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2763,
+    "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/pyqs",
   "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/pyqs",
   "files": [
@@ -11217,6 +11847,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 22098,
     "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/bullet-points",
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/e-governance/bullet-points",
+    "file": "e-governance-points.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/e-governance/bullet-points/e-governance-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4210,
+    "nav": "prelims-gs1/polity-governance/governance/e-governance/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/e-governance/detailed-notes",
+    "file": "e-governance-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/e-governance/detailed-notes/e-governance-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5546,
+    "nav": "prelims-gs1/polity-governance/governance/e-governance/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/e-governance/diagrams",
+  "nav": "prelims-gs1/polity-governance/governance/e-governance/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/e-governance/diagrams",
+    "file": "digital-india.svg",
+    "rel": "content/prelims/gs1/polity-governance/governance/e-governance/diagrams/digital-india.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2335,
+    "nav": "prelims-gs1/polity-governance/governance/e-governance/diagrams"
    }
   ]
  },
@@ -11251,6 +11926,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/bullet-points",
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/local-govt/bullet-points",
+    "file": "local-govt-points.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/local-govt/bullet-points/local-govt-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4536,
+    "nav": "prelims-gs1/polity-governance/governance/local-govt/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/local-govt/detailed-notes",
+    "file": "local-govt-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/local-govt/detailed-notes/local-govt-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5964,
+    "nav": "prelims-gs1/polity-governance/governance/local-govt/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/local-govt/diagrams",
+  "nav": "prelims-gs1/polity-governance/governance/local-govt/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/local-govt/diagrams",
+    "file": "local-govt.svg",
+    "rel": "content/prelims/gs1/polity-governance/governance/local-govt/diagrams/local-govt.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2423,
+    "nav": "prelims-gs1/polity-governance/governance/local-govt/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/governance/local-govt/pyqs",
   "nav": "prelims-gs1/polity-governance/governance/local-govt/pyqs",
   "files": [
@@ -11277,6 +11997,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 16710,
     "nav": "prelims-gs1/polity-governance/governance/local-govt/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/bullet-points",
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/bullet-points",
+    "file": "schemes-policies-points.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/bullet-points/schemes-policies-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4148,
+    "nav": "prelims-gs1/polity-governance/governance/schemes-policies/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/detailed-notes",
+    "file": "schemes-policies-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/detailed-notes/schemes-policies-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5764,
+    "nav": "prelims-gs1/polity-governance/governance/schemes-policies/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/diagrams",
+  "nav": "prelims-gs1/polity-governance/governance/schemes-policies/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/schemes-policies/diagrams",
+    "file": "flagship-schemes.svg",
+    "rel": "content/prelims/gs1/polity-governance/governance/schemes-policies/diagrams/flagship-schemes.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3152,
+    "nav": "prelims-gs1/polity-governance/governance/schemes-policies/diagrams"
    }
   ]
  },
@@ -11320,8 +12085,53 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/short-notes/governance-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8421,
+    "size": 8404,
     "nav": "prelims-gs1/polity-governance/governance/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/bullet-points",
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/bullet-points",
+    "file": "statutory-bodies-points.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/bullet-points/statutory-bodies-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4443,
+    "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/detailed-notes",
+    "file": "statutory-bodies-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/detailed-notes/statutory-bodies-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5950,
+    "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/diagrams",
+  "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/governance/statutory-bodies/diagrams",
+    "file": "bodies-map.svg",
+    "rel": "content/prelims/gs1/polity-governance/governance/statutory-bodies/diagrams/bodies-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2763,
+    "nav": "prelims-gs1/polity-governance/governance/statutory-bodies/diagrams"
    }
   ]
  },
@@ -11356,6 +12166,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/bullet-points",
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/bullet-points",
+    "file": "bilateral-ties-points.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/bullet-points/bilateral-ties-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4379,
+    "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes",
+    "file": "bilateral-ties-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes/bilateral-ties-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6220,
+    "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/diagrams",
+  "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/diagrams",
+    "file": "bilateral-map.svg",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/diagrams/bilateral-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2454,
+    "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/pyqs",
   "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/pyqs",
   "files": [
@@ -11386,6 +12241,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/bullet-points",
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/bullet-points",
+    "file": "global-groups-points.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/bullet-points/global-groups-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4192,
+    "nav": "prelims-gs1/polity-governance/international-relations/global-groups/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes",
+    "file": "global-groups-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes/global-groups-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5707,
+    "nav": "prelims-gs1/polity-governance/international-relations/global-groups/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/diagrams",
+  "nav": "prelims-gs1/polity-governance/international-relations/global-groups/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/diagrams",
+    "file": "groupings-map.svg",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/diagrams/groupings-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2242,
+    "nav": "prelims-gs1/polity-governance/international-relations/global-groups/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/international-relations/global-groups/pyqs",
   "nav": "prelims-gs1/polity-governance/international-relations/global-groups/pyqs",
   "files": [
@@ -11412,6 +12312,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 22133,
     "nav": "prelims-gs1/polity-governance/international-relations/global-groups/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/bullet-points",
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/bullet-points",
+    "file": "multilateral-forums-points.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/bullet-points/multilateral-forums-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4561,
+    "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes",
+    "file": "multilateral-forums-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes/multilateral-forums-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6073,
+    "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/diagrams",
+  "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/diagrams",
+    "file": "multilateral-map.svg",
+    "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/diagrams/multilateral-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2324,
+    "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/diagrams"
    }
   ]
  },
@@ -11455,8 +12400,53 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/short-notes/ir-prelims.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9217,
+    "size": 9054,
     "nav": "prelims-gs1/polity-governance/international-relations/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/bullet-points",
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/bullet-points",
+    "file": "executive-points.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/bullet-points/executive-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4563,
+    "nav": "prelims-gs1/polity-governance/organs-govt/executive/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes",
+    "file": "executive-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes/executive-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6203,
+    "nav": "prelims-gs1/polity-governance/organs-govt/executive/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/diagrams",
+  "nav": "prelims-gs1/polity-governance/organs-govt/executive/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/executive/diagrams",
+    "file": "president-powers.svg",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/diagrams/president-powers.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3692,
+    "nav": "prelims-gs1/polity-governance/organs-govt/executive/diagrams"
    }
   ]
  },
@@ -11491,6 +12481,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/bullet-points",
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/bullet-points",
+    "file": "judiciary-points.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/bullet-points/judiciary-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4324,
+    "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes",
+    "file": "judiciary-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes/judiciary-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6201,
+    "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/diagrams",
+  "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/diagrams",
+    "file": "judiciary-structure.svg",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/diagrams/judiciary-structure.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2488,
+    "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/polity-governance/organs-govt/judiciary/pyqs",
   "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/pyqs",
   "files": [
@@ -11517,6 +12552,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 21816,
     "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/bullet-points",
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/bullet-points",
+    "file": "parliament-points.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/bullet-points/parliament-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4439,
+    "nav": "prelims-gs1/polity-governance/organs-govt/parliament/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes",
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes",
+    "file": "parliament-detailed.html",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes/parliament-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6809,
+    "nav": "prelims-gs1/polity-governance/organs-govt/parliament/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/diagrams",
+  "nav": "prelims-gs1/polity-governance/organs-govt/parliament/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/polity-governance/organs-govt/parliament/diagrams",
+    "file": "bill-types.svg",
+    "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/diagrams/bill-types.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2746,
+    "nav": "prelims-gs1/polity-governance/organs-govt/parliament/diagrams"
    }
   ]
  },

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Multilateral Forums — India inside</text>
+  <text x="30" y="54" class="s">prelims · forum → anchor</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">UN CORE</text>
+  <text x="44" y="134" class="md">UNGA 193 members, 1-nation-1-vote</text>
+  <text x="44" y="151" class="md">UNSC 5 permanent veto</text>
+  <text x="44" y="168" class="md">India G4 + non-perm 8 times</text>
+  <text x="44" y="185" class="md">UNHRC 47 seats</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">BRETTON WOODS+</text>
+  <text x="502" y="134" class="md">IMF quota-voting</text>
+  <text x="502" y="151" class="md">World Bank IBRD-IDA</text>
+  <text x="502" y="168" class="md">WTO MCs: Bali-food, MC12-13 fisheries</text>
+  <text x="502" y="185" class="md">India G33 / G20 on food security</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">CLIMATE</text>
+  <text x="44" y="272" class="md">UNFCCC 1992 + COPs</text>
+  <text x="44" y="289" class="md">Paris 2015 NDCs</text>
+  <text x="44" y="306" class="md">COP28 UAE loss-damage fund</text>
+  <text x="44" y="323" class="md">ISA, CDRI India-led</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">NEWER CLUBS</text>
+  <text x="502" y="272" class="md">G20 troika, India 2023 presidency</text>
+  <text x="502" y="289" class="md">BRICS expansion 2024</text>
+  <text x="502" y="306" class="md">SCO + I2U2 + IMEC corridor</text>
+  <text x="502" y="323" class="md">Quad (India-US-Japan-Australia)</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>
