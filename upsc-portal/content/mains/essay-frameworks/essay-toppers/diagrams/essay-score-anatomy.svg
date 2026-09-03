@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Anatomy of a 130+ essay — what the examiner's eye finds in ten seconds</text>
+  <text x="30" y="56" class="s">essay-toppers · architecture aggregated from high-scoring write-ups</text>
+  <rect x="40" y="80" width="140" height="58" rx="10" class="q"/>
+  <text x="110" y="102" text-anchor="middle" class="h">HOOK + TERMS</text>
+  <text x="110" y="120" text-anchor="middle" class="sm">anecdote/paradox/quote;</text>
+  <text x="110" y="134" text-anchor="middle" class="sm">key words defined</text>
+  <rect x="190" y="80" width="140" height="58" rx="10" class="g"/>
+  <text x="260" y="102" text-anchor="middle" class="h">THESIS</text>
+  <text x="260" y="120" text-anchor="middle" class="sm">one sentence,</text>
+  <text x="260" y="134" text-anchor="middle" class="sm">balanced, yours</text>
+  <rect x="40" y="150" width="290" height="240" rx="10" class="sec"/>
+  <text x="56" y="174" class="h">BODY — 5-7 signposted sections</text>
+  <text x="56" y="196" class="md">1 historical roots · 2 social</text>
+  <text x="56" y="214" class="md">3 economic · 4 political/legal</text>
+  <text x="56" y="232" class="md">5 ethical · 6 tech/environmental</text>
+  <text x="56" y="258" class="md">each: signpost → argument →</text>
+  <text x="56" y="274" class="md">example (varied species) →</text>
+  <text x="56" y="290" class="md">link back to thesis</text>
+  <text x="56" y="316" class="md">+ ONE steel-manned</text>
+  <text x="56" y="332" class="md">counter-view section</text>
+  <text x="56" y="360" class="sm">data approximate and honest;</text>
+  <text x="56" y="376" class="sm">underlined keywords guide the eye</text>
+  <rect x="340" y="150" width="200" height="90" rx="10" class="sec"/>
+  <text x="356" y="174" class="h">SYNTHESIS</text>
+  <text x="356" y="196" class="md">resolve the tension;</text>
+  <text x="356" y="212" class="md">balance as position,</text>
+  <text x="356" y="228" class="md">not evasion</text>
+  <rect x="340" y="250" width="200" height="80" rx="10" class="q"/>
+  <text x="356" y="274" class="h">FULL-CIRCLE END</text>
+  <text x="356" y="296" class="md">echo intro image;</text>
+  <text x="356" y="312" class="md">end on duty/hope</text>
+  <rect x="560" y="150" width="360" height="106" rx="10" class="sec"/>
+  <text x="576" y="174" class="h">THE 4-SKIM CHECK (what earns the band)</text>
+  <text x="576" y="196" class="md">① thesis findable in 10s ② dimensions countable</text>
+  <text x="576" y="214" class="md">③ counter-view visible ④ closure type identifiable</text>
+  <text x="576" y="238" class="sm">~100: thin examples · ~120: structure but uneven mix</text>
+  <text x="576" y="254" class="sm">~130: all four checks pass</text>
+  <rect x="560" y="270" width="360" height="120" rx="10" class="sec"/>
+  <text x="576" y="294" class="h">TIME SPLITS (3 hours)</text>
+  <text x="576" y="316" class="md">0:00-0:15 select + score + blueprint</text>
+  <text x="576" y="334" class="md">0:15-2:45 write (checkpoints 1:20 · 2:20)</text>
+  <text x="576" y="352" class="md">2:45-3:00 polish, underline, no new args</text>
+  <text x="576" y="376" class="sm">handwriting stability across all pages;</text>
+  <text x="576" y="392" class="sm">1000-1200 words</text>
+  <text x="30" y="428" class="foot">studyUPSC · essay diagram · pair with short-notes/essay-toppers-revision.html</text>
+</svg>

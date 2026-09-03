@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-4 two-genre practice — compact essays vs decision memos</text>
+  <text x="30" y="56" class="s">gs-4-practice · theory (Part A) and case studies (Part B) need different muscles, one clock</text>
+  <rect x="40" y="84" width="430" height="150" rx="10" class="q"/>
+  <text x="56" y="108" class="h">PART A — THEORY (7-8 min each)</text>
+  <text x="56" y="130" class="md">line 1: define the concept (quote only if exact)</text>
+  <text x="56" y="148" class="md">2-3 analytical dimensions · one micro-example each</text>
+  <text x="56" y="166" class="md">boundary nuance ("empathy without regulation…")</text>
+  <text x="56" y="184" class="md">close: officer-relevance in one line</text>
+  <text x="56" y="212" class="sm">rubric /10 — definition 2 · depth 4 · examples 2 · close 2</text>
+  <rect x="490" y="84" width="430" height="150" rx="10" class="g"/>
+  <text x="506" y="108" class="h">PART B — CASE (16-18 min each)</text>
+  <text x="506" y="130" class="md">first 3 min: annotate paper — actors · verbs · constraints</text>
+  <text x="506" y="148" class="md">7 steps: facts → dilemma → stakeholders → options ≥3</text>
+  <text x="506" y="166" class="md">→ evaluation tests → decision + implementation</text>
+  <text x="506" y="184" class="md">last 2 min: SAFEGUARDS — the most-skipped band</text>
+  <text x="506" y="212" class="sm">rubric /20 — structure 4 · honesty 4 · tests 4 · decision 5 · safeguards 3</text>
+  <rect x="40" y="248" width="430" height="130" rx="10" class="sec"/>
+  <text x="56" y="272" class="h">EXAMPLE ARMOURY</text>
+  <text x="56" y="294" class="md">rule ↔ situation pairs (conduct rules · RTI · disaster manuals)</text>
+  <text x="56" y="312" class="md">officer one-liners: Seshan neutrality · Sreedharan delivery</text>
+  <text x="56" y="330" class="md">concept hooks: Gandhi's talisman · Rawls · Kautilyan audit</text>
+  <text x="56" y="354" class="sm">refresh Sunday — one new pair per week minimum</text>
+  <rect x="490" y="248" width="430" height="130" rx="10" class="sec"/>
+  <text x="506" y="272" class="h">WEEKLY LOOP</text>
+  <text x="506" y="294" class="md">Mon/Wed 2 theory · Tue/Thu 1 case · Fri sectional (3+2, 100 min)</text>
+  <text x="506" y="312" class="md">Sat peer-evaluate on rubrics · Sun rewrite the worst</text>
+  <text x="506" y="336" class="sm">voice: first person · lawful floor · humane tone · recorded steps</text>
+  <text x="506" y="354" class="sm">no heroics as first moves — exhaust the institutional ladder</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-4 practice diagram · pair with detailed-notes/gs-4-practice-system.html</text>
+</svg>

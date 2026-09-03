@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 104883,
+  "size": 112786,
   "nav": ""
  },
  {
@@ -55,6 +55,15 @@ window.CONTENT_INDEX = [
   "nav": "essay/essay/short"
  },
  {
+  "dir": "content/mains/essay-frameworks/essay-quotes/bullet-points",
+  "file": "essay-quotes-points.html",
+  "rel": "content/mains/essay-frameworks/essay-quotes/bullet-points/essay-quotes-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5060,
+  "nav": "essay/essay-quotes/bullets"
+ },
+ {
   "dir": "content/mains/essay-frameworks/essay-quotes/detailed-notes",
   "file": "quote-bank.html",
   "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.html",
@@ -62,6 +71,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7557,
   "nav": "essay/essay-quotes/notes"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/diagrams",
+  "file": "quote-placement-map.svg",
+  "rel": "content/mains/essay-frameworks/essay-quotes/diagrams/quote-placement-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3167,
+  "nav": "essay/essay-quotes/diagrams"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/pyqs",
+  "file": "essay-quotes-pyqs.html",
+  "rel": "content/mains/essay-frameworks/essay-quotes/pyqs/essay-quotes-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5766,
+  "nav": "essay/essay-quotes/pyqs"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/short-notes",
+  "file": "essay-quotes-revision.html",
+  "rel": "content/mains/essay-frameworks/essay-quotes/short-notes/essay-quotes-revision.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6936,
+  "nav": "essay/essay-quotes/short"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/bullet-points",
+  "file": "essay-topics-points.html",
+  "rel": "content/mains/essay-frameworks/essay-topics/bullet-points/essay-topics-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5241,
+  "nav": "essay/essay-topics/bullets"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-topics/detailed-notes",
@@ -73,6 +118,42 @@ window.CONTENT_INDEX = [
   "nav": "essay/essay-topics/notes"
  },
  {
+  "dir": "content/mains/essay-frameworks/essay-topics/diagrams",
+  "file": "topic-selection-matrix.svg",
+  "rel": "content/mains/essay-frameworks/essay-topics/diagrams/topic-selection-matrix.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3560,
+  "nav": "essay/essay-topics/diagrams"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/pyqs",
+  "file": "essay-topics-pyqs.html",
+  "rel": "content/mains/essay-frameworks/essay-topics/pyqs/essay-topics-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5356,
+  "nav": "essay/essay-topics/pyqs"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/short-notes",
+  "file": "essay-topics-revision.html",
+  "rel": "content/mains/essay-frameworks/essay-topics/short-notes/essay-topics-revision.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5456,
+  "nav": "essay/essay-topics/short"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/bullet-points",
+  "file": "essay-toppers-points.html",
+  "rel": "content/mains/essay-frameworks/essay-toppers/bullet-points/essay-toppers-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4853,
+  "nav": "essay/essay-toppers/bullets"
+ },
+ {
   "dir": "content/mains/essay-frameworks/essay-toppers/detailed-notes",
   "file": "toppers-analysis.html",
   "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.html",
@@ -80,6 +161,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 7456,
   "nav": "essay/essay-toppers/notes"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/diagrams",
+  "file": "essay-score-anatomy.svg",
+  "rel": "content/mains/essay-frameworks/essay-toppers/diagrams/essay-score-anatomy.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4068,
+  "nav": "essay/essay-toppers/diagrams"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/pyqs",
+  "file": "essay-toppers-pyqs.html",
+  "rel": "content/mains/essay-frameworks/essay-toppers/pyqs/essay-toppers-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5217,
+  "nav": "essay/essay-toppers/pyqs"
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/short-notes",
+  "file": "essay-toppers-revision.html",
+  "rel": "content/mains/essay-frameworks/essay-toppers/short-notes/essay-toppers-revision.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4935,
+  "nav": "essay/essay-toppers/short"
  },
  {
   "dir": "content/mains/gs-1-heritage-geography-society/geography-world-india/bullet-points",
@@ -1176,7 +1284,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams/ei-five-component-wheel.svg",
   "kind": "image",
   "ext": "svg",
-  "size": 3362,
+  "size": 3354,
   "nav": "gs-4/emotional-intelligence/diagrams"
  },
  {
@@ -1585,6 +1693,33 @@ window.CONTENT_INDEX = [
   "nav": "optional-subjects/pyqs"
  },
  {
+  "dir": "content/mains/practice/essay-practice/bullet-points",
+  "file": "essay-practice-points.html",
+  "rel": "content/mains/practice/essay-practice/bullet-points/essay-practice-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4107,
+  "nav": "mains-practice/essay-practice/bullets"
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/detailed-notes",
+  "file": "essay-practice-system.html",
+  "rel": "content/mains/practice/essay-practice/detailed-notes/essay-practice-system.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6213,
+  "nav": "mains-practice/essay-practice/notes"
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/diagrams",
+  "file": "essay-practice-loop.svg",
+  "rel": "content/mains/practice/essay-practice/diagrams/essay-practice-loop.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4893,
+  "nav": "mains-practice/essay-practice/diagrams"
+ },
+ {
   "dir": "content/mains/practice/essay-practice/pyqs",
   "file": "essay-topics-outlines.html",
   "rel": "content/mains/practice/essay-practice/pyqs/essay-topics-outlines.html",
@@ -1592,6 +1727,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 12998,
   "nav": "mains-practice/essay-practice/pyqs"
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/short-notes",
+  "file": "essay-practice-quick.html",
+  "rel": "content/mains/practice/essay-practice/short-notes/essay-practice-quick.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4102,
+  "nav": "mains-practice/essay-practice/short"
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/bullet-points",
+  "file": "gs-1-practice-points.html",
+  "rel": "content/mains/practice/gs-1-practice/bullet-points/gs-1-practice-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4337,
+  "nav": "mains-practice/gs-1-practice/bullets"
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/detailed-notes",
+  "file": "gs-1-practice-system.html",
+  "rel": "content/mains/practice/gs-1-practice/detailed-notes/gs-1-practice-system.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6369,
+  "nav": "mains-practice/gs-1-practice/notes"
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/diagrams",
+  "file": "gs1-answer-anatomy.svg",
+  "rel": "content/mains/practice/gs-1-practice/diagrams/gs1-answer-anatomy.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3740,
+  "nav": "mains-practice/gs-1-practice/diagrams"
  },
  {
   "dir": "content/mains/practice/gs-1-practice/pyqs",
@@ -1603,6 +1774,42 @@ window.CONTENT_INDEX = [
   "nav": "mains-practice/gs-1-practice/pyqs"
  },
  {
+  "dir": "content/mains/practice/gs-1-practice/short-notes",
+  "file": "gs-1-practice-quick.html",
+  "rel": "content/mains/practice/gs-1-practice/short-notes/gs-1-practice-quick.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4069,
+  "nav": "mains-practice/gs-1-practice/short"
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/bullet-points",
+  "file": "gs-2-practice-points.html",
+  "rel": "content/mains/practice/gs-2-practice/bullet-points/gs-2-practice-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4348,
+  "nav": "mains-practice/gs-2-practice/bullets"
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/detailed-notes",
+  "file": "gs-2-practice-system.html",
+  "rel": "content/mains/practice/gs-2-practice/detailed-notes/gs-2-practice-system.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6316,
+  "nav": "mains-practice/gs-2-practice/notes"
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/diagrams",
+  "file": "gs2-judgment-architecture.svg",
+  "rel": "content/mains/practice/gs-2-practice/diagrams/gs2-judgment-architecture.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3739,
+  "nav": "mains-practice/gs-2-practice/diagrams"
+ },
+ {
   "dir": "content/mains/practice/gs-2-practice/pyqs",
   "file": "gs-2-question-bank.html",
   "rel": "content/mains/practice/gs-2-practice/pyqs/gs-2-question-bank.html",
@@ -1610,6 +1817,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 20665,
   "nav": "mains-practice/gs-2-practice/pyqs"
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/short-notes",
+  "file": "gs-2-practice-quick.html",
+  "rel": "content/mains/practice/gs-2-practice/short-notes/gs-2-practice-quick.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4294,
+  "nav": "mains-practice/gs-2-practice/short"
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/bullet-points",
+  "file": "gs-3-practice-points.html",
+  "rel": "content/mains/practice/gs-3-practice/bullet-points/gs-3-practice-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4326,
+  "nav": "mains-practice/gs-3-practice/bullets"
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/detailed-notes",
+  "file": "gs-3-practice-system.html",
+  "rel": "content/mains/practice/gs-3-practice/detailed-notes/gs-3-practice-system.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6588,
+  "nav": "mains-practice/gs-3-practice/notes"
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/diagrams",
+  "file": "gs3-solution-map.svg",
+  "rel": "content/mains/practice/gs-3-practice/diagrams/gs3-solution-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4042,
+  "nav": "mains-practice/gs-3-practice/diagrams"
  },
  {
   "dir": "content/mains/practice/gs-3-practice/pyqs",
@@ -1621,6 +1864,42 @@ window.CONTENT_INDEX = [
   "nav": "mains-practice/gs-3-practice/pyqs"
  },
  {
+  "dir": "content/mains/practice/gs-3-practice/short-notes",
+  "file": "gs-3-practice-quick.html",
+  "rel": "content/mains/practice/gs-3-practice/short-notes/gs-3-practice-quick.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4366,
+  "nav": "mains-practice/gs-3-practice/short"
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/bullet-points",
+  "file": "gs-4-practice-points.html",
+  "rel": "content/mains/practice/gs-4-practice/bullet-points/gs-4-practice-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4370,
+  "nav": "mains-practice/gs-4-practice/bullets"
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/detailed-notes",
+  "file": "gs-4-practice-system.html",
+  "rel": "content/mains/practice/gs-4-practice/detailed-notes/gs-4-practice-system.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5882,
+  "nav": "mains-practice/gs-4-practice/notes"
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/diagrams",
+  "file": "gs4-two-genre-protocol.svg",
+  "rel": "content/mains/practice/gs-4-practice/diagrams/gs4-two-genre-protocol.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3409,
+  "nav": "mains-practice/gs-4-practice/diagrams"
+ },
+ {
   "dir": "content/mains/practice/gs-4-practice/pyqs",
   "file": "gs-4-question-bank.html",
   "rel": "content/mains/practice/gs-4-practice/pyqs/gs-4-question-bank.html",
@@ -1628,6 +1907,15 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 24556,
   "nav": "mains-practice/gs-4-practice/pyqs"
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/short-notes",
+  "file": "gs-4-practice-quick.html",
+  "rel": "content/mains/practice/gs-4-practice/short-notes/gs-4-practice-quick.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4063,
+  "nav": "mains-practice/gs-4-practice/short"
  },
  {
   "dir": "content/prelims/csat/comprehension/short-notes",
@@ -3361,7 +3649,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 104883,
+    "size": 112786,
     "nav": ""
    },
    {
@@ -3451,6 +3739,21 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/essay-frameworks/essay-quotes/bullet-points",
+  "nav": "essay/essay-quotes/bullets",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-quotes/bullet-points",
+    "file": "essay-quotes-points.html",
+    "rel": "content/mains/essay-frameworks/essay-quotes/bullet-points/essay-quotes-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5060,
+    "nav": "essay/essay-quotes/bullets"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/essay-frameworks/essay-quotes/detailed-notes",
   "nav": "essay/essay-quotes/notes",
   "files": [
@@ -3462,6 +3765,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7557,
     "nav": "essay/essay-quotes/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/diagrams",
+  "nav": "essay/essay-quotes/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-quotes/diagrams",
+    "file": "quote-placement-map.svg",
+    "rel": "content/mains/essay-frameworks/essay-quotes/diagrams/quote-placement-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3167,
+    "nav": "essay/essay-quotes/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/pyqs",
+  "nav": "essay/essay-quotes/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-quotes/pyqs",
+    "file": "essay-quotes-pyqs.html",
+    "rel": "content/mains/essay-frameworks/essay-quotes/pyqs/essay-quotes-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5766,
+    "nav": "essay/essay-quotes/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-quotes/short-notes",
+  "nav": "essay/essay-quotes/short",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-quotes/short-notes",
+    "file": "essay-quotes-revision.html",
+    "rel": "content/mains/essay-frameworks/essay-quotes/short-notes/essay-quotes-revision.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6936,
+    "nav": "essay/essay-quotes/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/bullet-points",
+  "nav": "essay/essay-topics/bullets",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-topics/bullet-points",
+    "file": "essay-topics-points.html",
+    "rel": "content/mains/essay-frameworks/essay-topics/bullet-points/essay-topics-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5241,
+    "nav": "essay/essay-topics/bullets"
    }
   ]
  },
@@ -3481,6 +3844,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/essay-frameworks/essay-topics/diagrams",
+  "nav": "essay/essay-topics/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-topics/diagrams",
+    "file": "topic-selection-matrix.svg",
+    "rel": "content/mains/essay-frameworks/essay-topics/diagrams/topic-selection-matrix.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3560,
+    "nav": "essay/essay-topics/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/pyqs",
+  "nav": "essay/essay-topics/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-topics/pyqs",
+    "file": "essay-topics-pyqs.html",
+    "rel": "content/mains/essay-frameworks/essay-topics/pyqs/essay-topics-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5356,
+    "nav": "essay/essay-topics/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-topics/short-notes",
+  "nav": "essay/essay-topics/short",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-topics/short-notes",
+    "file": "essay-topics-revision.html",
+    "rel": "content/mains/essay-frameworks/essay-topics/short-notes/essay-topics-revision.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5456,
+    "nav": "essay/essay-topics/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/bullet-points",
+  "nav": "essay/essay-toppers/bullets",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-toppers/bullet-points",
+    "file": "essay-toppers-points.html",
+    "rel": "content/mains/essay-frameworks/essay-toppers/bullet-points/essay-toppers-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4853,
+    "nav": "essay/essay-toppers/bullets"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/essay-frameworks/essay-toppers/detailed-notes",
   "nav": "essay/essay-toppers/notes",
   "files": [
@@ -3492,6 +3915,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 7456,
     "nav": "essay/essay-toppers/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/diagrams",
+  "nav": "essay/essay-toppers/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-toppers/diagrams",
+    "file": "essay-score-anatomy.svg",
+    "rel": "content/mains/essay-frameworks/essay-toppers/diagrams/essay-score-anatomy.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4068,
+    "nav": "essay/essay-toppers/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/pyqs",
+  "nav": "essay/essay-toppers/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-toppers/pyqs",
+    "file": "essay-toppers-pyqs.html",
+    "rel": "content/mains/essay-frameworks/essay-toppers/pyqs/essay-toppers-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5217,
+    "nav": "essay/essay-toppers/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/essay-frameworks/essay-toppers/short-notes",
+  "nav": "essay/essay-toppers/short",
+  "files": [
+   {
+    "dir": "content/mains/essay-frameworks/essay-toppers/short-notes",
+    "file": "essay-toppers-revision.html",
+    "rel": "content/mains/essay-frameworks/essay-toppers/short-notes/essay-toppers-revision.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4935,
+    "nav": "essay/essay-toppers/short"
    }
   ]
  },
@@ -5335,7 +5803,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams/ei-five-component-wheel.svg",
     "kind": "image",
     "ext": "svg",
-    "size": 3362,
+    "size": 3354,
     "nav": "gs-4/emotional-intelligence/diagrams"
    }
   ]
@@ -6001,6 +6469,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/practice/essay-practice/bullet-points",
+  "nav": "mains-practice/essay-practice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/practice/essay-practice/bullet-points",
+    "file": "essay-practice-points.html",
+    "rel": "content/mains/practice/essay-practice/bullet-points/essay-practice-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4107,
+    "nav": "mains-practice/essay-practice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/detailed-notes",
+  "nav": "mains-practice/essay-practice/notes",
+  "files": [
+   {
+    "dir": "content/mains/practice/essay-practice/detailed-notes",
+    "file": "essay-practice-system.html",
+    "rel": "content/mains/practice/essay-practice/detailed-notes/essay-practice-system.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6213,
+    "nav": "mains-practice/essay-practice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/diagrams",
+  "nav": "mains-practice/essay-practice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/practice/essay-practice/diagrams",
+    "file": "essay-practice-loop.svg",
+    "rel": "content/mains/practice/essay-practice/diagrams/essay-practice-loop.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4893,
+    "nav": "mains-practice/essay-practice/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/practice/essay-practice/pyqs",
   "nav": "mains-practice/essay-practice/pyqs",
   "files": [
@@ -6012,6 +6525,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 12998,
     "nav": "mains-practice/essay-practice/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/essay-practice/short-notes",
+  "nav": "mains-practice/essay-practice/short",
+  "files": [
+   {
+    "dir": "content/mains/practice/essay-practice/short-notes",
+    "file": "essay-practice-quick.html",
+    "rel": "content/mains/practice/essay-practice/short-notes/essay-practice-quick.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4102,
+    "nav": "mains-practice/essay-practice/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/bullet-points",
+  "nav": "mains-practice/gs-1-practice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-1-practice/bullet-points",
+    "file": "gs-1-practice-points.html",
+    "rel": "content/mains/practice/gs-1-practice/bullet-points/gs-1-practice-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4337,
+    "nav": "mains-practice/gs-1-practice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/detailed-notes",
+  "nav": "mains-practice/gs-1-practice/notes",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-1-practice/detailed-notes",
+    "file": "gs-1-practice-system.html",
+    "rel": "content/mains/practice/gs-1-practice/detailed-notes/gs-1-practice-system.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6369,
+    "nav": "mains-practice/gs-1-practice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-1-practice/diagrams",
+  "nav": "mains-practice/gs-1-practice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-1-practice/diagrams",
+    "file": "gs1-answer-anatomy.svg",
+    "rel": "content/mains/practice/gs-1-practice/diagrams/gs1-answer-anatomy.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3740,
+    "nav": "mains-practice/gs-1-practice/diagrams"
    }
   ]
  },
@@ -6031,6 +6604,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/practice/gs-1-practice/short-notes",
+  "nav": "mains-practice/gs-1-practice/short",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-1-practice/short-notes",
+    "file": "gs-1-practice-quick.html",
+    "rel": "content/mains/practice/gs-1-practice/short-notes/gs-1-practice-quick.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4069,
+    "nav": "mains-practice/gs-1-practice/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/bullet-points",
+  "nav": "mains-practice/gs-2-practice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-2-practice/bullet-points",
+    "file": "gs-2-practice-points.html",
+    "rel": "content/mains/practice/gs-2-practice/bullet-points/gs-2-practice-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4348,
+    "nav": "mains-practice/gs-2-practice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/detailed-notes",
+  "nav": "mains-practice/gs-2-practice/notes",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-2-practice/detailed-notes",
+    "file": "gs-2-practice-system.html",
+    "rel": "content/mains/practice/gs-2-practice/detailed-notes/gs-2-practice-system.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6316,
+    "nav": "mains-practice/gs-2-practice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/diagrams",
+  "nav": "mains-practice/gs-2-practice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-2-practice/diagrams",
+    "file": "gs2-judgment-architecture.svg",
+    "rel": "content/mains/practice/gs-2-practice/diagrams/gs2-judgment-architecture.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3739,
+    "nav": "mains-practice/gs-2-practice/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/practice/gs-2-practice/pyqs",
   "nav": "mains-practice/gs-2-practice/pyqs",
   "files": [
@@ -6042,6 +6675,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 20665,
     "nav": "mains-practice/gs-2-practice/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-2-practice/short-notes",
+  "nav": "mains-practice/gs-2-practice/short",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-2-practice/short-notes",
+    "file": "gs-2-practice-quick.html",
+    "rel": "content/mains/practice/gs-2-practice/short-notes/gs-2-practice-quick.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4294,
+    "nav": "mains-practice/gs-2-practice/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/bullet-points",
+  "nav": "mains-practice/gs-3-practice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-3-practice/bullet-points",
+    "file": "gs-3-practice-points.html",
+    "rel": "content/mains/practice/gs-3-practice/bullet-points/gs-3-practice-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4326,
+    "nav": "mains-practice/gs-3-practice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/detailed-notes",
+  "nav": "mains-practice/gs-3-practice/notes",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-3-practice/detailed-notes",
+    "file": "gs-3-practice-system.html",
+    "rel": "content/mains/practice/gs-3-practice/detailed-notes/gs-3-practice-system.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6588,
+    "nav": "mains-practice/gs-3-practice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-3-practice/diagrams",
+  "nav": "mains-practice/gs-3-practice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-3-practice/diagrams",
+    "file": "gs3-solution-map.svg",
+    "rel": "content/mains/practice/gs-3-practice/diagrams/gs3-solution-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4042,
+    "nav": "mains-practice/gs-3-practice/diagrams"
    }
   ]
  },
@@ -6061,6 +6754,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/practice/gs-3-practice/short-notes",
+  "nav": "mains-practice/gs-3-practice/short",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-3-practice/short-notes",
+    "file": "gs-3-practice-quick.html",
+    "rel": "content/mains/practice/gs-3-practice/short-notes/gs-3-practice-quick.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4366,
+    "nav": "mains-practice/gs-3-practice/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/bullet-points",
+  "nav": "mains-practice/gs-4-practice/bullets",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-4-practice/bullet-points",
+    "file": "gs-4-practice-points.html",
+    "rel": "content/mains/practice/gs-4-practice/bullet-points/gs-4-practice-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4370,
+    "nav": "mains-practice/gs-4-practice/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/detailed-notes",
+  "nav": "mains-practice/gs-4-practice/notes",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-4-practice/detailed-notes",
+    "file": "gs-4-practice-system.html",
+    "rel": "content/mains/practice/gs-4-practice/detailed-notes/gs-4-practice-system.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5882,
+    "nav": "mains-practice/gs-4-practice/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/diagrams",
+  "nav": "mains-practice/gs-4-practice/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-4-practice/diagrams",
+    "file": "gs4-two-genre-protocol.svg",
+    "rel": "content/mains/practice/gs-4-practice/diagrams/gs4-two-genre-protocol.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3409,
+    "nav": "mains-practice/gs-4-practice/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/practice/gs-4-practice/pyqs",
   "nav": "mains-practice/gs-4-practice/pyqs",
   "files": [
@@ -6072,6 +6825,21 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 24556,
     "nav": "mains-practice/gs-4-practice/pyqs"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/practice/gs-4-practice/short-notes",
+  "nav": "mains-practice/gs-4-practice/short",
+  "files": [
+   {
+    "dir": "content/mains/practice/gs-4-practice/short-notes",
+    "file": "gs-4-practice-quick.html",
+    "rel": "content/mains/practice/gs-4-practice/short-notes/gs-4-practice-quick.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4063,
+    "nav": "mains-practice/gs-4-practice/short"
    }
   ]
  },

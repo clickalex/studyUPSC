@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-1 answer anatomy — where 7 and 11 minutes go</text>
+  <text x="30" y="56" class="s">gs-1-practice · culture/history/society/geography — one machine, four moods</text>
+  <rect x="40" y="84" width="150" height="70" rx="10" class="q"/>
+  <text x="115" y="108" text-anchor="middle" class="h">INTRO · 2-3 LINES</text>
+  <text x="115" y="126" text-anchor="middle" class="sm">definition or period-set;</text>
+  <text x="115" y="140" text-anchor="middle" class="sm">dates/dynasty/datum earn here</text>
+  <rect x="200" y="84" width="430" height="70" rx="10" class="sec"/>
+  <text x="415" y="106" text-anchor="middle" class="h">BODY — 2-4 LABELLED DIMENSIONS</text>
+  <text x="415" y="124" text-anchor="middle" class="sm">history → chronological · society → thematic · geography → spatial</text>
+  <text x="415" y="140" text-anchor="middle" class="sm">every dimension carries one example as evidence</text>
+  <rect x="640" y="84" width="280" height="70" rx="10" class="g"/>
+  <text x="780" y="106" text-anchor="middle" class="h">VISUAL SLOT (30 sec)</text>
+  <text x="780" y="124" text-anchor="middle" class="sm">map in geography · timeline in history</text>
+  <text x="780" y="140" text-anchor="middle" class="sm">flow in society processes · label ≤ 7 items</text>
+  <path d="M 190 119 L 200 119" stroke="#64748b" stroke-width="2"/>
+  <path d="M 630 119 L 640 119" stroke="#64748b" stroke-width="2"/>
+  <rect x="40" y="168" width="880" height="46" rx="10" class="sec"/>
+  <text x="480" y="188" text-anchor="middle" class="h">CONCLUSION · 2 LINES — significance / legacy / way-ahead</text>
+  <text x="480" y="204" text-anchor="middle" class="sm">never stop mid-list; the close is a scored line</text>
+  <rect x="40" y="232" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="256" class="h">TIME BUDGET</text>
+  <text x="56" y="278" class="md">10-marker: 0:30 decode · 0:30 outline · 5:30 write · 0:30 underline</text>
+  <text x="56" y="296" class="md">15-marker: same plus diagram slot; 11 minutes total</text>
+  <text x="56" y="318" class="md">full mock: 20 Q / 180 min → 9 min average incl. reading</text>
+  <text x="56" y="340" class="sm">abandon at the bell — a finished B-grade beats an unfinished A-grade</text>
+  <rect x="490" y="232" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="256" class="h">RUBRIC /10 (score every practice answer)</text>
+  <text x="506" y="278" class="md">Decode — directive verb honoured ......... 2</text>
+  <text x="506" y="296" class="md">Substance — facts/examples accurate ....... 3</text>
+  <text x="506" y="314" class="md">Structure — labels, flow, visual .......... 3</text>
+  <text x="506" y="332" class="md">Closure — significance in limit ........... 2</text>
+  <text x="506" y="356" class="sm">log: what I wrote · what an 8+ wrote · the fix</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-1 practice diagram · pair with detailed-notes/gs-1-practice-system.html</text>
+</svg>
