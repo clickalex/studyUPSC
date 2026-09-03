@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Geomorphology — interior &amp; landforms</text>
+  <text x="30" y="54" class="s">prelims · concept → signature</text>
+  <rect x="30" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">EARTH INTERIOR</text>
+  <text x="44" y="134" class="md">crust-mantle-core (SIAL-SIMA)</text>
+  <text x="44" y="151" class="md">Moho-Gutenberg discontinuities</text>
+  <text x="44" y="168" class="md">asthenosphere = plate engine</text>
+  <rect x="335" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="349" y="114" class="h">PLATE TECTONICS</text>
+  <text x="349" y="134" class="md">7 major plates</text>
+  <text x="349" y="151" class="md">convergent: Andes-type, Japan-type</text>
+  <text x="349" y="168" class="md">divergent: mid-Atlantic ridge</text>
+  <text x="349" y="185" class="md">transform: San Andreas</text>
+  <rect x="641" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="655" y="114" class="h">EARTHQUAKE-VOLCANO</text>
+  <text x="655" y="134" class="md">Richter/Mercalli scales</text>
+  <text x="655" y="151" class="md">seismic zones II-V (India)</text>
+  <text x="655" y="168" class="md">Ring of Fire</text>
+  <text x="655" y="185" class="md">Hawaii: hotspot chain</text>
+  <rect x="30" y="226" width="289" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">FLUVIAL/ARID/COASTAL</text>
+  <text x="44" y="272" class="md">V-shape young valleys; meanders-oxbow</text>
+  <text x="44" y="289" class="md">pediment-inselberg (arid)</text>
+  <text x="44" y="306" class="md">cliff-beach-stack (marine)</text>
+  <text x="44" y="323" class="md">cirque-moraine-U valley (glacial)</text>
+  <rect x="335" y="226" width="289" height="122" rx="10" class="card"/>
+  <text x="349" y="252" class="h">INDIA-SPECIFIC</text>
+  <text x="349" y="272" class="md">Deccan Trap: flood basalt</text>
+  <text x="349" y="289" class="md">Chotanagpur: peninsular block</text>
+  <text x="349" y="306" class="md">Himalaya: Siwalik-Lesser-Great</text>
+  <text x="349" y="323" class="md">Bhabar-Terai-Bhangar-Khadar</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

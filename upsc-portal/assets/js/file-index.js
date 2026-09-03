@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 139967,
+  "size": 150492,
   "nav": ""
  },
  {
@@ -2746,6 +2746,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/environment-ecology/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/bullet-points",
+  "file": "climate-india-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/bullet-points/climate-india-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4332,
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes",
+  "file": "climate-india-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes/climate-india-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5353,
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/diagrams",
+  "file": "climate-seasons.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/climate-india/diagrams/climate-seasons.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2781,
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs",
   "file": "climate-india-mcqs.html",
   "rel": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs/climate-india-mcqs.html",
@@ -2762,6 +2789,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 9854,
   "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/bullet-points",
+  "file": "drainage-rivers-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/bullet-points/drainage-rivers-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4916,
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/detailed-notes",
+  "file": "drainage-rivers-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/detailed-notes/drainage-rivers-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6280,
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/diagrams",
+  "file": "river-timeline.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/diagrams/river-timeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3388,
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/pyqs",
@@ -2782,6 +2836,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/bullet-points",
+  "file": "minerals-industries-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/bullet-points/minerals-industries-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4687,
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/detailed-notes",
+  "file": "minerals-industries-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/detailed-notes/minerals-industries-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5927,
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/diagrams",
+  "file": "minerals-industries.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/diagrams/minerals-industries.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2596,
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs",
   "file": "minerals-industries-mcqs.html",
   "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs/minerals-industries-mcqs.html",
@@ -2798,6 +2879,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 16705,
   "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/bullet-points",
+  "file": "physiography-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/bullet-points/physiography-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4876,
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/detailed-notes",
+  "file": "physiography-india-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/detailed-notes/physiography-india-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6376,
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/diagrams",
+  "file": "physiography-map.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/diagrams/physiography-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2751,
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/pyqs",
@@ -2827,6 +2935,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/indian-geography/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/bullet-points",
+  "file": "soils-agriculture-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/bullet-points/soils-agriculture-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4516,
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes",
+  "file": "soils-agriculture-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes/soils-agriculture-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6095,
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/diagrams",
+  "file": "soils-agriculture.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/diagrams/soils-agriculture.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2445,
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs",
   "file": "soils-agriculture-mcqs.html",
   "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs/soils-agriculture-mcqs.html",
@@ -2843,6 +2978,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 15318,
   "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/bullet-points",
+  "file": "transport-settlements-points.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/bullet-points/transport-settlements-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4425,
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes",
+  "file": "transport-settlements-detailed.html",
+  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes/transport-settlements-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6233,
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/diagrams",
+  "file": "transport-map.svg",
+  "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/diagrams/transport-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2426,
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/pyqs",
@@ -2863,6 +3025,42 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/indian-geography/transport-settlements/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/maps-india-world/bullet-points",
+  "file": "maps-india-world-points.html",
+  "rel": "content/prelims/gs1/geography/maps-india-world/bullet-points/maps-india-world-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4506,
+  "nav": "prelims-gs1/geography/maps-india-world/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/detailed-notes",
+  "file": "maps-india-world-detailed.html",
+  "rel": "content/prelims/gs1/geography/maps-india-world/detailed-notes/maps-india-world-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5738,
+  "nav": "prelims-gs1/geography/maps-india-world/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/diagrams",
+  "file": "map-drills.svg",
+  "rel": "content/prelims/gs1/geography/maps-india-world/diagrams/map-drills.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2435,
+  "nav": "prelims-gs1/geography/maps-india-world/diagrams"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/pyqs",
+  "file": "maps-india-world-pyqs.html",
+  "rel": "content/prelims/gs1/geography/maps-india-world/pyqs/maps-india-world-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5337,
+  "nav": "prelims-gs1/geography/maps-india-world/pyqs"
+ },
+ {
   "dir": "content/prelims/gs1/geography/maps-india-world/short-notes",
   "file": "map-drills.html",
   "rel": "content/prelims/gs1/geography/maps-india-world/short-notes/map-drills.html",
@@ -2870,6 +3068,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6700,
   "nav": "prelims-gs1/geography/maps-india-world/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/bullet-points",
+  "file": "biogeography-points.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/bullet-points/biogeography-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4396,
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes",
+  "file": "biogeography-detailed.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes/biogeography-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5557,
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/diagrams",
+  "file": "biogeography-map.svg",
+  "rel": "content/prelims/gs1/geography/physical-geography/biogeography/diagrams/biogeography-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2178,
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/physical-geography/biogeography/pyqs",
@@ -2890,6 +3115,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/physical-geography/biogeography/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/bullet-points",
+  "file": "climatology-points.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/climatology/bullet-points/climatology-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4556,
+  "nav": "prelims-gs1/geography/physical-geography/climatology/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes",
+  "file": "climatology-detailed.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes/climatology-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6036,
+  "nav": "prelims-gs1/geography/physical-geography/climatology/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/diagrams",
+  "file": "climatology-map.svg",
+  "rel": "content/prelims/gs1/geography/physical-geography/climatology/diagrams/climatology-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2368,
+  "nav": "prelims-gs1/geography/physical-geography/climatology/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/physical-geography/climatology/pyqs",
   "file": "climatology-mcqs.html",
   "rel": "content/prelims/gs1/geography/physical-geography/climatology/pyqs/climatology-mcqs.html",
@@ -2908,6 +3160,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/physical-geography/climatology/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/bullet-points",
+  "file": "geomorphology-points.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/bullet-points/geomorphology-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4477,
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes",
+  "file": "geomorphology-detailed.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes/geomorphology-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6498,
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/diagrams",
+  "file": "geomorphology-map.svg",
+  "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/diagrams/geomorphology-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2733,
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs",
   "file": "geomorphology-mcqs.html",
   "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs/geomorphology-mcqs.html",
@@ -2924,6 +3203,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 10980,
   "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/bullet-points",
+  "file": "oceanography-points.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/bullet-points/oceanography-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4455,
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes",
+  "file": "oceanography-detailed.html",
+  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes/oceanography-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6043,
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/diagrams",
+  "file": "oceanography-map.svg",
+  "rel": "content/prelims/gs1/geography/physical-geography/oceanography/diagrams/oceanography-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2395,
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/physical-geography/oceanography/pyqs",
@@ -2980,6 +3286,33 @@ window.CONTENT_INDEX = [
   "nav": "prelims-gs1/geography/world-geography/short"
  },
  {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/bullet-points",
+  "file": "world-economic-points.html",
+  "rel": "content/prelims/gs1/geography/world-geography/world-economic/bullet-points/world-economic-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4369,
+  "nav": "prelims-gs1/geography/world-geography/world-economic/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes",
+  "file": "world-economic-detailed.html",
+  "rel": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes/world-economic-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5861,
+  "nav": "prelims-gs1/geography/world-geography/world-economic/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/diagrams",
+  "file": "world-economic.svg",
+  "rel": "content/prelims/gs1/geography/world-geography/world-economic/diagrams/world-economic.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2379,
+  "nav": "prelims-gs1/geography/world-geography/world-economic/diagrams"
+ },
+ {
   "dir": "content/prelims/gs1/geography/world-geography/world-economic/pyqs",
   "file": "world-economic-mcqs.html",
   "rel": "content/prelims/gs1/geography/world-geography/world-economic/pyqs/world-economic-mcqs.html",
@@ -2996,6 +3329,33 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 20719,
   "nav": "prelims-gs1/geography/world-geography/world-economic/short"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/bullet-points",
+  "file": "world-physical-points.html",
+  "rel": "content/prelims/gs1/geography/world-geography/world-physical/bullet-points/world-physical-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4388,
+  "nav": "prelims-gs1/geography/world-geography/world-physical/bullets"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes",
+  "file": "world-physical-detailed.html",
+  "rel": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes/world-physical-detailed.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5771,
+  "nav": "prelims-gs1/geography/world-geography/world-physical/notes"
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/diagrams",
+  "file": "world-physical.svg",
+  "rel": "content/prelims/gs1/geography/world-geography/world-physical/diagrams/world-physical.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2338,
+  "nav": "prelims-gs1/geography/world-geography/world-physical/diagrams"
  },
  {
   "dir": "content/prelims/gs1/geography/world-geography/world-physical/pyqs",
@@ -4891,7 +5251,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 139967,
+    "size": 150492,
     "nav": ""
    },
    {
@@ -9466,6 +9826,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/climate-india/bullet-points",
+    "file": "climate-india-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/climate-india/bullet-points/climate-india-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4332,
+    "nav": "prelims-gs1/geography/indian-geography/climate-india/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes",
+    "file": "climate-india-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes/climate-india-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5353,
+    "nav": "prelims-gs1/geography/indian-geography/climate-india/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/climate-india/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/climate-india/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/climate-india/diagrams",
+    "file": "climate-seasons.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/climate-india/diagrams/climate-seasons.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2781,
+    "nav": "prelims-gs1/geography/indian-geography/climate-india/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/climate-india/pyqs",
   "nav": "prelims-gs1/geography/indian-geography/climate-india/pyqs",
   "files": [
@@ -9492,6 +9897,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 9854,
     "nav": "prelims-gs1/geography/indian-geography/climate-india/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/bullet-points",
+    "file": "drainage-rivers-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/bullet-points/drainage-rivers-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4916,
+    "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/detailed-notes",
+    "file": "drainage-rivers-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/detailed-notes/drainage-rivers-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6280,
+    "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/drainage-rivers/diagrams",
+    "file": "river-timeline.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/drainage-rivers/diagrams/river-timeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3388,
+    "nav": "prelims-gs1/geography/indian-geography/drainage-rivers/diagrams"
    }
   ]
  },
@@ -9526,6 +9976,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/bullet-points",
+    "file": "minerals-industries-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/bullet-points/minerals-industries-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4687,
+    "nav": "prelims-gs1/geography/indian-geography/minerals-industries/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/detailed-notes",
+    "file": "minerals-industries-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/detailed-notes/minerals-industries-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5927,
+    "nav": "prelims-gs1/geography/indian-geography/minerals-industries/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/minerals-industries/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/diagrams",
+    "file": "minerals-industries.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/minerals-industries/diagrams/minerals-industries.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2596,
+    "nav": "prelims-gs1/geography/indian-geography/minerals-industries/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/minerals-industries/pyqs",
   "nav": "prelims-gs1/geography/indian-geography/minerals-industries/pyqs",
   "files": [
@@ -9552,6 +10047,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 16705,
     "nav": "prelims-gs1/geography/indian-geography/minerals-industries/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/bullet-points",
+    "file": "physiography-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/bullet-points/physiography-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4876,
+    "nav": "prelims-gs1/geography/indian-geography/physiography-india/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/detailed-notes",
+    "file": "physiography-india-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/detailed-notes/physiography-india-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6376,
+    "nav": "prelims-gs1/geography/indian-geography/physiography-india/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/physiography-india/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/physiography-india/diagrams",
+    "file": "physiography-map.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/physiography-india/diagrams/physiography-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2751,
+    "nav": "prelims-gs1/geography/indian-geography/physiography-india/diagrams"
    }
   ]
  },
@@ -9601,6 +10141,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/bullet-points",
+    "file": "soils-agriculture-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/bullet-points/soils-agriculture-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4516,
+    "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes",
+    "file": "soils-agriculture-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes/soils-agriculture-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6095,
+    "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/diagrams",
+    "file": "soils-agriculture.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/diagrams/soils-agriculture.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2445,
+    "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/indian-geography/soils-agriculture/pyqs",
   "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/pyqs",
   "files": [
@@ -9627,6 +10212,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 15318,
     "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/bullet-points",
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/bullet-points",
+    "file": "transport-settlements-points.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/bullet-points/transport-settlements-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4425,
+    "nav": "prelims-gs1/geography/indian-geography/transport-settlements/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes",
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes",
+    "file": "transport-settlements-detailed.html",
+    "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes/transport-settlements-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6233,
+    "nav": "prelims-gs1/geography/indian-geography/transport-settlements/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/diagrams",
+  "nav": "prelims-gs1/geography/indian-geography/transport-settlements/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/indian-geography/transport-settlements/diagrams",
+    "file": "transport-map.svg",
+    "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/diagrams/transport-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2426,
+    "nav": "prelims-gs1/geography/indian-geography/transport-settlements/diagrams"
    }
   ]
  },
@@ -9661,6 +10291,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/maps-india-world/bullet-points",
+  "nav": "prelims-gs1/geography/maps-india-world/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/maps-india-world/bullet-points",
+    "file": "maps-india-world-points.html",
+    "rel": "content/prelims/gs1/geography/maps-india-world/bullet-points/maps-india-world-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4506,
+    "nav": "prelims-gs1/geography/maps-india-world/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/detailed-notes",
+  "nav": "prelims-gs1/geography/maps-india-world/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/maps-india-world/detailed-notes",
+    "file": "maps-india-world-detailed.html",
+    "rel": "content/prelims/gs1/geography/maps-india-world/detailed-notes/maps-india-world-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5738,
+    "nav": "prelims-gs1/geography/maps-india-world/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/diagrams",
+  "nav": "prelims-gs1/geography/maps-india-world/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/maps-india-world/diagrams",
+    "file": "map-drills.svg",
+    "rel": "content/prelims/gs1/geography/maps-india-world/diagrams/map-drills.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2435,
+    "nav": "prelims-gs1/geography/maps-india-world/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/maps-india-world/pyqs",
+  "nav": "prelims-gs1/geography/maps-india-world/pyqs",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/maps-india-world/pyqs",
+    "file": "maps-india-world-pyqs.html",
+    "rel": "content/prelims/gs1/geography/maps-india-world/pyqs/maps-india-world-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5337,
+    "nav": "prelims-gs1/geography/maps-india-world/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/maps-india-world/short-notes",
   "nav": "prelims-gs1/geography/maps-india-world/short",
   "files": [
@@ -9672,6 +10362,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6700,
     "nav": "prelims-gs1/geography/maps-india-world/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/bullet-points",
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/biogeography/bullet-points",
+    "file": "biogeography-points.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/biogeography/bullet-points/biogeography-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4396,
+    "nav": "prelims-gs1/geography/physical-geography/biogeography/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes",
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes",
+    "file": "biogeography-detailed.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes/biogeography-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5557,
+    "nav": "prelims-gs1/geography/physical-geography/biogeography/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/biogeography/diagrams",
+  "nav": "prelims-gs1/geography/physical-geography/biogeography/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/biogeography/diagrams",
+    "file": "biogeography-map.svg",
+    "rel": "content/prelims/gs1/geography/physical-geography/biogeography/diagrams/biogeography-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2178,
+    "nav": "prelims-gs1/geography/physical-geography/biogeography/diagrams"
    }
   ]
  },
@@ -9706,6 +10441,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/bullet-points",
+  "nav": "prelims-gs1/geography/physical-geography/climatology/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/climatology/bullet-points",
+    "file": "climatology-points.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/climatology/bullet-points/climatology-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4556,
+    "nav": "prelims-gs1/geography/physical-geography/climatology/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes",
+  "nav": "prelims-gs1/geography/physical-geography/climatology/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes",
+    "file": "climatology-detailed.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes/climatology-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6036,
+    "nav": "prelims-gs1/geography/physical-geography/climatology/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/climatology/diagrams",
+  "nav": "prelims-gs1/geography/physical-geography/climatology/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/climatology/diagrams",
+    "file": "climatology-map.svg",
+    "rel": "content/prelims/gs1/geography/physical-geography/climatology/diagrams/climatology-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2368,
+    "nav": "prelims-gs1/geography/physical-geography/climatology/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/physical-geography/climatology/pyqs",
   "nav": "prelims-gs1/geography/physical-geography/climatology/pyqs",
   "files": [
@@ -9736,6 +10516,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/bullet-points",
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/bullet-points",
+    "file": "geomorphology-points.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/bullet-points/geomorphology-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4477,
+    "nav": "prelims-gs1/geography/physical-geography/geomorphology/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes",
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes",
+    "file": "geomorphology-detailed.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes/geomorphology-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6498,
+    "nav": "prelims-gs1/geography/physical-geography/geomorphology/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/diagrams",
+  "nav": "prelims-gs1/geography/physical-geography/geomorphology/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/diagrams",
+    "file": "geomorphology-map.svg",
+    "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/diagrams/geomorphology-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2733,
+    "nav": "prelims-gs1/geography/physical-geography/geomorphology/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/physical-geography/geomorphology/pyqs",
   "nav": "prelims-gs1/geography/physical-geography/geomorphology/pyqs",
   "files": [
@@ -9762,6 +10587,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 10980,
     "nav": "prelims-gs1/geography/physical-geography/geomorphology/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/bullet-points",
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/oceanography/bullet-points",
+    "file": "oceanography-points.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/oceanography/bullet-points/oceanography-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4455,
+    "nav": "prelims-gs1/geography/physical-geography/oceanography/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes",
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes",
+    "file": "oceanography-detailed.html",
+    "rel": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes/oceanography-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6043,
+    "nav": "prelims-gs1/geography/physical-geography/oceanography/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/physical-geography/oceanography/diagrams",
+  "nav": "prelims-gs1/geography/physical-geography/oceanography/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/physical-geography/oceanography/diagrams",
+    "file": "oceanography-map.svg",
+    "rel": "content/prelims/gs1/geography/physical-geography/oceanography/diagrams/oceanography-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2395,
+    "nav": "prelims-gs1/geography/physical-geography/oceanography/diagrams"
    }
   ]
  },
@@ -9856,6 +10726,51 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/bullet-points",
+  "nav": "prelims-gs1/geography/world-geography/world-economic/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-economic/bullet-points",
+    "file": "world-economic-points.html",
+    "rel": "content/prelims/gs1/geography/world-geography/world-economic/bullet-points/world-economic-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4369,
+    "nav": "prelims-gs1/geography/world-geography/world-economic/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes",
+  "nav": "prelims-gs1/geography/world-geography/world-economic/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes",
+    "file": "world-economic-detailed.html",
+    "rel": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes/world-economic-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5861,
+    "nav": "prelims-gs1/geography/world-geography/world-economic/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-economic/diagrams",
+  "nav": "prelims-gs1/geography/world-geography/world-economic/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-economic/diagrams",
+    "file": "world-economic.svg",
+    "rel": "content/prelims/gs1/geography/world-geography/world-economic/diagrams/world-economic.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2379,
+    "nav": "prelims-gs1/geography/world-geography/world-economic/diagrams"
+   }
+  ]
+ },
+ {
   "dir": "content/prelims/gs1/geography/world-geography/world-economic/pyqs",
   "nav": "prelims-gs1/geography/world-geography/world-economic/pyqs",
   "files": [
@@ -9882,6 +10797,51 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 20719,
     "nav": "prelims-gs1/geography/world-geography/world-economic/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/bullet-points",
+  "nav": "prelims-gs1/geography/world-geography/world-physical/bullets",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-physical/bullet-points",
+    "file": "world-physical-points.html",
+    "rel": "content/prelims/gs1/geography/world-geography/world-physical/bullet-points/world-physical-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4388,
+    "nav": "prelims-gs1/geography/world-geography/world-physical/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes",
+  "nav": "prelims-gs1/geography/world-geography/world-physical/notes",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes",
+    "file": "world-physical-detailed.html",
+    "rel": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes/world-physical-detailed.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5771,
+    "nav": "prelims-gs1/geography/world-geography/world-physical/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/prelims/gs1/geography/world-geography/world-physical/diagrams",
+  "nav": "prelims-gs1/geography/world-geography/world-physical/diagrams",
+  "files": [
+   {
+    "dir": "content/prelims/gs1/geography/world-geography/world-physical/diagrams",
+    "file": "world-physical.svg",
+    "rel": "content/prelims/gs1/geography/world-geography/world-physical/diagrams/world-physical.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2338,
+    "nav": "prelims-gs1/geography/world-geography/world-physical/diagrams"
    }
   ]
  },
