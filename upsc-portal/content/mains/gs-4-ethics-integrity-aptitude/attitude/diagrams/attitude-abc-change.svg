@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .h{font-size:14px;fill:#0f172a;font-weight:700}
+      .md{font-size:11.5px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .amb{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="480" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Attitude — ABC structure, formation sources and the change loop</text>
+  <text x="30" y="56" class="s">GS-4 · Attitude: content, structure, function, influence, persuasion</text>
+
+  <rect x="30" y="84" width="270" height="120" rx="12" class="card"/>
+  <text x="46" y="110" class="h">STRUCTURE — ABC</text>
+  <text x="46" y="132" class="md">A · Affect — feelings ("dislike delay")</text>
+  <text x="46" y="152" class="md">B · Behaviour — action tendency</text>
+  <text x="46" y="172" class="md">C · Cognition — beliefs &amp; evaluations</text>
+  <text x="46" y="192" class="sm">Dissonance when A/B/C clash (Festinger)</text>
+
+  <rect x="350" y="84" width="270" height="120" rx="12" class="card"/>
+  <text x="366" y="110" class="h">FUNCTIONS (Katz)</text>
+  <text x="366" y="132" class="md">Knowledge — organises the world</text>
+  <text x="366" y="152" class="md">Ego-defensive — protects self-image</text>
+  <text x="366" y="172" class="md">Value-expressive — signals identity</text>
+  <text x="366" y="192" class="md">Instrumental — seeks reward</text>
+
+  <rect x="670" y="84" width="260" height="120" rx="12" class="card"/>
+  <text x="686" y="110" class="h">FORMATION</text>
+  <text x="686" y="132" class="md">Family · peers · reference groups</text>
+  <text x="686" y="152" class="md">Direct experience · conditioning</text>
+  <text x="686" y="172" class="md">Media · institutions · role models</text>
+  <text x="686" y="192" class="sm">Deep layer → values anchor attitudes</text>
+
+  <path d="M 300 144 L 350 144" class="cl"/>
+  <path d="M 620 144 L 670 144" class="cl"/>
+  <path d="M 800 204 L 800 260 L 165 260 L 165 204" class="cl"/>
+
+  <rect x="200" y="286" width="560" height="140" rx="12" class="amb"/>
+  <text x="220" y="314" class="h">CHANGE &amp; PERSUASION — aim at the FUNCTION served</text>
+  <text x="220" y="338" class="md">Central route: data, arguments, training → durable change</text>
+  <text x="220" y="358" class="md">Peripheral route: endorsements, slogans → fragile change</text>
+  <text x="220" y="378" class="md">Public commitment + direct contact + nudges (social proof)</text>
+  <text x="220" y="398" class="sm">Avoid reactance: bans harden; defaults and ease persuade · SBM: dignity beat shame</text>
+  <text x="30" y="460" class="foot">studyUPSC · GS-4 diagram · pair with detailed-notes/attitude.html</text>
+</svg>

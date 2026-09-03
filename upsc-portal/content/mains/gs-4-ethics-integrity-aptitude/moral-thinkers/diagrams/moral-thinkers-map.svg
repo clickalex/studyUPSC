@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .w{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .lane{fill:#fff;stroke:#e2e8f0;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="460" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">The moral-thinkers map — two lanes, one synthesis</text>
+  <text x="30" y="56" class="s">GS-4 · contributions of moral thinkers and philosophers from India and the world</text>
+  <rect x="30" y="80" width="900" height="120" rx="12" class="lane"/>
+  <text x="46" y="104" class="h">WESTERN LANE</text>
+  <text x="60" y="130" class="w">Socrates — examined life, conscience</text>
+  <text x="60" y="150" class="w">Plato — justice, philosopher-king</text>
+  <text x="60" y="170" class="w">Aristotle — virtue as mean; phronesis</text>
+  <text x="360" y="130" class="w">Kant — categorical imperative; dignity</text>
+  <text x="360" y="150" class="w">Bentham — utility calculus</text>
+  <text x="360" y="170" class="w">Mill — qualitative utility; harm principle</text>
+  <text x="660" y="130" class="w">Rawls — fairness; difference principle</text>
+  <text x="660" y="150" class="w">Arendt — banality of evil</text>
+  <text x="660" y="170" class="sm">lenses: outcome (Bentham-Mill) · duty (Kant) · character (Aristotle)</text>
+  <rect x="30" y="220" width="900" height="120" rx="12" class="lane"/>
+  <text x="46" y="244" class="h">INDIAN LANE</text>
+  <text x="60" y="270" class="w">Kautilya — rajadharma; audit machinery</text>
+  <text x="60" y="290" class="w">Gandhi — talisman; means = ends in making</text>
+  <text x="60" y="310" class="w">Ashoka — dhamma; welfare edicts</text>
+  <text x="360" y="270" class="w">Vivekananda — service as worship</text>
+  <text x="360" y="290" class="w">Aurobindo — integral growth of person</text>
+  <text x="360" y="310" class="w">Radhakrishnan — ethics as lived religion</text>
+  <text x="660" y="270" class="w">Ambedkar — constitutional morality;</text>
+  <text x="660" y="290" class="w">liberty–equality–fraternity</text>
+  <text x="660" y="310" class="sm">anchor: constitution above sentiment</text>
+  <rect x="30" y="360" width="900" height="64" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="480" y="384" text-anchor="middle" class="h">SYNTHESIS — machinery from Kautilya · discipline of means from Gandhi · constitutional anchor from Ambedkar · motivation from Vivekananda</text>
+  <text x="480" y="406" text-anchor="middle" class="sm">use one thinker per paragraph; always translate the idea into an administrative behaviour</text>
+  <text x="30" y="446" class="foot">studyUPSC · GS-4 diagram · pair with detailed-notes/moral-thinkers.html</text>
+</svg>

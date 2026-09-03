@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13.5px;fill:#0f172a;font-weight:700}
+      .md{font-size:11.5px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .cap{fill:#0f172a;font-size:13px;font-weight:700}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="470" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Aptitude × Attitude = Performance — the foundational-values pillar</text>
+  <text x="30" y="56" class="s">GS-4 · foundational values for civil service, held together in one structure</text>
+  <rect x="60" y="330" width="840" height="60" rx="10" fill="#f59e0b" opacity="0.14"/>
+  <text x="480" y="356" text-anchor="middle" class="cap">APTITUDE — capacity to perform (cognitive · emotional · moral)</text>
+  <text x="480" y="376" text-anchor="middle" class="sm">selected by psychometrics, sharpened by training; multiplied by attitude</text>
+  <rect x="60" y="250" width="840" height="60" rx="10" fill="#22c55e" opacity="0.12"/>
+  <text x="480" y="276" text-anchor="middle" class="cap">ATTITUDE — willingness and disposition (learned, stable, evaluative)</text>
+  <text x="480" y="296" text-anchor="middle" class="sm">formation: family · peers · experience · role models → changeable by persuasion</text>
+  <rect x="60" y="96" width="130" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="125" y="120" text-anchor="middle" class="h">INTEGRITY</text>
+  <text x="125" y="140" text-anchor="middle" class="md">wholeness;</text>
+  <text x="125" y="156" text-anchor="middle" class="md">public = private</text>
+  <text x="125" y="176" text-anchor="middle" class="sm">→ probity when</text>
+  <text x="125" y="190" text-anchor="middle" class="sm">auditable in office</text>
+  <rect x="210" y="96" width="130" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="275" y="120" text-anchor="middle" class="h">IMPARTIALITY</text>
+  <text x="275" y="140" text-anchor="middle" class="md">merit + law;</text>
+  <text x="275" y="156" text-anchor="middle" class="md">no regard of persons</text>
+  <text x="275" y="176" text-anchor="middle" class="sm">non-partisanship:</text>
+  <text x="275" y="190" text-anchor="middle" class="sm">no party colour</text>
+  <rect x="360" y="96" width="130" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="425" y="120" text-anchor="middle" class="h">OBJECTIVITY</text>
+  <text x="425" y="140" text-anchor="middle" class="md">criteria first;</text>
+  <text x="425" y="156" text-anchor="middle" class="md">recorded reasons</text>
+  <text x="425" y="176" text-anchor="middle" class="sm">e-files, SOPs,</text>
+  <text x="425" y="190" text-anchor="middle" class="sm">third-party audit</text>
+  <rect x="510" y="96" width="130" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="575" y="120" text-anchor="middle" class="h">DEDICATION</text>
+  <text x="575" y="140" text-anchor="middle" class="md">office as trust;</text>
+  <text x="575" y="156" text-anchor="middle" class="md">follow-through</text>
+  <text x="575" y="176" text-anchor="middle" class="sm">crisis readiness,</text>
+  <text x="575" y="190" text-anchor="middle" class="sm">loop closure</text>
+  <rect x="660" y="96" width="120" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="720" y="120" text-anchor="middle" class="h">EMPATHY</text>
+  <text x="720" y="140" text-anchor="middle" class="md">feel with →</text>
+  <text x="720" y="156" text-anchor="middle" class="md">act (compassion)</text>
+  <text x="720" y="176" text-anchor="middle" class="sm">for weaker sections</text>
+  <text x="720" y="190" text-anchor="middle" class="sm">Art. 46 lens</text>
+  <rect x="790" y="96" width="110" height="130" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="845" y="120" text-anchor="middle" class="h">TOLERANCE</text>
+  <text x="845" y="140" text-anchor="middle" class="md">hear all sides;</text>
+  <text x="845" y="156" text-anchor="middle" class="md">plural civility</text>
+  <text x="845" y="176" text-anchor="middle" class="sm">due process =</text>
+  <text x="845" y="190" text-anchor="middle" class="sm">its procedural form</text>
+  <path d="M 480 250 L 480 226" class="cl"/>
+  <text x="30" y="440" class="foot">studyUPSC · GS-4 diagram · values in conflict: impartiality vs compassion → impartial process, compassionate outcomes</text>
+</svg>

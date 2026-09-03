@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .n{font-size:22px;font-weight:800;fill:#f59e0b}
+      .h{font-size:13.5px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="440" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">The GS-4 case-study pipeline — seven headings, fifteen minutes</text>
+  <text x="30" y="56" class="s">structure is the conscience of the answer: examiners scan headings, options, decision</text>
+  <g>
+    <rect x="28" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="44" y="116" class="n">1</text><text x="70" y="116" class="h">Facts</text>
+    <text x="44" y="138" class="md">3 lines + unknowns</text>
+    <text x="44" y="154" class="md">what you would verify</text>
+    <text x="44" y="170" class="md">no drama</text>
+  </g>
+  <g>
+    <rect x="200" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="216" y="116" class="n">2</text><text x="242" y="116" class="h">Dilemma</text>
+    <text x="216" y="138" class="md">name the value clash</text>
+    <text x="216" y="154" class="md">integrity vs loyalty,</text>
+    <text x="216" y="170" class="md">transparency vs privacy</text>
+  </g>
+  <g>
+    <rect x="372" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="388" y="116" class="n">3</text><text x="414" y="116" class="h">Stakeholders</text>
+    <text x="388" y="138" class="md">gains · pays · decides</text>
+    <text x="388" y="154" class="md">the silent ones:</text>
+    <text x="388" y="170" class="md">poor, future citizens</text>
+  </g>
+  <g>
+    <rect x="544" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="560" y="116" class="n">4</text><text x="586" y="116" class="h">Options</text>
+    <text x="560" y="138" class="md">≥3 real options</text>
+    <text x="560" y="154" class="md">reject "do nothing"</text>
+    <text x="560" y="170" class="md">explicitly</text>
+  </g>
+  <g>
+    <rect x="716" y="90" width="216" height="96" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="732" y="116" class="n">5</text><text x="758" y="116" class="h">Evaluation</text>
+    <text x="732" y="138" class="md">legality · public interest ·</text>
+    <text x="732" y="154" class="md">proportionality · precedent ·</text>
+    <text x="732" y="170" class="md">sustainability · conscience</text>
+  </g>
+  <path d="M 178 138 L 200 138" class="cl"/><path d="M 350 138 L 372 138" class="cl"/>
+  <path d="M 522 138 L 544 138" class="cl"/><path d="M 694 138 L 716 138" class="cl"/>
+  <path d="M 824 186 L 824 226 L 700 226" class="cl"/>
+  <g>
+    <rect x="540" y="226" width="160" height="110" rx="10" fill="#22c55e" opacity="0.12" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="556" y="252" class="n">6</text><text x="582" y="252" class="h">Decision +</text><text x="556" y="272" class="h">implementation</text>
+    <text x="556" y="294" class="md">steps, sequence,</text>
+    <text x="556" y="310" class="md">documentation,</text>
+    <text x="556" y="326" class="md">communication</text>
+  </g>
+  <g>
+    <rect x="760" y="226" width="172" height="110" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="776" y="252" class="n">7</text><text x="802" y="252" class="h">Defence +</text><text x="776" y="272" class="h">safeguards</text>
+    <text x="776" y="294" class="md">anticipate attack lines;</text>
+    <text x="776" y="310" class="md">audit, review, sunset,</text>
+    <text x="776" y="326" class="md">institutional SOP</text>
+  </g>
+  <rect x="28" y="226" width="480" height="110" rx="10" fill="#fff" stroke="#e2e8f0"/>
+  <text x="44" y="252" class="h">Time budget (15 min)</text>
+  <text x="44" y="274" class="md">1 min facts · 1 min dilemma · 2 min stakeholders · 4 min options</text>
+  <text x="44" y="292" class="md">3 min evaluation · 3 min decision-steps · 1 min safeguards</text>
+  <text x="44" y="314" class="md">Sub-headings verbatim; one ethical-test table beats a prose paragraph</text>
+  <text x="30" y="412" class="foot">studyUPSC · GS-4 diagram · worked cases: whistle-or-the-file, flood triage (detailed notes)</text>
+</svg>

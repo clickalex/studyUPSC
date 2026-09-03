@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="470" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">The probity ecosystem — from virtue to verifiable governance</text>
+  <text x="30" y="56" class="s">GS-4 · probity in governance: ethical infrastructure, accountability, funds, corruption control</text>
+  <rect x="330" y="84" width="300" height="70" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="480" y="110" text-anchor="middle" class="h">PROBITY — integrity with an audit trail</text>
+  <text x="480" y="130" text-anchor="middle" class="sm">philosophy: office as trust · rajadharma · Art. 14 equality</text>
+  <text x="480" y="146" text-anchor="middle" class="sm">test: survives sunlight, audit, weakest-citizen gaze</text>
+  <rect x="40" y="200" width="210" height="170" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="56" y="224" class="h">TRANSPARENCY LAYER</text>
+  <text x="56" y="246" class="md">RTI 2005 (disclosure default)</text>
+  <text x="56" y="264" class="md">§4 proactive disclosure</text>
+  <text x="56" y="282" class="md">open data · GeM e-procurement</text>
+  <text x="56" y="304" class="md">Citizen charters (SEVOTTAM)</text>
+  <text x="56" y="326" class="md">service standards + time-limits</text>
+  <text x="56" y="350" class="sm">sunlight first</text>
+  <rect x="270" y="200" width="210" height="170" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="286" y="224" class="h">OVERSIGHT LAYER</text>
+  <text x="286" y="246" class="md">Lokpal/Lokayukta 2013</text>
+  <text x="286" y="264" class="md">CVC 2003 · CBI (DSPE)</text>
+  <text x="286" y="282" class="md">CAG — financial/compliance/</text>
+  <text x="286" y="300" class="md">performance audits; PAC</text>
+  <text x="286" y="322" class="md">WBP Act 2014 (disclosures)</text>
+  <text x="286" y="350" class="sm">answerability + consequence</text>
+  <rect x="500" y="200" width="210" height="170" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="516" y="224" class="h">BEHAVIOUR LAYER</text>
+  <text x="516" y="246" class="md">Conduct rules (CCS '64/'65)</text>
+  <text x="516" y="264" class="md">code of ethics (ceiling)</text>
+  <text x="516" y="282" class="md">conflict registers · recusal</text>
+  <text x="516" y="300" class="md">cool-off post-retirement</text>
+  <text x="516" y="322" class="md">Nolan-7 reference values</text>
+  <text x="516" y="350" class="sm">tone at the top cascades</text>
+  <rect x="730" y="200" width="190" height="170" rx="12" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="746" y="224" class="h">DESIGN LAYER</text>
+  <text x="746" y="246" class="md">e-governance: DBT · PFMS</text>
+  <text x="746" y="264" class="md">e-auctions · GPS PDS</text>
+  <text x="746" y="286" class="md">social audit (MGNREGA §17)</text>
+  <text x="746" y="308" class="md">data analytics on spend</text>
+  <text x="746" y="330" class="md">CFMS-style treasuries</text>
+  <text x="746" y="350" class="sm">make wrong expensive</text>
+  <path d="M 480 154 L 480 200" class="cl"/>
+  <path d="M 250 285 L 270 285" class="cl"/><path d="M 480 285 L 500 285" class="cl"/><path d="M 710 285 L 730 285" class="cl"/>
+  <rect x="40" y="396" width="880" height="48" rx="10" fill="#f59e0b" opacity="0.12"/>
+  <text x="480" y="416" text-anchor="middle" class="h">CORRUPTION CONTROL: reduce monopoly &amp; discretion · raise detection &amp; deterrence · raise integrity supply</text>
+  <text x="480" y="434" text-anchor="middle" class="sm">Klitgaard: C = M + D − A</text>
+  <text x="30" y="462" class="foot">studyUPSC · GS-4 diagram · years: RTI'05 · CVC'03 · Lokpal'13 · WBP'14 · PCA'88/'18</text>
+</svg>

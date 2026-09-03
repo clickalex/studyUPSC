@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 107411,
+  "size": 104883,
   "nav": ""
  },
  {
@@ -1018,6 +1018,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-3/security-disaster/short"
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/bullet-points",
+  "file": "aptitude-foundations-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/bullet-points/aptitude-foundations-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5400,
+  "nav": "gs-4/aptitude-foundations/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes",
+  "file": "aptitude-foundations.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes/aptitude-foundations.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 8814,
+  "nav": "gs-4/aptitude-foundations/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/diagrams",
+  "file": "foundational-values-pillar.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/diagrams/foundational-values-pillar.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4999,
+  "nav": "gs-4/aptitude-foundations/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/pyqs",
+  "file": "aptitude-foundations-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/pyqs/aptitude-foundations-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6565,
+  "nav": "gs-4/aptitude-foundations/pyqs"
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes",
   "file": "aptitude-pack.html",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes/aptitude-pack.html",
@@ -1025,6 +1061,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6281,
   "nav": "gs-4/aptitude-foundations/short"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/bullet-points",
+  "file": "attitude-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/bullet-points/attitude-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5681,
+  "nav": "gs-4/attitude/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes",
+  "file": "attitude.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes/attitude.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 10701,
+  "nav": "gs-4/attitude/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/diagrams",
+  "file": "attitude-abc-change.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/diagrams/attitude-abc-change.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3328,
+  "nav": "gs-4/attitude/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/pyqs",
+  "file": "attitude-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/pyqs/attitude-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7110,
+  "nav": "gs-4/attitude/pyqs"
  },
  {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/short-notes",
@@ -1036,6 +1108,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-4/attitude/short"
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/bullet-points",
+  "file": "case-studies-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/bullet-points/case-studies-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4814,
+  "nav": "gs-4/case-studies/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes",
+  "file": "case-studies.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes/case-studies.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 8158,
+  "nav": "gs-4/case-studies/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/diagrams",
+  "file": "case-study-pipeline.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/diagrams/case-study-pipeline.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4850,
+  "nav": "gs-4/case-studies/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/pyqs",
+  "file": "case-studies-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/pyqs/case-studies-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5952,
+  "nav": "gs-4/case-studies/pyqs"
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes",
   "file": "case-studies-pack.html",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes/case-studies-pack.html",
@@ -1043,6 +1151,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6772,
   "nav": "gs-4/case-studies/short"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/bullet-points",
+  "file": "emotional-intelligence-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/bullet-points/emotional-intelligence-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4917,
+  "nav": "gs-4/emotional-intelligence/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes",
+  "file": "emotional-intelligence.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes/emotional-intelligence.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6828,
+  "nav": "gs-4/emotional-intelligence/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams",
+  "file": "ei-five-component-wheel.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams/ei-five-component-wheel.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3362,
+  "nav": "gs-4/emotional-intelligence/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/pyqs",
+  "file": "emotional-intelligence-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/pyqs/emotional-intelligence-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5947,
+  "nav": "gs-4/emotional-intelligence/pyqs"
  },
  {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/short-notes",
@@ -1099,6 +1243,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-4/ethics-foundations/short"
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/bullet-points",
+  "file": "ethics-interface-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/bullet-points/ethics-interface-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5033,
+  "nav": "gs-4/ethics-human-interface/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes",
+  "file": "ethics-human-interface.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes/ethics-human-interface.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7118,
+  "nav": "gs-4/ethics-human-interface/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/diagrams",
+  "file": "ethics-determinants-consequences.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/diagrams/ethics-determinants-consequences.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3236,
+  "nav": "gs-4/ethics-human-interface/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/pyqs",
+  "file": "ethics-interface-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/pyqs/ethics-interface-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5804,
+  "nav": "gs-4/ethics-human-interface/pyqs"
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes",
   "file": "ethics-interface-pack.html",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes/ethics-interface-pack.html",
@@ -1153,6 +1333,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-4/governance-probity-case-studies/short"
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/bullet-points",
+  "file": "moral-thinkers-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/bullet-points/moral-thinkers-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 4896,
+  "nav": "gs-4/moral-thinkers/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes",
+  "file": "moral-thinkers.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes/moral-thinkers.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7880,
+  "nav": "gs-4/moral-thinkers/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/diagrams",
+  "file": "moral-thinkers-map.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/diagrams/moral-thinkers-map.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 3084,
+  "nav": "gs-4/moral-thinkers/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/pyqs",
+  "file": "moral-thinkers-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/pyqs/moral-thinkers-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5854,
+  "nav": "gs-4/moral-thinkers/pyqs"
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes",
   "file": "moral-thinkers-pack.html",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes/moral-thinkers-pack.html",
@@ -1162,6 +1378,42 @@ window.CONTENT_INDEX = [
   "nav": "gs-4/moral-thinkers/short"
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/bullet-points",
+  "file": "probity-governance-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/bullet-points/probity-governance-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5212,
+  "nav": "gs-4/probity-governance/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes",
+  "file": "probity-governance.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes/probity-governance.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 8082,
+  "nav": "gs-4/probity-governance/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/diagrams",
+  "file": "probity-ecosystem.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/diagrams/probity-ecosystem.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 4427,
+  "nav": "gs-4/probity-governance/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/pyqs",
+  "file": "probity-governance-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/pyqs/probity-governance-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5959,
+  "nav": "gs-4/probity-governance/pyqs"
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes",
   "file": "probity-pack.html",
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes/probity-pack.html",
@@ -1169,6 +1421,42 @@ window.CONTENT_INDEX = [
   "ext": "html",
   "size": 6413,
   "nav": "gs-4/probity-governance/short"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/bullet-points",
+  "file": "public-service-values-points.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/bullet-points/public-service-values-points.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 5237,
+  "nav": "gs-4/public-service-values/bullets"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes",
+  "file": "public-service-values.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes/public-service-values.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 7643,
+  "nav": "gs-4/public-service-values/notes"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/diagrams",
+  "file": "ethical-guidance-ladder.svg",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/diagrams/ethical-guidance-ladder.svg",
+  "kind": "image",
+  "ext": "svg",
+  "size": 2988,
+  "nav": "gs-4/public-service-values/diagrams"
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/pyqs",
+  "file": "public-service-values-pyqs.html",
+  "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/pyqs/public-service-values-pyqs.html",
+  "kind": "doc",
+  "ext": "html",
+  "size": 6049,
+  "nav": "gs-4/public-service-values/pyqs"
  },
  {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/short-notes",
@@ -3073,7 +3361,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 107411,
+    "size": 104883,
     "nav": ""
    },
    {
@@ -4783,6 +5071,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/bullet-points",
+  "nav": "gs-4/aptitude-foundations/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/bullet-points",
+    "file": "aptitude-foundations-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/bullet-points/aptitude-foundations-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5400,
+    "nav": "gs-4/aptitude-foundations/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes",
+  "nav": "gs-4/aptitude-foundations/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes",
+    "file": "aptitude-foundations.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes/aptitude-foundations.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 8814,
+    "nav": "gs-4/aptitude-foundations/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/diagrams",
+  "nav": "gs-4/aptitude-foundations/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/diagrams",
+    "file": "foundational-values-pillar.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/diagrams/foundational-values-pillar.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4999,
+    "nav": "gs-4/aptitude-foundations/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/pyqs",
+  "nav": "gs-4/aptitude-foundations/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/pyqs",
+    "file": "aptitude-foundations-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/pyqs/aptitude-foundations-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6565,
+    "nav": "gs-4/aptitude-foundations/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/short-notes",
   "nav": "gs-4/aptitude-foundations/short",
   "files": [
@@ -4794,6 +5142,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6281,
     "nav": "gs-4/aptitude-foundations/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/bullet-points",
+  "nav": "gs-4/attitude/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/bullet-points",
+    "file": "attitude-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/bullet-points/attitude-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5681,
+    "nav": "gs-4/attitude/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes",
+  "nav": "gs-4/attitude/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes",
+    "file": "attitude.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes/attitude.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 10701,
+    "nav": "gs-4/attitude/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/diagrams",
+  "nav": "gs-4/attitude/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/diagrams",
+    "file": "attitude-abc-change.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/diagrams/attitude-abc-change.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3328,
+    "nav": "gs-4/attitude/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/pyqs",
+  "nav": "gs-4/attitude/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/attitude/pyqs",
+    "file": "attitude-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/pyqs/attitude-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7110,
+    "nav": "gs-4/attitude/pyqs"
    }
   ]
  },
@@ -4813,6 +5221,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/bullet-points",
+  "nav": "gs-4/case-studies/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/bullet-points",
+    "file": "case-studies-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/bullet-points/case-studies-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4814,
+    "nav": "gs-4/case-studies/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes",
+  "nav": "gs-4/case-studies/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes",
+    "file": "case-studies.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes/case-studies.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 8158,
+    "nav": "gs-4/case-studies/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/diagrams",
+  "nav": "gs-4/case-studies/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/diagrams",
+    "file": "case-study-pipeline.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/diagrams/case-study-pipeline.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4850,
+    "nav": "gs-4/case-studies/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/pyqs",
+  "nav": "gs-4/case-studies/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/pyqs",
+    "file": "case-studies-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/pyqs/case-studies-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5952,
+    "nav": "gs-4/case-studies/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/short-notes",
   "nav": "gs-4/case-studies/short",
   "files": [
@@ -4824,6 +5292,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6772,
     "nav": "gs-4/case-studies/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/bullet-points",
+  "nav": "gs-4/emotional-intelligence/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/bullet-points",
+    "file": "emotional-intelligence-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/bullet-points/emotional-intelligence-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4917,
+    "nav": "gs-4/emotional-intelligence/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes",
+  "nav": "gs-4/emotional-intelligence/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes",
+    "file": "emotional-intelligence.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes/emotional-intelligence.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6828,
+    "nav": "gs-4/emotional-intelligence/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams",
+  "nav": "gs-4/emotional-intelligence/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams",
+    "file": "ei-five-component-wheel.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/diagrams/ei-five-component-wheel.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3362,
+    "nav": "gs-4/emotional-intelligence/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/pyqs",
+  "nav": "gs-4/emotional-intelligence/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/pyqs",
+    "file": "emotional-intelligence-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/pyqs/emotional-intelligence-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5947,
+    "nav": "gs-4/emotional-intelligence/pyqs"
    }
   ]
  },
@@ -4918,6 +5446,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/bullet-points",
+  "nav": "gs-4/ethics-human-interface/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/bullet-points",
+    "file": "ethics-interface-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/bullet-points/ethics-interface-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5033,
+    "nav": "gs-4/ethics-human-interface/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes",
+  "nav": "gs-4/ethics-human-interface/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes",
+    "file": "ethics-human-interface.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes/ethics-human-interface.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7118,
+    "nav": "gs-4/ethics-human-interface/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/diagrams",
+  "nav": "gs-4/ethics-human-interface/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/diagrams",
+    "file": "ethics-determinants-consequences.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/diagrams/ethics-determinants-consequences.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3236,
+    "nav": "gs-4/ethics-human-interface/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/pyqs",
+  "nav": "gs-4/ethics-human-interface/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/pyqs",
+    "file": "ethics-interface-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/pyqs/ethics-interface-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5804,
+    "nav": "gs-4/ethics-human-interface/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/short-notes",
   "nav": "gs-4/ethics-human-interface/short",
   "files": [
@@ -5008,6 +5596,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/bullet-points",
+  "nav": "gs-4/moral-thinkers/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/bullet-points",
+    "file": "moral-thinkers-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/bullet-points/moral-thinkers-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 4896,
+    "nav": "gs-4/moral-thinkers/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes",
+  "nav": "gs-4/moral-thinkers/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes",
+    "file": "moral-thinkers.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes/moral-thinkers.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7880,
+    "nav": "gs-4/moral-thinkers/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/diagrams",
+  "nav": "gs-4/moral-thinkers/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/diagrams",
+    "file": "moral-thinkers-map.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/diagrams/moral-thinkers-map.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 3084,
+    "nav": "gs-4/moral-thinkers/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/pyqs",
+  "nav": "gs-4/moral-thinkers/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/pyqs",
+    "file": "moral-thinkers-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/pyqs/moral-thinkers-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5854,
+    "nav": "gs-4/moral-thinkers/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/short-notes",
   "nav": "gs-4/moral-thinkers/short",
   "files": [
@@ -5023,6 +5671,66 @@ window.CONTENT_DIRS = [
   ]
  },
  {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/bullet-points",
+  "nav": "gs-4/probity-governance/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/bullet-points",
+    "file": "probity-governance-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/bullet-points/probity-governance-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5212,
+    "nav": "gs-4/probity-governance/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes",
+  "nav": "gs-4/probity-governance/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes",
+    "file": "probity-governance.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes/probity-governance.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 8082,
+    "nav": "gs-4/probity-governance/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/diagrams",
+  "nav": "gs-4/probity-governance/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/diagrams",
+    "file": "probity-ecosystem.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/diagrams/probity-ecosystem.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 4427,
+    "nav": "gs-4/probity-governance/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/pyqs",
+  "nav": "gs-4/probity-governance/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/pyqs",
+    "file": "probity-governance-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/pyqs/probity-governance-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5959,
+    "nav": "gs-4/probity-governance/pyqs"
+   }
+  ]
+ },
+ {
   "dir": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/short-notes",
   "nav": "gs-4/probity-governance/short",
   "files": [
@@ -5034,6 +5742,66 @@ window.CONTENT_DIRS = [
     "ext": "html",
     "size": 6413,
     "nav": "gs-4/probity-governance/short"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/bullet-points",
+  "nav": "gs-4/public-service-values/bullets",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/bullet-points",
+    "file": "public-service-values-points.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/bullet-points/public-service-values-points.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 5237,
+    "nav": "gs-4/public-service-values/bullets"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes",
+  "nav": "gs-4/public-service-values/notes",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes",
+    "file": "public-service-values.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes/public-service-values.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 7643,
+    "nav": "gs-4/public-service-values/notes"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/diagrams",
+  "nav": "gs-4/public-service-values/diagrams",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/diagrams",
+    "file": "ethical-guidance-ladder.svg",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/diagrams/ethical-guidance-ladder.svg",
+    "kind": "image",
+    "ext": "svg",
+    "size": 2988,
+    "nav": "gs-4/public-service-values/diagrams"
+   }
+  ]
+ },
+ {
+  "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/pyqs",
+  "nav": "gs-4/public-service-values/pyqs",
+  "files": [
+   {
+    "dir": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/pyqs",
+    "file": "public-service-values-pyqs.html",
+    "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/pyqs/public-service-values-pyqs.html",
+    "kind": "doc",
+    "ext": "html",
+    "size": 6049,
+    "nav": "gs-4/public-service-values/pyqs"
    }
   ]
  },
