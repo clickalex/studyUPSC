@@ -6,7 +6,7 @@ window.CONTENT_INDEX = [
   "rel": "content/index.html",
   "kind": "doc",
   "ext": "html",
-  "size": 178602,
+  "size": 180752,
   "nav": ""
  },
  {
@@ -16,7 +16,7 @@ window.CONTENT_INDEX = [
   "kind": "doc",
   "ext": "html",
   "size": 5683,
-  "nav": "essay/essay/bullets"
+  "nav": "essay/essay-frameworks/bullets"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/detailed-notes",
@@ -25,7 +25,7 @@ window.CONTENT_INDEX = [
   "kind": "doc",
   "ext": "html",
   "size": 10326,
-  "nav": "essay/essay/notes"
+  "nav": "essay/essay-frameworks/notes"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/diagrams",
@@ -34,7 +34,7 @@ window.CONTENT_INDEX = [
   "kind": "image",
   "ext": "svg",
   "size": 6293,
-  "nav": "essay/essay/diagrams"
+  "nav": "essay/essay-frameworks/diagrams"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/pyqs",
@@ -43,7 +43,7 @@ window.CONTENT_INDEX = [
   "kind": "doc",
   "ext": "html",
   "size": 7428,
-  "nav": "essay/essay/pyqs"
+  "nav": "essay/essay-frameworks/pyqs"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/short-notes",
@@ -52,7 +52,7 @@ window.CONTENT_INDEX = [
   "kind": "doc",
   "ext": "html",
   "size": 6494,
-  "nav": "essay/essay/short"
+  "nav": "essay/essay-frameworks/short"
  },
  {
   "dir": "content/mains/essay-frameworks/essay-quotes/bullet-points",
@@ -2904,7 +2904,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes/agriculture-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5141,
+  "size": 16628,
   "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/notes"
  },
  {
@@ -3417,7 +3417,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes/climate-india-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5353,
+  "size": 15307,
   "nav": "prelims-gs1/geography/indian-geography/climate-india/notes"
  },
  {
@@ -4155,7 +4155,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes/stone-bronze-age-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6153,
+  "size": 21870,
   "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/notes"
  },
  {
@@ -5757,7 +5757,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes/ai-it-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5290,
+  "size": 16040,
   "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/notes"
  },
  {
@@ -5901,7 +5901,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes/space-missions-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5333,
+  "size": 15326,
   "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/notes"
  },
  {
@@ -6151,7 +6151,7 @@ window.CONTENT_DIRS = [
     "rel": "content/index.html",
     "kind": "doc",
     "ext": "html",
-    "size": 178602,
+    "size": 180752,
     "nav": ""
    },
    {
@@ -6167,7 +6167,7 @@ window.CONTENT_DIRS = [
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/bullet-points",
-  "nav": "essay/essay/bullets",
+  "nav": "essay/essay-frameworks/bullets",
   "files": [
    {
     "dir": "content/mains/essay-frameworks/essay-frameworks/bullet-points",
@@ -6176,13 +6176,13 @@ window.CONTENT_DIRS = [
     "kind": "doc",
     "ext": "html",
     "size": 5683,
-    "nav": "essay/essay/bullets"
+    "nav": "essay/essay-frameworks/bullets"
    }
   ]
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/detailed-notes",
-  "nav": "essay/essay/notes",
+  "nav": "essay/essay-frameworks/notes",
   "files": [
    {
     "dir": "content/mains/essay-frameworks/essay-frameworks/detailed-notes",
@@ -6191,13 +6191,13 @@ window.CONTENT_DIRS = [
     "kind": "doc",
     "ext": "html",
     "size": 10326,
-    "nav": "essay/essay/notes"
+    "nav": "essay/essay-frameworks/notes"
    }
   ]
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/diagrams",
-  "nav": "essay/essay/diagrams",
+  "nav": "essay/essay-frameworks/diagrams",
   "files": [
    {
     "dir": "content/mains/essay-frameworks/essay-frameworks/diagrams",
@@ -6206,13 +6206,13 @@ window.CONTENT_DIRS = [
     "kind": "image",
     "ext": "svg",
     "size": 6293,
-    "nav": "essay/essay/diagrams"
+    "nav": "essay/essay-frameworks/diagrams"
    }
   ]
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/pyqs",
-  "nav": "essay/essay/pyqs",
+  "nav": "essay/essay-frameworks/pyqs",
   "files": [
    {
     "dir": "content/mains/essay-frameworks/essay-frameworks/pyqs",
@@ -6221,13 +6221,13 @@ window.CONTENT_DIRS = [
     "kind": "doc",
     "ext": "html",
     "size": 7428,
-    "nav": "essay/essay/pyqs"
+    "nav": "essay/essay-frameworks/pyqs"
    }
   ]
  },
  {
   "dir": "content/mains/essay-frameworks/essay-frameworks/short-notes",
-  "nav": "essay/essay/short",
+  "nav": "essay/essay-frameworks/short",
   "files": [
    {
     "dir": "content/mains/essay-frameworks/essay-frameworks/short-notes",
@@ -6236,7 +6236,7 @@ window.CONTENT_DIRS = [
     "kind": "doc",
     "ext": "html",
     "size": 6494,
-    "nav": "essay/essay/short"
+    "nav": "essay/essay-frameworks/short"
    }
   ]
  },
@@ -10990,7 +10990,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/agriculture/detailed-notes/agriculture-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5141,
+    "size": 16628,
     "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture/notes"
    }
   ]
@@ -11845,7 +11845,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/climate-india/detailed-notes/climate-india-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5353,
+    "size": 15307,
     "nav": "prelims-gs1/geography/indian-geography/climate-india/notes"
    }
   ]
@@ -13075,7 +13075,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/stone-bronze-age/detailed-notes/stone-bronze-age-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6153,
+    "size": 21870,
     "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age/notes"
    }
   ]
@@ -15745,7 +15745,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/ai-it/detailed-notes/ai-it-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5290,
+    "size": 16040,
     "nav": "prelims-gs1/science-tech/emerging-tech/ai-it/notes"
    }
   ]
@@ -15985,7 +15985,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/space-missions/detailed-notes/space-missions-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5333,
+    "size": 15326,
     "nav": "prelims-gs1/science-tech/emerging-tech/space-missions/notes"
    }
   ]

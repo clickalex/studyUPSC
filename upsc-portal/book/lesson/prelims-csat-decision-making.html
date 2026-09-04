@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2.3.1 Decision-Making &amp; Problem Solving · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part II — CSAT — Paper II (Qualifying) · Chapter 3: Decision-Making &amp; Problem Solving</p>
+<p class="bk-eyebrow">Lesson 2.3.1</p>
+<h1 id="lesson-prelims-csat-decision-making">Decision-Making &amp; Problem Solving</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Administrative scenario questions: pick the most lawful-effective-proportionate response. Values in action, not theory.</p></blockquote>
+<h3 id="nature">1. What is tested</h3>
+<ul><li>Scenario types: public-grievance handling, crisis-response (flood-riot-accident), interpersonal (subordinate-colleague conflict), integrity-pressure (bribe senior-order), resource-allocation.</li><li>The 'correct' option is rarely perfect — it is the best-balanced: lawful + effective + fair + feasible now.</li></ul>
+<h3 id="framework">2. Four-step framework</h3>
+<ul><li><strong>Stakeholders</strong> — who is affected (victim-public-team-department): options ignoring key stakeholders are wrong.</li><li><strong>Dilemma definition</strong> — name the tension (speed vs procedure, empathy vs rule).</li><li><strong>Option scan</strong> — usually 4: ignore/avoid (passive), escalate-first (abdication), rule-breaking-effective (illegal), act-within-law-communicate (correct pattern).</li><li><strong>Sequence check</strong> — try local resolution and documentation before escalation; escalate when jurisdiction ends or law requires.</li></ul>
+<h3 id="heuristics">3. Ranking heuristics &amp; traps</h3>
+<ul><li>Rank: legality → effectiveness → fairness → feasibility → immediacy.</li><li><strong>Traps</strong>: illegally-effective (ends-over-means), feel-good-passive (sympathy without action), secrecy (hiding from seniors/citizens), punitive-first (punish when correction-coaching works), utopian-overnight (institutional reform in a day).</li><li>Good answers usually combine: immediate relief + root-cause step + communication + record.</li></ul>
+<h3 id="worked">4. Worked micro-example</h3>
+<blockquote><p>Scenario: a junior misses a deadline; senior orders a written show-cause for dismissal. Options: (a) dismiss, (b) coach-with-clear-warning-and-document, (c) ignore, (d) complaint against senior. Best = (b): proportionate, corrective, documented — dismissal disproportionate, ignoring passive, (d) evades duty.</p></blockquote>
+<h3 id="mcq-hooks">MCQ hooks</h3>
+<ul><li>Legality is the first cut — never pick a rule-breaking option even if effective.</li><li>Immediate relief + root-cause + communication = the winning trio.</li><li>'Ignore the issue' options are always wrong.</li><li>Escalate after attempting local resolution, not before.</li><li>Proportionality: smallest action that solves the problem.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>No negative-marking shading advantage: decision items are normally not penalised in CSAT matching UPSC convention <em>(verify current year's notification statement — historically no negative marking on decision-making items)</em>. Method: institutional courtesy &gt; assertiveness; rule-keeping &gt; improvisation; escalation hierarchy before individual heroics.</p></blockquote>
+<h3 id="decision-rubric-the-scoring-philosophy">Decision rubric (the scoring philosophy)</h3>
+<ol><li><strong>Legality first</strong> — an option violating law/code/rules is instantly wrong regardless of empathy flavour.</li><li><strong>Hierarchy discipline</strong> — report upward; document; don't bypass the chain absent emergency.</li><li><strong>Impartiality</strong> — family/friend/community options get down-ranked.</li><li><strong>Process-over-outcome</strong> — correct procedures with documented rationale beat "intuitive" shortcuts; UPSC rewards the defensible file note.</li><li><strong>Least harm + maximum benefit</strong> — when forced to balance, pick options combining mitigation layers (compensation + alternative + phased timelines) rather than binary cruelty or surrender.</li><li><strong>No passivity</strong> — "defer the issue to later" scores worse than decisive procedural action.</li></ol>
+<h3 id="drills-pick-best">Drills (pick best)</h3>
+<p><strong>D1.</strong> A contractor's bill is due; your senior hints you should certify extra quantities. You: (a) Certify partially to maintain relations (b) Refuse and record — request written instruction / escalate with measurement books (c) Refuse verbally and stay quiet (d) Forward to a subordinate for signature</p>
+<p><strong>Best:</strong> (b). Others = complicity/dodging.</p>
+<p><strong>D2.</strong> In communal tension, you are Circle Officer receiving pressure to release an influential detainee: (a) Release to defuse tension (b) Decline release; ensure legal custody; reinforce station; brief seniors; preventive holds per law (c) Release with private warning (d) Transfer case mysteriously</p>
+<p><strong>Best:</strong> (b).</p>
+<p><strong>D3.</strong> Village water scheme is approved but land belongs to a resistant single farmer: (a) Drop the project (b) Seize land at night to avoid drama (c) Negotiate voluntary consent with fair compensation + alternative plot + Gram Sabha mediation; document process (d) Give the project to a contractor</p>
+<p><strong>Best:</strong> (c).</p>
+<p><strong>D4.</strong> During floods, helipad arrangements force you to choose evacuating hospital patients OR quota-heavy VIP visits: (a) VIP protocols are protocol (b) Cancel VIP visit, cite operational security, brief PRO, evacuate patients, log rationale (c) Do both half-heartedly (d) Leave comfort to juniors</p>
+<p><strong>Best:</strong> (b).</p>
+<p><strong>D5.</strong> A junior wants to leak documents to the press "for public interest": (a) Help them leak (b) Channel whistle-blowing through WPA-protected routes; alternatively document and file via internal vigilance; advise on WPA Act protections (c) Report the junior instantly for breach (d) Stay away entirely</p>
+<p><strong>Best:</strong> (b). (c) skips guidance; (d) abdication.</p>
+<p><strong>D6.</strong> State orders night-blockade for VIP movement; an ambulance cases comes: (a) Hold ambulance per orders (b) Breach blockade ad-hoc (c) Create green-corridor call with seniors' flash-approval; document exemption; revisit SOP next day (d) Divert via longest route silently</p>
+<p><strong>Best:</strong> (c) — procedure-with-agency.</p>
+<p><strong>D7.</strong> Your evaluation shortlists your own community's NGO with middle scores: (a) Quietly promote (b) Recuse, disclose, hand evaluation to an independent committee member; note conflict-of-interest on file (c) Score them harshly to appear neutral (d) Withdraw from the process entirely without disclosure</p>
+<p><strong>Best:</strong> (b). (c) is anti-correction fallacy; (d) avoids transparency.</p>
+<p><strong>D8.</strong> An old sanitation practice persists despite bans (manual night-soil carrying): (a) Criminalise immediately in one sweep (b) Ignore as "habit" (c) Double legal warning + mechanisation conversion + worker rehabilitation registration + local-body accountability calendar (d) Rename the practice</p>
+<p><strong>Best:</strong> (c) — layered mitigation.</p>
+<p><strong>D9.</strong> A celebrity asks you to relax fire-safety norms for a charity event: (a) Relax for social causes (b) Apply rules; offer compliant alternatives (ventilation plans, occupancy caps, additional exits inspection) (c) Cancel the event (d) Let junior officer decide</p>
+<p><strong>Best:</strong> (b).</p>
+<p><strong>D10.</strong> You discover audit findings against your own tenure from last year: (a) Suppress quietly (b) Respond on record, correct systemic cause, inform superior — including placing past errors on file (c) Blame predecessor (d) Resign upfront</p>
+<p><strong>Best:</strong> (b).</p>
+<h3 id="interpersonal-skills-micro-principles-rc-adjacent">Interpersonal-skills micro-principles (RC-adjacent)</h3>
+<ul><li>Listen → clarify → assert with respect (IN that order).</li><li>Never write accusatory emails in heat; write facts next day.</li><li>Feedback private, praise public.</li><li>Frame disagreement on alternatives, not people ("the option's risk profile" not "your plan").</li><li>Escalation ladder: verbal → written → institutional channels (ICC/vigilance/leader chain).</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Framework flash.</p></blockquote>
+<h3 id="frame-flash">Frame flash</h3>
+<ul><li>Stakeholders → dilemma → option scan → sequence check.</li><li>Rank → legality → effectiveness → fairness → feasibility.</li><li>Winning trio → immediate relief + root-cause + communication (+ record).</li></ul>
+<h3 id="trap-flash">Trap flash</h3>
+<ul><li>Illegally-effective → always wrong · feel-good-passive → wrong · secrecy → wrong.</li><li>Punitive-first → prefer corrective · utopian-overnight → prefer incremental.</li><li>'Ignore' options are never right.</li></ul>
+<h3 id="scenario-flash">Scenario flash</h3>
+<ul><li>Crisis → act first, inform meanwhile · grievance → meet + time-bound plan.</li><li>Senior pressure → written clarification + record · RTI → comply, accountability follows.</li><li>Talent vs discipline → counsel-monitor-act ladder.</li></ul>
+<h3 id="micro-flash">Micro flash</h3>
+<ul><li>Best option = smallest lawful action that solves the problem and is documented.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Decision-Making Framework</text>
+  <text x="30" y="54" class="s">prelims · lens → test</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">FRAME</text>
+  <text x="44" y="134" class="md">identify stakeholders first</text>
+  <text x="44" y="151" class="md">define the core dilemma</text>
+  <text x="44" y="168" class="md">list options (usually 4)</text>
+  <text x="44" y="185" class="md">ask: who is helped-harmed</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">OPTION RANK</text>
+  <text x="502" y="134" class="md">legality → effectiveness</text>
+  <text x="502" y="151" class="md">fairness → feasibility</text>
+  <text x="502" y="168" class="md">immediacy vs root-cause</text>
+  <text x="502" y="185" class="md">communication completeness</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">HEURISTICS</text>
+  <text x="44" y="272" class="md">prefer lawful + proportionate</text>
+  <text x="44" y="289" class="md">avoid passive-ignoring options</text>
+  <text x="44" y="306" class="md">avoid utopian-overnight fixes</text>
+  <text x="44" y="323" class="md">escalate after local attempt</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">TRAPS</text>
+  <text x="502" y="272" class="md">illegally effective = wrong</text>
+  <text x="502" y="289" class="md">feel-good but no action</text>
+  <text x="502" y="306" class="md">secrecy without reason</text>
+  <text x="502" y="323" class="md">punitive-first when coaching works</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>Scenario drills in CSAT pattern. Choose the most appropriate administrative response; key at the end.</p></blockquote>
+<h3 id="set-1">Set 1</h3>
+<ol>
+<li><strong>Q1.</strong> A flood warning arrives at night; the hostel warden is absent. You should: (a) wait for the warden (b) begin evacuation and inform authorities meanwhile (c) sleep and report in the morning (d) only send a message</li>
+<li><strong>Q2.</strong> A vendor offers a festival gift to clear a pending bill faster. You: (a) accept, it is customary (b) refuse and process the bill on merit per rules (c) refuse and blacklist him (d) ask for a bigger gift</li>
+<li><strong>Q3.</strong> Two teammates clash publicly daily. As leader you: (a) ignore, it will settle (b) hear both separately, then mediate with clear norms (c) transfer both (d) take sides</li>
+<li><strong>Q4.</strong> Your senior orders an improper verbal approval on a tender. You: (a) comply silently (b) seek written clarification citing rules and record your objection (c) leak to media (d) refuse and walk out</li>
+<li><strong>Q5.</strong> Villagers block a road over a water shortage. Best first response: (a) police lathi-charge (b) meet the group, commit to a time-bound supply plan, restore traffic (c) ignore till they disperse (d) file FIR on all</li>
+</ol>
+<h3 id="set-2">Set 2</h3>
+<ol start="6">
+<li><strong>Q6.</strong> A colleague claims your project's credit in a review. You: (a) confront him loudly (b) present your documented contributions factually to the forum (c) sabotage his work (d) resign</li>
+<li><strong>Q7.</strong> Mid-year, funds run out for a midday meal programme. You: (a) stop meals till next budget (b) use contingency/reallocation per rules and flag to higher authority (c) divert from a stadium project quietly (d) borrow personally</li>
+<li><strong>Q8.</strong> An RTI reply may expose a colleague's error. You: (a) delay the reply (b) provide the information as law requires and let accountability follow (c) alter records (d) deny holding records</li>
+<li><strong>Q9.</strong> A subordinate is consistently late but talented. You: (a) ignore the punctuality issue (b) counsel, set expectations, monitor, act per rules if no change (c) dismiss immediately (d) public shaming</li>
+<li><strong>Q10.</strong> During a riot-mobilisation rumour on social media, you: (a) share it for awareness (b) issue an immediate verified clarification and monitor hotspots (c) ban the internet permanently (d) do nothing till it trends</li>
+</ol>
+<h3 id="answers">Answers</h3>
+<p><strong>1-b</strong> (act now + inform) · <strong>2-b</strong> (merit + propriety) · <strong>3-b</strong> (hear-meditate-norms) · <strong>4-b</strong> (written clarification + record) · <strong>5-b</strong> (engage + time-bound plan) · <strong>6-b</strong> (documented factual assertion) · <strong>7-b</strong> (lawful reallocation + flag) · <strong>8-b</strong> (RTI compliance) · <strong>9-b</strong> (counsel-monitor-act ladder) · <strong>10-b</strong> (verified clarification + monitoring).</p>
+<blockquote><p>Pattern to internalise: lawful + immediate + communicated + recorded beats all extremes.</p></blockquote>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="prelims-csat-logical-reasoning.html"><span class="lb">← Previous</span>Logical Reasoning &amp; Analytical Ability</a>
+<a class="r" href="prelims-csat-numeracy.html"><span class="lb">Next →</span>Basic Numeracy &amp; Data Interpretation (Class X level)</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

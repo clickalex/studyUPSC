@@ -173,6 +173,63 @@ else {
 }
 
 /* ------------------------------------------------------------------ */
+section('[8] Book edition');
+const BOOKDIR = path.join(ROOT, 'book');
+if (!fs.existsSync(BOOKDIR)) fail('book/ not built — run node cli/book.mjs');
+else {
+  const bookDataPath = path.join(ROOT, 'assets/js/book-data.js');
+  if (!fs.existsSync(bookDataPath)) fail('assets/js/book-data.js missing');
+  else {
+    const sb = {};
+    new Function('window', fs.readFileSync(bookDataPath, 'utf8'))(sb);
+    const BK = sb.BOOK_DATA;
+    const lessons = BK.parts.flatMap(p => p.chapters.flatMap(c => c.lessons));
+
+    // every syllabus leaf must be a lesson
+    const sylData = {};
+    new Function('window', fs.readFileSync(path.join(ROOT, 'assets/js/data.js'), 'utf8'))(sylData);
+    const leafOf = (n, t) => { const p = [...t, n.id]; return (!n.sub || !n.sub.length) ? [p.join('/')] : n.sub.flatMap(c => leafOf(c, p)); };
+    const leaves = sylData.SYLLABUS_DATA.papers.flatMap(p => leafOf(p, []));
+    const navs = new Set(lessons.map(l => l.nav));
+    const missing = leaves.filter(l => !navs.has(l));
+    if (!missing.length) ok(`every one of ${leaves.length} syllabus leaves is a book lesson`);
+    else missing.forEach(m => fail(`syllabus leaf absent from the book: ${m}`));
+
+    // every lesson must carry all five sections
+    const thin = lessons.filter(l => l.sections.length < 5);
+    if (!thin.length) ok(`all ${lessons.length} lessons carry the 5 sections`);
+    else thin.forEach(l => fail(`lesson ${l.number} "${l.title}" has only ${l.sections.length}/5 sections`));
+
+    // every lesson must have a page file
+    const noFile = lessons.filter(l => !fs.existsSync(path.join(BOOKDIR, 'lesson', l.id + '.html')));
+    if (!noFile.length) ok(`all ${lessons.length} lesson pages exist`);
+    else noFile.forEach(l => fail(`missing page for lesson ${l.number}`));
+
+    for (const f of ['index.html', 'edition.html'])
+      fs.existsSync(path.join(BOOKDIR, f)) ? ok(`book/${f} present`) : fail(`book/${f} missing`);
+
+    // part opener artwork
+    const noArt = BK.parts.filter(p => !p.art || !fs.existsSync(path.join(ROOT, p.art)));
+    if (!noArt.length) ok(`all ${BK.parts.length} parts have opener artwork`);
+    else noArt.forEach(p => warn(`part "${p.title}" has no opener image`));
+    fs.existsSync(path.join(ROOT, 'assets/book/img/cover.png')) ? ok('cover image present') : fail('cover image missing');
+
+    // link integrity inside book/
+    let bl = 0, bt = 0;
+    for (const f of walk(BOOKDIR).filter(x => /\.html$/i.test(x.abs))) {
+      const s = fs.readFileSync(f.abs, 'utf8');
+      for (const m of s.matchAll(/(?:href|src)="([^"#][^"]*)"/g)) {
+        const t = m[1];
+        if (/^(https?:|data:|mailto:)/.test(t)) continue;
+        bt++;
+        if (!fs.existsSync(path.resolve(path.dirname(f.abs), t.split('#')[0]))) { bl++; fail(`broken book link ${t} in ${f.rel}`); }
+      }
+    }
+    if (!bl) ok(`${bt} book links checked, 0 broken`);
+  }
+}
+
+/* ------------------------------------------------------------------ */
 console.log('\n────────────────────────────────────────');
 console.log(`AUDIT ${failures === 0 ? 'PASSED' : 'FAILED'} — ${failures} failure(s), ${warnings} warning(s)`);
 console.log('────────────────────────────────────────');

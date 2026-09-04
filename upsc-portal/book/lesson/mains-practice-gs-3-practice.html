@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10.3.1 GS III — practice questions with answer frameworks · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part X — Mains Practice — Question Bank &amp; Answer Frameworks · Chapter 3: GS III — practice questions with answer frameworks</p>
+<p class="bk-eyebrow">Lesson 10.3.1</p>
+<h1 id="lesson-mains-practice-gs-3-practice">GS III — practice questions with answer frameworks</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Economy, agriculture, science-tech, environment, security &amp; disaster management — turning the pyqs/ bank into marks.</p></blockquote>
+<h3 id="1-what-gs-3-demands">1. What GS-3 Demands</h3>
+<p>GS-3 rewards <strong>solution craft</strong>: every answer is a mini policy note — diagnose (data), analyse (structure), prescribe (mechanism). It is also the <strong>diagram paper</strong>: cyclical flows (inflation, disaster cycle), simple graphs (Laffer-style trade-offs, yields), and schematic layouts (security architecture) convert thin knowledge into visible competence.</p>
+<h3 id="2-the-data-magazine">2. The Data Magazine (load before practice)</h3>
+<ul><li><strong>Economy</strong>: GDP growth band, CPI/WPI ball-parks, FRBM targets, GST collections trend, current-account deficit range, forex reserves order of magnitude, unemployment series (PLFS), capital-expenditure ratios.</li><li><strong>Agriculture</strong>: share in employment/GDP, MSP coverage facts, PM-KISAN quantum, irrigation coverage %, foodgrain output band, fertilizer subsidy scale.</li><li><strong>Environment</strong>: NDC targets (45% intensity cut by 2030, 500 GW non-fossil), forest-cover band, renewable installed capacity order, tiger/elephant numbers' decade trend.</li><li><strong>Sci-tech</strong>: space launch cadence, semiconductor mission outlay, AI-mission shape, 5G rollout facts, defence export figure.</li><li><strong>Security</strong>: left-wing-extremism district-count trend, cyber-crime growth band, defence budget % GDP.</li></ul>
+<p>Rule: approximate honestly ("about", "roughly") — a rounded correct order beats a precise wrong number.</p>
+<h3 id="3-answer-anatomy-for-gs-3">3. Answer Anatomy for GS-3</h3>
+<ul><li><strong>Intro</strong>: define + one datum that frames magnitude.</li><li><strong>Body</strong>: causes/drivers → impacts (distributional where relevant) → constraints → <strong>mechanism-level solutions</strong> (who does what, funded how, sequenced when).</li><li><strong>Diagram</strong>: at least half the answers; label everything.</li><li><strong>Conclusion</strong>: link to a national mission or SDG hook without sloganising.</li></ul>
+<h3 id="4-solution-quality-test">4. The Solution-quality Test (three questions)</h3>
+<ol><li>Who is the implementing agent (ministry/state/agency)?</li><li>What is the incentive change (why will behaviour shift)?</li><li>What is the constraint acknowledged (fiscal, federal, capacity)?</li></ol>
+<p>If any answer is "none", the solution is a slogan. Rewrite.</p>
+<h3 id="5-security-answers-sub-structure">5. Security Answers — Sub-structure</h3>
+<ul><li>Internal: root causes (governance vacuum, alienation) → terrain/technology factors → strategy triad (development + intelligence + calibrated force) → human-rights guardrails.</li><li>Cyber: threat map (critical infrastructure, finance, disinformation) → institutional stack (NCIIPC, CERT-In, data laws) → public-private + user-hygiene layer.</li><li>Disaster (NDMA cycle): prevention-mitigation → preparedness → response → recovery, with a recent case as evidence.</li></ul>
+<h3 id="6-weekly-cycle">6. Weekly Cycle</h3>
+<ul><li>Mon economy (2) · Tue agriculture+environment (2) · Wed sci-tech (2) · Thu security+disaster (2) · Fri sectional 10-Q · Sat evaluation + data-magazine update · Sun rewrite two + one diagram re-draw.</li></ul>
+<h3 id="7-rubric-10">7. Rubric /10</h3>
+<table><thead><tr><th>Criterion</th><th>Marks</th></tr></thead><tbody>
+<tr><td>Diagnosis — magnitude framed with an honest datum</td><td>2</td></tr>
+<tr><td>Analysis — structural causes, distribution noted</td><td>3</td></tr>
+<tr><td>Mechanism — agent, incentive, constraint, sequence</td><td>3</td></tr>
+<tr><td>Visual — relevant, labelled, adds value</td><td>2</td></tr>
+</tbody></table>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>One-page drill card for the solutions paper.</p></blockquote>
+<h3 id="timing">Timing</h3>
+<ul><li>7/11-minute clock; diagrams get a fixed 60-90 second allowance — pre-rehearsed shapes only.</li></ul>
+<h3 id="anatomy">Anatomy</h3>
+<ul><li>Intro: definition + framing datum → causes → impacts (who bears them) → constraints → mechanism solutions (agent, incentive, sequence) → mission link.</li></ul>
+<h3 id="data-magazine-refill-weekly">Data magazine — refill weekly</h3>
+<ul><li>GDP band · CPI band · FRBM 3%/6% (centre/states) · GST trend · PLFS · agri share (~18% GVA, ~45% jobs) · NDC 45% &amp; 500 GW · renewable capacity order · defence exports · LWE district trend.</li></ul>
+<h3 id="solution-test-3-questions">Solution test — 3 questions</h3>
+<ul><li>Who implements? What incentive changes? What constraint is acknowledged? Any "none" = slogan; rewrite.</li></ul>
+<h3 id="diagram-shelf-pre-rehearsed">Diagram shelf — pre-rehearsed</h3>
+<ul><li>Inflation pass-through flow · disaster cycle ring · energy-transition stacked bar (sketch) · cyber-threat onion · agro-cycle vs MSP line · semiconductor value chain strip.</li></ul>
+<h3 id="rubric-10">Rubric /10</h3>
+<ul><li>Diagnosis 2 · Analysis 3 · Mechanism 3 · Visual 2.</li></ul>
+<h3 id="paper-specific-reminders">Paper-specific reminders</h3>
+<ul><li>Security: strategy triad + guardrails; avoid operations-tourism detail.</li><li>Environment: pair targets with finance/justice angles (CBDR, just transition).</li><li>Sci-tech: explain the science in one plain line before the policy layer.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Compressed examiner-psychology for GS-3.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>GS-3 SOLUTION MACHINE
+├── FRAME ........ magnitude datum ("about X%")
+├── ANALYSE ...... structural causes; distribution of impacts
+├── PRESCRIBE .... agent + incentive + constraint + sequence
+├── DRAW ......... flow/graph/ring — labelled, value-adding
+└── LINK ......... national mission / SDG, without slogans</code></pre>
+<h3 id="rewards">Rewards</h3>
+<ul><li>Mechanism answers ("PMO-to-panchayat: who does what, funded how") over principle lists.</li><li>Honest approximation of data; wrong precision is penalised.</li><li>Diagrams that compress argument, not decoration.</li><li>Distributional eye — who gains, who pays, who is exposed.</li></ul>
+<h3 id="leaks">Leaks</h3>
+<ul><li>Scheme-name showers without mechanism.</li><li>Security answers with tactical gossip instead of strategy.</li><li>Sci-tech answers that never explain the underlying science.</li><li>Environment answers without the finance/justice dimension.</li></ul>
+<h3 id="practice-drills">Practice drills</h3>
+<ul><li>Mechanism drill: take any headline; write agent/incentive/constraint in 5 lines.</li><li>Diagram drill: 6 pre-rehearsed shapes drawn in 60 seconds each, weekly.</li><li>Data drill: recite the data magazine against the clock, Sunday.</li></ul>
+<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<ul><li>"GS-3 buys mechanisms, not wishes."</li><li>"A labelled arrow is worth a paragraph of prose."</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-3 policy-note answer — diagnose → analyse → prescribe</text>
+  <text x="30" y="56" class="s">gs-3-practice · economy · agriculture · sci-tech · environment · security &amp; disaster</text>
+  <rect x="40" y="84" width="220" height="64" rx="10" class="q"/>
+  <text x="150" y="108" text-anchor="middle" class="h">DIAGNOSE + DATUM</text>
+  <text x="150" y="126" text-anchor="middle" class="sm">"about X%" — honest approximation</text>
+  <text x="150" y="140" text-anchor="middle" class="sm">frames magnitude in line one</text>
+  <rect x="290" y="84" width="280" height="64" rx="10" class="sec"/>
+  <text x="430" y="108" text-anchor="middle" class="h">ANALYSE STRUCTURE</text>
+  <text x="430" y="126" text-anchor="middle" class="sm">causes → impacts → who bears them</text>
+  <text x="430" y="140" text-anchor="middle" class="sm">(distribution is the GS-3 tell)</text>
+  <rect x="600" y="84" width="320" height="64" rx="10" class="g"/>
+  <text x="760" y="108" text-anchor="middle" class="h">PRESCRIBE MECHANISM</text>
+  <text x="760" y="126" text-anchor="middle" class="sm">agent + incentive change + constraint</text>
+  <text x="760" y="140" text-anchor="middle" class="sm">+ sequence ("first A, then B, funded by C")</text>
+  <path d="M 260 116 L 290 116" class="cl"/><path d="M 570 116 L 600 116" class="cl"/>
+  <rect x="40" y="162" width="880" height="54" rx="10" class="sec"/>
+  <text x="480" y="184" text-anchor="middle" class="h">THE 3-QUESTION SOLUTION TEST</text>
+  <text x="480" y="204" text-anchor="middle" class="sm">who implements? · what incentive changes? · what constraint is acknowledged? — any "none" means slogan: rewrite</text>
+  <rect x="40" y="230" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="254" class="h">DATA MAGAZINE (refill weekly)</text>
+  <text x="56" y="276" class="md">Economy: growth band · CPI band · FRBM 3/6 · GST trend</text>
+  <text x="56" y="294" class="md">Agri: ~18% GVA / ~45% jobs · irrigation % · PM-KISAN</text>
+  <text x="56" y="312" class="md">Env: NDC 45% intensity · 500 GW non-fossil · forest band</text>
+  <text x="56" y="330" class="md">Tech: launch cadence · semi-mission outlay · AI mission</text>
+  <text x="56" y="352" class="sm">rule: rounded-correct beats precise-wrong, always</text>
+  <rect x="490" y="230" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="254" class="h">DIAGRAM SHELF (60-90 sec each)</text>
+  <text x="506" y="276" class="md">inflation pass-through flow · disaster-cycle ring</text>
+  <text x="506" y="294" class="md">energy-transition sketch · cyber-threat onion</text>
+  <text x="506" y="312" class="md">MSP line &amp; agro-cycle · semi value-chain strip</text>
+  <text x="506" y="336" class="md">rubric: diagnosis 2 · analysis 3 · mechanism 3</text>
+  <text x="506" y="354" class="sm">visual 2 — label every element; arrows carry meaning</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-3 practice diagram · pair with detailed-notes/gs-3-practice-system.html</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>30 original questions (economy, agriculture, science &amp; technology, environment, disaster management, internal security) with compact answer frameworks. Data points reflect the position as of early 2026 — update numbers before the exam.</p></blockquote>
+<h3 id="a-economy">A. Economy</h3>
+<p><strong>Q1. (15 marks)</strong> 'India's growth is investment-led but consumption-constrained.' Examine with reference to recent trends and Budget 2025–26.</p>
+<ul><li><em>Body:</em> GFCF ~30% of GDP, public capex ₹11.2 lakh crore; private capex revival uneven; consumption — rural recovery post-2024 monsoon, urban slowdown, K-shape; Budget levers — income-tax relief (₹12 lakh exemption), GST 2.0 (Sept 2025); wage stagnation, household debt (RBI FSR); way forward — labour-intensive manufacturing, urban jobs, credit to MSMEs.</li></ul>
+<p><strong>Q2. (10 marks)</strong> Discuss the rationale and risks of the RBI's shift to a neutral stance and rate cuts in 2025.</p>
+<ul><li><em>Body:</em> CPI below 4% for much of 2025 (food disinflation), growth concerns, global easing; cuts to 5.25% by Dec 2025; CRR cut to 3%; risks — transmission lags, currency (rupee ~90/USD), tariff shock, core inflation stickiness, fiscal–monetary coordination; MPC composition and accountability.</li></ul>
+<p><strong>Q3. (15 marks)</strong> Evaluate the GST reforms of September 2025 ('GST 2.0') against the objectives of simplicity, revenue neutrality and cooperative federalism.</p>
+<ul><li><em>Body:</em> two-rate structure 5/18 plus 40% demerit; inverted duty corrections; compensation cess wind-down; revenue loss estimate ~₹48,000 crore, States' concerns; pending — petroleum inclusion, GST Appellate Tribunal (operational 2025), rate on insurance exempted; assessment — simplification achieved, federal trust and revenue buoyancy still to be proved.</li></ul>
+<p><strong>Q4. (10 marks)</strong> 'Fiscal consolidation should shift from deficit targets to debt anchors.' Discuss in the light of the Union Budget 2025–26.</p>
+<ul><li><em>Body:</em> FD 4.4% (2025–26), debt 56% of GDP → 50±1% by 2031; advantages — flexibility, focus on sustainability, counter-cyclicality; risks — off-budget borrowings, State debt (~30%), interest burden (about 20% of receipts); N.K. Singh FRBM review; need an independent fiscal council.</li></ul>
+<p><strong>Q5. (10 marks)</strong> What are the causes of India's persistently low manufacturing share in GDP? Assess the PLI schemes as a remedy.</p>
+<ul><li><em>Body:</em> factor-market rigidities, logistics cost, tariff inversion, MSME missing middle; PLI 14 sectors ₹1.97 lakh crore — electronics success (mobile exports USD 24 bn), pharma; weak in textiles, solar modules; sunset concerns; complement — labour codes (Nov 2025), National Manufacturing Mission, land banks, FTAs, ease of doing business at State level.</li></ul>
+<p><strong>Q6. (15 marks)</strong> 'The 2025 US tariffs are a shock that India should convert into a reform opportunity.' Examine.</p>
+<ul><li><em>Body:</em> 50% tariff (Aug 2025) hits textiles, gems, shrimp, leather — about USD 48 bn exposure; responses — export diversification (UK CETA, EFTA in force, EU FTA talks, ASEAN review), domestic demand (GST cuts), credit support for exporters, Bharat Trade Net; longer-term — tariff rationalisation of our own, quality infrastructure, GVC integration, rupee trade; avoid retaliation spiral.</li></ul>
+<p><strong>Q7. (10 marks)</strong> Discuss the role of the Insolvency and Bankruptcy Code in improving credit culture and its remaining weaknesses.</p>
+<ul><li><em>Body:</em> recoveries ~32% of admitted claims, 1,000+ resolutions; behavioural change (pre-admission settlements ₹10 lakh crore); weaknesses — delays (average 650+ days), NCLT vacancies, haircuts (Videocon, Jet), personal guarantor cases, cross-border framework absent; 2025 amendment bill — creditor-led resolution, group insolvency.</li></ul>
+<p><strong>Q8. (10 marks)</strong> Examine the significance of the four Labour Codes brought into force in November 2025 for workers and enterprises.</p>
+<ul><li><em>Body:</em> wages floor, gig-worker social security fund, fixed-term employment with gratuity after one year, women in night shifts with consent, threshold for retrenchment permission raised to 300; concerns — union rights, State rule-making delays, inspection dilution; expected effects on formalisation and FDI.</li></ul>
+<h3 id="b-agriculture-food">B. Agriculture &amp; Food</h3>
+<p><strong>Q9. (15 marks)</strong> 'Legal guarantee of MSP is neither fiscally viable nor agronomically desirable.' Critically examine alternatives.</p>
+<ul><li><em>Body:</em> MSP covers ~6% of farmers directly; legal guarantee costs — estimates vary (₹1–10 lakh crore) depending on design; distortions — paddy in Punjab, groundwater; alternatives — price deficiency payments (Bhavantar), income support (PM-KISAN), crop-neutral incentives, decentralised procurement, pulses/oilseeds procurement (Mission for Aatmanirbharta in Pulses 2025), diversification package, FPO market access; Shanta Kumar and Ramesh Chand recommendations.</li></ul>
+<p><strong>Q10. (10 marks)</strong> Evaluate the PM Dhan-Dhaanya Krishi Yojana as a strategy for lagging agricultural districts.</p>
+<ul><li><em>Body:</em> 100 low-productivity districts, convergence of 36 schemes, ₹24,000 crore/year for six years, district plans modelled on Aspirational Districts; strengths — targeted, outcome dashboards; risks — State capacity, one-size-fits-all indicators; complements — irrigation, storage, credit, extension.</li></ul>
+<p><strong>Q11. (10 marks)</strong> How can India reconcile the push for natural farming with food security?</p>
+<ul><li><em>Body:</em> National Mission on Natural Farming (2024, ₹2,481 crore, 1 crore farmers); Sri Lanka's 2021 lesson; evidence from Andhra Pradesh's APCNF; approach — phased conversion in rain-fed areas, soil-health monitoring, certification (PGS), market premiums, avoid mandatory rollouts in Punjab-type systems.</li></ul>
+<p><strong>Q12. (15 marks)</strong> Discuss the implications of genome-edited crops for Indian agriculture and the regulatory framework that governs them.</p>
+<ul><li><em>Body:</em> SDN-1/SDN-2 exempted from GM rules (2022) vs SDN-3; DRR Dhan 100 (Kamala) and Pusa DST Rice 1 released May 2025 — yield, drought/salinity tolerance; benefits — speed, no foreign DNA, IPR autonomy; concerns — activists' 'GM by another name', seed-cost, monitoring; contrast with Bt cotton and GM mustard stalemate; way forward — transparent biosafety data, farmer participation, public-sector pipeline.</li></ul>
+<h3 id="c-science-technology">C. Science &amp; Technology</h3>
+<p><strong>Q13. (10 marks)</strong> 'India's space reforms have moved the sector from a state monopoly to a state-enabled ecosystem.' Examine.</p>
+<ul><li><em>Body:</em> IN-SPACe, NSIL, Indian Space Policy 2023, FDI 2024, ₹1,000 crore venture fund; private launches (Agnikul, Skyroot), 300+ startups; ISRO's shift to R&amp;D, Gaganyaan, BAS, NISAR; remaining — Space Activities Bill, insurance, spectrum for satcom, procurement predictability.</li></ul>
+<p><strong>Q14. (15 marks)</strong> Evaluate the IndiaAI Mission and India's AI governance approach against the EU and US models.</p>
+<ul><li><em>Body:</em> ₹10,372 crore, compute (38,000 GPUs), sovereign models (Sarvam, BharatGen), datasets (AIKosh), safety institute; governance — guidelines (Nov 2025), techno-legal approach, no standalone law; EU risk-based statute vs US deregulatory turn; India's opportunities — language models, DPI+AI, AI Impact Summit 2026; risks — deepfakes, jobs (IMF 40% exposed), energy, data-centre water; recommendations — sectoral regulators, algorithmic audits, skilling.</li></ul>
+<p><strong>Q15. (10 marks)</strong> Discuss the strategic and economic logic of the India Semiconductor Mission and the obstacles it faces.</p>
+<ul><li><em>Body:</em> supply-chain security (Taiwan risk), electronics import bill, design talent; 10 units, first packaged chips 2025, Tata fab 2026–27; obstacles — no advanced-node fab, water/power, ecosystem of gases and chemicals, talent at fab level, subsidy dependence; ISM 2.0 focus on equipment, materials, design-linked incentives.</li></ul>
+<p><strong>Q16. (10 marks)</strong> How does the SHANTI Act, 2025 change India's nuclear energy landscape?</p>
+<ul><li><em>Body:</em> replaces Atomic Energy Act 1962 and CLNDA 2010; private participation in generation, capped supplier liability, independent regulator; targets — 100 GW by 2047, Nuclear Energy Mission ₹20,000 crore, five SMRs by 2033, Bharat Small Reactors for captive use; concerns — safety culture, waste, fuel security (uranium imports), public acceptance (Kudankulam, Jaitapur history).</li></ul>
+<p><strong>Q17. (15 marks)</strong> 'Biotechnology is India's next sunrise sector.' Examine the potential and the policy ecosystem, with reference to BioE3.</p>
+<ul><li><em>Body:</em> bioeconomy USD 165 bn (2024) → USD 300 bn by 2030; BioE3 (Aug 2024) — biomanufacturing hubs, bio-AI, bio-foundries; successes — vaccines, CAR-T (NexCAR19), gene therapy trials (BIRSA-101), GenomeIndia; gaps — clinical-trial ecosystem, biosafety regulator overlaps (GEAC/RCGM), venture funding, regulatory delays in ethanol/enzymes; recommendations — single-window regulator, bio-clusters, IP support.</li></ul>
+<h3 id="d-environment-disaster-management">D. Environment &amp; Disaster Management</h3>
+<p><strong>Q18. (15 marks)</strong> Critically evaluate the outcomes of COP30 (Belém) from the perspective of developing countries.</p>
+<ul><li><em>Body:</em> NCQG follow-up 'Baku-to-Belém roadmap to USD 1.3 trillion', adaptation indicators, Tropical Forests Forever Facility, just transition mechanism, fossil-fuel roadmap outside formal text; gaps — no new mitigation ambition, NDC 3.0 shortfall (2.3–2.5 °C trajectory), US absence; India's positions — equity, CBDR, finance definitions; next — COP31 Antalya 2026.</li></ul>
+<p><strong>Q19. (10 marks)</strong> Examine the challenges of implementing the Carbon Credit Trading Scheme in India.</p>
+<ul><li><em>Body:</em> compliance market (9 sectors, targets 2025–27) and offset market; issues — baseline setting, MRV capacity, price discovery, double counting with RECs/PAT, integrity lessons from voluntary market, CBAM interaction; institutions — BEE administrator, CERC regulator, Grid-India registry.</li></ul>
+<p><strong>Q20. (10 marks)</strong> 'India's forest cover statistics mask ecological degradation.' Discuss with reference to ISFR 2023 and the 2023 amendment to the Forest Conservation Act.</p>
+<ul><li><em>Body:</em> 25.17% forest+tree cover but dense forest losses in the North-East and Western Ghats, plantations counted as forest, Kerala/Wayanad landslides 2024; Van Adhiniyam 2023 exemptions (border 100 km, zoos, linear projects), 'deemed forest' dilution; SC interim protection Feb 2024; recommendations — canopy-quality indicators, community forest rights (FRA), compensatory afforestation quality audits.</li></ul>
+<p><strong>Q21. (15 marks)</strong> Examine the growing frequency of Himalayan disasters (Joshimath, Sikkim GLOF 2023, Wayanad 2024, Uttarkashi 2025) and suggest a risk-informed development framework.</p>
+<ul><li><em>Body:</em> drivers — climate warming (glacial lakes 2x), tectonics, unregulated construction, hydropower cascades, tourism; frameworks — NDMA GLOF guidelines, carrying-capacity studies (SC 2023), early-warning (Sikkim lake sensors), zoning laws, eco-sensitive zones, Char Dham road critique; Sendai priorities and CDRI; State DM planning and finance (15th FC mitigation funds).</li></ul>
+<p><strong>Q22. (10 marks)</strong> Assess India's heat-action planning in the light of the 2024 and 2025 heat waves.</p>
+<ul><li><em>Body:</em> 2024 hottest year, 40,000+ heatstroke cases; HAPs in 23 States but under-funded (CPR review), no legal status; recommendations — heat as notified disaster (SDRF), cool roofs, work-hour regulation, urban heat-island mapping, health-system readiness, insurance for informal workers (SEWA pilot).</li></ul>
+<p><strong>Q23. (10 marks)</strong> Discuss the problem of plastic pollution and evaluate India's regulatory response, including the global plastics treaty negotiations.</p>
+<ul><li><em>Body:</em> 9.3 MT/year generation, 43% packaging; SUP ban 2022, EPR portal, recycled-content targets; enforcement gaps, thin-bag proliferation, informal sector integration; INC-5.2 Geneva (Aug 2025) failed; India's stance — no production caps, finance first; way forward — design standards, deposit-return, refill systems, municipal capacity.</li></ul>
+<h3 id="e-internal-security">E. Internal Security</h3>
+<p><strong>Q24. (15 marks)</strong> 'Operation Sindoor marks a doctrinal shift in India's response to cross-border terrorism.' Critically examine its implications for deterrence and escalation.</p>
+<ul><li><em>Body:</em> 7–10 May 2025 strikes on nine terror sites, subsequent counter-strikes on airbases; doctrine — terror = act of war, no nuclear-blackmail tolerance, no distinction between terrorists and sponsors; deterrence by punishment vs risk of escalation ladder; role of air defence (Akashteer, S-400), drones, information warfare; diplomatic costs (US mediation claim, China–Pakistan interoperability); recommendations — sustained capability, credible signalling, integrated theatre commands.</li></ul>
+<p><strong>Q25. (10 marks)</strong> Analyse the reasons for the decline of Left-Wing Extremism and the challenges in achieving the March 2026 elimination target.</p>
+<ul><li><em>Body:</em> affected districts 126 (2018) → 38 (2024) → 18 most-affected; drivers — security camps, roads, mobile towers, surrenders (Basavaraju killed May 2025), Bastar operations; challenges — Abujhmad terrain, tribal alienation (Silger), human-rights allegations, development follow-through, FRA implementation; SAMADHAN strategy.</li></ul>
+<p><strong>Q26. (10 marks)</strong> Examine the security implications of the Manipur conflict and the role of the Union in its resolution.</p>
+<ul><li><em>Body:</em> Meitei–Kuki violence since May 2023, 260+ deaths, 60,000 displaced, arms looted; drivers — ST demand, poppy/deforestation drives, Myanmar refugee inflows, FMR scrapping/fencing; President's Rule Feb 2025; measures — buffer zones, NRC demand, Suspension-of-Operations review, dialogue; lessons for Article 355/356 use and Sixth Schedule-type autonomy.</li></ul>
+<p><strong>Q27. (15 marks)</strong> 'Cyber fraud has become India's largest internal-security challenge by volume.' Examine the ecosystem and evaluate the state response.</p>
+<ul><li><em>Body:</em> ₹22,845 crore losses (2024), digital arrests, mule accounts, SE Asia scam compounds trafficking Indians; institutions — I4C, 1930, CFMC, Sanchar Saathi, MuleHunter.AI, e-Zero FIR; gaps — State police capacity, bank KYC laxity, cross-border enforcement, encryption debates; recommendations — real-time payment freezes, national cyber-crime cadre, platform liability, Budapest/UN Convention cooperation.</li></ul>
+<p><strong>Q28. (10 marks)</strong> Discuss the challenges posed by drones to border and internal security and India's counter-drone strategy.</p>
+<ul><li><em>Body:</em> Punjab drug/arms drops (about 300 drones seized in 2024), Op Sindoor swarm attacks; counter — DRDO D4, Indrajaal, Bhargavastra, Akashteer integration, BSF anti-drone units; regulation — Drone Rules 2021, no-fly zones, Digital Sky; need indigenous C-UAS production and a national counter-drone doctrine.</li></ul>
+<p><strong>Q29. (10 marks)</strong> Evaluate the role of money laundering in financing terrorism and the effectiveness of India's AML/CFT framework after the FATF 2024 evaluation.</p>
+<ul><li><em>Body:</em> FATF 'regular follow-up' (Sept 2024), strengths — PMLA, FIU-IND, UAPA, VDA coverage; concerns — prosecution rates, NPO oversight proportionality, crypto/hawala, trade-based laundering; recommendations — beneficial-ownership registry, judicial capacity, international cooperation.</li></ul>
+<p><strong>Q30. (15 marks)</strong> 'Theatre commands are essential for jointness but face structural resistance.' Discuss the roadmap and the reforms needed alongside.</p>
+<ul><li><em>Body:</em> CDS (2019), DMA, Inter-Services Organisations Act 2023, joint doctrines 2024–25; proposed three theatres; resistance — service cultures, air-power division, command-and-control; parallel reforms — Agnipath review, defence procurement (DAP 2025), capital budget share, defence space/cyber agencies, integrated logistics; lessons from Op Sindoor.</li></ul>
+<hr>
+<h4 id="using-this-bank">Using this bank</h4>
+<ul><li>Every GS-III answer should carry at least one number, one scheme or law, and one balanced recommendation.</li><li>Cross-check figures with the Economic Survey and the latest Budget before the exam.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="mains-practice-gs-2-practice.html"><span class="lb">← Previous</span>GS II — practice questions with answer frameworks</a>
+<a class="r" href="mains-practice-gs-4-practice.html"><span class="lb">Next →</span>GS IV — theory questions + case studies with model approaches</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>
