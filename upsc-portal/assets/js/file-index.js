@@ -2841,7 +2841,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes/niti-aayog-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5520,
+  "size": 13120,
   "nav": "prelims-gs1/economy/planning-growth/niti-aayog/notes"
  },
  {
@@ -3057,7 +3057,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes/acts-conventions-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5376,
+  "size": 16464,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/notes"
  },
  {
@@ -3255,7 +3255,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes/species-conservation-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5095,
+  "size": 14706,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/notes"
  },
  {
@@ -5802,7 +5802,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes/biotech-health-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5216,
+  "size": 16445,
   "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/notes"
  },
  {
@@ -10885,7 +10885,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/niti-aayog/detailed-notes/niti-aayog-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5520,
+    "size": 13120,
     "nav": "prelims-gs1/economy/planning-growth/niti-aayog/notes"
    }
   ]
@@ -11245,7 +11245,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/acts-conventions/detailed-notes/acts-conventions-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5376,
+    "size": 16464,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions/notes"
    }
   ]
@@ -11575,7 +11575,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/species-conservation/detailed-notes/species-conservation-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5095,
+    "size": 14706,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation/notes"
    }
   ]
@@ -15820,7 +15820,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/biotech-health/detailed-notes/biotech-health-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5216,
+    "size": 16445,
     "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health/notes"
    }
   ]
