@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-3 policy-note answer — diagnose → analyse → prescribe</text>
+  <text x="30" y="56" class="s">gs-3-practice · economy · agriculture · sci-tech · environment · security &amp; disaster</text>
+  <rect x="40" y="84" width="220" height="64" rx="10" class="q"/>
+  <text x="150" y="108" text-anchor="middle" class="h">DIAGNOSE + DATUM</text>
+  <text x="150" y="126" text-anchor="middle" class="sm">"about X%" — honest approximation</text>
+  <text x="150" y="140" text-anchor="middle" class="sm">frames magnitude in line one</text>
+  <rect x="290" y="84" width="280" height="64" rx="10" class="sec"/>
+  <text x="430" y="108" text-anchor="middle" class="h">ANALYSE STRUCTURE</text>
+  <text x="430" y="126" text-anchor="middle" class="sm">causes → impacts → who bears them</text>
+  <text x="430" y="140" text-anchor="middle" class="sm">(distribution is the GS-3 tell)</text>
+  <rect x="600" y="84" width="320" height="64" rx="10" class="g"/>
+  <text x="760" y="108" text-anchor="middle" class="h">PRESCRIBE MECHANISM</text>
+  <text x="760" y="126" text-anchor="middle" class="sm">agent + incentive change + constraint</text>
+  <text x="760" y="140" text-anchor="middle" class="sm">+ sequence ("first A, then B, funded by C")</text>
+  <path d="M 260 116 L 290 116" class="cl"/><path d="M 570 116 L 600 116" class="cl"/>
+  <rect x="40" y="162" width="880" height="54" rx="10" class="sec"/>
+  <text x="480" y="184" text-anchor="middle" class="h">THE 3-QUESTION SOLUTION TEST</text>
+  <text x="480" y="204" text-anchor="middle" class="sm">who implements? · what incentive changes? · what constraint is acknowledged? — any "none" means slogan: rewrite</text>
+  <rect x="40" y="230" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="254" class="h">DATA MAGAZINE (refill weekly)</text>
+  <text x="56" y="276" class="md">Economy: growth band · CPI band · FRBM 3/6 · GST trend</text>
+  <text x="56" y="294" class="md">Agri: ~18% GVA / ~45% jobs · irrigation % · PM-KISAN</text>
+  <text x="56" y="312" class="md">Env: NDC 45% intensity · 500 GW non-fossil · forest band</text>
+  <text x="56" y="330" class="md">Tech: launch cadence · semi-mission outlay · AI mission</text>
+  <text x="56" y="352" class="sm">rule: rounded-correct beats precise-wrong, always</text>
+  <rect x="490" y="230" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="254" class="h">DIAGRAM SHELF (60-90 sec each)</text>
+  <text x="506" y="276" class="md">inflation pass-through flow · disaster-cycle ring</text>
+  <text x="506" y="294" class="md">energy-transition sketch · cyber-threat onion</text>
+  <text x="506" y="312" class="md">MSP line &amp; agro-cycle · semi value-chain strip</text>
+  <text x="506" y="336" class="md">rubric: diagnosis 2 · analysis 3 · mechanism 3</text>
+  <text x="506" y="354" class="sm">visual 2 — label every element; arrows carry meaning</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-3 practice diagram · pair with detailed-notes/gs-3-practice-system.html</text>
+</svg>

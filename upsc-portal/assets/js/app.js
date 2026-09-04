@@ -123,11 +123,11 @@
     updateFavicon();
   }
   function leafCheckbox(nav) {
-    return '<input type="checkbox" class="tracker-cb h-4 w-4 rounded border-slate-300 text-amber-600 focus:ring-amber-500 cursor-pointer" ' +
+    return '<input type="checkbox" class="tracker-cb h-4 w-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer" ' +
       (progress[nav] === 1 ? 'checked' : '') + ' data-nav="' + esc(nav) + '" aria-label="Mark complete">';
   }
   function progressBar(pct, cls) {
-    cls = cls || 'bg-amber-500';
+    cls = cls || 'bg-gradient-to-r from-indigo-500 to-violet-500';
     return '<div class="h-1.5 w-full rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden">' +
       '<div class="h-full rounded-full ' + cls + ' transition-all duration-500" style="width:' + Math.max(2, pct) + '%"></div></div>';
   }
@@ -186,11 +186,16 @@
     var box = $('#sidebar');
     if (!box) return;
     var html = '';
-    html += '<div class="flex items-center gap-2 px-4 pt-4 pb-2">' +
-      '<span class="text-2xl">📚</span><div><div class="font-bold text-slate-900 dark:text-white leading-tight">studyUPSC</div>' +
+    var o = overallProgress();
+    html += '<div class="px-4 pt-5 pb-3 flex items-center gap-3">' +
+      '<span class="brand-tile" style="width:40px;height:40px;font-size:15px">SU</span>' +
+      '<div><div class="font-display font-extrabold text-slate-900 dark:text-white leading-tight">studyUPSC</div>' +
       '<div class="text-[11px] text-slate-500 dark:text-slate-400">UPSC CSE Prep Portal</div></div></div>';
-    html += '<div class="px-4 pb-2">' + progressBar(overallProgress().pct) +
-      '<div class="mt-1 text-[11px] text-slate-500 dark:text-slate-400 flex justify-between"><span>Overall syllabus</span><span class="font-semibold text-amber-600 dark:text-amber-400">' + overallProgress().pct + '%</span></div></div>';
+    html += '<div class="mx-4 mb-3 rounded-2xl border border-slate-200 dark:border-slate-800 bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950/40 dark:to-slate-900 p-3">' +
+      '<div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 dark:text-slate-400"><span>Overall syllabus</span>' +
+      '<span class="font-bold ' + (o.pct === 100 ? 'text-emerald-500' : 'text-indigo-600 dark:text-indigo-400') + '">' + o.pct + '%</span></div>' +
+      '<div class="mt-1.5">' + progressBar(o.pct, o.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' +
+      '<div class="mt-1.5 text-[10.5px] text-slate-400">' + o.done + ' of ' + o.total + ' topics done</div></div>';
 
     html += '<nav class="flex-1 overflow-y-auto px-2 pb-4" id="sidebar-tree">';
     DATA.papers.forEach(function (paper) {
@@ -200,7 +205,7 @@
       html += '<div class="flex items-center gap-1 rounded-lg px-2 py-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none" data-expand="p:' + paper.id + '">' +
         '<span class="chev ' + (open ? 'rotate-90' : '') + '">' + treeIcon(paper) + '</span>' +
         '<span class="flex-1 truncate text-[13px] font-semibold text-slate-800 dark:text-slate-200">' + esc(paper.title) + '</span>' +
-        '<span class="text-[10px] font-bold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-amber-600 dark:text-amber-400') + '">' + pr.pct + '%</span></div>';
+        '<span class="text-[10px] font-bold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-indigo-600 dark:text-indigo-400') + '">' + pr.pct + '%</span></div>';
       html += '<div class="ml-3 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '">';
       html += renderTreeLevel(paper.sub || [], 0);
       html += '</div></div>';
@@ -212,9 +217,9 @@
       '<div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Content Library</div>' +
       '<div id="file-tree" class="text-[12px]"></div></div>';
     html += '<div class="border-t border-slate-200 dark:border-slate-700 p-3 text-[11px] text-slate-500 dark:text-slate-400 space-y-1">' +
-      '<a class="block hover:text-amber-600" href="#/tracker">✅ Revision Tracker</a>' +
-      '<a class="block hover:text-amber-600" href="#/search">🔍 Global Search</a>' +
-      '<a class="block hover:text-amber-600" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></div>';
+      '<a class="block hover:text-indigo-500" href="#/tracker">✅ Revision Tracker</a>' +
+      '<a class="block hover:text-indigo-500" href="#/search">🔍 Global Search</a>' +
+      '<a class="block hover:text-indigo-500" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></div>';
 
     box.innerHTML = html;
     renderFileTree();
@@ -231,12 +236,12 @@
       if (isL) {
         html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 group">' +
           '<span class="chev opacity-0">•</span>' +
-          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-amber-600 dark:hover:text-amber-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
+          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
           '<span class="opacity-0 group-hover:opacity-100 transition-opacity" title="Mark topic done">' + leafCheckbox(n.nav) + '</span></div>';
       } else {
         html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer" data-expand="n:' + n.nav + '">' +
           '<span class="chev ' + (open ? 'rotate-90' : '') + '">' + treeIcon(n) + '</span>' +
-          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-amber-600 dark:hover:text-amber-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
+          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
           '<span class="text-[10px] font-semibold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-slate-400') + '">' + pr.pct + '%</span></div>';
         html += '<div class="ml-2 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '">' + renderTreeLevel(n.sub, depth + 1) + '</div>';
       }
@@ -268,7 +273,7 @@
             '<span class="text-[10px] text-slate-400">' + d.files.length + '</span></div>';
           html += '<div class="ml-2 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '">' + level(d.dir, children, depth + 1) + '</div>';
         } else {
-          html += '<a href="#/doc/' + encodeURIComponent((d.files[0] || {}).rel || '') + '" class="flex items-center gap-1 rounded px-1 py-0.5 text-slate-500 dark:text-slate-400 hover:text-amber-600 dark:hover:text-amber-400" title="' + esc(d.dir) + '">' +
+          html += '<a href="#/doc/' + encodeURIComponent((d.files[0] || {}).rel || '') + '" class="flex items-center gap-1 rounded px-1 py-0.5 text-slate-500 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400" title="' + esc(d.dir) + '">' +
             '<span class="w-3 text-slate-400">·</span><span class="flex-1 truncate">📄 ' + esc(label) + '</span><span class="text-[10px]">' + d.files.length + '</span></a>';
         }
         html += '</div>';
@@ -296,19 +301,19 @@
   function shell(contentHtml, opts) {
     opts = opts || {};
     var crumbs = opts.crumbs || [];
-    var crumbHtml = '<nav class="flex items-center gap-1 text-[12px] text-slate-500 dark:text-slate-400 flex-wrap" aria-label="Breadcrumb">' +
-      '<a href="#/" class="hover:text-amber-600">Home</a>';
+    var crumbHtml = '<nav class="flex items-center gap-1.5 text-[12px] text-slate-500 dark:text-slate-400 flex-wrap" aria-label="Breadcrumb">' +
+      '<a href="#/" class="hover:text-indigo-500 font-semibold">⌂ Home</a>';
     crumbs.forEach(function (c, i) {
-      crumbHtml += '<span>/</span>' + (i === crumbs.length - 1
+      crumbHtml += '<span class="text-slate-300 dark:text-slate-600">›</span>' + (i === crumbs.length - 1
         ? '<span class="font-semibold text-slate-700 dark:text-slate-200">' + esc(c.title) + '</span>'
-        : '<a href="#/' + c.page + '/' + encodeURIComponent(c.nav) + '" class="hover:text-amber-600">' + esc(c.title) + '</a>');
+        : '<a href="#/' + c.page + '/' + encodeURIComponent(c.nav) + '" class="hover:text-indigo-500">' + esc(c.title) + '</a>');
     });
     crumbHtml += '</nav>';
-    return '<div class="max-w-6xl mx-auto px-4 sm:px-6 py-6">' +
-      '<div class="mb-5 flex items-center justify-between gap-3 flex-wrap">' + crumbHtml +
+    return '<div class="max-w-6xl mx-auto px-4 sm:px-6 py-7">' +
+      '<div class="mb-6 flex items-center justify-between gap-3 flex-wrap">' + crumbHtml +
       '<div class="flex items-center gap-2">' +
       '<button class="btn-ghost text-[12px]" onclick="window.location.hash=\'#/tracker\'">✅ Tracker</button>' +
-      '<button class="btn-ghost text-[12px]" onclick="openSearch()">🔍 Search <kbd class="hidden sm:inline">Ctrl K</kbd></button></div></div>' +
+      '<button class="btn-ghost text-[12px]" onclick="openSearch()">🔍 Search <kbd class="hidden sm:inline kbd">Ctrl K</kbd></button></div></div>' +
       contentHtml + '</div>';
   }
 
@@ -318,74 +323,85 @@
   function renderHome() {
     var o = overallProgress();
     var html = '';
-    html += '<div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-amber-900 text-white p-8 mb-8">' +
-      '<div class="relative z-10 max-w-2xl">' +
-      '<p class="text-amber-400 text-xs font-bold uppercase tracking-[0.2em] mb-2">Civil Services Examination · IAS · IPS · IFS</p>' +
-      '<h1 class="text-3xl sm:text-4xl font-extrabold leading-tight mb-3">Your complete UPSC CSE <span class="text-amber-400">syllabus command centre</span></h1>' +
-      '<p class="text-slate-300 text-sm sm:text-base mb-5">Prelims &amp; Mains syllabus mapped into notes, revision, mindmaps, diagrams and PYQs — with a built-in completion tracker and instant search.</p>' +
+    var circ = 2 * Math.PI * 42;
+    html += '<div class="hero-shell relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 text-white p-8 sm:p-10 mb-8 shadow-lift">' +
+      '<div class="hero-grid"></div>' +
+      '<div class="relative z-10 flex flex-wrap items-center gap-8">' +
+      '<div class="max-w-2xl flex-1 min-w-[260px]">' +
+      '<p class="text-amber-400 text-[11px] font-bold uppercase tracking-[0.22em] mb-3">Civil Services Examination · IAS · IPS · IFS</p>' +
+      '<h1 class="font-display text-3xl sm:text-[2.6rem] font-extrabold leading-[1.15] mb-4">Your complete UPSC CSE<br><span class="gradient-text">syllabus command centre</span></h1>' +
+      '<p class="text-slate-300 text-sm sm:text-base mb-6 leading-relaxed">Prelims &amp; Mains syllabus mapped into detailed notes, revision sheets, mindmaps, diagrams and PYQs — with a built-in completion tracker and instant full-text search.</p>' +
       '<div class="flex flex-wrap gap-3">' +
       '<button class="btn-primary" onclick="document.getElementById(\'stage-prelims\').scrollIntoView({behavior:\'smooth\'})">Start with Prelims</button>' +
-      '<button class="btn-ghost-light" onclick="openSearch()">Search syllabus 🔍</button></div></div>' +
-      '<div class="absolute -right-8 -bottom-10 text-[160px] opacity-10 select-none pointer-events-none">📖</div></div>';
+      '<button class="btn-ghost-light" onclick="openSearch()">Search everything 🔍</button></div></div>' +
+      '<div class="hidden md:flex flex-col items-center gap-2 px-6 py-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">' +
+      '<div class="relative w-28 h-28">' +
+      '<svg viewBox="0 0 100 100" class="w-28 h-28 -rotate-90"><circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="9"/>' +
+      '<circle cx="50" cy="50" r="42" fill="none" stroke="#818cf8" stroke-width="9" stroke-linecap="round" stroke-dasharray="' + circ + '" stroke-dashoffset="' + (circ * (1 - o.pct / 100)) + '"/></svg>' +
+      '<div class="absolute inset-0 flex flex-col items-center justify-center"><span class="font-display text-2xl font-extrabold">' + o.pct + '%</span>' +
+      '<span class="text-[9px] uppercase tracking-[0.18em] text-slate-400">done</span></div></div>' +
+      '<div class="text-[11px] text-slate-400">' + o.done + '/' + o.total + ' topics</div></div></div></div>';
 
     var prelimsPapers = DATA.papers.filter(function (p) { return p.stage === 'prelims'; });
     var mainsPapers = DATA.papers.filter(function (p) { return p.stage === 'mains'; });
-    var docCount = INDEX.filter(function (f) { return f.kind === 'doc' && f.ext === 'md'; }).length;
+    var docCount = INDEX.filter(function (f) { return f.kind === 'doc'; }).length;
 
-    html += '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">' +
-      statCard('📝', String(prelimsPapers.length), 'Prelims sections', 'GS I · CSAT · Mocks') +
-      statCard('✍️', String(mainsPapers.length), 'Mains sections', 'GS 1–4 · Essay · Optional · Practice') +
-      statCard('🗂️', String(docCount || DIRS.length), docCount ? 'Notes & question sets' : 'Content folders', 'every syllabus node covered') +
+    html += '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">' +
+      statCard('📋', String(prelimsPapers.length), 'Prelims sections', 'GS I · CSAT · Mocks') +
+      statCard('✍️', String(mainsPapers.length), 'Mains sections', 'GS 1–4 · Essay · Optional') +
+      statCard('🗂️', String(docCount || DIRS.length), docCount ? 'Notes & question sets' : 'Content folders', 'every topic covered') +
       statCard('🎯', o.pct + '%', 'Syllabus done', o.done + '/' + o.total + ' topics') +
       '</div>';
 
-    html += stageBlock('stage-prelims', '📋', 'Preliminary Examination', 'Objective · 2 papers · qualifying CSAT', prelimsPapers, 'prelims');
-    html += stageBlock('stage-mains', '✍️', 'Main Examination', 'Conventional · 9 papers · 1750 marks', mainsPapers, 'mains');
+    html += stageBlock('stage-prelims', '📋', 'Preliminary Examination', 'Objective · 2 papers · qualifying CSAT', prelimsPapers);
+    html += stageBlock('stage-mains', '✍️', 'Main Examination', 'Conventional · 9 papers · 1750 marks', mainsPapers);
 
-    html += '<div class="grid lg:grid-cols-3 gap-6 mt-8">';
-    html += '<div class="lg:col-span-2 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6">' +
-      '<h2 class="text-lg font-bold mb-1">🗂️ How this portal is organised</h2>' +
-      '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Every syllabus topic branches into five content sections. Drop your own Markdown notes, images and PDFs into <code class="code">content/</code> and run the generator to index them.</p>' +
-      '<div class="grid sm:grid-cols-5 gap-2">' + SECTIONS.map(function (s) {
-        return '<div class="rounded-xl border border-slate-200 dark:border-slate-700 p-3 text-center hover:border-amber-400 transition-colors"><div class="text-2xl mb-1">' + s.icon + '</div><div class="text-[11px] font-semibold text-slate-700 dark:text-slate-200 leading-tight">' + esc(s.title) + '</div></div>';
+    html += '<div class="grid lg:grid-cols-3 gap-6 mt-10">';
+    html += '<div class="card lg:col-span-2 p-6 shadow-card">' +
+      '<h2 class="font-display text-lg font-bold mb-1">🗂️ How this portal is organised</h2>' +
+      '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">Every syllabus topic branches into five content sections — complete coverage across the whole exam.</p>' +
+      '<div class="grid sm:grid-cols-5 gap-2.5">' + SECTIONS.map(function (s) {
+        return '<div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-900/60 p-3.5 text-center hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"><div class="text-2xl mb-1.5">' + s.icon + '</div><div class="text-[11px] font-semibold text-slate-700 dark:text-slate-200 leading-tight">' + esc(s.title) + '</div></div>';
       }).join('') + '</div></div>';
 
-    html += '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6">' +
-      '<h2 class="text-lg font-bold mb-3">🏃 Quick start</h2>' +
-      '<ol class="text-sm text-slate-600 dark:text-slate-300 space-y-2 list-decimal list-inside">' +
+    html += '<div class="card p-6 shadow-card">' +
+      '<h2 class="font-display text-lg font-bold mb-3">🏃 Quick start</h2>' +
+      '<ol class="text-sm text-slate-600 dark:text-slate-300 space-y-2.5 list-decimal list-inside">' +
       '<li>Browse the syllabus tree on the left</li>' +
       '<li>Tick topics you finish — progress saves automatically</li>' +
       '<li>Press <kbd class="kbd">Ctrl</kbd>+<kbd class="kbd">K</kbd> to search anywhere</li>' +
-      '<li>Add notes under <code class="code">upsc-portal/content/</code></li>' +
-      '<li>Run <code class="code">node cli/generate.mjs</code> to re-index</li></ol>' +
-      '<div class="mt-4 pt-4 border-t border-slate-200 dark:border-slate-700"><a href="#/tracker" class="btn-primary w-full justify-center">Open Revision Tracker</a></div></div>';
+      '<li>Take the mock tests in the Prelims → Mocks section</li>' +
+      '<li>Watch your tracker ring fill up</li></ol>' +
+      '<div class="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800"><a href="#/tracker" class="btn-primary w-full justify-center">Open Revision Tracker</a></div></div>';
     html += '</div>';
     $('#app').innerHTML = shell(html);
   }
 
   function statCard(icon, big, label, sub) {
-    return '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4">' +
-      '<div class="text-xl mb-1">' + icon + '</div><div class="text-2xl font-extrabold text-slate-900 dark:text-white">' + big + '</div>' +
-      '<div class="text-[12px] font-medium text-slate-600 dark:text-slate-300">' + label + '</div>' +
+    return '<div class="card p-4 shadow-card hover:-translate-y-0.5 transition-transform">' +
+      '<div class="w-9 h-9 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 flex items-center justify-center text-lg mb-2.5">' + icon + '</div>' +
+      '<div class="font-display text-2xl font-extrabold text-slate-900 dark:text-white">' + big + '</div>' +
+      '<div class="text-[12px] font-semibold text-slate-600 dark:text-slate-300">' + label + '</div>' +
       '<div class="text-[11px] text-slate-400">' + sub + '</div></div>';
   }
 
-  function stageBlock(id, icon, title, subtitle, papers, anchor) {
-    var html = '<div id="' + id + '" class="mb-6">';
-    html += '<div class="flex items-end justify-between mb-3">' +
-      '<div><h2 class="text-xl font-extrabold text-slate-900 dark:text-white">' + icon + ' ' + title + '</h2>' +
+  function stageBlock(id, icon, title, subtitle, papers) {
+    var html = '<div id="' + id + '" class="mb-8">';
+    html += '<div class="flex items-end justify-between mb-4">' +
+      '<div><h2 class="font-display text-xl font-extrabold text-slate-900 dark:text-white">' + icon + ' ' + title + '</h2>' +
       '<p class="text-sm text-slate-500 dark:text-slate-400">' + subtitle + '</p></div></div>';
     html += '<div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">';
     papers.forEach(function (p) {
       var pr = paperProgress(p);
-      html += '<a href="#/paper/' + encodeURIComponent(p.nav) + '" class="group rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-5 hover:border-amber-400 dark:hover:border-amber-500 hover:shadow-lg hover:shadow-amber-500/5 transition-all">' +
+      var topicCount = (function count(n) { return (n.sub || []).reduce(function (a, c) { return a + count(c); }, isLeaf(n) ? 1 : 0); })(p);
+      html += '<a href="#/paper/' + encodeURIComponent(p.nav) + '" class="group card p-5 shadow-card hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all">' +
         '<div class="flex items-start justify-between gap-2">' +
-        '<div><div class="text-[11px] font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-1">' + esc(p.tag || p.stage) + '</div>' +
-        '<h3 class="font-bold text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">' + esc(p.title) + '</h3></div>' +
-        '<span class="text-xl opacity-60 group-hover:opacity-100 transition-opacity">→</span></div>' +
+        '<div><div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mb-1.5">' + esc(p.tag || p.stage) + '</div>' +
+        '<h3 class="font-display font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(p.title) + '</h3></div>' +
+        '<span class="text-indigo-400 opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-0.5">→</span></div>' +
         '<p class="text-[13px] text-slate-500 dark:text-slate-400 mt-2 line-clamp-2">' + esc(p.summary || '') + '</p>' +
-        '<div class="mt-3 flex items-center gap-2">' + progressBar(pr.pct) +
-        '<span class="text-[11px] font-bold text-slate-500 dark:text-slate-400 whitespace-nowrap">' + pr.pct + '%</span></div></a>';
+        '<div class="mt-4 flex items-center gap-2.5">' + progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') +
+        '<span class="text-[11px] font-bold text-slate-500 dark:text-slate-400 whitespace-nowrap">' + pr.pct + '% · ' + topicCount + ' topics</span></div></a>';
     });
     html += '</div></div>';
     return html;
@@ -415,43 +431,45 @@
 
     var files = filesUnder(node.nav);
     var html = '';
-    html += '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6 mb-6">';
-    html += '<div class="text-[11px] font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-1">' + esc(node.tag || (node.stage === 'prelims' ? 'Prelims' : 'Mains')) + '</div>';
-    html += '<h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>';
+    html += '<div class="relative overflow-hidden card p-6 mb-6 shadow-card">' +
+      '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>';
+    html += '<div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mb-2">' + esc(node.tag || (node.stage === 'prelims' ? 'Prelims' : 'Mains')) + '</div>';
+    html += '<h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>';
     if (node.full) html += '<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1">' + esc(node.full) + '</p>';
-    if (node.summary) html += '<p class="text-sm text-slate-600 dark:text-slate-300 mt-3 max-w-3xl">' + esc(node.summary) + '</p>';
-    html += '<div class="mt-4 flex items-center gap-3 flex-wrap"><div class="w-40">' + progressBar(pr.pct) + '</div>' +
-      '<span class="text-sm font-bold text-slate-700 dark:text-slate-200">' + pr.pct + '% complete</span>' +
+    if (node.summary) html += '<p class="text-sm text-slate-600 dark:text-slate-300 mt-3 max-w-3xl leading-relaxed">' + esc(node.summary) + '</p>';
+    html += '<div class="mt-5 flex items-center gap-3 flex-wrap"><div class="w-44">' + progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' +
+      '<span class="text-sm font-bold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-slate-700 dark:text-slate-200') + '">' + pr.pct + '% complete</span>' +
       '<span class="text-xs text-slate-400">' + pr.done + '/' + pr.total + ' topics done</span></div></div>';
 
     /* exam pattern for the two main stages */
     var stageKey = node.stage === 'prelims' ? 'prelims' : (node.id === 'gs-1' || node.id === 'gs-2' || node.id === 'gs-3' || node.id === 'gs-4' || node.id === 'essay' ? 'mains' : null);
     if (stageKey) {
       var ex = DATA.exam[stageKey];
-      html += '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6 mb-6">' +
-        '<h2 class="text-lg font-bold mb-3">📐 ' + esc(ex.title) + ' — pattern</h2>' +
-        '<div class="overflow-x-auto"><table class="w-full text-sm"><thead><tr class="text-left text-[11px] uppercase tracking-wider text-slate-400 border-b border-slate-200 dark:border-slate-700">' +
-        '<th class="py-2 pr-3">Paper</th><th class="py-2 pr-3">Marks</th><th class="py-2 pr-3">Duration</th><th class="py-2">Note</th></tr></thead><tbody>';
+      html += '<div class="card p-6 mb-6 shadow-card overflow-hidden">' +
+        '<h2 class="font-display text-lg font-bold mb-4">📐 ' + esc(ex.title) + ' — pattern</h2>' +
+        '<div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800"><table class="w-full text-sm"><thead><tr class="text-left text-[11px] uppercase tracking-wider text-slate-400 bg-slate-50 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800">' +
+        '<th class="py-2.5 px-4 font-bold">Paper</th><th class="py-2.5 px-3 font-bold">Marks</th><th class="py-2.5 px-3 font-bold">Duration</th><th class="py-2.5 px-3 font-bold">Note</th></tr></thead><tbody>';
       ex.pattern.forEach(function (r) {
-        html += '<tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 pr-3 font-medium text-slate-700 dark:text-slate-200">' + esc(r.paper) + '</td>' +
-          '<td class="py-2 pr-3">' + esc(r.marks) + '</td><td class="py-2 pr-3">' + esc(r.time || '—') + '</td><td class="py-2 text-slate-500 dark:text-slate-400">' + esc(r.note || '') + '</td></tr>';
+        html += '<tr class="border-b border-slate-100 dark:border-slate-800 last:border-0 hover:bg-indigo-50/40 dark:hover:bg-indigo-950/30 transition-colors"><td class="py-2.5 px-4 font-semibold text-slate-700 dark:text-slate-200">' + esc(r.paper) + '</td>' +
+          '<td class="py-2.5 px-3">' + esc(r.marks) + '</td><td class="py-2.5 px-3">' + esc(r.time || '—') + '</td><td class="py-2.5 px-3 text-slate-500 dark:text-slate-400">' + esc(r.note || '') + '</td></tr>';
       });
       html += '</tbody></table></div></div>';
     }
 
     /* topics */
-    html += '<h2 class="text-lg font-bold mb-3">🧭 Topics in this paper</h2>';
+    html += '<h2 class="font-display text-lg font-bold mb-3">🧭 Topics in this paper</h2>';
     if (node.sub && node.sub.length) {
       html += '<div class="grid sm:grid-cols-2 gap-3 mb-6">';
       node.sub.forEach(function (t) {
         var tp = nodeProgress(t);
         var isL = isLeaf(t);
-        html += '<a href="#/' + (isL ? 'topic' : 'paper') + '/' + encodeURIComponent(t.nav) + '" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4 hover:border-amber-400 transition-all group">' +
+        var done = tp.pct === 100;
+        html += '<a href="#/' + (isL ? 'topic' : 'paper') + '/' + encodeURIComponent(t.nav) + '" class="group card p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all">' +
           '<div class="flex items-center justify-between gap-2">' +
-          '<div class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-amber-600 dark:group-hover:text-amber-400">' + esc(t.title) + '</div>' +
-          (isL ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold ' + (tp.pct === 100 ? 'text-emerald-500' : 'text-amber-600') + '">' + tp.pct + '%</span>') + '</div>' +
+          '<div class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(t.title) + '</div>' +
+          (isL ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold ' + (done ? 'text-emerald-500' : 'text-indigo-500 dark:text-indigo-400') + '">' + tp.pct + '%</span>') + '</div>' +
           (t.tag ? '<div class="text-[11px] text-slate-400 mt-1">' + esc(t.tag) + '</div>' : '') +
-          (isL ? '<div class="mt-2 flex items-center gap-2">' + progressBar(tp.pct, tp.pct === 100 ? 'bg-emerald-500' : 'bg-amber-500') + '</div>' : '') +
+          (isL ? '<div class="mt-2.5">' + progressBar(tp.pct, done ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' : '') +
           (t.sub ? '<div class="mt-2 text-[11px] text-slate-400">' + t.sub.length + ' sub-topics</div>' : '') + '</a>';
       });
       html += '</div>';
@@ -464,9 +482,9 @@
       html += renderFileGroups(node.nav, dirs, files);
     } else {
       html += '<div class="rounded-2xl border border-dashed border-slate-300 dark:border-slate-600 p-6 text-center text-sm text-slate-500 dark:text-slate-400 mb-6">' +
-        'No study material yet — drop Markdown notes, images or PDFs into <code class="code">upsc-portal/content/</code>, ' +
+        'No study material yet — drop HTML pages, images or PDFs into <code class="code">upsc-portal/content/</code>, ' +
         'then run <code class="code">node cli/generate.mjs</code>.<br>' +
-        '<a class="text-amber-600 dark:text-amber-400 font-semibold" href="#/tracker">→ Track this paper in the Revision Tracker</a></div>';
+        '<a class="text-indigo-600 dark:text-indigo-400 font-semibold" href="#/tracker">→ Track this paper in the Revision Tracker</a></div>';
     }
     $('#app').innerHTML = shell(html, { crumbs: crumbs });
   }
@@ -485,41 +503,44 @@
     var files = filesUnder(node.nav);
     var html = '';
 
-    html += '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-6 mb-6">' +
+    var topicDone = progress[node.nav] === 1;
+    html += '<div class="relative overflow-hidden card p-6 mb-6 shadow-card">' +
+      '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
       '<div class="flex flex-wrap items-start justify-between gap-3">' +
-      '<div><h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>' +
-      (node.tag ? '<p class="text-[12px] font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mt-1">' + esc(node.tag) + '</p>' : '') +
-      (node.note ? '<p class="text-sm text-slate-500 dark:text-slate-400 mt-1">' + esc(node.note) + '</p>' : '') + '</div>' +
+      '<div><h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>' +
+      (node.tag ? '<div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mt-2">' + esc(node.tag) + '</div>' : '') +
+      (node.note ? '<p class="text-sm text-slate-500 dark:text-slate-400 mt-2">' + esc(node.note) + '</p>' : '') + '</div>' +
       '<div class="flex items-center gap-2">' +
-      (isLeaf(node) ? leafCheckbox(node.nav) + '<span class="text-sm font-semibold text-slate-600 dark:text-slate-300">' + (progress[node.nav] === 1 ? 'Completed ✅' : 'Mark complete') + '</span>'
-        : '<span class="text-sm font-bold text-amber-600 dark:text-amber-400">' + pr.pct + '%</span>') + '</div></div>' +
-      '<div class="mt-4"><div class="w-full max-w-md">' + progressBar(pr.pct) + '</div></div></div>';
+      (isLeaf(node) ? leafCheckbox(node.nav) + '<span class="text-sm font-semibold ' + (topicDone ? 'text-emerald-500' : 'text-slate-600 dark:text-slate-300') + '">' + (topicDone ? 'Completed ✅' : 'Mark complete') + '</span>'
+        : '<span class="text-sm font-bold text-indigo-600 dark:text-indigo-400">' + pr.pct + '%</span>') + '</div></div>' +
+      '<div class="mt-4"><div class="w-full max-w-md">' + progressBar(pr.pct, pr.pct === 100 || topicDone ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div></div></div>';
 
     if (node.sub && node.sub.length) {
-      html += '<h2 class="text-lg font-bold mb-3">Sub-topics</h2><div class="grid sm:grid-cols-2 gap-3 mb-6">';
+      html += '<h2 class="font-display text-lg font-bold mb-3">Sub-topics</h2><div class="grid sm:grid-cols-2 gap-3 mb-6">';
       node.sub.forEach(function (t) {
         var tp = nodeProgress(t);
-        html += '<a href="#/topic/' + encodeURIComponent(t.nav) + '" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4 hover:border-amber-400 transition-all flex items-center justify-between gap-2 group">' +
-          '<span class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-amber-600 dark:group-hover:text-amber-400">' + esc(t.title) + '</span>' +
-          (isLeaf(t) ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold text-amber-600">' + tp.pct + '%</span>') + '</a>';
+        var tDone = tp.pct === 100;
+        html += '<a href="#/topic/' + encodeURIComponent(t.nav) + '" class="card p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all flex items-center justify-between gap-2 group">' +
+          '<span class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(t.title) + '</span>' +
+          (isLeaf(t) ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold ' + (tDone ? 'text-emerald-500' : 'text-indigo-500') + '">' + tp.pct + '%</span>') + '</a>';
       });
       html += '</div>';
     }
 
     /* the five canonical sections */
-    html += '<h2 class="text-lg font-bold mb-3">📂 Study sections</h2>';
+    html += '<h2 class="font-display text-lg font-bold mb-3">📂 Study sections</h2>';
     html += '<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-6">';
     SECTIONS.forEach(function (s) {
       var secNav = node.nav + '/' + s.id;
       var secDirs = dirsUnder(secNav);
       var secFiles = filesUnder(secNav);
       var count = secFiles.length;
-      html += '<a href="#/topic/' + encodeURIComponent(node.nav) + '/section/' + s.id + '" data-section="' + s.id + '" class="section-card rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-5 hover:border-amber-400 hover:shadow-lg hover:shadow-amber-500/5 transition-all">' +
-        '<div class="flex items-center justify-between mb-2"><span class="text-3xl">' + s.icon + '</span>' +
-        (count ? '<span class="text-[11px] font-bold rounded-full bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300 px-2 py-0.5">' + count + ' file' + (count > 1 ? 's' : '') + '</span>' : '') + '</div>' +
-        '<h3 class="font-bold text-slate-900 dark:text-white text-sm leading-snug">' + esc(s.title) + '</h3>' +
+      html += '<a href="#/topic/' + encodeURIComponent(node.nav) + '/section/' + s.id + '" data-section="' + s.id + '" class="section-card card p-5 shadow-card hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all cursor-pointer">' +
+        '<div class="flex items-center justify-between mb-3"><span class="w-11 h-11 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 flex items-center justify-center text-2xl">' + s.icon + '</span>' +
+        (count ? '<span class="chip bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-300">' + count + ' file' + (count > 1 ? 's' : '') + '</span>' : '') + '</div>' +
+        '<h3 class="font-display font-bold text-slate-900 dark:text-white text-sm leading-snug">' + esc(s.title) + '</h3>' +
         '<p class="text-[12px] text-slate-500 dark:text-slate-400 mt-1">' + esc(s.desc) + '</p>' +
-        '<div class="mt-2 text-[11px] text-slate-400">' + (secDirs.length ? 'content/' + esc(secDirs[0].dir.replace('content/', '')) : 'folder ready for you') + '</div></a>';
+        '<div class="mt-2.5 text-[11px] text-slate-400 font-mono">' + (secDirs.length ? 'content/' + esc(secDirs[0].dir.replace('content/', '')) : 'folder ready for you') + '</div></a>';
     });
     html += '</div>';
 
@@ -540,12 +561,13 @@
     var secNav = node.nav + '/' + sectionId;
     var files = filesUnder(secNav);
     var html = '<div class="fixed inset-0 z-50 flex items-start justify-center p-4 sm:p-8" role="dialog" aria-modal="true">' +
-      '<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" data-close></div>' +
-      '<div class="relative w-full max-w-2xl rounded-2xl bg-white dark:bg-slate-800 shadow-2xl max-h-[85vh] flex flex-col">' +
-      '<div class="flex items-start justify-between p-5 border-b border-slate-200 dark:border-slate-700">' +
-      '<div><div class="text-2xl">' + (sec ? sec.icon : '📂') + '</div>' +
-      '<h2 class="text-lg font-bold text-slate-900 dark:text-white mt-1">' + esc(node.title) + '</h2>' +
-      '<p class="text-[12px] text-slate-500 dark:text-slate-400">' + esc(sec ? sec.title : humanTitle(sectionId)) + ' — ' + files.length + ' file' + (files.length === 1 ? '' : 's') + '</p></div>' +
+      '<div class="absolute inset-0 bg-slate-950/60 backdrop-blur-sm" data-close></div>' +
+      '<div class="relative w-full max-w-2xl rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl max-h-[85vh] flex flex-col overflow-hidden">' +
+      '<div class="relative flex items-start justify-between p-5 border-b border-slate-200 dark:border-slate-800">' +
+      '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
+      '<div class="flex items-center gap-3"><span class="w-11 h-11 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 flex items-center justify-center text-2xl">' + (sec ? sec.icon : '📂') + '</span>' +
+      '<div><h2 class="font-display text-lg font-bold text-slate-900 dark:text-white leading-tight">' + esc(node.title) + '</h2>' +
+      '<p class="text-[12px] text-slate-500 dark:text-slate-400">' + esc(sec ? sec.title : humanTitle(sectionId)) + ' — ' + files.length + ' file' + (files.length === 1 ? '' : 's') + '</p></div></div>' +
       '<button class="btn-ghost" data-close>✕</button></div>' +
       '<div class="overflow-y-auto p-5">' +
       (files.length ? fileListHtml(files) :
@@ -563,7 +585,7 @@
     return '<ul class="divide-y divide-slate-100 dark:divide-slate-700">' + files.map(function (f) {
       var icon = f.kind === 'image' ? '🖼️' : f.kind === 'pdf' ? '📕' : '📄';
       return '<li><a href="#/doc/' + encodeURIComponent(f.rel) + '" class="flex items-center gap-3 py-2.5 hover:bg-slate-50 dark:hover:bg-slate-700/40 rounded-lg px-2 -mx-2 group">' +
-        '<span>' + icon + '</span><span class="flex-1 min-w-0"><span class="block truncate text-sm font-medium text-slate-700 dark:text-slate-200 group-hover:text-amber-600">' + esc(f.file) + '</span>' +
+        '<span>' + icon + '</span><span class="flex-1 min-w-0"><span class="block truncate text-sm font-medium text-slate-700 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">' + esc(f.file) + '</span>' +
         '<span class="block text-[11px] text-slate-400">' + esc(f.dir) + '</span></span>' +
         '<span class="text-[11px] text-slate-400 whitespace-nowrap">' + fmtBytes(f.size) + '</span></a></li>';
     }).join('') + '</ul>';
@@ -578,8 +600,8 @@
     dirNames.forEach(function (dir) {
       var label = dir.split('/').pop().replace(/-/g, ' ');
       var icon = SECTIONS.some(function (s) { return s.id === dir.split('/').pop(); }) ? '📂' : '🗂️';
-      html += '<div class="mb-4 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 overflow-hidden">' +
-        '<div class="px-4 py-2.5 bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 flex items-center justify-between">' +
+      html += '<div class="mb-4 card shadow-card overflow-hidden">' +
+        '<div class="px-4 py-2.5 bg-slate-50 dark:bg-slate-900/70 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">' +
         '<span class="text-[12px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">' + icon + ' ' + esc(humanTitle(label)) + '</span>' +
         '<span class="text-[11px] text-slate-400">' + groups[dir].length + ' file' + (groups[dir].length > 1 ? 's' : '') + '</span></div>' +
         '<div class="p-2">' + fileListHtml(groups[dir]) + '</div></div>';
@@ -606,60 +628,100 @@
     if (entry.kind === 'image') {
       var imgSrc = rel;
       app.innerHTML = shell(
-        '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4">' +
+        '<div class="card shadow-card p-4">' +
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<a class="btn-ghost text-[12px]" href="' + esc(imgSrc) + '" download>Download ⬇</a></div>' +
+        '</div>' +
         '<img src="' + esc(imgSrc) + '" alt="' + esc(entry.file) + '" class="w-full rounded-xl border border-slate-200 dark:border-slate-700" onclick="openImageViewer(\'' + esc(rel.replace(/'/g, "\\'")) + '\')" style="cursor:zoom-in"></div>',
         { crumbs: crumbsForNavFromRel(entry) });
       attachDocNav(entry);
       return;
     }
-    if (entry.kind === 'pdf' || entry.ext === 'html') {
+    if (entry.kind === 'pdf') {
       app.innerHTML = shell(
-        '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4">' +
+        '<div class="card shadow-card p-4">' +
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<div class="flex gap-2"><a class="btn-ghost text-[12px]" href="' + esc(rel) + '" target="_blank" rel="noopener">Open ↗</a>' +
-        '<a class="btn-primary text-[12px]" href="' + esc(rel) + '" download>Download ⬇</a></div></div>' +
+        '</div>' +
         '<iframe src="' + esc(rel) + '" class="w-full h-[70vh] rounded-xl border border-slate-200 dark:border-slate-700" title="' + esc(entry.file) + '"></iframe></div>',
         { crumbs: crumbsForNavFromRel(entry) });
       attachDocNav(entry);
       return;
     }
 
-    /* text document */
+    /* HTML + text documents — rendered inline as pages of this site.
+       No "open raw" / "download" options: everything stays in the portal. */
     fetch(rel).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.text();
-    }).then(function (text) {
-      var dir = entry.dir === 'content' ? '' : entry.dir.replace(/^content\//, '');
-      var body = mdToHtml(text, dir);
+    }).then(function (raw) {
+      var baseDir = entry.dir; /* site-relative: matches INDEX rel paths */
+      var body, title;
+      if (entry.ext === 'html' || entry.ext === 'htm') {
+        var doc = new DOMParser().parseFromString(raw, 'text/html');
+        doc.querySelectorAll('script,style,iframe,object,embed,link,meta').forEach(function (n) { n.remove(); });
+        var card = doc.querySelector('.card') || doc.body;
+        var h1 = card.querySelector('h1');
+        title = ((doc.title || '').replace(/\s*·\s*studyUPSC\s*$/i, '') || (h1 ? h1.textContent : '') || entry.file.replace(/\.html?$/i, '')).trim();
+        body = card.innerHTML;
+      } else {
+        title = entry.file.replace(/\.(md|txt|html?)$/i, '');
+        body = mdToHtml(raw, baseDir);
+      }
       var toc = mdToc(body);
-      var appHtml = '<div class="grid lg:grid-cols-4 gap-6">' +
+      var appHtml = '<div class="grid lg:grid-cols-4 gap-8">' +
         '<div class="lg:col-span-3">' +
-        '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 overflow-hidden">' +
-        '<div class="px-5 sm:px-8 pt-5 flex items-center justify-between flex-wrap gap-2 border-b border-slate-100 dark:border-slate-800 pb-4">' +
-        '<div><h1 class="text-xl font-extrabold text-slate-900 dark:text-white">' + esc(entry.file.replace(/\.(md|txt|html?)$/i, '')) + '</h1>' +
-        '<p class="text-[11px] text-slate-400 mt-0.5">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
-        '<div class="flex gap-2"><button class="btn-ghost text-[12px]" onclick="copyDoc()" id="copy-btn">📋 Copy</button>' +
-        '<a class="btn-ghost text-[12px]" href="' + esc(rel) + '" target="_blank" rel="noopener">Raw ↗</a></div></div>' +
-        '<div class="md-content px-5 sm:px-8 py-6">' + body + '</div></div>' +
+        '<div class="card shadow-card overflow-hidden">' +
+        '<div class="relative px-5 sm:px-9 pt-6 pb-5 border-b border-slate-100 dark:border-slate-800">' +
+        '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
+        '<h1 class="font-display text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-snug">' + esc(title) + '</h1>' +
+        '<p class="text-[11px] text-slate-400 mt-1.5 font-mono">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
+        '<div class="md-content px-5 sm:px-9 py-7 max-w-none">' + body + '</div></div>' +
         prevNextHtml(entry) + '</div>' +
-        (toc ? '<aside class="hidden lg:block"><div class="sticky top-20 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-4 text-sm">' +
-          '<div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">On this page</div>' + toc + '</div></aside>' : '') +
+        (toc ? '<aside class="hidden lg:block"><div class="sticky top-24 card p-4 shadow-card toc-rail">' +
+          '<div class="text-[10.5px] font-bold uppercase tracking-[0.14em] text-slate-400 mb-2">On this page</div>' + toc + '</div></aside>' : '') +
         '</div>';
       app.innerHTML = shell(appHtml, { crumbs: crumbsForNavFromRel(entry) });
+      /* internal links/images inside the article stay inside the portal */
+      rewriteInlineLinks($('.md-content'), baseDir);
       attachDocNav(entry);
-      window._activeDocText = text;
+      attachReadingProgress();
+      attachTocHighlight();
       /* highlight search query if any */
       if (window._searchQuery) highlightInDoc(window._searchQuery);
     }).catch(function (err) {
-      app.innerHTML = shell('<div class="rounded-2xl border border-red-200 dark:border-red-900 bg-red-50 dark:bg-red-900/20 p-6 text-sm text-red-700 dark:text-red-300">' +
-        'Could not load <code class="code">' + esc(rel) + '</code> (' + esc(err.message) + ').<br>Run <code class="code">node cli/generate.mjs</code> and reload if the file was added recently.</div>',
+      app.innerHTML = shell('<div class="rounded-2xl border border-red-200 dark:border-red-900 bg-red-50 dark:bg-red-900/20 p-6 text-sm text-red-700 dark:text-red-300 shadow-card">' +
+        'Could not load <code class="code">' + esc(rel) + '</code> (' + esc(err.message) + ').<br>Regenerate the indexes with <code class="code">node cli/generate.mjs</code> and reload if the file was added recently.</div>',
         { crumbs: crumbsForNavFromRel(entry) });
+    });
+  }
+
+  /* Resolve relative links/images inside an inlined article so that every
+     click stays inside the SPA (routes to #/doc/…) and images resolve. */
+  function rewriteInlineLinks(container, baseDir) {
+    if (!container) return;
+    container.querySelectorAll('a[href]').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (!href || href.charAt(0) === '#') return;
+      if (/^(https?:|mailto:|data:)/i.test(href)) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); return; }
+      var r = resolveHref(href, baseDir);
+      if (r && entryByRel(r)) {
+        a.setAttribute('href', '#/doc/' + encodeURIComponent(r));
+        a.classList.add('md-internal');
+      } else {
+        a.setAttribute('href', r || href);
+        a.setAttribute('target', '_blank');
+        a.setAttribute('rel', 'noopener');
+      }
+    });
+    container.querySelectorAll('img[src]').forEach(function (img) {
+      var src = img.getAttribute('src') || '';
+      if (/^(https?:|data:)/i.test(src)) return;
+      img.setAttribute('src', resolveHref(src, baseDir));
+      img.setAttribute('loading', 'lazy');
+      img.classList.add('rounded-xl', 'border', 'border-slate-200', 'dark:border-slate-700', 'my-3', 'max-w-full');
     });
   }
 
@@ -699,15 +761,41 @@
   }
   function shortName(f) { return f.replace(/\.(md|txt|html?)$/i, '').replace(/[-_]/g, ' ').slice(0, 42); }
 
-  window.copyDoc = function () {
-    var t = window._activeDocText;
-    if (!t) return;
-    navigator.clipboard.writeText(t).then(function () {
-      var b = $('#copy-btn');
-      if (b) { b.textContent = '✓ Copied'; setTimeout(function () { b.textContent = '📋 Copy'; }, 1500); }
-      toast('Copied raw document to clipboard');
+  /* reading progress bar (top of viewport, document view only) */
+  function attachReadingProgress() {
+    var bar = $('#doc-progress');
+    if (!bar) return;
+    function paint() {
+      if (!document.querySelector('.md-content')) { bar.classList.remove('on'); window.removeEventListener('scroll', paint); return; }
+      var el = $('.md-content');
+      var rect = el.getBoundingClientRect();
+      var total = rect.height - window.innerHeight;
+      var done = Math.min(Math.max(-rect.top, 0), Math.max(total, 1));
+      bar.querySelector('div').style.width = (total > 0 ? Math.round(100 * done / total) : 0) + '%';
+      bar.classList.toggle('on', rect.top < 0);
+    }
+    window.addEventListener('scroll', paint, { passive: true });
+    paint();
+  }
+  /* highlight the TOC entry of the heading currently in view */
+  function attachTocHighlight() {
+    var links = $$('.toc-rail a');
+    if (!links.length || !('IntersectionObserver' in window)) return;
+    var byId = {};
+    links.forEach(function (l) { byId[l.getAttribute('href').slice(1)] = l; });
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting && byId[en.target.id]) {
+          links.forEach(function (l) { l.classList.remove('active'); });
+          byId[en.target.id].classList.add('active');
+        }
+      });
+    }, { rootMargin: '-80px 0px -70% 0px' });
+    Object.keys(byId).forEach(function (id) {
+      var h = document.getElementById(id);
+      if (h) obs.observe(h);
     });
-  };
+  }
 
   /* ------------------------------------------------------------------ */
   /*  Markdown renderer (safe — HTML is escaped first)                    */
@@ -785,7 +873,7 @@
         var quote = [];
         while (i < lines.length && /^>/.test(lines[i].trim())) { quote.push(lines[i].trim().replace(/^>\s?/, '')); i++; }
         i--;
-        html += '<blockquote class="border-l-4 border-amber-400 bg-amber-50 dark:bg-amber-900/20 pl-4 pr-3 py-2 my-3 rounded-r-lg text-slate-600 dark:text-slate-300">' + mdInline(quote.join(' '), baseDir) + '</blockquote>';
+        html += '<blockquote class="border-l-4 border-indigo-400 bg-indigo-50 dark:bg-indigo-900/20 pl-4 pr-3 py-2 my-3 rounded-r-lg text-slate-600 dark:text-slate-300">' + mdInline(quote.join(' '), baseDir) + '</blockquote>';
         continue;
       }
       if (/^[-*]\s+/.test(t) || /^\d+[.)]\s+/.test(t)) {
@@ -817,7 +905,7 @@
     var out = '', re = /<h([234]) id="([^"]+)"[^>]*>([\s\S]*?)<\/h\1>/g, m;
     while ((m = re.exec(body))) {
       var depth = Number(m[1]);
-      out += '<div class="' + (depth > 2 ? 'pl-' + (depth - 2) * 3 + ' ' : '') + '"><a href="#' + esc(m[2]) + '" class="block py-0.5 text-[13px] text-slate-500 dark:text-slate-400 hover:text-amber-600 dark:hover:text-amber-400">' + m[3].replace(/<[^>]+>/g, '') + '</a></div>';
+      out += '<div class="' + (depth > 2 ? 'pl-' + (depth - 2) * 3 + ' ' : '') + '"><a href="#' + esc(m[2]) + '" class="block py-0.5 text-[13px]">' + m[3].replace(/<[^>]+>/g, '') + '</a></div>';
     }
     return out;
   }
@@ -833,7 +921,7 @@
       while ((pos = v.toLowerCase().indexOf(lq, idx)) !== -1) {
         frag.appendChild(document.createTextNode(v.slice(idx, pos)));
         var mark = document.createElement('mark');
-        mark.className = 'bg-amber-200 dark:bg-amber-700/60 rounded px-0.5';
+        mark.className = 'bg-indigo-200/70 dark:bg-indigo-700/60 rounded px-0.5';
         mark.textContent = v.slice(pos, pos + q.length);
         frag.appendChild(mark);
         idx = pos + q.length;
@@ -909,14 +997,14 @@
     wrap.id = 'search-modal';
     wrap.innerHTML =
       '<div class="fixed inset-0 z-[70]" role="dialog" aria-modal="true">' +
-      '<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" data-sclose></div>' +
-      '<div class="relative mx-auto mt-[10vh] w-[min(94vw,640px)] rounded-2xl bg-white dark:bg-slate-800 shadow-2xl overflow-hidden">' +
-      '<div class="flex items-center gap-3 border-b border-slate-200 dark:border-slate-700 px-4">' +
-      '<span class="text-slate-400">🔍</span>' +
-      '<input id="search-input" type="text" placeholder="Search topics, notes, PYQs, diagrams…  (Esc to close)" class="w-full py-3.5 bg-transparent outline-none text-sm text-slate-900 dark:text-white placeholder-slate-400">' +
+      '<div class="absolute inset-0 bg-slate-950/60 backdrop-blur-sm" data-sclose></div>' +
+      '<div class="relative mx-auto mt-[10vh] w-[min(94vw,660px)] rounded-3xl bg-white dark:bg-slate-900 shadow-2xl overflow-hidden border border-slate-200 dark:border-slate-800">' +
+      '<div class="flex items-center gap-3 border-b border-slate-200 dark:border-slate-800 px-4">' +
+      '<svg class="w-4 h-4 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/></svg>' +
+      '<input id="search-input" type="text" placeholder="Search topics, notes, PYQs, diagrams…  (Esc to close)" class="w-full py-4 bg-transparent outline-none text-sm text-slate-900 dark:text-white placeholder-slate-400">' +
       '<kbd class="kbd">Esc</kbd></div>' +
       '<div id="search-results" class="max-h-[60vh] overflow-y-auto p-2"><div class="p-6 text-center text-sm text-slate-400">Type to search the whole syllabus, your notes and file names.</div></div>' +
-      '<div class="border-t border-slate-200 dark:border-slate-700 px-4 py-2 text-[11px] text-slate-400 flex gap-4"><span>↑↓ navigate</span><span>Enter open</span><span>' + searchIndex.length + ' indexed items</span></div></div></div>';
+      '<div class="border-t border-slate-200 dark:border-slate-800 px-4 py-2 text-[11px] text-slate-400 flex gap-4 bg-slate-50 dark:bg-slate-950/60"><span>↑↓ navigate</span><span>Enter open</span><span>' + searchIndex.length + ' indexed items</span></div></div></div>';
     document.body.appendChild(wrap);
     var input = $('#search-input', wrap);
     var results = $('#search-results', wrap);
@@ -929,6 +1017,7 @@
       if (!q) { results.innerHTML = '<div class="p-6 text-center text-sm text-slate-400">Type to search the whole syllabus, your notes and file names.</div>'; return; }
       if (!currentResults.length) { results.innerHTML = '<div class="p-6 text-center text-sm text-slate-400">No results for “' + esc(q) + '”</div>'; return; }
       var html = '';
+      var typeChip = { topic: 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-500 dark:text-indigo-300', folder: 'bg-slate-100 dark:bg-slate-800 text-slate-400', file: 'bg-emerald-50 dark:bg-emerald-950/50 text-emerald-500 dark:text-emerald-300', text: 'bg-amber-50 dark:bg-amber-950/50 text-amber-500 dark:text-amber-300' };
       currentResults.forEach(function (e, i) {
         var icon = e.type === 'topic' ? '📚' : e.type === 'folder' ? '📁' : e.type === 'file' ? (e.kind === 'image' ? '🖼️' : '📄') : '📝';
         var isPaper = e.type === 'topic' && DATA.papers.some(function (p) { return p.nav === e.nav; });
@@ -941,14 +1030,14 @@
           snippet = e.text.slice(Math.max(0, idx - 60), idx + 120);
           snippet = '…' + snippet.trim() + '…';
         }
-        html += '<a href="' + href + '" data-i="' + i + '" class="search-item flex items-start gap-3 rounded-xl px-3 py-2.5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ' + (i === active ? 'bg-slate-100 dark:bg-slate-700/50' : '') + '">' +
+        html += '<a href="' + href + '" data-i="' + i + '" class="search-item flex items-start gap-3 rounded-xl px-3 py-2.5 hover:bg-indigo-50/70 dark:hover:bg-indigo-950/30 ' + (i === active ? 'bg-indigo-50/70 dark:bg-indigo-950/30' : '') + '">' +
           '<span class="mt-0.5">' + icon + '</span>' +
           '<span class="min-w-0 flex-1"><span class="block text-sm font-medium text-slate-800 dark:text-slate-100 truncate">' + esc(e.title) + '</span>' +
-          '<span class="block text-[11px] text-slate-400 truncate">' + esc(e.path || '') + '</span>' +
+          '<span class="block text-[11px] text-slate-400 truncate font-mono">' + esc(e.path || '') + '</span>' +
           (snippet ? '<span class="block text-[12px] text-slate-500 dark:text-slate-400 line-clamp-2 mt-0.5">' + esc(snippet) + '</span>' : '') +
-          (e.headings && e.headings.length ? '<span class="block text-[11px] text-amber-600 dark:text-amber-400 truncate mt-0.5">' + e.headings.slice(0, 3).map(function (h) { return h.text; }).join(' · ') + '</span>' : '') +
+          (e.headings && e.headings.length ? '<span class="block text-[11px] text-indigo-500 dark:text-indigo-400 truncate mt-0.5">' + e.headings.slice(0, 3).map(function (h) { return h.text; }).join(' · ') + '</span>' : '') +
           '</span>' +
-          '<span class="text-[10px] uppercase tracking-wider text-slate-300 dark:text-slate-500 shrink-0 mt-1">' + e.type + '</span></a>';
+          '<span class="chip ' + (typeChip[e.type] || '') + ' shrink-0 mt-1">' + e.type + '</span></a>';
       });
       results.innerHTML = html;
       $$('.search-item', results).forEach(function (el) {
@@ -995,12 +1084,14 @@
   function renderTracker() {
     var o = overallProgress();
     var html = '';
-    html += '<div class="rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 text-white p-6 mb-6 flex flex-wrap items-center gap-6">' +
+    html += '<div class="hero-shell relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 text-white p-7 mb-6 shadow-lift">' +
+      '<div class="hero-grid"></div>' +
+      '<div class="relative z-10 flex flex-wrap items-center gap-6">' +
       '<div class="relative w-24 h-24">' +
       '<svg viewBox="0 0 100 100" class="w-24 h-24 -rotate-90"><circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="10"/>' +
-      '<circle cx="50" cy="50" r="42" fill="none" stroke="#f59e0b" stroke-width="10" stroke-linecap="round" stroke-dasharray="' + (2 * Math.PI * 42) + '" stroke-dashoffset="' + (2 * Math.PI * 42 * (1 - o.pct / 100)) + '"/></svg>' +
+      '<circle cx="50" cy="50" r="42" fill="none" stroke="#818cf8" stroke-width="10" stroke-linecap="round" stroke-dasharray="' + (2 * Math.PI * 42) + '" stroke-dashoffset="' + (2 * Math.PI * 42 * (1 - o.pct / 100)) + '"/></svg>' +
       '<div class="absolute inset-0 flex items-center justify-center text-2xl font-extrabold">' + o.pct + '%</div></div>' +
-      '<div class="flex-1"><h1 class="text-2xl font-extrabold">✅ Revision Checklist</h1>' +
+      '<div class="flex-1"><h1 class="font-display text-2xl font-extrabold">✅ Revision Checklist</h1>' +
       '<p class="text-slate-300 text-sm mt-1">' + o.done + ' of ' + o.total + ' syllabus topics completed. Progress is saved in your browser (LocalStorage) and never leaves your device.</p></div>' +
       '<div class="flex gap-2 flex-wrap">' +
       '<button class="btn-ghost-light text-[12px]" onclick="exportProgress()">⬇ Export JSON</button>' +
@@ -1010,11 +1101,11 @@
     html += '<div class="grid lg:grid-cols-2 gap-6">';
     DATA.papers.forEach(function (paper) {
       var pr = paperProgress(paper);
-      html += '<div class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/50 p-5">' +
-        '<div class="flex items-center justify-between mb-1"><h2 class="font-bold text-slate-900 dark:text-white">' + esc(paper.title) + '</h2>' +
-        '<span class="text-sm font-bold text-amber-600 dark:text-amber-400">' + pr.pct + '%</span></div>' +
-        progressBar(pr.pct) +
-        '<div class="mt-1 mb-3 text-[11px] text-slate-400">' + pr.done + '/' + pr.total + ' topics</div>' +
+      html += '<div class="card p-5 shadow-card">' +
+        '<div class="flex items-center justify-between mb-1.5"><h2 class="font-display font-bold text-slate-900 dark:text-white">' + esc(paper.title) + '</h2>' +
+        '<span class="chip ' + (pr.pct === 100 ? 'bg-emerald-50 dark:bg-emerald-950/50 text-emerald-500' : 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300') + '">' + pr.pct + '%</span></div>' +
+        progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') +
+        '<div class="mt-1.5 mb-3 text-[11px] text-slate-400">' + pr.done + '/' + pr.total + ' topics</div>' +
         trackerList(paper) + '</div>';
     });
     html += '</div>';
@@ -1042,9 +1133,9 @@
     var wrap = document.createElement('div');
     wrap.innerHTML = '<div class="fixed inset-0 z-[70] flex items-center justify-center p-4">' +
       '<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm" data-iclose></div>' +
-      '<div class="relative w-full max-w-md rounded-2xl bg-white dark:bg-slate-800 shadow-2xl p-5">' +
+      '<div class="relative w-full max-w-md rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl p-5">' +
       '<h3 class="font-bold text-slate-900 dark:text-white mb-2">Import progress JSON</h3>' +
-      '<textarea id="import-box" rows="6" class="w-full rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-[12px] p-2 font-mono outline-none focus:border-amber-400" placeholder=\'{&quot;gs-1/modern-history&quot;:1}\'></textarea>' +
+      '<textarea id="import-box" rows="6" class="w-full rounded-xl border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-[12px] p-2 font-mono outline-none focus:border-indigo-400" placeholder=\'{&quot;gs-1/modern-history&quot;:1}\'></textarea>' +
       '<div class="flex gap-2 mt-3"><button class="btn-primary flex-1 justify-center text-[13px]" data-ido>Import</button>' +
       '<button class="btn-ghost text-[13px]" data-iclose>Cancel</button></div></div></div>';
     document.body.appendChild(wrap);
@@ -1075,7 +1166,7 @@
   /* ------------------------------------------------------------------ */
   function renderNotFound(nav, kind) {
     $('#app').innerHTML = shell(
-      '<div class="rounded-2xl border border-dashed border-slate-300 dark:border-slate-600 p-10 text-center">' +
+      '<div class="card border-dashed p-10 text-center shadow-card">' +
       '<div class="text-5xl mb-3">🗺️</div>' +
       '<h1 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Nothing here yet</h1>' +
       '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">The ' + (kind === 'doc' ? 'document' : 'topic') + ' <code class="code">' + esc(nav) + '</code> is not in the syllabus tree.</p>' +
@@ -1092,7 +1183,7 @@
   /* ------------------------------------------------------------------ */
   function toast(msg) {
     var t = document.createElement('div');
-    t.className = 'fixed bottom-5 left-1/2 -translate-x-1/2 z-[90] rounded-full bg-slate-900 dark:bg-slate-700 text-white text-[13px] px-4 py-2 shadow-xl animate-fade-up';
+    t.className = 'fixed bottom-5 left-1/2 -translate-x-1/2 z-[90] rounded-full bg-indigo-600 dark:bg-indigo-500 text-white text-[13px] px-4 py-2 shadow-lift animate-fade-up';
     t.textContent = msg;
     document.body.appendChild(t);
     setTimeout(function () { t.remove(); }, 2200);

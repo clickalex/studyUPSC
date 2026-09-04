@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Biotech &amp; Health Tech</text>
+  <text x="30" y="54" class="s">prelims · item → anchor</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">BIOTECH MISSIONS</text>
+  <text x="44" y="134" class="md">Bio-E3 policy 2024</text>
+  <text x="44" y="151" class="md">bio-economy ~$130bn</text>
+  <text x="44" y="168" class="md">Genome India 10k</text>
+  <text x="44" y="185" class="md">BIRAC PPP arm</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">GENE-DISEASE TECH</text>
+  <text x="502" y="134" class="md">Casgevy: first CRISPR therapy (2023)</text>
+  <text x="502" y="151" class="md">NexCAR19 India CAR-T</text>
+  <text x="502" y="168" class="md">iNCOVACC nasal vaccine</text>
+  <text x="502" y="185" class="md">CRISPR sickle-cell trial India</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">HEALTH PROGRAMMES</text>
+  <text x="44" y="272" class="md">PM-JAY ₹5L + Arogya Mandirs</text>
+  <text x="44" y="289" class="md">ABDM: ABHA + eSanjeevani</text>
+  <text x="44" y="306" class="md">NTEP TB-2025 target</text>
+  <text x="44" y="323" class="md">U-WIN portal 2024</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">PHARMA-DEVICE</text>
+  <text x="502" y="272" class="md">PLI: APIs + devices</text>
+  <text x="502" y="289" class="md">4 medical-device parks</text>
+  <text x="502" y="306" class="md">NLEM 2022; NPPA caps</text>
+  <text x="502" y="323" class="md">CTR 2019; NAP-AMR 2017</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

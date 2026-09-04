@@ -3,8 +3,8 @@
    studyUPSC — headless smoke test (jsdom)
    ----------------------------------------------------------------------------
    Verifies the SPA boots and core routes render: dashboard, sidebar tree,
-   topic page (5 sections), paper page (pattern table), markdown doc viewer
-   (table + TOC), tracker (LocalStorage), global search, Ctrl+K, image route.
+   topic page (5 sections), paper page (pattern table), document viewer (inline HTML page)
+   (inline page + table + TOC), tracker (LocalStorage), global search, Ctrl+K, image route.
 
    Usage:
      npm i jsdom            # once, in any scratch directory (not required in repo)
@@ -90,7 +90,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   check('paper page shows GS 1 title', appText.includes('General Studies I'));
   check('paper page shows exam pattern table', appText.includes('General Studies II'));
 
-  window.location.hash = '#/doc/content/mains/gs-1-heritage-geography-society/modern-history/detailed-notes/revolt-1857.md';
+  window.location.hash = '#/doc/content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.html';
   await wait(600);
   appText = document.querySelector('#app').textContent;
   check('doc viewer shows note title', appText.includes('Revolt of 1857 — Detailed Notes'));
@@ -124,7 +124,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   await wait(200);
   check('Ctrl+K reopens search', !!document.querySelector('#search-input'));
 
-  window.location.hash = '#/doc/content/mains/gs-1-heritage-geography-society/modern-history/diagrams/modern-india-timeline-1757-1947.svg';
+  window.location.hash = '#/doc/content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/diagrams/modern-india-timeline-1757-1947.svg';
   await wait(400);
   check('image route renders', !!document.querySelector('#app img'));
 

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Environment Institutions</text>
+  <text x="30" y="54" class="s">prelims · body → role</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">REGULATORS</text>
+  <text x="44" y="134" class="md">MoEFCC apex policy</text>
+  <text x="44" y="151" class="md">CPCB + SPCBs (acts 1974-86)</text>
+  <text x="44" y="168" class="md">NGT 2010: judicial tribunal</text>
+  <text x="44" y="185" class="md">CAQM 2021 (NCR air)</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">STATUTORY SCIENCE</text>
+  <text x="502" y="134" class="md">NTCA 2006 (tiger)</text>
+  <text x="502" y="151" class="md">NBA 2003 (access-benefit)</text>
+  <text x="502" y="168" class="md">GBPIHED Himalayan institute</text>
+  <text x="502" y="185" class="md">WII Dehradun (research)</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">MISSION BODIES</text>
+  <text x="44" y="272" class="md">NMCG-NGRBA (Ganga 2016 act)</text>
+  <text x="44" y="289" class="md">National Green Corps</text>
+  <text x="44" y="306" class="md">FSI forest survey</text>
+  <text x="44" y="323" class="md">CZA 1992 (zoos)</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">KEY TRIBUNAL FACTS</text>
+  <text x="502" y="272" class="md">NGT: principal bench + zonal benches</text>
+  <text x="502" y="289" class="md">not bound by Civil Procedure Code</text>
+  <text x="502" y="306" class="md">members: judicial + expert lanes</text>
+  <text x="502" y="323" class="md">hears substantial environmental questions</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

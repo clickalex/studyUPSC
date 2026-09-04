@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">President &amp; PM — powers timeline</text>
+  <text x="30" y="54" class="s">prelims · constitutional anchor</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">Art 52</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">President</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">head of state</text>
+  <line x1="180.0" y1="150" x2="180.0" y2="188" class="ln"/>
+  <circle cx="180.0" cy="150" r="6" class="dot"/>
+  <text x="180.0" y="210" text-anchor="middle" class="e">Art 53/72</text>
+  <text x="180.0" y="227" text-anchor="middle" class="d">Executive+Pardon</text>
+  <text x="180.0" y="243" text-anchor="middle" class="d">supreme command; clemency</text>
+  <line x1="300.0" y1="150" x2="300.0" y2="112" class="ln"/>
+  <circle cx="300.0" cy="150" r="6" class="dot"/>
+  <text x="300.0" y="82" text-anchor="middle" class="e">Art 61</text>
+  <text x="300.0" y="99" text-anchor="middle" class="d">Impeachment</text>
+  <text x="300.0" y="76" text-anchor="middle" class="d">2/3 both houses, constitutional violation</text>
+  <line x1="420.0" y1="150" x2="420.0" y2="188" class="ln"/>
+  <circle cx="420.0" cy="150" r="6" class="dot"/>
+  <text x="420.0" y="210" text-anchor="middle" class="e">Art 74</text>
+  <text x="420.0" y="227" text-anchor="middle" class="d">Council of Ministers</text>
+  <text x="420.0" y="243" text-anchor="middle" class="d">aid &amp; advice; 42nd/44th</text>
+  <line x1="540.0" y1="150" x2="540.0" y2="112" class="ln"/>
+  <circle cx="540.0" cy="150" r="6" class="dot"/>
+  <text x="540.0" y="82" text-anchor="middle" class="e">Art 75</text>
+  <text x="540.0" y="99" text-anchor="middle" class="d">PM appointment</text>
+  <text x="540.0" y="76" text-anchor="middle" class="d">leader of majority; oath by President</text>
+  <line x1="660.0" y1="150" x2="660.0" y2="188" class="ln"/>
+  <circle cx="660.0" cy="150" r="6" class="dot"/>
+  <text x="660.0" y="210" text-anchor="middle" class="e">Art 78</text>
+  <text x="660.0" y="227" text-anchor="middle" class="d">Duties to President</text>
+  <text x="660.0" y="243" text-anchor="middle" class="d">inform, submit decisions</text>
+  <line x1="780.0" y1="150" x2="780.0" y2="112" class="ln"/>
+  <circle cx="780.0" cy="150" r="6" class="dot"/>
+  <text x="780.0" y="82" text-anchor="middle" class="e">Art 111</text>
+  <text x="780.0" y="99" text-anchor="middle" class="d">Assent options</text>
+  <text x="780.0" y="76" text-anchor="middle" class="d">assent/withhold/recommend</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="188" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="210" text-anchor="middle" class="e">Art 123</text>
+  <text x="900.0" y="227" text-anchor="middle" class="d">Ordinance</text>
+  <text x="900.0" y="243" text-anchor="middle" class="d">both houses not in session</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

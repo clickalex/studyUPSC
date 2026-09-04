@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Constitutional Development 1773-1947</text>
+  <text x="30" y="54" class="s">prelims · act → key provision</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">1773</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">Regulating Act</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">GG + Council; SC 1774</text>
+  <line x1="165.0" y1="150" x2="165.0" y2="188" class="ln"/>
+  <circle cx="165.0" cy="150" r="6" class="dot"/>
+  <text x="165.0" y="210" text-anchor="middle" class="e">1784</text>
+  <text x="165.0" y="227" text-anchor="middle" class="d">Pitt's India Act</text>
+  <text x="165.0" y="243" text-anchor="middle" class="d">Board of Control</text>
+  <line x1="270.0" y1="150" x2="270.0" y2="112" class="ln"/>
+  <circle cx="270.0" cy="150" r="6" class="dot"/>
+  <text x="270.0" y="82" text-anchor="middle" class="e">1813/1833</text>
+  <text x="270.0" y="99" text-anchor="middle" class="d">Charter Acts</text>
+  <text x="270.0" y="76" text-anchor="middle" class="d">monopoly ends; centralise</text>
+  <line x1="375.0" y1="150" x2="375.0" y2="188" class="ln"/>
+  <circle cx="375.0" cy="150" r="6" class="dot"/>
+  <text x="375.0" y="210" text-anchor="middle" class="e">1853</text>
+  <text x="375.0" y="227" text-anchor="middle" class="d">Open competition</text>
+  <text x="375.0" y="243" text-anchor="middle" class="d">no patronage; legislative council</text>
+  <line x1="480.0" y1="150" x2="480.0" y2="112" class="ln"/>
+  <circle cx="480.0" cy="150" r="6" class="dot"/>
+  <text x="480.0" y="82" text-anchor="middle" class="e">1858</text>
+  <text x="480.0" y="99" text-anchor="middle" class="d">GoI Act</text>
+  <text x="480.0" y="76" text-anchor="middle" class="d">Secy of State + Viceroy</text>
+  <line x1="585.0" y1="150" x2="585.0" y2="188" class="ln"/>
+  <circle cx="585.0" cy="150" r="6" class="dot"/>
+  <text x="585.0" y="210" text-anchor="middle" class="e">1892</text>
+  <text x="585.0" y="227" text-anchor="middle" class="d">Indian Councils Act</text>
+  <text x="585.0" y="243" text-anchor="middle" class="d">indirect elections hint</text>
+  <line x1="690.0" y1="150" x2="690.0" y2="112" class="ln"/>
+  <circle cx="690.0" cy="150" r="6" class="dot"/>
+  <text x="690.0" y="82" text-anchor="middle" class="e">1909/1919</text>
+  <text x="690.0" y="99" text-anchor="middle" class="d">Morley-Minto / Montford</text>
+  <text x="690.0" y="76" text-anchor="middle" class="d">separate + dyarchy</text>
+  <line x1="795.0" y1="150" x2="795.0" y2="188" class="ln"/>
+  <circle cx="795.0" cy="150" r="6" class="dot"/>
+  <text x="795.0" y="210" text-anchor="middle" class="e">1935</text>
+  <text x="795.0" y="227" text-anchor="middle" class="d">GOI ACT</text>
+  <text x="795.0" y="243" text-anchor="middle" class="d">provincial autonomy; federation</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="112" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="82" text-anchor="middle" class="e">1947</text>
+  <text x="900.0" y="99" text-anchor="middle" class="d">Independence Act</text>
+  <text x="900.0" y="76" text-anchor="middle" class="d">dominion status</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

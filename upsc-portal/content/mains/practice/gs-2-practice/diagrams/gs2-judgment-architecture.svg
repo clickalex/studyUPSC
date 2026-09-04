@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-2 judgment answer — mandate → two records → causes → reform</text>
+  <text x="30" y="56" class="s">gs-2-practice · constitution · governance · social justice · international relations</text>
+  <rect x="40" y="84" width="200" height="64" rx="10" class="q"/>
+  <text x="140" y="108" text-anchor="middle" class="h">ANCHORED INTRO</text>
+  <text x="140" y="126" text-anchor="middle" class="sm">Article / case / Act / treaty —</text>
+  <text x="140" y="140" text-anchor="middle" class="sm">named and dated</text>
+  <rect x="260" y="84" width="300" height="64" rx="10" class="sec"/>
+  <text x="410" y="108" text-anchor="middle" class="h">TWO RECORDS</text>
+  <text x="410" y="126" text-anchor="middle" class="sm">design vs delivery · intent vs outcome</text>
+  <text x="410" y="140" text-anchor="middle" class="sm">credit + criticism, both evidenced</text>
+  <rect x="580" y="84" width="340" height="64" rx="10" class="sec"/>
+  <text x="750" y="108" text-anchor="middle" class="h">STRUCTURAL CAUSES</text>
+  <text x="750" y="126" text-anchor="middle" class="sm">incentives · capacity · federal frictions ·</text>
+  <text x="750" y="140" text-anchor="middle" class="sm">political economy — above personalities</text>
+  <path d="M 240 116 L 260 116" stroke="#64748b" stroke-width="2"/><path d="M 560 116 L 580 116" stroke="#64748b" stroke-width="2"/>
+  <rect x="40" y="160" width="880" height="52" rx="10" class="g"/>
+  <text x="480" y="182" text-anchor="middle" class="h">SOURCED REFORM — committee line + mechanism + feasibility note</text>
+  <text x="480" y="200" text-anchor="middle" class="sm">"as 2nd ARC/Punchhi recommended… implementable via … within X fiscal space"</text>
+  <rect x="40" y="226" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="250" class="h">AUTHORITY BANK (memorise columns)</text>
+  <text x="56" y="272" class="md">Articles 14 · 21 · 32 · 226 · 243 · 356 · 368</text>
+  <text x="56" y="290" class="md">Cases: Kesavananda · Maneka · Puttaswamy · Bommai</text>
+  <text x="56" y="308" class="md">Committees: Sarkaria · Punchhi · 2nd ARC</text>
+  <text x="56" y="326" class="md">Acts: RTI'05 · RPA'51 · DPDP'23 · NFSA'13</text>
+  <text x="56" y="348" class="sm">Indices: NFHS-5 · ASER · WGI — one datum per SJ answer</text>
+  <rect x="490" y="226" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="250" class="h">RUBRIC /10</text>
+  <text x="506" y="272" class="md">Position/decode visible early ........ 2</text>
+  <text x="506" y="290" class="md">Authority deployed correctly ......... 3</text>
+  <text x="506" y="308" class="md">Balanced two-record analysis ......... 3</text>
+  <text x="506" y="326" class="md">Sourced, feasible reform ............. 2</text>
+  <text x="506" y="350" class="sm">IR special: substance + structure — never a news recap</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-2 practice diagram · pair with detailed-notes/gs-2-practice-system.html</text>
+</svg>

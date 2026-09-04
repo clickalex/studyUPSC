@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">E-Governance stack</text>
+  <text x="30" y="54" class="s">prelims · pillar → what it is</text>
+  <rect x="30" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="114" class="h">FOUNDATIONS</text>
+  <text x="44" y="134" class="md">NeGP 2006 (27 Mission Mode Projects)</text>
+  <text x="44" y="151" class="md">e-Kranti 2015 (44 MMPs)</text>
+  <text x="44" y="168" class="md">DIGITAL INDIA 2015</text>
+  <text x="44" y="185" class="md">JAM trinity: Jan Dhan-Aadhaar-Mobile</text>
+  <rect x="488" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="114" class="h">IDENTITY &amp; MONEY</text>
+  <text x="502" y="134" class="md">Aadhaar (UIDAI, 2016 act)</text>
+  <text x="502" y="151" class="md">UPI (NPCI 2016)</text>
+  <text x="502" y="168" class="md">DBT platform</text>
+  <text x="502" y="185" class="md">e-RUPI vouchers</text>
+  <rect x="30" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="269" class="h">PLATFORMS</text>
+  <text x="44" y="289" class="md">UMANG app</text>
+  <text x="44" y="306" class="md">DigiLocker</text>
+  <text x="44" y="323" class="md">eSign</text>
+  <text x="44" y="340" class="md">GeM public procurement</text>
+  <text x="44" y="357" class="md">SWAYAM-ePathshala</text>
+  <rect x="488" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="269" class="h">GOVTECH GOVERNANCE</text>
+  <text x="502" y="289" class="md">IT Act 2000 + DPDP Act 2023</text>
+  <text x="502" y="306" class="md">MeitY nodal ministry</text>
+  <text x="502" y="323" class="md">NASSCOM vs industry body (not govt)</text>
+  <text x="502" y="340" class="md">data localisation debates</text>
+  <text x="30" y="436" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Acts &amp; Conventions Grid</text>
+  <text x="30" y="54" class="s">prelims · instrument → year-scope</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">INDIAN ACTS</text>
+  <text x="44" y="134" class="md">EP Act 1986 (Bhopal child)</text>
+  <text x="44" y="151" class="md">Water 1974; Air 1981</text>
+  <text x="44" y="168" class="md">WPA 1972; FCA 1980</text>
+  <text x="44" y="185" class="md">BD Act 2002; NGT 2010</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">GLOBAL FRAME</text>
+  <text x="502" y="134" class="md">Ramsar 1971 (wetlands)</text>
+  <text x="502" y="151" class="md">CITES 1975 (trade)</text>
+  <text x="502" y="168" class="md">CMS 1979 (migratory)</text>
+  <text x="502" y="185" class="md">CBD 1992 (Rio trio)</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">CHEMICAL-TREATIES</text>
+  <text x="44" y="272" class="md">Montreal 1987 (ODS)</text>
+  <text x="44" y="289" class="md">Basel 1989 (waste trade)</text>
+  <text x="44" y="306" class="md">Stockholm 2001 (POPs)</text>
+  <text x="44" y="323" class="md">Rotterdam PIC; Minamata Hg</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">DESERT-CLIMATE</text>
+  <text x="502" y="272" class="md">UNCCD 1994 (land)</text>
+  <text x="502" y="289" class="md">UNFCCC 1992 (climate)</text>
+  <text x="502" y="306" class="md">Kyoto 1997 → Paris 2015</text>
+  <text x="502" y="323" class="md">Kigali 2016 (HFC)</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

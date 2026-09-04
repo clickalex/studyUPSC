@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Transport &amp; Settlements — India map</text>
+  <text x="30" y="54" class="s">prelims · corridor/port → hook</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">RAIL</text>
+  <text x="44" y="134" class="md">first: Bombay-Thane 1853</text>
+  <text x="44" y="151" class="md">rail zones: 18 operational</text>
+  <text x="44" y="168" class="md">DFC: Eastern + Western</text>
+  <text x="44" y="185" class="md">Vande Bharat; amrit bharat stations</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">ROAD</text>
+  <text x="502" y="134" class="md">NH network ~1.46 lakh km</text>
+  <text x="502" y="151" class="md">NH-44 longest (Srinagar-Kanyakumari)</text>
+  <text x="502" y="168" class="md">Bharatmala corridors</text>
+  <text x="502" y="185" class="md">gold quadrilateral: 4 cities</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">PORTS &amp; WATERWAYS</text>
+  <text x="44" y="272" class="md">12 major ports; Paradip-Vizag east</text>
+  <text x="44" y="289" class="md">Jawaharlal Nehru = biggest container</text>
+  <text x="44" y="306" class="md">NW-1 Ganga (Haldia-Varanasi)</text>
+  <text x="44" y="323" class="md">NW-3 West Coast Canal (Kollam-Kottapuram)</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">SETTLEMENT TYPES</text>
+  <text x="502" y="272" class="md">compact-nucleated: plains</text>
+  <text x="502" y="289" class="md">linear: along roads-rivers</text>
+  <text x="502" y="306" class="md">dispersed: hills-forests</text>
+  <text x="502" y="323" class="md">functional classification: census towns etc</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="484" viewBox="0 0 960 484" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="484" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Climatology — circulation &amp; classification</text>
+  <text x="30" y="54" class="s">prelims · concept → anchor</text>
+  <rect x="30" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="114" class="h">ATMOSPHERE</text>
+  <text x="44" y="134" class="md">layers: troposphere-stratosphere</text>
+  <text x="44" y="151" class="md">ozone layer (15-35 km)</text>
+  <text x="44" y="168" class="md">temperature inversion types</text>
+  <rect x="488" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="114" class="h">WINDS-JET STREAMS</text>
+  <text x="502" y="134" class="md">planetary: trade-westerlies-polar</text>
+  <text x="502" y="151" class="md">jet streams steer western disturbances</text>
+  <text x="502" y="168" class="md">local: loo, mistral, chinook, fohn</text>
+  <rect x="30" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="286" class="h">CYCLOGENESIS</text>
+  <text x="44" y="306" class="md">tropical: warm core, eye</text>
+  <text x="44" y="323" class="md">formed 5-20° lat (Coriolis)</text>
+  <text x="44" y="340" class="md">temperate: front-driven</text>
+  <text x="44" y="357" class="md">IMD naming: north Indian Ocean list</text>
+  <rect x="488" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="286" class="h">KOPPEN (INDIA)</text>
+  <text x="502" y="306" class="md">Am: Malabar</text>
+  <text x="502" y="323" class="md">Aw: most of plateau</text>
+  <text x="502" y="340" class="md">BShw: rain-shadow</text>
+  <text x="502" y="357" class="md">Cwg: Gangetic plain</text>
+  <text x="502" y="374" class="md">Dfc: Arunachal high</text>
+  <text x="502" y="391" class="md">E: Ladakh cold desert</text>
+  <text x="30" y="470" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

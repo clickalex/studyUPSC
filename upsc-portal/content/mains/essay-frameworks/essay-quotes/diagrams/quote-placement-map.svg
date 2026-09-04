@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13.5px;fill:#0f172a;font-weight:700}
+      .md{font-size:11.5px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="440" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Where a quote lives in an essay — hook, lens, or seal</text>
+  <text x="30" y="56" class="s">essay-quotes · placement, interpretation frames and attribution discipline</text>
+  <rect x="40" y="84" width="280" height="150" rx="12" class="q"/>
+  <text x="60" y="110" class="h">1 · THE HOOK (introduction)</text>
+  <text x="60" y="134" class="md">quote → one-line interpretation → thesis</text>
+  <text x="60" y="158" class="md">under 25 words · fits the theme</text>
+  <text x="60" y="182" class="md">borrows authority for YOUR claim</text>
+  <text x="60" y="212" class="sm">the quote opens the door; you walk in</text>
+  <rect x="340" y="84" width="280" height="150" rx="12" class="card"/>
+  <text x="360" y="110" class="h">2 · THE LENS (body)</text>
+  <text x="360" y="134" class="md">thinkers as paraphrase, not quotation:</text>
+  <text x="360" y="158" class="md">"through Rawls' difference principle…"</text>
+  <text x="360" y="182" class="md">"Gandhi's talisman would ask…"</text>
+  <text x="360" y="212" class="sm">analysis wears the idea; quotes stay rare</text>
+  <rect x="640" y="84" width="280" height="150" rx="12" class="q"/>
+  <text x="660" y="110" class="h">3 · THE SEAL (conclusion)</text>
+  <text x="660" y="134" class="md">return to the intro's quote — flipped:</text>
+  <text x="660" y="158" class="md">warning → hope · duty → invitation</text>
+  <text x="660" y="182" class="md">creates the loop examiners remember</text>
+  <text x="660" y="212" class="sm">end on your voice, quote as echo</text>
+  <rect x="40" y="262" width="880" height="70" rx="12" class="card"/>
+  <text x="60" y="286" class="h">ATTRIBUTION LADDER</text>
+  <text x="60" y="308" class="md">verified (Socrates, Ambedkar, Kautilya) → disputed (say "attributed to": Gandhi's Earth line) → proverbs (zero risk, always safe)</text>
+  <text x="60" y="324" class="sm">never invent, never guess a year; one quotation pair per ~300 words maximum</text>
+  <rect x="40" y="352" width="880" height="52" rx="12" fill="#22c55e" opacity="0.12"/>
+  <text x="480" y="374" text-anchor="middle" class="h">THE DELETE TEST — if the quote can go without loss, it was decoration, not argument</text>
+  <text x="480" y="392" text-anchor="middle" class="sm">interpretation frames: "X's warning reads today as…" · "if we take this seriously, policy must…"</text>
+  <text x="30" y="424" class="foot">studyUPSC · essay diagram · pair with short-notes/essay-quotes-revision.html</text>
+</svg>

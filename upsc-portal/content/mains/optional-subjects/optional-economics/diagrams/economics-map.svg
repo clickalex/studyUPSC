@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Economics optional — theory discipline meets the Survey ledger</text>
+  <text x="30" y="56" class="s">paper 1 analytics shelter precise writers · paper 2 is the GS-3 heartland · graph-first culture</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — THEORY</text>
+  <text x="56" y="126" class="md">Micro: indifference → Slutsky · Cournot/Stackelberg · games</text>
+  <text x="56" y="146" class="md">failures: externalities · public goods · information asymmetry</text>
+  <text x="56" y="166" class="md">Macro: accounting debates · money multiplier · inflation</text>
+  <text x="56" y="186" class="md">IS-LM → RBC vs New-Keynesian · Mundell-Fleming trilemma</text>
+  <text x="56" y="208" class="md">Growth: Harrod-Domar → Solow → Romer · HDI/MDP · Lewis</text>
+  <text x="56" y="228" class="md">Public finance: Musgrave · Ramsey · Oates · debt dynamics</text>
+  <text x="56" y="248" class="md">International: Ricardo → HO → Krugman · WTO basics</text>
+  <text x="56" y="284" class="sm">style: labelled graph first · 6-derivation six-pack drilled</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — INDIAN ECONOMY</text>
+  <text x="536" y="126" class="md">Base: Mahalanobis planning · green revolution · 1991 hinge</text>
+  <text x="536" y="146" class="md">Reform sequence: delicensing · trade-tariffs · Narasimham</text>
+  <text x="536" y="166" class="md">FEMA · VAT→GST architecture · MPC framework (4±2)</text>
+  <text x="536" y="186" class="md">Sectors: MSP-APMC economics · PLI/MSME · services puzzle</text>
+  <text x="536" y="206" class="md">Macro-policy: FRBM glide · NPA→IBC credit culture</text>
+  <text x="536" y="226" class="md">External: CAD dynamics · rupee regime · FTA line</text>
+  <text x="536" y="246" class="md">Development: poverty lineage · PLFS employment · DBT/JAM</text>
+  <text x="536" y="284" class="sm">style: Survey/RBI figure → theory lens → both records → forward path</text>
+  <path d="M 460 195 L 520 195" class="cl"/>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS + THE SHELF &amp; BANK</text>
+  <text x="60" y="374" class="md">wk 1-3 micro · wk 4-6 macro+open-economy · wk 7-8 growth+PF · wk 9 international · wk 10-11 India · wk 12 Survey-mapping + PYQ marathon</text>
+  <text x="60" y="392" class="sm">graph shelf: Slutsky map · IS-LM · trilemma triangle · tariff welfare · Laffer · Solow+golden rule · debate bank: MPC band · FRBM · GST architecture · fiscal-monetary dominance</text>
+  <text x="30" y="432" class="foot">studyUPSC · economics optional diagram · pair with detailed-notes/economics-syllabus-map.html</text>
+</svg>

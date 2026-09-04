@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Reasoning Toolkit</text>
+  <text x="30" y="54" class="s">prelims · type → method</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">SYLLOGISM</text>
+  <text x="44" y="134" class="md">Venn first, conclusion after</text>
+  <text x="44" y="151" class="md">watch: some-not, possibility</text>
+  <text x="44" y="168" class="md">no conclusion from two negatives</text>
+  <text x="44" y="185" class="md">either-or when options demand</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">RELATIONS-DIRECTION</text>
+  <text x="502" y="134" class="md">draw family tree symbols</text>
+  <text x="502" y="151" class="md">solve from the end backwards</text>
+  <text x="502" y="168" class="md">compass sketch, N up</text>
+  <text x="502" y="185" class="md">left/right is relative to facing</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">ARRANGEMENTS</text>
+  <text x="44" y="272" class="md">grid table: who-where-what</text>
+  <text x="44" y="289" class="md">fix definite clues first</text>
+  <text x="44" y="306" class="md">negative clues = eliminations</text>
+  <text x="44" y="323" class="md">verify both ends of chain</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">STATEMENT LOGIC</text>
+  <text x="502" y="272" class="md">assumption = unstated must-be-true</text>
+  <text x="502" y="289" class="md">conclusion = follows certainly</text>
+  <text x="502" y="306" class="md">strengthen = bridge gap</text>
+  <text x="502" y="323" class="md">weaken = attack link</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">From Mahajanapadas to Maurya — power timeline</text>
+  <text x="30" y="54" class="s">prelims · Magadhan rise, Alexander, and the first pan-Indian empire</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">6th c BCE</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">16 Mahajanapadas</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">Anguttara Nikaya; punch-marked coins</text>
+  <line x1="200.0" y1="150" x2="200.0" y2="188" class="ln"/>
+  <circle cx="200.0" cy="150" r="6" class="dot"/>
+  <text x="200.0" y="210" text-anchor="middle" class="e">c. 544 BCE</text>
+  <text x="200.0" y="227" text-anchor="middle" class="d">Bimbisara</text>
+  <text x="200.0" y="243" text-anchor="middle" class="d">Haryanka; alliances; Rajagriha</text>
+  <line x1="340.0" y1="150" x2="340.0" y2="112" class="ln"/>
+  <circle cx="340.0" cy="150" r="6" class="dot"/>
+  <text x="340.0" y="82" text-anchor="middle" class="e">c. 492 BCE</text>
+  <text x="340.0" y="99" text-anchor="middle" class="d">Ajatashatru</text>
+  <text x="340.0" y="76" text-anchor="middle" class="d">Vaisali won; siege engines</text>
+  <line x1="480.0" y1="150" x2="480.0" y2="188" class="ln"/>
+  <circle cx="480.0" cy="150" r="6" class="dot"/>
+  <text x="480.0" y="210" text-anchor="middle" class="e">c. 364 BCE</text>
+  <text x="480.0" y="227" text-anchor="middle" class="d">Nandas</text>
+  <text x="480.0" y="243" text-anchor="middle" class="d">First empire builders; heavy tax</text>
+  <line x1="620.0" y1="150" x2="620.0" y2="112" class="ln"/>
+  <circle cx="620.0" cy="150" r="6" class="dot"/>
+  <text x="620.0" y="82" text-anchor="middle" class="e">326 BCE</text>
+  <text x="620.0" y="99" text-anchor="middle" class="d">Alexander</text>
+  <text x="620.0" y="76" text-anchor="middle" class="d">Hydaspes × Porus; turns at Beas</text>
+  <line x1="760.0" y1="150" x2="760.0" y2="188" class="ln"/>
+  <circle cx="760.0" cy="150" r="6" class="dot"/>
+  <text x="760.0" y="210" text-anchor="middle" class="e">c. 322 BCE</text>
+  <text x="760.0" y="227" text-anchor="middle" class="d">Chandragupta</text>
+  <text x="760.0" y="243" text-anchor="middle" class="d">Seleucus pact 305; Megasthenes</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="112" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="82" text-anchor="middle" class="e">268-232</text>
+  <text x="900.0" y="99" text-anchor="middle" class="d">Ashoka</text>
+  <text x="900.0" y="76" text-anchor="middle" class="d">Kalinga 261; Dhamma; edicts</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

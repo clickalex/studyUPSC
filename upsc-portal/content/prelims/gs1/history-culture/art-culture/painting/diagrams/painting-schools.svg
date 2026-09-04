@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="484" viewBox="0 0 960 484" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="484" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Painting Schools of India</text>
+  <text x="30" y="54" class="s">prelims · school → patron → signature</text>
+  <rect x="30" y="88" width="289" height="156" rx="10" class="card"/>
+  <text x="44" y="114" class="h">AJANTA &amp; WALL TRADITION</text>
+  <text x="44" y="134" class="md">Fresco-secco tempera</text>
+  <text x="44" y="151" class="md">Padmapani/Dying Princess</text>
+  <text x="44" y="168" class="md">Chola: Nataraja panels</text>
+  <text x="44" y="185" class="md">Kerala: Mattancherry murals</text>
+  <text x="44" y="202" class="md">Lepakshi (Vijayanagara)</text>
+  <text x="44" y="219" class="md">Raghurajpur pata (Odisha)</text>
+  <rect x="335" y="88" width="289" height="156" rx="10" class="card"/>
+  <text x="349" y="114" class="h">MINIATURE: PALA-JAIN</text>
+  <text x="349" y="134" class="md">Pala: Buddhist, palm-leaf</text>
+  <text x="349" y="151" class="md">Jain Kalpasutra (Gujarat)</text>
+  <text x="349" y="168" class="md">Opaque colours, gold</text>
+  <text x="349" y="185" class="md">Pre-Mughal eastern school</text>
+  <rect x="641" y="88" width="289" height="156" rx="10" class="card"/>
+  <text x="655" y="114" class="h">MUGHAL SCHOOL</text>
+  <text x="655" y="134" class="md">Humayun brings Mir Sayyid Ali</text>
+  <text x="655" y="151" class="md">Akbar: Tutinama, Hamzanama</text>
+  <text x="655" y="168" class="md">Jahangir: portrait/nature peak</text>
+  <text x="655" y="185" class="md">Shah Jahan: refined, borders</text>
+  <text x="655" y="202" class="md">Mansur = birds/flowers</text>
+  <rect x="30" y="260" width="289" height="156" rx="10" class="card"/>
+  <text x="44" y="286" class="h">RAJASTHANI</text>
+  <text x="44" y="306" class="md">Mewar: Chawand Ragamala</text>
+  <text x="44" y="323" class="md">Kishangarh: Bani-Thani</text>
+  <text x="44" y="340" class="md">Bundi-Kota hunting scenes</text>
+  <text x="44" y="357" class="md">Bikaner, Jodhpur, Dhundhar</text>
+  <rect x="335" y="260" width="289" height="156" rx="10" class="card"/>
+  <text x="349" y="286" class="h">PAHARI</text>
+  <text x="349" y="306" class="md">Basohli: early, bold</text>
+  <text x="349" y="323" class="md">Kangra: Gita-Govinda, lyrical</text>
+  <text x="349" y="340" class="md">Guler, Garhwal, Jammu</text>
+  <text x="349" y="357" class="md">Nainsukh-Manaku family</text>
+  <rect x="641" y="260" width="289" height="156" rx="10" class="card"/>
+  <text x="655" y="286" class="h">DECCAN + FOLK</text>
+  <text x="655" y="306" class="md">Bijapur, Golconda lush</text>
+  <text x="655" y="323" class="md">Madhubani (Bihar, Mithila)</text>
+  <text x="655" y="340" class="md">Warli (MH, geometric)</text>
+  <text x="655" y="357" class="md">Phad (Rajasthan scrolls)</text>
+  <text x="655" y="374" class="md">Kalamkari (AP, pen-block)</text>
+  <text x="655" y="391" class="md">Gond, Pithora, Cheriyal</text>
+  <text x="30" y="470" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

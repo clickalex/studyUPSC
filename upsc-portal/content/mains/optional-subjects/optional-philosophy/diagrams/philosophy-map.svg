@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Philosophy optional — two traditions in, two applications out</text>
+  <text x="30" y="56" class="s">smallest syllabus · highest clarity premium · GS-4 and essay bridges come free</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — METAPHYSICS · EPISTEMOLOGY · LOGIC</text>
+  <text x="56" y="126" class="md">Indian: Carvaka (perception only) · Bauddha (kshanika, sunyata)</text>
+  <text x="56" y="146" class="md">Jaina anekantavada + syadvada · Nyaya pramanas + syllogism</text>
+  <text x="56" y="166" class="md">Vaisesika padarthas · Samkhya dualism · Yoga ashtanga</text>
+  <text x="56" y="186" class="md">Mimamsa svatah-pramanya · Advaita maya vs Visistadvaita/Dvaita</text>
+  <text x="56" y="208" class="md">Western: Plato-Aristotle → rationalists (D-S-L) → empiricists</text>
+  <text x="56" y="228" class="md">(Locke-Berkeley-Hume) → Kant's categories → Hegel's dialectic</text>
+  <text x="56" y="248" class="md">Logic: syllogisms · square of opposition · hetvabhasa</text>
+  <text x="56" y="284" class="sm">style: reconstruction — thesis → arguments → objections → reply → verdict</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — APPLICATIONS</text>
+  <text x="536" y="126" class="md">Socio-political: ideologies · sovereignty (Austin vs pluralists)</text>
+  <text x="536" y="146" class="md">democracy's grounds · rights generations · punishment trio</text>
+  <text x="536" y="166" class="md">gender justice · environmental ethics (anthropo → eco-centred)</text>
+  <text x="536" y="188" class="md">Religion: proofs — ontological (Anselm) · cosmological (Aquinas)</text>
+  <text x="536" y="208" class="md">teleological (Paley vs Hume) · evil (logical vs evidential)</text>
+  <text x="536" y="228" class="md">religious experience (James) · language (Flew vs Wittgenstein)</text>
+  <text x="536" y="248" class="md">immortality · pluralism (Hick)</text>
+  <text x="536" y="284" class="sm">style: fair reconstruction + contemporary hook (rights of rivers, rarest-of-rare)</text>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS</text>
+  <text x="60" y="374" class="md">wk 1-2 heterodox · wk 3-4 Nyaya-Yoga · wk 5 Mimamsa-Vedanta · wk 6-7 Western arc · wk 8 logic · wk 9-10 socio-political · wk 11 religion · wk 12 PYQ + 20 comparison tables</text>
+  <text x="60" y="392" class="sm">objections to master: Gaunilo &amp; Kant (onto) · Hume (design) · Mackie (evil) · Flew (language)</text>
+  <text x="30" y="432" class="foot">studyUPSC · philosophy optional diagram · pair with detailed-notes/philosophy-syllabus-map.html</text>
+</svg>

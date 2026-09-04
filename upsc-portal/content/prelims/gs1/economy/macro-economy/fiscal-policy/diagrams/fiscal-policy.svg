@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Fiscal Policy — budget mechanics</text>
+  <text x="30" y="54" class="s">prelims · head → meaning</text>
+  <rect x="30" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">RECEIPTS</text>
+  <text x="44" y="134" class="md">revenue: tax + non-tax</text>
+  <text x="44" y="151" class="md">capital: disinvestment, borrowings</text>
+  <text x="44" y="168" class="md">dividend: RBI-PSU payouts</text>
+  <rect x="488" y="88" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="114" class="h">EXPENDITURE</text>
+  <text x="502" y="134" class="md">revenue vs capital</text>
+  <text x="502" y="151" class="md">plan-nonplan abolished (2017)</text>
+  <text x="502" y="168" class="md">committed: interest-salary-pension</text>
+  <rect x="30" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">DEFICITS</text>
+  <text x="44" y="272" class="md">FD = total exp - total receipts (ex-borrowing)</text>
+  <text x="44" y="289" class="md">RD = rev exp - rev receipts</text>
+  <text x="44" y="306" class="md">PD = FD - interest payments</text>
+  <text x="44" y="323" class="md">FRBM 3% FD target; escape clause</text>
+  <rect x="488" y="226" width="442" height="122" rx="10" class="card"/>
+  <text x="502" y="252" class="h">EXTRA-BUDGETARY</text>
+  <text x="502" y="272" class="md">off-budget borrowings (FI bonds)</text>
+  <text x="502" y="289" class="md">guarantees; NSSF swaps</text>
+  <text x="502" y="306" class="md">consolidated fund vs public account (266)</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

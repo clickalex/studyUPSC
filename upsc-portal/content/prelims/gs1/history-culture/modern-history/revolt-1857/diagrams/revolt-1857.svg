@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="484" viewBox="0 0 960 484" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="484" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">1857 Revolt — spread &amp; causes</text>
+  <text x="30" y="54" class="s">prelims · cause/centre → leader</text>
+  <rect x="30" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="114" class="h">CAUSES</text>
+  <text x="44" y="134" class="md">Doctrine of Lapse (Dalhousie)</text>
+  <text x="44" y="151" class="md">Greased cartridges (Enfield)</text>
+  <text x="44" y="168" class="md">Annexations: Awadh 1856</text>
+  <text x="44" y="185" class="md">Racial insult + pay gaps</text>
+  <text x="44" y="202" class="md">Peasant-debt + drain</text>
+  <text x="44" y="219" class="md">Religious fears (sea voyage)</text>
+  <rect x="488" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="114" class="h">CENTRES &amp; LEADERS</text>
+  <text x="502" y="134" class="md">Kanpur: Nana Saheb + Tantia</text>
+  <text x="502" y="151" class="md">Lucknow: Begum Hazrat Mahal</text>
+  <text x="502" y="168" class="md">Jhansi: Rani Lakshmibai</text>
+  <text x="502" y="185" class="md">Bareilly: Khan Bahadur Khan</text>
+  <text x="502" y="202" class="md">Bihar: Kunwar Singh</text>
+  <text x="502" y="219" class="md">Delhi: Bahadur Shah II figurehead</text>
+  <rect x="30" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="286" class="h">BRITISH SUPPRESSION</text>
+  <text x="44" y="306" class="md">Delhi recaptured Sept 1857</text>
+  <text x="44" y="323" class="md">Jhansi fell April 1858</text>
+  <text x="44" y="340" class="md">Tantia hanged 1859</text>
+  <text x="44" y="357" class="md">Kanpur massacres both sides</text>
+  <text x="44" y="374" class="md">Oudh pacification (Campbell)</text>
+  <text x="44" y="391" class="md">Act of 1858 ends Company rule</text>
+  <rect x="488" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="286" class="h">AFTERMATH</text>
+  <text x="502" y="306" class="md">Queen Victoria Proclamation 1858</text>
+  <text x="502" y="323" class="md">Secretary of State + Viceroy</text>
+  <text x="502" y="340" class="md">Army reorg: ratio watch</text>
+  <text x="502" y="357" class="md">Princely states protected</text>
+  <text x="502" y="374" class="md">End of expansion era</text>
+  <text x="502" y="391" class="md">army divide policies deepen</text>
+  <text x="30" y="470" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

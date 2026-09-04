@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Judiciary — composition &amp; jurisdiction</text>
+  <text x="30" y="54" class="s">prelims · court → power</text>
+  <rect x="30" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="114" class="h">SUPREME COURT (124-147)</text>
+  <text x="44" y="134" class="md">CJI + 33 judges</text>
+  <text x="44" y="151" class="md">quals: HC judge 5y / HC advocate 10y / jurist</text>
+  <text x="44" y="168" class="md">collegium appointments (NJAC struck 2015)</text>
+  <text x="44" y="185" class="md">removal: special majority both houses</text>
+  <rect x="488" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="114" class="h">JURISDICTION</text>
+  <text x="502" y="134" class="md">original 131 (federal disputes)</text>
+  <text x="502" y="151" class="md">writs 32</text>
+  <text x="502" y="168" class="md">appellate 132-136 (SLP 136 widest)</text>
+  <text x="502" y="185" class="md">advisory 143</text>
+  <text x="502" y="202" class="md">review 137 + curative (rare)</text>
+  <rect x="30" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="269" class="h">HIGH COURTS (214-231)</text>
+  <text x="44" y="289" class="md">25 HCs</text>
+  <text x="44" y="306" class="md">writs 226 (any legal right — wider)</text>
+  <text x="44" y="323" class="md">superintendence 227</text>
+  <text x="44" y="340" class="md">common HC for 2+ states possible</text>
+  <rect x="488" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="269" class="h">SUBORDINATE + TRIBUNALS</text>
+  <text x="502" y="289" class="md">district judges 233-237</text>
+  <text x="502" y="306" class="md">Lok Adalats (LSA 1987)</text>
+  <text x="502" y="323" class="md">Gram Nyayalayas 2008</text>
+  <text x="502" y="340" class="md">tribunals 323A/B, Chandra Kumar: HC review survives</text>
+  <text x="30" y="436" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

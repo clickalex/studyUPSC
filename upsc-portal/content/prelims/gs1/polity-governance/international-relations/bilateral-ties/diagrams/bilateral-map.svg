@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">India Bilateral Relations — anchors</text>
+  <text x="30" y="54" class="s">prelims · partner → landmark</text>
+  <rect x="30" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="114" class="h">NEIGHBOURHOOD</text>
+  <text x="44" y="134" class="md">Bangladesh: 1971, LBA 2015</text>
+  <text x="44" y="151" class="md">Nepal: 1950 treaty, Kalapani</text>
+  <text x="44" y="168" class="md">Bhutan: 1949 treaty revised 2007</text>
+  <text x="44" y="185" class="md">Sri Lanka: 1987 IPKF, 13A</text>
+  <text x="44" y="202" class="md">Maldives: Operation Cactus 1988</text>
+  <rect x="488" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="114" class="h">MAJOR POWERS</text>
+  <text x="502" y="134" class="md">US: civil-nuclear 2008, iCET</text>
+  <text x="502" y="151" class="md">Russia: 1971 treaty legacy, S-400</text>
+  <text x="502" y="168" class="md">China: 1962 war, 2020 Galwan</text>
+  <text x="502" y="185" class="md">UK-France-Germany: strategic ties</text>
+  <rect x="30" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="269" class="h">WEST ASIA</text>
+  <text x="44" y="289" class="md">I2U2 (UAE-Israel-US)</text>
+  <text x="44" y="306" class="md">UAE CEPA 2022</text>
+  <text x="44" y="323" class="md">Saudi: strategic council</text>
+  <text x="44" y="340" class="md">Iran: Chabahar</text>
+  <text x="44" y="357" class="md">Israel: 1992 full ties</text>
+  <rect x="488" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="269" class="h">INDO-PACIFIC</text>
+  <text x="502" y="289" class="md">Quad revived 2017</text>
+  <text x="502" y="306" class="md">IMEC corridor 2023</text>
+  <text x="502" y="323" class="md">SAGAR doctrine</text>
+  <text x="502" y="340" class="md">IORA membership</text>
+  <text x="30" y="436" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

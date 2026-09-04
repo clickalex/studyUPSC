@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Company expansion 1757-1857</text>
+  <text x="30" y="54" class="s">prelims · battle/act → year</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">1757</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">PLASSEY</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">Clive; Siraj-ud-Daula</text>
+  <line x1="180.0" y1="150" x2="180.0" y2="188" class="ln"/>
+  <circle cx="180.0" cy="150" r="6" class="dot"/>
+  <text x="180.0" y="210" text-anchor="middle" class="e">1764</text>
+  <text x="180.0" y="227" text-anchor="middle" class="d">BUXAR</text>
+  <text x="180.0" y="243" text-anchor="middle" class="d">Mir Qasim-Shuja-Robert Clive</text>
+  <line x1="300.0" y1="150" x2="300.0" y2="112" class="ln"/>
+  <circle cx="300.0" cy="150" r="6" class="dot"/>
+  <text x="300.0" y="82" text-anchor="middle" class="e">1765</text>
+  <text x="300.0" y="99" text-anchor="middle" class="d">DIWANI</text>
+  <text x="300.0" y="76" text-anchor="middle" class="d">Bengal-Bihar-Odisha revenue</text>
+  <line x1="420.0" y1="150" x2="420.0" y2="188" class="ln"/>
+  <circle cx="420.0" cy="150" r="6" class="dot"/>
+  <text x="420.0" y="210" text-anchor="middle" class="e">1793</text>
+  <text x="420.0" y="227" text-anchor="middle" class="d">PERMANENT SETTLEMENT</text>
+  <text x="420.0" y="243" text-anchor="middle" class="d">Cornwallis; zamindari</text>
+  <line x1="540.0" y1="150" x2="540.0" y2="112" class="ln"/>
+  <circle cx="540.0" cy="150" r="6" class="dot"/>
+  <text x="540.0" y="82" text-anchor="middle" class="e">1813</text>
+  <text x="540.0" y="99" text-anchor="middle" class="d">Charter ends trade monopoly</text>
+  <text x="540.0" y="76" text-anchor="middle" class="d">India trade open</text>
+  <line x1="660.0" y1="150" x2="660.0" y2="188" class="ln"/>
+  <circle cx="660.0" cy="150" r="6" class="dot"/>
+  <text x="660.0" y="210" text-anchor="middle" class="e">1818</text>
+  <text x="660.0" y="227" text-anchor="middle" class="d">Marathas annexed</text>
+  <text x="660.0" y="243" text-anchor="middle" class="d">Paramountcy begins</text>
+  <line x1="780.0" y1="150" x2="780.0" y2="112" class="ln"/>
+  <circle cx="780.0" cy="150" r="6" class="dot"/>
+  <text x="780.0" y="82" text-anchor="middle" class="e">1833</text>
+  <text x="780.0" y="99" text-anchor="middle" class="d">Charter Act</text>
+  <text x="780.0" y="76" text-anchor="middle" class="d">Bentinck; centralisation</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="188" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="210" text-anchor="middle" class="e">1853</text>
+  <text x="900.0" y="227" text-anchor="middle" class="d">Last Charter</text>
+  <text x="900.0" y="243" text-anchor="middle" class="d">Railways; open competition</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>

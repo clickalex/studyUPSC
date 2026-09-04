@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="416" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Early-Medieval Powers map</text>
+  <text x="30" y="54" class="s">prelims · power → capital → inscription hook</text>
+  <rect x="30" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="44" y="114" class="h">PALAS (Bengal)</text>
+  <text x="44" y="134" class="md">8th-12th c; Gopala elected</text>
+  <text x="44" y="151" class="md">Dharmapala: Vikramashila</text>
+  <text x="44" y="168" class="md">Nalanda patronage</text>
+  <text x="44" y="185" class="md">Somapura Mahavihara</text>
+  <rect x="335" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="349" y="114" class="h">PRATIHARAS</text>
+  <text x="349" y="134" class="md">Vatsaraja-Mihira Bhoja</text>
+  <text x="349" y="151" class="md">Kannauj tripartite fight</text>
+  <text x="349" y="168" class="md">Gwalior inscription</text>
+  <text x="349" y="185" class="md">Gurjara-Pratihara shield vs Arabs</text>
+  <rect x="641" y="88" width="289" height="122" rx="10" class="card"/>
+  <text x="655" y="114" class="h">RASHTRAKUTAS</text>
+  <text x="655" y="134" class="md">Dantidurga founds</text>
+  <text x="655" y="151" class="md">Krishna I: Kailasa Ellora</text>
+  <text x="655" y="168" class="md">Amoghavarsha: Kavirajamarga</text>
+  <text x="655" y="185" class="md">Manyakheta capital</text>
+  <rect x="30" y="226" width="289" height="122" rx="10" class="card"/>
+  <text x="44" y="252" class="h">CHOLAS</text>
+  <text x="44" y="272" class="md">Vijayalaya line; Thanjavur</text>
+  <text x="44" y="289" class="md">Rajaraja I + Rajendra I</text>
+  <text x="44" y="306" class="md">local self-govt (Uttaramerur)</text>
+  <text x="44" y="323" class="md">naval: Srivijaya raid</text>
+  <rect x="335" y="226" width="289" height="122" rx="10" class="card"/>
+  <text x="349" y="252" class="h">EASTERN GANGAS</text>
+  <text x="349" y="272" class="md">Odisha; Konark temple</text>
+  <text x="349" y="289" class="md">Narasimhadeva I</text>
+  <text x="349" y="306" class="md">Jagannath Puri patronage</text>
+  <rect x="641" y="226" width="289" height="122" rx="10" class="card"/>
+  <text x="655" y="252" class="h">WESTERN CHALUKYAS etc</text>
+  <text x="655" y="272" class="md">Kalyani Chalukyas</text>
+  <text x="655" y="289" class="md">Hoyasala rise</text>
+  <text x="655" y="306" class="md">Senas end Palas</text>
+  <text x="655" y="323" class="md">Chandelas: Khajuraho</text>
+  <text x="30" y="402" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg>
