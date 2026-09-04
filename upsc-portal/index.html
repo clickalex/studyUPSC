@@ -16,7 +16,12 @@
         extend: {
           fontFamily: {
             sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
-            serif: ['"Source Serif 4"', 'Georgia', 'serif']
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            display: ['Sora', 'Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 1px 2px rgba(15,23,42,.05), 0 8px 24px -12px rgba(15,23,42,.12)',
+            lift: '0 4px 8px rgba(15,23,42,.06), 0 16px 40px -16px rgba(79,70,229,.25)'
           }
         }
       }
@@ -26,7 +31,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -38,14 +43,19 @@
   <script defer src="assets/js/app.js"></script>
 </head>
 
-<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 antialiased">
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 antialiased">
+
+  <!-- reading progress (document view) -->
+  <div id="doc-progress" class="fixed top-0 left-0 right-0 h-[3px] z-[80] pointer-events-none opacity-0 transition-opacity">
+    <div class="h-full w-0 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>
+  </div>
 
   <!-- Mobile overlay -->
-  <div id="sidebar-overlay" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-30 hidden lg:hidden"></div>
+  <div id="sidebar-overlay" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-30 hidden lg:hidden"></div>
 
   <!-- ===================== SIDEBAR ===================== -->
   <aside id="sidebar"
-         class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-slate-800/95 border-r border-slate-200 dark:border-slate-700
+         class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800
                 flex flex-col -translate-x-full lg:translate-x-0 transition-transform duration-200">
   </aside>
 
@@ -53,45 +63,53 @@
   <div class="lg:pl-72 flex flex-col min-h-screen">
 
     <!-- Topbar -->
-    <header class="sticky top-0 z-20 bg-slate-50/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-200 dark:border-slate-700">
-      <div class="flex items-center gap-3 px-4 sm:px-6 h-14">
+    <header class="sticky top-0 z-20 bg-white/85 dark:bg-slate-950/85 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+      <div class="h-[3px] bg-gradient-to-r from-indigo-600 via-violet-500 to-amber-400"></div>
+      <div class="flex items-center gap-3 px-4 sm:px-6 h-16">
         <button id="sidebar-toggle" aria-label="Toggle navigation"
-                class="lg:hidden p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700">
+                class="lg:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
         </button>
 
-        <a href="#/" class="font-extrabold text-lg tracking-tight text-slate-900 dark:text-white">
-          study<span class="text-amber-500">UPSC</span>
+        <a href="#/" class="flex items-center gap-2.5 group">
+          <span class="brand-tile">SU</span>
+          <span class="font-display font-extrabold text-lg tracking-tight text-slate-900 dark:text-white">
+            study<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-violet-500">UPSC</span>
+          </span>
         </a>
-        <span class="hidden sm:inline text-[11px] font-semibold uppercase tracking-wider text-slate-400 border border-slate-200 dark:border-slate-700 rounded-full px-2 py-0.5">
-          IAS · IPS · IFS
+        <span class="hidden sm:inline text-[10px] font-bold uppercase tracking-[0.14em] text-slate-400 border border-slate-200 dark:border-slate-700 rounded-full px-2.5 py-1">
+          CSE · IAS · IPS · IFS
         </span>
 
         <div class="flex-1"></div>
 
-        <button onclick="openSearch()" class="hidden md:flex items-center gap-2 text-[13px] text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-1.5 hover:border-amber-400 transition-colors w-56">
-          <span>🔍</span><span class="flex-1 text-left truncate">Search syllabus &amp; notes…</span>
+        <button onclick="openSearch()" class="hidden md:flex items-center gap-2 text-[13px] text-slate-500 dark:text-slate-400 bg-slate-100/80 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl px-3.5 py-2 hover:border-indigo-400 dark:hover:border-indigo-500 transition-colors w-64 shadow-sm">
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/></svg>
+          <span class="flex-1 text-left truncate">Search syllabus, notes, PYQs…</span>
           <kbd class="kbd">Ctrl K</kbd>
         </button>
-        <button onclick="openSearch()" class="md:hidden p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" aria-label="Search">
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Search">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/>
           </svg>
         </button>
-        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" aria-label="Toggle dark mode"></button>
-        <a href="#/tracker" class="hidden sm:flex p-2 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-700" title="Revision tracker">✅</a>
+        <a href="#/tracker" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 rounded-xl px-2.5 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Revision tracker">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.5 11 14.5 15 10.5M12 3a9 9 0 1 0 0.0001 0z"/></svg>
+          Tracker
+        </a>
+        <button id="theme-toggle" class="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Toggle dark mode"></button>
       </div>
     </header>
 
     <!-- Page content -->
     <main id="app" class="flex-1"></main>
 
-    <footer class="border-t border-slate-200 dark:border-slate-700 mt-10">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-5 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-2">
-        <span>📚 studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
-        <span>Progress is stored locally in your browser. <a class="hover:text-amber-500 underline" href="#/tracker">Tracker</a> · <a class="hover:text-amber-500 underline" href="#/search">Search</a></span>
+    <footer class="border-t border-slate-200 dark:border-slate-800 mt-12 bg-white/60 dark:bg-slate-900/40">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-3">
+        <span class="flex items-center gap-2"><span class="brand-tile brand-tile-sm"></span> studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
+        <span>Progress is stored locally in your browser. <a class="hover:text-indigo-500 underline underline-offset-2" href="#/tracker">Tracker</a> · <a class="hover:text-indigo-500 underline underline-offset-2" href="#/search">Search</a></span>
       </div>
     </footer>
   </div>
