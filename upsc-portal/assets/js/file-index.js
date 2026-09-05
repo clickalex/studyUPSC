@@ -3786,7 +3786,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes/climatology-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6036,
+  "size": 17020,
   "nav": "prelims-gs1/geography/physical-geography/climatology/notes"
  },
  {
@@ -5847,7 +5847,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes/defence-nuclear-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5417,
+  "size": 15590,
   "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/notes"
  },
  {
@@ -12460,7 +12460,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/climatology/detailed-notes/climatology-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6036,
+    "size": 17020,
     "nav": "prelims-gs1/geography/physical-geography/climatology/notes"
    }
   ]
@@ -15895,7 +15895,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/emerging-tech/defence-nuclear/detailed-notes/defence-nuclear-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5417,
+    "size": 15590,
     "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear/notes"
    }
   ]
