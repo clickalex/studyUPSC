@@ -3345,7 +3345,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes/pollution-waste-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5664,
+  "size": 16590,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/notes"
  },
  {
@@ -5442,7 +5442,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes/global-groups-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5707,
+  "size": 16878,
   "nav": "prelims-gs1/polity-governance/international-relations/global-groups/notes"
  },
  {
@@ -11725,7 +11725,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/pollution-waste/detailed-notes/pollution-waste-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5664,
+    "size": 16590,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste/notes"
    }
   ]
@@ -15220,7 +15220,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/global-groups/detailed-notes/global-groups-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5707,
+    "size": 16878,
     "nav": "prelims-gs1/polity-governance/international-relations/global-groups/notes"
    }
   ]
