@@ -2553,7 +2553,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes/capital-markets-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5701,
+  "size": 15514,
   "nav": "prelims-gs1/economy/financial-markets/capital-markets/notes"
  },
  {
@@ -3156,7 +3156,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes/biodiversity-india-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5689,
+  "size": 16032,
   "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/notes"
  },
  {
@@ -10405,7 +10405,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/financial-markets/capital-markets/detailed-notes/capital-markets-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5701,
+    "size": 15514,
     "nav": "prelims-gs1/economy/financial-markets/capital-markets/notes"
    }
   ]
@@ -11410,7 +11410,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/ecology-biodiversity/biodiversity-india/detailed-notes/biodiversity-india-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5689,
+    "size": 16032,
     "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india/notes"
    }
   ]
