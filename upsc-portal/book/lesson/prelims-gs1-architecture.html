@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1.1.15 Architecture: Temple Styles, Forts &amp; Monuments · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part I — GS Paper I — General Studies (Prelims) · Chapter 1: History &amp; Indian Culture</p>
+<p class="bk-eyebrow">Lesson 1.1.15</p>
+<h1 id="lesson-prelims-gs1-architecture">Architecture: Temple Styles, Forts &amp; Monuments</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Four exam arenas: stupas &amp; caves, temple styles, Indo-Islamic, modern-colonial. Every question is a match-the-pair.</p></blockquote>
+<h3 id="stupa-cave">1. Stupas &amp; caves</h3>
+<ul><li><strong>Stupa anatomy</strong>: anda (dome) on medhi, harmika railing-box, chhatra umbrellas, vedika railing, torana gates (Sanchi's four — Satavahana-era carvings: Jatakas, aniconic Buddha).</li><li>Sequence: Ashoka core (Sanchi-1, Bharhut, Piprahwa relic-claims) → Sunga railings → Satavahana gates (Sanchi) → Amaravati (white-marble narrative, Satavahana-Ikshvaku) → Gandhara dharmarajika (Kanishka's relic chambers).</li><li><strong>Caves</strong>: Barabar (Ashoka, Lomas Rishi chaitya-arch facade — earliest) → western chaitya-vihara schools (Bhaja, Kondane, Karle — Karle chaitya grandest, Nashik Pandav leni inscriptions of Gautamiputra/Ushavadata) → Ajanta (Hinayana + Mahayana phases: 9,10,12,13 early; 1,2,16,17 Vakataka) → Ellora (Buddhist-Hindu-Jain; Kailasa temple 16 — Rashtrakuta Krishna I, monolithic) → Elephanta (Shiva panels — Rashtrakuta attribution) → Jain rows (Gwalior, Ellora 30-34).</li></ul>
+<h3 id="temple-styles">2. Temple styles</h3>
+<table><thead><tr><th>Style</th><th>Signature</th><th>Anchors</th></tr></thead><tbody>
+<tr><td>Nagara</td><td>Curvilinear shikhara, amalaka-kalasha, panchayatana</td><td>Khajuraho Kandariya (Chandelas); Odisha: Lingaraja, Konark Sun-wheel (Ganga Narasimhadeva I); Solanki Modhera; Masrur monolith</td></tr>
+<tr><td>Dravida</td><td>Pyramidal vimana, gopuram, mandapas</td><td>Pallava rathas + Shore (Narasimhavarman I/II, Mamalla/Mamallapuram); Chola Brihadeshwara (Rajaraja I, 1010) + Gangaikondacholapuram; Pandya gopurams; Vijayanagara-Nayaka additions (Madurai)</td></tr>
+<tr><td>Vesara</td><td>Hybrid; star-plans (Hoysala)</td><td>Chalukya Badami + <strong>Pattadakal</strong> (UNESCO — both styles side-by-side); Rashtrakuta Kailasa; Hoysaleswara Halebidu, Chennakesava Belur, Keshava Somnathpur</td></tr>
+</tbody></table>
+<h3 id="indo-islamic">3. Indo-Islamic arc</h3>
+<ul><li>Sultanate: Qutub Minar (Iltutmish completes; Aibak begins), <strong>Alai Darwaza (Alauddin — first true arch + dome finishing)</strong>, Tughlaq battered walls + sloping, Khirki mosque (Khan-i-Jahan), Lodi octagonal tomb-gardens (first garden tombs), Jaunpur Sharqui, Bengal curved-roof (Adina mosque, Pandua), Gujarat white-marble blends.</li><li>Mughal: <strong>Humayun's tomb</strong> (first grand garden tomb, charbagh), Purana Qila, <strong>Akbar: Fatehpur Sikri</strong> (Buland Darwaza; Panch Mahal, Diwan-i-Khas pillar; red sandstone + Gujarati-Chaulukya brackets), Allahabad/Agra forts, <strong>Shah Jahan: Taj</strong> (1632-53; <strong>pietra dura</strong>, double dome), Jama Masjid, Red Fort (Diwan-i-Am/Khas, Rang Mahal), Shalimar (Lahore); Sikh: Harmandir Sahib (gold leaf — Ranjit Singh era); Rajput: Amber, Mehrangarh, Udaipur palaces.</li><li>Colonial: classical revival (Victoria Memorial — Indo-Saracenic hybrid is different: Chepauk, Gateway of India, Lutyens' New Delhi blend — Viceroy's House dome).</li></ul>
+<h3 id="mcq-hooks">MCQ hooks</h3>
+<ul><li>First true arch/dome → Alai Darwaza; first garden tomb → Humayun's; charbagh peak → Taj.</li><li>Pietra dura (parchin kari) = Taj inlay; panch mahal = Fatehpur Sikri.</li><li>Kailasa (Ellora 16) carved top-down monolith = Krishna I.</li><li>Stupa 'anda-harmika-chhatra' order asked verbatim.</li><li>Konark wheels = sundial function; jagamohana type = deul pair (Odisha: rekha deul + pidha deul).</li><li>Hoysala star platform + soapstone = Vesara terminal glory.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>Prelims GS-I › History &amp; Culture › Art &amp; Culture. Style-identification by feature is the exam's approach; learn the vocabulary first.</p></blockquote>
+<h3 id="temple-styles-shilpa-texts-nagara-north-dravida-south-vesara-deccan">Temple styles (Shilpa texts: <em>Nagara</em> north, <em>Dravida</em> south, <em>Vesara</em> Deccan)</h3>
+<table><thead><tr><th>Feature</th><th>Nagara</th><th>Dravida</th><th>Vesara</th></tr></thead><tbody><tr><td>Superstructure</td><td><em>shikhara</em> curvilinear (rekha-prasada); <em>amalaka + kalasha</em> on top</td><td><em>vimana</em> pyramidal storeys (<em>talas</em>); <em>stupi/shikhara</em> octagonal cap</td><td>hybrid; shorter vimana</td></tr><tr><td>Enclosure</td><td>usually none</td><td>high walls, <strong>gopuram</strong> gateways, tank</td><td>—</td></tr><tr><td>Plan</td><td><em>panchayatana</em>; <em>garbhagriha, antarala, mandapa, ardha/maha-mandapa</em></td><td><em>garbhagriha, antarala, mandapa</em>, <em>Nandi mandapa</em>, <em>dvarapalas</em></td><td>stellate plans (Hoysala)</td></tr><tr><td>Sub-schools</td><td><strong>Odisha/Kalinga</strong> (<em>deul</em>, <em>jagamohana</em>, <em>rekha/pidha/khakhara deul</em>; Lingaraja, Konark, Jagannath, Mukteshwar), <strong>Khajuraho/Chandela</strong> (Kandariya Mahadeva; sandstone; erotic panels; high <em>jagati</em>), <strong>Solanki/Maru-Gurjara</strong> (Modhera Sun; Dilwara — marble), <em>latina, phamsana, valabhi</em> shikhara types</td><td>Pallava (rock-cut Mahabalipuram <em>rathas</em>, Shore temple; structural Kanchi Kailasanatha), Chola (Brihadishvara 1010 — 66 m vimana, monolithic 80-ton <em>shikhara</em>), Pandya (gopuram emphasis), Vijayanagara (<em>kalyana mandapa</em>, <em>raya gopuram</em>, Vitthala), Nayaka (Madurai Meenakshi — <em>prakaras</em>, 1000-pillar hall)</td><td>Chalukya (Badami rock-cut; Aihole — Durga (apsidal), Ladkhan; Pattadakal — Virupaksha (Dravida), Papanatha (Nagara)), Rashtrakuta (Kailasa Ellora), <strong>Hoysala</strong> (Belur Chennakeshava, Halebidu Hoysaleshwara, Somnathpur; soapstone; stellate; UNESCO 2023)</td></tr></tbody></table>
+<ul><li>Others: <strong>Kashmir</strong> (Martand Sun — Lalitaditya; trefoil arches, pyramidal roofs), Bengal (<em>chala</em> &amp; <em>ratna</em> terracotta — Bishnupur), Kerala (sloping roofs, circular <em>sreekovil</em>), Himachal (pagoda — Hidimba).</li><li>Cave &amp; stupa: Barabar (Maurya) → Bhaja, Karle, Kanheri (<em>chaitya</em> with wooden ribs; <em>vihara</em>) → Ajanta (1–29; 9 &amp; 10 Satavahana chaityas; 16, 17, 19 Vakataka; murals), Ellora (34: 1–12 Buddhist, 13–29 Hindu, 30–34 Jain; Kailasa cave 16), Elephanta (Trimurti), Udayagiri-Khandagiri (Jain, Kharavela), Bagh, Badami. Stupa parts: <em>anda, harmika, yashti, chhatra, medhi, vedika, torana, pradakshina patha</em>; Sanchi (Ashoka; Shunga railing; Satavahana gateways), Bharhut, Amaravati, Dhamek (Sarnath, Gupta), Piprahwa, Kesariya (largest), Kanaganahalli.</li></ul>
+<h3 id="indo-islamic-arch-dome-minaret-pietra-dura-jali-charbagh">Indo-Islamic (arch, dome, minaret, <em>pietra dura</em>, <em>jali</em>, <em>charbagh</em>)</h3>
+<ul><li>Sultanate: Qutb complex (Aibak-Iltutmish; Alai Darwaza 1311), Tughlaq batter (Tughlaqabad, Firoz Shah Kotla), Lodi octagonal tombs &amp; double dome (Lodi Gardens, Sikandar Lodi).</li><li>Provincial: Bengal (Adina mosque Pandua; <em>bangla</em> roof), Jaunpur (Atala — propylon screens), Gujarat (Jama Masjid Ahmedabad; Sidi Saiyyed <em>jali</em>; Sarkhej), Malwa (Mandu — Jahaz Mahal, Hindola Mahal), Bijapur (Gol Gumbaz — 2nd largest dome; Ibrahim Rauza), Golconda (Charminar 1591), Bidar (Gawan madrasa).</li><li>Mughal: Humayun's tomb (charbagh prototype), Fatehpur Sikri (red sandstone; Buland Darwaza; Salim Chishti tomb marble), Agra fort, Akbar's tomb Sikandra, Itimad-ud-Daula (<em>pietra dura</em>), Taj Mahal (Ustad Ahmad Lahauri; 1632–53), Red Fort &amp; Jama Masjid Delhi, Badshahi Lahore, Bibi ka Maqbara (1660s).</li><li>Sikh: Harmandir Sahib 1589–1604 (Guru Arjan; gold Ranjit Singh 1830). Rajput: Chittor (Kirti Stambh Jain 12th c., <strong>Vijay Stambh</strong> 1448 Rana Kumbha), Kumbhalgarh (36-km wall), Amber, Mehrangarh, Jaisalmer, Hawa Mahal 1799 (Pratap Singh; Lal Chand Ustad), Jantar Mantar (Jai Singh II; 5 — Delhi, Jaipur (UNESCO), Ujjain, Varanasi, Mathura lost). Stepwells: Rani ki Vav (11th c., UNESCO 2014), Chand Baori (Abhaneri, 9th c.), Adalaj (1499).</li></ul>
+<h3 id="colonial">Colonial</h3>
+<ul><li>Indo-Saracenic (Chepauk, Victoria Memorial (Emerson), Gateway of India (Wittet, 1924), Madras High Court, Mysore Palace (Irwin)), Gothic revival (CST Mumbai — Stevens, UNESCO 2004; Bombay University), neoclassical (Raj Bhavan Kolkata, Town Hall Mumbai), <strong>New Delhi</strong> (Lutyens — Rashtrapati Bhavan (Sanchi-style dome); Baker — Secretariats, Parliament House 1927), Art Deco Marine Drive (UNESCO 2018), Portuguese Goa churches (Bom Jesus — Xavier relics; Se Cathedral), French Pondicherry.</li></ul>
+<h3 id="unesco-recent-india-total-43-as-of-2024">UNESCO recent (India total <strong>43</strong> as of 2024)</h3>
+<ul><li>2021 Dholavira &amp; Ramappa (Kakatiya Rudreshwara) · 2023 Santiniketan &amp; Hoysala ensembles · 2024 <strong>Moidams (Charaideo, Ahom)</strong> · Tentative list items keep appearing in news (Maratha Military Landscapes — inscribed 2025).</li></ul>
+<h3 id="traps">Traps</h3>
+<ul><li><em>Gopuram</em> dominance grows <strong>later</strong> (Pandya/Nayaka), not in early Pallava temples.</li><li>Konark is a <strong>Sun</strong> temple of the <strong>Eastern Gangas</strong> (Narasimhadeva I) — not Chola.</li><li>Gol Gumbaz is <strong>Bijapur</strong> (Adil Shahi), Charminar <strong>Golconda</strong> (Qutb Shahi).</li><li>Hoysala temples use <strong>soapstone (chloritic schist)</strong>; Khajuraho <strong>sandstone</strong>; Dilwara <strong>marble</strong>.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Match-pair drills.</p></blockquote>
+<h3 id="pairs-flash">Pairs flash</h3>
+<ul><li>Lomas Rishi chaitya-arch → Barabar (Ashoka) · grandest chaitya → Karle.</li><li>Sanchi toranas → Satavahana carvings · Amaravati → white marble narrative.</li><li>Kailasa Ellora → Krishna I (Rashtrakuta), top-down · Elephanta Shiva → Rashtrakuta line.</li><li>Kandariya → Chandelas · Konark → Eastern Gangas · Modhera → Solankis.</li><li>Brihadeshwara → Rajaraja I 1010 · Gangaikondacholapuram → Rajendra I.</li><li>Pattadakal → Chalukya (UNESCO) · Belur-Halebidu → Hoysala star plans.</li><li>Alai Darwaza → first true arch+gate dome · sloping walls → Tughlaqs.</li><li>First garden tomb → Humayun's · Buland Darwaza → Fatehpur Sikri (Akbar).</li><li>Pietra dura → Taj · Panch Mahal → Fatehpur Sikri · Peacock throne → Shah Jahan.</li><li>Adina mosque → Bengal Pandua · curved roofs → Bengal style · Victoria Memorial → Indo-Saracenic.</li></ul>
+<h3 id="order-flash">Style-order flash</h3>
+<ul><li>Stupa anatomy: medhi → anda → harmika → chhatra; gates = torana, railing = vedika.</li><li>Nagara = shikhara/amalaka; Dravida = vimana/gopuram; Vesara = hybrid/star.</li><li>Odisha temple pair: rekha deul (sanctum) + pidha deul (hall).</li></ul>
+<h3 id="trap-flash">Trap flash</h3>
+<ul><li>Qutub Minar begun by Aibak, finished by Iltutmish (Firoz repaired top).</li><li>Shore Temple = Narasimhavarman II (Rajasimha), not Mamalla I.</li><li>Ajanta ≠ Ellora: Ajanta = Buddhist only; Ellora = tri-faith.</li><li>First true arch in Sultanate masonry = Alai Darwaza (Alauddin).</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="484" viewBox="0 0 960 484" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="484" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Temple Styles — Nagara · Dravida · Vesara</text>
+  <text x="30" y="54" class="s">prelims · match style → features → examples</text>
+  <rect x="30" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="114" class="h">NAGARA (North)</text>
+  <text x="44" y="134" class="md">Curvilinear shikhara</text>
+  <text x="44" y="151" class="md">Amalaka + kalasha crown</text>
+  <text x="44" y="168" class="md">Panchayatana layouts</text>
+  <text x="44" y="185" class="md">Khajuraho: Kandariya</text>
+  <text x="44" y="202" class="md">Odisha: Lingaraja, Konark</text>
+  <text x="44" y="219" class="md">Solanki: Modhera (Sun)</text>
+  <rect x="488" y="88" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="114" class="h">DRAVIDA (South)</text>
+  <text x="502" y="134" class="md">Pyramidal vimana tiers</text>
+  <text x="502" y="151" class="md">Gopuram gateway grows</text>
+  <text x="502" y="168" class="md">Pallava rathas (Mamalla)</text>
+  <text x="502" y="185" class="md">Chola: Brihadeshwara 1010</text>
+  <text x="502" y="202" class="md">Pandya: tall gopurams</text>
+  <text x="502" y="219" class="md">Nayaka: kalyana mandapas</text>
+  <rect x="30" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="44" y="286" class="h">VESARA (Deccan)</text>
+  <text x="44" y="306" class="md">Nagara-Dravida hybrid</text>
+  <text x="44" y="323" class="md">Chalukya: Badami, Pattadakal</text>
+  <text x="44" y="340" class="md">Rashtrakuta: Kailasa (Ellora)</text>
+  <text x="44" y="357" class="md">Hoysala: star platforms</text>
+  <text x="44" y="374" class="md">Belur, Halebidu, Somnathpur</text>
+  <text x="44" y="391" class="md">Soapstone, lathe pillars</text>
+  <rect x="488" y="260" width="442" height="156" rx="10" class="card"/>
+  <text x="502" y="286" class="h">MATCH TRAPS</text>
+  <text x="502" y="306" class="md">Kailasa Ellora = Rashtrakuta</text>
+  <text x="502" y="323" class="md">Shore temple = Narasimhavarman II</text>
+  <text x="502" y="340" class="md">Brihadeshwara = Rajaraja I</text>
+  <text x="502" y="357" class="md">Khajuraho = Chandelas</text>
+  <text x="502" y="374" class="md">Pattadakal = UNESCO, both styles</text>
+  <text x="502" y="391" class="md">Gopuram ≠ shikhara</text>
+  <text x="30" y="470" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>8 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
+<p><strong>Q1.</strong> Which of the following is a feature of the Nagara style rather than Dravida? (a) Enclosure walls with gopurams (b) Curvilinear shikhara topped by an amalaka (c) Storeyed pyramidal vimana (d) A temple tank within the complex</p>
+<p><strong>Q2.</strong> Consider the Hoysala temples: 1. Built mainly of soapstone. 2. Have stellate (star-shaped) plans. 3. Belur and Halebidu were inscribed as UNESCO sites in 2023. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q3.</strong> Match: A. Rekha deul — 1. Khajuraho · B. Panchayatana on high jagati — 2. Odisha · C. Trefoil arches — 3. Kashmir (a) A-2 B-1 C-3 (b) A-1 B-2 C-3 (c) A-3 B-1 C-2 (d) A-2 B-3 C-1</p>
+<p><strong>Q4.</strong> At Ellora, the Kailasa temple is cave number: (a) 10 (b) 12 (c) 16 (d) 29</p>
+<p><strong>Q5.</strong> The "double dome" technique in India appears first in: (a) Alai Darwaza (b) Sikandar Lodi's tomb (c) Humayun's tomb (d) Taj Mahal</p>
+<p><strong>Q6.</strong> Which site was inscribed on the UNESCO World Heritage list in 2024? (a) Santiniketan (b) Moidams of the Ahom dynasty (c) Dholavira (d) Ramappa temple</p>
+<p><strong>Q7.</strong> Consider the Pallava monuments at Mahabalipuram: 1. The Pancha Rathas are monolithic rock-cut structures. 2. The Shore temple is a structural temple. 3. They were commissioned by Rajaraja Chola. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q8.</strong> The Vijay Stambh at Chittorgarh was erected by: (a) Rana Sanga (b) Rana Kumbha (c) Rana Pratap (d) Rana Hammir</p>
+<h3 id="answer-key">Answer key</h3>
+<table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>The other three are Dravida markers.</td></tr><tr><td>2</td><td>d</td><td>All three correct.</td></tr><tr><td>3</td><td>a</td><td>Odisha deul types; Chandela jagati; Kashmir Martand.</td></tr><tr><td>4</td><td>c</td><td>Cave 16, Rashtrakuta Krishna I.</td></tr><tr><td>5</td><td>b</td><td>Lodi Gardens, early 16th c.; perfected in Humayun's tomb.</td></tr><tr><td>6</td><td>b</td><td>Charaideo Moidams, Assam — 43rd Indian site.</td></tr><tr><td>7</td><td>a</td><td>Pallavas — Narasimhavarman I &amp; II; not Chola.</td></tr><tr><td>8</td><td>b</td><td>1448, after victory over Mahmud Khalji of Malwa.</td></tr></tbody></table>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="prelims-gs1-post-mauryan-gupta.html"><span class="lb">← Previous</span>Post-Mauryan &amp; Gupta Empire</a>
+<a class="r" href="prelims-gs1-painting.html"><span class="lb">Next →</span>Painting: Miniature, Mughal &amp; Modern Schools</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

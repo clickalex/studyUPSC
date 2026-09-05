@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7.10.1 Case Studies (classroom &amp; exam case analysis) · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part VII — General Studies IV · Chapter 10: Case Studies (classroom &amp; exam case analysis)</p>
+<p class="bk-eyebrow">Lesson 7.10.1</p>
+<h1 id="lesson-gs-4-case-studies">Case Studies (classroom &amp; exam case analysis)</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p><strong>Syllabus slot:</strong> GS Paper IV · Part B (125 marks) — case studies on ethical dilemma, governance, probity, conflict of interest, crisis ethics. Method here: framework + two fully worked cases.</p></blockquote>
+<h3 id="1-what-the-examiner-rewards">1. What the Examiner Rewards</h3>
+<ul><li>Structure over sermonising — a visible decision process.</li><li>Stakeholder completeness — who gains, who pays, who decides.</li><li>Option analysis — at least three real options, honestly weighed.</li><li>Constitutional anchoring — law and constitutional morality as the floor.</li><li>Practicality — a course of action an officer can actually execute, with safeguards.</li></ul>
+<h3 id="2-the-7-step-framework">2. The 7-Step Framework (write these as sub-headings)</h3>
+<ol>
+<li><strong>Facts</strong> — restate in three lines; flag what is unknown (say what you would verify).</li>
+<li><strong>Ethical issues &amp; dilemmas</strong> — name the value clash (integrity vs loyalty; transparency vs privacy).</li>
+<li><strong>Stakeholders</strong> — affected parties with their stakes; include the silent ones (future generations, the poor).</li>
+<li><strong>Options</strong> — minimum three: compliant/deliberate/creative; include "do nothing" to reject it explicitly.</li>
+<li><strong>Evaluation</strong> — test options: legality, public interest, proportionality, precedent, sustainability, conscience.</li>
+<li><strong>Decision &amp; implementation</strong> — chosen option + steps, sequence, documentation.</li>
+<li><strong>Defence &amp; safeguards</strong> — anticipate attack lines; add review, audit, sunset clauses.</li>
+</ol>
+<h3 id="3-worked-case-1-the-whistle-or-the-file">3. Worked Case 1 — The Whistle or the File</h3>
+<blockquote><p>You are a Deputy Secretary. You discover that a flagship scheme's district reports overstate coverage; your Additional Secretary hints you should "not rock the boat" before a global audit. Junior officers who objected earlier were transferred.</p></blockquote>
+<ul>
+<li><strong>Facts:</strong> falsified coverage data; subtle pressure; prior transfers signal retaliation risk. Verify: field sample, MIS vs ground audit.</li>
+<li><strong>Dilemmas:</strong> integrity &amp; public interest vs organisational loyalty and career; truth vs diplomacy.</li>
+<li><strong>Stakeholders:</strong> intended beneficiaries (lose entitlement), ministry, audit institution, whistleblowers, international partners.</li>
+<li><strong>Options:</strong> (i) comply silently — rejected: abets deception, personal liability; (ii) resign loudly — keeps integrity but abandons inside influence; (iii) record objections in file + correct data + brief audit truthfully + use Whistle Blower Protection route if pressed — combines influence with integrity.</li>
+<li><strong>Evaluation:</strong> (iii) passes legality, proportionality, precedent and sustainability; preserves evidence trail.</li>
+<li><strong>Decision:</strong> written noting on record, corrected annexures, honest audit briefing; if overruled, escalate to CVC/competent authority under whistle-blower norms.</li>
+<li><strong>Safeguards:</strong> maintain personal copies lawfully, avoid leaks to press before institutional routes, seek batch/association support, protection application.</li>
+</ul>
+<h3 id="4-worked-case-2-flood-prioritisation">4. Worked Case 2 — Flood Prioritisation</h3>
+<blockquote><p>Rising floodwater; one helicopter sortie left tonight. Village A: 400 people, politically vocal, near the MLA's home. Village B: 150 people of a remote hamlet, mostly elderly, no road access, cut off within hours.</p></blockquote>
+<ul><li><strong>Dilemmas:</strong> utilitarian headcount vs duty to the most vulnerable; visibility bias vs need.</li><li><strong>Stakeholders:</strong> both villages, the administration's credibility, media, the elderly who cannot self-evacuate.</li><li><strong>Options:</strong> (i) A (numbers, access) — abandons those least able to help themselves; (ii) B (need) — largest number exposed; (iii) sorties split: B tonight (imminent isolation + vulnerability), A at first light with boats pre-positioned, NDRF communication maintained — need-based triage, not vote-based.</li><li><strong>Evaluation:</strong> (iii) maximises lives saved under constraint; criterion = urgency × vulnerability × alternative means, not noise.</li><li><strong>Implementation:</strong> public reasoning announced (transparency), boats dispatched to A, night communication with B, log every decision.</li><li><strong>Safeguard:</strong> post-crisis social audit of the triage protocol so the next DC inherits a rule, not an anecdote.</li></ul>
+<h3 id="5-common-pitfalls">5. Common Pitfalls</h3>
+<ul><li>Moralising without process (no headings, no options).</li><li>Heroics — resignations and press conferences as first resort.</li><li>Ignoring law — "I will do what feels right" fails; cite the rule, the Act, the oath.</li><li>Vague implementation — no timeline, no records, no audit.</li></ul>
+<h3 id="6-answer-writing-pointers">6. Answer-writing Pointers</h3>
+<ul><li>Use the 7 headings verbatim as sub-headings; examiners scan structure.</li><li>One ethical-test table per case beats a paragraph of prose.</li><li>End with an institutional safeguard — convert personal virtue into system design.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<h3 id="the-template-every-case-uses-this">The template (every case uses this)</h3>
+<ol><li><strong>Dilemma wording</strong> — name the tension (legality vs compassion; loyalty vs conscience; efficiency vs equity).</li><li><strong>Stakeholder map</strong> — list who bears costs/benefits; mark the least-advantaged.</li><li><strong>Option set</strong> — realistic 3–4 options, avoid strawman extremes ("do nothing"/"resign on the spot").</li><li><strong>Filter stack</strong> — legality → deontological (duty/norm) → consequentialist (outcome) → virtue (character) → care (relationships).</li><li><strong>Decision + principle statement</strong> — pick, and say the principle honoured.</li><li><strong>Documentation &amp; escalation</strong> — written orders, file notes, vigilance/audit escalation paths.</li><li><strong>Systemic fix</strong> — SOP/code change, training, transparency dashboard — show the "institutional-learning" move.</li><li><strong>Message to institution</strong> — one-line closure: what your action signals about integrity standards.</li></ol>
+<h3 id="high-yield-case-archetypes-with-model-hinges">High-yield case archetypes with model hinges</h3>
+<h4 id="illegal-orders">Illegal orders</h4>
+<p>Ask for written instructions; document dissent; escalate via vigilance hierarchy; last-resort paths (resignation after remedies). Never implement illegal orders on oral pressure.</p>
+<h4 id="conflict-of-interest-family-member-bidder">Conflict of interest (family member bidder)</h4>
+<p>Recuse; declare; get independent committee; file-note stamp; offer peer-review by senior colleague.</p>
+<h4 id="service-delivery-triage-under-scarcity-oxygen-bed-drug">Service-delivery triage under scarcity (oxygen/bed/drug)</h4>
+<p>Publish criteria <em>ex ante</em> (medical-priority logic); real-time inventory dashboard; appeal panel; equity audit post-event; compensating follow-through (mobile support to peripheral facilities).</p>
+<h4 id="land-acquisition-resistance-tribal-forest-zones">Land acquisition resistance (tribal/forest zones)</h4>
+<p>Verify FRA Gram Sabha consent first; cumulative impact assessment; benefit-sharing; independent monitors; timeline discipline without coercion; refusal remains a legitimate outcome if consent absent.</p>
+<h4 id="whistleblower-asymmetry-junior-spots-fraud">Whistleblower asymmetry (junior spots fraud)</h4>
+<p>Protected disclosure paths (WPA 2014); interim payment freezes; audit engagement; no premature media leak; watch-dog insulation.</p>
+<h4 id="grievance-overload-municipality-under-flood-of-complaints">Grievance overload (municipality under flood of complaints)</h4>
+<p>Triage queue design; oldest-first discipline; zero-backlog days; SLA publication; grievance-analytics to root-cause boards.</p>
+<h3 id="answer-form-steps-for-paper">Answer-form steps for paper</h3>
+<ul><li>Write "Ethical issue(s)" and "Stakeholders" as explicit mini-headers (UPSC examiners reward visible structure).</li><li>Many marks hinge on a clear <strong>decision + justification</strong> in 4–6 lines near the end. Bold the decision phrase.</li><li>Close with institutional suggestion ≤2 lines (names an instrument: RTI, Lokpal, Sevottam, IEM, social audit).</li></ul>
+<h3 id="common-fallacies-to-dodge">Common fallacies to dodge</h3>
+<ul><li>Heroic individualisation ("resign instantly") — process-first beats martyrdom.</li><li>Order-obedience absolutism — blind compliance = Arendt's warning.</li><li>Ends-purity absolutism — "the public good erased the need to follow process": scored-down answers.</li><li>Benefits-only framing — impacts on least-advantaged must be on paper, not assumed.</li></ul>
+<h3 id="practice-cadence">Practice cadence</h3>
+<ul><li>3 case-studies/week, 25 minutes each; self-mark using the template; swap with a peer every fortnight.</li><li>Maintain a scrapbook of 2019–2025 administrative-ethics episodes (oxygen crises, land conflicts, procurement debates) mapped to the template.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>60-second revision card — the answering machine.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>CASE ANSWER (20 marks, ~15 min)
+├── Facts (3 lines + what to verify)
+├── Ethical issues/dilemma (name the clash)
+├── Stakeholders (incl. silent: poor, future)
+├── Options (≥3 + reject "do nothing")
+├── Evaluation (legality · public interest · proportionality
+│              precedent · sustainability · conscience)
+├── Decision + implementation steps
+└── Defence + safeguards (audit, sunset, review)</code></pre>
+<h3 id="ethical-quick-tests">Ethical quick tests</h3>
+<ul><li><strong>Legality</strong> — is it within the Act/Rules/oath?</li><li><strong>Front-page test</strong> — would I defend it in print?</li><li><strong>Reversibility</strong> — can the affected party undo the harm?</li><li><strong>Universality</strong> — if every officer did this, what happens?</li><li><strong>Weakest-party test</strong> — who is worst hit and can they be heard?</li></ul>
+<h3 id="scoring-moves">Scoring moves</h3>
+<ul><li>Name the dilemma in the language of values (integrity vs loyalty), not drama.</li><li>Record, document, audit — the three institutional verbs.</li><li>Escalate through routes (file → superior → CVC/Lokpal), not through media first.</li><li>Add a line converting virtue into system: "institutionalise the protocol via SOP."</li></ul>
+<h3 id="pitfall-flags">Pitfall flags</h3>
+<ul><li>No heroics (resignation/press conference as first move).</li><li>No illegality even for good ends; emergency powers exist — cite them.</li><li>Never leave stakeholders unstated, especially the voiceless.</li><li>Don't exceed structure: markers scan headings, options and decision.</li></ul>
+<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<ul><li>"Process is the conscience of administration."</li><li>"Choose the option you could defend with the file open."</li><li>"Convert the personal dilemma into an institutional rule."</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .n{font-size:22px;font-weight:800;fill:#f59e0b}
+      .h{font-size:13.5px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="440" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">The GS-4 case-study pipeline — seven headings, fifteen minutes</text>
+  <text x="30" y="56" class="s">structure is the conscience of the answer: examiners scan headings, options, decision</text>
+  <g>
+    <rect x="28" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="44" y="116" class="n">1</text><text x="70" y="116" class="h">Facts</text>
+    <text x="44" y="138" class="md">3 lines + unknowns</text>
+    <text x="44" y="154" class="md">what you would verify</text>
+    <text x="44" y="170" class="md">no drama</text>
+  </g>
+  <g>
+    <rect x="200" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="216" y="116" class="n">2</text><text x="242" y="116" class="h">Dilemma</text>
+    <text x="216" y="138" class="md">name the value clash</text>
+    <text x="216" y="154" class="md">integrity vs loyalty,</text>
+    <text x="216" y="170" class="md">transparency vs privacy</text>
+  </g>
+  <g>
+    <rect x="372" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="388" y="116" class="n">3</text><text x="414" y="116" class="h">Stakeholders</text>
+    <text x="388" y="138" class="md">gains · pays · decides</text>
+    <text x="388" y="154" class="md">the silent ones:</text>
+    <text x="388" y="170" class="md">poor, future citizens</text>
+  </g>
+  <g>
+    <rect x="544" y="90" width="150" height="96" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="560" y="116" class="n">4</text><text x="586" y="116" class="h">Options</text>
+    <text x="560" y="138" class="md">≥3 real options</text>
+    <text x="560" y="154" class="md">reject "do nothing"</text>
+    <text x="560" y="170" class="md">explicitly</text>
+  </g>
+  <g>
+    <rect x="716" y="90" width="216" height="96" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="732" y="116" class="n">5</text><text x="758" y="116" class="h">Evaluation</text>
+    <text x="732" y="138" class="md">legality · public interest ·</text>
+    <text x="732" y="154" class="md">proportionality · precedent ·</text>
+    <text x="732" y="170" class="md">sustainability · conscience</text>
+  </g>
+  <path d="M 178 138 L 200 138" class="cl"/><path d="M 350 138 L 372 138" class="cl"/>
+  <path d="M 522 138 L 544 138" class="cl"/><path d="M 694 138 L 716 138" class="cl"/>
+  <path d="M 824 186 L 824 226 L 700 226" class="cl"/>
+  <g>
+    <rect x="540" y="226" width="160" height="110" rx="10" fill="#22c55e" opacity="0.12" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="556" y="252" class="n">6</text><text x="582" y="252" class="h">Decision +</text><text x="556" y="272" class="h">implementation</text>
+    <text x="556" y="294" class="md">steps, sequence,</text>
+    <text x="556" y="310" class="md">documentation,</text>
+    <text x="556" y="326" class="md">communication</text>
+  </g>
+  <g>
+    <rect x="760" y="226" width="172" height="110" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="776" y="252" class="n">7</text><text x="802" y="252" class="h">Defence +</text><text x="776" y="272" class="h">safeguards</text>
+    <text x="776" y="294" class="md">anticipate attack lines;</text>
+    <text x="776" y="310" class="md">audit, review, sunset,</text>
+    <text x="776" y="326" class="md">institutional SOP</text>
+  </g>
+  <rect x="28" y="226" width="480" height="110" rx="10" fill="#fff" stroke="#e2e8f0"/>
+  <text x="44" y="252" class="h">Time budget (15 min)</text>
+  <text x="44" y="274" class="md">1 min facts · 1 min dilemma · 2 min stakeholders · 4 min options</text>
+  <text x="44" y="292" class="md">3 min evaluation · 3 min decision-steps · 1 min safeguards</text>
+  <text x="44" y="314" class="md">Sub-headings verbatim; one ethical-test table beats a prose paragraph</text>
+  <text x="30" y="412" class="foot">studyUPSC · GS-4 diagram · worked cases: whistle-or-the-file, flood triage (detailed notes)</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>Five practice cases in UPSC Part-B style with approach notes (write full 250-word answers under timed conditions).</p></blockquote>
+<h3 id="case-1-the-friendly-contrator">Case 1 — The Friendly Contractor</h3>
+<p>A contractor executing your office renovation offers festival sweets with a ₹50,000 gift voucher "for the staff." He is also bidding for a municipal contract you will evaluate next week.</p>
+<p><em>Approach:</em> gift rules and conflict of interest → return voucher, log the incident, disclose to superior, recuse from the bid or ensure collective evaluation with recorded reasons; institutional fix: gift registry + rotation of evaluators.</p>
+<h3 id="case-2-the-underperforming-block">Case 2 — The Underperforming Block</h3>
+<p>Your district tops immunisation on paper, but a ASHA worker privately tells you sessions are "adjusted" in two blocks. Media is about to felicitate the district.</p>
+<p><em>Approach:</em> integrity vs institutional reputation → verify quietly (field audit, independent enumerator), correct data before the event, treat falsifiers with due process, reward the whistleblower's protection; lesson: celebrate accuracy, not stories.</p>
+<h3 id="case-3-hunger-strike-of-a-collague">Case 3 — Hunger Strike of a Colleague</h3>
+<p>A junior officer begins a hunger strike inside the campus demanding action against an SHO who allegedly beat a detainee. You must balance discipline, duty of care and the complaint's merit.</p>
+<p><em>Approach:</em> duty of care (health) + due process (inquiry) → hospitalise if health risk without breaking the protest's dignity, order prompt magisterial inquiry, interim measures (SHO line-astute posting), timeline commitment in writing; avoid vindictiveness; report upward transparently.</p>
+<h3 id="case-4-the-data-release">Case 4 — The Data Release</h3>
+<p>Health data shows a district's malnutrition numbers worse than the state average; release before elections will trigger attack ads. The Secretary asks you to "time" the release after polls.</p>
+<p><em>Approach:</em> transparency vs political convenience; statutory duty (if under a survey, rules govern timing) → release per protocol, add explanatory context (methodology, seasonality), brief all parties equally; delay only for verified data-quality reasons, recorded in file.</p>
+<h3 id="case-5-environment-vs-jobs">Case 5 — Environment vs Jobs</h3>
+<p>A plant employing 2,000 people has been discharging effluent into a river used downstream for drinking. Closure will kill livelihoods; continuation harms health of 50,000.</p>
+<p><em>Approach:</em> proportionality and precaution → graded action: immediate compliance deadlines, CETP investment schedule, interim treatment, closure only on defiance; stakeholder forum; health monitoring for downstream villages; publish compliance dashboard — livelihood and life are not traded; sequence is engineered.</p>
+<h3 id="how-to-practise">How to practise</h3>
+<ul><li>Write one case daily for 30 days at 12 minutes each; peer-review against the 7 headings.</li><li>Maintain a dilemma bank: 20 value-clashes with your chosen options pre-written.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="gs-4-probity-governance.html"><span class="lb">← Previous</span>Probity in Governance: RTI, corruption, citizens’ charters</a>
+<a class="r" href="essay-essay-frameworks.html"><span class="lb">Next →</span>Essay Frameworks: Introduction, Body &amp; Conclusion Structures</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

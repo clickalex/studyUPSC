@@ -40,6 +40,7 @@
   <script src="assets/js/data.js"></script>
   <script src="assets/js/file-index.js"></script>
   <script src="assets/js/search-data.js"></script>
+  <script src="assets/js/book-data.js"></script>
   <script defer src="assets/js/app.js"></script>
 </head>
 
@@ -95,6 +96,10 @@
             <circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/>
           </svg>
         </button>
+        <a href="book/index.html" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-amber-600 dark:text-amber-400 hover:text-amber-500 rounded-xl px-2.5 py-2 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors" title="Read the whole syllabus as one book">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.5V20M12 6.5C10.5 5 8.5 4.3 4 4.5v13c4.5-.2 6.5.5 8 2 1.5-1.5 3.5-2.2 8-2v-13c-4.5-.2-6.5.5-8 2z"/></svg>
+          Book
+        </a>
         <a href="#/tracker" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 rounded-xl px-2.5 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" title="Revision tracker">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.5 11 14.5 15 10.5M12 3a9 9 0 1 0 0.0001 0z"/></svg>
           Tracker
@@ -109,7 +114,7 @@
     <footer class="border-t border-slate-200 dark:border-slate-800 mt-12 bg-white/60 dark:bg-slate-900/40">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-3">
         <span class="flex items-center gap-2"><span class="brand-tile brand-tile-sm"></span> studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
-        <span>Progress is stored locally in your browser. <a class="hover:text-indigo-500 underline underline-offset-2" href="#/tracker">Tracker</a> · <a class="hover:text-indigo-500 underline underline-offset-2" href="#/search">Search</a></span>
+        <span>Progress is stored locally in your browser. <a class="hover:text-indigo-500 underline underline-offset-2" href="book/index.html">Book</a> · <a class="hover:text-indigo-500 underline underline-offset-2" href="#/tracker">Tracker</a> · <a class="hover:text-indigo-500 underline underline-offset-2" href="#/search">Search</a></span>
       </div>
     </footer>
   </div>
