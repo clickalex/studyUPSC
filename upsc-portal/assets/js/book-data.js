@@ -3,8 +3,8 @@ window.BOOK_DATA = {
  "title": "The Complete UPSC Civil Services Book",
  "lessons": 126,
  "chapters": 52,
- "words": 357244,
- "pages": 893,
+ "words": 359737,
+ "pages": 899,
  "parts": [
   {
    "no": 1,
@@ -465,7 +465,7 @@ window.BOOK_DATA = {
        "tag": "",
        "nav": "prelims-gs1/geography/indian-geography/minerals-industries",
        "page": 143,
-       "words": 2387,
+       "words": 3699,
        "sections": [
         "notes",
         "short",
@@ -480,7 +480,7 @@ window.BOOK_DATA = {
        "title": "Transport, Trade & Human Settlements",
        "tag": "",
        "nav": "prelims-gs1/geography/indian-geography/transport-settlements",
-       "page": 149,
+       "page": 152,
        "words": 2574,
        "sections": [
         "notes",
@@ -496,7 +496,7 @@ window.BOOK_DATA = {
        "title": "World Physical: Continents, Oceans & Climates",
        "tag": "",
        "nav": "prelims-gs1/geography/world-geography/world-physical",
-       "page": 155,
+       "page": 158,
        "words": 2434,
        "sections": [
         "notes",
@@ -512,7 +512,7 @@ window.BOOK_DATA = {
        "title": "World Economic & Human Geography",
        "tag": "",
        "nav": "prelims-gs1/geography/world-geography/world-economic",
-       "page": 161,
+       "page": 164,
        "words": 2924,
        "sections": [
         "notes",
@@ -528,7 +528,7 @@ window.BOOK_DATA = {
        "title": "Maps of India & World",
        "tag": "3–4 Qs from map-based sources",
        "nav": "prelims-gs1/geography/maps-india-world",
-       "page": 168,
+       "page": 171,
        "words": 1280,
        "sections": [
         "notes",
@@ -550,7 +550,7 @@ window.BOOK_DATA = {
        "title": "Making, Preamble & Basic Features",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/constitution/making-features",
-       "page": 171,
+       "page": 174,
        "words": 2415,
        "sections": [
         "notes",
@@ -566,7 +566,7 @@ window.BOOK_DATA = {
        "title": "Fundamental Rights, DPSP & Fundamental Duties",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp",
-       "page": 177,
+       "page": 180,
        "words": 2732,
        "sections": [
         "notes",
@@ -582,7 +582,7 @@ window.BOOK_DATA = {
        "title": "Amendments & Landmark Judgements",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/constitution/amendments",
-       "page": 184,
+       "page": 187,
        "words": 3809,
        "sections": [
         "notes",
@@ -598,7 +598,7 @@ window.BOOK_DATA = {
        "title": "Federal Structure, Centre–State Relations",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/constitution/federal-structure",
-       "page": 194,
+       "page": 197,
        "words": 3692,
        "sections": [
         "notes",
@@ -614,7 +614,7 @@ window.BOOK_DATA = {
        "title": "Parliament: Structure & Functioning",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/organs-govt/parliament",
-       "page": 203,
+       "page": 206,
        "words": 3900,
        "sections": [
         "notes",
@@ -630,7 +630,7 @@ window.BOOK_DATA = {
        "title": "President, Vice-President, PM & Council of Ministers",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/organs-govt/executive",
-       "page": 213,
+       "page": 216,
        "words": 3598,
        "sections": [
         "notes",
@@ -646,7 +646,7 @@ window.BOOK_DATA = {
        "title": "Supreme Court, High Courts & Judicial Review",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/organs-govt/judiciary",
-       "page": 222,
+       "page": 225,
        "words": 3711,
        "sections": [
         "notes",
@@ -662,7 +662,7 @@ window.BOOK_DATA = {
        "title": "Constitutional Bodies: UPSC, CAG, EC, Finance Commission",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies",
-       "page": 231,
+       "page": 234,
        "words": 4838,
        "sections": [
         "notes",
@@ -678,7 +678,7 @@ window.BOOK_DATA = {
        "title": "Statutory & Non-Constitutional Bodies",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/governance/statutory-bodies",
-       "page": 243,
+       "page": 246,
        "words": 4737,
        "sections": [
         "notes",
@@ -694,7 +694,7 @@ window.BOOK_DATA = {
        "title": "Panchayati Raj & Urban Local Bodies",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/governance/local-govt",
-       "page": 255,
+       "page": 258,
        "words": 2972,
        "sections": [
         "notes",
@@ -710,8 +710,8 @@ window.BOOK_DATA = {
        "title": "Government Schemes & Public Policy",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/governance/schemes-policies",
-       "page": 262,
-       "words": 3863,
+       "page": 265,
+       "words": 5044,
        "sections": [
         "notes",
         "short",
@@ -726,7 +726,7 @@ window.BOOK_DATA = {
        "title": "E-Governance & Citizen Charters",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/governance/e-governance",
-       "page": 272,
+       "page": 278,
        "words": 4190,
        "sections": [
         "notes",
@@ -742,7 +742,7 @@ window.BOOK_DATA = {
        "title": "India–Neighbourhood & Bilateral Relations",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties",
-       "page": 282,
+       "page": 288,
        "words": 4475,
        "sections": [
         "notes",
@@ -758,7 +758,7 @@ window.BOOK_DATA = {
        "title": "UN, G20, BRICS, SCO & Multilateral Forums",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums",
-       "page": 293,
+       "page": 299,
        "words": 4879,
        "sections": [
         "notes",
@@ -774,7 +774,7 @@ window.BOOK_DATA = {
        "title": "Regional & Strategic Groupings",
        "tag": "",
        "nav": "prelims-gs1/polity-governance/international-relations/global-groups",
-       "page": 305,
+       "page": 311,
        "words": 4264,
        "sections": [
         "notes",
@@ -796,7 +796,7 @@ window.BOOK_DATA = {
        "title": "National Income, GDP & Inflation",
        "tag": "",
        "nav": "prelims-gs1/economy/macro-economy/national-income",
-       "page": 316,
+       "page": 322,
        "words": 3032,
        "sections": [
         "notes",
@@ -812,7 +812,7 @@ window.BOOK_DATA = {
        "title": "Money, Banking & RBI",
        "tag": "",
        "nav": "prelims-gs1/economy/macro-economy/money-banking",
-       "page": 324,
+       "page": 330,
        "words": 3289,
        "sections": [
         "notes",
@@ -828,7 +828,7 @@ window.BOOK_DATA = {
        "title": "Fiscal Policy, Budget & Taxation",
        "tag": "",
        "nav": "prelims-gs1/economy/macro-economy/fiscal-policy",
-       "page": 332,
+       "page": 338,
        "words": 4987,
        "sections": [
         "notes",
@@ -844,7 +844,7 @@ window.BOOK_DATA = {
        "title": "Agriculture: MSP, Subsidies & Reforms",
        "tag": "",
        "nav": "prelims-gs1/economy/sectors-indian-economy/agriculture",
-       "page": 344,
+       "page": 350,
        "words": 4415,
        "sections": [
         "notes",
@@ -860,7 +860,7 @@ window.BOOK_DATA = {
        "title": "Industry, MSME & Industrial Policy",
        "tag": "",
        "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme",
-       "page": 355,
+       "page": 361,
        "words": 3377,
        "sections": [
         "notes",
@@ -876,7 +876,7 @@ window.BOOK_DATA = {
        "title": "Services & Infrastructure",
        "tag": "",
        "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure",
-       "page": 363,
+       "page": 369,
        "words": 4399,
        "sections": [
         "notes",
@@ -892,7 +892,7 @@ window.BOOK_DATA = {
        "title": "Trade, BoP & Exchange Rate",
        "tag": "",
        "nav": "prelims-gs1/economy/external-sector/trade-bop",
-       "page": 374,
+       "page": 380,
        "words": 2945,
        "sections": [
         "notes",
@@ -908,7 +908,7 @@ window.BOOK_DATA = {
        "title": "FDI, FPI & International Institutions (IMF, World Bank, WTO)",
        "tag": "",
        "nav": "prelims-gs1/economy/external-sector/fdi-investment",
-       "page": 381,
+       "page": 387,
        "words": 2750,
        "sections": [
         "notes",
@@ -924,7 +924,7 @@ window.BOOK_DATA = {
        "title": "Capital Markets, SEBI & Insurance",
        "tag": "",
        "nav": "prelims-gs1/economy/financial-markets/capital-markets",
-       "page": 388,
+       "page": 394,
        "words": 2296,
        "sections": [
         "notes",
@@ -940,7 +940,7 @@ window.BOOK_DATA = {
        "title": "Financial Inclusion & Digital Payments",
        "tag": "",
        "nav": "prelims-gs1/economy/financial-markets/financial-inclusion",
-       "page": 394,
+       "page": 400,
        "words": 2821,
        "sections": [
         "notes",
@@ -956,7 +956,7 @@ window.BOOK_DATA = {
        "title": "NITI Aayog & Planning History",
        "tag": "",
        "nav": "prelims-gs1/economy/planning-growth/niti-aayog",
-       "page": 401,
+       "page": 407,
        "words": 3988,
        "sections": [
         "notes",
@@ -972,7 +972,7 @@ window.BOOK_DATA = {
        "title": "Human Development, Poverty & Employment",
        "tag": "",
        "nav": "prelims-gs1/economy/planning-growth/human-development",
-       "page": 411,
+       "page": 417,
        "words": 3189,
        "sections": [
         "notes",
@@ -994,7 +994,7 @@ window.BOOK_DATA = {
        "title": "Ecosystems, Food Chains & Nutrient Cycles",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems",
-       "page": 419,
+       "page": 425,
        "words": 3482,
        "sections": [
         "notes",
@@ -1010,7 +1010,7 @@ window.BOOK_DATA = {
        "title": "Biodiversity of India: Hotspots & Protected Areas",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india",
-       "page": 428,
+       "page": 434,
        "words": 2842,
        "sections": [
         "notes",
@@ -1026,7 +1026,7 @@ window.BOOK_DATA = {
        "title": "Species in News & Conservation Projects",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation",
-       "page": 435,
+       "page": 441,
        "words": 4475,
        "sections": [
         "notes",
@@ -1042,7 +1042,7 @@ window.BOOK_DATA = {
        "title": "Climate Change, IPCC & Carbon Markets",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change",
-       "page": 446,
+       "page": 452,
        "words": 4937,
        "sections": [
         "notes",
@@ -1058,7 +1058,7 @@ window.BOOK_DATA = {
        "title": "Pollution, Waste Management & EIA",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/environmental-issues/pollution-waste",
-       "page": 458,
+       "page": 464,
        "words": 5937,
        "sections": [
         "notes",
@@ -1074,7 +1074,7 @@ window.BOOK_DATA = {
        "title": "Acts & International Conventions (CBD, UNFCCC, CITES)",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/acts-policies-env/acts-conventions",
-       "page": 473,
+       "page": 479,
        "words": 4425,
        "sections": [
         "notes",
@@ -1090,7 +1090,7 @@ window.BOOK_DATA = {
        "title": "Institutions: MoEFCC, CPCB, NGT, Wildlife Boards",
        "tag": "",
        "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions",
-       "page": 484,
+       "page": 490,
        "words": 2268,
        "sections": [
         "notes",
@@ -1112,7 +1112,7 @@ window.BOOK_DATA = {
        "title": "Everyday Physics, Chemistry & Biology",
        "tag": "",
        "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio",
-       "page": 490,
+       "page": 496,
        "words": 6130,
        "sections": [
         "notes",
@@ -1128,7 +1128,7 @@ window.BOOK_DATA = {
        "title": "Biotechnology & Health (vaccines, CRISPR)",
        "tag": "",
        "nav": "prelims-gs1/science-tech/emerging-tech/biotech-health",
-       "page": 505,
+       "page": 511,
        "words": 4661,
        "sections": [
         "notes",
@@ -1144,7 +1144,7 @@ window.BOOK_DATA = {
        "title": "Space: Missions, ISRO & Satellites",
        "tag": "",
        "nav": "prelims-gs1/science-tech/emerging-tech/space-missions",
-       "page": 517,
+       "page": 523,
        "words": 5584,
        "sections": [
         "notes",
@@ -1160,7 +1160,7 @@ window.BOOK_DATA = {
        "title": "Defence, Missiles & Nuclear Tech",
        "tag": "",
        "nav": "prelims-gs1/science-tech/emerging-tech/defence-nuclear",
-       "page": 531,
+       "page": 537,
        "words": 5052,
        "sections": [
         "notes",
@@ -1176,7 +1176,7 @@ window.BOOK_DATA = {
        "title": "AI, IT, Semiconductors & Quantum",
        "tag": "",
        "nav": "prelims-gs1/science-tech/emerging-tech/ai-it",
-       "page": 544,
+       "page": 550,
        "words": 7515,
        "sections": [
         "notes",
@@ -1210,7 +1210,7 @@ window.BOOK_DATA = {
        "title": "Reading Comprehension & Interpersonal Skills",
        "tag": "",
        "nav": "prelims-csat/comprehension",
-       "page": 563,
+       "page": 569,
        "words": 1407,
        "sections": [
         "notes",
@@ -1232,7 +1232,7 @@ window.BOOK_DATA = {
        "title": "Logical Reasoning & Analytical Ability",
        "tag": "",
        "nav": "prelims-csat/logical-reasoning",
-       "page": 567,
+       "page": 573,
        "words": 1302,
        "sections": [
         "notes",
@@ -1254,7 +1254,7 @@ window.BOOK_DATA = {
        "title": "Decision-Making & Problem Solving",
        "tag": "",
        "nav": "prelims-csat/decision-making",
-       "page": 570,
+       "page": 576,
        "words": 1453,
        "sections": [
         "notes",
@@ -1276,7 +1276,7 @@ window.BOOK_DATA = {
        "title": "Basic Numeracy & Data Interpretation (Class X level)",
        "tag": "",
        "nav": "prelims-csat/numeracy",
-       "page": 574,
+       "page": 580,
        "words": 1342,
        "sections": [
         "notes",
@@ -1310,7 +1310,7 @@ window.BOOK_DATA = {
        "title": "Full-Length Mock — GS Paper I (100 Qs · 2 hours)",
        "tag": "answer key + explanations",
        "nav": "prelims-mocks/full-length",
-       "page": 577,
+       "page": 583,
        "words": 6800,
        "sections": [
         "notes",
@@ -1332,7 +1332,7 @@ window.BOOK_DATA = {
        "title": "Sectional Tests — 6 subjects × 20 Qs",
        "tag": "25 minutes each",
        "nav": "prelims-mocks/sectional-tests",
-       "page": 594,
+       "page": 600,
        "words": 6632,
        "sections": [
         "notes",
@@ -1354,7 +1354,7 @@ window.BOOK_DATA = {
        "title": "CSAT Mock — 30 Qs (45 minutes)",
        "tag": "worked solutions",
        "nav": "prelims-mocks/csat-mock",
-       "page": 611,
+       "page": 617,
        "words": 2154,
        "sections": [
         "notes",
@@ -1388,7 +1388,7 @@ window.BOOK_DATA = {
        "title": "Indian Heritage & Culture",
        "tag": "25% of paper",
        "nav": "gs-1/indian-heritage-culture",
-       "page": 616,
+       "page": 622,
        "words": 2418,
        "sections": [
         "notes",
@@ -1404,7 +1404,7 @@ window.BOOK_DATA = {
        "title": "World History (industrial revolution, world wars, redrawal of national boundaries)",
        "tag": "15% of paper",
        "nav": "gs-1/world-history",
-       "page": 622,
+       "page": 628,
        "words": 2074,
        "sections": [
         "notes",
@@ -1420,7 +1420,7 @@ window.BOOK_DATA = {
        "title": "Indian Society (diversity, women, poverty, urbanisation)",
        "tag": "15% of paper",
        "nav": "gs-1/indian-society",
-       "page": 627,
+       "page": 633,
        "words": 2217,
        "sections": [
         "notes",
@@ -1436,7 +1436,7 @@ window.BOOK_DATA = {
        "title": "Physical Geography: Geomorphology, Climatology, Oceanography",
        "tag": "20% of paper",
        "nav": "gs-1/physical-geography",
-       "page": 633,
+       "page": 639,
        "words": 3613,
        "sections": [
         "notes",
@@ -1452,7 +1452,7 @@ window.BOOK_DATA = {
        "title": "Geography of India & World: Resources, Distribution, Mapping",
        "tag": "part of geography share",
        "nav": "gs-1/geography-world-india",
-       "page": 642,
+       "page": 648,
        "words": 3452,
        "sections": [
         "notes",
@@ -1474,7 +1474,7 @@ window.BOOK_DATA = {
        "title": "Advent of Europeans & East India Company (1757–1857)",
        "tag": "",
        "nav": "gs-1/modern-history/east-india-company",
-       "page": 651,
+       "page": 657,
        "words": 3364,
        "sections": [
         "notes",
@@ -1490,7 +1490,7 @@ window.BOOK_DATA = {
        "title": "Revolt of 1857 & Aftermath",
        "tag": "",
        "nav": "gs-1/modern-history/revolt-1857",
-       "page": 659,
+       "page": 665,
        "words": 1679,
        "sections": [
         "notes",
@@ -1506,7 +1506,7 @@ window.BOOK_DATA = {
        "title": "Socio-Religious Reform Movements",
        "tag": "",
        "nav": "gs-1/modern-history/socio-religious-reforms",
-       "page": 663,
+       "page": 669,
        "words": 3167,
        "sections": [
         "notes",
@@ -1522,7 +1522,7 @@ window.BOOK_DATA = {
        "title": "National Movement: Moderates, Extremists & Early Gandhian Era (1885–1919)",
        "tag": "",
        "nav": "gs-1/modern-history/national-movement-1885-1919",
-       "page": 671,
+       "page": 677,
        "words": 3188,
        "sections": [
         "notes",
@@ -1538,7 +1538,7 @@ window.BOOK_DATA = {
        "title": "Gandhian Era: Non-Cooperation to Quit India (1919–1947)",
        "tag": "",
        "nav": "gs-1/modern-history/gandhian-era-1919-1947",
-       "page": 679,
+       "page": 685,
        "words": 4454,
        "sections": [
         "notes",
@@ -1554,7 +1554,7 @@ window.BOOK_DATA = {
        "title": "Constitutional Development & Government of India Acts",
        "tag": "",
        "nav": "gs-1/modern-history/constitutional-development",
-       "page": 690,
+       "page": 696,
        "words": 3757,
        "sections": [
         "notes",
@@ -1588,7 +1588,7 @@ window.BOOK_DATA = {
        "title": "Indian Constitution: features, amendments, comparisons",
        "tag": "",
        "nav": "gs-2/constitution-polity",
-       "page": 699,
+       "page": 705,
        "words": 4815,
        "sections": [
         "notes",
@@ -1610,7 +1610,7 @@ window.BOOK_DATA = {
        "title": "Governance & Administration: Parliament, Executive, Judiciary",
        "tag": "",
        "nav": "gs-2/governance-administration",
-       "page": 711,
+       "page": 717,
        "words": 3802,
        "sections": [
         "notes",
@@ -1632,7 +1632,7 @@ window.BOOK_DATA = {
        "title": "Social Justice: Welfare Schemes, Health, Education, HRD",
        "tag": "",
        "nav": "gs-2/social-justice",
-       "page": 721,
+       "page": 727,
        "words": 3475,
        "sections": [
         "notes",
@@ -1654,7 +1654,7 @@ window.BOOK_DATA = {
        "title": "International Relations: Bilateral, Regional & Global Groupings",
        "tag": "",
        "nav": "gs-2/international-relations",
-       "page": 730,
+       "page": 736,
        "words": 3774,
        "sections": [
         "notes",
@@ -1688,7 +1688,7 @@ window.BOOK_DATA = {
        "title": "Indian Economy: growth, planning, resources, liberalisation",
        "tag": "",
        "nav": "gs-3/indian-economy",
-       "page": 739,
+       "page": 745,
        "words": 3445,
        "sections": [
         "notes",
@@ -1710,7 +1710,7 @@ window.BOOK_DATA = {
        "title": "Agriculture & Food Security: MSP, irrigation, marketing, subsidies",
        "tag": "",
        "nav": "gs-3/agriculture-food",
-       "page": 748,
+       "page": 754,
        "words": 3217,
        "sections": [
         "notes",
@@ -1732,7 +1732,7 @@ window.BOOK_DATA = {
        "title": "Science & Technology: developments, indigenisation, IT",
        "tag": "",
        "nav": "gs-3/science-technology",
-       "page": 756,
+       "page": 762,
        "words": 2406,
        "sections": [
         "notes",
@@ -1754,7 +1754,7 @@ window.BOOK_DATA = {
        "title": "Environment & Biodiversity: conservation, climate change",
        "tag": "",
        "nav": "gs-3/environment-biodiversity",
-       "page": 762,
+       "page": 768,
        "words": 2247,
        "sections": [
         "notes",
@@ -1776,7 +1776,7 @@ window.BOOK_DATA = {
        "title": "Internal Security & Disaster Management",
        "tag": "",
        "nav": "gs-3/security-disaster",
-       "page": 768,
+       "page": 774,
        "words": 2539,
        "sections": [
         "notes",
@@ -1810,7 +1810,7 @@ window.BOOK_DATA = {
        "title": "Ethics Foundations: Interface, Attitude, Aptitude & EI (study set)",
        "tag": "full 5-section set",
        "nav": "gs-4/ethics-foundations",
-       "page": 774,
+       "page": 780,
        "words": 2402,
        "sections": [
         "notes",
@@ -1832,7 +1832,7 @@ window.BOOK_DATA = {
        "title": "Governance, Probity & Case-Study Method (study set)",
        "tag": "full 5-section set",
        "nav": "gs-4/governance-probity-case-studies",
-       "page": 780,
+       "page": 786,
        "words": 2536,
        "sections": [
         "notes",
@@ -1854,7 +1854,7 @@ window.BOOK_DATA = {
        "title": "Ethics & Human Interface: essence, determinants, dimensions",
        "tag": "",
        "nav": "gs-4/ethics-human-interface",
-       "page": 786,
+       "page": 792,
        "words": 1450,
        "sections": [
         "notes",
@@ -1876,7 +1876,7 @@ window.BOOK_DATA = {
        "title": "Attitude: content, structure, influence & moral attitudes",
        "tag": "",
        "nav": "gs-4/attitude",
-       "page": 790,
+       "page": 796,
        "words": 1989,
        "sections": [
         "notes",
@@ -1898,7 +1898,7 @@ window.BOOK_DATA = {
        "title": "Aptitude & Foundational Values: integrity, impartiality, non-partisanship",
        "tag": "",
        "nav": "gs-4/aptitude-foundations",
-       "page": 795,
+       "page": 801,
        "words": 1731,
        "sections": [
         "notes",
@@ -1920,7 +1920,7 @@ window.BOOK_DATA = {
        "title": "Emotional Intelligence: concepts, utilities & application",
        "tag": "",
        "nav": "gs-4/emotional-intelligence",
-       "page": 799,
+       "page": 805,
        "words": 1313,
        "sections": [
         "notes",
@@ -1942,7 +1942,7 @@ window.BOOK_DATA = {
        "title": "Moral Thinkers & Philosophers (Indian & Western)",
        "tag": "",
        "nav": "gs-4/moral-thinkers",
-       "page": 802,
+       "page": 808,
        "words": 1486,
        "sections": [
         "notes",
@@ -1964,7 +1964,7 @@ window.BOOK_DATA = {
        "title": "Public/Civil Service Values & Ethics in Public Administration",
        "tag": "",
        "nav": "gs-4/public-service-values",
-       "page": 806,
+       "page": 812,
        "words": 1535,
        "sections": [
         "notes",
@@ -1986,7 +1986,7 @@ window.BOOK_DATA = {
        "title": "Probity in Governance: RTI, corruption, citizens’ charters",
        "tag": "",
        "nav": "gs-4/probity-governance",
-       "page": 810,
+       "page": 816,
        "words": 1531,
        "sections": [
         "notes",
@@ -2008,7 +2008,7 @@ window.BOOK_DATA = {
        "title": "Case Studies (classroom & exam case analysis)",
        "tag": "",
        "nav": "gs-4/case-studies",
-       "page": 814,
+       "page": 820,
        "words": 1631,
        "sections": [
         "notes",
@@ -2042,7 +2042,7 @@ window.BOOK_DATA = {
        "title": "Essay Frameworks: Introduction, Body & Conclusion Structures",
        "tag": "",
        "nav": "essay/essay-frameworks",
-       "page": 818,
+       "page": 824,
        "words": 2073,
        "sections": [
         "notes",
@@ -2064,7 +2064,7 @@ window.BOOK_DATA = {
        "title": "Topic Bank: Society, Polity, Economy, Environment, Science, Ethics",
        "tag": "",
        "nav": "essay/essay-topics",
-       "page": 823,
+       "page": 829,
        "words": 1609,
        "sections": [
         "notes",
@@ -2086,7 +2086,7 @@ window.BOOK_DATA = {
        "title": "Quotes & Thinkers for Essays",
        "tag": "",
        "nav": "essay/essay-quotes",
-       "page": 827,
+       "page": 833,
        "words": 1723,
        "sections": [
         "notes",
@@ -2108,7 +2108,7 @@ window.BOOK_DATA = {
        "title": "Toppers’ Essay Analysis",
        "tag": "",
        "nav": "essay/essay-toppers",
-       "page": 831,
+       "page": 837,
        "words": 1314,
        "sections": [
         "notes",
@@ -2142,7 +2142,7 @@ window.BOOK_DATA = {
        "title": "Sociology",
        "tag": "",
        "nav": "optional-subjects/optional-sociology",
-       "page": 834,
+       "page": 840,
        "words": 1513,
        "sections": [
         "notes",
@@ -2164,7 +2164,7 @@ window.BOOK_DATA = {
        "title": "Public Administration",
        "tag": "",
        "nav": "optional-subjects/optional-public-administration",
-       "page": 838,
+       "page": 844,
        "words": 1655,
        "sections": [
         "notes",
@@ -2186,7 +2186,7 @@ window.BOOK_DATA = {
        "title": "History",
        "tag": "",
        "nav": "optional-subjects/optional-history",
-       "page": 842,
+       "page": 848,
        "words": 1644,
        "sections": [
         "notes",
@@ -2208,7 +2208,7 @@ window.BOOK_DATA = {
        "title": "Geography",
        "tag": "",
        "nav": "optional-subjects/optional-geography",
-       "page": 846,
+       "page": 852,
        "words": 1592,
        "sections": [
         "notes",
@@ -2230,7 +2230,7 @@ window.BOOK_DATA = {
        "title": "Political Science & IR",
        "tag": "",
        "nav": "optional-subjects/optional-polity",
-       "page": 850,
+       "page": 856,
        "words": 1557,
        "sections": [
         "notes",
@@ -2252,7 +2252,7 @@ window.BOOK_DATA = {
        "title": "Philosophy",
        "tag": "",
        "nav": "optional-subjects/optional-philosophy",
-       "page": 854,
+       "page": 860,
        "words": 1495,
        "sections": [
         "notes",
@@ -2274,7 +2274,7 @@ window.BOOK_DATA = {
        "title": "Anthropology",
        "tag": "",
        "nav": "optional-subjects/optional-anthropology",
-       "page": 858,
+       "page": 864,
        "words": 1466,
        "sections": [
         "notes",
@@ -2296,7 +2296,7 @@ window.BOOK_DATA = {
        "title": "Economics",
        "tag": "",
        "nav": "optional-subjects/optional-economics",
-       "page": 862,
+       "page": 868,
        "words": 1671,
        "sections": [
         "notes",
@@ -2318,7 +2318,7 @@ window.BOOK_DATA = {
        "title": "Psychology",
        "tag": "",
        "nav": "optional-subjects/optional-psychology",
-       "page": 866,
+       "page": 872,
        "words": 1453,
        "sections": [
         "notes",
@@ -2352,7 +2352,7 @@ window.BOOK_DATA = {
        "title": "GS I — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-1-practice",
-       "page": 870,
+       "page": 876,
        "words": 2863,
        "sections": [
         "notes",
@@ -2374,7 +2374,7 @@ window.BOOK_DATA = {
        "title": "GS II — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-2-practice",
-       "page": 877,
+       "page": 883,
        "words": 2935,
        "sections": [
         "notes",
@@ -2396,7 +2396,7 @@ window.BOOK_DATA = {
        "title": "GS III — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-3-practice",
-       "page": 884,
+       "page": 890,
        "words": 2826,
        "sections": [
         "notes",
@@ -2418,7 +2418,7 @@ window.BOOK_DATA = {
        "title": "GS IV — theory questions + case studies with model approaches",
        "tag": "",
        "nav": "mains-practice/gs-4-practice",
-       "page": 891,
+       "page": 897,
        "words": 3449,
        "sections": [
         "notes",
@@ -2440,7 +2440,7 @@ window.BOOK_DATA = {
        "title": "Essay — practice topics with outlines",
        "tag": "",
        "nav": "mains-practice/essay-practice",
-       "page": 900,
+       "page": 906,
        "words": 1895,
        "sections": [
         "notes",
