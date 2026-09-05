@@ -3102,7 +3102,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes/institutions-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5470,
+  "size": 15788,
   "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/notes"
  },
  {
@@ -3606,7 +3606,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes/soils-agriculture-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6095,
+  "size": 15629,
   "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/notes"
  },
  {
@@ -11320,7 +11320,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/acts-policies-env/institutions/detailed-notes/institutions-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5470,
+    "size": 15788,
     "nav": "prelims-gs1/environment-ecology/acts-policies-env/institutions/notes"
    }
   ]
@@ -12160,7 +12160,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/soils-agriculture/detailed-notes/soils-agriculture-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6095,
+    "size": 15629,
     "nav": "prelims-gs1/geography/indian-geography/soils-agriculture/notes"
    }
   ]
