@@ -2652,7 +2652,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes/fiscal-policy-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5873,
+  "size": 15642,
   "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/notes"
  },
  {
@@ -4974,7 +4974,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes/amendments-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6133,
+  "size": 16825,
   "nav": "prelims-gs1/polity-governance/constitution/amendments/notes"
  },
  {
@@ -5163,7 +5163,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes/constitutional-bodies-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5932,
+  "size": 15750,
   "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/notes"
  },
  {
@@ -10570,7 +10570,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/fiscal-policy/detailed-notes/fiscal-policy-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5873,
+    "size": 15642,
     "nav": "prelims-gs1/economy/macro-economy/fiscal-policy/notes"
    }
   ]
@@ -14440,7 +14440,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/amendments/detailed-notes/amendments-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6133,
+    "size": 16825,
     "nav": "prelims-gs1/polity-governance/constitution/amendments/notes"
    }
   ]
@@ -14755,7 +14755,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/governance/constitutional-bodies/detailed-notes/constitutional-bodies-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5932,
+    "size": 15750,
     "nav": "prelims-gs1/polity-governance/governance/constitutional-bodies/notes"
    }
   ]
