@@ -3831,7 +3831,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes/geomorphology-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6498,
+  "size": 17216,
   "nav": "prelims-gs1/geography/physical-geography/geomorphology/notes"
  },
  {
@@ -5397,7 +5397,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes/bilateral-ties-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6220,
+  "size": 16960,
   "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/notes"
  },
  {
@@ -12535,7 +12535,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/geomorphology/detailed-notes/geomorphology-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6498,
+    "size": 17216,
     "nav": "prelims-gs1/geography/physical-geography/geomorphology/notes"
    }
   ]
@@ -15145,7 +15145,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/bilateral-ties/detailed-notes/bilateral-ties-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6220,
+    "size": 16960,
     "nav": "prelims-gs1/polity-governance/international-relations/bilateral-ties/notes"
    }
   ]
