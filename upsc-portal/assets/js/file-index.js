@@ -2256,7 +2256,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/comprehension/detailed-notes/comprehension-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5534,
+  "size": 14919,
   "nav": "prelims-csat/comprehension/notes"
  },
  {
@@ -2301,7 +2301,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/decision-making/detailed-notes/decision-making-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5248,
+  "size": 14971,
   "nav": "prelims-csat/decision-making/notes"
  },
  {
@@ -2346,7 +2346,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/logical-reasoning/detailed-notes/logical-reasoning-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5297,
+  "size": 14869,
   "nav": "prelims-csat/logical-reasoning/notes"
  },
  {
@@ -2391,7 +2391,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/csat/numeracy/detailed-notes/numeracy-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5491,
+  "size": 16122,
   "nav": "prelims-csat/numeracy/notes"
  },
  {
@@ -9910,7 +9910,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/comprehension/detailed-notes/comprehension-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5534,
+    "size": 14919,
     "nav": "prelims-csat/comprehension/notes"
    }
   ]
@@ -9985,7 +9985,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/decision-making/detailed-notes/decision-making-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5248,
+    "size": 14971,
     "nav": "prelims-csat/decision-making/notes"
    }
   ]
@@ -10060,7 +10060,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/logical-reasoning/detailed-notes/logical-reasoning-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5297,
+    "size": 14869,
     "nav": "prelims-csat/logical-reasoning/notes"
    }
   ]
@@ -10135,7 +10135,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/csat/numeracy/detailed-notes/numeracy-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5491,
+    "size": 16122,
     "nav": "prelims-csat/numeracy/notes"
    }
   ]
