@@ -2454,7 +2454,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes/fdi-investment-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5528,
+  "size": 16089,
   "nav": "prelims-gs1/economy/external-sector/fdi-investment/notes"
  },
  {
@@ -2994,7 +2994,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes/services-infrastructure-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 4837,
+  "size": 15649,
   "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/notes"
  },
  {
@@ -3741,7 +3741,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes/biogeography-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5557,
+  "size": 15710,
   "nav": "prelims-gs1/geography/physical-geography/biogeography/notes"
  },
  {
@@ -4002,7 +4002,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes/world-physical-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5771,
+  "size": 15926,
   "nav": "prelims-gs1/geography/world-geography/world-physical/notes"
  },
  {
@@ -10240,7 +10240,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/external-sector/fdi-investment/detailed-notes/fdi-investment-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5528,
+    "size": 16089,
     "nav": "prelims-gs1/economy/external-sector/fdi-investment/notes"
    }
   ]
@@ -11140,7 +11140,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/services-infrastructure/detailed-notes/services-infrastructure-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 4837,
+    "size": 15649,
     "nav": "prelims-gs1/economy/sectors-indian-economy/services-infrastructure/notes"
    }
   ]
@@ -12385,7 +12385,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/biogeography/detailed-notes/biogeography-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5557,
+    "size": 15710,
     "nav": "prelims-gs1/geography/physical-geography/biogeography/notes"
    }
   ]
@@ -12820,7 +12820,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-physical/detailed-notes/world-physical-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5771,
+    "size": 15926,
     "nav": "prelims-gs1/geography/world-geography/world-physical/notes"
    }
   ]
