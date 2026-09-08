@@ -2796,7 +2796,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes/human-development-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5230,
+  "size": 15222,
   "nav": "prelims-gs1/economy/planning-growth/human-development/notes"
  },
  {
@@ -2949,7 +2949,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes/industry-msme-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 4835,
+  "size": 14903,
   "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/notes"
  },
  {
@@ -10810,7 +10810,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/planning-growth/human-development/detailed-notes/human-development-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5230,
+    "size": 15222,
     "nav": "prelims-gs1/economy/planning-growth/human-development/notes"
    }
   ]
@@ -11065,7 +11065,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/sectors-indian-economy/industry-msme/detailed-notes/industry-msme-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 4835,
+    "size": 14903,
     "nav": "prelims-gs1/economy/sectors-indian-economy/industry-msme/notes"
    }
   ]
