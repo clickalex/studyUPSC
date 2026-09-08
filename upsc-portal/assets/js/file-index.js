@@ -3651,7 +3651,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes/transport-settlements-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6233,
+  "size": 17945,
   "nav": "prelims-gs1/geography/indian-geography/transport-settlements/notes"
  },
  {
@@ -3876,7 +3876,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes/oceanography-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6043,
+  "size": 17433,
   "nav": "prelims-gs1/geography/physical-geography/oceanography/notes"
  },
  {
@@ -3957,7 +3957,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes/world-economic-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5861,
+  "size": 16729,
   "nav": "prelims-gs1/geography/world-geography/world-economic/notes"
  },
  {
@@ -5703,7 +5703,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes/physics-chem-bio-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5778,
+  "size": 18831,
   "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/notes"
  },
  {
@@ -12235,7 +12235,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/indian-geography/transport-settlements/detailed-notes/transport-settlements-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6233,
+    "size": 17945,
     "nav": "prelims-gs1/geography/indian-geography/transport-settlements/notes"
    }
   ]
@@ -12610,7 +12610,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/physical-geography/oceanography/detailed-notes/oceanography-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6043,
+    "size": 17433,
     "nav": "prelims-gs1/geography/physical-geography/oceanography/notes"
    }
   ]
@@ -12745,7 +12745,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/world-geography/world-economic/detailed-notes/world-economic-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5861,
+    "size": 16729,
     "nav": "prelims-gs1/geography/world-geography/world-economic/notes"
    }
   ]
@@ -15655,7 +15655,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/science-tech/basic-science/physics-chem-bio/detailed-notes/physics-chem-bio-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5778,
+    "size": 18831,
     "nav": "prelims-gs1/science-tech/basic-science/physics-chem-bio/notes"
    }
   ]
