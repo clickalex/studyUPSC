@@ -4317,7 +4317,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9271,
+  "size": 9390,
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
  },
  {
@@ -4362,7 +4362,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10048,
+  "size": 10082,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
  },
  {
@@ -5514,7 +5514,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 31608,
+  "size": 31770,
   "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
  },
  {
@@ -13345,7 +13345,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9271,
+    "size": 9390,
     "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
    }
   ]
@@ -13420,7 +13420,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10048,
+    "size": 10082,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
    }
   ]
@@ -15340,7 +15340,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 31608,
+    "size": 31770,
     "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
    }
   ]
