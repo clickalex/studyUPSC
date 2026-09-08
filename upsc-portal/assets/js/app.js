@@ -333,7 +333,8 @@
       '<p class="text-slate-300 text-sm sm:text-base mb-6 leading-relaxed">Prelims &amp; Mains syllabus mapped into detailed notes, revision sheets, mindmaps, diagrams and PYQs — with a built-in completion tracker and instant full-text search.</p>' +
       '<div class="flex flex-wrap gap-3">' +
       '<button class="btn-primary" onclick="document.getElementById(\'stage-prelims\').scrollIntoView({behavior:\'smooth\'})">Start with Prelims</button>' +
-      '<button class="btn-ghost-light" onclick="openSearch()">Search everything 🔍</button></div></div>' +
+      '<button class="btn-ghost-light" onclick="openSearch()">Search everything 🔍</button>' +
+      '<a class="btn-ghost-light" href="book/index.html">Read as a book 📖</a></div></div>' +
       '<div class="hidden md:flex flex-col items-center gap-2 px-6 py-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">' +
       '<div class="relative w-28 h-28">' +
       '<svg viewBox="0 0 100 100" class="w-28 h-28 -rotate-90"><circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="9"/>' +
@@ -341,6 +342,24 @@
       '<div class="absolute inset-0 flex flex-col items-center justify-center"><span class="font-display text-2xl font-extrabold">' + o.pct + '%</span>' +
       '<span class="text-[9px] uppercase tracking-[0.18em] text-slate-400">done</span></div></div>' +
       '<div class="text-[11px] text-slate-400">' + o.done + '/' + o.total + ' topics</div></div></div></div>';
+
+    /* ---- book promo ---- */
+    var BK = window.BOOK_DATA;
+    if (BK) {
+      html += '<a href="book/index.html" class="block group mb-10 rounded-3xl overflow-hidden border border-amber-200 dark:border-amber-900/40 bg-gradient-to-r from-amber-50 to-white dark:from-slate-900 dark:to-slate-900 shadow-card hover:shadow-lift transition-shadow">' +
+        '<div class="flex flex-col sm:flex-row items-stretch">' +
+        '<img src="assets/book/img/cover.png" alt="" class="w-full sm:w-40 h-40 sm:h-auto object-cover">' +
+        '<div class="p-6 flex-1">' +
+        '<p class="text-[11px] font-bold uppercase tracking-[0.2em] text-amber-600 dark:text-amber-400 mb-1">Complete edition</p>' +
+        '<h3 class="font-display text-xl font-extrabold mb-1 group-hover:text-amber-600 transition-colors">' + esc(BK.title) + '</h3>' +
+        '<p class="text-sm text-slate-500 dark:text-slate-400 mb-3 max-w-xl">Every part, chapter and lesson of the syllabus woven into one continuous read — detailed study, revision digest, mindmaps, diagrams and PYQs in each lesson.</p>' +
+        '<div class="flex flex-wrap gap-5 text-[12px] font-semibold text-slate-600 dark:text-slate-300">' +
+        '<span><b class="text-amber-600 dark:text-amber-400">' + BK.parts.length + '</b> parts</span>' +
+        '<span><b class="text-amber-600 dark:text-amber-400">' + BK.chapters + '</b> chapters</span>' +
+        '<span><b class="text-amber-600 dark:text-amber-400">' + BK.lessons + '</b> lessons</span>' +
+        '<span><b class="text-amber-600 dark:text-amber-400">~' + BK.pages + '</b> pages</span></div>' +
+        '</div></div></a>';
+    }
 
     var prelimsPapers = DATA.papers.filter(function (p) { return p.stage === 'prelims'; });
     var mainsPapers = DATA.papers.filter(function (p) { return p.stage === 'mains'; });

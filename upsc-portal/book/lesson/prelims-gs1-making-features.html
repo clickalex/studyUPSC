@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1.3.1 Making, Preamble &amp; Basic Features · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part I — GS Paper I — General Studies (Prelims) · Chapter 3: Polity &amp; Governance</p>
+<p class="bk-eyebrow">Lesson 1.3.1</p>
+<h1 id="lesson-prelims-gs1-making-features">Making, Preamble &amp; Basic Features</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Dates, committees, sources, and features. Prelims favourites: 26 Nov vs 26 Jan, Drafting Committee members, borrowed features map.</p></blockquote>
+<h3 id="constituent-assembly">1. Constituent Assembly</h3>
+<ul><li>Cabinet Mission scheme: provincial 292 + princely-state 93 + chief-commissioners 4 = 389 seats (reduced to 299 post-partition). Indirectly elected by provincial assemblies (1946); Muslim League boycotts until 1947.</li><li>Officers: <strong>Sachchidananda Sinha</strong> (temporary chairman, 9 Dec 1946), <strong>Rajendra Prasad</strong> (President, 11 Dec 1946), H.C. Mukherjee vice-president, <strong>B.N. Rau constitutional adviser</strong>.</li><li><strong>Objectives Resolution</strong> moved 13 Dec 1946 (Nehru), adopted 22 Jan 1947 — seed of the Preamble.</li><li><strong>Drafting Committee (29 Aug 1947, 7 members)</strong>: Ambedkar (chair), N. Gopalaswamy Ayyangar, Alladi Krishnaswamy Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rao (replaced B.L. Mitter), T.T. Krishnamachari (replaced D.P. Khaitan).</li><li>Timing: 2 years 11 months 18 days; 11 sessions; ~₹64 lakh cost; first session 9 Dec 1946; <strong>adopted 26 Nov 1949</strong> (Constitution Day / Samvidhan Divas); some provisions (citizenship, elections, provisional parliament) effective then; <strong>fully in force 26 Jan 1950</strong> (date chosen to honour Purna Swaraj Day 1930). Last CA session 24 Jan 1950 (sang national anthem, elected Prasad President).</li></ul>
+<h3 id="sources">2. Borrowed features (sources map)</h3>
+<table><thead><tr><th>Source</th><th>Borrowed</th></tr></thead><tbody>
+<tr><td>Government of India Act 1935</td><td>federal scheme, office of governor, judiciary structure, public-service commissions, emergency provisions (~major share)</td></tr>
+<tr><td>UK</td><td>parliamentary government, rule of law, single citizenship, cabinet system, bicameralism, writs</td></tr>
+<tr><td>USA</td><td>fundamental rights, judicial review, independent judiciary, impeachment of President, vice-president ex-officio RS chairman</td></tr>
+<tr><td>Ireland</td><td>directive principles, President's RS-nomination method</td></tr>
+<tr><td>Canada</td><td>federation with strong centre, residuary powers with centre, governor appointment, advisory jurisdiction of SC</td></tr>
+<tr><td>Australia</td><td>concurrent list, freedom of trade-commerce (301), joint sitting</td></tr>
+<tr><td>USSR</td><td>fundamental duties, ideals of justice (Preamble)</td></tr>
+<tr><td>France</td><td>republic ideal, liberty-equality-fraternity</td></tr>
+<tr><td>Germany (Weimar)</td><td>suspension of FRs during emergency</td></tr>
+<tr><td>South Africa</td><td>amendment procedure, RS member election</td></tr>
+<tr><td>Japan</td><td>procedure established by law</td></tr>
+</tbody></table>
+<h3 id="features">3. Salient features</h3>
+<ul><li>Lengthiest written constitution; blend of rigidity-flexibility (Art 368: simple majority some parts, special majority most, special + ½ ratification federal bits); parliamentary form; fusion of executive-legislature; federal in form, unitary in spirit.</li><li>Integrated judiciary + single citizenship; universal adult franchise; <strong>secular state ('secular' worded in Preamble by 42nd)</strong>; independent bodies (Election Commission, CAG, UPSC).</li><li>Preamble (Berubari: not part; Kesavananda: part of Constitution; still not enforceable); 42nd added Socialist-Secular-Integrity.</li><li>Critiques often quoted: 'paradise for lawyers' tag, K. Hanumanthaiah's 'borrowed bag of bricks' line, defended by K.M. Munshi's blend argument.</li></ul>
+<h3 id="mcq-hooks">MCQ hooks</h3>
+<ul><li>26 Nov 1949 = adopted; 26 Jan 1950 = commenced; 24 Jan 1950 = last CA sitting.</li><li>Drafting Committee = 7 members, 29 Aug 1947; B.N. Rau = adviser (not committee member).</li><li>Objectives Resolution: moved 13 Dec 1946, adopted 22 Jan 1947.</li><li>DPSP = Ireland; FDs = USSR; concurrent list = Australia; procedure established by law = Japan.</li><li>CA originally 389 seats (292 provincial); after partition 299.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>Prelims GS-I › Polity › Constitution. Dates, committees, sources and Preamble keywords — the highest-frequency polity block.</p></blockquote>
+<h3 id="constituent-assembly">Constituent Assembly</h3>
+<ul><li>Idea: M.N. Roy 1934; Congress demand 1935; <strong>August Offer 1940</strong> accepted principle; <strong>Cabinet Mission May 1946</strong> — framework: 389 members (296 British India — provinces 292 + chief commissioners' provinces 4; 93 princely states); indirect election by provincial assemblies (proportional representation, single transferable vote); seats by population 1:10 lakh; communities — Muslims, Sikhs, General.</li><li>Elections July–Aug 1946: Congress 208, League 73, others 15. After partition: <strong>299 members</strong> (229 provinces + 70 states).</li><li><strong>First meeting 9 Dec 1946</strong> (League boycott); <strong>Sachchidananda Sinha</strong> temporary president; <strong>Rajendra Prasad</strong> elected president 11 Dec 1946; H.C. Mukherjee &amp; V.T. Krishnamachari vice-presidents; <strong>B.N. Rau</strong> constitutional adviser; <strong>H.V.R. Iyengar</strong> secretary; <strong>S.N. Mukherjee</strong> chief draftsman; Prem Behari Narain Raizada calligraphy; Nandalal Bose illustrations (Santiniketan).</li><li><strong>Objectives Resolution</strong> — Nehru 13 Dec 1946, adopted 22 Jan 1947 → Preamble.</li><li>Functions: also <strong>Provisional Parliament</strong> (dual role till 1952), adopted national flag <strong>22 July 1947</strong>, anthem &amp; song <strong>24 Jan 1950</strong>, ratified Commonwealth membership May 1949, elected Rajendra Prasad first President 24 Jan 1950.</li><li>Timeline: 2 years 11 months 18 days; 11 sessions; 165 days; <strong>adopted 26 Nov 1949</strong> (Constitution Day since 2015; 284 signatures 24 Jan 1950); some provisions in force 26 Nov 1949 (citizenship, elections, provisional parliament, temporary/transitional — Arts 5–9, 60, 324, 366, 367, 379, 380, 388, 391–393); <strong>commenced 26 Jan 1950</strong> (Purna Swaraj day 1930); 395 articles, 22 parts, 8 schedules originally (now ~470 articles, 25 parts, 12 schedules); cost ₹64 lakh; Hindi &amp; English calligraphed copies in Parliament library (helium cases).</li><li>Committees (8 major): Union Powers — Nehru; Union Constitution — Nehru; Provincial Constitution — Patel; <strong>Drafting — Ambedkar (29 Aug 1947; 7 members: Ambedkar, N. Gopalaswami Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Syed Mohammad Saadullah, N. Madhava Rau (replaced B.L. Mitter), T.T. Krishnamachari (replaced D.P. Khaitan))</strong>; Advisory Committee on FRs, Minorities, Tribal &amp; Excluded Areas — Patel (sub-committees: FR — J.B. Kripalani; Minorities — H.C. Mukherjee; NE tribal — Gopinath Bardoloi; Excluded areas — A.V. Thakkar); Rules of Procedure — Rajendra Prasad; States Committee — Nehru; Steering — Rajendra Prasad; Flag committee — Rajendra Prasad (ad hoc); Order of Business — K.M. Munshi; House committee — B. Pattabhi Sitaramayya; Finance &amp; Staff — Rajendra Prasad; Credentials — Alladi; Linguistic Provinces Commission — S.K. Dar 1948; JVP 1948.</li><li>Criticisms: not representative (indirect), not sovereign (British plan), time-consuming, Congress-dominated, lawyer-politician dominated, Hindu-dominated; "Ambedkar as Manu", "Hindu Constituent Assembly" (Churchill/Ivor Jennings quotes); women members 15 (Sarojini Naidu, Hansa Mehta, Durgabai Deshmukh, Rajkumari Amrit Kaur, Dakshayani Velayudhan (only Dalit woman), Begum Aizaz Rasul (only Muslim woman), Ammu Swaminathan, Sucheta Kripalani, Renuka Ray, Purnima Banerjee, Malati Choudhury, Leela Roy, Kamla Chaudhry, Annie Mascarene, Vijaya Lakshmi Pandit).</li></ul>
+<h3 id="sources-borrowed-features">Sources (borrowed features)</h3>
+<table><thead><tr><th>Source</th><th>Features</th></tr></thead><tbody><tr><td><strong>GoI Act 1935</strong> (~250 provisions)</td><td>federal scheme, Governor, judiciary, PSCs, emergency, administrative details</td></tr><tr><td><strong>UK</strong></td><td>parliamentary govt, rule of law, legislative procedure, single citizenship, cabinet, prerogative writs, bicameralism, parliamentary privileges</td></tr><tr><td><strong>USA</strong></td><td>FRs, judicial review, independence of judiciary, impeachment of President, removal of SC/HC judges, VP post, Preamble idea</td></tr><tr><td><strong>Ireland</strong></td><td><strong>DPSP</strong>, nomination to RS, method of election of President</td></tr><tr><td><strong>Canada</strong></td><td>federation with strong centre, residuary powers with centre, Governor appointment by centre, advisory jurisdiction of SC</td></tr><tr><td><strong>Australia</strong></td><td><strong>Concurrent list</strong>, freedom of trade/commerce/intercourse (Art 301), joint sitting</td></tr><tr><td><strong>Germany (Weimar)</strong></td><td>suspension of FRs during emergency</td></tr><tr><td><strong>USSR</strong></td><td><strong>Fundamental Duties</strong>, justice (social, economic, political) in Preamble</td></tr><tr><td><strong>France</strong></td><td>republic; liberty, equality, fraternity</td></tr><tr><td><strong>South Africa</strong></td><td>amendment procedure, election of RS members</td></tr><tr><td><strong>Japan</strong></td><td><strong>procedure established by law</strong></td></tr></tbody></table>
+<h3 id="preamble-42nd-amendment-1976-added-socialist-secular-integrity-only-amendment-so-far">Preamble (42nd Amendment 1976 added <strong>Socialist, Secular, Integrity</strong> — only amendment so far)</h3>
+<ul><li>"WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation; IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION."</li><li>Keywords: sovereign (no external control; Commonwealth membership no bar), socialist (democratic socialism; mixed economy), secular (positive; equal respect — Arts 25–28), democratic (representative parliamentary; universal adult franchise; also social/economic democracy per Ambedkar), republic (elected head; no hereditary; public offices open), justice (social-economic-political — from USSR; order social→economic→political), liberty/equality/fraternity (French), fraternity via single citizenship + FDs; "identity card of the Constitution" (N.A. Palkhivala); "key to the minds of the makers" (Ernest Barker quoted; "horoscope" — K.M. Munshi; "political horoscope"; "soul" — Thakurdas Bhargava).</li><li>Is Preamble part of the Constitution? <strong>Berubari Union (1960): NO</strong> → <strong>Kesavananda Bharati (1973): YES</strong>, part, amendable subject to basic structure (LIC of India case 1995 reaffirmed). Not enforceable, not source of power, not limitation on power (can be an aid to interpretation). 2024–25: SC (Nov 2024, Balram Singh) upheld 'socialist' &amp; 'secular' insertion; 2025 debate on removing them (Hosabale statement).</li></ul>
+<h3 id="salient-features">Salient features</h3>
+<ul><li>Lengthiest written (originally 395/22/8); blend rigidity–flexibility (Art 368 — simple/special/special+ratification); federal with unitary bias ("quasi-federal" — K.C. Wheare; "bargaining federalism" — Morris-Jones; "cooperative" — Granville Austin; "federation with strong centralising tendency" — Ivor Jennings); parliamentary (Westminster; Arts 74–75, 163–164); synthesis of parliamentary sovereignty &amp; judicial supremacy; integrated &amp; independent judiciary; FRs (Part III), DPSP (Part IV), FDs (IVA — 42nd, 11th duty 86th); secular state; <strong>universal adult franchise (Art 326; 61st Amdt 18 yrs 1989)</strong>; single citizenship (Part II Arts 5–11; Citizenship Act 1955; CAA 2019 rules March 2024); independent bodies (EC, CAG, UPSC, SPSC); emergency provisions (352 national, 356 state, 360 financial — never used); three-tier government (73rd/74th 1992); cooperative societies (97th 2011).</li><li><strong>Basic structure</strong> (Kesavananda 24 Apr 1973, 13-judge, 7:6; Palkhivala; overruled Golaknath 1967 (FRs unamendable) partially; Shankari Prasad 1951 &amp; Sajjan Singh 1965 earlier): elements listed by courts — supremacy of Constitution, sovereign democratic republic, secularism, separation of powers, federalism, judicial review (Minerva Mills 1980; Waman Rao 1981 — 24 Apr 1973 cut-off for 9th Schedule; <strong>I.R. Coelho 2007</strong>), rule of law, free &amp; fair elections (Indira Gandhi v Raj Narain 1975 — 39th Amdt Art 329A struck), independence of judiciary (NJAC 2015 — 99th struck 4:1), parliamentary system, harmony FR–DPSP, welfare state, unity &amp; integrity, limited amending power, equality, effective access to justice; <strong>Art 368(4)(5)</strong> (42nd; struck in Minerva Mills). Recent: <strong>Electoral bonds struck Feb 2024 (ADR)</strong> — Arts 19(1)(a)/14; <strong>Art 370 abrogation upheld Dec 2023</strong>; <strong>sub-classification of SCs (Aug 2024, 6:1 Davinder Singh)</strong>; <strong>Art 39(b) "material resources" (Nov 2024 Property Owners Assn 8:1 — not all private property)</strong>; <strong>Governor's assent timelines (Apr 2025 TN case; Presidential reference July–Nov 2025 — SC advisory opinion Nov 2025: no fixed timelines, no "deemed assent")</strong>; <strong>Sabarimala review pending</strong>; <strong>Section 6A Citizenship (Assam) upheld Oct 2024</strong>; <strong>Bilkis Bano remission quashed Jan 2024</strong>; <strong>Delhi services (2023 → Act)</strong>; <strong>Chandigarh mayor (Feb 2024)</strong>; <strong>Same-sex marriage (Oct 2023 — no right; legislature)</strong>; <strong>UAPA/PMLA bail</strong>, <strong>Newsclick (Oct 2024)</strong>; <strong>Sedition (124A stayed 2022; BNS 152)</strong>; <strong>Three criminal laws 1 July 2024 (BNS, BNSS, BSA)</strong>; <strong>Waqf Amendment Act 2025 (partial stay Sept 2025)</strong>; <strong>One Nation One Election Bills (Dec 2024; JPC)</strong>; <strong>Delimitation/Women's reservation</strong>; <strong>Right to be free from adverse effects of climate change (Ranjitsinh Apr 2024, Arts 14 &amp; 21)</strong>.</li></ul>
+<h3 id="traps">Traps</h3>
+<ul><li>Assembly first met <strong>9 Dec 1946</strong>; adopted <strong>26 Nov 1949</strong>; commenced <strong>26 Jan 1950</strong>; Objectives Resolution moved 13 Dec 1946, adopted 22 Jan 1947.</li><li>Preamble words in <strong>order</strong>: Sovereign Socialist Secular Democratic Republic; Justice (social, economic, political) → Liberty (thought, expression, belief, faith, worship) → Equality (status, opportunity) → Fraternity.</li><li>Preamble is <strong>part</strong> of the Constitution (Kesavananda) but <strong>non-justiciable</strong>; amended <strong>once</strong> (42nd).</li><li>Judicial review, FRs → <strong>USA</strong>; DPSP → <strong>Ireland</strong>; Concurrent list → <strong>Australia</strong>; Residuary with Centre → <strong>Canada</strong>; procedure established by law → <strong>Japan</strong>; FDs → <strong>USSR</strong>; emergency FR suspension → <strong>Germany</strong>.</li><li>Drafting Committee had <strong>7</strong> members, chaired by Ambedkar, set up <strong>29 Aug 1947</strong>; B.N. Rau was adviser, not a member.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Pair-drills.</p></blockquote>
+<h3 id="dates-flash">Dates flash</h3>
+<ul><li>9 Dec 1946 → first CA sitting (Sinha temp chair) · 11 Dec → Prasad President · 13 Dec → Objectives Resolution moved.</li><li>22 Jan 1947 → Objectives Resolution adopted · 29 Aug 1947 → Drafting Committee (Ambedkar +6).</li><li>26 Nov 1949 → adopted (Constitution Day) · 24 Jan 1950 → last session · 26 Jan 1950 → in force (Republic Day).</li><li>2y 11m 18d duration · 11 sessions · ₹64 lakh · 299 members post-partition.</li></ul>
+<h3 id="sources-flash">Source flash</h3>
+<ul><li>GoI Act 1935 → federal scheme, governor, emergency · UK → parliamentary, single citizenship, rule of law.</li><li>USA → FRs, judicial review, impeachment · Ireland → DPSP · Canada → strong centre, residuary with Union.</li><li>Australia → concurrent list, joint sitting · USSR → FDs · France → republic · Germany → FR suspension · South Africa → amendment method · Japan → procedure established by law.</li></ul>
+<h3 id="committee-flash">Committee flash</h3>
+<ul><li>Drafting (Ambedkar) · Union Powers + Union Constitution + States (Nehru) · Provincial Constitution (Patel) · Steering + Rules (Prasad) · Flag (Nehru) · minor committees galore (Munshi, Gopalaswamy pairs).</li><li>Adviser = B.N. Rau; legal draftsman = S.N. Mukherjee; calligrapher = Prem Behari Narain Raizada.</li></ul>
+<h3 id="trap-flash">Trap flash</h3>
+<ul><li>Adopted ≠ commenced (26 Nov vs 26 Jan) — classic trap.</li><li>Ambedkar = Law Minister + Drafting chair, not CA President (Prasad).</li><li>'Secular' entered Preamble via 42nd (1976), not original text.</li><li>Berubari (1960): Preamble not part; Kesavananda (1973): part — both unenforceable.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .e{font-size:12.5px;fill:#0f172a;font-weight:700}
+    .d{font-size:10.5px;fill:#475569}
+    .ax{stroke:#cbd5e1;stroke-width:3}
+    .ln{stroke:#94a3b8;stroke-width:1.5}
+    .dot{fill:#f59e0b}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="260" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">Making of the Constitution 1946-1950</text>
+  <text x="30" y="54" class="s">prelims · date → milestone</text>
+  <line x1="40" y1="150" x2="920" y2="150" class="ax"/>
+  <line x1="60.0" y1="150" x2="60.0" y2="112" class="ln"/>
+  <circle cx="60.0" cy="150" r="6" class="dot"/>
+  <text x="60.0" y="82" text-anchor="middle" class="e">Dec 1946</text>
+  <text x="60.0" y="99" text-anchor="middle" class="d">First CA sitting</text>
+  <text x="60.0" y="76" text-anchor="middle" class="d">9 Dec; Sachchidananda Sinha temp</text>
+  <line x1="200.0" y1="150" x2="200.0" y2="188" class="ln"/>
+  <circle cx="200.0" cy="150" r="6" class="dot"/>
+  <text x="200.0" y="210" text-anchor="middle" class="e">11 Dec 1946</text>
+  <text x="200.0" y="227" text-anchor="middle" class="d">Rajendra Prasad</text>
+  <text x="200.0" y="243" text-anchor="middle" class="d">permanent President</text>
+  <line x1="340.0" y1="150" x2="340.0" y2="112" class="ln"/>
+  <circle cx="340.0" cy="150" r="6" class="dot"/>
+  <text x="340.0" y="82" text-anchor="middle" class="e">13 Dec 1946</text>
+  <text x="340.0" y="99" text-anchor="middle" class="d">Objectives Resolution</text>
+  <text x="340.0" y="76" text-anchor="middle" class="d">Nehru; adopted 22 Jan 1947</text>
+  <line x1="480.0" y1="150" x2="480.0" y2="188" class="ln"/>
+  <circle cx="480.0" cy="150" r="6" class="dot"/>
+  <text x="480.0" y="210" text-anchor="middle" class="e">29 Aug 1947</text>
+  <text x="480.0" y="227" text-anchor="middle" class="d">Drafting Committee</text>
+  <text x="480.0" y="243" text-anchor="middle" class="d">Ambedkar, 7 members</text>
+  <line x1="620.0" y1="150" x2="620.0" y2="112" class="ln"/>
+  <circle cx="620.0" cy="150" r="6" class="dot"/>
+  <text x="620.0" y="82" text-anchor="middle" class="e">26 Nov 1949</text>
+  <text x="620.0" y="99" text-anchor="middle" class="d">CONSTITUTION ADOPTED</text>
+  <text x="620.0" y="76" text-anchor="middle" class="d">Constitution Day</text>
+  <line x1="760.0" y1="150" x2="760.0" y2="188" class="ln"/>
+  <circle cx="760.0" cy="150" r="6" class="dot"/>
+  <text x="760.0" y="210" text-anchor="middle" class="e">24 Jan 1950</text>
+  <text x="760.0" y="227" text-anchor="middle" class="d">Last CA session</text>
+  <text x="760.0" y="243" text-anchor="middle" class="d">Jana Gana Mana adopted</text>
+  <line x1="900.0" y1="150" x2="900.0" y2="112" class="ln"/>
+  <circle cx="900.0" cy="150" r="6" class="dot"/>
+  <text x="900.0" y="82" text-anchor="middle" class="e">26 Jan 1950</text>
+  <text x="900.0" y="99" text-anchor="middle" class="d">IN FORCE</text>
+  <text x="900.0" y="76" text-anchor="middle" class="d">Republic Day</text>
+  <text x="30" y="246" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>8 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
+<p><strong>Q1.</strong> The Constituent Assembly's first meeting was held on 9 December 1946 under the temporary chairmanship of: (a) Rajendra Prasad (b) Sachchidananda Sinha (c) B.N. Rau (d) H.C. Mukherjee</p>
+<p><strong>Q2.</strong> Consider the Objectives Resolution: 1. It was moved by Jawaharlal Nehru on 13 December 1946. 2. It was adopted on 22 January 1947. 3. Its modified version forms the Preamble. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q3.</strong> Match the borrowed feature with its source: A. Directive Principles — 1. Australia · B. Concurrent List — 2. Ireland · C. Procedure established by law — 3. Japan (a) A-2 B-1 C-3 (b) A-1 B-2 C-3 (c) A-3 B-1 C-2 (d) A-2 B-3 C-1</p>
+<p><strong>Q4.</strong> Which words were added to the Preamble by the 42nd Amendment (1976)? (a) Sovereign, Democratic, Republic (b) Socialist, Secular, Integrity (c) Justice, Liberty, Equality (d) Fraternity, Dignity, Unity</p>
+<p><strong>Q5.</strong> Consider the Preamble's legal status: 1. In Berubari Union (1960) the Supreme Court held it is not part of the Constitution. 2. In Kesavananda Bharati (1973) it was held to be part of the Constitution. 3. It is enforceable in courts. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q6.</strong> Which of the following was NOT a member of the Drafting Committee? (a) K.M. Munshi (b) Alladi Krishnaswami Ayyar (c) B.N. Rau (d) N. Gopalaswami Ayyangar</p>
+<p><strong>Q7.</strong> The provisions relating to citizenship, elections and the provisional Parliament came into force on: (a) 26 January 1950 (b) 26 November 1949 (c) 15 August 1947 (d) 24 January 1950</p>
+<p><strong>Q8.</strong> Who among the following described India's constitutional system as "quasi-federal"? (a) Granville Austin (b) K.C. Wheare (c) Ivor Jennings (d) Morris-Jones</p>
+<h3 id="answer-key">Answer key</h3>
+<table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>Oldest member convention (French practice).</td></tr><tr><td>2</td><td>d</td><td>All correct.</td></tr><tr><td>3</td><td>a</td><td>Standard sources.</td></tr><tr><td>4</td><td>b</td><td>Only amendment to the Preamble so far.</td></tr><tr><td>5</td><td>a</td><td>Non-justiciable.</td></tr><tr><td>6</td><td>c</td><td>Rau was Constitutional Adviser.</td></tr><tr><td>7</td><td>b</td><td>Date of adoption; rest commenced 26 Jan 1950.</td></tr><tr><td>8</td><td>b</td><td>Wheare; Austin — "cooperative federalism"; Morris-Jones — "bargaining".</td></tr></tbody></table>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="prelims-gs1-maps-india-world.html"><span class="lb">← Previous</span>Maps of India &amp; World</a>
+<a class="r" href="prelims-gs1-fundamental-rights-dpsp.html"><span class="lb">Next →</span>Fundamental Rights, DPSP &amp; Fundamental Duties</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

@@ -85,14 +85,29 @@ function walk(dir, base) {
   return out;
 }
 
+/* Folder aliases exist to translate two *kinds* of segment:
+     - the paper/container folder (first segment after content/{stage}/)
+     - the section folder (last segment: detailed-notes -> notes, etc.)
+   They must NOT be applied to intermediate topic folders, or a leaf whose
+   folder name collides with a container alias gets collapsed onto its parent
+   (e.g. essay-frameworks/essay-frameworks -> "essay/essay" instead of
+   "essay/essay-frameworks", orphaning it from the syllabus tree). */
+const SECTION_ALIASES = new Set(['detailed-notes', 'short-notes', 'bullet-points', 'mindmaps', 'diagrams', 'maps', 'pyqs']);
+
+function plainSlug(seg) {
+  return seg.replace(/\.md$/i, '').replace(/[^a-z0-9-]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase();
+}
+
 function navOf(rel) {
-  const parts = rel.split('/').slice(0, -1); // drop filename
-  const nav = parts
-    .filter(p => p !== 'content')
-    .map(p => slugify(p))
-    .filter(Boolean)
-    .join('/');
-  return nav || '';
+  const parts = rel.split('/').slice(0, -1)            // drop filename
+    .filter(p => p !== 'content' && p !== 'prelims' && p !== 'mains');
+  const out = [];
+  parts.forEach((p, i) => {
+    const isPaper = i === 0;
+    const isSection = i === parts.length - 1 && SECTION_ALIASES.has(p);
+    out.push(isPaper || isSection ? slugify(p) : plainSlug(p));
+  });
+  return out.filter(Boolean).join('/');
 }
 
 function dirEntries(files, base) {

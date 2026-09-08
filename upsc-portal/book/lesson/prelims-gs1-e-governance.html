@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1.3.12 E-Governance &amp; Citizen Charters · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part I — GS Paper I — General Studies (Prelims) · Chapter 3: Polity &amp; Governance</p>
+<p class="bk-eyebrow">Lesson 1.3.12</p>
+<h1 id="lesson-prelims-gs1-e-governance">E-Governance &amp; Citizen Charters</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Model + platforms + law. Expect statement-based questions: Aadhaar status, DBT, DPDP Act 2023, UPI scale.</p></blockquote>
+<h3 id="evolution">1. Evolution</h3>
+<ul><li>National e-Governance Plan 2006 (27 Mission Mode Projects) → <strong>e-Kranti 2015</strong> (44 MMPs, 'Transforming e-Governance') → <strong>Digital India (1 Jul 2015)</strong>: three visions (infrastructure-as-utility, governance-services-on-demand, digital empowerment) + nine pillars (broadband highways, mobile connectivity, <strong>public internet access (CSCs)</strong>, e-governance reform, e-Kranti, info-for-all, electronics (ESDM), IT-jobs, early harvest).</li><li><strong>JAM trinity</strong>: Jan Dhan (PMJDY 2014), Aadhaar (UIDAI 2009; <strong>Aadhaar Act 2016</strong>; Puttaswamy 2018: upheld with restrictions — no mandatory private-use without law), Mobile. DBT (2013) — official estimates cite large cumulative savings (~₹2.2 lakh crore).</li></ul>
+<h3 id="platforms">2. Platforms & infrastructure</h3>
+<ul><li>UMANG (unified app), DigiLocker (docs), eSign, <strong>GeM (2016 public procurement portal)</strong>, PM Gati Shakti GIS (logistics), SWAYAM-MOOCs + ePathshala, eCourts, CoWIN (vaccination), Aarogya Setu legacy, <strong>UPI (NPCI 2016)</strong> — live in multiple countries; RuPay; ONDC (open e-commerce network 2022); SAMARTH, PMGDISHA digital literacy; BharatNet (gram panchayat fibre, Digital India Corporation execution).</li><li>Standards: MeghRaj cloud, NIC data centres, STQC certification; India Stack = API layers (identity, payments, data, digital-docs, UPI).</li></ul>
+<h3 id="law">3. Law & policy frame</h3>
+<ul><li>IT Act 2000 ( amended 2008: Sec 66A struck — <strong>Shreya Singhal 2015</strong>), <strong>Digital Personal Data Protection Act 2023</strong> (consent+legitimate-use; Data Protection Board; penalties ₹250cr ceiling; exceptions: state functions, research). CERT-In directions 2022 (6-hour reporting). Data localisation debates (RBI payment-data rule 2018). National Strategy on AI (NITI), IndiaAI Mission 2024; DPDP rules process ongoing.</li><li>Cybersecurity: NCIIPC critical-infrastructure, Cyber Swachhta, I4C (MHA cybercrime portal), 1930 helpline.</li></ul>
+<h3 id="mcq-hooks">MCQ hooks</h3>
+<ul><li>Order: NeGP 2006 → e-Kranti 2015 → Digital India 2015 → DPDP 2023.</li><li>Aadhaar Act 2016 (money-bill route debated); Puttaswamy-II 2018 verdict conditions.</li><li>66A (speech arrests) struck in Shreya Singhal 2015.</li><li>UPI owner = NPCI (not RBI); DBT platform = DBT Mission (Cabinet Secretariat).</li><li>GeM = procurement; ONDC = open network; Gati Shakti = logistics GIS.</li><li>BharatNet target = all ~2.2 lakh gram panchayats fibre.</li></ul>
+<!-- BEGIN studyUPSC:expansion -->
+<h3 id="eg-deep-1">6. What E-Governance Actually Means</h3>
+<p>Distinguish two terms that candidates routinely conflate. <strong>E-government</strong> is the use of ICT to deliver existing government services more efficiently — digitising a form, putting a register online. <strong>E-governance</strong> is broader: it reshapes the <em>relationship</em> between citizen and state, altering processes, structures and accountability, not merely the medium. The Second Administrative Reforms Commission's eleventh report, <em>Promoting e-Governance: The Smart Way Forward</em>, is the standard reference, and its core insight is that computerising a broken process merely produces a faster broken process — <strong>process re-engineering must precede digitisation</strong>.</p>
+<p>The four interaction types are directly examinable:</p>
+<ul>
+<li><strong>G2C (Government to Citizen)</strong> — service delivery: certificates, pensions, subsidies, land records, utility payments.</li>
+<li><strong>G2B (Government to Business)</strong> — licensing, procurement, tax filing, regulatory clearance (GeM, MCA21, single-window clearances).</li>
+<li><strong>G2G (Government to Government)</strong> — inter- and intra-departmental data flows (e-Office, treasury systems, PFMS).</li>
+<li><strong>G2E (Government to Employee)</strong> — payroll, service records, grievance and training portals.</li>
+</ul>
+<p>The evolutionary stages — <strong>presence</strong> (static information online), <strong>interaction</strong> (downloadable forms, email), <strong>transaction</strong> (payments and applications completed online) and <strong>transformation</strong> (integrated, seamless, back-end re-engineered services) — provide a ready analytical frame for mains answers about where India currently stands. Most Indian services have reached transaction; genuine transformation, requiring interoperable back-ends, remains partial.</p>
+
+<h3 id="eg-deep-2">7. Institutional Architecture and Missions</h3>
+<p>The <strong>National e-Governance Plan (NeGP)</strong>, approved in 2006, organised effort into <strong>Mission Mode Projects</strong> — central (income tax, passport, MCA21, banking, insurance), state (land records, transport, police, agriculture, e-district) and integrated (e-procurement, India Portal, National Service Delivery Gateway). Its core infrastructure pillars are worth naming precisely:</p>
+<ul>
+<li><strong>SWAN (State Wide Area Network)</strong> — connectivity backbone down to the block level.</li>
+<li><strong>SDC (State Data Centres)</strong> — consolidated hosting and storage.</li>
+<li><strong>CSC (Common Service Centres)</strong> — the last-mile physical access points run by Village Level Entrepreneurs, addressing the fact that digital delivery fails where citizens lack devices or literacy.</li>
+<li><strong>SSDG</strong> and the National Service Delivery Gateway — middleware for interoperability.</li>
+</ul>
+<p><strong>Digital India (2015)</strong> superseded NeGP with three declared vision areas: digital infrastructure as a utility to every citizen; governance and services on demand; and digital empowerment of citizens. Its nine pillars include broadband highways, universal mobile access, the public internet access programme, e-Kranti (electronic service delivery), information for all, electronics manufacturing, IT for jobs, and early-harvest programmes. <strong>BharatNet</strong> is the optical-fibre programme to connect all gram panchayats — its persistent delays and low utilisation of laid fibre are legitimate criticisms.</p>
+<p>Key platforms to cite with accuracy: <strong>UMANG</strong> (unified mobile app aggregating hundreds of services), <strong>DigiLocker</strong> (cloud-based document repository with legal validity under the IT Act), <strong>e-Office</strong>, <strong>PFMS</strong> (Public Financial Management System, tracking fund flow to the last mile), <strong>GeM</strong> (Government e-Marketplace for public procurement), <strong>e-Courts</strong>, <strong>e-NAM</strong>, <strong>SWAYAM</strong> and <strong>DIKSHA</strong> for education, <strong>CPGRAMS</strong> for grievances, <strong>MyGov</strong> for participatory governance, and <strong>API Setu</strong>. The <strong>National Informatics Centre</strong> is the technology arm; <strong>MeitY</strong> the nodal ministry; and the <strong>Department of Administrative Reforms and Public Grievances</strong> administers the <strong>National e-Governance Service Delivery Assessment</strong>.</p>
+
+<h3 id="eg-deep-3">8. Digital Public Infrastructure and Direct Benefit Transfer</h3>
+<p><strong>India Stack</strong> is the standard example of digital public infrastructure and is best explained as three layered "unbundlings": an <strong>identity layer</strong> (Aadhaar with e-KYC and e-Sign), a <strong>payments layer</strong> (UPI, AePS, the Aadhaar Payment Bridge) and a <strong>data layer</strong> (DigiLocker and the Account Aggregator framework built on the <strong>DEPA</strong> consent architecture). The design principle is <em>interoperable public rails on which private innovation is built</em> — contrast this with closed proprietary platforms.</p>
+<p><strong>JAM trinity</strong> — Jan Dhan accounts, Aadhaar, and Mobile — is the plumbing for <strong>Direct Benefit Transfer</strong>. DBT's claimed gains are the elimination of ghost and duplicate beneficiaries, reduced leakage, and faster transfer; the government's estimated savings figures should be cited with the caveat that they are contested by economists who argue much of the "saving" reflects definitional changes rather than plugged leakage.</p>
+<p>The critical literature is examinable and improves any answer: <strong>exclusion errors</strong> from biometric authentication failure, especially for manual labourers and the elderly with worn fingerprints; connectivity failure in remote areas; the burden of <em>last-mile</em> banking correspondents; and the argument that DBT shifts transaction costs from the state to the poorest citizen. The <em>K. S. Puttaswamy</em> judgment upheld Aadhaar's constitutional validity for welfare subsidies under Section 7 while striking down mandatory linkage for private services such as bank accounts and mobile connections, and reading down Section 57.</p>
+
+<h3 id="eg-deep-4">9. Emerging Technologies in Governance</h3>
+<p><strong>Artificial intelligence</strong> is being applied to grievance triage, crop-loss assessment through satellite imagery, tuberculosis screening, and traffic management. The governance concerns to raise: <strong>algorithmic opacity</strong> in decisions affecting rights, <strong>bias</strong> reproduced from historical data, and the absence of a statutory duty to explain an automated decision. <strong>Blockchain</strong> suits land registries, certificate verification and supply-chain traceability because of immutability and disintermediation, with pilots in several states. <strong>GIS and remote sensing</strong> underpin SVAMITVA, which uses drone surveys to issue property cards for inhabited rural land — a genuinely transformative use because it converts occupancy into bankable title. <strong>Big data analytics</strong> supports the GST Network's fraud detection.</p>
+<p>Also know <strong>e-participation</strong> and <strong>open government data</strong> (data.gov.in), <strong>social audit</strong> as practised under MGNREGA, and the concept of <strong>presumption of openness</strong> that links e-governance to the RTI regime.</p>
+
+<h3 id="eg-deep-5">10. Barriers, Risks and the Way Forward</h3>
+<p>Structure the obstacles rather than listing them randomly:</p>
+<ul>
+<li><strong>Infrastructural</strong> — patchy rural broadband, unreliable electricity, device affordability.</li>
+<li><strong>The digital divide</strong> — along rural/urban, gender (a substantial gap in mobile internet use), income, language (most content remains English-heavy) and disability lines. Accessibility standards for persons with disabilities are mandated under the RPwD Act but weakly enforced.</li>
+<li><strong>Human and organisational</strong> — low digital literacy among both citizens and officials, resistance to change because transparency reduces discretionary rents, weak capacity for procurement of complex IT systems, and high staff turnover.</li>
+<li><strong>Process</strong> — digitisation layered over unreformed procedures; siloed departmental databases that defeat interoperability.</li>
+<li><strong>Legal and security</strong> — data protection, cybersecurity, and the risk of <strong>surveillance</strong> and function creep when databases are linked.</li>
+</ul>
+<p>The governing legal framework: the <strong>Information Technology Act, 2000</strong> (with Section 66A struck down in <em>Shreya Singhal</em> for vagueness and overbreadth, and Section 69A upheld for blocking), the <strong>Digital Personal Data Protection Act, 2023</strong> with its data principal/fiduciary vocabulary and the Data Protection Board, the <strong>Aadhaar Act, 2016</strong>, and the RTI Act as the transparency counterpart. <strong>CERT-In</strong> handles incident response and <strong>NCIIPC</strong> protects critical information infrastructure.</p>
+<p>For a concluding paragraph, the durable prescription is: re-engineer before you digitise; design for the <em>least</em> connected citizen rather than the most; keep an <strong>assisted and offline channel</strong> available as a right, not a concession; mandate interoperability through open APIs and standards; build capacity alongside technology; and anchor the whole in enforceable data protection so that efficiency does not purchase itself with privacy.</p>
+<blockquote><p><strong>Trap watch.</strong> E-government is service delivery; e-governance is relational and structural change. CSCs are the last-mile access layer, SWAN the connectivity layer, SDC the storage layer — do not swap them. Digital India subsumed NeGP; it did not create the Mission Mode Projects, which predate it. DigiLocker documents have legal validity under the IT Act. <em>Puttaswamy</em> permitted Aadhaar for Section 7 subsidies but barred mandatory private-sector linkage. Section 66A of the IT Act is void; Section 69A survives.</p></blockquote>
+<!-- END studyUPSC:expansion -->
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>Prelims GS-I › Polity › Governance. Digital India pillars, India Stack/DPI, key platforms, data laws (DPDP, IT Rules), cyber-security institutions and current numbers.</p></blockquote>
+<h3 id="evolution-models">Evolution &amp; models</h3>
+<ul><li>NIC 1976; NICNET 1987; <strong>National e-Governance Plan 2006 (27 → 31 MMPs)</strong>; IT Act 2000 (amended 2008 — s 66A struck 2015 Shreya Singhal; s 69A blocking upheld; s 79 intermediary safe harbour); <strong>Digital India 1 July 2015</strong> (9 pillars — broadband highways, universal mobile, public internet access, e-governance reform, e-Kranti, information for all, electronics manufacturing, IT for jobs, early-harvest; ~₹15,000 cr; extended to 2026 ₹14,903 cr); e-Kranti (44 MMPs); <strong>Models — G2C, G2B, G2G, G2E</strong>; <strong>Stages (Gartner) — presence, interaction, transaction, transformation</strong>; <strong>SMART governance (Simple, Moral, Accountable, Responsive, Transparent — 2nd ARC 11th report "Promoting e-Governance — the SMART way forward")</strong>; <strong>Digital India Act (draft to replace IT Act 2000 — consultations 2023; pending)</strong>; <strong>India as DPI pioneer — G20 2023 (DPI definition; One Future Alliance; Global DPI Repository)</strong>; <strong>India Stack — identity (Aadhaar), payments (UPI, AePS, BBPS), data (DigiLocker, Account Aggregator, DEPA)</strong>; <strong>Population-scale</strong>: Aadhaar 142 cr; UPI ~20 bn/month (Aug 2025; ₹25 lakh cr; 85% of India's digital transactions; 50% of global real-time payments; live in 7 countries — UAE, Singapore, Bhutan, Nepal, Sri Lanka, Mauritius, France; Trinidad &amp; Tobago, Namibia, Peru adopting UPI tech; <strong>UPI Lite, UPI 123Pay, UPI Circle (2024), credit line on UPI, UPI One World for foreigners; NPCI (2008 — RBI + IBA; Sec 25 company); PhonePe 47%/Google Pay 36% market share cap 30% (deferred to Dec 2026)</strong>; <strong>DigiLocker (2015; 50 cr users; 900 cr docs)</strong>, <strong>UMANG (2017; 2,000+ services)</strong>, <strong>e-Sign, e-KYC, Aadhaar Enabled Payment System (AePS), BHIM (2016), Bharat Bill Pay, RuPay (2012; 50%+ of debit cards), FASTag (2014; 98%; One Vehicle One FASTag; Annual Pass ₹3,000 (Aug 2025 — 200 trips)), GSTN (2013; Sec 8), e-Way bill, MCA21, Passport Seva (TCS), e-Courts, e-Hospital, e-Sanjeevani (36 cr consultations), CoWIN (220 cr doses; template for U-WIN 2024), Aarogya Setu, DIKSHA (2017), SWAYAM (2017; 4 cr), PM e-Vidya, National Digital Library, NDEAR, Vidya Samiksha Kendra; ONDC (Dec 2021; Sec 8; 20 cr transactions (2025); 7 lakh sellers), OCEN (credit), Account Aggregator (2021; 15 cr consents; Sahamati), DEPA, GeM (2016; GMV ₹5.4 lakh cr FY25; 1.6 lakh govt buyers; 23 lakh sellers), Bharat Bill; </strong>Bhashini (2022; National Language Translation Mission; 22 languages; Digital India Bhashini Division; used in Kashi Tamil Sangamam, Parliament (2025 — 22 languages))<strong>, </strong>e-Office 7.0 (Central Secretariat 90%+)<strong>, </strong>CPGRAMS (10-step; 21-day)<strong>, </strong>MyGov (2014; 5 cr users)<strong>, </strong>Meri Pehchaan (National Single Sign-On 2022)<strong>, </strong>API Setu<strong>, </strong>Entity DigiLocker<strong>, </strong>e-District<strong>, </strong>Jeevan Pramaan (face authentication)<strong>, </strong>e-Pramaan<strong>, </strong>NeSDA 2023 (Kerala, Odisha, TN top)<strong>, </strong>PRAGATI (2015; PM's ICT-based monitoring — Oxford Saïd case study 2024)<strong>, </strong>e-Taal<strong>, </strong>India Enterprise Architecture (IndEA 2.0)<strong>, </strong>National Data Governance Framework Policy (draft 2022) — India Datasets Platform<strong>, </strong>Open Government Data (data.gov.in 2012)<strong>, </strong>PM Gati Shakti NMP (BISAG-N)<strong>, </strong>AgriStack (Digital Agri Mission 2024; Farmer ID 5 cr+ 2025 target 11 cr)<strong>, </strong>ABDM (ABHA 78 cr+; 60 cr health records; Ayushman Bharat Digital Mission 2021 — NHA)<strong>, </strong>APAAR (2024; 30 cr+)<strong>, </strong>DIKSHA<strong>, </strong>e-Shram (30.8 cr)<strong>, </strong>NCS<strong>, </strong>Digital Land Records (DILRMP 2016; Bhu-Aadhaar/ULPIN 14-digit; 95% computerised; Cadastral maps; SVAMITVA 2020 — drones, 3.2 lakh villages)<strong>, </strong>Vahan/Sarathi/Parivahan (mParivahan)<strong>, </strong>e-Challan<strong>, </strong>CCTNS (2009; ICJS 2.0 — e-Courts, e-Prisons, e-Forensics, e-Prosecution; NAFIS fingerprint 2022; NDSO), Cri-MAC, NATGRID (2020; 11 agencies; 21 databases), Sahyog portal (2024 — blocking; X (Twitter) challenge Karnataka HC dismissed Sept 2025)<strong>; </strong>Cyber Swachhta Kendra, CERT-In (2004; s 70B; 6-hour incident-reporting directions 2022; ~20 lakh incidents handled in 2024), NCIIPC (2014; s 70A; NTRO), I4C (Indian Cyber Crime Coordination Centre 2020 — 1930 helpline, Citizen Financial Cyber Fraud Reporting &amp; Management System (₹5,000 cr+ saved since 2021), Cyber Dost, Samanvay, Pratibimb; 'digital arrest' scams (₹1,935 cr 2024; PM Mann Ki Baat Oct 2024); Chakshu portal (Sanchar Saathi 2023 — 3.3 cr SIMs disconnected); NCRP; Cyber Commandos (5,000); CFMC; National Cyber Security Coordinator (NSCS — Lt Gen M.U. Nair); National Cyber Security Strategy (pending); Defence Cyber Agency (2019); Cyber security — India 'Tier 1' GCI 2024 (ITU); CERT-In Bharat NCX; Digital Threat Report 2024 (BFSI); Data breaches — AIIMS 2022, ICMR 81.5 cr (2023), BSNL 2024, Star Health 2024, boAt; ransomware (DDoS Operation Sindoor May 2025 — 15 lakh attacks; 'Pakistan APT36'); 'Digital Personal Data' — DPDP Act 2023 (Aug 11; notified rules 13 Nov 2025 — phased 18 months; Data Protection Board (4 members; digital office); consent managers; Data Fiduciary/Principal; Significant Data Fiduciary (DPIA, audits); children &lt;18 verifiable parental consent; penalties up to ₹250 cr (security breach) / ₹200 cr (breach notification/children); exemptions — govt (s 17); RTI s 8(1)(j) amended; no data localisation (blacklist approach); Justice Srikrishna 2018 (PDP Bill 2019 withdrawn Aug 2022; JPC 2021 'DPDP'); <strong>Puttaswamy 2017 (privacy FR)</strong>; IT (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021 (significant social media intermediaries 50 lakh users; grievance officer, chief compliance officer, nodal; 24-hr takedown of non-consensual images; 36 hrs court/govt orders; traceability of first originator (WhatsApp challenge); 2022 — Grievance Appellate Committees (3; Jan 2023); 2023 — fact-check unit (Bombay HC struck Sept 2024 — Kunal Kamra); online gaming SROs (2023; <strong>Promotion and Regulation of Online Gaming Act Aug 2025 — bans real-money online games; e-sports &amp; social games promoted; Online Gaming Authority; 28% GST on full face value Oct 2023; SC Jan 2025 stayed ₹1.12 lakh cr GST notices; DGGI</strong>); <strong>IT (Amendment) Rules draft Oct 2025 — mandatory labelling of synthetically generated (deepfake) content and faster takedown timelines</strong>; <strong>Deepfakes — Rashmika 2023; advisory Dec 2023; MeitY Rules 2025; Sahyog</strong>; <strong>Broadcasting Services (Regulation) Bill 2023/2024 withdrawn Aug 2024 (content creators)</strong>; <strong>Telecom Act 2023 (OTT excluded; spectrum admin — satellite; 2024–25 rules; Digital Bharat Nidhi replaces USOF; interception; biometric KYC; right of way; Sanchar Saathi app pre-install mandate Nov 2025 (withdrawn/made optional Dec 2025 after backlash))</strong>; <strong>Cable TV; PRSB; National Broadcasting Policy draft 2024</strong>; <strong>AI</strong> — IndiaAI Mission (₹10,372 cr; 38,000 GPUs; AIKosh datasets; India AI Safety Institute Jan 2025; Sarvam AI sovereign LLM (Apr 2025); BharatGen; AI Impact Summit Feb 2026 (New Delhi; 5th global after Paris Feb 2025); Responsible AI (NITI 2021); Global Partnership on AI (India chair 2024; GPAI–OECD merged 2024); MeitY AI governance guidelines (Nov 2025 — 7 sutras; no separate AI law; AI Governance Group); Hiroshima Process; Bletchley Declaration (Nov 2023; India signatory) → Seoul (May 2024) → Paris (Feb 2025; India co-chair; US/UK declined); <strong>Deepfake advisory; AI in elections (EC advisory 2024/2025 — label AI content; 3 hrs takedown)</strong>; <strong>Semiconductor/Quantum — National Quantum Mission (2023; ₹6,003 cr; 50–1,000 qubits; 4 hubs — IISc, IIT Madras, IIT Bombay, IIT Delhi; QpiAI 25-qubit 'Indus' Apr 2025; Amaravati Quantum Valley (IBM 156 qubit 2026))</strong>; <strong>5G (Oct 2022; 99% districts; 4.7 lakh BTS; 6G Bharat 6G Vision 2023 — 2030; Bharat 6G Alliance)</strong>; <strong>BharatNet (2011; 2.18 lakh GPs service-ready; Amended BharatNet ₹1.39 lakh cr Aug 2023 — 2.64 lakh GPs, 10-yr O&amp;M)</strong>; <strong>PM-WANI (2020; 3.3 lakh hotspots)</strong>; <strong>Internet users 97 cr (TRAI Mar 2025); teledensity 85%; rural 59%; broadband 94 cr; India cheapest data ~₹9/GB</strong>; <strong>Internet shutdowns — India top globally 2018–24 (Access Now: 2024 — 84; Manipur 212 days 2023); Anuradha Bhasin 2020 (proportionality; publish orders; Temporary Suspension of Telecom Services Rules 2017 → 2024 rules under Telecom Act — 15-day max)</strong>; <strong>Digital divide — NFHS-5 women mobile 54%; ASER 2024 90% rural 14–16 have smartphone access; PMGDISHA (6 cr rural digital literacy; closed 2024); Digital Saksharta Abhiyan; Common Service Centres (5.9 lakh; VLEs; CSC SPV 2009; CSC 2.0 2015 — 'Digital Seva')</strong>; <strong>Aadhaar — Puttaswamy 2018 (4:1 — Sec 57 struck; not for bank/mobile mandatory; PAN linkage valid; money bill upheld → Rojer Mathew reference); Aadhaar (Amendment) Act 2019 (voluntary use; offline verification; ₹1 cr penalty; UIDAI Fund); Aadhaar Act 2016 (money bill); Sec 7 subsidy; face authentication (2025 — 15 cr/month); Aadhaar Vault; virtual ID; children Baal Aadhaar (blue); 2025 — new Aadhaar app (QR; selective disclosure); Aadhaar–voter ID (2021 Election Laws Amdt — voluntary; SIR 2025 — 'Aadhaar not proof of citizenship but 12th document'); UIDAI (statutory 2016; Neelkanth Mishra chairman; Bhuvnesh Kumar CEO 2024); Aadhaar-seeded DBT savings estimated at ₹3.48 lakh cr cumulative; m-Aadhaar; Aadhaar for tenants; UIDAI 'Aadhaar 2.0'</strong>; <strong>DBT — 2013 (Jan 1; 43 districts); DBT Bharat; ₹44 lakh cr cumulative; 320 schemes/53 ministries; ₹6.9 lakh cr FY 2024–25 (record); 'Ghost beneficiaries' 10 cr removed; PFMS (2009 CPSMS)</strong>; <strong>e-Governance awards — National e-Governance Awards (27th conference 2024 Mumbai; 28th Visakhapatnam Sept 2025 — Theme 'Viksit Bharat: Citizen First'); NeSDA-Way Forward; Digital India Awards 2024 (Jan 2025)</strong>; <strong>Bharat Kosh; e-Procurement (CPPP); TReDS (MSME; 2017; ₹2 lakh cr FY25); e-Marketplace; India Post Payments Bank (2018; 10 cr); India Post 'Dak Ghar Niryat Kendra'; Post Office Act 2023 (replaced 1898)</strong>; <strong>Cooperative — 'Sahakar se Samriddhi': 2 lakh PACS computerisation (₹2,516 cr; 67,000 done 2025); PACS as CSC/Jan Aushadhi/PM Kisan Samriddhi Kendras; National Cooperative Database 2024; Tribhuvan Sahkari University (Anand; Act 2025); International Year of Cooperatives 2025; Cooperative Taxi; Bharat brand; three new multi-state coops 2023 (NCEL exports, NCOL organics, BBSSL seeds); Model bye-laws; Ministry of Cooperation July 2021; Multi-State Cooperative Societies (Amendment) Act 2023 (Election Authority, Rehabilitation Fund, ombudsman)</strong>.</li></ul>
+<h3 id="traps">Traps</h3>
+<ul><li><strong>Digital India launched 1 July 2015</strong> (extended to FY 2025–26); <strong>NeGP 2006</strong>; <strong>IT Act 2000 (India's only cyber law; Digital India Act pending)</strong>; <strong>s 66A struck 2015; s 69A upheld</strong>; <strong>s 79 safe harbour with IT Rules 2021 due diligence</strong>.</li><li><strong>DPDP Act 2023 — applies to digital personal data; Data Protection Board is adjudicatory (not regulator); penalties up to ₹250 cr; no criminal offences; children &lt;18; govt exemptions; rules notified Nov 2025 (18-month phase-in)</strong>; <strong>RTI s 8(1)(j) now exempts all personal information</strong>.</li><li><strong>UPI is by NPCI (not RBI directly); NPCI is a Section 8 company owned by banks</strong>; <strong>Aadhaar is not proof of citizenship or date of birth (UIDAI 2023/24; SC 2024 on DoB); Aadhaar Act 2016 passed as money bill (upheld 4:1)</strong>; <strong>UIDAI under MeitY (statutory)</strong>.</li><li><strong>ONDC, GSTN, NPCI = Section 8 companies</strong>; <strong>CERT-In under MeitY (s 70B); NCIIPC under NTRO (s 70A); I4C under MHA; NATGRID under MHA; NCSC under NSCS (PMO)</strong>; <strong>1930 = cyber fraud helpline; 1930/cybercrime.gov.in; 14567 Elder Line; 112 ERSS; 181 women; 1098 child; 14416 Tele-MANAS; 15100 NALSA</strong>.</li><li><strong>Online Gaming Act 2025 — bans online money games (regardless of skill/chance); creates Online Gaming Authority; GST 28% on deposits since Oct 2023</strong>; <strong>Telecom Act 2023 — OTT apps not covered; satellite spectrum administrative; Digital Bharat Nidhi</strong>; <strong>Anuradha Bhasin 2020 — internet access for trade/speech protected under Art 19; shutdown orders must be published &amp; proportionate; 2017 Rules — 15 days max (2020 amendment)</strong>.</li><li><strong>CSC — 5.9 lakh</strong>; <strong>BharatNet — 2.18 lakh GPs</strong>; <strong>e-Sanjeevani — largest telemedicine (36 cr)</strong>; <strong>CoWIN → U-WIN</strong>; <strong>GeM (2016) under Commerce; Bhashini under MeitY; AgriStack under Agriculture; ABDM under NHA; APAAR under Education; Bhuvan (ISRO); PM Gati Shakti (BISAG-N, DPIIT)</strong>.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Platform-anchor flash.</p></blockquote>
+<h3 id="stack-flash">Stack flash</h3>
+<ul><li>NeGP 2006 (27 MMPs) → e-Kranti 2015 (44) → Digital India 2015 (9 pillars, 3 visions).</li><li>JAM → Jan Dhan + Aadhaar + Mobile · DBT → 2013, DBT Mission under Cabinet Secretariat.</li><li>India Stack layers → identity (Aadhaar), payments (UPI), data (DEPA), docs (DigiLocker), eSign.</li></ul>
+<h3 id="platform-flash">Platform flash</h3>
+<ul><li>UMANG → unified service app · GeM → govt procurement (2016) · ONDC → open commerce network · Gati Shakti → multi-ministry logistics GIS · CoWIN → vaccination.</li><li>BharatNet → GP fibre · CSCs → rural access points (Digital India pillar) · PMGDISHA → rural digital literacy.</li></ul>
+<h3 id="law-flash">Law flash</h3>
+<ul><li>IT Act 2000 (amended 2008) · Sec 66A struck → Shreya Singhal 2015 · DPDP Act 2023 (Board, consent, ₹250cr cap, state-function carve-outs).</li><li>CERT-In 2022 directions → 6-hour incident reporting · NCIIPC → critical infrastructure.</li></ul>
+<h3 id="trap-flash">Trap flash</h3>
+<ul><li>UPI = NPCI — an RBI-initiated section-8 company that operates (does not regulate).</li><li>Aadhaar mandatory only for state subsidies (Puttaswamy-II), not private services.</li><li>DPDP 2023 = personal-data act only (not non-personal data).</li><li>e-Kranti ≠ Make in India (digital vs manufacturing).</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .t{font-size:20px;font-weight:700;fill:#0f172a}
+    .s{font-size:12px;fill:#64748b}
+    .h{font-size:13.5px;fill:#92400e;font-weight:700}
+    .md{font-size:11px;fill:#334155}
+    .card{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.2}
+    .foot{font-size:10px;fill:#94a3b8}
+  </style>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="34" class="t">E-Governance stack</text>
+  <text x="30" y="54" class="s">prelims · pillar → what it is</text>
+  <rect x="30" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="114" class="h">FOUNDATIONS</text>
+  <text x="44" y="134" class="md">NeGP 2006 (27 Mission Mode Projects)</text>
+  <text x="44" y="151" class="md">e-Kranti 2015 (44 MMPs)</text>
+  <text x="44" y="168" class="md">DIGITAL INDIA 2015</text>
+  <text x="44" y="185" class="md">JAM trinity: Jan Dhan-Aadhaar-Mobile</text>
+  <rect x="488" y="88" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="114" class="h">IDENTITY &amp; MONEY</text>
+  <text x="502" y="134" class="md">Aadhaar (UIDAI, 2016 act)</text>
+  <text x="502" y="151" class="md">UPI (NPCI 2016)</text>
+  <text x="502" y="168" class="md">DBT platform</text>
+  <text x="502" y="185" class="md">e-RUPI vouchers</text>
+  <rect x="30" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="44" y="269" class="h">PLATFORMS</text>
+  <text x="44" y="289" class="md">UMANG app</text>
+  <text x="44" y="306" class="md">DigiLocker</text>
+  <text x="44" y="323" class="md">eSign</text>
+  <text x="44" y="340" class="md">GeM public procurement</text>
+  <text x="44" y="357" class="md">SWAYAM-ePathshala</text>
+  <rect x="488" y="243" width="442" height="139" rx="10" class="card"/>
+  <text x="502" y="269" class="h">GOVTECH GOVERNANCE</text>
+  <text x="502" y="289" class="md">IT Act 2000 + DPDP Act 2023</text>
+  <text x="502" y="306" class="md">MeitY nodal ministry</text>
+  <text x="502" y="323" class="md">NASSCOM vs industry body (not govt)</text>
+  <text x="502" y="340" class="md">data localisation debates</text>
+  <text x="30" y="436" class="foot">studyUPSC · prelims diagram · pair with detailed-notes</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
+<p><strong>Q1.</strong> Consider the Digital Personal Data Protection Act, 2023: 1. It applies to personal data collected in digital form or digitised later. 2. The Data Protection Board of India can impose penalties of up to ₹250 crore for failure to take reasonable security safeguards. 3. It mandates that all personal data of Indians be stored only in India. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q2.</strong> Which of the following are Section 8 (not-for-profit) companies? 1. National Payments Corporation of India 2. Open Network for Digital Commerce 3. Goods and Services Tax Network 4. Unique Identification Authority of India (a) 1, 2 and 3 (b) 1 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
+<p><strong>Q3.</strong> Match the institution with its parent: A. CERT-In — 1. Ministry of Electronics and IT · B. NCIIPC — 2. National Technical Research Organisation · C. Indian Cyber Crime Coordination Centre (I4C) — 3. Ministry of Home Affairs (a) A-1 B-2 C-3 (b) A-2 B-1 C-3 (c) A-1 B-3 C-2 (d) A-3 B-2 C-1</p>
+<p><strong>Q4.</strong> In <em>Anuradha Bhasin v Union of India</em> (2020) the Supreme Court held that: (a) Internet access is an absolute Fundamental Right under Article 21 (b) Freedom of speech and the freedom to practise any trade over the internet enjoy constitutional protection, and suspension orders must be published and proportionate (c) Section 66A of the IT Act is unconstitutional (d) Aadhaar cannot be made mandatory for mobile connections</p>
+<p><strong>Q5.</strong> Consider the Promotion and Regulation of Online Gaming Act, 2025: 1. It prohibits online money games irrespective of whether they are based on skill or chance. 2. It promotes e-sports and online social games. 3. It reduces GST on online gaming to 18%. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q6.</strong> Which of the following is NOT one of the nine pillars of the Digital India programme launched in 2015? (a) Broadband Highways (b) Electronics Manufacturing (c) Universal Basic Income (d) Early Harvest Programmes</p>
+<p><strong>Q7.</strong> Consider Aadhaar: 1. The Aadhaar Act, 2016 was passed as a Money Bill. 2. In <em>Puttaswamy</em> (2018) the Supreme Court struck down Section 57 that allowed private entities to use Aadhaar authentication. 3. Aadhaar is legally recognised as proof of citizenship. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<p><strong>Q8.</strong> "Bhashini" is: (a) A satellite-based broadband network for gram panchayats (b) The National Language Translation Mission platform under MeitY (c) A digital literacy programme for rural women (d) A grievance redress portal for pensioners</p>
+<p><strong>Q9.</strong> The Government e-Marketplace (GeM) functions under the: (a) Ministry of Electronics and IT (b) Ministry of Finance (c) Ministry of Commerce and Industry (d) NITI Aayog</p>
+<p><strong>Q10.</strong> Consider the Telecommunications Act, 2023: 1. It replaces the Indian Telegraph Act, 1885 and the Indian Wireless Telegraphy Act, 1933. 2. It provides for administrative allocation of spectrum for satellite communication. 3. It brings over-the-top (OTT) messaging apps under telecom licensing. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
+<h3 id="answer-key">Answer key</h3>
+<table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>a</td><td>No blanket data-localisation mandate; a negative-list approach is used.</td></tr><tr><td>2</td><td>a</td><td>UIDAI is a statutory authority.</td></tr><tr><td>3</td><td>a</td><td>Standard pairing.</td></tr><tr><td>4</td><td>b</td><td>Proportionality and publication of orders.</td></tr><tr><td>5</td><td>a</td><td>GST remains 28% on deposits (Oct 2023).</td></tr><tr><td>6</td><td>c</td><td>UBI is not a pillar.</td></tr><tr><td>7</td><td>a</td><td>Aadhaar is not proof of citizenship or date of birth.</td></tr><tr><td>8</td><td>b</td><td>Launched 2022.</td></tr><tr><td>9</td><td>c</td><td>Set up in 2016 under DGS&amp;D/Commerce.</td></tr><tr><td>10</td><td>a</td><td>OTT apps were excluded from the final Act.</td></tr></tbody></table>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="prelims-gs1-schemes-policies.html"><span class="lb">← Previous</span>Government Schemes &amp; Public Policy</a>
+<a class="r" href="prelims-gs1-bilateral-ties.html"><span class="lb">Next →</span>India–Neighbourhood &amp; Bilateral Relations</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

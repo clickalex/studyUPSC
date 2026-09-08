@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10.1.1 GS I — practice questions with answer frameworks · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part X — Mains Practice — Question Bank &amp; Answer Frameworks · Chapter 1: GS I — practice questions with answer frameworks</p>
+<p class="bk-eyebrow">Lesson 10.1.1</p>
+<h1 id="lesson-mains-practice-gs-1-practice">GS I — practice questions with answer frameworks</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>How to convert the GS-1 question bank (see pyqs/) into marks: syllabus mapping, time protocol, rubric, weekly cycle.</p></blockquote>
+<h3 id="1-what-gs-1-demands">1. What GS-1 Demands</h3>
+<p>GS-1 rewards <strong>substantive memory organised analytically</strong>: culture (art, architecture, personalities), modern history (1857–1947), post-independence consolidation, world history (revolutions, redrawing boundaries), society (urbanisation, globalisation, communalism, women), geography (physical, Indian, world) and geophysical phenomena (earthquakes, cyclones, tsunamis). The examiner's mix is roughly: recall-heavy (culture/history) + analytical (society) + applied-conceptual (geography).</p>
+<h3 id="2-the-time-protocol">2. The Time Protocol</h3>
+<ul><li>10 markers (150 words): <strong>7 minutes</strong> — 30 sec decode + 30 sec micro-outline + 5:30 write + 30 sec underline.</li><li>15 markers (250 words): <strong>11 minutes</strong> — with a diagram/map slot wherever a spatial or temporal spread exists.</li><li>Full mock (20 questions, 3 hours): 20-question arithmetic means no answer exceeds budget — practise abandoning an answer at the bell.</li></ul>
+<h3 id="3-answer-anatomy-for-gs-1">3. Answer Anatomy for GS-1</h3>
+<ul><li><strong>Introduction (2-3 lines)</strong>: define the core term or set the period/context — dates and dynasties earn their keep here.</li><li><strong>Body</strong>: 2-4 labelled dimensions with examples as evidence; history answers move chronologically, society answers move thematically, geography answers move spatially.</li><li><strong>Diagram/map</strong>: at least in every geography answer and wherever history offers a timeline — a clean 30-second sketch differentiates.</li><li><strong>Conclusion (2 lines)</strong>: significance or legacy — never end mid-list.</li></ul>
+<h3 id="4-self-evaluation-rubric">4. Self-evaluation Rubric (score /10 per answer)</h3>
+<table><thead><tr><th>Criterion</th><th>Marks</th></tr></thead><tbody>
+<tr><td>Question decoded — directive verb honoured (discuss ≠ describe)</td><td>2</td></tr>
+<tr><td>Substance — facts, dates, schools of thought, examples accurate</td><td>3</td></tr>
+<tr><td>Structure — labelled dimensions, logical flow, visual used</td><td>3</td></tr>
+<tr><td>Closure — significance stated within word limit</td><td>2</td></tr>
+</tbody></table>
+<h3 id="5-the-weekly-cycle">5. The Weekly Cycle</h3>
+<ul><li><strong>Mon</strong>: culture — 2 answers + timeline revision (dance, architecture schools).</li><li><strong>Tue</strong>: modern history — 2 answers + one 1757–1947 segment re-read.</li><li><strong>Wed</strong>: society — 2 answers with current data (NFHS, census-proxy, NCRB).</li><li><strong>Thu</strong>: geography — 2 answers, each with a map/annotated sketch.</li><li><strong>Fri</strong>: world history/post-independence — 2 answers.</li><li><strong>Sat</strong>: half mock (10 Q, 90 min) + same-day evaluation.</li><li><strong>Sun</strong>: error-log review; rewrite the two worst answers.</li></ul>
+<h3 id="6-the-error-log">6. The Error Log</h3>
+<p>Four columns: question, what I wrote, what a 8+/10 wrote, the fix (fact gap / structure slip / time breach). Review weekly; the log becomes your personal question bank by December.</p>
+<h3 id="7-answer-writing-pointers">7. Pointers</h3>
+<ul><li>Culture answers: name texts/texts' authors, dynasties, regions — vagueness is death.</li><li>Society answers: pair a concept (modernisation, patriarchy) with one datum and one example.</li><li>Geography answers: sketch first (10 sec), write around it.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>One-page drill card. Full system in detailed-notes; question bank in pyqs/.</p></blockquote>
+<h3 id="timing">Timing</h3>
+<ul><li>10-marker: 7 min · 15-marker: 11 min · full mock: 20 Q / 180 min — abandon at the bell.</li></ul>
+<h3 id="anatomy-60-seconds">Anatomy (60 seconds)</h3>
+<ul><li>Intro: define/period-set (dates!) → Body: 2-4 labelled dimensions + examples → Visual in geography &amp; timeline questions → Close with significance.</li></ul>
+<h3 id="rubric-10">Rubric /10</h3>
+<ul><li>Decode 2 · Substance 3 · Structure 3 · Closure 2. Score every practice answer; log the gap.</li></ul>
+<h3 id="weekly-rhythm">Weekly rhythm</h3>
+<ul><li>M culture · T modern history · W society+data · Th geography+maps · F world/post-47 · Sa half-mock · Su error-log + rewrites.</li></ul>
+<h3 id="paper-specific-reminders">Paper-specific reminders</h3>
+<ul><li>Directive verbs: "discuss" = both sides + view; "critically analyse" = verdict required.</li><li>Never exceed the word limit — GS-1 rewards density, not length.</li><li>Maps: one clean India/world outline per answer; label 5-7 items max.</li></ul>
+<h3 id="score-tracking">Score tracking</h3>
+<ul><li>Track per-section averages weekly: culture / history / society / geography. Weak section gets the Sunday rewrite slot.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>What earns marks in GS-1 — compressed.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>GS-1 ANSWER MACHINE
+├── DECODE ....... directive verb + scope + marks/word budget
+├── INTRO ........ definition / period-set (dates, dynasty, Article, datum)
+├── BODY ......... labelled dimensions; chrono (history) · thematic (society)
+│                 · spatial (geography); evidence per dimension
+├── VISUAL ....... map/timeline/flow — 30-sec clean sketch
+└── CLOSE ........ significance / legacy in 2 lines</code></pre>
+<h3 id="examiner-rewards">Examiner rewards</h3>
+<ul><li>Specific memory: names, years, texts, regions, schemes' data.</li><li>Dimension labels that mirror the question's parts.</li><li>A visual where the content is inherently spatial/temporal.</li><li>Word-limit discipline — density over sprawl.</li></ul>
+<h3 id="common-leaks">Common leaks</h3>
+<ul><li>Generic intro that could open any answer.</li><li>Examples listed without linking to the dimension.</li><li>Diagrams drawn late and abandoned mid-way.</li><li>No conclusion — the answer stops when words run out.</li></ul>
+<h3 id="resource-mapping-for-gaps">Resource mapping for gaps</h3>
+<ul><li>Culture gaps → short-notes cards of art-culture topic; history gaps → topic timelines; society gaps → current-affairs data sheet; geography gaps → atlas hour.</li></ul>
+<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<ul><li>"In GS-1, the example is the argument."</li><li>"Decode, dimension, display, deliver."</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-1 answer anatomy — where 7 and 11 minutes go</text>
+  <text x="30" y="56" class="s">gs-1-practice · culture/history/society/geography — one machine, four moods</text>
+  <rect x="40" y="84" width="150" height="70" rx="10" class="q"/>
+  <text x="115" y="108" text-anchor="middle" class="h">INTRO · 2-3 LINES</text>
+  <text x="115" y="126" text-anchor="middle" class="sm">definition or period-set;</text>
+  <text x="115" y="140" text-anchor="middle" class="sm">dates/dynasty/datum earn here</text>
+  <rect x="200" y="84" width="430" height="70" rx="10" class="sec"/>
+  <text x="415" y="106" text-anchor="middle" class="h">BODY — 2-4 LABELLED DIMENSIONS</text>
+  <text x="415" y="124" text-anchor="middle" class="sm">history → chronological · society → thematic · geography → spatial</text>
+  <text x="415" y="140" text-anchor="middle" class="sm">every dimension carries one example as evidence</text>
+  <rect x="640" y="84" width="280" height="70" rx="10" class="g"/>
+  <text x="780" y="106" text-anchor="middle" class="h">VISUAL SLOT (30 sec)</text>
+  <text x="780" y="124" text-anchor="middle" class="sm">map in geography · timeline in history</text>
+  <text x="780" y="140" text-anchor="middle" class="sm">flow in society processes · label ≤ 7 items</text>
+  <path d="M 190 119 L 200 119" stroke="#64748b" stroke-width="2"/>
+  <path d="M 630 119 L 640 119" stroke="#64748b" stroke-width="2"/>
+  <rect x="40" y="168" width="880" height="46" rx="10" class="sec"/>
+  <text x="480" y="188" text-anchor="middle" class="h">CONCLUSION · 2 LINES — significance / legacy / way-ahead</text>
+  <text x="480" y="204" text-anchor="middle" class="sm">never stop mid-list; the close is a scored line</text>
+  <rect x="40" y="232" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="256" class="h">TIME BUDGET</text>
+  <text x="56" y="278" class="md">10-marker: 0:30 decode · 0:30 outline · 5:30 write · 0:30 underline</text>
+  <text x="56" y="296" class="md">15-marker: same plus diagram slot; 11 minutes total</text>
+  <text x="56" y="318" class="md">full mock: 20 Q / 180 min → 9 min average incl. reading</text>
+  <text x="56" y="340" class="sm">abandon at the bell — a finished B-grade beats an unfinished A-grade</text>
+  <rect x="490" y="232" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="256" class="h">RUBRIC /10 (score every practice answer)</text>
+  <text x="506" y="278" class="md">Decode — directive verb honoured ......... 2</text>
+  <text x="506" y="296" class="md">Substance — facts/examples accurate ....... 3</text>
+  <text x="506" y="314" class="md">Structure — labels, flow, visual .......... 3</text>
+  <text x="506" y="332" class="md">Closure — significance in limit ........... 2</text>
+  <text x="506" y="356" class="sm">log: what I wrote · what an 8+ wrote · the fix</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-1 practice diagram · pair with detailed-notes/gs-1-practice-system.html</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>30 original questions in the UPSC pattern (10-markers ≈ 150 words, 15-markers ≈ 250 words). Each carries a compact answer framework — the introduction hook, the body skeleton with the examples an examiner expects, and a forward-looking conclusion. Write full answers against a clock (7 minutes for 10 marks, 11 minutes for 15) and compare structure, not wording.</p></blockquote>
+<h3 id="a-indian-heritage-culture">A. Indian Heritage &amp; Culture</h3>
+<p><strong>Q1. (10 marks)</strong> Discuss how the Chola temple architecture reflects the political and economic power of the Chola state.</p>
+<ul><li><em>Intro:</em> Brihadeeswara (1010 CE) as 'imperial temple' — Rajaraja I's inscription listing endowments.</li><li><em>Body:</em> vimana height as royal statement; temple as landlord, banker and employer (devadana grants, 400 dancers, 600 staff); bronze casting (Nataraja) linked to guild patronage; temple-town urbanisation (Thanjavur, Gangaikondacholapuram); inscriptions as archives of the state.</li><li><em>Conclusion:</em> the temple as a 'state within the state' that outlived the dynasty — UNESCO 'Great Living Chola Temples'.</li></ul>
+<p><strong>Q2. (10 marks)</strong> 'Bhakti and Sufi movements were not merely religious but also social revolutions.' Examine.</p>
+<ul><li><em>Body:</em> vernacular languages (Kabir's dohas, Tukaram's abhangs, Baba Farid's Punjabi); rejection of caste (Ravidas, Chokhamela); women's voices (Mirabai, Akka Mahadevi, Lal Ded); Sufi khanqahs as inclusive spaces; langar and Sikhism's institutional egalitarianism; limits — did not dismantle caste structurally.</li><li><em>Conclusion:</em> laid a composite culture that later reformers (Phule, Ambedkar) drew upon.</li></ul>
+<p><strong>Q3. (15 marks)</strong> Compare the Nagara and Dravida styles of temple architecture with examples, and explain the emergence of the Vesara style.</p>
+<ul><li><em>Body:</em> table — shikhara vs vimana, absence vs presence of gopuram and enclosure walls, single vs multiple shrines, latina/phamsana/valabhi sub-types (Khajuraho, Konark, Modhera) vs Pallava–Chola–Vijayanagara–Nayaka evolution (Mamallapuram to Madurai); Vesara — Chalukyan experiments at Aihole/Pattadakal, Hoysala star-shaped plans (Belur, Halebidu, Somnathpur).</li><li><em>Conclusion:</em> Deccan as a laboratory of synthesis; regional variants (Kalinga, Maru-Gurjara) show that the binary is a simplification.</li></ul>
+<p><strong>Q4. (10 marks)</strong> Evaluate the significance of the Maratha Military Landscapes of India inscribed as a UNESCO World Heritage Site in 2025.</p>
+<ul><li><em>Body:</em> 12 forts across Maharashtra and Tamil Nadu (Raigad, Shivneri, Pratapgad, Gingee etc.); typology — hill, hill-forest, hill-plateau, coastal, island forts; Shivaji's guerrilla strategy embodied in landscape; India's 44th site; issues — conservation funding, encroachment, tourism pressure, ASI–State coordination.</li></ul>
+<p><strong>Q5. (10 marks)</strong> Indian classical dance forms are living traditions rather than museum pieces. Discuss with reference to their evolution in the twentieth century.</p>
+<ul><li><em>Body:</em> revival from devadasi stigma (Rukmini Devi Arundale, Kalakshetra 1936); Sattriya recognised 2000; Kathak's court-to-proscenium journey; contemporary choreography (Chandralekha, Astad Deboo); diaspora transmission; institutional support (SNA, CCRT); tensions over 'purity' vs innovation.</li></ul>
+<h3 id="b-modern-indian-history">B. Modern Indian History</h3>
+<p><strong>Q6. (15 marks)</strong> 'The Revolt of 1857 was the culmination of a century of popular resistance rather than a sudden sepoy mutiny.' Critically examine.</p>
+<ul><li><em>Body:</em> pre-1857 civil rebellions (Sanyasi–Fakir, Paika 1817, Kol 1831, Santhal 1855) and mutinies (Vellore 1806, Barrackpore 1824); shared grievances — revenue settlements, annexations (Doctrine of Lapse, Awadh 1856), dispossession of taluqdars, missionary anxieties; but 1857 differed — scale, sepoy–peasant–elite alliance, symbolic Mughal restoration; limitations — regional confinement, absence of a forward-looking programme; historiographical debate (Sen, Majumdar, Stokes, Mukherjee).</li><li><em>Conclusion:</em> continuity of grievance, discontinuity of scale; watershed in colonial policy (Queen's Proclamation, army reorganisation).</li></ul>
+<p><strong>Q7. (10 marks)</strong> Assess the contribution of the Moderates to the national movement despite the charge of 'political mendicancy'.</p>
+<ul><li><em>Body:</em> economic critique (Naoroji's drain theory, R.C. Dutt), constitutional agitation (Councils Acts 1892, 1909), creating a pan-Indian political culture and press, training ground for Extremists; limits — narrow social base, faith in British justice; Bipan Chandra's defence.</li></ul>
+<p><strong>Q8. (15 marks)</strong> How did Gandhi transform the Congress from an elite debating body into a mass movement between 1917 and 1922? What were the limits of this transformation?</p>
+<ul><li><em>Body:</em> Champaran, Kheda, Ahmedabad as laboratories; Nagpur Constitution 1920 (four-anna membership, linguistic PCCs, Working Committee); satyagraha as a technique accessible to peasants, women, Muslims (Khilafat); constructive programme; limits — Chauri Chaura withdrawal, communal fault lines post-Khilafat, class ceiling (no-rent campaigns discouraged), Ambedkar's critique.</li></ul>
+<p><strong>Q9. (10 marks)</strong> Examine the role of women in the Civil Disobedience Movement and how it differed from their participation in Non-Cooperation.</p>
+<ul><li><em>Body:</em> salt satyagraha picketing (Sarojini Naidu at Dharasana, Kamaladevi Chattopadhyay), Rashtriya Stree Sangha, Nari Satyagraha Samiti, Matangini Hazra, Rani Gaidinliu; contrast — 1921 mostly symbolic/domestic, 1930 public and organisational; consequences — Karachi Resolution 1931 on equality, franchise under 1935 Act; limits — upper-caste urban leadership.</li></ul>
+<p><strong>Q10. (15 marks)</strong> 'Partition was not inevitable until very late.' Discuss the developments between 1940 and 1947 that made it so.</p>
+<ul><li><em>Body:</em> Lahore Resolution 1940 ambiguity; Cripps 1942 provincial opt-out; Quit India vacuum used by the League; 1945–46 elections (League's sweep of Muslim seats); Cabinet Mission grouping and its collapse (Nehru's July 1946 press conference); Direct Action Day and Noakhali–Bihar violence; interim government deadlock; Attlee's 20 February 1947 statement; Mountbatten's June 3 Plan; Congress acceptance rationale.</li><li><em>Conclusion:</em> structural (separate electorates since 1909) plus contingent factors; Jalal's 'bargaining counter' thesis versus mainstream view.</li></ul>
+<p><strong>Q11. (10 marks)</strong> Discuss the contribution of revolutionary nationalism to India's freedom struggle beyond individual acts of violence.</p>
+<ul><li><em>Body:</em> HRA/HSRA's socialist turn (Bhagat Singh's 'Why I am an Atheist', Assembly bomb as propaganda), Chittagong armoury raid, Ghadar's diaspora mobilisation, INA's impact on the 1946 naval mutiny and the British decision to leave; ideological legacy (secularism, anti-imperialism) vs strategic limits.</li></ul>
+<p><strong>Q12. (10 marks)</strong> Evaluate the integration of princely states as an achievement of statecraft.</p>
+<ul><li><em>Body:</em> Instrument of Accession (three subjects), Patel–Menon strategy (privy purses, carrot-and-stick), Junagadh plebiscite, Hyderabad Police Action, Kashmir's accession and its legacy; States Reorganisation 1956 completing the process; 26th Amendment 1971 abolishing privy purses.</li></ul>
+<h3 id="c-world-history">C. World History</h3>
+<p><strong>Q13. (15 marks)</strong> 'The Industrial Revolution was as much a social and political revolution as a technological one.' Examine with reference to Britain.</p>
+<ul><li><em>Body:</em> technology (steam, textiles, iron) → factory system, urbanisation (Manchester), new classes (bourgeoisie, proletariat), Reform Acts 1832/1867, Chartism, Factory Acts, trade unions, ideologies (liberalism, socialism, Marx 1848), imperial demand for markets and raw materials (India's deindustrialisation), demographic transition.</li></ul>
+<p><strong>Q14. (10 marks)</strong> How far was the Treaty of Versailles responsible for the Second World War?</p>
+<ul><li><em>Body:</em> war guilt clause, reparations, territorial losses (Alsace, Polish corridor), disarmament humiliation feeding revanchism; counter — Weimar's economic crises (1923, 1929), appeasement, League's weakness, Japanese and Italian expansionism, ideological drivers of Nazism; historiographical balance (Taylor vs orthodox).</li></ul>
+<p><strong>Q15. (15 marks)</strong> Compare the processes of decolonisation in Asia and Africa after 1945.</p>
+<ul><li><em>Body:</em> Asia earlier and often negotiated (India 1947, Indonesia 1949 after struggle, Indochina violent); Africa 1957–75 wave (Ghana, 'Year of Africa' 1960), settler colonies violent (Algeria, Kenya, Rhodesia, Portuguese Africa); Cold War overlay; role of UN and Bandung; legacies — arbitrary borders, neo-colonial economies, Pan-Africanism vs Non-Alignment.</li></ul>
+<p><strong>Q16. (10 marks)</strong> Discuss the causes and consequences of the redrawal of national boundaries after the First World War in Europe and West Asia.</p>
+<ul><li><em>Body:</em> collapse of four empires; Wilsonian self-determination selectively applied; new states (Poland, Czechoslovakia, Yugoslavia, Baltic states); Sykes–Picot and mandates (Iraq, Syria, Palestine — Balfour Declaration); minority problems (Sudetenland), Kurdish statelessness; seeds of 1939 and of West Asian conflicts.</li></ul>
+<p><strong>Q17. (10 marks)</strong> Analyse the factors behind the disintegration of the Soviet Union in 1991.</p>
+<ul><li><em>Body:</em> economic stagnation, Afghanistan, arms-race burden, glasnost unleashing nationalities, perestroika's half-measures, 1989 East European revolutions, August coup, Yeltsin and the Belovezha Accords; consequences — unipolar moment, NATO expansion debates, India's post-1991 realignment.</li></ul>
+<h3 id="d-indian-society">D. Indian Society</h3>
+<p><strong>Q18. (15 marks)</strong> 'Caste in India is changing but not disappearing.' Discuss in the light of contemporary developments.</p>
+<ul><li><em>Body:</em> Srinivas's sanskritisation and dominant caste; caste as identity and political resource (Mandal, sub-classification judgment 2024, Bihar caste survey 2023, Census 2027 caste enumeration); persistence in marriage (endogamy above 90%), atrocities (NCRB), urban informal networks; dilution in occupation and commensality; caste in diaspora and digital spaces.</li><li><em>Conclusion:</em> from a system of hierarchy to a system of competing identities (Béteille, Jodhka).</li></ul>
+<p><strong>Q19. (10 marks)</strong> Examine the paradox of falling female labour force participation despite rising female education in India, and the recent reversal.</p>
+<ul><li><em>Body:</em> U-shaped hypothesis, income effect, mechanisation of agriculture, safety and mobility constraints, care burden (Time Use Survey 2024); PLFS shows FLFPR rising from 23% (2017–18) to 41.7% (2023–24) driven by rural self-employment — quality concerns; policy levers — crèches, labour codes, urban jobs, transport.</li></ul>
+<p><strong>Q20. (15 marks)</strong> Urbanisation in India is 'messy and hidden'. Elaborate, and suggest governance reforms.</p>
+<ul><li><em>Body:</em> census towns (3,894 in 2011), peri-urban sprawl, informal settlements, weak ULBs (74th Amendment's unfinished agenda, 15th FC on property tax), climate vulnerability (Bengaluru/Chennai floods); reforms — Urban Challenge Fund (Budget 2025, ₹1 lakh crore), metropolitan planning committees, municipal bonds, city-level data, land pooling, transit-oriented development.</li></ul>
+<p><strong>Q21. (10 marks)</strong> Discuss the role of social media in shaping communalism and secularism in contemporary India.</p>
+<ul><li><em>Body:</em> echo chambers and disinformation, WhatsApp-triggered lynchings, algorithmic amplification; counter-mobilisation and civic fact-checking; IT Rules 2021 and their critiques; Supreme Court's hate-speech directions (Shaheen Abdulla 2022–23); Tehseen Poonawalla guidelines; building digital literacy and platform accountability.</li></ul>
+<p><strong>Q22. (10 marks)</strong> 'Population ageing is India's next demographic challenge.' Examine.</p>
+<ul><li><em>Body:</em> elderly 10.5% (2022) → 20% by 2050 (India Ageing Report 2023); feminisation and ruralisation of ageing; southern States ahead; pension coverage gaps, NCD burden, elder abuse; policy — Ayushman Vay Vandana (70+), Atal Vayo Abhyuday Yojana, silver economy, care-worker training, pension reform.</li></ul>
+<p><strong>Q23. (10 marks)</strong> How has globalisation altered the Indian family structure? Is the nuclear family a Western import?</p>
+<ul><li><em>Body:</em> data — rising share of nuclear households (NFHS-5), migration, dual-income couples, live-in relationships and judicial recognition; but 'functional jointness' persists (remittances, ritual obligations, joint decisions); pre-colonial evidence of nuclear households (A.M. Shah); conclusion — hybridisation not westernisation.</li></ul>
+<h3 id="e-geography">E. Geography</h3>
+<p><strong>Q24. (15 marks)</strong> Explain the mechanism of the Indian monsoon and evaluate the role of the Indian Ocean Dipole and El Niño in its inter-annual variability.</p>
+<ul><li><em>Body:</em> differential heating, ITCZ shift, Tibetan plateau heating, tropical easterly jet, Somali jet, Mascarene high; breaks and active phases (MJO); ENSO teleconnection (2023 El Niño yet 94% due to positive IOD); IOD mechanism (Saji 1999) and 2019/2023 episodes; 2024 and 2025 seasons at 108%; climate-change signal — fewer rainy days, more extremes.</li></ul>
+<p><strong>Q25. (10 marks)</strong> Discuss the distribution of earthquakes and volcanoes in relation to plate boundaries. Why is the Himalayan region seismically active despite the absence of volcanism?</p>
+<ul><li><em>Body:</em> Pacific Ring of Fire, mid-Atlantic ridge, Alpine–Himalayan belt; continent–continent collision — thick crust, no subduction of oceanic slab, hence no arc volcanism; Main Himalayan Thrust locking, seismic gaps (central Himalaya), 2015 Gorkha, 2023 Turkey analogies; India's zone V mapping.</li></ul>
+<p><strong>Q26. (15 marks)</strong> 'India's water crisis is a crisis of management rather than of availability.' Examine with reference to groundwater.</p>
+<ul><li><em>Body:</em> 4% of freshwater for 18% of people; groundwater 62% of irrigation, over-exploited blocks in Punjab–Haryana–Rajasthan–Tamil Nadu (CGWB 2024); perverse incentives — free power, MSP for paddy; Atal Bhujal Yojana, Jal Shakti Abhiyan, Jal Jeevan Mission (about 80% tap coverage), micro-irrigation, crop diversification, water pricing, participatory aquifer management; Model Groundwater Bill 2017.</li></ul>
+<p><strong>Q27. (10 marks)</strong> Explain the factors influencing the location of the iron and steel industry in India, with examples of recent shifts.</p>
+<ul><li><em>Body:</em> Weberian proximity to coal–iron (Chhota Nagpur belt: Jamshedpur, Bokaro, Rourkela, Bhilai, Durgapur); coastal shift for imported coking coal and exports (Vizag, JSW Dolvi, Paradip, Kalinganagar); port and gas availability; policy — National Steel Policy 2017 (300 MT by 2030), PLI for specialty steel, green-steel taxonomy 2024, EU CBAM pressure.</li></ul>
+<p><strong>Q28. (15 marks)</strong> Critically examine the interlinking of rivers as a solution to India's spatial imbalance of water, with reference to the Ken–Betwa project.</p>
+<ul><li><em>Body:</em> NPP 1980 (30 links), Ken–Betwa first (foundation Dec 2024, ₹44,605 crore), benefits — 10.6 lakh ha irrigation, 62 lakh people drinking water, 103 MW hydro; concerns — Panna Tiger Reserve submergence, hydrological assumptions of 'surplus', inter-State disputes, cost, climate uncertainty; alternatives — demand management, watershed development, intra-basin transfers.</li></ul>
+<p><strong>Q29. (10 marks)</strong> Discuss the formation and significance of laterite soils and coral reefs as indicators of tropical environmental conditions.</p>
+<ul><li><em>Body:</em> laterite — alternating wet/dry, leaching of silica, iron–aluminium enrichment, low fertility, building stone, bauxite source (Odisha, Jharkhand); coral reefs — 23–29 °C clear shallow saline water, Lakshadweep atolls, Gulf of Mannar fringing, Andaman; 2024 fourth global bleaching event; both as palaeo-climatic archives.</li></ul>
+<p><strong>Q30. (15 marks)</strong> Examine the changing pattern of India's urban settlements with reference to the concept of 'urban primacy' and the growth of Tier-2 cities.</p>
+<ul><li><em>Body:</em> primacy of Mumbai/Delhi/Bengaluru (53 million-plus cities in 2011), diseconomies of agglomeration; Tier-2 growth drivers — IT/GCC decentralisation (Coimbatore, Indore, Kochi), Smart Cities, expressways, remote work; policy — Budget 2025's 'cities as growth hubs', NITI's GCC push, UDAN; risks of replicating unplanned growth; need for regional planning and the urban–rural continuum (rurban).</li></ul>
+<hr>
+<h4 id="how-to-use-this-bank">How to use this bank</h4>
+<ol><li>Attempt 3 questions per sitting under time; do not read the framework first.</li><li>Grade yourself on four things: demand of the question addressed, structure, examples/data, and conclusion.</li><li>Revisit the corresponding detailed notes for every framework point you missed.</li></ol>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="optional-subjects-optional-psychology.html"><span class="lb">← Previous</span>Psychology</a>
+<a class="r" href="mains-practice-gs-2-practice.html"><span class="lb">Next →</span>GS II — practice questions with answer frameworks</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

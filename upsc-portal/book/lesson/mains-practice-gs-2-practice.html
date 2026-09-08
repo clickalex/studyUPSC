@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10.2.1 GS II — practice questions with answer frameworks · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part X — Mains Practice — Question Bank &amp; Answer Frameworks · Chapter 2: GS II — practice questions with answer frameworks</p>
+<p class="bk-eyebrow">Lesson 10.2.1</p>
+<h1 id="lesson-mains-practice-gs-2-practice">GS II — practice questions with answer frameworks</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Governance, constitution, polity, social justice and international relations — converting the pyqs/ question bank into marks.</p></blockquote>
+<h3 id="1-what-gs-2-demands">1. What GS-2 Demands</h3>
+<p>GS-2 is the <strong>judgment paper</strong>: it asks you to take positions on constitutional design ("critically examine"), institutional performance ("assess"), and diplomacy ("discuss the significance"). It rewards authority-citation (Articles, cases, committees, Acts, indices) more than any other paper — every answer should carry at least one named anchor.</p>
+<h3 id="2-the-authority-bank">2. The Authority Bank (build before practising)</h3>
+<ul><li><strong>Constitutional</strong>: Articles (14, 21, 32, 226, 243, 356, 368…), landmark cases (Kesavananda, Maneka, Puttaswamy, SR Bommai, Vishaka).</li><li><strong>Institutional</strong>: CAG, ECI, UPSC, Finance Commission, NHRC, NCW — one line each on mandate + one recent controversy.</li><li><strong>Committees/Commissions</strong>: Punchhi, Sarkaria, ARC (2nd), Rajamannar — for federalism and governance answers.</li><li><strong>Acts/policies</strong>: RTI, RPA 1951, DPDP 2023, NFSA, MGNREGA — with year.</li><li><strong>Indices/data</strong>: World Governance Indicators, press-freedom index, NFHS-5, ASER — for social-justice answers.</li><li><strong>IR anchors</strong>: neighbourhood-first doctrine lines, BIMSTEC/SCO/QUAD mandates, UN reform positions, treaty names.</li></ul>
+<h3 id="3-answer-anatomy-for-gs-2">3. Answer Anatomy for GS-2</h3>
+<ul><li><strong>Intro (2-3 lines)</strong>: constitutional/statutory context — "Article X provides…" or case citation.</li><li><strong>Body</strong>: mandate → performance (both records) → issues (structural, political) → comparisons (committees, best practices, other democracies).</li><li><strong>Conclusion</strong>: reform direction with a committee recommendation or a balanced way-forward. GS-2 conclusions may propose — this is the proposing paper.</li></ul>
+<h3 id="4-judgment-phrases-that-signal-maturity">4. Judgment Phrases That Signal Maturity</h3>
+<ul><li>"The provision is constitutionally sound; its implementation suffers from…" (separates design from delivery).</li><li>"Three objections are usually raised; the first and third survive scrutiny…"</li><li>"The committee's remedy addresses the symptom; the deeper leak is…"</li></ul>
+<h3 id="5-the-weekly-cycle">5. The Weekly Cycle</h3>
+<ul><li>Mon: polity/constitution (2 answers) · Tue: governance &amp; social justice (2) · Wed: IR (2) · Thu: comparison-of-democracies + RPA/election answers (2) · Fri: full GS-2 sectional (10 Q) · Sat: evaluation + authority-bank update · Sun: rewrite two weakest.</li></ul>
+<h3 id="6-rubric-10">6. Rubric /10</h3>
+<table><thead><tr><th>Criterion</th><th>Marks</th></tr></thead><tbody>
+<tr><td>Position &amp; decoding — stance or assessment visible early</td><td>2</td></tr>
+<tr><td>Authority — Article/case/committee/index correctly deployed</td><td>3</td></tr>
+<tr><td>Balanced analysis — both records, structural causes</td><td>3</td></tr>
+<tr><td>Proposed reform — specific, feasible, sourced</td><td>2</td></tr>
+</tbody></table>
+<h3 id="7-pointers">7. Pointers</h3>
+<ul><li>IR answers: pair bilateral substance with structural context (region, doctrine, economics); avoid news-recap tone.</li><li>Social justice: institutional mechanism + beneficiary outcome + one datum, every time.</li><li>Never moralise where you can analyse; never analyse where the question says "suggest."</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<blockquote><p>One-page drill card for the judgment paper.</p></blockquote>
+<h3 id="timing">Timing</h3>
+<ul><li>Same clock as GS-1: 7/11 minutes; but GS-2 outlines are 20 seconds longer — always draft the conclusion line first.</li></ul>
+<h3 id="anatomy">Anatomy</h3>
+<ul><li>Intro: Article/case/Act context → Body: mandate → performance (both) → issues (structural) → comparison → Conclusion: sourced reform proposal.</li></ul>
+<h3 id="authority-deposit-withdraw-daily">Authority deposit — withdraw daily</h3>
+<ul><li>Articles: 14 · 21 · 32 · 226 · 243 · 356 · 368 · Cases: Kesavananda · Maneka · Puttaswamy · Bommai · Vishaka.</li><li>Committees: Punchhi · Sarkaria · 2nd ARC · Indices: NFHS-5 · ASER · WGI · IR: BIMSTEC · QUAD · SCO mandates.</li></ul>
+<h3 id="rubric-10">Rubric /10</h3>
+<ul><li>Position 2 · Authority 3 · Balance 3 · Reform 2.</li></ul>
+<h3 id="judgment-signals">Judgment signals</h3>
+<ul><li>"Design is sound; delivery leaks." · "Objection one survives, objection three does not." · "The committee treats the symptom; the leak is…"</li></ul>
+<h3 id="weekly-rhythm">Weekly rhythm</h3>
+<ul><li>M polity · T governance/SJ · W IR · Th democracies+elections · F sectional · Sa evaluate+update bank · Su rewrite two.</li></ul>
+<h3 id="paper-specific-reminders">Paper-specific reminders</h3>
+<ul><li>IR: substance + structure (doctrine/region/economics), never a news summary.</li><li>Every answer needs one named anchor minimum — no-anchor answers drift to generic.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Compressed examiner-psychology for GS-2.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>GS-2 JUDGMENT MACHINE
+├── DECODE ....... critically examine? assess? suggest? (verdict / balance / options)
+├── ANCHOR ....... Article · case · Act · committee · index — named, dated
+├── TWO RECORDS .. design vs delivery · intent vs implementation
+├── CAUSES ....... structural &gt; personal; incentives, capacity, federal frictions
+└── PROPOSE ...... sourced reform: committee line + feasibility note</code></pre>
+<h3 id="rewards">Rewards</h3>
+<ul><li>A stance in the first five lines for examine/assess questions.</li><li>Citations that are checkable — wrong ones cost more than none.</li><li>Design-vs-delivery separation — the mature analyst's reflex.</li><li>Reforms that name mechanism + source ("as 2nd ARC recommended…").</li></ul>
+<h3 id="leaks">Leaks</h3>
+<ul><li>Newspaper-recap IR answers without structure.</li><li>Moralising in place of analysis; slogans for reforms.</li><li>Ignoring the question's second clause ("…and its impact on federalism").</li><li>Quotes of PM speeches as constitutional authority.</li></ul>
+<h3 id="practice-modes">Practice modes</h3>
+<ul><li>Verbal outlines for 10 questions nightly (5 min each) — trains decoding speed.</li><li>Weekly: 2 written answers per sub-area + one sectional.</li></ul>
+<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<ul><li>"GS-2 pays for authorities, balances and blueprints."</li><li>"Quote the institution, not the speech."</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .sec{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .q{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="430" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">GS-2 judgment answer — mandate → two records → causes → reform</text>
+  <text x="30" y="56" class="s">gs-2-practice · constitution · governance · social justice · international relations</text>
+  <rect x="40" y="84" width="200" height="64" rx="10" class="q"/>
+  <text x="140" y="108" text-anchor="middle" class="h">ANCHORED INTRO</text>
+  <text x="140" y="126" text-anchor="middle" class="sm">Article / case / Act / treaty —</text>
+  <text x="140" y="140" text-anchor="middle" class="sm">named and dated</text>
+  <rect x="260" y="84" width="300" height="64" rx="10" class="sec"/>
+  <text x="410" y="108" text-anchor="middle" class="h">TWO RECORDS</text>
+  <text x="410" y="126" text-anchor="middle" class="sm">design vs delivery · intent vs outcome</text>
+  <text x="410" y="140" text-anchor="middle" class="sm">credit + criticism, both evidenced</text>
+  <rect x="580" y="84" width="340" height="64" rx="10" class="sec"/>
+  <text x="750" y="108" text-anchor="middle" class="h">STRUCTURAL CAUSES</text>
+  <text x="750" y="126" text-anchor="middle" class="sm">incentives · capacity · federal frictions ·</text>
+  <text x="750" y="140" text-anchor="middle" class="sm">political economy — above personalities</text>
+  <path d="M 240 116 L 260 116" stroke="#64748b" stroke-width="2"/><path d="M 560 116 L 580 116" stroke="#64748b" stroke-width="2"/>
+  <rect x="40" y="160" width="880" height="52" rx="10" class="g"/>
+  <text x="480" y="182" text-anchor="middle" class="h">SOURCED REFORM — committee line + mechanism + feasibility note</text>
+  <text x="480" y="200" text-anchor="middle" class="sm">"as 2nd ARC/Punchhi recommended… implementable via … within X fiscal space"</text>
+  <rect x="40" y="226" width="430" height="150" rx="10" class="sec"/>
+  <text x="56" y="250" class="h">AUTHORITY BANK (memorise columns)</text>
+  <text x="56" y="272" class="md">Articles 14 · 21 · 32 · 226 · 243 · 356 · 368</text>
+  <text x="56" y="290" class="md">Cases: Kesavananda · Maneka · Puttaswamy · Bommai</text>
+  <text x="56" y="308" class="md">Committees: Sarkaria · Punchhi · 2nd ARC</text>
+  <text x="56" y="326" class="md">Acts: RTI'05 · RPA'51 · DPDP'23 · NFSA'13</text>
+  <text x="56" y="348" class="sm">Indices: NFHS-5 · ASER · WGI — one datum per SJ answer</text>
+  <rect x="490" y="226" width="430" height="150" rx="10" class="sec"/>
+  <text x="506" y="250" class="h">RUBRIC /10</text>
+  <text x="506" y="272" class="md">Position/decode visible early ........ 2</text>
+  <text x="506" y="290" class="md">Authority deployed correctly ......... 3</text>
+  <text x="506" y="308" class="md">Balanced two-record analysis ......... 3</text>
+  <text x="506" y="326" class="md">Sourced, feasible reform ............. 2</text>
+  <text x="506" y="350" class="sm">IR special: substance + structure — never a news recap</text>
+  <text x="30" y="414" class="foot">studyUPSC · GS-2 practice diagram · pair with detailed-notes/gs-2-practice-system.html</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>30 original questions (polity, governance, social justice, international relations) with compact answer frameworks. 10-markers ≈ 150 words; 15-markers ≈ 250 words. Frameworks list the constitutional provisions, judgments, committee reports and data an examiner expects — write the full answer yourself.</p></blockquote>
+<h3 id="a-constitution-polity">A. Constitution &amp; Polity</h3>
+<p><strong>Q1. (10 marks)</strong> 'The basic structure doctrine is a judicial innovation that has strengthened, not weakened, parliamentary democracy.' Discuss.</p>
+<ul><li><em>Body:</em> Kesavananda (1973) as a response to Golaknath/24th Amendment; elements — supremacy of Constitution, judicial review, federalism, secularism, free and fair elections (Indira Gandhi case), rule of law; applications — Minerva Mills, NJAC (2015); critique — undefined, counter-majoritarian; defence — prevents 'constitutional dictatorship', used sparingly; 2023 debates (Vice-President's remarks).</li></ul>
+<p><strong>Q2. (15 marks)</strong> Examine the constitutional position of the Governor in the light of the Supreme Court's 2025 judgment and advisory opinion on assent to Bills.</p>
+<ul><li><em>Body:</em> Article 200 options; Shamsher Singh, Nabam Rebia; Punjab (2023) — 'as soon as possible'; Tamil Nadu (April 2025) — deemed assent under Article 142, timelines; Presidential reference and November 2025 opinion — no judicially fixed timelines, but no 'pocket veto' either; Sarkaria/Punchhi recommendations; way forward — codified conventions, consultation with CM, fixed tenure.</li></ul>
+<p><strong>Q3. (10 marks)</strong> 'Delimitation after 2026 poses a federal dilemma.' Analyse and suggest a balanced approach.</p>
+<ul><li><em>Body:</em> Articles 81, 82; 42nd and 84th Amendment freezes; projected seat shifts (UP/Bihar gain, TN/Kerala lose); principles — one person one vote vs rewarding population control; options — cap total redistribution, increase seats proportionally, weighted Rajya Sabha, fiscal offsets; 106th Amendment linkage; Tamil Nadu's 2025 all-party resolution.</li></ul>
+<p><strong>Q4. (15 marks)</strong> Critically evaluate the 'One Nation One Election' proposal in the light of the Kovind Committee report and the 129th Amendment Bill.</p>
+<ul><li><em>Body:</em> proposal — synchronise LS and Assemblies, then local bodies within 100 days; Articles 82A, 83, 172 amendments; arguments for — cost, governance paralysis under MCC, voter fatigue; against — federal asymmetry, curtailed assembly terms, dominance of national issues, logistics (EVMs); JPC deliberations 2025; alternatives — two-phase cycles, MCC reform.</li></ul>
+<p><strong>Q5. (10 marks)</strong> The Tenth Schedule has failed to curb defections while strengthening party whips over legislators. Comment.</p>
+<ul><li><em>Body:</em> paragraph 4 merger loophole, Speaker's partisanship (Keisham Meghachandra 2020 — three-month suggestion; Subhash Desai 2023), resignations to bypass; effect on deliberation (whip on every vote); reforms — independent tribunal, whip only on confidence/money bills (Dinesh Goswami, Law Commission 170th, 255th), disqualification from re-contesting.</li></ul>
+<p><strong>Q6. (10 marks)</strong> Discuss the significance of the sub-classification of Scheduled Castes judgment (2024) for reservation policy.</p>
+<ul><li><em>Body:</em> Davinder Singh overruled Chinnaiah; SCs not homogeneous; States may sub-classify with empirical data; obiter on creamy layer for SC/ST; implementation — Telangana (2025), Haryana, Punjab; concerns — political misuse, data quality, fragmentation of Dalit identity; need for a caste census baseline.</li></ul>
+<p><strong>Q7. (15 marks)</strong> 'Cooperative federalism in India is increasingly giving way to fiscal centralisation.' Examine with reference to GST, cesses and the Sixteenth Finance Commission.</p>
+<ul><li><em>Body:</em> vertical devolution 41% but cesses/surcharges (about 15–20% of gross tax) outside divisible pool; centrally sponsored schemes' conditionalities; GST compensation ending 2022; southern States' 'contributions vs devolution' grievance; Sixteenth FC ToR and report (Nov 2025); reforms — cap cesses, weight for efficiency, GST Council voting, Inter-State Council revival.</li></ul>
+<p><strong>Q8. (10 marks)</strong> Evaluate the working of the National Commission for Women and suggest reforms to make it more effective.</p>
+<ul><li><em>Body:</em> NCW Act 1990 — recommendatory, no civil-court powers on enforcement, dependent on MWCD; criticisms — political appointments, low visibility in Manipur 2023, Kolkata 2024; reforms — constitutional status, suo motu investigation powers, State commissions' coordination, gender budgeting audits.</li></ul>
+<h3 id="b-governance-social-justice">B. Governance &amp; Social Justice</h3>
+<p><strong>Q9. (15 marks)</strong> 'Digital Public Infrastructure has transformed welfare delivery but also created new forms of exclusion.' Discuss.</p>
+<ul><li><em>Body:</em> JAM trinity, DBT savings (₹3.5 lakh crore claimed), UPI, ONDC, CoWIN, Ayushman Bharat Digital Mission; exclusion — authentication failures (Jharkhand ration deaths), digital divide, data errors, consent illusions; Puttaswamy proportionality; DPDP Act 2023 and its State exemptions; safeguards — offline fallbacks, grievance redress, social audits.</li></ul>
+<p><strong>Q10. (10 marks)</strong> Examine the challenges in implementing the Right to Education Act, 2009 fifteen years after its enactment.</p>
+<ul><li><em>Body:</em> enrolment near-universal but learning crisis (ASER 2024: 23.4% of Class III reading Class II text), 25% private-school quota uneven, teacher vacancies (10 lakh), no-detention rollback (2024 rules), pre-primary and secondary outside RTE, NEP 2020's 5+3+3+4 mismatch; way forward — foundational literacy (NIPUN Bharat), school consolidation with transport, accountability.</li></ul>
+<p><strong>Q11. (10 marks)</strong> Discuss the role of Self-Help Groups in poverty alleviation and their limitations.</p>
+<ul><li><em>Body:</em> DAY-NRLM — 10 crore women, 90 lakh SHGs; 'Lakhpati Didi' target 3 crore; bank linkage NPAs about 2%; social capital — Kudumbashree, Jeevika; limits — small ticket sizes, elite capture, dependence on subsidies, limited enterprise growth, male control of funds; reforms — federations, market linkages, digital bookkeeping, convergence with MGNREGA.</li></ul>
+<p><strong>Q12. (15 marks)</strong> 'India's health system suffers from a mismatch between financing and delivery.' Critically examine in the light of Ayushman Bharat.</p>
+<ul><li><em>Body:</em> public spending 1.9% of GDP (target 2.5%), OOPE 39%; PM-JAY — 55 crore beneficiaries, 70+ inclusion 2024, but tertiary-heavy, hospital empanelment concentrated in southern States, fraud; HWCs/Arogya Mandirs 1.7 lakh — primary care progress but HR gaps; NHM funding stagnation; recommendations — strengthen district hospitals, public health cadre, price regulation, insurance–provision separation debate.</li></ul>
+<p><strong>Q13. (10 marks)</strong> How can the Civil Services be made more accountable without undermining their neutrality? Discuss in the light of Mission Karmayogi and lateral entry.</p>
+<ul><li><em>Body:</em> Section 13 of Civil Services Board rules, fixed tenure (T.S.R. Subramanian 2013), 360-degree appraisals, lateral entry (63 appointments; 2024 advertisement withdrawn over reservation); Mission Karmayogi's competency framework (iGOT 1 crore users); risk — politicisation via performance metrics; balance — transparent transfer policies, Civil Services Code (Hota Committee), outcome budgets.</li></ul>
+<p><strong>Q14. (10 marks)</strong> Assess the role of NGOs in India's development, and the impact of FCRA amendments on the sector.</p>
+<ul><li><em>Body:</em> service delivery, advocacy, watchdog roles (Pratham, SEWA, MKSS→RTI); 2020 FCRA amendments — no sub-granting, 20% admin cap, SBI Delhi account; cancellations (CPR, Oxfam); Supreme Court upheld in Noel Harper (2022); concerns — chilling effect vs accountability; NITI Darpan; balanced regulation and self-regulation.</li></ul>
+<p><strong>Q15. (15 marks)</strong> 'The transgender community in India has legal recognition but not substantive equality.' Examine.</p>
+<ul><li><em>Body:</em> NALSA (2014) self-identification; Transgender Persons Act 2019 — certificate regime criticised, weaker penalties, no reservation; Supriyo (2023) declined marriage equality but flagged rights; SMILE scheme, Garima Grehs; employment — Tamil Nadu's welfare board model, Karnataka's 1% reservation; recommendations — horizontal reservation, healthcare protocols, anti-discrimination law, data in Census 2027.</li></ul>
+<p><strong>Q16. (10 marks)</strong> Examine the significance of the Supreme Court's recognition of the 'right against the adverse effects of climate change' (M.K. Ranjitsinh, 2024) for governance.</p>
+<ul><li><em>Body:</em> derived from Articles 14 and 21; balancing GIB conservation and solar transmission; implications — climate litigation, EIA quality, just transition; comparison — Urgenda, ICJ advisory opinion 2025; implementation gaps — no climate law, State action plans unfunded.</li></ul>
+<h3 id="c-international-relations">C. International Relations</h3>
+<p><strong>Q17. (15 marks)</strong> 'India–US relations rest on strategic convergence but face recurring transactional frictions.' Examine in the context of 2025 developments.</p>
+<ul><li><em>Body:</em> convergence — Indo-Pacific/Quad, iCET → TRUST, defence (MQ-9B, GE-414, Jet engines, COMPACT framework Feb 2025), diaspora; frictions — 50% tariffs (Aug 2025) linked to Russian oil, H-1B fee hike, Khalistan cases, Pakistan tilt after Op Sindoor, Bangladesh; India's response — diversify (EU FTA, UK CETA), strategic autonomy; trajectory — interest-based, not alliance.</li></ul>
+<p><strong>Q18. (10 marks)</strong> Evaluate the outcomes of India's 'neighbourhood first' policy in the light of political transitions in Bangladesh, Sri Lanka, Nepal and the Maldives.</p>
+<ul><li><em>Body:</em> Bangladesh post-Hasina (Aug 2024) — Hasina extradition demand, China/Pakistan outreach, Ganges treaty renewal 2026; Sri Lanka — Dissanayake's balancing, defence MoU April 2025; Nepal — Gen-Z protests Sept 2025, Karki interim; Maldives — Muizzu's 'India Out' to reset, currency swap; lessons — invest in institutions not individuals, connectivity (BBIN, Colombo port), development partnership (Hambantota alternative), avoid over-reaction to China.</li></ul>
+<p><strong>Q19. (10 marks)</strong> Discuss the strategic significance of the India–Middle East–Europe Economic Corridor and the obstacles to its realisation.</p>
+<ul><li><em>Body:</em> announced G20 Delhi 2023; two corridors (India–Gulf, Gulf–Europe) — rail, shipping, hydrogen pipeline, data cable; counter to BRI, I2U2 synergy; obstacles — Gaza war (Saudi–Israel normalisation stalled), Houthi disruptions, financing, competing routes (INSTC, Chabahar with US sanctions waiver revoked Sept 2025), Turkish opposition; way forward — phase-wise Gulf leg, Piraeus/Trieste, Indian port capacity (Vadhavan).</li></ul>
+<p><strong>Q20. (15 marks)</strong> 'The Indus Waters Treaty in abeyance marks a paradigm shift in India–Pakistan relations.' Critically examine the legal and strategic dimensions.</p>
+<ul><li><em>Body:</em> treaty structure (eastern/western rivers, PIC, neutral expert, Court of Arbitration); April 2025 abeyance after Pahalgam — not provided for in treaty (Article XII requires mutual termination), VCLT Article 62 fundamental change argument; Court of Arbitration June 2025 supplemental award; India's leverage limited by storage capacity (Kishanganga, Ratle, Tulbul revival); risks — precedent for China on Brahmaputra, reputational cost; strategic message vs long-term water diplomacy.</li></ul>
+<p><strong>Q21. (10 marks)</strong> How has the Russia–Ukraine war reshaped India's strategic autonomy? Illustrate.</p>
+<ul><li><em>Body:</em> discounted crude (Russia ~35% of imports 2024–25), rupee–rouble limits, defence supply delays (S-400), Western pressure and the 2025 US tariff penalty; India's multi-alignment — Quad + SCO + BRICS + Ukraine visit Aug 2024; norms — 'not an era of war'; opportunities — peacemaker role, defence indigenisation; limits — dependence on Russia for spares, China–Russia axis.</li></ul>
+<p><strong>Q22. (10 marks)</strong> Examine the relevance of BRICS for India after its expansion.</p>
+<ul><li><em>Body:</em> 10 members (2024–25) plus partners; benefits — NDB, Global South voice, de-dollarisation debates (India cautious), Kazan 2024 outcomes; challenges — China's dominance, anti-West tilt (Iran), India–China rivalry, Trump's 100% tariff threat; India's 2026 BRICS chairship agenda — reform multilateralism, climate finance, digital public goods.</li></ul>
+<p><strong>Q23. (15 marks)</strong> 'Reform of the UN Security Council is a necessity that everyone endorses and no one delivers.' Discuss India's case and the obstacles.</p>
+<ul><li><em>Body:</em> India's credentials — population, economy, peacekeeping (2nd largest contributor historically), 8 terms; G4 vs Uniting for Consensus (Pakistan, Italy), African Ezulwini consensus, P5 veto interests (China); text-based negotiations blocked in IGN; UN80 initiative and Pact for the Future (Sept 2024) commitments; India's options — build coalitions with Africa, push for veto restraint, leverage L.69.</li></ul>
+<p><strong>Q24. (10 marks)</strong> Assess the role of the Quad in the Indo-Pacific and whether it should acquire a security dimension.</p>
+<ul><li><em>Body:</em> origins 2007→2017→leaders' level 2021; deliverables — IPMDA, vaccines, undersea cables, STEM fellowships, Quad Ports; India's reluctance on military role (Malabar separate), ASEAN centrality; 2025 uncertainties under US 'America First'; recommendation — keep as public-goods provider with quiet defence interoperability.</li></ul>
+<p><strong>Q25. (10 marks)</strong> India's development partnership model differs from Chinese lending. Examine with examples from Africa and the Indian Ocean region.</p>
+<ul><li><em>Body:</em> demand-driven, concessional lines of credit (USD 32 bn, 300+ projects), capacity building (ITEC), grants (Mauritius Metro, Agaléga), vaccine maitri; contrasts — Hambantota, debt-trap narrative; India's limits — delivery delays, scale; Global South summits (2023–24), Africa Union in G20, India–Africa Forum Summit IV pending.</li></ul>
+<p><strong>Q26. (15 marks)</strong> 'India–China relations after the October 2024 disengagement remain a managed rivalry rather than a normalisation.' Examine.</p>
+<ul><li><em>Body:</em> Depsang/Demchok patrolling agreement (Oct 2024), Kazan meeting, SR talks resumed, Kailash Mansarovar yatra 2025, direct flights, Modi's Tianjin visit (Aug 2025); persisting issues — 50,000+ troops, buffer zones, de-escalation not done, trade deficit USD 99 bn, rare-earth curbs, Brahmaputra Medog dam, Pakistan support during Op Sindoor, Dalai Lama succession; framework — 'three mutuals', Press Note 3 easing; policy — deterrence plus engagement.</li></ul>
+<h3 id="d-governance-institutions-miscellaneous">D. Governance Institutions &amp; Miscellaneous</h3>
+<p><strong>Q27. (10 marks)</strong> Discuss the concerns raised about the appointment process of Election Commissioners and evaluate the 2023 Act.</p>
+<ul><li><em>Body:</em> Anoop Baranwal (Mar 2023) — interim committee with CJI; Act replaced CJI with a Cabinet Minister; equating ECs with Cabinet Secretary status; SC challenge pending; Gyanesh Kumar's appointment Feb 2025 under new law; Special Intensive Revision controversy (Bihar 2025); reforms — collegium with LoP and CJI, protected removal for ECs, independent secretariat.</li></ul>
+<p><strong>Q28. (10 marks)</strong> 'The 2023 criminal law codes modernise procedure but raise civil-liberties concerns.' Examine.</p>
+<ul><li><em>Body:</em> BNSS — e-FIR, forensic mandate (7+ years), timelines, videography, but police custody up to 60/90 days in parts, handcuffing; BNS — sedition renamed (s. 152), terrorism defined, mob lynching, organised crime; BSA — electronic evidence; implementation gaps — forensic capacity, training, State rules; SC petitions.</li></ul>
+<p><strong>Q29. (15 marks)</strong> Evaluate the performance of the Panchayati Raj system three decades after the 73rd Amendment. What would 'Panchayat 2.0' require?</p>
+<ul><li><em>Body:</em> achievements — 32 lakh elected representatives, 46% women, devolution index (Karnataka, Kerala top); gaps — 3Fs, parallel bodies, State Finance Commissions delayed, 'sarpanch pati', untied funds only 15th FC grants; Panchayat 2.0 — activity mapping law, own-source revenue (property tax), GPDP quality, e-Gram Swaraj audits, capacity (RGSA), climate-resilient planning.</li></ul>
+<p><strong>Q30. (10 marks)</strong> Examine the role of pressure groups in Indian democracy with recent examples.</p>
+<ul><li><em>Body:</em> farmers' unions (2020–21 repeal; 2024 MSP protests), business chambers (GST rate lobbying), professional bodies (IMA on mixopathy), NGOs (Right to Food), identity groups (Maratha/Jat reservation); functions — interest articulation, policy inputs; concerns — violence, elite capture, foreign funding; regulation — lobbying transparency, pre-legislative consultation policy 2014.</li></ul>
+<hr>
+<h4 id="using-this-bank">Using this bank</h4>
+<ul><li>Pair each question with the corresponding GS-II notes; underline every provision, case and committee you could not recall.</li><li>For IR questions, end with a concrete Indian policy prescription rather than platitudes.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="mains-practice-gs-1-practice.html"><span class="lb">← Previous</span>GS I — practice questions with answer frameworks</a>
+<a class="r" href="mains-practice-gs-3-practice.html"><span class="lb">Next →</span>GS III — practice questions with answer frameworks</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

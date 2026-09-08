@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>9.8.1 Economics · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part IX — Optional Subjects · Chapter 8: Economics</p>
+<p class="bk-eyebrow">Lesson 9.8.1</p>
+<h1 id="lesson-optional-subjects-optional-economics">Economics</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Paper 1: theory — micro, macro, growth, public finance, international economics. Paper 2: the Indian economy — reform lineage to present-day policy debates. GS-3's economy heartland overlaps; Paper 1's analytics shelter precise writers while penalising the under-prepared.</p></blockquote>
+<h3 id="paper-1-unit-map">Paper 1 — Unit Map (Theory)</h3>
+<table><thead><tr><th>Block</th><th>Units</th><th>Anchors</th></tr></thead><tbody>
+<tr><td>Microeconomics</td><td>1.x–3.x</td><td>Consumer theory (utility → indifference → revealed preference, Slutsky), production-costs, market structures (perfect → monopoly → oligopoly models: Cournot, Stackelberg; game theory basics), welfare economics (Pareto, social-welfare functions, market failures — externalities, public goods, information asymmetry)</td></tr>
+<tr><td>Macroeconomics</td><td>4.x–6.x</td><td>National-income accounting debates; money &amp; banking (money multiplier, central-bank toolkit); inflation theories; IS-LM synthesis and beyond (new-classical RBC vs new-Keynesian microfoundations), expectations; open-economy macro (BOP, Mundell-Fleming, exchange-rate regimes)</td></tr>
+<tr><td>Growth &amp; development</td><td>7.x</td><td>Harrod-Domar, Solow-Swan vs endogenous growth (Romer), convergence debates; development measures (HDI lineage, multidimensional poverty); dualism (Lewis), big-push/balanced-unbalanced (Rosenstein-Rodan vs Hirschman); environment-development interface</td></tr>
+<tr><td>Public finance &amp; international</td><td>8.x–9.x</td><td>Role of state (Musgrave), tax incidence-efficiency (Ramsey line), fiscal federalism (Oates), public debt dynamics; trade theories (Ricardo → Heckscher-Ohlin → new trade — Krugman), trade policy instruments, WTO law basics, balance-of-payments crises literature</td></tr>
+</tbody></table>
+<h3 id="paper-2-unit-map">Paper 2 — Unit Map (Indian Economy)</h3>
+<ul><li><strong>Pre-reform base</strong>: planning era's strategy (Mahalanobis), green revolution, nationalisation wave, external-sector crises (1991 as hinge).</li><li><strong>Reform architecture</strong>: LPG sequence — industrial delicensing, trade-tariff reform, financial-sector liberalisation (Narasimham), FEMA replacing FERA, tax reform (VAT → GST design and frictions).</li><li><strong>Sectoral</strong>: agriculture (MSP-APMC debates, contract farming, water productivity), industry &amp; MSME (PLI schemes, labour-code line, ease-of-doing), services-led growth puzzle.</li><li><strong>Macroeconomic policy</strong>: FRBM trajectory, monetary framework (MPC/inflation-targeting), banking NPA-clean-up lineage (IBC), fiscal-monetary coordination debates.</li><li><strong>External</strong>: current-account dynamics, FDI/FPI policy, rupee regimes, trade agreements (RCEP exit line, FTAs).</li><li><strong>Development policy</strong>: poverty-lineage debates (Tendulkar-Rangarajan), employment (PLFS, MGNREGA economics), inequality scholarship, federal-finance (FC devolution, cess-vs-divisible-pool), welfare architecture (DBT/JAM), climate-finance interface.</li></ul>
+<h3 id="booklist-lean-and-sufficient">Booklist (lean and sufficient)</h3>
+<ul><li>Micro-macro: standard coaching compilations + Varian (intermediate micro) selective + Mankiw/Blanchard (macro) selective; numerical drills weekly.</li><li>Growth/international: Thirlwall for development lens, Salvatore (international economics) selective.</li><li>India: Uma Kapila volume lineage + Economic Survey (chapters = ready-made frameworks) + Budget at a Glance + RBI Annual Report boxes.</li></ul>
+<h3 id="answer-strategy">Answer Strategy</h3>
+<ul><li>Diagram-first culture: IS-LM shifts, indifference maps, tariff welfare triangles, Laffer sketch — 10-markers often live entirely on a labelled graph.</li><li>Paper 2 formula: data anchor (Survey/RBI figure) → theoretical lens → policy evaluation (both records) → forward path. An Economic Survey chapter title is a ready-made answer skeleton.</li><li>Derivation discipline: one-step algebra earns explicit marks (Slutsky equation, multiplier with imports); practise 6 standard derivations monthly.</li><li>Debate bank: inflation-targeting range, FRBM glide paths, fiscal-monetary dominance, GST rate-architecture — each with positions and data.</li></ul>
+<h3 id="scoring-profile-and-fit">Scoring Profile and Fit</h3>
+<ul><li>Best for: economics graduates, engineers with quantitative comfort; precise writers who enjoy graphs.</li><li>Watch-outs: recent marking has been exacting — incomplete diagrams or missing current data strands cost heavily; GS-3 overlap helps but Paper 1 is a parallel curriculum.</li></ul>
+<h3 id="twelve-week-first-pass">Twelve-Week First Pass</h3>
+<ul><li>Wk 1-3 micro. Wk 4-6 macro (+ open-economy). Wk 7-8 growth-development + public finance. Wk 9 international. Wk 10-11 India: reform line → sectors → macro-policy → external. Wk 12 Survey-chapter mapping + PYQ marathon + derivation revision.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<h3 id="why-candidates-pick-it">Why candidates pick it</h3>
+<ul><li>GS-3 economy runs concurrent prep dividends; analytical derivation-culture gives precision-marking shelter; formal-answer format advantages the mathematically tidy. Needs genuine quantitative comfort.</li></ul>
+<h3 id="syllabus-map">Syllabus map</h3>
+<ul><li><strong>Paper-I (Micro/Macro/Monetary/Public/Intl)</strong>: micro theory — consumer &amp; producer theory refinements (Slutsky vs Hicksian decompositions), market structures, welfare-economics box (Pareto-optimality, social-welfare functions, Arrow impossibility), asymmetric information (Akerlof-Spence-Stiglitz trinity); general equilibrium trace (Edgeworth); macro enumeration — income-determination (Keynesian cross → IS-LM → AD-AS), consumption hypotheses (Keynes-Friedman-Modigliani-Fisher traces), investment accelerator, demand-for-money theories (Fisher-Baumol-Tobin/Keynes), money-supply mechanics (H-theory credit-multiplier), inflation mechanics (Phillips expectations-augmented/Friedman-Phelps NAIRU discourses), business-cycle theories, rational-expectations revolution (Lucas critiques), new-classical/new-Keynesian synthesis, growth economics — Harrod-Domar logic → Solow exogenous → Romer endogenous → new growth cross-country evidence; public economics — taxation principles &amp; incidence frameworks, public-debt sustainability (Domar rule), Musgrave three-branch taxonomy of fiscal functions; international-trade theory — comparative advantage refinements (Ricardian→Heckscher-Ohlin—Leontief paradox—Krugman new-trade), BoP analytics (elasticity/absorption/monetary approaches), exchange-rate regimes &amp; India's managed-float literature, GATT-WTO process descriptions.</li><li><strong>Paper-II (Indian economy)</strong>: pre-independence structure debates (drain-of-wealth; deindustrialisation Roy-Morris etc); planning progression &amp; sectoral performances; post-1991 reform scorecards (BoP crisis-to-liberalisation implementation code); monetary-policy evolution (monetary targeting → MIA → flexible-inflation-targeting formalisation 2016 with MPC structure); fiscal skirmishes (FRBM statutes, deficit-mantras, GST + tax-buoyancy events, 14/15/16-FC devolution narratives); agriculture-transitions (Green Revolution productivity/variance maps, MSP mechanism critiques, NFSA entitlements, market-reform statutes 2020 farm-laws + unfortunate-repeal aftermath studies); industry-structure (MRTP-era → delicensing → PLI era); labour stats scarce-data frames (PLFS-derived characterisations, informality + 2020s codes consolidation (four labour codes pending implementation grid)) and inflation-unemployment interplays (stagflation non-presence); poverty-empirics battles (Tendulkar-Rangarajan lines; World-Bank $2.15+ methodology debates incl. 2017 PPP revisions); financial-sector-evolution (nationalisation→reforms→NPA+IBC efficacies→bad-bank NARCL formation); external-sector track (liberalised capital account caution rope; rupee management arc; FTAs record — UAE CEPA/status-quo; Atmanirbhar lens ®global-value-chain participation details).</li></ul>
+<h3 id="framework-skeleton">Framework skeleton</h3>
+<ul><li>Answers: model/diagram (labelled) → assumptions → result → real-India calibration (1 data point with source-year) → critique/caveat.</li><li>Diagram fiscal: PPF diagram for tradeoffs, Philips-curve tradeoff composites, Solow steady-state geometry, Lorenz/Gini visual hooks.</li></ul>
+<h3 id="standard-spine-books">Standard spine books</h3>
+<ul><li>H L Ahuja (micro+macro; unavoidable), Dornbusch-Fischer (macro-trim), Mankiw (textbook smoothness), Salvatore (international) — plus RBI occassional papers/guides + EPW data-drops for Paper-II; Economic Survey latest + RBI Annual Report as the orientation backbone.</li></ul>
+<h3 id="caution">Caution</h3>
+<ul><li>Syllabus expects <em>formal</em> treatment; story-telling answers scored poorly — drill derivations until they read as choreography.</li><li>Volatility alert: macro readings require tolerable comfort of calculus-lite work (differentiation/optimisation symbols).</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Decision + execution card. Orientation in short-notes; full map in detailed-notes.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>ECONOMICS OPTIONAL
+├── P1 MICRO ...... Slutsky · market structures (Cournot-Stackelberg)
+│                 · game basics · market failures · welfare (Pareto)
+├── P1 MACRO ...... accounting debates · IS-LM → RBC vs NK
+│                 · Mundell-Fleming · expectations
+├── P1 GROWTH ..... Solow vs Romer · HDI/MDP · Lewis dualism
+│                 · balanced vs unbalanced · env-development
+├── P1 PF+INTL .... Musgrave · Ramsey/incidence · Oates federalism
+│                 · debt dynamics · Ricardian→HO→Krugman · WTO
+├── P2 INDIA ...... 1991 hinge · LPG sequence · GST/IBC/MPC
+│                 · agri-industry-services puzzles · Survey chapters
+└── STYLE ......... graph-first · 6 derivations drilled · Survey
+                   figure as data anchor · debate bank ×4</code></pre>
+<h3 id="scoring-levers">Scoring levers</h3>
+<ul><li>Graph shelf: indifference+Slutsky, IS-LM shifts, MF triangle (impossible trinity), tariff welfare triangles, Laffer, Solow diagram with golden rule.</li><li>Derivation six-pack: Slutsky decomposition · multiplier with imports · money multiplier · Balassa line? — keep: HO theorem sketch · golden-rule condition · debt-dynamics identity.</li><li>Survey mapping: chapter → answer skeleton (growth chapter → 15-marker on potential output).</li><li>Debate bank: inflation-band adequacy · FRBM realism · GST-architecture fixes · fiscal-monetary dominance — positions + data each.</li></ul>
+<h3 id="common-mistakes">Common mistakes</h3>
+<ul><li>Essay-style Paper-2 answers without theory lens or latest Survey/RBI figure.</li><li>Unlabelled axes — economics diagrams without units score zero spirit.</li><li>Neglecting numericals in micro/macro 10-markers.</li><li>Stale data (using old GST/A groups? — keep: old fiscal-deficit figures).</li></ul>
+<h3 id="overlap-check">Overlap check</h3>
+<ul><li>GS-3 economy: strong · Prelims economy: strong · Interview (policy credibility): strong · Essay (development themes): moderate.</li><li>Cost: Paper 1 runs parallel to GS — plan a full half-year for it; recent marking is exacting.</li></ul>
+<h3 id="twin-questions-before-committing">Twin questions before committing</h3>
+<ul><li>Am I comfortable with graphs and light algebra weekly?</li><li>Will I refresh Survey/RBI data every cycle without fail?</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Economics optional — theory discipline meets the Survey ledger</text>
+  <text x="30" y="56" class="s">paper 1 analytics shelter precise writers · paper 2 is the GS-3 heartland · graph-first culture</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — THEORY</text>
+  <text x="56" y="126" class="md">Micro: indifference → Slutsky · Cournot/Stackelberg · games</text>
+  <text x="56" y="146" class="md">failures: externalities · public goods · information asymmetry</text>
+  <text x="56" y="166" class="md">Macro: accounting debates · money multiplier · inflation</text>
+  <text x="56" y="186" class="md">IS-LM → RBC vs New-Keynesian · Mundell-Fleming trilemma</text>
+  <text x="56" y="208" class="md">Growth: Harrod-Domar → Solow → Romer · HDI/MDP · Lewis</text>
+  <text x="56" y="228" class="md">Public finance: Musgrave · Ramsey · Oates · debt dynamics</text>
+  <text x="56" y="248" class="md">International: Ricardo → HO → Krugman · WTO basics</text>
+  <text x="56" y="284" class="sm">style: labelled graph first · 6-derivation six-pack drilled</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — INDIAN ECONOMY</text>
+  <text x="536" y="126" class="md">Base: Mahalanobis planning · green revolution · 1991 hinge</text>
+  <text x="536" y="146" class="md">Reform sequence: delicensing · trade-tariffs · Narasimham</text>
+  <text x="536" y="166" class="md">FEMA · VAT→GST architecture · MPC framework (4±2)</text>
+  <text x="536" y="186" class="md">Sectors: MSP-APMC economics · PLI/MSME · services puzzle</text>
+  <text x="536" y="206" class="md">Macro-policy: FRBM glide · NPA→IBC credit culture</text>
+  <text x="536" y="226" class="md">External: CAD dynamics · rupee regime · FTA line</text>
+  <text x="536" y="246" class="md">Development: poverty lineage · PLFS employment · DBT/JAM</text>
+  <text x="536" y="284" class="sm">style: Survey/RBI figure → theory lens → both records → forward path</text>
+  <path d="M 460 195 L 520 195" class="cl"/>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS + THE SHELF &amp; BANK</text>
+  <text x="60" y="374" class="md">wk 1-3 micro · wk 4-6 macro+open-economy · wk 7-8 growth+PF · wk 9 international · wk 10-11 India · wk 12 Survey-mapping + PYQ marathon</text>
+  <text x="60" y="392" class="sm">graph shelf: Slutsky map · IS-LM · trilemma triangle · tariff welfare · Laffer · Solow+golden rule · debate bank: MPC band · FRBM · GST architecture · fiscal-monetary dominance</text>
+  <text x="30" y="432" class="foot">studyUPSC · economics optional diagram · pair with detailed-notes/economics-syllabus-map.html</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>Paper-wise patterns framed on recurring themes (official papers carry verbatim texts). Model approaches included.</p></blockquote>
+<h3 id="paper-1-pattern-questions">Paper 1 — pattern questions</h3>
+<p><strong>Q1.</strong> Decompose the price effect into income and substitution effects (Hicksian or Slutskian — state your choice). (10 marks)</p>
+<p><em>Approach:</em> compensated-variation construction → Slutsky equation sign logic (normal vs inferior vs Giffen) → labelled indifference-map with auxiliary budget line → one-line relevance: Giffen evidence debates.</p>
+<p><strong>Q2.</strong> Compare Cournot and Stackelberg duopoly outcomes. (10 marks)</p>
+<p><em>Approach:</em> simultaneous-quantity vs first-mover games → reaction-function diagram → outputs/prices ranking (Stackelberg leader gains, industry output higher than Cournot, lower than competition) → welfare note.</p>
+<p><strong>Q3.</strong> "An economy cannot simultaneously fix the exchange rate, allow free capital flows and run independent monetary policy." Elaborate. (15 marks)</p>
+<p><em>Approach:</em> Mundell-Fleming trilemma → corner vs middle-ground solutions → India's managed-float + partial-capital-controls position → reserve-accumulation logic → diagram: triangle vertices.</p>
+<p><strong>Q4.</strong> Contrast Solowian and endogenous growth models on the role of policy. (15 marks)</p>
+<p><em>Approach:</em> Solow — exogenous technology, convergence, policy affects levels not steady-state growth → Romer — ideas' non-rivalry, R&amp;D externalities, policy shifts long-run growth → evidence sketch: persistent growth differentials → India hook: PLI/R&amp;D-mission framing.</p>
+<p><strong>Q5.</strong> Explain the Ramsey rule of efficient taxation and its equity tension. (10 marks)</p>
+<p><em>Approach:</em> inverse-elasticity logic (tax inelastic bases more) → efficiency defence → equity critique (basics are inelastic) → resolution paths: differentiated GST architecture, Pigouvian layer.</p>
+<h3 id="paper-2-pattern-questions">Paper 2 — pattern questions</h3>
+<p><strong>Q6.</strong> "1991 was a balance-of-payments crisis that became a policy philosophy." Trace the reform sequence. (15 marks)</p>
+<p><em>Approach:</em> crisis anatomy (CAD, reserves cover, gold airlift episode) → stabilisation (fiscal correction, devaluation) vs structural reform (delicensing, trade, financial — Narasimham, FEMA path) → sequencing debates → unfinished-agenda ledger (factor markets, SOEs).</p>
+<p><strong>Q7.</strong> Evaluate inflation targeting as India's monetary framework. (10 marks)</p>
+<p><em>Approach:</em> MPC design (4% ±2 band, CPI headline) → record: anchoring gains, supply-shock tensions (food-weighted CPI) → debates: band adequacy, core-vs-headline, growth-trade-off → way-ahead: review levers (house-price inclusion? keep general: index refinements, communication).</p>
+<p><strong>Q8.</strong> Discuss MSP-APMC reforms through an economics lens — efficiency versus procurement-security trade-offs. (15 marks)</p>
+<p><em>Approach:</em> MSP's open-ended procurement geography concentration (paddy-rice belts) → water-table externality + crop-mix distortion → APMC frictions and market-fee wedge → reform options: price-deficiency payments, warehouse-based (PM-AASHA line), private-market competition with farmer-safeguards → federal politics acknowledged.</p>
+<p><strong>Q9.</strong> Analyse the IBC's incentive effects on credit culture. (10 marks)</p>
+<p><em>Approach:</em> design shift: debtor-in-possession → creditor-in-control, time-boxed resolution → record: recovery-architecture gains; haircuts &amp; tribunal-capacity constraints → behavioural effect: pre-IBC discipline (market pricing of default risk) → completion items: cross-border insolvency, DFI? — keep: resolution-professional ecosystem.</p>
+<h3 id="how-to-practise">How to practise</h3>
+<ul><li>Map 8 years of papers: P1 hot nodes — Slutsky, market structures, trilemma, Solow-Romer, Ramsey; P2 — 1991 lineage, MPC, GST/IBC, agri-reforms, federal finance.</li><li>Weekly: 2 graph-complete answers + 1 derivation; refresh Survey/RBI figures each cycle.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="optional-subjects-optional-anthropology.html"><span class="lb">← Previous</span>Anthropology</a>
+<a class="r" href="optional-subjects-optional-psychology.html"><span class="lb">Next →</span>Psychology</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>9.9.1 Psychology · studyUPSC Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#b45309;--gold:#f59e0b;--bg:#f6f5f1;--card:#fff;--navy:#152744}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.72 "Source Serif 4",Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+.bk-top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bk-top .in{max-width:1080px;margin:0 auto;padding:11px 22px;display:flex;gap:16px;align-items:center;font-family:Inter,system-ui,sans-serif;font-size:13px}
+.bk-top a{color:var(--sub);text-decoration:none;font-weight:600}
+.bk-top a:hover{color:var(--accent)}
+.bk-brand{font-weight:800;font-size:17px;color:var(--ink)}
+.bk-brand span{color:var(--gold)}
+.wrap{max-width:780px;margin:0 auto;padding:44px 22px 96px}
+.wide{max-width:1080px}
+.bk-eyebrow{font-family:Inter,system-ui,sans-serif;font-size:11.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:34px;line-height:1.18;margin:.18em 0 .3em;letter-spacing:-.015em}
+h2{font-size:24px;margin:2.2em 0 .5em;padding-bottom:.28em;border-bottom:2px solid var(--gold);letter-spacing:-.01em}
+h3{font-size:19px;margin:1.5em 0 .4em}
+h4{font-size:16.5px;margin:1.25em 0 .3em;color:#334155}
+h5,h6{font-size:15px;margin:1em 0 .25em;color:#475569}
+p{margin:.75em 0}
+a{color:var(--accent)}
+ul,ol{padding-left:1.45em}li{margin:.28em 0}
+blockquote{margin:1.1em 0;padding:.7em 1.1em;border-left:4px solid var(--gold);background:#fffbeb;border-radius:0 10px 10px 0;color:#44403c}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:#f1f5f9;padding:.14em .4em;border-radius:5px}
+pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8em;line-height:1.5;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1.1em 0;font-size:.9em;font-family:Inter,system-ui,sans-serif;display:block;overflow-x:auto}
+td,th{border:1px solid var(--line);padding:.48em .7em;text-align:left;vertical-align:top}
+th{background:#f1f5f9;font-weight:700}
+tr:nth-child(even) td{background:#fafafa}
+img,svg{max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--line);margin:2em 0}
+.bk-figure{margin:1.4em 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:14px;text-align:center}
+.bk-sec{margin:0 0 8px}
+.bk-sec-lead{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--sub);margin:-.15em 0 1.2em;font-style:normal}
+.bk-part-art{width:100%;border-radius:16px;border:1px solid var(--line);display:block;margin:0 0 26px}
+.bk-cover{display:block;width:100%;max-width:420px;margin:0 auto 30px;border-radius:12px;box-shadow:0 20px 50px -20px rgba(15,39,68,.55)}
+.bk-hero{background:var(--navy);color:#f8fafc;border-radius:20px;padding:44px 40px;margin-bottom:34px}
+.bk-hero h1{color:#fff;font-size:40px;margin:.1em 0 .25em}
+.bk-hero p{color:#c7d2e2;font-family:Inter,system-ui,sans-serif;font-size:14.5px;max-width:56ch}
+.bk-stats{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;font-family:Inter,system-ui,sans-serif}
+.bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
+.bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
+.bk-toc{font-family:Inter,system-ui,sans-serif}
+.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
+.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
+.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
+.bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
+.bk-toc ol{list-style:none;padding:0;margin:0}
+.bk-toc li{margin:0}
+.bk-toc li a{display:flex;gap:10px;align-items:baseline;padding:5px 8px;border-radius:8px;font-size:13.5px;color:#334155;text-decoration:none}
+.bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
+.bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
+.bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
+.bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
+.bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
+.bk-nav .lb{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:800;margin-bottom:3px}
+.bk-nav .r{text-align:right}
+.bk-mini{font-family:Inter,system-ui,sans-serif;font-size:12.5px;color:var(--sub);margin:0 0 26px}
+.bk-mini a{color:var(--sub);text-decoration:none}.bk-mini a:hover{color:var(--accent)}
+.bk-lesson-toc{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:16px 20px;margin:26px 0 34px;font-family:Inter,system-ui,sans-serif;font-size:13.5px}
+.bk-lesson-toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a3b8;margin-bottom:8px}
+.bk-lesson-toc a{color:#334155;text-decoration:none;display:inline-block;margin:2px 14px 2px 0}
+.bk-lesson-toc a:hover{color:var(--accent)}
+footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-size:12px;font-family:Inter,system-ui,sans-serif;text-align:center}
+@media print{
+  body{background:#fff;font-size:10.5pt;line-height:1.5}
+  .bk-top,.bk-nav,.no-print{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .bk-hero{background:#fff;color:#000;border:none;padding:0}
+  .bk-hero h1{color:#000}.bk-hero p{color:#333}
+  h1{page-break-before:always;font-size:22pt}
+  .bk-part{page-break-before:always}
+  h2,h3{page-break-after:avoid}
+  table,pre,.bk-figure,blockquote{page-break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  @page{margin:18mm 16mm}
+}
+</style></head><body>
+<div class="bk-top no-print"><div class="in">
+<a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
+<a href="../index.html">Contents</a>
+<a href="../../index.html">Portal</a>
+<a href="../edition.html">Print edition</a>
+<a style="margin-left:auto" href="#" onclick="window.print();return false">Print / PDF</a>
+</div></div>
+<div class="wrap"><p class="bk-mini">Part IX — Optional Subjects · Chapter 9: Psychology</p>
+<p class="bk-eyebrow">Lesson 9.9.1</p>
+<h1 id="lesson-optional-subjects-optional-psychology">Psychology</h1><nav class="bk-lesson-toc no-print"><b>In this lesson</b><a href="#s-notes">Detailed Study</a><a href="#s-short">Revision Digest</a><a href="#s-bullets">Key Points &amp; Mindmap</a><a href="#s-diagrams">Diagrams, Maps &amp; Flowcharts</a><a href="#s-pyqs">Previous Year Questions</a></nav><section class="bk-sec" id="s-notes">
+<h2>Detailed Study</h2>
+<p class="bk-sec-lead">The full treatment of this lesson.</p>
+<blockquote><p>Paper 1: the science core (foundations, cognition, personality, social psychology). Paper 2: applications (well-being, disorders, organisational, educational, community). Compact syllabus, experiment-friendly examples, and a direct GS-4 bridge — but the marking rewards textbook precision plus Indian case application.</p></blockquote>
+<h3 id="paper-1-unit-map">Paper 1 — Unit Map</h3>
+<table><thead><tr><th>Block</th><th>Units</th><th>Anchors</th></tr></thead><tbody>
+<tr><td>Foundations</td><td>1.x–4.x</td><td>Introduction &amp; history (structuralism → behaviourism → cognitive turn); research methods (experiment, correlation, observation, ethics); biological bases (neurons, brain areas, endocrine links); sensation-attention-perception (thresholds, Gestalt laws, attention bottleneck models)</td></tr>
+<tr><td>Cognition</td><td>5.x–7.x</td><td>Learning (classical/operant, observational — Bandura); memory (STM/LTM, Baddeley's working model, forgetting theories, mnemonics); thinking-problem-solving (heuristics — Kahneman lineage, creativity tests)</td></tr>
+<tr><td>Individual</td><td>8.x–10.x</td><td>Motivation &amp; emotion (Maslow vs drive vs intrinsic, James-Lange/Cannon-Bard/Schachter); personality (trait line — Allport, Cattell, Eysenck, Big Five; Freud's structure; humanistic — Rogers/Maslow; measurement); intelligence (Spearman-Thurstone-Guilford, Gardner, Sternberg, emotional intelligence; IQ tests &amp; culture debates)</td></tr>
+<tr><td>Social &amp; applied edge</td><td>11.x–12.x</td><td>Attitudes (formation/change, cognitive dissonance); social cognition (schemas, attribution errors); groups (conformity — Asch, obedience — Milgram, leadership styles); language &amp; communication; computer applications in psychology</td></tr>
+</tbody></table>
+<h3 id="paper-2-unit-map">Paper 2 — Unit Map (Psychology in Action)</h3>
+<ul><li><strong>Well-being</strong>: stress (Selye, Lazarus appraisal), coping, health-psychology (lifestyle interventions), positive psychology (Seligman's PERMA).</li><li><strong>Disorders &amp; therapy</strong>: anxiety, mood, schizophrenia spectrum, personality disorders — descriptive features + causes (diathesis-stress); therapies: CBT, behavioural, humanistic, psychodynamic, mindfulness-based; rehabilitation &amp; community mental health (NMHS).</li><li><strong>Work &amp; organisational</strong>: personnel selection, training evaluation, motivation at work (Herzberg applied), leadership, organisational culture, ergonomics, consumer behaviour.</li><li><strong>Educational</strong>: learning-style debates, giftedness &amp; remedial teaching, inclusive education, teacher effectiveness.</li><li><strong>Community &amp; environment</strong>: community psychology (deinstitutionalisation), environmental stressors (noise, crowding), pro-environment behaviour design.</li><li><strong>Applied frontier</strong>: sports psychology, military selection, psychology of terrorism &amp; deradicalisation, media influence.</li></ul>
+<h3 id="booklist-lean-and-sufficient">Booklist (lean and sufficient)</h3>
+<ul><li>Core: Morgan &amp; King (Introduction to Psychology) or Ciccarelli; Baron for social psychology; standard coaching compilations for structure.</li><li>Paper 2: applied-psychology compilations + NCERT-Class-XII Psychology for the Indian applied voice; NMHS/DOSH? — rather: NMHS (National Mental Health Survey) findings for data.</li><li>Data/current: NCRB suicide data, NIMHANS survey figures, workplace-survey headlines — refreshed quarterly.</li></ul>
+<h3 id="answer-strategy">Answer Strategy</h3>
+<ul><li>Definition → theory/model → one classic experiment (named: Pavlov, Skinner, Milgram, Schachter-Singer) → Indian application → brief critique.</li><li>Experiments are evidence: describe in two lines (design + finding) — examiners credit empirical texture.</li><li>Paper 2 always lands on an Indian programme (DISHA, Manodarpan, workplace EAPs, NMHS districts) — theory without programme looks imported.</li><li>Diagrams: model boxes (memory pipeline, stress-appraisal flow, therapy ladders) — one per answer.</li></ul>
+<h3 id="scoring-profile-and-fit">Scoring Profile and Fit</h3>
+<ul><li>Best for: aspirants with any science/medicine/HR affinity; GS-4 (EI, attitude) synergy; essay empathy-psychology prompts.</li><li>Watch-outs: strict marking on loose claims — hallucinated studies hurt; Paper 2's applied breadth needs programme literacy.</li></ul>
+<h3 id="twelve-week-first-pass">Twelve-Week First Pass</h3>
+<ul><li>Wk 1-3 foundations + perception. Wk 4-5 learning-memory-thinking. Wk 6-7 motivation-emotion-personality-intelligence. Wk 8 social + attitudes. Wk 9-10 Paper 2 well-being + disorders/therapies. Wk 11 work-education-community. Wk 12 PYQ mapping + experiment bank final.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-short">
+<h2>Revision Digest</h2>
+<p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<h3 id="why-candidates-pick-it">Why candidates pick it</h3>
+<ul><li>GS-4 overlap in EI/attitude; tight syllabus; scoring history experiences steady median performance; useful for candidates with inclination toward human-behavior science.</li></ul>
+<h3 id="syllabus-map">Syllabus map</h3>
+<ul><li><strong>Paper-I (Foundations)</strong>: scope-methods (experimental, correlational, field/biological bases — nervous-system/brain localisation + sensors-perception modules incl. signal-detection theory; learning theories (classical/operant/observational — Bandura social-learning; conditioning applications); memory models (multi-store → working-memory Baddeley; forgetting curves-Ebbinghaus); thinking-problem solving &amp; intelligence (psychometrics — Spearman/Thurstone/Cattell-Horn-fluid-crystallised, Gardner multiple-intelligences, Sternberg triarchic, emotional-intelligence stream); motivation &amp; emotion (Maslow, intrinsic-extrinsic debates, cognitive-appraisal emotion-theories — James-Lange/Cannon-Bard/Schachter-Singer comparison tables); personality theories (trait Big-Five — Costa-McCrae; psychodynamic Freud/Erikson stages; humanistic Rogers/Maslow); psychological measurement essentials (reliability-validity norms), research-methods basics + statistics intro (central-tendency/variability/correlation/hypothesis-inference norm-schematics).</li><li><strong>Paper-II (Applications)</strong>: psychological well-being &amp; mental health (DSM-lite awareness, anxiety-mood disorder descriptions, community-psych wave); work-organisation psych (leadership styles, motivation-at-work models — Herzberg/Vroom/Porter-Lawler), consumer psychology + media-psych (persuasion-discipline bond with CSAT-adjacent knowledge); education (exceptional children guidance, learning-disability classification, career guidance); application to disadvantaged groups; social psychology in Paper-II wrap: attitudes-stereotypes-prejudice-intergroup dynamics (contact-hypothesis Tremblay), environment-behaviour interface, terrorism/violence-psych roots.</li></ul>
+<h3 id="framework-skeleton">Framework skeleton</h3>
+<ul><li>Pattern answer: theory card (name + mechanism) → study evidence line (seminal experiment anchors: Milgram, Zimbardo-critiques, Loftus memory-malleability, Harlow attachment-isolation, Bandura Bobo doll, Ainsworth strange-situation, Asch conformity, Stroop, Kohlberg-Heinz dilemma) → Indian application + measurement note.</li><li>Ethics of research block: informed consent + deception debriefing + orgaitho-Institute-Review-Boards (IRB) narrative.</li></ul>
+<h3 id="standard-spine-books">Standard spine books</h3>
+<ul><li>Ciccarelli &amp; White (comprehensive foundations), Robert Baron (main-line text), NCERT XI-XII combo for scaffolding; Smarak Swain optional-targeted digests; Morgan-King older sets trusted for experiments summaries.</li></ul>
+<h3 id="overlap">Overlap</h3>
+<ul><li>GS-4 ethics (EI explicitly), essay material (human-science evidence), anthropological-lexical cohabitation.</li></ul>
+<h3 id="pyq-pattern-notes">PYQ pattern notes</h3>
+<ul><li>Frequent: intelligence theory-comparison grids; motivation theory applications to governance-administration(!); prejudice-intervention drills; leadership models in organisations; research-ethics probes recur.</li></ul>
+<h3 id="caution">Caution</h3>
+<ul><li>Don't over-statisticalise answers; examiners reward <em>concept-to-application</em> tightness over formula showers.</li><li>Maintain a 40-experiment rapid-recall deck — flexible deployment wins answer-texture comparisons.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-bullets">
+<h2>Key Points &amp; Mindmap</h2>
+<p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
+<blockquote><p>Decision + execution card. Orientation in short-notes; full map in detailed-notes.</p></blockquote>
+<h3 id="ascii-mindmap">ASCII mindmap</h3>
+<pre><code>PSYCHOLOGY OPTIONAL
+├── P1 SCIENCE .... methods · brain bases · perception (Gestalt)
+│                 · learning (Pavlov-Skinner-Bandura) · memory
+│                 (Baddeley) · thinking (Kahneman) · emotion theories
+│                 · personality (Big Five vs Freud) · intelligence
+│                 · attitudes (dissonance) · groups (Asch-Milgram)
+├── P2 APPLIED .... stress-coping (Lazarus) · disorders + CBT ladder
+│                 · work-IO · educational · community · environment
+│                 · sports/terrorism edges
+├── STYLE ......... def → model → named experiment → Indian
+│                 programme (NMHS/Manodarpan) → critique + diagram
+└── FIT ........... GS-4 bridge · compact syllabus · precision
+                   marking — never invent studies</code></pre>
+<h3 id="scoring-levers">Scoring levers</h3>
+<ul><li>Experiment bank: 20 classics with design+finding in two lines each (Milgram, Asch, Schachter-Singer, Seligman's dogs...).</li><li>Model diagrams: memory pipeline · appraisal flow · Big-Five wheel · therapy ladder.</li><li>Indian programme hooks: NMHS, Manodarpan, e-SAKSHAM? — keep verified: NMHS + Manodarpan + workplace EAP + Khelo India sports-psych.</li><li>Culture critiques: IQ-testing bias, WEIRD-sample problem — one line each where apt.</li></ul>
+<h3 id="common-mistakes">Common mistakes</h3>
+<ul><li>Pop-psychology prose without experimental citation.</li><li>Personality answers stuck on Freud alone (trait models score better).</li><li>Paper 2 without Indian programmes/data.</li><li>Confusing stressors vs stress (Lazarus appraisal distinction).</li></ul>
+<h3 id="overlap-check">Overlap check</h3>
+<ul><li>GS-4: EI/attitude units direct · Essay: emotion/motivation prompts · Interview: rapport + self-insight · Prelims (science-tech bits): mild.</li><li>Cost: low parallel load; but precision discipline is optional-specific.</li></ul>
+<h3 id="twin-questions-before-committing">Twin questions before committing</h3>
+<ul><li>Will I memorise experiments verbatim-faithfully (design + result)?</li><li>Am I comfortable with disorder-descriptive psychiatry vocabulary?</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section>
+<section class="bk-sec" id="s-diagrams">
+<h2>Diagrams, Maps &amp; Flowcharts</h2>
+<p class="bk-sec-lead">Visual anchors for the answer sheet.</p>
+<figure class="bk-figure"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .t{font-size:20px;font-weight:700;fill:#0f172a}
+      .s{font-size:12px;fill:#64748b}
+      .h{font-size:13px;fill:#0f172a;font-weight:700}
+      .md{font-size:11px;fill:#334155}
+      .sm{font-size:10.5px;fill:#64748b}
+      .p1{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+      .p2{fill:#fffbeb;stroke:#f59e0b;stroke-width:1.5}
+      .g{fill:#22c55e;opacity:.12;stroke:#22c55e;stroke-width:1.5}
+      .cl{stroke:#64748b;stroke-width:2;fill:none;marker-end:url(#arr)}
+      .foot{font-size:10px;fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="960" height="450" rx="14" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="30" y="36" class="t">Psychology optional — the experiment bank feeds the programme bank</text>
+  <text x="30" y="56" class="s">paper 1 science core · paper 2 applied arcs · precision marking: never invent a study</text>
+  <rect x="40" y="80" width="420" height="230" rx="12" class="p1"/>
+  <text x="56" y="104" class="h">PAPER 1 — THE SCIENCE CORE</text>
+  <text x="56" y="126" class="md">Methods: experiment · correlation · ethics · WEIRD caution</text>
+  <text x="56" y="146" class="md">Brain bases · attention · Gestalt perception</text>
+  <text x="56" y="166" class="md">Learning: Pavlov · Skinner · Bandura (observational)</text>
+  <text x="56" y="186" class="md">Memory: multistore → Baddeley's working model · mnemonics</text>
+  <text x="56" y="206" class="md">Thinking: heuristics (Kahneman) · creativity</text>
+  <text x="56" y="226" class="md">Emotion trio: James-Lange · Cannon-Bard · Schachter-Singer</text>
+  <text x="56" y="246" class="md">Personality: Big Five vs Freud · attitudes &amp; dissonance</text>
+  <text x="56" y="264" class="md">Groups: Asch · Milgram · leadership styles</text>
+  <text x="56" y="284" class="sm">style: def → model → named experiment → critique (+diagram)</text>
+  <rect x="520" y="80" width="400" height="230" rx="12" class="p2"/>
+  <text x="536" y="104" class="h">PAPER 2 — APPLIED ARCS</text>
+  <text x="536" y="126" class="md">Well-being: Selye stress · Lazarus appraisal · PERMA</text>
+  <text x="536" y="146" class="md">Disorders: anxiety · mood · schizophrenia (+diathesis-stress)</text>
+  <text x="536" y="166" class="md">Therapies: CBT ladder · behaviour · humanistic · mindfulness</text>
+  <text x="536" y="186" class="md">Work-IO: selection · Herzberg at work · culture · ergonomics</text>
+  <text x="536" y="206" class="md">Educational: inclusion · giftedness · teacher effectiveness</text>
+  <text x="536" y="226" class="md">Community: deinstitutionalisation · NMHS districts</text>
+  <text x="536" y="246" class="md">Frontier: sports (Khelo India) · deradicalisation · env. nudges</text>
+  <text x="536" y="284" class="sm">style: theory → Indian programme (NMHS · Manodarpan · EAP) → datum</text>
+  <path d="M 460 195 L 520 195" class="cl"/>
+  <rect x="40" y="330" width="880" height="70" rx="12" class="g"/>
+  <text x="60" y="354" class="h">TWELVE-WEEK FIRST PASS + THE TWO BANKS</text>
+  <text x="60" y="374" class="md">wk 1-3 foundations · wk 4-5 learning-memory-thinking · wk 6-7 emotion-personality-intelligence · wk 8 social · wk 9-10 well-being+disorders · wk 11 work-education-community · wk 12 PYQ map</text>
+  <text x="60" y="392" class="sm">experiment bank ×20 (design+finding, 2 lines each) · programme bank: NMHS · Manodarpan · EAPs · UJALA/SB-norms</text>
+  <text x="30" y="432" class="foot">studyUPSC · psychology optional diagram · pair with detailed-notes/psychology-syllabus-map.html</text>
+</svg></figure>
+</section>
+<section class="bk-sec" id="s-pyqs">
+<h2>Previous Year Questions</h2>
+<p class="bk-sec-lead">What the examiner has actually asked.</p>
+<blockquote><p>Paper-wise patterns framed on recurring themes (official papers carry verbatim texts). Model approaches included.</p></blockquote>
+<h3 id="paper-1-pattern-questions">Paper 1 — pattern questions</h3>
+<p><strong>Q1.</strong> Distinguish top-down and bottom-up processing with perceptual examples. (10 marks)</p>
+<p><em>Approach:</em> define data-driven vs concept-driven → examples: reading degraded text (context fill — top-down) vs feature detection in novel stimuli (bottom-up) → interactionist evidence (word-superiority effect) → diagram the dual arrows.</p>
+<p><strong>Q2.</strong> Explain Baddeley's working-memory model and its evidence. (15 marks)</p>
+<p><em>Approach:</em> components — central executive, phonological loop, visuospatial sketchpad, episodic buffer → evidence: dual-task interference, phonological-similarity effect, word-length effect → upgrade from multistore account → applications: arithmetic, comprehension.</p>
+<p><strong>Q3.</strong> Compare James-Lange, Cannon-Bard and Schachter-Singer theories of emotion. (15 marks)</p>
+<p><em>Approach:</em> sequence diagrams (body→feeling; parallel; arousal+label) → supporting evidence each (spinal-cord cases; thalamic role; epinephrine experiment) → appraisal addition (Lazarus) → verdict: multi-route contemporary synthesis.</p>
+<p><strong>Q4.</strong> Evaluate the Big-Five against Freudian personality theory. (10 marks)</p>
+<p><em>Approach:</em> traits — dimensional, cross-cultural stability, psychometric base vs Freud — dynamic, developmental, defence mechanisms (clinical richness, low testability) → bridges: attachment research revives early-experience claims → use-case split: prediction vs depth-explanation.</p>
+<p><strong>Q5.</strong> How do Milgram's findings translate to bureaucratic wrongdoing? (10 marks)</p>
+<p><em>Approach:</em> design+finding (65% to 450V under authority) → agentic-state reading → moderators (proximity, dissent-peers, legitimate institution) → GS-4 translation: tone-at-top, note-making culture, whistle-blower protection as experimental remedies.</p>
+<h3 id="paper-2-pattern-questions">Paper 2 — pattern questions</h3>
+<p><strong>Q6.</strong> Explain Lazarus's cognitive-appraisal model of stress with a workplace case. (10 marks)</p>
+<p><em>Approach:</em> primary (threat/challenge) + secondary (resource check) appraisal → reappraisal route → case: merger announcement — threat-framing vs opportunity-framing outcomes → intervention: cognitive restructuring + EAPs.</p>
+<p><strong>Q7.</strong> Outline CBT's logic in treating depression; evidence of efficacy? (15 marks)</p>
+<p><em>Approach:</em> cognitive-triad → automatic-thoughts → schema level → technique ladder (activity scheduling → thought records → behavioural experiments) → evidence: equal-to-pharmacotherapy in moderate cases, relapse-edge (metanalysis line) → Indian access angle: digital CBT, Manodarpan counselling lattice.</p>
+<p><strong>Q8.</strong> Discuss psychological contributions to deradicalisation. (10 marks)</p>
+<p><em>Approach:</em> radicalisation path (identity-quest, grievance, network pull) → counters: EXIT-style programmes (mentoring, family involvement), cognitive-opening, dignity-economic ladders → ethics: persuasion vs manipulation boundary → evaluation caution: small-N evidence.</p>
+<p><strong>Q9.</strong> How can nudges and norms design pro-environment behaviour? (10 marks)</p>
+<p><em>Approach:</em> social-norm feedback (opower-style home-energy reports), defaults (green tariff), commitment+public pledge → Indian cases: LED UJALA diffusion, Swachh Bharat social-proof messaging → limits: reactance, rebound effects → design principles.</p>
+<h3 id="how-to-practise">How to practise</h3>
+<ul><li>Map 8 years of papers: hot nodes — memory, emotion, personality, attitudes (P1); stress, therapy, IO, community (P2).</li><li>Weekly: 3 answers with mandatory named-experiment + one diagram; maintain the 20-experiment bank.</li></ul>
+</div>
+<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+</section><nav class="bk-nav no-print">
+<a href="optional-subjects-optional-economics.html"><span class="lb">← Previous</span>Economics</a>
+<a class="r" href="mains-practice-gs-1-practice.html"><span class="lb">Next →</span>GS I — practice questions with answer frameworks</a>
+</nav></div>
+<footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+</body></html>
