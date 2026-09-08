@@ -3696,7 +3696,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/geography/maps-india-world/detailed-notes/maps-india-world-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5738,
+  "size": 16944,
   "nav": "prelims-gs1/geography/maps-india-world/notes"
  },
  {
@@ -4290,7 +4290,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes/fairs-festivals-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6520,
+  "size": 17069,
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/notes"
  },
  {
@@ -5487,7 +5487,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes/multilateral-forums-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6073,
+  "size": 16984,
   "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/notes"
  },
  {
@@ -12310,7 +12310,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/geography/maps-india-world/detailed-notes/maps-india-world-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5738,
+    "size": 16944,
     "nav": "prelims-gs1/geography/maps-india-world/notes"
    }
   ]
@@ -13300,7 +13300,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/detailed-notes/fairs-festivals-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6520,
+    "size": 17069,
     "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/notes"
    }
   ]
@@ -15295,7 +15295,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/detailed-notes/multilateral-forums-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6073,
+    "size": 16984,
     "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/notes"
    }
   ]
