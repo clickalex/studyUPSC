@@ -1617,7 +1617,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-anthropology/detailed-notes/anthropology-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7337,
+  "size": 25829,
   "nav": "optional-subjects/optional-anthropology/notes"
  },
  {
@@ -1887,7 +1887,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-psychology/detailed-notes/psychology-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7632,
+  "size": 26173,
   "nav": "optional-subjects/optional-psychology/notes"
  },
  {
@@ -4488,7 +4488,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes/delhi-sultanate-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7392,
+  "size": 25952,
   "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/notes"
  },
  {
@@ -4578,7 +4578,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes/marathas-vijayanagara-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6910,
+  "size": 25397,
   "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/notes"
  },
  {
@@ -8845,7 +8845,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-anthropology/detailed-notes/anthropology-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7337,
+    "size": 25829,
     "nav": "optional-subjects/optional-anthropology/notes"
    }
   ]
@@ -9295,7 +9295,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-psychology/detailed-notes/psychology-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7632,
+    "size": 26173,
     "nav": "optional-subjects/optional-psychology/notes"
    }
   ]
@@ -13630,7 +13630,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/delhi-sultanate/detailed-notes/delhi-sultanate-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7392,
+    "size": 25952,
     "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate/notes"
    }
   ]
@@ -13780,7 +13780,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/marathas-vijayanagara/detailed-notes/marathas-vijayanagara-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6910,
+    "size": 25397,
     "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara/notes"
    }
   ]
