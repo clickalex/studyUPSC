@@ -24,7 +24,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10326,
+  "size": 25257,
   "nav": "essay/essay-frameworks/notes"
  },
  {
@@ -519,7 +519,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10310,
+  "size": 26801,
   "nav": "gs-1/modern-history/revolt-1857/notes"
  },
  {
@@ -1185,7 +1185,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes/attitude.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10701,
+  "size": 27088,
   "nav": "gs-4/attitude/notes"
  },
  {
@@ -1410,7 +1410,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10336,
+  "size": 27540,
   "nav": "gs-4/governance-probity-case-studies/notes"
  },
  {
@@ -4875,7 +4875,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes/revolt-1857-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6445,
+  "size": 22936,
   "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/notes"
  },
  {
@@ -6190,7 +6190,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-frameworks/detailed-notes/essay-writing.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10326,
+    "size": 25257,
     "nav": "essay/essay-frameworks/notes"
    }
   ]
@@ -7030,7 +7030,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/detailed-notes/revolt-1857.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10310,
+    "size": 26801,
     "nav": "gs-1/modern-history/revolt-1857/notes"
    }
   ]
@@ -8140,7 +8140,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/attitude/detailed-notes/attitude.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10701,
+    "size": 27088,
     "nav": "gs-4/attitude/notes"
    }
   ]
@@ -8515,7 +8515,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/governance-probity-case-studies/detailed-notes/governance-probity-case-studies.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10336,
+    "size": 27540,
     "nav": "gs-4/governance-probity-case-studies/notes"
    }
   ]
@@ -14275,7 +14275,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/revolt-1857/detailed-notes/revolt-1857-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6445,
+    "size": 22936,
     "nav": "prelims-gs1/history-culture/modern-history/revolt-1857/notes"
    }
   ]
