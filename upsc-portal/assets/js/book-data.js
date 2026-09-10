@@ -3,8 +3,8 @@ window.BOOK_DATA = {
  "title": "The Complete UPSC Civil Services Book",
  "lessons": 126,
  "chapters": 52,
- "words": 465835,
- "pages": 1165,
+ "words": 474395,
+ "pages": 1186,
  "parts": [
   {
    "no": 1,
@@ -1855,7 +1855,7 @@ window.BOOK_DATA = {
        "tag": "",
        "nav": "gs-4/ethics-human-interface",
        "page": 990,
-       "words": 1450,
+       "words": 3516,
        "sections": [
         "notes",
         "short",
@@ -1876,7 +1876,7 @@ window.BOOK_DATA = {
        "title": "Attitude: content, structure, influence & moral attitudes",
        "tag": "",
        "nav": "gs-4/attitude",
-       "page": 994,
+       "page": 999,
        "words": 1989,
        "sections": [
         "notes",
@@ -1898,7 +1898,7 @@ window.BOOK_DATA = {
        "title": "Aptitude & Foundational Values: integrity, impartiality, non-partisanship",
        "tag": "",
        "nav": "gs-4/aptitude-foundations",
-       "page": 999,
+       "page": 1004,
        "words": 1731,
        "sections": [
         "notes",
@@ -1920,7 +1920,7 @@ window.BOOK_DATA = {
        "title": "Emotional Intelligence: concepts, utilities & application",
        "tag": "",
        "nav": "gs-4/emotional-intelligence",
-       "page": 1003,
+       "page": 1008,
        "words": 3522,
        "sections": [
         "notes",
@@ -1942,8 +1942,8 @@ window.BOOK_DATA = {
        "title": "Moral Thinkers & Philosophers (Indian & Western)",
        "tag": "",
        "nav": "gs-4/moral-thinkers",
-       "page": 1012,
-       "words": 1486,
+       "page": 1017,
+       "words": 3708,
        "sections": [
         "notes",
         "short",
@@ -1964,8 +1964,8 @@ window.BOOK_DATA = {
        "title": "Public/Civil Service Values & Ethics in Public Administration",
        "tag": "",
        "nav": "gs-4/public-service-values",
-       "page": 1016,
-       "words": 1535,
+       "page": 1026,
+       "words": 3655,
        "sections": [
         "notes",
         "short",
@@ -1986,7 +1986,7 @@ window.BOOK_DATA = {
        "title": "Probity in Governance: RTI, corruption, citizens’ charters",
        "tag": "",
        "nav": "gs-4/probity-governance",
-       "page": 1020,
+       "page": 1035,
        "words": 1531,
        "sections": [
         "notes",
@@ -2008,7 +2008,7 @@ window.BOOK_DATA = {
        "title": "Case Studies (classroom & exam case analysis)",
        "tag": "",
        "nav": "gs-4/case-studies",
-       "page": 1024,
+       "page": 1039,
        "words": 1631,
        "sections": [
         "notes",
@@ -2042,7 +2042,7 @@ window.BOOK_DATA = {
        "title": "Essay Frameworks: Introduction, Body & Conclusion Structures",
        "tag": "",
        "nav": "essay/essay-frameworks",
-       "page": 1028,
+       "page": 1043,
        "words": 2073,
        "sections": [
         "notes",
@@ -2064,7 +2064,7 @@ window.BOOK_DATA = {
        "title": "Topic Bank: Society, Polity, Economy, Environment, Science, Ethics",
        "tag": "",
        "nav": "essay/essay-topics",
-       "page": 1033,
+       "page": 1048,
        "words": 1609,
        "sections": [
         "notes",
@@ -2086,7 +2086,7 @@ window.BOOK_DATA = {
        "title": "Quotes & Thinkers for Essays",
        "tag": "",
        "nav": "essay/essay-quotes",
-       "page": 1037,
+       "page": 1052,
        "words": 1723,
        "sections": [
         "notes",
@@ -2108,7 +2108,7 @@ window.BOOK_DATA = {
        "title": "Toppers’ Essay Analysis",
        "tag": "",
        "nav": "essay/essay-toppers",
-       "page": 1041,
+       "page": 1056,
        "words": 1314,
        "sections": [
         "notes",
@@ -2142,7 +2142,7 @@ window.BOOK_DATA = {
        "title": "Sociology",
        "tag": "",
        "nav": "optional-subjects/optional-sociology",
-       "page": 1044,
+       "page": 1059,
        "words": 3588,
        "sections": [
         "notes",
@@ -2164,7 +2164,7 @@ window.BOOK_DATA = {
        "title": "Public Administration",
        "tag": "",
        "nav": "optional-subjects/optional-public-administration",
-       "page": 1053,
+       "page": 1068,
        "words": 1655,
        "sections": [
         "notes",
@@ -2186,8 +2186,8 @@ window.BOOK_DATA = {
        "title": "History",
        "tag": "",
        "nav": "optional-subjects/optional-history",
-       "page": 1057,
-       "words": 1644,
+       "page": 1072,
+       "words": 3796,
        "sections": [
         "notes",
         "short",
@@ -2208,7 +2208,7 @@ window.BOOK_DATA = {
        "title": "Geography",
        "tag": "",
        "nav": "optional-subjects/optional-geography",
-       "page": 1061,
+       "page": 1081,
        "words": 4008,
        "sections": [
         "notes",
@@ -2230,7 +2230,7 @@ window.BOOK_DATA = {
        "title": "Political Science & IR",
        "tag": "",
        "nav": "optional-subjects/optional-polity",
-       "page": 1071,
+       "page": 1091,
        "words": 3826,
        "sections": [
         "notes",
@@ -2252,7 +2252,7 @@ window.BOOK_DATA = {
        "title": "Philosophy",
        "tag": "",
        "nav": "optional-subjects/optional-philosophy",
-       "page": 1081,
+       "page": 1101,
        "words": 3744,
        "sections": [
         "notes",
@@ -2274,7 +2274,7 @@ window.BOOK_DATA = {
        "title": "Anthropology",
        "tag": "",
        "nav": "optional-subjects/optional-anthropology",
-       "page": 1090,
+       "page": 1110,
        "words": 3560,
        "sections": [
         "notes",
@@ -2296,7 +2296,7 @@ window.BOOK_DATA = {
        "title": "Economics",
        "tag": "",
        "nav": "optional-subjects/optional-economics",
-       "page": 1099,
+       "page": 1119,
        "words": 1671,
        "sections": [
         "notes",
@@ -2318,7 +2318,7 @@ window.BOOK_DATA = {
        "title": "Psychology",
        "tag": "",
        "nav": "optional-subjects/optional-psychology",
-       "page": 1103,
+       "page": 1123,
        "words": 3492,
        "sections": [
         "notes",
@@ -2352,7 +2352,7 @@ window.BOOK_DATA = {
        "title": "GS I — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-1-practice",
-       "page": 1112,
+       "page": 1132,
        "words": 5484,
        "sections": [
         "notes",
@@ -2374,7 +2374,7 @@ window.BOOK_DATA = {
        "title": "GS II — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-2-practice",
-       "page": 1126,
+       "page": 1146,
        "words": 5675,
        "sections": [
         "notes",
@@ -2396,7 +2396,7 @@ window.BOOK_DATA = {
        "title": "GS III — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-3-practice",
-       "page": 1140,
+       "page": 1160,
        "words": 5360,
        "sections": [
         "notes",
@@ -2418,7 +2418,7 @@ window.BOOK_DATA = {
        "title": "GS IV — theory questions + case studies with model approaches",
        "tag": "",
        "nav": "mains-practice/gs-4-practice",
-       "page": 1153,
+       "page": 1173,
        "words": 6408,
        "sections": [
         "notes",
@@ -2440,7 +2440,7 @@ window.BOOK_DATA = {
        "title": "Essay — practice topics with outlines",
        "tag": "",
        "nav": "mains-practice/essay-practice",
-       "page": 1169,
+       "page": 1189,
        "words": 3887,
        "sections": [
         "notes",

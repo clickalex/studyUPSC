@@ -1365,7 +1365,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes/ethics-human-interface.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7118,
+  "size": 23794,
   "nav": "gs-4/ethics-human-interface/notes"
  },
  {
@@ -1455,7 +1455,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes/moral-thinkers.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7880,
+  "size": 25436,
   "nav": "gs-4/moral-thinkers/notes"
  },
  {
@@ -1545,7 +1545,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes/public-service-values.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7643,
+  "size": 24390,
   "nav": "gs-4/public-service-values/notes"
  },
  {
@@ -1752,7 +1752,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-history/detailed-notes/history-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7597,
+  "size": 26817,
   "nav": "optional-subjects/optional-history/notes"
  },
  {
@@ -8440,7 +8440,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-human-interface/detailed-notes/ethics-human-interface.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7118,
+    "size": 23794,
     "nav": "gs-4/ethics-human-interface/notes"
    }
   ]
@@ -8590,7 +8590,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/moral-thinkers/detailed-notes/moral-thinkers.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7880,
+    "size": 25436,
     "nav": "gs-4/moral-thinkers/notes"
    }
   ]
@@ -8740,7 +8740,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/public-service-values/detailed-notes/public-service-values.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7643,
+    "size": 24390,
     "nav": "gs-4/public-service-values/notes"
    }
   ]
@@ -9070,7 +9070,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-history/detailed-notes/history-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7597,
+    "size": 26817,
     "nav": "optional-subjects/optional-history/notes"
    }
   ]
