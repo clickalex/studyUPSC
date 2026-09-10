@@ -564,7 +564,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21429,
+  "size": 28764,
   "nav": "gs-1/modern-history/socio-religious-reforms/notes"
  },
  {
@@ -762,7 +762,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.html",
   "kind": "doc",
   "ext": "html",
-  "size": 19560,
+  "size": 27603,
   "nav": "gs-2/governance-administration/notes"
  },
  {
@@ -861,7 +861,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20281,
+  "size": 28779,
   "nav": "gs-2/social-justice/notes"
  },
  {
@@ -996,7 +996,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17782,
+  "size": 24935,
   "nav": "gs-3/indian-economy/notes"
  },
  {
@@ -4929,7 +4929,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6822,
+  "size": 14157,
   "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/notes"
  },
  {
@@ -7105,7 +7105,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21429,
+    "size": 28764,
     "nav": "gs-1/modern-history/socio-religious-reforms/notes"
    }
   ]
@@ -7435,7 +7435,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/governance-administration/detailed-notes/parliament-executive-judiciary.html",
     "kind": "doc",
     "ext": "html",
-    "size": 19560,
+    "size": 27603,
     "nav": "gs-2/governance-administration/notes"
    }
   ]
@@ -7585,7 +7585,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/social-justice/detailed-notes/social-justice-welfare.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20281,
+    "size": 28779,
     "nav": "gs-2/social-justice/notes"
    }
   ]
@@ -7825,7 +7825,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/indian-economy/detailed-notes/indian-economy.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17782,
+    "size": 24935,
     "nav": "gs-3/indian-economy/notes"
    }
   ]
@@ -14365,7 +14365,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/socio-religious-reforms/detailed-notes/socio-religious-reforms-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6822,
+    "size": 14157,
     "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms/notes"
    }
   ]
