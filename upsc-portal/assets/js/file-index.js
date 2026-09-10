@@ -1230,7 +1230,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes/case-studies.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8158,
+  "size": 26096,
   "nav": "gs-4/case-studies/notes"
  },
  {
@@ -1500,7 +1500,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes/probity-governance.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8082,
+  "size": 25106,
   "nav": "gs-4/probity-governance/notes"
  },
  {
@@ -1599,7 +1599,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8089,
+  "size": 24222,
   "nav": "optional-subjects/notes"
  },
  {
@@ -4623,7 +4623,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes/mughal-empire-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7797,
+  "size": 26312,
   "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/notes"
  },
  {
@@ -8215,7 +8215,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/case-studies/detailed-notes/case-studies.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8158,
+    "size": 26096,
     "nav": "gs-4/case-studies/notes"
    }
   ]
@@ -8665,7 +8665,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/probity-governance/detailed-notes/probity-governance.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8082,
+    "size": 25106,
     "nav": "gs-4/probity-governance/notes"
    }
   ]
@@ -8815,7 +8815,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/detailed-notes/choosing-an-optional.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8089,
+    "size": 24222,
     "nav": "optional-subjects/notes"
    }
   ]
@@ -13855,7 +13855,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/mughal-empire/detailed-notes/mughal-empire-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7797,
+    "size": 26312,
     "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire/notes"
    }
   ]
