@@ -294,7 +294,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10997,
+  "size": 26055,
   "nav": "gs-1/indian-society/notes"
  },
  {
@@ -1050,7 +1050,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.html",
   "kind": "doc",
   "ext": "html",
-  "size": 11499,
+  "size": 27589,
   "nav": "gs-3/science-technology/notes"
  },
  {
@@ -1095,7 +1095,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12787,
+  "size": 30047,
   "nav": "gs-3/security-disaster/notes"
  },
  {
@@ -1320,7 +1320,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.html",
   "kind": "doc",
   "ext": "html",
-  "size": 12888,
+  "size": 28541,
   "nav": "gs-4/ethics-foundations/notes"
  },
  {
@@ -6655,7 +6655,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-society/detailed-notes/indian-society.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10997,
+    "size": 26055,
     "nav": "gs-1/indian-society/notes"
    }
   ]
@@ -7900,7 +7900,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/science-technology/detailed-notes/science-technology.html",
     "kind": "doc",
     "ext": "html",
-    "size": 11499,
+    "size": 27589,
     "nav": "gs-3/science-technology/notes"
    }
   ]
@@ -7975,7 +7975,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/security-disaster/detailed-notes/security-disaster.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12787,
+    "size": 30047,
     "nav": "gs-3/security-disaster/notes"
    }
   ]
@@ -8365,7 +8365,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.html",
     "kind": "doc",
     "ext": "html",
-    "size": 12888,
+    "size": 28541,
     "nav": "gs-4/ethics-foundations/notes"
    }
   ]
