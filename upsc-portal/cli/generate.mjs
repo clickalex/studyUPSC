@@ -20,6 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { niceLabel } from './names.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = path.join(ROOT, 'content');
@@ -183,9 +184,9 @@ function htmlTitle(raw) {
 }
 
 /* Article body = the <div class="card"> wrapper the generator emits,
-   minus the page header/footer chrome. */
+   minus the page header/footer chrome (site nav uses classed footers). */
 function htmlArticle(raw) {
-  const card = raw.match(/<div class="card">([\s\S]*?)\s*<\/div>\s*<footer>/i);
+  const card = raw.match(/<div class="card">([\s\S]*?)\s*<\/div>\s*<footer(?:\s[^>]*)?>/i);
   if (card) return card[1];
   const body = raw.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   return body ? body[1] : raw;
@@ -255,21 +256,47 @@ function buildCatalog(entries) {
     if (!byDir.has(d.dir)) byDir.set(d.dir, []);
     byDir.get(d.dir).push(d);
   }
-  const dirs = [...byDir.keys()].sort((a, b) => a.localeCompare(b));
 
-  let body = `<h1 id="content-library">Content Library</h1><p>${docs.length} documents · styled, self-contained HTML pages (read inline in the portal or print directly).</p>`;
-  for (const dir of dirs) {
-    const id = slugify(dir.replace(/\//g, '-'));
-    const label = dir === 'content' ? 'content' : dir.replace(/^content\//, '');
-    body += `<h2 id="${esc(id)}">${esc(label)}</h2><ul>\n`;
-    for (const d of byDir.get(dir)) {
-      let title = '';
-      try { title = htmlTitle(fs.readFileSync(d.rel, 'utf8')); } catch { /* ignore */ }
-      if (!title) title = d.file.replace(/\.html$/i, '').replace(/[-_]/g, ' ');
-      body += `<li><a href="${esc(d.rel.replace(/^content\//, ''))}">${esc(title)}</a></li>\n`;
+  /* Build a nested directory tree so every folder gets its own anchor
+     (e.g. content-prelims-gs1-economy) that breadcrumbs and the homepage
+     can deep-link into. Files stay in <li><a href="...html"> form. */
+  const root = { name: 'content', children: new Map(), files: [] };
+  for (const dir of byDir.keys()) {
+    const parts = dir.split('/').filter(Boolean); // first segment is always 'content'
+    let node = root;
+    for (const p of parts.slice(1)) {
+      if (!node.children.has(p)) node.children.set(p, { name: p, children: new Map(), files: [] });
+      node = node.children.get(p);
     }
-    body += `</ul>\n`;
+    node.files = byDir.get(dir) || [];
   }
+
+  const anchorOf = (parts) => 'content-' + parts.join('-'); // 'content/prelims/gs1' -> content-prelims-gs1
+
+  function render(node, parts, depth) {
+    let html = '';
+    if (node.files.length) {
+      html += `<ul>\n`;
+      for (const d of node.files) {
+        let title = '';
+        try { title = htmlTitle(fs.readFileSync(d.rel, 'utf8')); } catch { /* ignore */ }
+        if (!title) title = d.file.replace(/\.html$/i, '').replace(/[-_]/g, ' ');
+        html += `<li><a href="${esc(d.rel.replace(/^content\//, ''))}">${esc(title)}</a></li>\n`;
+      }
+      html += `</ul>\n`;
+    }
+    const kids = [...node.children.values()].sort((a, b) => a.name.localeCompare(b.name));
+    for (const k of kids) {
+      const kParts = parts.concat(k.name);
+      const h = depth <= 1 ? 'h2' : depth === 2 ? 'h3' : 'h4';
+      html += `<${h} id="${esc(anchorOf(kParts))}" class="dir-head">${esc(niceLabel(k.name))}</${h}>\n`;
+      html += render(k, kParts, depth + 1);
+    }
+    return html;
+  }
+
+  let body = `<h1 id="content-library">Content Library</h1><p>${docs.length} documents · styled, self-contained HTML pages — open any page directly, or use the headings below to browse the syllabus.</p>`;
+  body += render(root, [], 0);
 
   const CSS = `:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#f59e0b;--bg:#f8fafc;--card:#fff}
 *{box-sizing:border-box}
@@ -279,11 +306,16 @@ header{border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:24px;bac
 header .wrap{padding:0 20px;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
 .brand{font-weight:800;font-size:18px}
 .brand span{color:var(--accent)}
+a.brand{color:var(--ink);text-decoration:none}
+a.brand:hover{color:#b45309}
 .crumb{font-size:12px;color:var(--sub)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 34px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
 h1{font-size:26px;line-height:1.25;margin:.2em 0 .5em}
 h2{font-size:20px;margin:1.4em 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.25em}
 h3{font-size:17px;margin:1.2em 0 .4em}
+.dir-head{margin:1.3em 0 .4em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+h3.dir-head{font-size:16px;border-bottom:1px dashed var(--line)}
+h4.dir-head{font-size:14px;color:var(--sub);border-bottom:none;margin:1em 0 .2em}
 a{color:#b45309;text-decoration:none}a:hover{text-decoration:underline}
 ul,ol{padding-left:1.5em}
 li{margin:.25em 0}
@@ -302,7 +334,7 @@ ${CSS}
 </style>
 </head>
 <body>
-<header><div class="wrap"><div class="brand">study<span>UPSC</span></div><div class="crumb">content library catalog</div><div class="crumb no-print" style="margin-left:auto"><a href="../index.html">📚 Portal home</a></div></div></header>
+<header><div class="wrap"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · ${docs.length} documents</div><div class="crumb no-print" style="margin-left:auto"><a href="../book/index.html">📖 Book edition</a> · <a href="../index.html">🏠 Home</a></div></div></header>
 <div class="wrap"><div class="card">
 ${body}</div>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>

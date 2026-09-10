@@ -1,136 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>studyUPSC — UPSC Civil Services Exam Preparation Portal</title>
-  <meta name="description" content="Interactive UPSC CSE (IAS/IPS) preparation portal: full Prelims & Mains syllabus, notes, revision, PYQs, diagrams, revision tracker and instant search. Deploys free on GitHub Pages.">
-  <link id="favicon-progress" rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
-
-  <!-- Tailwind CSS (CDN). For a fully offline build, vendor Tailwind locally and swap the CDN script. -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
-            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
-            display: ['Sora', 'Inter', 'system-ui', 'sans-serif']
-          },
-          boxShadow: {
-            card: '0 1px 2px rgba(15,23,42,.05), 0 8px 24px -12px rgba(15,23,42,.12)',
-            lift: '0 4px 8px rgba(15,23,42,.06), 0 16px 40px -16px rgba(79,70,229,.25)'
-          }
-        }
-      }
-    };
-  </script>
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- Data (syllabus tree + generated file/search indexes) -->
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/file-index.js"></script>
-  <script src="assets/js/search-data.js"></script>
-  <script src="assets/js/book-data.js"></script>
-  <script defer src="assets/js/app.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>studyUPSC — UPSC CSE Preparation Website</title>
+<meta name="description" content="UPSC Civil Services Exam study website: full Prelims & Mains syllabus as plain HTML pages — notes, revision, diagrams and PYQs. No app, no login.">
+<style>
+:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#f59e0b;--indigo:#4f46e5;--bg:#f8fafc;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+a{color:#b45309;text-decoration:none}
+a:hover{text-decoration:underline}
+/* top nav */
+.site-head{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.site-head .wrap{display:flex;align-items:center;gap:18px;height:60px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:18px;color:var(--ink)}
+.brand span{color:var(--accent)}
+.topnav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+.topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px}
+.topnav a:hover{color:var(--indigo);background:#eef2ff}
+/* hero */
+.hero{position:relative;overflow:hidden;border-radius:22px;margin:28px 0 20px;padding:46px 38px;color:#fff;
+  background:radial-gradient(1200px 500px at 85% -10%,rgba(129,140,248,.55),transparent 60%),
+             radial-gradient(900px 420px at -10% 110%,rgba(245,158,11,.35),transparent 55%),
+             linear-gradient(135deg,#0f172a,#1e1b4b)}
+.hero .eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#fbbf24;margin:0 0 12px}
+.hero h1{margin:0 0 14px;font-size:34px;line-height:1.15;font-weight:800}
+.hero h1 span{background:linear-gradient(90deg,#a5b4fc,#f59e0b);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{max-width:640px;color:#cbd5e1;font-size:16px;margin:0 0 22px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:11px 18px;border-radius:12px;border:1px solid rgba(255,255,255,.25);color:#e2e8f0}
+.btn:hover{text-decoration:none;border-color:#fff}
+.btn.primary{background:#f59e0b;color:#1c1917;border-color:#f59e0b}
+.btn.primary:hover{background:#fbbf24}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:20px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.stat b{display:block;font-size:26px;font-weight:800;color:var(--indigo)}
+.stat span{display:block;font-size:13px;font-weight:700;color:var(--ink);margin-top:2px}
+.stat em{display:block;font-size:12px;color:#94a3b8;font-style:normal}
+/* directory */
+h2.title{font-size:22px;font-weight:800;margin:34px 0 4px}
+p.title-sub{color:var(--sub);margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:8px}
+.area{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.area h3{margin:0 0 8px;font-size:16px;display:flex;align-items:center;gap:8px}
+.area h3 .count{margin-left:auto;font-size:12px;color:var(--sub);background:#f1f5f9;border-radius:999px;padding:2px 9px;font-weight:700}
+.area .ic{font-size:18px}
+.area-link{color:var(--ink)}
+.area-link:hover{color:var(--indigo);text-decoration:none}
+.topics{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.topics li{font-size:13px}
+.topics a{display:inline-flex;align-items:center;gap:5px;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.topics a:hover{border-color:var(--indigo);color:var(--indigo);background:#eef2ff;text-decoration:none}
+.topics .n{color:#94a3b8;font-size:11px}
+/* book banner */
+.book{display:flex;gap:20px;align-items:center;margin:20px 0 34px;border:1px solid #fde68a;border-radius:18px;padding:20px 24px;
+  background:linear-gradient(135deg,#fffbeb,#fff)}
+.book h3{margin:0 0 4px;font-size:19px}
+.book p{margin:0;color:var(--sub);font-size:14px}
+.book .btn{margin-left:auto;color:#b45309;border-color:#f59e0b}
+.book .btn:hover{background:#fffbeb}
+.site-foot{border-top:1px solid var(--line);margin-top:20px;background:#fff}
+.site-foot .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:22px 20px;font-size:13px;color:var(--sub)}
+.site-foot nav{display:flex;gap:14px;flex-wrap:wrap}
+@media print{.site-head,.cta,.site-foot,.topics a{display:none}}
+</style>
 </head>
-
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 antialiased">
-  <a href="#app" class="skip-link">Skip to main content</a>
-
-  <!-- reading progress (document view) -->
-  <div id="doc-progress" class="fixed top-0 left-0 right-0 h-[3px] z-[80] pointer-events-none opacity-0 transition-opacity">
-    <div class="h-full w-0 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>
-  </div>
-
-  <!-- Mobile overlay -->
-  <div id="sidebar-overlay" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-30 hidden lg:hidden" aria-hidden="true"></div>
-
-  <!-- ===================== SIDEBAR ===================== -->
-  <aside id="sidebar" role="navigation" aria-label="Primary syllabus navigation"
-         class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800
-                flex flex-col -translate-x-full lg:translate-x-0 transition-transform duration-200">
-  </aside>
-
-  <!-- ===================== MAIN ===================== -->
-  <div class="lg:pl-72 flex flex-col min-h-screen">
-
-    <!-- Topbar -->
-    <header class="sticky top-0 z-20 bg-white/85 dark:bg-slate-950/85 backdrop-blur-md border-b border-slate-200 dark:border-slate-800" role="banner">
-      <div class="h-[3px] bg-gradient-to-r from-indigo-600 via-violet-500 to-amber-400" aria-hidden="true"></div>
-      <nav class="flex items-center gap-3 px-4 sm:px-6 h-16" aria-label="Top navigation">
-        <button id="sidebar-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidebar"
-                class="lg:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
-          </svg>
-        </button>
-
-        <a href="#/" class="flex items-center gap-2.5 group" aria-label="Go to home dashboard">
-          <span class="brand-tile" aria-hidden="true">SU</span>
-          <span class="font-display font-extrabold text-lg tracking-tight text-slate-900 dark:text-white">
-            study<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-violet-500">UPSC</span>
-          </span>
-        </a>
-        <span class="hidden sm:inline text-[10px] font-bold uppercase tracking-[0.14em] text-slate-400 border border-slate-200 dark:border-slate-700 rounded-full px-2.5 py-1" aria-hidden="true">
-          CSE · IAS · IPS · IFS
-        </span>
-
-        <div class="flex-1" aria-hidden="true"></div>
-
-        <button onclick="openSearch()" class="hidden md:flex items-center gap-2 text-[13px] text-slate-500 dark:text-slate-400 bg-slate-100/80 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl px-3.5 py-2 hover:border-indigo-400 dark:hover:border-indigo-500 transition-colors w-64 shadow-sm focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none" aria-label="Open global search (Ctrl+K)">
-          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/></svg>
-          <span class="flex-1 text-left truncate">Search syllabus, notes, PYQs…</span>
-          <kbd class="kbd" aria-hidden="true">Ctrl K</kbd>
-        </button>
-        <button onclick="openSearch()" class="md:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500" aria-label="Search">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/>
-          </svg>
-        </button>
-        <a href="book/index.html" id="nav-book" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-amber-600 dark:text-amber-400 hover:text-amber-500 rounded-xl px-2.5 py-2 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-amber-400" title="Read the whole syllabus as one book" aria-label="Open book edition">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.5V20M12 6.5C10.5 5 8.5 4.3 4 4.5v13c4.5-.2 6.5.5 8 2 1.5-1.5 3.5-2.2 8-2v-13c-4.5-.2-6.5.5-8 2z"/></svg>
-          Book
-        </a>
-        <a href="#/tracker" id="nav-tracker" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 rounded-xl px-2.5 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500" title="Revision tracker" aria-label="Open revision tracker">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.5 11 14.5 15 10.5M12 3a9 9 0 1 0 0.0001 0z"/></svg>
-          Tracker
-        </a>
-        <button id="theme-toggle" class="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none" aria-label="Toggle dark mode"></button>
-      </nav>
-    </header>
-
-    <!-- Page content -->
-    <main id="app" class="flex-1" tabindex="-1" role="main" aria-label="Main content"></main>
-
-    <footer class="border-t border-slate-200 dark:border-slate-800 mt-12 bg-white/60 dark:bg-slate-900/40" role="contentinfo">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-3">
-        <span class="flex items-center gap-2"><span class="brand-tile brand-tile-sm" aria-hidden="true"></span> studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
-        <nav class="flex items-center gap-3" aria-label="Footer navigation">
-          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="book/index.html">Book</a> ·
-          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="#/tracker">Tracker</a> ·
-          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="#/search">Search</a> ·
-          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="https://github.com/clickalex/studyUPSC" target="_blank" rel="noopener">GitHub</a>
-        </nav>
-      </div>
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-4 text-[11px] text-slate-400">Progress is stored locally in your browser. No data leaves your device.</div>
-    </footer>
-  </div>
-
-  <noscript>
-    <div style="padding:1rem;text-align:center;font-family:sans-serif">
-      studyUPSC needs JavaScript for navigation, search and the revision tracker. Please enable it.
-      <br><a href="content/index.html">Browse the content library directly</a> or <a href="book/index.html">read the complete book</a>.
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="./">study<span>UPSC</span></a>
+  <nav class="topnav" aria-label="Primary">
+    <a href="./">Home</a>
+    <a href="content/index.html#content-prelims">Prelims</a>
+    <a href="content/index.html#content-mains">Mains</a>
+    <a href="book/index.html">Book</a>
+    <a href="content/index.html">All files</a>
+    <a href="app.html">Search &amp; Tracker</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Civil Services Examination · IAS · IPS · IFS</p>
+    <h1>Your complete UPSC <span>CSE</span> study website</h1>
+    <p class="lead">The full Prelims &amp; Mains syllabus as plain HTML pages — detailed notes, revision sheets, mindmaps, diagrams and PYQs. Every page opens directly. No app, no login, works offline.</p>
+    <div class="cta">
+      <a class="btn primary" href="content/index.html">📚 Browse all files</a>
+      <a class="btn" href="book/index.html">Read as a book 📖</a>
     </div>
-  </noscript>
+  </section>
+
+  <section class="stats" aria-label="Site statistics"><div class="stat"><b>555</b><span>HTML study pages</span><em>notes · revision · PYQs · diagrams</em></div><div class="stat"><b>354</b><span>Prelims pages</span><em>GS Paper I · CSAT · mocks</em></div><div class="stat"><b>200</b><span>Mains pages</span><em>GS I–IV · essay · optional</em></div><div class="stat"><b>126</b><span>Book lessons</span><em>one continuous read</em></div></section>
+
+  <h2 class="title">Browse the syllabus</h2>
+  <p class="title-sub">Every section below links straight to that part of the content library.</p>
+  <section class="grid"><article class="area">
+      <h3><a class="area-link" href="content/index.html#content-prelims-gs1"><span class="ic">📋</span>GS Paper I</a><span class="count">319</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-gs1-economy">Economy</a><span class="n">55</span></li><li><a href="content/index.html#content-prelims-gs1-environment-ecology">Environment Ecology</a><span class="n">33</span></li><li><a href="content/index.html#content-prelims-gs1-geography">Geography</a><span class="n">57</span></li><li><a href="content/index.html#content-prelims-gs1-history-culture">History Culture</a><span class="n">84</span></li><li><a href="content/index.html#content-prelims-gs1-polity-governance">Polity Governance</a><span class="n">66</span></li><li><a href="content/index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="n">24</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-prelims-csat"><span class="ic">🧮</span>CSAT</a><span class="count">18</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-csat-comprehension">Comprehension</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-decision-making">Decision Making</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-numeracy">Numeracy</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-pyqs">PYQs</a><span class="n">1</span></li><li><a href="content/index.html#content-prelims-csat-short-notes">Short Notes</a><span class="n">1</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-prelims-mocks"><span class="ic">📝</span>Mock Tests &amp; PYQs</a><span class="count">17</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-mocks-csat-mock">CSAT Mock</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-mocks-full-length">Full Length</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-mocks-sectional-tests">Sectional Tests</a><span class="n">9</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-essay-frameworks"><span class="ic">✍️</span>Essay</a><span class="count">16</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-essay-frameworks-essay-frameworks">Essay</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-quotes">Essay Quotes</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-topics">Essay Topics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-toppers">Essay Toppers</a><span class="n">4</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-gs-1-heritage-geography-society"><span class="ic">🌏</span>GS I — Heritage, Geography &amp; Society</a><span class="count">46</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-geography-world-india">Geography World India</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-heritage-culture">Indian Heritage Culture</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="n">24</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="n">5</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-world-history">World History</a><span class="n">4</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-gs-2-polity-governance-ir"><span class="ic">⚖️</span>GS II — Polity, Governance &amp; IR</a><span class="count">17</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-constitution-polity">Constitution Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-governance-administration">Governance Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-social-justice">Social Justice</a><span class="n">4</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-gs-3-economy-tech-environment"><span class="ic">🏭</span>GS III — Economy, Technology &amp; Environment</a><span class="count">21</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-agriculture-food">Agriculture Food</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-indian-economy">Indian Economy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-science-technology">Science Technology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-security-disaster">Security Disaster</a><span class="n">4</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude"><span class="ic">🕊️</span>GS IV — Ethics, Integrity &amp; Aptitude</a><span class="count">41</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-aptitude-foundations">Aptitude Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-attitude">Attitude</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-case-studies">Case Studies</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-emotional-intelligence">Emotional Intelligence</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-human-interface">Ethics Human Interface</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-moral-thinkers">Moral Thinkers</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-probity-governance">Probity Governance</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-public-service-values">Public Service Values</a><span class="n">4</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-optional-subjects"><span class="ic">📚</span>Optional Subjects</a><span class="count">39</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-optional-subjects-bullet-points">Bullet Points</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-detailed-notes">Detailed Notes</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-anthropology">Optional Anthropology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-economics">Optional Economics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-geography">Optional Geography</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-history">Optional History</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-philosophy">Optional Philosophy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-polity">Optional Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-public-administration">Optional Public Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-sociology">Optional Sociology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-pyqs">PYQs</a><span class="n">1</span></li></ul>
+    </article>
+<article class="area">
+      <h3><a class="area-link" href="content/index.html#content-mains-practice"><span class="ic">🖋️</span>Practice</a><span class="count">20</span></h3>
+      <ul class="topics"><li><a href="content/index.html#content-mains-practice-essay-practice">Essay Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-1-practice">GS 1 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-2-practice">GS 2 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-3-practice">GS 3 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-4-practice">GS 4 Practice</a><span class="n">4</span></li></ul>
+    </article></section>
+
+  <a class="book" href="book/index.html">
+    <div>
+      <h3>📖 The complete book edition</h3>
+      <p>All 126 lessons woven into one continuous read — detailed study, revision digest, mindmaps, diagrams and PYQs per lesson.</p>
+    </div>
+    <span class="btn">Open the book →</span>
+  </a>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <span>studyUPSC — free, static, offline-friendly UPSC CSE preparation website.</span>
+  <nav aria-label="Footer">
+    <a href="./">Home</a>
+    <a href="content/index.html">All files</a>
+    <a href="book/index.html">Book</a>
+    <a href="app.html">Search &amp; Tracker</a>
+    <a href="https://github.com/clickalex/studyUPSC" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</div></footer>
 </body>
 </html>
