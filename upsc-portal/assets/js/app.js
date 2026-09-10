@@ -48,18 +48,61 @@
   }
 
   /* ---------- router ---------- */
+  function safeDecode(s) { try { return decodeURIComponent(s); } catch (e) { return s; } }
+  function normalizeNav(nav) {
+    if (!nav) return '';
+    nav = String(nav).trim().replace(/^\/+|\/+$/g, '').replace(/\/+/g, '/');
+    return safeDecode(nav);
+  }
   function parseHash() {
-    var h = location.hash.replace(/^#/, '') || '/';
-    if (h.indexOf('/paper/') === 0) return { page: 'paper', nav: decodeURIComponent(h.slice(7)) };
-    if (h.indexOf('/topic/') === 0) return { page: 'topic', nav: decodeURIComponent(h.slice(7)) };
-    if (h.indexOf('/doc/') === 0) return { page: 'doc', rel: decodeURIComponent(h.slice(5)) };
-    if (h.indexOf('/tracker') === 0) return { page: 'tracker' };
-    if (h.indexOf('/search') === 0) return { page: 'search' };
+    var raw = (location.hash || '').trim();
+    if (!raw || raw === '#') return { page: 'home' };
+    var h = raw.replace(/^#\/?/, '');
+    if (!h) return { page: 'home' };
+    // Remove trailing slash for routing (but preserve query string slash handling)
+    // Split off query before slash logic for search/tracker
+    var qIdx = h.indexOf('?');
+    var hNoQ = qIdx === -1 ? h : h.slice(0, qIdx);
+    var queryPart = qIdx === -1 ? '' : h.slice(qIdx);
+    if (hNoQ.length > 1 && hNoQ.charAt(hNoQ.length - 1) === '/') hNoQ = hNoQ.replace(/\/+$/, '');
+    var slash = hNoQ.indexOf('/');
+    var first = slash === -1 ? hNoQ : hNoQ.slice(0, slash);
+    var rest = slash === -1 ? '' : hNoQ.slice(slash + 1);
+    // rest may be encodeURIComponent-encoded (e.g. doc rel contains slashes encoded)
+    if (first === 'paper' && rest) return { page: 'paper', nav: normalizeNav(safeDecode(rest)) };
+    if (first === 'topic' && rest) {
+      var dec = safeDecode(rest);
+      var secIdx = dec.indexOf('/section/');
+      if (secIdx !== -1) return { page: 'topic', nav: normalizeNav(dec.slice(0, secIdx)), section: dec.slice(secIdx + 9) };
+      return { page: 'topic', nav: normalizeNav(dec) };
+    }
+    if (first === 'doc' && rest) {
+      // For doc, the rel may have been in hNoQ without query; but doc rel never has query
+      return { page: 'doc', rel: safeDecode(rest) };
+    }
+    if (first === 'tracker') return { page: 'tracker' };
+    if (first === 'search') {
+      var q = '';
+      var m = raw.match(/[?&]q=([^&#]*)/);
+      if (m) q = safeDecode(m[1].replace(/\+/g, ' '));
+      // also handle rest as q if provided as /search/<term> fallback
+      if (!q && rest) q = safeDecode(rest);
+      return { page: 'search', q: q };
+    }
+    if (first === '' ) return { page: 'home' };
     return { page: 'home' };
   }
   function go(hash) {
-    if (location.hash === hash) render();
-    else location.hash = hash;
+    var h = String(hash || '');
+    if (h.charAt(0) !== '#') h = '#/' + h.replace(/^\/+/, '');
+    if (location.hash === h) { render(); }
+    else location.hash = h;
+  }
+  function navHref(kind, nav) {
+    // kind: 'paper' | 'topic' | 'doc'
+    if (kind === 'doc') return '#/doc/' + encodeURIComponent(nav);
+    if (kind === 'paper') return '#/paper/' + encodeURIComponent(nav);
+    return '#/topic/' + encodeURIComponent(nav);
   }
 
   /* ---------- syllabus lookup ---------- */
@@ -182,32 +225,46 @@
       : '<span class="w-3.5 shrink-0 text-[10px] text-slate-400">•</span>';
   }
 
+  function syncTopNavActive(cur) {
+    try {
+      var tb = document.getElementById('nav-tracker');
+      var bb = document.getElementById('nav-book');
+      if (tb) { if (cur && cur.page === 'tracker') tb.setAttribute('aria-current','page'); else tb.removeAttribute('aria-current'); }
+      if (bb) bb.removeAttribute('aria-current');
+      // sidebar toggle aria
+      var sb = document.getElementById('sidebar-toggle');
+      if (sb) sb.setAttribute('aria-expanded', document.body.classList.contains('sidebar-open') ? 'true' : 'false');
+    } catch(e){}
+  }
   function renderSidebar() {
     var box = $('#sidebar');
     if (!box) return;
     var html = '';
     var o = overallProgress();
+    var cur = parseHash();
+    var curNav = cur.nav || '';
     html += '<div class="px-4 pt-5 pb-3 flex items-center gap-3">' +
-      '<span class="brand-tile" style="width:40px;height:40px;font-size:15px">SU</span>' +
+      '<span class="brand-tile" style="width:40px;height:40px;font-size:15px" aria-hidden="true">SU</span>' +
       '<div><div class="font-display font-extrabold text-slate-900 dark:text-white leading-tight">studyUPSC</div>' +
       '<div class="text-[11px] text-slate-500 dark:text-slate-400">UPSC CSE Prep Portal</div></div></div>';
-    html += '<div class="mx-4 mb-3 rounded-2xl border border-slate-200 dark:border-slate-800 bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950/40 dark:to-slate-900 p-3">' +
+    html += '<div class="mx-4 mb-3 rounded-2xl border border-slate-200 dark:border-slate-800 bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950/40 dark:to-slate-900 p-3" role="status" aria-live="polite">' +
       '<div class="flex items-center justify-between text-[11px] font-semibold text-slate-500 dark:text-slate-400"><span>Overall syllabus</span>' +
       '<span class="font-bold ' + (o.pct === 100 ? 'text-emerald-500' : 'text-indigo-600 dark:text-indigo-400') + '">' + o.pct + '%</span></div>' +
-      '<div class="mt-1.5">' + progressBar(o.pct, o.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' +
+      '<div class="mt-1.5" aria-hidden="true">' + progressBar(o.pct, o.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' +
       '<div class="mt-1.5 text-[10.5px] text-slate-400">' + o.done + ' of ' + o.total + ' topics done</div></div>';
 
-    html += '<nav class="flex-1 overflow-y-auto px-2 pb-4" id="sidebar-tree">';
+    html += '<nav class="flex-1 overflow-y-auto px-2 pb-4" id="sidebar-tree" role="tree" aria-label="Syllabus">';
     DATA.papers.forEach(function (paper) {
       var pr = paperProgress(paper);
       var open = expanded['p:' + paper.id];
-      html += '<div class="mt-1">';
-      html += '<div class="flex items-center gap-1 rounded-lg px-2 py-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none" data-expand="p:' + paper.id + '">' +
-        '<span class="chev ' + (open ? 'rotate-90' : '') + '">' + treeIcon(paper) + '</span>' +
-        '<span class="flex-1 truncate text-[13px] font-semibold text-slate-800 dark:text-slate-200">' + esc(paper.title) + '</span>' +
+      var paperActive = curNav === paper.nav || curNav.indexOf(paper.nav + '/') === 0;
+      html += '<div class="mt-1" role="treeitem" aria-expanded="' + (open ? 'true' : 'false') + '">';
+      html += '<div class="flex items-center gap-1 rounded-lg px-2 py-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none ' + (paperActive ? 'nav-active' : '') + '" data-expand="p:' + paper.id + '" role="button" tabindex="0" aria-expanded="' + (open ? 'true' : 'false') + '" aria-controls="paper-' + esc(paper.id) + '">' +
+        '<span class="chev ' + (open ? 'rotate-90' : '') + '" aria-hidden="true">' + treeIcon(paper) + '</span>' +
+        '<a href="' + navHref('paper', paper.nav) + '" class="flex-1 truncate text-[13px] font-semibold text-slate-800 dark:text-slate-200 focus-visible:outline-none" data-nav="' + esc(paper.nav) + '" ' + (cur.page === 'paper' && curNav === paper.nav ? 'aria-current="page"' : '') + '>' + esc(paper.title) + '</a>' +
         '<span class="text-[10px] font-bold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-indigo-600 dark:text-indigo-400') + '">' + pr.pct + '%</span></div>';
-      html += '<div class="ml-3 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '">';
-      html += renderTreeLevel(paper.sub || [], 0);
+      html += '<div id="paper-' + esc(paper.id) + '" class="ml-3 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '" role="group">';
+      html += renderTreeLevel(paper.sub || [], 0, curNav, cur.page);
       html += '</div></div>';
     });
     html += '</nav>';
@@ -216,34 +273,40 @@
     html += '<div class="border-t border-slate-200 dark:border-slate-700 px-4 py-2">' +
       '<div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Content Library</div>' +
       '<div id="file-tree" class="text-[12px]"></div></div>';
-    html += '<div class="border-t border-slate-200 dark:border-slate-700 p-3 text-[11px] text-slate-500 dark:text-slate-400 space-y-1">' +
-      '<a class="block hover:text-indigo-500" href="#/tracker">✅ Revision Tracker</a>' +
-      '<a class="block hover:text-indigo-500" href="#/search">🔍 Global Search</a>' +
-      '<a class="block hover:text-indigo-500" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></div>';
+    html += '<nav class="border-t border-slate-200 dark:border-slate-700 p-3 text-[11px] text-slate-500 dark:text-slate-400 space-y-1" aria-label="Utility navigation">' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'tracker' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/tracker" ' + (cur.page === 'tracker' ? 'aria-current="page"' : '') + '>✅ Revision Tracker</a>' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'search' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/search" ' + (cur.page === 'search' ? 'aria-current="page"' : '') + '>🔍 Global Search</a>' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></nav>';
 
     box.innerHTML = html;
     renderFileTree();
   }
 
-  function renderTreeLevel(nodes, depth) {
+  function renderTreeLevel(nodes, depth, curNav, curPage) {
+    curNav = curNav || '';
+    curPage = curPage || '';
     var html = '';
     nodes.forEach(function (n) {
       var isL = isLeaf(n);
       var pr = nodeProgress(n);
       var open = expanded['n:' + n.nav];
-      var href = isL ? '#/topic/' + encodeURIComponent(n.nav) : '#/paper/' + encodeURIComponent(n.nav);
-      html += '<div class="mt-0.5">';
+      // Auto-open ancestors of current route
+      if (curNav && (curNav === n.nav || curNav.indexOf(n.nav + '/') === 0)) open = true;
+      var href = isL ? navHref('topic', n.nav) : navHref('paper', n.nav);
+      var isActive = curNav === n.nav;
+      var isAncestor = !isActive && curNav.indexOf(n.nav + '/') === 0;
+      html += '<div class="mt-0.5" role="treeitem" aria-expanded="' + (isL ? 'false' : (open ? 'true' : 'false')) + '">';
       if (isL) {
-        html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 group">' +
-          '<span class="chev opacity-0">•</span>' +
-          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
+        html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 group ' + (isActive ? 'nav-active' : '') + (isAncestor ? ' bg-indigo-50/40 dark:bg-indigo-950/20' : '') + '">' +
+          '<span class="chev opacity-0" aria-hidden="true">•</span>' +
+          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" title="' + esc(n.title) + '" data-nav="' + esc(n.nav) + '" ' + (isActive ? 'aria-current="page"' : '') + '>' + esc(n.title) + '</a>' +
           '<span class="opacity-0 group-hover:opacity-100 transition-opacity" title="Mark topic done">' + leafCheckbox(n.nav) + '</span></div>';
       } else {
-        html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer" data-expand="n:' + n.nav + '">' +
-          '<span class="chev ' + (open ? 'rotate-90' : '') + '">' + treeIcon(n) + '</span>' +
-          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400" title="' + esc(n.title) + '">' + esc(n.title) + '</a>' +
+        html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer ' + (isActive ? 'nav-active' : '') + (isAncestor ? ' bg-indigo-50/30 dark:bg-indigo-950/15' : '') + '" data-expand="n:' + n.nav + '" role="button" tabindex="0" aria-expanded="' + (open ? 'true' : 'false') + '">' +
+          '<span class="chev ' + (open ? 'rotate-90' : '') + '" aria-hidden="true">' + treeIcon(n) + '</span>' +
+          '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-indigo-500 rounded" title="' + esc(n.title) + '" data-nav="' + esc(n.nav) + '" ' + (isActive && curPage === 'paper' ? 'aria-current="page"' : '') + '>' + esc(n.title) + '</a>' +
           '<span class="text-[10px] font-semibold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-slate-400') + '">' + pr.pct + '%</span></div>';
-        html += '<div class="ml-2 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '">' + renderTreeLevel(n.sub, depth + 1) + '</div>';
+        html += '<div class="ml-2 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '" role="group">' + renderTreeLevel(n.sub, depth + 1, curNav, curPage) + '</div>';
       }
       html += '</div>';
     });
@@ -302,11 +365,13 @@
     opts = opts || {};
     var crumbs = opts.crumbs || [];
     var crumbHtml = '<nav class="flex items-center gap-1.5 text-[12px] text-slate-500 dark:text-slate-400 flex-wrap" aria-label="Breadcrumb">' +
-      '<a href="#/" class="hover:text-indigo-500 font-semibold">⌂ Home</a>';
+      '<a href="#/" class="hover:text-indigo-500 font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded">⌂ Home</a>';
     crumbs.forEach(function (c, i) {
-      crumbHtml += '<span class="text-slate-300 dark:text-slate-600">›</span>' + (i === crumbs.length - 1
-        ? '<span class="font-semibold text-slate-700 dark:text-slate-200">' + esc(c.title) + '</span>'
-        : '<a href="#/' + c.page + '/' + encodeURIComponent(c.nav) + '" class="hover:text-indigo-500">' + esc(c.title) + '</a>');
+      var isLast = i === crumbs.length - 1;
+      var href = c.nav ? navHref(c.page || 'topic', c.nav) : '#/';
+      crumbHtml += '<span class="text-slate-300 dark:text-slate-600" aria-hidden="true">›</span>' + (isLast
+        ? '<span class="font-semibold text-slate-700 dark:text-slate-200" aria-current="page">' + esc(c.title) + '</span>'
+        : '<a href="' + href + '" class="hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded">' + esc(c.title) + '</a>');
     });
     crumbHtml += '</nav>';
     return '<div class="max-w-6xl mx-auto px-4 sm:px-6 py-7">' +
@@ -441,8 +506,11 @@
   }
 
   function renderPaper(nav) {
+    nav = normalizeNav(nav);
     var node = NODE_BY_NAV[nav];
     if (!node) { renderNotFound(nav); return; }
+    // If leaf was requested via /paper, render as topic view for correctness
+    if (isLeaf(node)) { renderTopic(nav); return; }
     var pr = nodeProgress(node);
     var crumbs = crumbsFor(nav).map(function (c) { return { page: c.nav === node.nav ? 'paper' : 'topic', nav: c.nav, title: c.title }; });
     if (node.stage) crumbs = [];
@@ -511,7 +579,8 @@
   /* ------------------------------------------------------------------ */
   /*  Topic page                                                          */
   /* ------------------------------------------------------------------ */
-  function renderTopic(nav) {
+  function renderTopic(nav, section) {
+    nav = normalizeNav(nav);
     var node = NODE_BY_NAV[nav];
     if (!node) { renderNotFound(nav); return; }
     var pr = nodeProgress(node);
@@ -569,9 +638,13 @@
       html += renderFileGroups(node.nav, dirsUnder(node.nav), files);
     }
     $('#app').innerHTML = shell(html, { crumbs: crumbs });
-    $$('.section-card').forEach(function (el) {
+    $('.section-card').forEach(function (el) {
       el.addEventListener('click', function (e) { e.preventDefault(); openSection(node, el.dataset.section); });
     });
+    if (section) {
+      // Defer to allow DOM paint
+      setTimeout(function(){ openSection(node, section); }, 50);
+    }
   }
 
   /* open a section panel (modal listing that section's files) */
@@ -1011,7 +1084,7 @@
     return scored.slice(0, 60).map(function (s) { return s.e; });
   }
 
-  window.openSearch = function () {
+  window.openSearch = function (initialQ) {
     var wrap = document.createElement('div');
     wrap.id = 'search-modal';
     wrap.innerHTML =
@@ -1092,9 +1165,13 @@
       if (e.key === 'Escape') { close(); document.removeEventListener('keydown', escHandler); }
     });
     input.focus();
-    /* prefill from #/search?q= */
-    var m = location.hash.match(/\/search\?q=([^&]*)/);
-    if (m) { input.value = decodeURIComponent(m[1]); renderResults(input.value); }
+    /* prefill from param or #/search?q= */
+    var initial = typeof initialQ === 'string' ? initialQ : '';
+    if (!initial) {
+      var m = location.hash.match(/[?&]q=([^&#]*)/);
+      if (m) { try { initial = safeDecode(m[1].replace(/\+/g,' ')); } catch(e) { initial = m[1]; } }
+    }
+    if (initial) { input.value = initial; renderResults(initial); }
   }
 
   /* ------------------------------------------------------------------ */
@@ -1189,12 +1266,13 @@
       '<div class="text-5xl mb-3">🗺️</div>' +
       '<h1 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Nothing here yet</h1>' +
       '<p class="text-sm text-slate-500 dark:text-slate-400 mb-4">The ' + (kind === 'doc' ? 'document' : 'topic') + ' <code class="code">' + esc(nav) + '</code> is not in the syllabus tree.</p>' +
-      '<a href="#/" class="btn-primary inline-flex">← Back to dashboard</a></div>');
+      '<div class="flex justify-center gap-2 mt-2"><a href="#/" class="btn-primary inline-flex">← Back to dashboard</a> <button class="btn-ghost" onclick="openSearch()">Search</button></div></div>');
   }
 
-  function renderSearchPage() {
-    openSearch();
-    $('#app').innerHTML = shell('<div class="text-center py-20 text-slate-400 text-sm">Searching…</div>');
+  function renderSearchPage(q) {
+    if (q) window._searchQuery = q;
+    openSearch(q);
+    $('#app').innerHTML = shell('<div class="text-center py-20 text-slate-400 text-sm">Searching' + (q ? ' for “' + esc(q) + '”' : '') + '…</div>');
   }
 
   /* ------------------------------------------------------------------ */
@@ -1216,13 +1294,50 @@
     var app = $('#app');
     if (!app) return;
     window.scrollTo(0, 0);
+    // Expand sidebar to current route and sync active states
+    if (r.nav) expandTo(r.nav);
+    else if (r.rel) {
+      var e = entryByRel(r.rel);
+      if (e && e.nav) expandTo(e.nav);
+    }
+    syncTopNavActive(r);
+    // Always re-render sidebar so active + expanded states stay correct
+    // (cheap: sidebar is small DOM)
+    try { renderSidebar(); } catch(e2) {}
     if (r.page === 'home') renderHome();
     else if (r.page === 'paper') renderPaper(r.nav);
-    else if (r.page === 'topic') renderTopic(r.nav);
+    else if (r.page === 'topic') {
+      // Tolerate cross-routed links: if topic nav is actually a paper, render paper
+      var n = r.nav ? NODE_BY_NAV[r.nav] : null;
+      if (n && !isLeaf(n) && r.section == null) {
+        // Non-leaf requested via /topic -> render as paper for robustness
+        renderPaper(r.nav);
+      } else {
+        renderTopic(r.nav, r.section);
+      }
+    }
     else if (r.page === 'doc') renderDoc(r.rel);
     else if (r.page === 'tracker') renderTracker();
-    else if (r.page === 'search') renderSearchPage();
+    else if (r.page === 'search') renderSearchPage(r.q);
     else renderHome();
+    // Focus main for a11y, update document title, close mobile sidebar on nav
+    try {
+      var main = document.getElementById('app');
+      if (main) { main.focus({ preventScroll: true }); }
+    } catch(e3){}
+    updateDocumentTitle(r);
+    closeSidebar();
+  }
+  function updateDocumentTitle(r){
+    var base='studyUPSC — UPSC CSE Preparation';
+    try{
+      if(!r || r.page==='home') document.title=base;
+      else if(r.page==='tracker') document.title='Tracker · '+base;
+      else if(r.page==='search') document.title=(r.q? 'Search: '+r.q+' · ':'Search · ')+base;
+      else if(r.nav && NODE_BY_NAV[r.nav]) document.title=NODE_BY_NAV[r.nav].title+' · '+base;
+      else if(r.rel) document.title=(entryByRel(r.rel)?.file || r.rel)+' · '+base;
+      else document.title=base;
+    }catch(e){}
   }
 
   /* ------------------------------------------------------------------ */
@@ -1231,6 +1346,12 @@
   function init() {
     buildSearchIndex();
     applyTheme();
+    // Expand sidebar to initial route before first paint
+    try {
+      var initR = parseHash();
+      if (initR.nav) expandTo(initR.nav, true);
+      else if (initR.rel) { var ee=entryByRel(initR.rel); if(ee&&ee.nav) expandTo(ee.nav, true); }
+    } catch(e){}
     renderSidebar();
     render();
     updateFavicon();
@@ -1238,7 +1359,19 @@
     /* delegation: sidebar expand/chevrons + tracker checkboxes */
     document.addEventListener('click', function (e) {
       var expandEl = e.target.closest('[data-expand]');
-      if (expandEl) { setExpanded(expandEl.dataset.expand, !expanded[expandEl.dataset.expand]); return; }
+      if (expandEl) {
+        // If the click was on the anchor inside the expand row, don't also toggle
+        // when user intended to navigate — but toggling is still expected on row click
+        var isLink = e.target.closest('a[href]');
+        if (isLink && isLink.closest('[data-expand]') === expandEl) {
+          // Allow navigation, but also ensure the group expands
+          var k = expandEl.dataset.expand;
+          if (!expanded[k]) { expanded[k]=1; try{localStorage.setItem(EXPAND_KEY, JSON.stringify(expanded));}catch(e){} }
+          return;
+        }
+        setExpanded(expandEl.dataset.expand, !expanded[expandEl.dataset.expand]);
+        return;
+      }
       var cb = e.target.closest('.tracker-cb');
       if (cb) {
         e.preventDefault();
@@ -1247,6 +1380,14 @@
       }
       var mdInternal = e.target.closest('.md-internal');
       if (mdInternal) { e.preventDefault(); location.hash = '#/doc/' + encodeURIComponent(mdInternal.getAttribute('href')); }
+    });
+    // Keyboard: Enter/Space on expand rows
+    document.addEventListener('keydown', function(e){
+      var el = e.target.closest('[data-expand]');
+      if(el && (e.key==='Enter' || e.key===' ')){
+        e.preventDefault();
+        setExpanded(el.dataset.expand, !expanded[el.dataset.expand]);
+      }
     });
 
     /* mobile sidebar */
@@ -1265,14 +1406,13 @@
     document.addEventListener('keydown', function (e) {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }
       else if (e.key === '/' && !/input|textarea|select/i.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); }
+      else if (e.key === 'Escape' && document.body.classList.contains('sidebar-open')) { closeSidebar(); }
     });
-
-    /* initial hash -> sidebar sync */
-    var r = parseHash();
-    if (r.nav) expandTo(r.nav);
   }
 
-  function expandTo(nav) {
+  function expandTo(nav, silent) {
+    if (!nav) return;
+    nav = normalizeNav(nav);
     var parts = nav.split('/'), acc = [];
     parts.forEach(function (p) {
       acc.push(p);
@@ -1280,16 +1420,25 @@
       if (NODE_BY_NAV[acc.join('/')]) expanded[key] = 1;
     });
     /* expand the paper */
-    var paper = DATA.papers.find(function (p) { return nav.indexOf(p.nav + '/') === 0 || nav === p.nav; });
+    var paper = DATA.papers.find(function (p) { return nav === p.nav || nav.indexOf(p.nav + '/') === 0; });
     if (paper) expanded['p:' + paper.id] = 1;
-    var f = DATA.papers.find(function (p) { return nav.indexOf('content') === 0; });
-    renderSidebar();
+    // Also expand file tree ancestors if nav is file-like (content/...) — no-op for syllabus navs
+    if (!silent) {
+      try { localStorage.setItem(EXPAND_KEY, JSON.stringify(expanded)); } catch(e){}
+    }
   }
 
   function toggleSidebar() {
-    document.body.classList.toggle('sidebar-open');
+    var open = document.body.classList.toggle('sidebar-open');
+    var btn = document.getElementById('sidebar-toggle');
+    if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    try { localStorage.setItem('studyupsc-sidebar-open', open ? '1' : '0'); } catch(e){}
   }
-  function closeSidebar() { document.body.classList.remove('sidebar-open'); }
+  function closeSidebar() {
+    document.body.classList.remove('sidebar-open');
+    var btn = document.getElementById('sidebar-toggle');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
