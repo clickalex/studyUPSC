@@ -2031,7 +2031,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/essay-practice/detailed-notes/essay-practice-system.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6213,
+  "size": 19798,
   "nav": "mains-practice/essay-practice/notes"
  },
  {
@@ -2121,7 +2121,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-2-practice/detailed-notes/gs-2-practice-system.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6316,
+  "size": 25227,
   "nav": "mains-practice/gs-2-practice/notes"
  },
  {
@@ -2211,7 +2211,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-4-practice/detailed-notes/gs-4-practice-system.html",
   "kind": "doc",
   "ext": "html",
-  "size": 5882,
+  "size": 26579,
   "nav": "mains-practice/gs-4-practice/notes"
  },
  {
@@ -3300,7 +3300,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes/climate-change-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6241,
+  "size": 20278,
   "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/notes"
  },
  {
@@ -4245,7 +4245,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes/architecture-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6454,
+  "size": 32545,
   "nav": "prelims-gs1/history-culture/art-culture/architecture/notes"
  },
  {
@@ -4317,7 +4317,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9271,
+  "size": 9390,
   "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
  },
  {
@@ -4335,7 +4335,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes/music-dance-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6808,
+  "size": 33243,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/notes"
  },
  {
@@ -4362,7 +4362,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10048,
+  "size": 10082,
   "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
  },
  {
@@ -4533,7 +4533,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes/early-medieval-kingdoms-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6873,
+  "size": 27697,
   "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/notes"
  },
  {
@@ -5514,7 +5514,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
   "kind": "doc",
   "ext": "html",
-  "size": 31608,
+  "size": 31770,
   "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
  },
  {
@@ -5541,7 +5541,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes/executive-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6203,
+  "size": 23325,
   "nav": "prelims-gs1/polity-governance/organs-govt/executive/notes"
  },
  {
@@ -9535,7 +9535,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/essay-practice/detailed-notes/essay-practice-system.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6213,
+    "size": 19798,
     "nav": "mains-practice/essay-practice/notes"
    }
   ]
@@ -9685,7 +9685,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-2-practice/detailed-notes/gs-2-practice-system.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6316,
+    "size": 25227,
     "nav": "mains-practice/gs-2-practice/notes"
    }
   ]
@@ -9835,7 +9835,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-4-practice/detailed-notes/gs-4-practice-system.html",
     "kind": "doc",
     "ext": "html",
-    "size": 5882,
+    "size": 26579,
     "nav": "mains-practice/gs-4-practice/notes"
    }
   ]
@@ -11650,7 +11650,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/environment-ecology/environmental-issues/climate-change/detailed-notes/climate-change-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6241,
+    "size": 20278,
     "nav": "prelims-gs1/environment-ecology/environmental-issues/climate-change/notes"
    }
   ]
@@ -13225,7 +13225,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/architecture/detailed-notes/architecture-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6454,
+    "size": 32545,
     "nav": "prelims-gs1/history-culture/art-culture/architecture/notes"
    }
   ]
@@ -13345,7 +13345,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/fairs-festivals/short-notes/fairs-festivals-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9271,
+    "size": 9390,
     "nav": "prelims-gs1/history-culture/art-culture/fairs-festivals/short"
    }
   ]
@@ -13375,7 +13375,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/detailed-notes/music-dance-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6808,
+    "size": 33243,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/notes"
    }
   ]
@@ -13420,7 +13420,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/music-dance/short-notes/music-dance-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10048,
+    "size": 10082,
     "nav": "prelims-gs1/history-culture/art-culture/music-dance/short"
    }
   ]
@@ -13705,7 +13705,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/medieval-history/early-medieval-kingdoms/detailed-notes/early-medieval-kingdoms-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6873,
+    "size": 27697,
     "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms/notes"
    }
   ]
@@ -15340,7 +15340,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/international-relations/multilateral-forums/short-notes/multilateral-forums-notes.html",
     "kind": "doc",
     "ext": "html",
-    "size": 31608,
+    "size": 31770,
     "nav": "prelims-gs1/polity-governance/international-relations/multilateral-forums/short"
    }
   ]
@@ -15385,7 +15385,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/executive/detailed-notes/executive-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6203,
+    "size": 23325,
     "nav": "prelims-gs1/polity-governance/organs-govt/executive/notes"
    }
   ]
