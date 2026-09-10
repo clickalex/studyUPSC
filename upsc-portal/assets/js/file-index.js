@@ -114,7 +114,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9340,
+  "size": 25435,
   "nav": "essay/essay-topics/notes"
  },
  {
@@ -672,7 +672,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.html",
   "kind": "doc",
   "ext": "html",
-  "size": 10763,
+  "size": 28251,
   "nav": "gs-1/world-history/notes"
  },
  {
@@ -951,7 +951,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.html",
   "kind": "doc",
   "ext": "html",
-  "size": 9633,
+  "size": 25695,
   "nav": "gs-3/environment-biodiversity/notes"
  },
  {
@@ -1140,7 +1140,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes/aptitude-foundations.html",
   "kind": "doc",
   "ext": "html",
-  "size": 8814,
+  "size": 25362,
   "nav": "gs-4/aptitude-foundations/notes"
  },
  {
@@ -6340,7 +6340,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-topics/detailed-notes/topic-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9340,
+    "size": 25435,
     "nav": "essay/essay-topics/notes"
    }
   ]
@@ -7270,7 +7270,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/world-history/detailed-notes/world-history.html",
     "kind": "doc",
     "ext": "html",
-    "size": 10763,
+    "size": 28251,
     "nav": "gs-1/world-history/notes"
    }
   ]
@@ -7750,7 +7750,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/environment-biodiversity/detailed-notes/environment-biodiversity.html",
     "kind": "doc",
     "ext": "html",
-    "size": 9633,
+    "size": 25695,
     "nav": "gs-3/environment-biodiversity/notes"
    }
   ]
@@ -8065,7 +8065,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/aptitude-foundations/detailed-notes/aptitude-foundations.html",
     "kind": "doc",
     "ext": "html",
-    "size": 8814,
+    "size": 25362,
     "nav": "gs-4/aptitude-foundations/notes"
    }
   ]
