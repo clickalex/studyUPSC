@@ -69,7 +69,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7557,
+  "size": 24776,
   "nav": "essay/essay-quotes/notes"
  },
  {
@@ -159,7 +159,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7456,
+  "size": 23844,
   "nav": "essay/essay-toppers/notes"
  },
  {
@@ -1662,7 +1662,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-economics/detailed-notes/economics-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7789,
+  "size": 26998,
   "nav": "optional-subjects/optional-economics/notes"
  },
  {
@@ -1932,7 +1932,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-public-administration/detailed-notes/pub-ad-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7825,
+  "size": 27612,
   "nav": "optional-subjects/optional-public-administration/notes"
  },
  {
@@ -6265,7 +6265,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-quotes/detailed-notes/quote-bank.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7557,
+    "size": 24776,
     "nav": "essay/essay-quotes/notes"
    }
   ]
@@ -6415,7 +6415,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/essay-frameworks/essay-toppers/detailed-notes/toppers-analysis.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7456,
+    "size": 23844,
     "nav": "essay/essay-toppers/notes"
    }
   ]
@@ -8920,7 +8920,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-economics/detailed-notes/economics-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7789,
+    "size": 26998,
     "nav": "optional-subjects/optional-economics/notes"
    }
   ]
@@ -9370,7 +9370,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-public-administration/detailed-notes/pub-ad-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7825,
+    "size": 27612,
     "nav": "optional-subjects/optional-public-administration/notes"
    }
   ]

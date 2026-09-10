@@ -3,8 +3,8 @@ window.BOOK_DATA = {
  "title": "The Complete UPSC Civil Services Book",
  "lessons": 126,
  "chapters": 52,
- "words": 474395,
- "pages": 1186,
+ "words": 483192,
+ "pages": 1208,
  "parts": [
   {
    "no": 1,
@@ -2087,7 +2087,7 @@ window.BOOK_DATA = {
        "tag": "",
        "nav": "essay/essay-quotes",
        "page": 1052,
-       "words": 1723,
+       "words": 3899,
        "sections": [
         "notes",
         "short",
@@ -2108,8 +2108,8 @@ window.BOOK_DATA = {
        "title": "Toppers’ Essay Analysis",
        "tag": "",
        "nav": "essay/essay-toppers",
-       "page": 1056,
-       "words": 1314,
+       "page": 1062,
+       "words": 3523,
        "sections": [
         "notes",
         "short",
@@ -2142,7 +2142,7 @@ window.BOOK_DATA = {
        "title": "Sociology",
        "tag": "",
        "nav": "optional-subjects/optional-sociology",
-       "page": 1059,
+       "page": 1071,
        "words": 3588,
        "sections": [
         "notes",
@@ -2164,8 +2164,8 @@ window.BOOK_DATA = {
        "title": "Public Administration",
        "tag": "",
        "nav": "optional-subjects/optional-public-administration",
-       "page": 1068,
-       "words": 1655,
+       "page": 1080,
+       "words": 3866,
        "sections": [
         "notes",
         "short",
@@ -2186,7 +2186,7 @@ window.BOOK_DATA = {
        "title": "History",
        "tag": "",
        "nav": "optional-subjects/optional-history",
-       "page": 1072,
+       "page": 1090,
        "words": 3796,
        "sections": [
         "notes",
@@ -2208,7 +2208,7 @@ window.BOOK_DATA = {
        "title": "Geography",
        "tag": "",
        "nav": "optional-subjects/optional-geography",
-       "page": 1081,
+       "page": 1099,
        "words": 4008,
        "sections": [
         "notes",
@@ -2230,7 +2230,7 @@ window.BOOK_DATA = {
        "title": "Political Science & IR",
        "tag": "",
        "nav": "optional-subjects/optional-polity",
-       "page": 1091,
+       "page": 1109,
        "words": 3826,
        "sections": [
         "notes",
@@ -2252,7 +2252,7 @@ window.BOOK_DATA = {
        "title": "Philosophy",
        "tag": "",
        "nav": "optional-subjects/optional-philosophy",
-       "page": 1101,
+       "page": 1119,
        "words": 3744,
        "sections": [
         "notes",
@@ -2274,7 +2274,7 @@ window.BOOK_DATA = {
        "title": "Anthropology",
        "tag": "",
        "nav": "optional-subjects/optional-anthropology",
-       "page": 1110,
+       "page": 1128,
        "words": 3560,
        "sections": [
         "notes",
@@ -2296,8 +2296,8 @@ window.BOOK_DATA = {
        "title": "Economics",
        "tag": "",
        "nav": "optional-subjects/optional-economics",
-       "page": 1119,
-       "words": 1671,
+       "page": 1137,
+       "words": 3872,
        "sections": [
         "notes",
         "short",
@@ -2318,7 +2318,7 @@ window.BOOK_DATA = {
        "title": "Psychology",
        "tag": "",
        "nav": "optional-subjects/optional-psychology",
-       "page": 1123,
+       "page": 1147,
        "words": 3492,
        "sections": [
         "notes",
@@ -2352,7 +2352,7 @@ window.BOOK_DATA = {
        "title": "GS I — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-1-practice",
-       "page": 1132,
+       "page": 1156,
        "words": 5484,
        "sections": [
         "notes",
@@ -2374,7 +2374,7 @@ window.BOOK_DATA = {
        "title": "GS II — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-2-practice",
-       "page": 1146,
+       "page": 1170,
        "words": 5675,
        "sections": [
         "notes",
@@ -2396,7 +2396,7 @@ window.BOOK_DATA = {
        "title": "GS III — practice questions with answer frameworks",
        "tag": "",
        "nav": "mains-practice/gs-3-practice",
-       "page": 1160,
+       "page": 1184,
        "words": 5360,
        "sections": [
         "notes",
@@ -2418,7 +2418,7 @@ window.BOOK_DATA = {
        "title": "GS IV — theory questions + case studies with model approaches",
        "tag": "",
        "nav": "mains-practice/gs-4-practice",
-       "page": 1173,
+       "page": 1197,
        "words": 6408,
        "sections": [
         "notes",
@@ -2440,7 +2440,7 @@ window.BOOK_DATA = {
        "title": "Essay — practice topics with outlines",
        "tag": "",
        "nav": "mains-practice/essay-practice",
-       "page": 1189,
+       "page": 1213,
        "words": 3887,
        "sections": [
         "notes",
