@@ -1707,7 +1707,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-geography/detailed-notes/geography-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7239,
+  "size": 26725,
   "nav": "optional-subjects/optional-geography/notes"
  },
  {
@@ -4092,7 +4092,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes/post-mauryan-gupta-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7165,
+  "size": 25152,
   "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/notes"
  },
  {
@@ -5064,7 +5064,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes/fundamental-rights-dpsp-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6262,
+  "size": 24569,
   "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/notes"
  },
  {
@@ -5586,7 +5586,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes/judiciary-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6201,
+  "size": 24716,
   "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/notes"
  },
  {
@@ -8995,7 +8995,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-geography/detailed-notes/geography-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7239,
+    "size": 26725,
     "nav": "optional-subjects/optional-geography/notes"
    }
   ]
@@ -12970,7 +12970,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/post-mauryan-gupta/detailed-notes/post-mauryan-gupta-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7165,
+    "size": 25152,
     "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta/notes"
    }
   ]
@@ -14590,7 +14590,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/fundamental-rights-dpsp/detailed-notes/fundamental-rights-dpsp-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6262,
+    "size": 24569,
     "nav": "prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp/notes"
    }
   ]
@@ -15460,7 +15460,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/judiciary/detailed-notes/judiciary-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6201,
+    "size": 24716,
     "nav": "prelims-gs1/polity-governance/organs-govt/judiciary/notes"
    }
   ]
