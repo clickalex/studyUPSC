@@ -339,7 +339,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.html",
   "kind": "doc",
   "ext": "html",
-  "size": 20032,
+  "size": 27719,
   "nav": "gs-1/modern-history/constitutional-development/notes"
  },
  {
@@ -384,7 +384,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.html",
   "kind": "doc",
   "ext": "html",
-  "size": 22118,
+  "size": 29940,
   "nav": "gs-1/modern-history/east-india-company/notes"
  },
  {
@@ -609,7 +609,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21278,
+  "size": 29172,
   "nav": "gs-1/physical-geography/notes"
  },
  {
@@ -807,7 +807,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.html",
   "kind": "doc",
   "ext": "html",
-  "size": 21375,
+  "size": 29432,
   "nav": "gs-2/international-relations/notes"
  },
  {
@@ -4686,7 +4686,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes/constitutional-development-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7032,
+  "size": 14719,
   "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/notes"
  },
  {
@@ -4731,7 +4731,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes/east-india-company-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7031,
+  "size": 14853,
   "nav": "prelims-gs1/history-culture/modern-history/east-india-company/notes"
  },
  {
@@ -6730,7 +6730,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/constitutional-development/detailed-notes/constitutional-development.html",
     "kind": "doc",
     "ext": "html",
-    "size": 20032,
+    "size": 27719,
     "nav": "gs-1/modern-history/constitutional-development/notes"
    }
   ]
@@ -6805,7 +6805,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/east-india-company/detailed-notes/advent-of-europeans.html",
     "kind": "doc",
     "ext": "html",
-    "size": 22118,
+    "size": 29940,
     "nav": "gs-1/modern-history/east-india-company/notes"
    }
   ]
@@ -7195,7 +7195,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/physical-geography/detailed-notes/physical-geography.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21278,
+    "size": 29172,
     "nav": "gs-1/physical-geography/notes"
    }
   ]
@@ -7510,7 +7510,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/international-relations/detailed-notes/india-foreign-policy-ir.html",
     "kind": "doc",
     "ext": "html",
-    "size": 21375,
+    "size": 29432,
     "nav": "gs-2/international-relations/notes"
    }
   ]
@@ -13960,7 +13960,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/constitutional-development/detailed-notes/constitutional-development-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7032,
+    "size": 14719,
     "nav": "prelims-gs1/history-culture/modern-history/constitutional-development/notes"
    }
   ]
@@ -14035,7 +14035,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/east-india-company/detailed-notes/east-india-company-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7031,
+    "size": 14853,
     "nav": "prelims-gs1/history-culture/modern-history/east-india-company/notes"
    }
   ]
