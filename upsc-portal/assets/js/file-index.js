@@ -2076,7 +2076,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-1-practice/detailed-notes/gs-1-practice-system.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6369,
+  "size": 24418,
   "nav": "mains-practice/gs-1-practice/notes"
  },
  {
@@ -2166,7 +2166,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/practice/gs-3-practice/detailed-notes/gs-3-practice-system.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6588,
+  "size": 25292,
   "nav": "mains-practice/gs-3-practice/notes"
  },
  {
@@ -2697,7 +2697,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes/money-banking-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6001,
+  "size": 26756,
   "nav": "prelims-gs1/economy/macro-economy/money-banking/notes"
  },
  {
@@ -4380,7 +4380,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes/painting-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6852,
+  "size": 25098,
   "nav": "prelims-gs1/history-culture/art-culture/painting/notes"
  },
  {
@@ -9610,7 +9610,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-1-practice/detailed-notes/gs-1-practice-system.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6369,
+    "size": 24418,
     "nav": "mains-practice/gs-1-practice/notes"
    }
   ]
@@ -9760,7 +9760,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/practice/gs-3-practice/detailed-notes/gs-3-practice-system.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6588,
+    "size": 25292,
     "nav": "mains-practice/gs-3-practice/notes"
    }
   ]
@@ -10645,7 +10645,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/economy/macro-economy/money-banking/detailed-notes/money-banking-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6001,
+    "size": 26756,
     "nav": "prelims-gs1/economy/macro-economy/money-banking/notes"
    }
   ]
@@ -13450,7 +13450,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/painting/detailed-notes/painting-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6852,
+    "size": 25098,
     "nav": "prelims-gs1/history-culture/art-culture/painting/notes"
    }
   ]
