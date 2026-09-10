@@ -276,6 +276,7 @@
     html += '<nav class="border-t border-slate-200 dark:border-slate-700 p-3 text-[11px] text-slate-500 dark:text-slate-400 space-y-1" aria-label="Utility navigation">' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'tracker' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/tracker" ' + (cur.page === 'tracker' ? 'aria-current="page"' : '') + '>✅ Revision Tracker</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'search' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/search" ' + (cur.page === 'search' ? 'aria-current="page"' : '') + '>🔍 Global Search</a>' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" href="content/index.html" target="_blank" rel="noopener">📁 All HTML files (direct list)</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></nav>';
 
     box.innerHTML = html;
@@ -456,7 +457,8 @@
       '<li>Press <kbd class="kbd">Ctrl</kbd>+<kbd class="kbd">K</kbd> to search anywhere</li>' +
       '<li>Take the mock tests in the Prelims → Mocks section</li>' +
       '<li>Watch your tracker ring fill up</li></ol>' +
-      '<div class="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800"><a href="#/tracker" class="btn-primary w-full justify-center">Open Revision Tracker</a></div></div>';
+      '<div class="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800"><a href="#/tracker" class="btn-primary w-full justify-center">Open Revision Tracker</a></div>' +
+      '<a href="content/index.html" target="_blank" rel="noopener" class="mt-2.5 btn-ghost w-full justify-center">📁 Open every HTML file directly</a></div>';
     html += '</div>';
     $('#app').innerHTML = shell(html);
   }
@@ -673,13 +675,21 @@
     wrap.addEventListener('click', function (e) { if (e.target === wrap) close(); });
   }
 
+  /* Direct link to the original file (opens in a new tab, outside the SPA) */
+  function openRaw(rel, label) {
+    return '<a href="' + esc(rel) + '" target="_blank" rel="noopener" class="btn-ghost text-[12px] shrink-0" title="Open the original file directly in a new tab" aria-label="Open ' + esc(rel.split('/').pop()) + ' directly in a new tab">' + (label || 'Open file') + ' ↗</a>';
+  }
+
   function fileListHtml(files) {
     return '<ul class="divide-y divide-slate-100 dark:divide-slate-700">' + files.map(function (f) {
       var icon = f.kind === 'image' ? '🖼️' : f.kind === 'pdf' ? '📕' : '📄';
-      return '<li><a href="#/doc/' + encodeURIComponent(f.rel) + '" class="flex items-center gap-3 py-2.5 hover:bg-slate-50 dark:hover:bg-slate-700/40 rounded-lg px-2 -mx-2 group">' +
+      return '<li class="flex items-center gap-1 group">' +
+        '<a href="#/doc/' + encodeURIComponent(f.rel) + '" class="flex items-center gap-3 py-2.5 flex-1 min-w-0 hover:bg-slate-50 dark:hover:bg-slate-700/40 rounded-lg px-2 -mx-1">' +
         '<span>' + icon + '</span><span class="flex-1 min-w-0"><span class="block truncate text-sm font-medium text-slate-700 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">' + esc(f.file) + '</span>' +
         '<span class="block text-[11px] text-slate-400">' + esc(f.dir) + '</span></span>' +
-        '<span class="text-[11px] text-slate-400 whitespace-nowrap">' + fmtBytes(f.size) + '</span></a></li>';
+        '<span class="text-[11px] text-slate-400 whitespace-nowrap">' + fmtBytes(f.size) + '</span></a>' +
+        '<a href="' + esc(f.rel) + '" target="_blank" rel="noopener" title="Open this file directly in a new tab" aria-label="Open ' + esc(f.file) + ' directly in a new tab" class="shrink-0 px-2 py-1.5 rounded-lg text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-slate-800 opacity-60 group-hover:opacity-100 transition-all">↗</a>' +
+        '</li>';
     }).join('') + '</ul>';
   }
 
@@ -724,6 +734,7 @@
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
+        openRaw(rel, 'Open image') +
         '</div>' +
         '<img src="' + esc(imgSrc) + '" alt="' + esc(entry.file) + '" class="w-full rounded-xl border border-slate-200 dark:border-slate-700" onclick="openImageViewer(\'' + esc(rel.replace(/'/g, "\\'")) + '\')" style="cursor:zoom-in"></div>',
         { crumbs: crumbsForNavFromRel(entry) });
@@ -736,6 +747,7 @@
         '<div class="flex items-center justify-between flex-wrap gap-2 mb-3">' +
         '<div><h1 class="text-lg font-bold text-slate-900 dark:text-white">' + icon + ' ' + esc(entry.file) + '</h1>' +
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
+        openRaw(rel, 'Open PDF') +
         '</div>' +
         '<iframe src="' + esc(rel) + '" class="w-full h-[70vh] rounded-xl border border-slate-200 dark:border-slate-700" title="' + esc(entry.file) + '"></iframe></div>',
         { crumbs: crumbsForNavFromRel(entry) });
@@ -743,8 +755,8 @@
       return;
     }
 
-    /* HTML + text documents — rendered inline as pages of this site.
-       No "open raw" / "download" options: everything stays in the portal. */
+    /* HTML + text documents — rendered inline as pages of this site, with an
+       "Open HTML" button to view the original standalone file directly. */
     fetch(rel).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.text();
@@ -768,8 +780,11 @@
         '<div class="card shadow-card overflow-hidden">' +
         '<div class="relative px-5 sm:px-9 pt-6 pb-5 border-b border-slate-100 dark:border-slate-800">' +
         '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
-        '<h1 class="font-display text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-snug">' + esc(title) + '</h1>' +
+        '<div class="flex items-start justify-between gap-3 flex-wrap">' +
+        '<div class="min-w-0"><h1 class="font-display text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-snug">' + esc(title) + '</h1>' +
         '<p class="text-[11px] text-slate-400 mt-1.5 font-mono">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
+        openRaw(rel, entry.ext === 'html' || entry.ext === 'htm' ? 'Open HTML' : 'Open file') +
+        '</div></div>' +
         '<div class="md-content px-5 sm:px-9 py-7 max-w-none">' + body + '</div></div>' +
         prevNextHtml(entry) + '</div>' +
         (toc ? '<aside class="hidden lg:block"><div class="sticky top-24 card p-4 shadow-card toc-rail">' +

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>studyUPSC — Search &amp; Tracker (app)</title>
+  <meta name="description" content="Interactive UPSC CSE (IAS/IPS) preparation portal: full Prelims & Mains syllabus, notes, revision, PYQs, diagrams, revision tracker and instant search. Deploys free on GitHub Pages.">
+  <link id="favicon-progress" rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+
+  <!-- Tailwind CSS (CDN). For a fully offline build, vendor Tailwind locally and swap the CDN script. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            display: ['Sora', 'Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            card: '0 1px 2px rgba(15,23,42,.05), 0 8px 24px -12px rgba(15,23,42,.12)',
+            lift: '0 4px 8px rgba(15,23,42,.06), 0 16px 40px -16px rgba(79,70,229,.25)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Data (syllabus tree + generated file/search indexes) -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/file-index.js"></script>
+  <script src="assets/js/search-data.js"></script>
+  <script src="assets/js/book-data.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 antialiased">
+  <a href="#app" class="skip-link">Skip to main content</a>
+
+  <!-- reading progress (document view) -->
+  <div id="doc-progress" class="fixed top-0 left-0 right-0 h-[3px] z-[80] pointer-events-none opacity-0 transition-opacity">
+    <div class="h-full w-0 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>
+  </div>
+
+  <!-- Mobile overlay -->
+  <div id="sidebar-overlay" class="fixed inset-0 bg-slate-950/60 backdrop-blur-sm z-30 hidden lg:hidden" aria-hidden="true"></div>
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside id="sidebar" role="navigation" aria-label="Primary syllabus navigation"
+         class="fixed inset-y-0 left-0 z-40 w-72 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800
+                flex flex-col -translate-x-full lg:translate-x-0 transition-transform duration-200">
+  </aside>
+
+  <!-- ===================== MAIN ===================== -->
+  <div class="lg:pl-72 flex flex-col min-h-screen">
+
+    <!-- Topbar -->
+    <header class="sticky top-0 z-20 bg-white/85 dark:bg-slate-950/85 backdrop-blur-md border-b border-slate-200 dark:border-slate-800" role="banner">
+      <div class="h-[3px] bg-gradient-to-r from-indigo-600 via-violet-500 to-amber-400" aria-hidden="true"></div>
+      <nav class="flex items-center gap-3 px-4 sm:px-6 h-16" aria-label="Top navigation">
+        <button id="sidebar-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidebar"
+                class="lg:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+
+        <a href="#/" class="flex items-center gap-2.5 group" aria-label="Go to home dashboard">
+          <span class="brand-tile" aria-hidden="true">SU</span>
+          <span class="font-display font-extrabold text-lg tracking-tight text-slate-900 dark:text-white">
+            study<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-violet-500">UPSC</span>
+          </span>
+        </a>
+        <span class="hidden sm:inline text-[10px] font-bold uppercase tracking-[0.14em] text-slate-400 border border-slate-200 dark:border-slate-700 rounded-full px-2.5 py-1" aria-hidden="true">
+          CSE · IAS · IPS · IFS
+        </span>
+
+        <div class="flex-1" aria-hidden="true"></div>
+
+        <button onclick="openSearch()" class="hidden md:flex items-center gap-2 text-[13px] text-slate-500 dark:text-slate-400 bg-slate-100/80 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl px-3.5 py-2 hover:border-indigo-400 dark:hover:border-indigo-500 transition-colors w-64 shadow-sm focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none" aria-label="Open global search (Ctrl+K)">
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/></svg>
+          <span class="flex-1 text-left truncate">Search syllabus, notes, PYQs…</span>
+          <kbd class="kbd" aria-hidden="true">Ctrl K</kbd>
+        </button>
+        <button onclick="openSearch()" class="md:hidden p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500" aria-label="Search">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path stroke-linecap="round" d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+        <a href="book/index.html" id="nav-book" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-amber-600 dark:text-amber-400 hover:text-amber-500 rounded-xl px-2.5 py-2 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-amber-400" title="Read the whole syllabus as one book" aria-label="Open book edition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.5V20M12 6.5C10.5 5 8.5 4.3 4 4.5v13c4.5-.2 6.5.5 8 2 1.5-1.5 3.5-2.2 8-2v-13c-4.5-.2-6.5.5-8 2z"/></svg>
+          Book
+        </a>
+        <a href="#/tracker" id="nav-tracker" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 rounded-xl px-2.5 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500" title="Revision tracker" aria-label="Open revision tracker">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.5 11 14.5 15 10.5M12 3a9 9 0 1 0 0.0001 0z"/></svg>
+          Tracker
+        </a>
+        <a href="content/index.html" target="_blank" rel="noopener" id="nav-files" class="hidden sm:flex items-center gap-1.5 text-[12px] font-semibold text-slate-500 dark:text-slate-400 hover:text-indigo-500 dark:hover:text-indigo-400 rounded-xl px-2.5 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500" title="Browse every HTML file directly" aria-label="Open all HTML files list">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/></svg>
+          Files
+        </a>
+        <button id="theme-toggle" class="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:outline-none" aria-label="Toggle dark mode"></button>
+      </nav>
+    </header>
+
+    <!-- Page content -->
+    <main id="app" class="flex-1" tabindex="-1" role="main" aria-label="Main content"></main>
+
+    <footer class="border-t border-slate-200 dark:border-slate-800 mt-12 bg-white/60 dark:bg-slate-900/40" role="contentinfo">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 text-[12px] text-slate-400 flex flex-wrap items-center justify-between gap-3">
+        <span class="flex items-center gap-2"><span class="brand-tile brand-tile-sm" aria-hidden="true"></span> studyUPSC — free, static, offline-friendly UPSC CSE preparation portal.</span>
+        <nav class="flex items-center gap-3" aria-label="Footer navigation">
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="./">← Main website</a> ·
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="book/index.html">Book</a> ·
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="content/index.html" target="_blank" rel="noopener">Files</a> ·
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="#/tracker">Tracker</a> ·
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="#/search">Search</a> ·
+          <a class="hover:text-indigo-500 underline underline-offset-2 focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" href="https://github.com/clickalex/studyUPSC" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-4 text-[11px] text-slate-400">Progress is stored locally in your browser. No data leaves your device.</div>
+    </footer>
+  </div>
+
+  <noscript>
+    <div style="padding:1rem;text-align:center;font-family:sans-serif">
+      studyUPSC needs JavaScript for navigation, search and the revision tracker. Please enable it.
+      <br><a href="content/index.html">Browse the content library directly</a> or <a href="book/index.html">read the complete book</a>.
+    </div>
+  </noscript>
+</body>
+</html>
