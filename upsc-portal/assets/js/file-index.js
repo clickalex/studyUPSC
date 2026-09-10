@@ -204,7 +204,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.html",
   "kind": "doc",
   "ext": "html",
-  "size": 18309,
+  "size": 34578,
   "nav": "gs-1/geography-world-india/notes"
  },
  {
@@ -249,7 +249,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.html",
   "kind": "doc",
   "ext": "html",
-  "size": 14151,
+  "size": 29588,
   "nav": "gs-1/indian-heritage-culture/notes"
  },
  {
@@ -474,7 +474,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.html",
   "kind": "doc",
   "ext": "html",
-  "size": 17677,
+  "size": 33688,
   "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
  },
  {
@@ -906,7 +906,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.html",
   "kind": "doc",
   "ext": "html",
-  "size": 16433,
+  "size": 33389,
   "nav": "gs-3/agriculture-food/notes"
  },
  {
@@ -4821,7 +4821,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7420,
+  "size": 23431,
   "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/notes"
  },
  {
@@ -6505,7 +6505,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/geography-world-india/detailed-notes/geography-of-india-and-world.html",
     "kind": "doc",
     "ext": "html",
-    "size": 18309,
+    "size": 34578,
     "nav": "gs-1/geography-world-india/notes"
    }
   ]
@@ -6580,7 +6580,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/indian-heritage-culture/detailed-notes/indian-heritage-culture.html",
     "kind": "doc",
     "ext": "html",
-    "size": 14151,
+    "size": 29588,
     "nav": "gs-1/indian-heritage-culture/notes"
    }
   ]
@@ -6955,7 +6955,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919.html",
     "kind": "doc",
     "ext": "html",
-    "size": 17677,
+    "size": 33688,
     "nav": "gs-1/modern-history/national-movement-1885-1919/notes"
    }
   ]
@@ -7675,7 +7675,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-3-economy-tech-environment/agriculture-food/detailed-notes/agriculture-and-food-security.html",
     "kind": "doc",
     "ext": "html",
-    "size": 16433,
+    "size": 33389,
     "nav": "gs-3/agriculture-food/notes"
    }
   ]
@@ -14185,7 +14185,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/national-movement-1885-1919/detailed-notes/national-movement-1885-1919-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7420,
+    "size": 23431,
     "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919/notes"
    }
   ]
