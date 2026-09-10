@@ -1275,7 +1275,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes/emotional-intelligence.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6828,
+  "size": 23732,
   "nav": "gs-4/emotional-intelligence/notes"
  },
  {
@@ -1842,7 +1842,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-polity/detailed-notes/psir-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6838,
+  "size": 24276,
   "nav": "optional-subjects/optional-polity/notes"
  },
  {
@@ -4047,7 +4047,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes/mahajanapadas-mauryan-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6857,
+  "size": 23472,
   "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/notes"
  },
  {
@@ -4434,7 +4434,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes/scriptures-languages-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6924,
+  "size": 24353,
   "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/notes"
  },
  {
@@ -8290,7 +8290,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-4-ethics-integrity-aptitude/emotional-intelligence/detailed-notes/emotional-intelligence.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6828,
+    "size": 23732,
     "nav": "gs-4/emotional-intelligence/notes"
    }
   ]
@@ -9220,7 +9220,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-polity/detailed-notes/psir-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6838,
+    "size": 24276,
     "nav": "optional-subjects/optional-polity/notes"
    }
   ]
@@ -12895,7 +12895,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/ancient-history/mahajanapadas-mauryan/detailed-notes/mahajanapadas-mauryan-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6857,
+    "size": 23472,
     "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan/notes"
    }
   ]
@@ -13540,7 +13540,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/art-culture/scriptures-languages/detailed-notes/scriptures-languages-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6924,
+    "size": 24353,
     "nav": "prelims-gs1/history-culture/art-culture/scriptures-languages/notes"
    }
   ]
