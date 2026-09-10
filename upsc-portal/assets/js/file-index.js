@@ -429,7 +429,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.html",
   "kind": "doc",
   "ext": "html",
-  "size": 26758,
+  "size": 35357,
   "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
  },
  {
@@ -717,7 +717,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.html",
   "kind": "doc",
   "ext": "html",
-  "size": 28087,
+  "size": 37354,
   "nav": "gs-2/constitution-polity/notes"
  },
  {
@@ -4776,7 +4776,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6995,
+  "size": 15594,
   "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/notes"
  },
  {
@@ -6880,7 +6880,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-1-heritage-geography-society/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947.html",
     "kind": "doc",
     "ext": "html",
-    "size": 26758,
+    "size": 35357,
     "nav": "gs-1/modern-history/gandhian-era-1919-1947/notes"
    }
   ]
@@ -7360,7 +7360,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/gs-2-polity-governance-ir/constitution-polity/detailed-notes/constitution-of-india.html",
     "kind": "doc",
     "ext": "html",
-    "size": 28087,
+    "size": 37354,
     "nav": "gs-2/constitution-polity/notes"
    }
   ]
@@ -14110,7 +14110,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/history-culture/modern-history/gandhian-era-1919-1947/detailed-notes/gandhian-era-1919-1947-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6995,
+    "size": 15594,
     "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947/notes"
    }
   ]
