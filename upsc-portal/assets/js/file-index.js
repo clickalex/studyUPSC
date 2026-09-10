@@ -1797,7 +1797,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-philosophy/detailed-notes/philosophy-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 7194,
+  "size": 25489,
   "nav": "optional-subjects/optional-philosophy/notes"
  },
  {
@@ -1977,7 +1977,7 @@ window.CONTENT_INDEX = [
   "rel": "content/mains/optional-subjects/optional-sociology/detailed-notes/sociology-syllabus-map.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6985,
+  "size": 24594,
   "nav": "optional-subjects/optional-sociology/notes"
  },
  {
@@ -5109,7 +5109,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes/making-features-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6948,
+  "size": 24690,
   "nav": "prelims-gs1/polity-governance/constitution/making-features/notes"
  },
  {
@@ -5631,7 +5631,7 @@ window.CONTENT_INDEX = [
   "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes/parliament-detailed.html",
   "kind": "doc",
   "ext": "html",
-  "size": 6809,
+  "size": 24678,
   "nav": "prelims-gs1/polity-governance/organs-govt/parliament/notes"
  },
  {
@@ -9145,7 +9145,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-philosophy/detailed-notes/philosophy-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 7194,
+    "size": 25489,
     "nav": "optional-subjects/optional-philosophy/notes"
    }
   ]
@@ -9445,7 +9445,7 @@ window.CONTENT_DIRS = [
     "rel": "content/mains/optional-subjects/optional-sociology/detailed-notes/sociology-syllabus-map.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6985,
+    "size": 24594,
     "nav": "optional-subjects/optional-sociology/notes"
    }
   ]
@@ -14665,7 +14665,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/constitution/making-features/detailed-notes/making-features-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6948,
+    "size": 24690,
     "nav": "prelims-gs1/polity-governance/constitution/making-features/notes"
    }
   ]
@@ -15535,7 +15535,7 @@ window.CONTENT_DIRS = [
     "rel": "content/prelims/gs1/polity-governance/organs-govt/parliament/detailed-notes/parliament-detailed.html",
     "kind": "doc",
     "ext": "html",
-    "size": 6809,
+    "size": 24678,
     "nav": "prelims-gs1/polity-governance/organs-govt/parliament/notes"
    }
   ]
