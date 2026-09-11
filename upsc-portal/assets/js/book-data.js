@@ -22,171 +22,11 @@ window.BOOK_DATA = {
      "lessons": [
       {
        "number": "1.1.1",
-       "id": "prelims-gs1-east-india-company",
-       "title": "Advent of Europeans & East India Company (1757–1857)",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/east-india-company",
-       "page": 12,
-       "words": 2629,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.2",
-       "id": "prelims-gs1-revolt-1857",
-       "title": "Revolt of 1857 & Aftermath",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/revolt-1857",
-       "page": 19,
-       "words": 3511,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.3",
-       "id": "prelims-gs1-socio-religious-reforms",
-       "title": "Socio-Religious Reform Movements",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms",
-       "page": 28,
-       "words": 2552,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.4",
-       "id": "prelims-gs1-national-movement-1885-1919",
-       "title": "National Movement: Moderates, Extremists & Gandhian Era (1885–1919)",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919",
-       "page": 34,
-       "words": 3360,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.5",
-       "id": "prelims-gs1-gandhian-era-1919-1947",
-       "title": "Gandhian Era: Non-Cooperation to Quit India (1919–1947)",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947",
-       "page": 42,
-       "words": 2888,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.6",
-       "id": "prelims-gs1-constitutional-development",
-       "title": "Constitutional Development & Government of India Acts",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/modern-history/constitutional-development",
-       "page": 49,
-       "words": 2598,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.7",
-       "id": "prelims-gs1-early-medieval-kingdoms",
-       "title": "Rajput Kingdoms, Palas & Cholas",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms",
-       "page": 55,
-       "words": 4148,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.8",
-       "id": "prelims-gs1-delhi-sultanate",
-       "title": "Delhi Sultanate (1206–1526)",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate",
-       "page": 65,
-       "words": 3839,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.9",
-       "id": "prelims-gs1-mughal-empire",
-       "title": "Mughal Empire (1526–1707)",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire",
-       "page": 75,
-       "words": 3878,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.10",
-       "id": "prelims-gs1-marathas-vijayanagara",
-       "title": "Marathas, Vijayanagara & Bahmani Kingdoms",
-       "tag": "",
-       "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara",
-       "page": 85,
-       "words": 3832,
-       "sections": [
-        "notes",
-        "short",
-        "bullets",
-        "diagrams",
-        "pyqs"
-       ]
-      },
-      {
-       "number": "1.1.11",
        "id": "prelims-gs1-stone-bronze-age",
        "title": "Prehistory: Stone Age & Indus Valley Civilisation",
        "tag": "",
        "nav": "prelims-gs1/history-culture/ancient-history/stone-bronze-age",
-       "page": 95,
+       "page": 12,
        "words": 3233,
        "sections": [
         "notes",
@@ -197,12 +37,12 @@ window.BOOK_DATA = {
        ]
       },
       {
-       "number": "1.1.12",
+       "number": "1.1.2",
        "id": "prelims-gs1-vedic-age",
        "title": "Vedic Age & Later Vedic Period",
        "tag": "",
        "nav": "prelims-gs1/history-culture/ancient-history/vedic-age",
-       "page": 103,
+       "page": 20,
        "words": 2645,
        "sections": [
         "notes",
@@ -213,12 +53,12 @@ window.BOOK_DATA = {
        ]
       },
       {
-       "number": "1.1.13",
+       "number": "1.1.3",
        "id": "prelims-gs1-mahajanapadas-mauryan",
        "title": "Mahajanapadas, Buddhism, Jainism & Mauryan Empire",
        "tag": "",
        "nav": "prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan",
-       "page": 110,
+       "page": 27,
        "words": 4001,
        "sections": [
         "notes",
@@ -229,13 +69,173 @@ window.BOOK_DATA = {
        ]
       },
       {
-       "number": "1.1.14",
+       "number": "1.1.4",
        "id": "prelims-gs1-post-mauryan-gupta",
        "title": "Post-Mauryan & Gupta Empire",
        "tag": "",
        "nav": "prelims-gs1/history-culture/ancient-history/post-mauryan-gupta",
-       "page": 120,
+       "page": 37,
        "words": 3915,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.5",
+       "id": "prelims-gs1-early-medieval-kingdoms",
+       "title": "Rajput Kingdoms, Palas & Cholas",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms",
+       "page": 47,
+       "words": 4148,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.6",
+       "id": "prelims-gs1-delhi-sultanate",
+       "title": "Delhi Sultanate (1206–1526)",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/medieval-history/delhi-sultanate",
+       "page": 57,
+       "words": 3839,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.7",
+       "id": "prelims-gs1-mughal-empire",
+       "title": "Mughal Empire (1526–1707)",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/medieval-history/mughal-empire",
+       "page": 67,
+       "words": 3878,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.8",
+       "id": "prelims-gs1-marathas-vijayanagara",
+       "title": "Marathas, Vijayanagara & Bahmani Kingdoms",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/medieval-history/marathas-vijayanagara",
+       "page": 77,
+       "words": 3832,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.9",
+       "id": "prelims-gs1-east-india-company",
+       "title": "Advent of Europeans & East India Company (1757–1857)",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/east-india-company",
+       "page": 87,
+       "words": 2629,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.10",
+       "id": "prelims-gs1-revolt-1857",
+       "title": "Revolt of 1857 & Aftermath",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/revolt-1857",
+       "page": 94,
+       "words": 3511,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.11",
+       "id": "prelims-gs1-socio-religious-reforms",
+       "title": "Socio-Religious Reform Movements",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/socio-religious-reforms",
+       "page": 103,
+       "words": 2552,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.12",
+       "id": "prelims-gs1-national-movement-1885-1919",
+       "title": "National Movement: Moderates, Extremists & Gandhian Era (1885–1919)",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/national-movement-1885-1919",
+       "page": 109,
+       "words": 3360,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.13",
+       "id": "prelims-gs1-gandhian-era-1919-1947",
+       "title": "Gandhian Era: Non-Cooperation to Quit India (1919–1947)",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947",
+       "page": 117,
+       "words": 2888,
+       "sections": [
+        "notes",
+        "short",
+        "bullets",
+        "diagrams",
+        "pyqs"
+       ]
+      },
+      {
+       "number": "1.1.14",
+       "id": "prelims-gs1-constitutional-development",
+       "title": "Constitutional Development & Government of India Acts",
+       "tag": "",
+       "nav": "prelims-gs1/history-culture/modern-history/constitutional-development",
+       "page": 124,
+       "words": 2598,
        "sections": [
         "notes",
         "short",
