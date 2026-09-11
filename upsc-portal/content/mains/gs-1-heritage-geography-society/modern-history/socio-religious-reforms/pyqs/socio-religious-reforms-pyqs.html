@@ -36,75 +36,170 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span></nav>
-  <a class="nav-home no-print" href="../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="mhere">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/socio-religious-reforms.html">📖 Detailed</a><a href="../short-notes/socio-religious-reforms-revision.html">📝 Short notes</a><a href="../bullet-points/socio-religious-reforms-points.html">🔹 Points</a><a href="../diagrams/reformist-vs-revivalist.svg">🗺️ Diagrams</a><a href="socio-religious-reforms-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">☰ All</a><div class="menu-row"><a href="../bullet-points/socio-religious-reforms-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/socio-religious-reforms.html">📖 Detailed</a><a class="pill" href="../short-notes/socio-religious-reforms-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/socio-religious-reforms-points.html">🔹 Points</a><a class="pill" href="../diagrams/reformist-vs-revivalist.svg">🗺️ Diagrams</a><a class="pill" href="socio-religious-reforms-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">Socio Religious Reforms</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">PYQs</a><span class="mhere">Socio-Religious Reforms — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/socio-religious-reforms.html">📖 Detailed</a><a href="../short-notes/socio-religious-reforms-revision.html">📝 Short notes</a><a href="../bullet-points/socio-religious-reforms-points.html">🔹 Points</a><a href="../diagrams/reformist-vs-revivalist.svg">🗺️ Diagrams</a><a href="socio-religious-reforms-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">☰ All</a><div class="menu-row"><a href="../bullet-points/socio-religious-reforms-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/socio-religious-reforms.html">📖 Detailed</a><a class="pill" href="../short-notes/socio-religious-reforms-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/socio-religious-reforms-points.html">🔹 Points</a><a class="pill" href="../diagrams/reformist-vs-revivalist.svg">🗺️ Diagrams</a><a class="pill" href="socio-religious-reforms-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="socio-religious-reforms-pyqs-model-answers">Socio-Religious Reforms — PYQs &amp; Model Answers</h1>
+<h1 id="socio-religious-reforms-pyqs-model-answers">Socio-Religious Reforms — PYQs &amp; Model Answers</h1><div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h2 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h2>
-<p><strong>Q1. (2016)</strong> Which one of the following books is <strong>not</strong> associated with the socio-religious reforms of the 19th century? (a) Satyarth Prakash (b) Gulamgiri (c) Hind Swaraj (d) Tahzib-ul-Akhlaq</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — <em>Hind Swaraj</em> (1909) is <strong>Gandhi's</strong> political text. <em>Satyarth Prakash</em> (Dayananda), <em>Gulamgiri</em> (Phule) and <em>Tahzib-ul-Akhlaq</em> (Sir Syed) are all reform-era works.</p>
-<p><strong>Q2. (2020)</strong> Who among the following founded the <strong>Atmiya Sabha (1815)</strong>? (a) Debendranath Tagore (b) Raja Rammohan Roy (c) Keshab Chandra Sen (d) Ishwar Chandra Vidyasagar</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — Roy founded Atmiya Sabha in <strong>1815</strong>; it evolved into the <strong>Brahmo Samaj in 1828</strong>.</p>
-<p><strong>Q3. (2018)</strong> Which of the following pairs is/are correctly matched?</p>
-<ol><li>Brahmo Samaj — 1828</li><li>Arya Samaj — 1875</li><li>Ramakrishna Mission — 1897</li><li>Theosophical Society — 1882 (India HQ)</li></ol>
-<p>(a) 1 only (b) 1 and 2 only (c) 1, 2 and 3 only (d) All four</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — All four dates are correct.</p>
-<p><strong>Q4. (2019)</strong> Who wrote <em>Gulamgiri</em> (Slavery)? (a) B. R. Ambedkar (b) Jyotiba Phule (c) E. V. Ramasamy Naicker (d) Sri Narayana Guru</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — <strong>Jyotiba Phule (1873)</strong>; the radical anti-caste text argued that Brahmin supremacy was analogous to slavery.</p>
-<p><strong>Q5. (2022)</strong> With reference to <strong>Sir Syed Ahmad Khan</strong>, consider the following statements:</p>
-<ol><li>He founded the Mohammedan Anglo-Oriental College at Aligarh.</li><li>He argued that the Quran must be read through the lens of reason.</li><li>He advocated that Indian Muslims should join the Indian National Congress.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — Statement 3 is wrong: Sir Syed <em>advised against</em> joining Congress (Loyal Muhammadans of India, 1869).</p>
-<p><strong>Q6. (2015)</strong> Who founded the <strong>Arya Samaj</strong>? (a) Swami Vivekananda (b) Swami Dayananda Saraswati (c) Annie Besant (d) H. P. Blavatsky</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — Swami Dayananda Saraswati founded the Arya Samaj in <strong>1875</strong> (Bombay; stronghold later in Lahore).</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2016</span></div><p class="qa-text">Which one of the following books is <strong>not</strong> associated with the socio-religious reforms of the 19th century?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Satyarth Prakash</span></li><li><span class="opt">(b)</span><span>Gulamgiri</span></li><li><span class="opt">(c)</span><span>Hind Swaraj</span></li><li><span class="opt">(d)</span><span>Tahzib-ul-Akhlaq</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span><em>Hind Swaraj</em> (1909) is <strong>Gandhi's</strong> political text. <em>Satyarth Prakash</em> (Dayananda), <em>Gulamgiri</em> (Phule) and <em>Tahzib-ul-Akhlaq</em> (Sir Syed) are all reform-era works.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2020</span></div><p class="qa-text">Who among the following founded the <strong>Atmiya Sabha (1815)</strong>?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Debendranath Tagore</span></li><li><span class="opt">(b)</span><span>Raja Rammohan Roy</span></li><li><span class="opt">(c)</span><span>Keshab Chandra Sen</span></li><li><span class="opt">(d)</span><span>Ishwar Chandra Vidyasagar</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Roy founded Atmiya Sabha in <strong>1815</strong>; it evolved into the <strong>Brahmo Samaj in 1828</strong>.</div></details></section>
+
+
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2018</span></div><p class="qa-text">Which of the following pairs is/are correctly matched?</p><ol class="qa-stmts"><li>Brahmo Samaj — 1828</li><li>Arya Samaj — 1875</li><li>Ramakrishna Mission — 1897</li><li>Theosophical Society — 1882 (India HQ)</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 2 only</span></li><li><span class="opt">(c)</span><span>1, 2 and 3 only</span></li><li><span class="opt">(d)</span><span>All four</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All four dates are correct.</div></details></section>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span><span class="qa-tag">2019</span></div><p class="qa-text">Who wrote <em>Gulamgiri</em> (Slavery)?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>B. R. Ambedkar</span></li><li><span class="opt">(b)</span><span>Jyotiba Phule</span></li><li><span class="opt">(c)</span><span>E. V. Ramasamy Naicker</span></li><li><span class="opt">(d)</span><span>Sri Narayana Guru</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span><strong>Jyotiba Phule (1873)</strong>; the radical anti-caste text argued that Brahmin supremacy was analogous to slavery.</div></details></section>
+
+
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span><span class="qa-tag">2022</span></div><p class="qa-text">With reference to <strong>Sir Syed Ahmad Khan</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>He founded the Mohammedan Anglo-Oriental College at Aligarh.</li><li>He argued that the Quran must be read through the lens of reason.</li><li>He advocated that Indian Muslims should join the Indian National Congress.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Statement 3 is wrong: Sir Syed <em>advised against</em> joining Congress (Loyal Muhammadans of India, 1869).</div></details></section>
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span><span class="qa-tag">2015</span></div><p class="qa-text">Who founded the <strong>Arya Samaj</strong>?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Swami Vivekananda</span></li><li><span class="opt">(b)</span><span>Swami Dayananda Saraswati</span></li><li><span class="opt">(c)</span><span>Annie Besant</span></li><li><span class="opt">(d)</span><span>H. P. Blavatsky</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Swami Dayananda Saraswati founded the Arya Samaj in <strong>1875</strong> (Bombay; stronghold later in Lahore).</div></details></section>
 <hr>
 <h2 id="upsc-mains-pyqs">UPSC Mains PYQs</h2>
-<p><strong>Q. (2015)</strong> "The reform movements of the 19th century represent the first stirrings of national consciousness in India." Discuss. <em>(12 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — The 19th-century reform movements — Brahmo Samaj, Arya Samaj, Prarthana Samaj, Aligarh, Ramakrishna Mission, Deoband — were the first systematic critique of Indian institutions by Indians, under the colonial gaze.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Modern public sphere</strong> — reformers started newspapers (<em>Samvad Kaumudi</em>, <em>Tahzib-ul-Akhlaq</em>), schools and associations; these spaces formed the "public" that nationalists later addressed.</li><li><strong>Critique of caste and patriarchy</strong> — Roy, Phule, Vidyasagar, Sir Syed attacked sati, caste, purdah; this was new for Indians so recently divided — the beginnings of a shared social programme.</li><li><strong>Rediscovery of tradition</strong> — Theosophy and Arya Samaj glamorised Vedanta and the Gita, converting Indian tradition from a liability into a source of self-confidence.</li><li><strong>Personal continuity</strong> — Congress founders (Naoroji, Ranade, Gokhale, Tilak) began in reform associations; <strong>Indian National Social Conference (1887)</strong> deliberately met at Congress venues, proving the linkage.</li></ol>
-<p><strong>Conclusion</strong> — The reform movements did not create nationalism, but they created the <strong>social language, public sphere and leadership class</strong> from which nationalism grew — the first stirrings of national consciousness.</p>
-<hr>
-<p><strong>Q. (2021)</strong> Discuss the role of women reformers in the social reform movements of 19th-century India. <em>(10 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — Women entered public reform from the 1880s; their intervention turned women's issues from a patriarchal welfare project into a rights question.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Pioneers</strong> — <strong>Savitribai Phule</strong> (first woman teacher; girls' and Dalit schools), <strong>Pandita Ramabai</strong> (Sharda Sadan for widows, 1889), <strong>Begum Rokeya Sakhawat Hossain</strong> (<em>Sultana's Dream</em>, 1905), <strong>Tarabai Shinde</strong> (<em>Stri Purush Tulana</em>, 1882).</li><li><strong>Institutions</strong> — Veeresalingam's Rajahmundry ashram; Sharda Sadan; Anjuman-e-Khawatin-e-Islam; Arya Mahila Samaj.</li><li><strong>Distinct contribution</strong> — women reformers criticised <em>both</em> colonialism <em>and</em> Indian patriarchy; male reformers often stopped at welfare, women leaders asked for rights and autonomy.</li><li><strong>Limitations</strong> — small in number; largely upper-caste or elite; often dependent on male patronage; confined to Bengal, Bombay and Madras.</li></ol>
-<p><strong>Conclusion</strong> — The women reformers democratised the women's question and prefigured the feminist movement of the 20th century.</p>
-<hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2015</span></div><p class="qa-text">"The reform movements of the 19th century represent the first stirrings of national consciousness in India." Discuss. <em>(12 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — The 19th-century reform movements — Brahmo Samaj, Arya Samaj, Prarthana Samaj, Aligarh, Ramakrishna Mission, Deoband — were the first systematic critique of Indian institutions by Indians, under the colonial gaze.</p><p><strong>Body</strong></p><ol><li><strong>Modern public sphere</strong> — reformers started newspapers (<em>Samvad Kaumudi</em>, <em>Tahzib-ul-Akhlaq</em>), schools and associations; these spaces formed the "public" that nationalists later addressed.</li><li><strong>Critique of caste and patriarchy</strong> — Roy, Phule, Vidyasagar, Sir Syed attacked sati, caste, purdah; this was new for Indians so recently divided — the beginnings of a shared social programme.</li><li><strong>Rediscovery of tradition</strong> — Theosophy and Arya Samaj glamorised Vedanta and the Gita, converting Indian tradition from a liability into a source of self-confidence.</li><li><strong>Personal continuity</strong> — Congress founders (Naoroji, Ranade, Gokhale, Tilak) began in reform associations; <strong>Indian National Social Conference (1887)</strong> deliberately met at Congress venues, proving the linkage.</li></ol><p><strong>Conclusion</strong> — The reform movements did not create nationalism, but they created the <strong>social language, public sphere and leadership class</strong> from which nationalism grew — the first stirrings of national consciousness.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2021</span></div><p class="qa-text">Discuss the role of women reformers in the social reform movements of 19th-century India. <em>(10 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — Women entered public reform from the 1880s; their intervention turned women's issues from a patriarchal welfare project into a rights question.</p><p><strong>Body</strong></p><ol><li><strong>Pioneers</strong> — <strong>Savitribai Phule</strong> (first woman teacher; girls' and Dalit schools), <strong>Pandita Ramabai</strong> (Sharda Sadan for widows, 1889), <strong>Begum Rokeya Sakhawat Hossain</strong> (<em>Sultana's Dream</em>, 1905), <strong>Tarabai Shinde</strong> (<em>Stri Purush Tulana</em>, 1882).</li><li><strong>Institutions</strong> — Veeresalingam's Rajahmundry ashram; Sharda Sadan; Anjuman-e-Khawatin-e-Islam; Arya Mahila Samaj.</li><li><strong>Distinct contribution</strong> — women reformers criticised <em>both</em> colonialism <em>and</em> Indian patriarchy; male reformers often stopped at welfare, women leaders asked for rights and autonomy.</li><li><strong>Limitations</strong> — small in number; largely upper-caste or elite; often dependent on male patronage; confined to Bengal, Bombay and Madras.</li></ol><p><strong>Conclusion</strong> — The women reformers democratised the women's question and prefigured the feminist movement of the 20th century.</p></div></details></section><hr>
 <h2 id="practice-queue">Practice queue</h2>
 <ul><li>2022: What was the "Phulmoni case" and its effect on the Age of Consent Act?</li><li>2011: Dayananda Saraswati's relevance for modern India.</li><li>2004: Brahmo Samaj splits — Adi, Brahmo Samaj of India, Sadharan.</li></ul>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/socio-religious-reforms-points.html" rel="prev">← Socio-Religious Reforms — Key Bul…</a></span>
   <a class="up" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-socio-religious-reforms-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

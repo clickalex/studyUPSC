@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -141,8 +185,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p><strong>Communication</strong> has collapsed the friction of distance — the phenomenon of <strong>time-space convergence</strong>. Submarine optical fibre cables carry the overwhelming majority of international data traffic, making them strategic infrastructure; satellite communication serves remote and maritime areas; and <strong>BharatNet</strong> aims at broadband to every gram panchayat. The corresponding concern is the <strong>digital divide</strong> across rural-urban, gender and income lines, and the concentration of data infrastructure in a few metropolitan hubs.</p>
 <blockquote><p><strong>Trap watch.</strong> A census town requires all three conditions together — 5,000 population, 400 persons per sq km, and 75% male non-agricultural workforce. A metropolis is a million-plus city; a megacity exceeds ten million. Christaller's range is the maximum distance travelled, threshold the minimum population needed. Hamleted settlements are fragmented units of one village, not separate villages. Smart Cities Mission works through SPVs, which is the source of the accountability critique. Pipelines have high fixed and low operating costs. Waterways are cheapest per tonne-kilometre; railways suit bulk over long distance.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -163,8 +205,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li><strong>Rural</strong> settlement types: clustered/nucleated (N plains, NE), semi-clustered (Gujarat, Rajasthan), hamleted (<em>panna, para, palli, nagla, dhani</em> — Ganga plain, Chhattisgarh), dispersed (Meghalaya, Uttarakhand, Kerala — isolated; <em>kavu</em>?). Patterns: linear (roads/rivers), rectangular (plains), circular (lakes/tanks), star, T/Y/cross (junctions), double village (river banks), fan (delta), checkerboard. Factors: water (<em>talab, baoli</em>), land, upland (floods), building material, defence (forts), social (caste <em>tolas</em>), forests.</li><li><strong>Urban</strong> (Census): <strong>statutory towns</strong> (municipality, corporation, cantonment, notified area — 4,041) &amp; <strong>census towns</strong> (population ≥5,000, ≥75% male main workers non-agri, density ≥400/km² — 3,894); UAs 475; total towns 7,935; Class I (≥1 lakh) 468 cities; <strong>million-plus 53</strong>; <strong>mega cities (≥1 crore) 3 — Mumbai (18.4 mn UA), Delhi (16.3), Kolkata (14.1)</strong>; Chennai, Bengaluru, Hyderabad next; urban population <strong>31.16% (377 mn)</strong>; projection ~35–36% (2025), 40% by 2030, 600 mn+; most urbanised states — <strong>Goa 62%</strong>, Mizoram 52%, TN 48%, Kerala 47.7%, Maharashtra 45%; least — HP 10%, Bihar 11.3%; UTs — Delhi 97.5%, Chandigarh 97.3%; largest slum share — Mumbai (Dharavi redevelopment 2024 Adani); 65 mn slum dwellers (17% urban); <strong>Smart Cities Mission 2015 (100; closed March 2025)</strong>, AMRUT 2.0 (2021), <strong>PMAY-U 2.0 (2024; 1 cr houses)</strong>, <strong>SBM-U 2.0</strong>, NULM → DAY, HRIDAY, Rurban (Shyama Prasad Mukherji), National Urban Policy Framework 2018, <strong>Urban Challenge Fund ₹1 lakh cr (Budget 2025)</strong>, 74th CAA 1992 (12th Schedule 18 functions), <strong>Urban Metropolitan Transport Authority</strong>, Transit-oriented development; census 2011 definitions of density (India 382/km²; Bihar 1,106 highest state; Arunachal 17 lowest; Delhi 11,320 UT), sex ratio 943 (child 919; Kerala 1,084; Haryana 879), literacy 74% (Kerala 94%; Bihar 61.8%), population 121.09 cr (2011; decadal growth 17.7%; UP 19.98 cr largest; Sikkim smallest 6.1 lakh; Lakshadweep UT); <strong>India world's most populous (UNFPA April 2023: 142.86 cr; ~146 cr 2025)</strong>; TFR 2.0 (NFHS-5 2019–21; below replacement 2.1) — Bihar 3.0 highest, Sikkim 1.1 lowest; <strong>SRS 2023: TFR 1.9; IMR 25; MMR 93 (2019–21) → 88 (2020–22)</strong>; life expectancy ~70; median age 28–29; <strong>demographic dividend till ~2055</strong>; working-age 68%; elderly 10.5% (2022) → 20% by 2050 (India Ageing Report); migration — 45.6 cr internal migrants (2011; 37%); UP–Bihar out-migration; Maharashtra–Delhi in; <strong>PLFS 2023–24 LFPR 60.1%, WPR 58.2%, UR 3.2% (usual status)</strong>; <strong>Census towns &amp; peri-urbanisation</strong>; <strong>Delimitation freeze till first census after 2026 (84th/87th CAA)</strong>; Women's reservation (106th) tied to delimitation.</li></ul>
 <h3 id="traps">Traps</h3>
 <ul><li>NH-44 (not NH-7 anymore) longest; <strong>Kandla/Deendayal</strong> largest <em>major</em> port by volume, <strong>Mundra</strong> largest overall, <strong>JNPT</strong> largest container, <strong>Vizag</strong> deepest natural, <strong>Chennai</strong> artificial, <strong>Kolkata</strong> riverine, <strong>Vizhinjam</strong> first deep-water transhipment.</li><li>Census town ≠ statutory town — census towns have <strong>no</strong> municipality.</li><li>Mega city threshold = <strong>1 crore</strong> (Mumbai, Delhi, Kolkata in 2011); million-plus 53.</li><li>Urbanisation % highest state <strong>Goa</strong>, not TN or Maharashtra (which lead in absolute urban population — Maharashtra).</li><li>Delhi–Mumbai expressway longest under construction; <strong>Mumbai–Pune</strong> first; <strong>Purvanchal</strong> UP's longest operational; <strong>Ganga</strong> expressway 594 km.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -180,8 +220,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Compact → plains · linear → roads-rivers · circular → ponds (UP) · star → crossroads · dispersed → hills-forests.</li><li>Census town → 4000+ pop, 75% male non-farm, 400/km2 · UA = city + outgrowths.</li><li>2011 → 31.16% urban, 53 million-plus.</li></ul>
 <h3 id="trap-flash">Trap flash</h3>
 <ul><li>Kandla renamed Deendayal; Ennore = Kamarajar — rename traps.</li><li>NW-3 is Kerala's canal (not Ganga).</li><li>Census towns are NOT statutory (no municipal body).</li><li>GQ order = Delhi-Mumbai-Chennai-Kolkata loop.</li><li>First railway ran in 1853 under Bombay Presidency (not Calcutta).</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -228,22 +266,24 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>8 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Under the 2010 National Highway numbering scheme: (a) Odd numbers run north–south (b) Even numbers run north–south (c) Numbers increase from south to north for E–W highways (d) All NHs have three-digit numbers</p>
-<p><strong>Q2.</strong> Match the port with its description: A. Visakhapatnam — 1. Largest container port · B. JNPT — 2. Riverine port · C. Kolkata — 3. Deepest natural landlocked harbour (a) A-3 B-1 C-2 (b) A-1 B-3 C-2 (c) A-2 B-1 C-3 (d) A-3 B-2 C-1</p>
-<p><strong>Q3.</strong> Consider a "census town" as per Census 2011: 1. Minimum population of 5,000. 2. At least 75% of male main workers engaged in non-agricultural pursuits. 3. Governed by a municipality. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q4.</strong> Which of the following was India's most urbanised state in Census 2011? (a) Maharashtra (b) Tamil Nadu (c) Goa (d) Kerala</p>
-<p><strong>Q5.</strong> The Chenab railway bridge, the world's highest railway arch bridge, is part of which project? (a) Sivok–Rangpo (b) Udhampur–Srinagar–Baramulla Rail Link (c) Konkan Railway (d) Jiribam–Imphal</p>
-<p><strong>Q6.</strong> Consider India's inland waterways: 1. NW-1 runs on the Ganga between Prayagraj and Haldia. 2. NW-2 is on the Brahmaputra. 3. NW-3 is the West Coast Canal in Kerala. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q7.</strong> Vizhinjam, commissioned in 2024–25, is significant as India's first: (a) Riverine container port (b) Deep-water container transhipment port (c) LNG import terminal (d) Ship-recycling yard</p>
-<p><strong>Q8.</strong> Which hamleted settlement terms are correctly matched? 1. Dhani — Rajasthan 2. Para — West Bengal 3. Nagla — Uttar Pradesh (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<h3 id="answer-key">Answer key</h3>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Under the 2010 National Highway numbering scheme:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Odd numbers run north–south</span></li><li><span class="opt">(b)</span><span>Even numbers run north–south</span></li><li><span class="opt">(c)</span><span>Numbers increase from south to north for E–W highways</span></li><li><span class="opt">(d)</span><span>All NHs have three-digit numbers</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Even N–S, odd E–W; odd numbers rise north → south, even rise east → west.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Match the port with its description: A. Visakhapatnam — 1. Largest container port · B. JNPT — 2. Riverine port · C. Kolkata — 3. Deepest natural landlocked harbour</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A-3 B-1 C-2</span></li><li><span class="opt">(b)</span><span>A-1 B-3 C-2</span></li><li><span class="opt">(c)</span><span>A-2 B-1 C-3</span></li><li><span class="opt">(d)</span><span>A-3 B-2 C-1</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Standard port traits.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Consider a "census town" as per Census 2011: 1. Minimum population of 5,000. 2. At least 75% of male main workers engaged in non-agricultural pursuits. 3. Governed by a municipality.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Census towns lack municipal status (statutory towns have it).</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Which of the following was India's most urbanised state in Census 2011?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Maharashtra</span></li><li><span class="opt">(b)</span><span>Tamil Nadu</span></li><li><span class="opt">(c)</span><span>Goa</span></li><li><span class="opt">(d)</span><span>Kerala</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Goa 62.2%.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">The Chenab railway bridge, the world's highest railway arch bridge, is part of which project?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Sivok–Rangpo</span></li><li><span class="opt">(b)</span><span>Udhampur–Srinagar–Baramulla Rail Link</span></li><li><span class="opt">(c)</span><span>Konkan Railway</span></li><li><span class="opt">(d)</span><span>Jiribam–Imphal</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>USBRL; 359 m above the Chenab.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Consider India's inland waterways: 1. NW-1 runs on the Ganga between Prayagraj and Haldia. 2. NW-2 is on the Brahmaputra. 3. NW-3 is the West Coast Canal in Kerala.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Vizhinjam, commissioned in 2024–25, is significant as India's first:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Riverine container port</span></li><li><span class="opt">(b)</span><span>Deep-water container transhipment port</span></li><li><span class="opt">(c)</span><span>LNG import terminal</span></li><li><span class="opt">(d)</span><span>Ship-recycling yard</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Kerala; Adani-operated; near international shipping lane.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Which hamleted settlement terms are correctly matched? 1. Dhani — Rajasthan 2. Para — West Bengal 3. Nagla — Uttar Pradesh</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct regional terms.</div></details></section><h3 id="answer-key">Answer key</h3>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>Even N–S, odd E–W; odd numbers rise north → south, even rise east → west.</td></tr><tr><td>2</td><td>a</td><td>Standard port traits.</td></tr><tr><td>3</td><td>a</td><td>Census towns lack municipal status (statutory towns have it).</td></tr><tr><td>4</td><td>c</td><td>Goa 62.2%.</td></tr><tr><td>5</td><td>b</td><td>USBRL; 359 m above the Chenab.</td></tr><tr><td>6</td><td>d</td><td>All correct.</td></tr><tr><td>7</td><td>b</td><td>Kerala; Adani-operated; near international shipping lane.</td></tr><tr><td>8</td><td>d</td><td>All correct regional terms.</td></tr></tbody></table>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-minerals-industries.html"><span class="lb">← Previous</span>Minerals, Energy Resources &amp; Industries</a>
 <a class="r" href="prelims-gs1-world-physical.html"><span class="lb">Next →</span>World Physical: Continents, Oceans &amp; Climates</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

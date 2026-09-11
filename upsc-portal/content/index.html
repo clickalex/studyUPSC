@@ -9,18 +9,23 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{max-width:860px;margin:0 auto;padding:32px 20px 80px}
-header{border-bottom:1px solid var(--line);padding:14px 0;margin-bottom:24px;background:var(--card)}
-header .wrap{padding:0 20px;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
-.brand{font-weight:800;font-size:18px}
+header.lib{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96);backdrop-filter:blur(8px)}
+header.lib .head-in{display:flex;gap:12px;align-items:center;padding-top:10px;padding-bottom:10px}
+.brand{font-weight:800;font-size:18px;white-space:nowrap}
 .brand span{color:var(--accent)}
 a.brand{color:var(--ink);text-decoration:none}
 a.brand:hover{color:#b45309}
-.crumb{font-size:12px;color:var(--sub)}
+.crumb{font-size:12px;color:var(--sub);white-space:nowrap}
+.find{margin-left:auto;display:flex;gap:8px;align-items:center;min-width:0}
+.find input{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;width:min(260px,32vw);background:#f8fafc;color:var(--ink);outline:none}
+.find input:focus{border-color:var(--accent);background:#fff}
+.find #lib-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.links{white-space:nowrap}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 34px;box-shadow:0 1px 2px rgba(15,23,42,.04)}
 h1{font-size:26px;line-height:1.25;margin:.2em 0 .5em}
 h2{font-size:20px;margin:1.4em 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.25em}
 h3{font-size:17px;margin:1.2em 0 .4em}
-.dir-head{margin:1.3em 0 .4em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+.dir-head{margin:1.3em 0 .4em;padding-bottom:.2em;border-bottom:1px solid var(--line);scroll-margin-top:130px}
 h3.dir-head{font-size:16px;border-bottom:1px dashed var(--line)}
 h4.dir-head{font-size:14px;color:var(--sub);border-bottom:none;margin:1em 0 .2em}
 a{color:#b45309;text-decoration:none}a:hover{text-decoration:underline}
@@ -28,11 +33,24 @@ ul,ol{padding-left:1.5em}
 li{margin:.25em 0}
 hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
-@media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media(max-width:700px){
+header.lib .head-in{flex-wrap:wrap;row-gap:8px}
+.find{order:3;flex:1 1 100%}
+.find input{flex:1;width:100%}
+.links{margin-left:auto}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+h1{font-size:22px}
+.to-top{right:12px;bottom:12px}
+}
+@media print{body{background:#fff}.card{border:none;padding:0}header.lib{position:static}.no-print{display:none}}</
 </style>
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · 555 documents</div><div class="crumb no-print" style="margin-left:auto"><a href="../book/index.html">📖 Book edition</a> · <a href="../index.html">🏠 Home</a></div></div></header>
+<header class="lib"><div class="wrap head-in"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · 555 documents</div><div class="find no-print"><input id="lib-q" type="search" placeholder="Filter documents…" aria-label="Filter documents" autocomplete="off"><span id="lib-c" aria-live="polite"></span></div><div class="crumb no-print links"><a href="../book/index.html">📖 Book</a> · <a href="../index.html">🏠 Home</a></div></div></header>
 <div class="wrap"><div class="card">
 <h1 id="content-library">Content Library</h1><p>555 documents · styled, self-contained HTML pages — open any page directly, or use the headings below to browse the syllabus.</p><ul>
 <li><a href="README.html">content/ — Study Material Library</a></li>
@@ -2402,5 +2420,9 @@ footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 </div>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-catalog-filter */
+(function(){try{var q=document.getElementById('lib-q'),c=document.getElementById('lib-c');var card=document.querySelector('.card');var items=card?Array.prototype.slice.call(card.querySelectorAll('ul li')):[];var heads=card?Array.prototype.slice.call(card.querySelectorAll('.dir-head')):[];function lvl(h){return Number(h.tagName.charAt(1));}function apply(){var s=q.value.trim().toLowerCase();var n=0;items.forEach(function(li){var hit=!s||li.textContent.toLowerCase().indexOf(s)!==-1;li.style.display=hit?'':'none';if(hit)n++;});heads.forEach(function(h){if(!s){h.style.display='';return;}var L=lvl(h),el=h.nextElementSibling,vis=false;while(el){if(/^H[1-6]$/.test(el.tagName)&&Number(el.tagName.charAt(1))<=L)break;if(el.tagName==='UL'){var ch=el.children;for(var i=0;i<ch.length;i++){if(ch[i].style.display!=='none'){vis=true;break;}}if(vis)break;}el=el.nextElementSibling;}h.style.display=vis?'':'none';});c.textContent=s?(n+' found'):'';}var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(apply,80);});var top=document.querySelector('.to-top');if(top){var f=function(){top.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();top.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}}catch(e){}})();
+</script>
 </body>
 </html>

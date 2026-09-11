@@ -36,60 +36,155 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Society — PYQs</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Society — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Society — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="mhere">Indian Society — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/indian-society.html">📖 Detailed</a><a href="../short-notes/indian-society-revision.html">📝 Short notes</a><a href="../bullet-points/indian-society-points.html">🔹 Points</a><a href="../diagrams/demographic-dividend.svg">🗺️ Diagrams</a><a href="indian-society-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">☰ All</a><div class="menu-row"><a href="../bullet-points/indian-society-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/indian-society.html">📖 Detailed</a><a class="pill" href="../short-notes/indian-society-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/indian-society-points.html">🔹 Points</a><a class="pill" href="../diagrams/demographic-dividend.svg">🗺️ Diagrams</a><a class="pill" href="indian-society-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Society — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Society — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">PYQs</a><span class="mhere">Indian Society — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/indian-society.html">📖 Detailed</a><a href="../short-notes/indian-society-revision.html">📝 Short notes</a><a href="../bullet-points/indian-society-points.html">🔹 Points</a><a href="../diagrams/demographic-dividend.svg">🗺️ Diagrams</a><a href="indian-society-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">☰ All</a><div class="menu-row"><a href="../bullet-points/indian-society-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/indian-society.html">📖 Detailed</a><a class="pill" href="../short-notes/indian-society-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/indian-society-points.html">🔹 Points</a><a class="pill" href="../diagrams/demographic-dividend.svg">🗺️ Diagrams</a><a class="pill" href="indian-society-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="indian-society-pyqs">Indian Society — PYQs</h1>
+<h1 id="indian-society-pyqs">Indian Society — PYQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Mains-heavy; society questions almost always appear in GS-1 (3–6 questions/yr approx). Outlines original; [PYQ-pattern] marks near-actual wording.</p></blockquote>
 <h2 id="a-prelims-style-mcqs">A. Prelims-style MCQs</h2>
-<p><strong>Q1.</strong> Which constitutional article abolishes "untouchability" and forbids its practice? (a) Article 14 (b) Article 15 (c) Article 17 (d) Article 19</p>
-<p><strong>Model answer:</strong> (c). Article 17; enforcement via PCR Act 1955 → SC/ST (Prevention of Atrocities) Act 1989.</p>
-<p><strong>Q2.</strong> The Nari Shakti Vandan Adhiniyam corresponds to which constitutional amendment? (a) 102nd (b) 103rd (c) 105th (d) 106th</p>
-<p><strong>Model answer:</strong> (d). The 106th Amendment (2023) institutionalises 33% women's reservation in Lok Sabha and state assemblies (post-delimitation). 103rd was EWS; 105th restored states' OBC list power.</p>
-<p><strong>Q3.</strong> Which statements about NFHS-5 (2019–21) are correct?</p>
-<ol><li>India's TFR fell to 2.0.</li><li>All states are below replacement fertility.</li></ol>
-<p>(a) 1 only (b) 2 only (c) Both (d) Neither</p>
-<p><strong>Model answer:</strong> (a). TFR = 2.0 nationally but Bihar (3.4), UP (~2.4), Jharkhand remain above replacement.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Which constitutional article abolishes "untouchability" and forbids its practice?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Article 14</span></li><li><span class="opt">(b)</span><span>Article 15</span></li><li><span class="opt">(c)</span><span>Article 17</span></li><li><span class="opt">(d)</span><span>Article 19</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Article 17; enforcement via PCR Act 1955 → SC/ST (Prevention of Atrocities) Act 1989.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">The Nari Shakti Vandan Adhiniyam corresponds to which constitutional amendment?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>102nd</span></li><li><span class="opt">(b)</span><span>103rd</span></li><li><span class="opt">(c)</span><span>105th</span></li><li><span class="opt">(d)</span><span>106th</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>The 106th Amendment (2023) institutionalises 33% women's reservation in Lok Sabha and state assemblies (post-delimitation). 103rd was EWS; 105th restored states' OBC list power.</div></details></section>
+
+
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Which statements about NFHS-5 (2019–21) are correct?</p><ol class="qa-stmts"><li>India's TFR fell to 2.0.</li><li>All states are below replacement fertility.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>2 only</span></li><li><span class="opt">(c)</span><span>Both</span></li><li><span class="opt">(d)</span><span>Neither</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>TFR = 2.0 nationally but Bihar (3.4), UP (~2.4), Jharkhand remain above replacement.</div></details></section>
 <h2 id="b-mains-questions-with-skeletons">B. Mains questions with skeletons</h2>
-<p><strong>Q4.</strong> [PYQ-pattern] "Caste system is assuming new identities and associational forms. Hence, the caste system cannot be eradicated in India." Comment. <em>Skeleton:</em> persistence: kinship networks, endogamy, political mobilisation → change: class overlay, urban anonymity, reservation mobility → associational forms (caste associations → pressure groups, "caste as identity-claim"); conclude: "transformative endurance — eradicated neither in social practice nor in political salience, yet structurally weakened."</p>
-<p><strong>Q5.</strong> Examine the paradox of rising female literacy coexisting with historically low female labour-force participation. How has recent data revised the picture? <em>Skeleton:</em> U-curve hypothesis (income effect vs structural transformation) → measurement critique (PLFS misses subsistence work) → NFHS/PLFS 2020s revisions (LFPR ~37–41%, quality caveat) → constraints: safety, care burden, social norms → policies: SHG economy (Lakhpati Didi), crèche push, gig code.</p>
-<p><strong>Q6.</strong> Regionalism in India is a "source of strength rather than weakness". Discuss in the context of linguistic states and the North-East. <em>Skeleton:</em> linguistic re-organisation as pressure valve (Fazl Ali) → federal bargains (tax devolution, zamindari) → conflicts containment (Bodo 2020, Bru-Reang 2020) → Manipur 2023 as counter-case → conclude: managed pluralism, with fiscal asymmetry as a live variable.</p>
-<p><strong>Q7.</strong> "Urbanisation in India is peri-urban before it is metropolitan." Examine the challenges this poses for the 74th Amendment institutional scheme. <em>Skeleton:</em> census towns explosion (statutory vs census) → unplanned peripheries → water/sanitation stress (Day Zero, HAPs) → municipal fiscal weakness → proposed fixes: empowered metropolitan committees, GST-linked devolution, regulation of land conversion.</p>
-<p><strong>Q8.</strong> Discuss the effects of globalisation on the Indian family and food habits. <em>Skeleton:</em> joint→nuclear gradient; care economy outsourcing (domestic maid networks) → marriage markets digitalisation → food: fast-food segmentation, GI exports, health hybridisation (millets revival 2023 – International Year of Millets) → conclude: "adaptation, not westernisation."</p>
-<p><strong>Q9.</strong> Highlight how digital connectivity has reshaped communal dynamics in India, with reference to recent riot/hate-speech litigation. <em>Skeleton:</em> pre-digital communalism arc → WhatsApp amplification &amp; deepfake risks → jurisprudence (Amish Devgan; suo-motu SC interventions 2023–25; IT Rules amendments for fact-check — constitutional challenge) → tools: Section 159 BNSS preventive powers; platform accountability; community policing → conclude: regulation + civic media literacy.</p>
-<p><strong>Q10.</strong> Critically examine the case for a nationwide caste census in the lead-up to Census 2027. <em>Skeleton:</em> pro: policy precision (OBC distribution), Mandal 2.0 politics, Bihar precedent → con: administrative complexity, identity hardening risk, enumeration ethics → international analogues (US race categories history) → middle path: caste-linked SECC module with anonymised release protocols.</p>
-<hr>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">[PYQ-pattern] "Caste system is assuming new identities and associational forms. Hence, the caste system cannot be eradicated in India." Comment. <em>Skeleton:</em> persistence: kinship networks, endogamy, political mobilisation → change: class overlay, urban anonymity, reservation mobility → associational forms (caste associations → pressure groups, "caste as identity-claim"); conclude: "transformative endurance — eradicated neither in social practice nor in political salience, yet structurally weakened."</p></div></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Examine the paradox of rising female literacy coexisting with historically low female labour-force participation. How has recent data revised the picture? <em>Skeleton:</em> U-curve hypothesis (income effect vs structural transformation) → measurement critique (PLFS misses subsistence work) → NFHS/PLFS 2020s revisions (LFPR ~37–41%, quality caveat) → constraints: safety, care burden, social norms → policies: SHG economy (Lakhpati Didi), crèche push, gig code.</p></div></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Regionalism in India is a "source of strength rather than weakness". Discuss in the context of linguistic states and the North-East. <em>Skeleton:</em> linguistic re-organisation as pressure valve (Fazl Ali) → federal bargains (tax devolution, zamindari) → conflicts containment (Bodo 2020, Bru-Reang 2020) → Manipur 2023 as counter-case → conclude: managed pluralism, with fiscal asymmetry as a live variable.</p></div></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">"Urbanisation in India is peri-urban before it is metropolitan." Examine the challenges this poses for the 74th Amendment institutional scheme. <em>Skeleton:</em> census towns explosion (statutory vs census) → unplanned peripheries → water/sanitation stress (Day Zero, HAPs) → municipal fiscal weakness → proposed fixes: empowered metropolitan committees, GST-linked devolution, regulation of land conversion.</p></div></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Discuss the effects of globalisation on the Indian family and food habits. <em>Skeleton:</em> joint→nuclear gradient; care economy outsourcing (domestic maid networks) → marriage markets digitalisation → food: fast-food segmentation, GI exports, health hybridisation (millets revival 2023 – International Year of Millets) → conclude: "adaptation, not westernisation."</p></div></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">Highlight how digital connectivity has reshaped communal dynamics in India, with reference to recent riot/hate-speech litigation. <em>Skeleton:</em> pre-digital communalism arc → WhatsApp amplification &amp; deepfake risks → jurisprudence (Amish Devgan; suo-motu SC interventions 2023–25; IT Rules amendments for fact-check — constitutional challenge) → tools: Section 159 BNSS preventive powers; platform accountability; community policing → conclude: regulation + civic media literacy.</p></div></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Critically examine the case for a nationwide caste census in the lead-up to Census 2027. <em>Skeleton:</em> pro: policy precision (OBC distribution), Mandal 2.0 politics, Bihar precedent → con: administrative complexity, identity hardening risk, enumeration ethics → international analogues (US race categories history) → middle path: caste-linked SECC module with anonymised release protocols.</p></div></section><hr>
 <p><em>Practice set. Verify exact PYQ wording in UPSC archives.</em></p>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/indian-society-points.html" rel="prev">← Indian Society — Bullet Points</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-indian-society-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

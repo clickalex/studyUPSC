@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -137,8 +181,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p>In the examination hall, three practical rules. Read the <strong>role</strong> you are assigned carefully, since what is appropriate for a district magistrate differs from what is appropriate for a junior colleague. Do not import elaborate assumptions not present in the situation; answer the case as given. And because there is no negative marking on these questions, <strong>attempt every one</strong> — even an uncertain judgement has strictly positive expected value, and these are among the fastest questions in the paper once the four-posture framework is automatic.</p>
 <blockquote><p><strong>Trap watch.</strong> Options that avoid the problem, resign, transfer, or merely report upward without acting are wrong. Nothing illegal or procedurally improper is correct, however kind the motive. Match the severity of response to the gravity of the lapse. Verify facts and hear the other side before penalising. Disclose and recuse where personal interest exists. Prefer internal channels over publicity. Read the whole option — many are half right. Decision-making questions have carried no negative marking, so attempt all of them.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -169,8 +211,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p><strong>Best:</strong> (b).</p>
 <h3 id="interpersonal-skills-micro-principles-rc-adjacent">Interpersonal-skills micro-principles (RC-adjacent)</h3>
 <ul><li>Listen → clarify → assert with respect (IN that order).</li><li>Never write accusatory emails in heat; write facts next day.</li><li>Feedback private, praise public.</li><li>Frame disagreement on alternatives, not people ("the option's risk profile" not "your plan").</li><li>Escalation ladder: verbal → written → institutional channels (ICC/vigilance/leader chain).</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -184,8 +224,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Crisis → act first, inform meanwhile · grievance → meet + time-bound plan.</li><li>Senior pressure → written clarification + record · RTI → comply, accountability follows.</li><li>Talent vs discipline → counsel-monitor-act ladder.</li></ul>
 <h3 id="micro-flash">Micro flash</h3>
 <ul><li>Best option = smallest lawful action that solves the problem and is documented.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -232,31 +270,21 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Scenario drills in CSAT pattern. Choose the most appropriate administrative response; key at the end.</p></blockquote>
 <h3 id="set-1">Set 1</h3>
-<ol>
-<li><strong>Q1.</strong> A flood warning arrives at night; the hostel warden is absent. You should: (a) wait for the warden (b) begin evacuation and inform authorities meanwhile (c) sleep and report in the morning (d) only send a message</li>
-<li><strong>Q2.</strong> A vendor offers a festival gift to clear a pending bill faster. You: (a) accept, it is customary (b) refuse and process the bill on merit per rules (c) refuse and blacklist him (d) ask for a bigger gift</li>
-<li><strong>Q3.</strong> Two teammates clash publicly daily. As leader you: (a) ignore, it will settle (b) hear both separately, then mediate with clear norms (c) transfer both (d) take sides</li>
-<li><strong>Q4.</strong> Your senior orders an improper verbal approval on a tender. You: (a) comply silently (b) seek written clarification citing rules and record your objection (c) leak to media (d) refuse and walk out</li>
-<li><strong>Q5.</strong> Villagers block a road over a water shortage. Best first response: (a) police lathi-charge (b) meet the group, commit to a time-bound supply plan, restore traffic (c) ignore till they disperse (d) file FIR on all</li>
-</ol>
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">A flood warning arrives at night; the hostel warden is absent. You should:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>wait for the warden</span></li><li><span class="opt">(b)</span><span>begin evacuation and inform authorities meanwhile</span></li><li><span class="opt">(c)</span><span>sleep and report in the morning</span></li><li><span class="opt">(d)</span><span>only send a message</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(act now + inform)</div></details></section><section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">A vendor offers a festival gift to clear a pending bill faster. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>accept, it is customary</span></li><li><span class="opt">(b)</span><span>refuse and process the bill on merit per rules</span></li><li><span class="opt">(c)</span><span>refuse and blacklist him</span></li><li><span class="opt">(d)</span><span>ask for a bigger gift</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(merit + propriety)</div></details></section><section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Two teammates clash publicly daily. As leader you:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>ignore, it will settle</span></li><li><span class="opt">(b)</span><span>hear both separately, then mediate with clear norms</span></li><li><span class="opt">(c)</span><span>transfer both</span></li><li><span class="opt">(d)</span><span>take sides</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(hear-meditate-norms)</div></details></section><section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Your senior orders an improper verbal approval on a tender. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>comply silently</span></li><li><span class="opt">(b)</span><span>seek written clarification citing rules and record your objection</span></li><li><span class="opt">(c)</span><span>leak to media</span></li><li><span class="opt">(d)</span><span>refuse and walk out</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(written clarification + record)</div></details></section><section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Villagers block a road over a water shortage. Best first response:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>police lathi-charge</span></li><li><span class="opt">(b)</span><span>meet the group, commit to a time-bound supply plan, restore traffic</span></li><li><span class="opt">(c)</span><span>ignore till they disperse</span></li><li><span class="opt">(d)</span><span>file FIR on all</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(engage + time-bound plan)</div></details></section>
 <h3 id="set-2">Set 2</h3>
-<ol start="6">
-<li><strong>Q6.</strong> A colleague claims your project's credit in a review. You: (a) confront him loudly (b) present your documented contributions factually to the forum (c) sabotage his work (d) resign</li>
-<li><strong>Q7.</strong> Mid-year, funds run out for a midday meal programme. You: (a) stop meals till next budget (b) use contingency/reallocation per rules and flag to higher authority (c) divert from a stadium project quietly (d) borrow personally</li>
-<li><strong>Q8.</strong> An RTI reply may expose a colleague's error. You: (a) delay the reply (b) provide the information as law requires and let accountability follow (c) alter records (d) deny holding records</li>
-<li><strong>Q9.</strong> A subordinate is consistently late but talented. You: (a) ignore the punctuality issue (b) counsel, set expectations, monitor, act per rules if no change (c) dismiss immediately (d) public shaming</li>
-<li><strong>Q10.</strong> During a riot-mobilisation rumour on social media, you: (a) share it for awareness (b) issue an immediate verified clarification and monitor hotspots (c) ban the internet permanently (d) do nothing till it trends</li>
-</ol>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">A colleague claims your project's credit in a review. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>confront him loudly</span></li><li><span class="opt">(b)</span><span>present your documented contributions factually to the forum</span></li><li><span class="opt">(c)</span><span>sabotage his work</span></li><li><span class="opt">(d)</span><span>resign</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(documented factual assertion)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Mid-year, funds run out for a midday meal programme. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>stop meals till next budget</span></li><li><span class="opt">(b)</span><span>use contingency/reallocation per rules and flag to higher authority</span></li><li><span class="opt">(c)</span><span>divert from a stadium project quietly</span></li><li><span class="opt">(d)</span><span>borrow personally</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(lawful reallocation + flag)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">An RTI reply may expose a colleague's error. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>delay the reply</span></li><li><span class="opt">(b)</span><span>provide the information as law requires and let accountability follow</span></li><li><span class="opt">(c)</span><span>alter records</span></li><li><span class="opt">(d)</span><span>deny holding records</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(RTI compliance)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">A subordinate is consistently late but talented. You:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>ignore the punctuality issue</span></li><li><span class="opt">(b)</span><span>counsel, set expectations, monitor, act per rules if no change</span></li><li><span class="opt">(c)</span><span>dismiss immediately</span></li><li><span class="opt">(d)</span><span>public shaming</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(counsel-monitor-act ladder)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">During a riot-mobilisation rumour on social media, you:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>share it for awareness</span></li><li><span class="opt">(b)</span><span>issue an immediate verified clarification and monitor hotspots</span></li><li><span class="opt">(c)</span><span>ban the internet permanently</span></li><li><span class="opt">(d)</span><span>do nothing till it trends</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(verified clarification + monitoring).</div></details></section>
 <h3 id="answers">Answers</h3>
 <p><strong>1-b</strong> (act now + inform) · <strong>2-b</strong> (merit + propriety) · <strong>3-b</strong> (hear-meditate-norms) · <strong>4-b</strong> (written clarification + record) · <strong>5-b</strong> (engage + time-bound plan) · <strong>6-b</strong> (documented factual assertion) · <strong>7-b</strong> (lawful reallocation + flag) · <strong>8-b</strong> (RTI compliance) · <strong>9-b</strong> (counsel-monitor-act ladder) · <strong>10-b</strong> (verified clarification + monitoring).</p>
 <blockquote><p>Pattern to internalise: lawful + immediate + communicated + recorded beats all extremes.</p></blockquote>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-csat-logical-reasoning.html"><span class="lb">← Previous</span>Logical Reasoning &amp; Analytical Ability</a>
 <a class="r" href="prelims-csat-numeracy.html"><span class="lb">Next →</span>Basic Numeracy &amp; Data Interpretation (Class X level)</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -147,36 +191,33 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p><strong>Practice design.</strong> Quality beats volume. Work through <strong>previous year papers from 2011 onward</strong> in full, timed conditions — the 2011 to 2014 papers are harder and are excellent training even though the paper became qualifying afterwards. After each set, do a structured review: for every wrong answer, write down <em>why</em> the chosen option was wrong using the distractor vocabulary above, and <em>where</em> in the passage the correct answer is located. Maintain an error log by category — misread scope, background-knowledge intrusion, extreme option, careless retrieval — and you will find within a few weeks that two or three categories account for most of your losses. Build reading stamina with editorial and long-form analytical prose, which is also directly useful for GS. Candidates from non-English-medium backgrounds should add deliberate vocabulary work in context and practise reading aloud to improve processing speed, since comprehension speed is largely a function of familiarity with sentence structure rather than of vocabulary size.</p>
 <blockquote><p><strong>Trap watch.</strong> Answer from the passage, never from prior knowledge. CSAT is qualifying at 33%, so aim for certainty, not maximisation. Valid inference means "must be true," not "probably true." Options containing always, never, all or only are usually wrong. A description does not license a prescription. Read the entire option — many are half-true. The sentence following "however" usually carries the author's position. Negative marking is one-third, so eliminate to two before guessing.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">5 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h3 id="method-rules-before-drills">Method rules (before drills)</h3>
 <ol><li><strong>Stem-first strategy</strong>: read the question before a long passage when options are inference-heavy.</li><li><strong>Passage-only evidence</strong>: never use your own knowledge; the correct option is reconstructable strictly from the text.</li><li><strong>Tone pivots</strong>: but/however/yet lines usually determine attitude questions; bold-sketch them on paper.</li><li><strong>Balanced-passage box</strong>: if a passage does problem→counterpoint, the "title/best summary" option must include both sides.</li><li><strong>Elimination markers</strong>: strike superlatives (always/never/only) unless the passage explicitly contains them.</li></ol>
 <h3 id="drill-set-1-the-three-paragraph-read-4-min">Drill set 1: the three-paragraph read (~4 min)</h3>
 <p><strong>Passage</strong> "Public libraries in Indian cities increasingly function as study halls rather than as repositories. Middle-class aspirants occupy tables for competitive exams, while browsing for leisure reading declines. The transformation speaks well of the demand for quiet spaces, yet it risks hollowing the institution's civic role. When libraries are reduced to desk-rental, their community programmes — storytelling hours, digital literacy camps, vernacular-literature circles — quietly vanish from management attention, because such programmes produce no occupancy numbers."</p>
-<p><strong>Q1.</strong> The author's primary criticism is that: (a) Students misuse libraries for exam preparation (b) Measurable occupancy is rewarded over civic programming (c) Digital literacy is not promoted outside libraries (d) Storytelling has declined in India</p>
-<p><strong>Model answer:</strong> (b). The closing contrast carries it: metrics chase replaces mission. (a) misstates the author's stance (he calls demand positive).</p>
-<p><strong>Q2.</strong> An apt title: (a) The Death of Public Libraries (b) Study Halls vs Civic Libraries (c) The Quiet Opportunity of India (d) Library Management for UPSC</p>
-<p><strong>Model answer:</strong> (b). Balanced; (a) is maximalist; (c) ignores the risk thread; (d) narrows to exam use.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">The author's primary criticism is that:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Students misuse libraries for exam preparation</span></li><li><span class="opt">(b)</span><span>Measurable occupancy is rewarded over civic programming</span></li><li><span class="opt">(c)</span><span>Digital literacy is not promoted outside libraries</span></li><li><span class="opt">(d)</span><span>Storytelling has declined in India</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>The closing contrast carries it: metrics chase replaces mission. (a) misstates the author's stance (he calls demand positive).</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">An apt title:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>The Death of Public Libraries</span></li><li><span class="opt">(b)</span><span>Study Halls vs Civic Libraries</span></li><li><span class="opt">(c)</span><span>The Quiet Opportunity of India</span></li><li><span class="opt">(d)</span><span>Library Management for UPSC</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Balanced; (a) is maximalist; (c) ignores the risk thread; (d) narrows to exam use.</div></details></section>
 <h3 id="drill-set-2-tone-inference-3-min">Drill set 2: tone &amp; inference (~3 min)</h3>
 <p><strong>Passage</strong> "Intentions do not pay the rent of institutions; plumbing does. When India's steel-frame of procedure is clogged — property records ambiguous, court calendars choked, municipal money thin — grand policy stays theoretical. None of this makes the plumbing unglamorous to report; it makes it indispensable. The reformer who learns the difference between a gazette notification and its ground effect has understood administration."</p>
-<p><strong>Q3.</strong> The author seems to suggest that: (a) Administrative detail work determines policy effectiveness more than announcements do (b) Corruption is the main constraint on reforms (c) Journalism ignores plumbing (d) Aspirants should study gazette notifications</p>
-<p><strong>Model answer:</strong> (a). The plumbing metaphor is about implementation depth. (c) is a side-remark; (b) is unsaid.</p>
-<p><strong>Q4.</strong> "Rent of institutions" metaphorically implies: (a) asset cost (b) ongoing maintenance burden (c) recruitment (d) fiscal deficit</p>
-<p><strong>Model answer:</strong> (b). Continuity expenses of institutional functioning — continued investment in mundane capacity.</p>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">The author seems to suggest that:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Administrative detail work determines policy effectiveness more than announcements do</span></li><li><span class="opt">(b)</span><span>Corruption is the main constraint on reforms</span></li><li><span class="opt">(c)</span><span>Journalism ignores plumbing</span></li><li><span class="opt">(d)</span><span>Aspirants should study gazette notifications</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>The plumbing metaphor is about implementation depth. (c) is a side-remark; (b) is unsaid.</div></details></section>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Rent of institutions" metaphorically implies:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>asset cost</span></li><li><span class="opt">(b)</span><span>ongoing maintenance burden</span></li><li><span class="opt">(c)</span><span>recruitment</span></li><li><span class="opt">(d)</span><span>fiscal deficit</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Continuity expenses of institutional functioning — continued investment in mundane capacity.</div></details></section>
 <h3 id="drill-set-3-tricky-negative-stems">Drill set 3: tricky negative stems</h3>
 <p><strong>Passage</strong> (short): "Cities preserve their monuments while forgetting their precincts. A fort glows under conservation lights while the bazaar lane that once fed it gets demolished for parking."</p>
-<p><strong>Q5.</strong> Which of the following <strong>cannot</strong> be inferred? (a) Conservation focus is selective (b) Precincts are as valued as structures (c) Bazaar lanes relate to the fort ecosystem (d) Parking pressure exists</p>
-<p><strong>Model answer:</strong> (b). The passage implies neglect of precincts — (b) contradicts/inverts; negative stems punish fast reading.</p>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Which of the following <strong>cannot</strong> be inferred?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Conservation focus is selective</span></li><li><span class="opt">(b)</span><span>Precincts are as valued as structures</span></li><li><span class="opt">(c)</span><span>Bazaar lanes relate to the fort ecosystem</span></li><li><span class="opt">(d)</span><span>Parking pressure exists</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>The passage implies neglect of precincts — (b) contradicts/inverts; negative stems punish fast reading.</div></details></section>
 <h3 id="patterns-to-pre-empt">Patterns to pre-empt</h3>
 <ul><li>Expect 20–24 RC questions split across 10–14 passages.</li><li>1–2 "assumption" questions per paper (select what the argument depends on, not what it suggests).</li><li>Inference-removes extremes; fact-checks re-scope nouns (city→all India).</li><li>Interpersonal-skills items hide inside RC-style stems: pick "seek clarification first" / "avoid accusatory framing" archetypes — institutional courtesy over assertive-dominance.</li></ul>
 <h3 id="error-diary-fields-use-with-mocks">Error diary fields (use with mocks)</h3>
 <p>Q no. · trap class (extreme-word / scope-shift / tone-inversion / assumption-pick) · time spent · revisit decision.</p>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -190,8 +231,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Reversal · sweeping generalisation · new-fact injection · wrong-extent · half-true pair options.</li><li>Extreme words (always-never-only) → usually wrong.</li><li>CSAT tests the passage — outside GK is a trap, not a tool.</li></ul>
 <h3 id="speed-flash">Speed flash</h3>
 <ul><li>Budget ~90 sec/question; skip-and-return on 1-and-2-only types.</li><li>Least-wrong beats blank (no negative-marking gamble logic — CSAT qualifying 33%).</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -238,31 +277,21 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Short-passage drills in CSAT pattern. Pick the best answer; key at the end.</p></blockquote>
 <h3 id="set-1">Set 1</h3>
-<ol>
-<li><strong>Q1.</strong> 'Urban flooding is less about rainfall and more about concrete.' The passage implies urban flooding is chiefly caused by: (a) excess rainfall (b) paved surfaces reducing absorption (c) poor weather forecasting (d) river mismanagement</li>
-<li><strong>Q2.</strong> 'While electric vehicles cut tailpipe emissions, battery sourcing raises new concerns.' Author's tone is: (a) dismissive of EVs (b) enthusiastic advocacy (c) balanced-cautious (d) neutral reporting with no view</li>
-<li><strong>Q3.</strong> 'Most farmers in the survey adopted the technique after neighbours' visible success.' Inference: (a) government subsidies drove adoption (b) peer demonstration influenced adoption (c) all farmers adopted (d) technique failed</li>
-<li><strong>Q4.</strong> 'The committee neither rejected nor endorsed the proposal; it sought more data.' Committee's stance: (a) rejection (b) endorsement (c) agnostic-pending-evidence (d) indifference</li>
-<li><strong>Q5.</strong> 'Only two of the five promises were fulfilled; the rest remain aspirational.' Which statement follows? (a) no promise was fulfilled (b) three promises are unfulfilled (c) promises were illegal (d) all promises were fulfilled</li>
-</ol>
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">'Urban flooding is less about rainfall and more about concrete.' The passage implies urban flooding is chiefly caused by:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>excess rainfall</span></li><li><span class="opt">(b)</span><span>paved surfaces reducing absorption</span></li><li><span class="opt">(c)</span><span>poor weather forecasting</span></li><li><span class="opt">(d)</span><span>river mismanagement</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(concrete ⇒ less absorption)</div></details></section><section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">'While electric vehicles cut tailpipe emissions, battery sourcing raises new concerns.' Author's tone is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>dismissive of EVs</span></li><li><span class="opt">(b)</span><span>enthusiastic advocacy</span></li><li><span class="opt">(c)</span><span>balanced-cautious</span></li><li><span class="opt">(d)</span><span>neutral reporting with no view</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(concession + concern = balanced caution)</div></details></section><section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">'Most farmers in the survey adopted the technique after neighbours' visible success.' Inference:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>government subsidies drove adoption</span></li><li><span class="opt">(b)</span><span>peer demonstration influenced adoption</span></li><li><span class="opt">(c)</span><span>all farmers adopted</span></li><li><span class="opt">(d)</span><span>technique failed</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(visible neighbour success = peer effect)</div></details></section><section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">'The committee neither rejected nor endorsed the proposal; it sought more data.' Committee's stance:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>rejection</span></li><li><span class="opt">(b)</span><span>endorsement</span></li><li><span class="opt">(c)</span><span>agnostic-pending-evidence</span></li><li><span class="opt">(d)</span><span>indifference</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(data awaited)</div></details></section><section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">'Only two of the five promises were fulfilled; the rest remain aspirational.' Which statement follows?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>no promise was fulfilled</span></li><li><span class="opt">(b)</span><span>three promises are unfulfilled</span></li><li><span class="opt">(c)</span><span>promises were illegal</span></li><li><span class="opt">(d)</span><span>all promises were fulfilled</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(5−2 = 3 unfulfilled)</div></details></section>
 <h3 id="set-2">Set 2</h3>
-<ol start="6">
-<li><strong>Q6.</strong> 'Critics call the dam a lifeline; displaced communities call it a loss.' The passage presents: (a) pro-dam position (b) anti-dam position (c) two contesting perspectives (d) government position</li>
-<li><strong>Q7.</strong> 'Sleep deprivation impairs judgement more than hunger, studies suggest.' Inference: (a) hunger has no effect (b) judgement is affected more by lack of sleep than by lack of food (c) sleep is irrelevant (d) studies are wrong</li>
-<li><strong>Q8.</strong> 'The scheme succeeded in districts with active panchayats; elsewhere, gains were marginal.' Passage suggests success depended on: (a) scheme design (b) local institutional engagement (c) central funding (d) weather</li>
-<li><strong>Q9.</strong> 'Reform, however gradual, outperforms revolution, the author argues, because institutions learn slowly.' Author prefers: (a) abrupt overhaul (b) incremental reform (c) no change (d) external imposition</li>
-<li><strong>Q10.</strong> 'Digital literacy is necessary but not sufficient for financial inclusion.' Statement analysis: (a) digital literacy guarantees inclusion (b) inclusion needs digital literacy plus more (c) digital literacy is irrelevant (d) inclusion is impossible</li>
-</ol>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">'Critics call the dam a lifeline; displaced communities call it a loss.' The passage presents:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>pro-dam position</span></li><li><span class="opt">(b)</span><span>anti-dam position</span></li><li><span class="opt">(c)</span><span>two contesting perspectives</span></li><li><span class="opt">(d)</span><span>government position</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(two-sided framing)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">'Sleep deprivation impairs judgement more than hunger, studies suggest.' Inference:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>hunger has no effect</span></li><li><span class="opt">(b)</span><span>judgement is affected more by lack of sleep than by lack of food</span></li><li><span class="opt">(c)</span><span>sleep is irrelevant</span></li><li><span class="opt">(d)</span><span>studies are wrong</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(comparative impairment)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">'The scheme succeeded in districts with active panchayats; elsewhere, gains were marginal.' Passage suggests success depended on:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>scheme design</span></li><li><span class="opt">(b)</span><span>local institutional engagement</span></li><li><span class="opt">(c)</span><span>central funding</span></li><li><span class="opt">(d)</span><span>weather</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(active panchayats = local institutions)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">'Reform, however gradual, outperforms revolution, the author argues, because institutions learn slowly.' Author prefers:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>abrupt overhaul</span></li><li><span class="opt">(b)</span><span>incremental reform</span></li><li><span class="opt">(c)</span><span>no change</span></li><li><span class="opt">(d)</span><span>external imposition</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(gradual reform argument)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">'Digital literacy is necessary but not sufficient for financial inclusion.' Statement analysis:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>digital literacy guarantees inclusion</span></li><li><span class="opt">(b)</span><span>inclusion needs digital literacy plus more</span></li><li><span class="opt">(c)</span><span>digital literacy is irrelevant</span></li><li><span class="opt">(d)</span><span>inclusion is impossible</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(necessary ≠ sufficient).</div></details></section>
 <h3 id="answers">Answers</h3>
 <p><strong>1-b</strong> (concrete ⇒ less absorption) · <strong>2-c</strong> (concession + concern = balanced caution) · <strong>3-b</strong> (visible neighbour success = peer effect) · <strong>4-c</strong> (data awaited) · <strong>5-b</strong> (5−2 = 3 unfulfilled) · <strong>6-c</strong> (two-sided framing) · <strong>7-b</strong> (comparative impairment) · <strong>8-b</strong> (active panchayats = local institutions) · <strong>9-b</strong> (gradual reform argument) · <strong>10-b</strong> (necessary ≠ sufficient).</p>
 <blockquote><p>Reattempt after a week; mark every trap type you fell for (reversal-extent-new-fact).</p></blockquote>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-ai-it.html"><span class="lb">← Previous</span>AI, IT, Semiconductors &amp; Quantum</a>
 <a class="r" href="prelims-csat-logical-reasoning.html"><span class="lb">Next →</span>Logical Reasoning &amp; Analytical Ability</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

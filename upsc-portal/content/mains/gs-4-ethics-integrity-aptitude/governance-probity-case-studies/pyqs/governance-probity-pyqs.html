@@ -36,68 +36,163 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Governance, Probity &amp;amp; Case Studies — PYQs</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Governance, Probity &amp;amp; Case Studies — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Governance, Probity &amp;amp; Case Studies — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="mhere">Governance, Probity &amp;amp; Case Studies — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/governance-probity-case-studies.html">📖 Detailed</a><a href="../short-notes/governance-probity-revision.html">📝 Short notes</a><a href="../bullet-points/governance-probity-points.html">🔹 Points</a><a href="../diagrams/probity-architecture.svg">🗺️ Diagrams</a><a href="governance-probity-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">☰ All</a><div class="menu-row"><a href="../bullet-points/governance-probity-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/governance-probity-case-studies.html">📖 Detailed</a><a class="pill" href="../short-notes/governance-probity-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/governance-probity-points.html">🔹 Points</a><a class="pill" href="../diagrams/probity-architecture.svg">🗺️ Diagrams</a><a class="pill" href="governance-probity-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Governance, Probity &amp;amp; Case Studies — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Governance, Probity &amp;amp; Case Studies — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">PYQs</a><span class="mhere">Governance, Probity &amp;amp; Case Studies — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/governance-probity-case-studies.html">📖 Detailed</a><a href="../short-notes/governance-probity-revision.html">📝 Short notes</a><a href="../bullet-points/governance-probity-points.html">🔹 Points</a><a href="../diagrams/probity-architecture.svg">🗺️ Diagrams</a><a href="governance-probity-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">☰ All</a><div class="menu-row"><a href="../bullet-points/governance-probity-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/governance-probity-case-studies.html">📖 Detailed</a><a class="pill" href="../short-notes/governance-probity-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/governance-probity-points.html">🔹 Points</a><a class="pill" href="../diagrams/probity-architecture.svg">🗺️ Diagrams</a><a class="pill" href="governance-probity-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="governance-probity-case-studies-pyqs">Governance, Probity &amp; Case Studies — PYQs</h1>
+<h1 id="governance-probity-case-studies-pyqs">Governance, Probity &amp; Case Studies — PYQs</h1><div class="qa-toolbar no-print"><span class="qa-count">9 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Part-A conceptual Qs + Part-B style case studies below. Answers are original model approaches.</p></blockquote>
 <h2 id="conceptual-mcq-checks">Conceptual MCQ checks</h2>
-<p><strong>Q1.</strong> The "Independent External Monitors" in public procurement are tied to: (a) CVC-supervised Integrity Pacts (b) Lokpal probes (c) RTI second appeals (d) CAG compliance audits</p>
-<p><strong>Model answer:</strong> (a). IEMs monitor Integrity Pacts between procurers and bidders in major contracts.</p>
-<p><strong>Q2.</strong> Which section of the RTI Act mandates proactive disclosure? (a) Section 4 (b) Section 6 (c) Section 8 (d) Section 18</p>
-<p><strong>Model answer:</strong> (a). Section 4 lists proactive disclosures; Section 8 lists exemptions; Section 6 is request-filing.</p>
-<p><strong>Q3.</strong> Prior-approval for investigating certain government servants under the PC Act comes via: (a) Section 17A (b) Section 19 (c) Section 13 (d) Section 7</p>
-<p><strong>Model answer:</strong> (a). Section 17A (2018 amendment) covers approval to <em>investigate</em> decisions of serving officials for their official acts; Section 19 covers sanction to <em>prosecute</em>.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">The "Independent External Monitors" in public procurement are tied to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>CVC-supervised Integrity Pacts</span></li><li><span class="opt">(b)</span><span>Lokpal probes</span></li><li><span class="opt">(c)</span><span>RTI second appeals</span></li><li><span class="opt">(d)</span><span>CAG compliance audits</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>IEMs monitor Integrity Pacts between procurers and bidders in major contracts.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Which section of the RTI Act mandates proactive disclosure?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Section 4</span></li><li><span class="opt">(b)</span><span>Section 6</span></li><li><span class="opt">(c)</span><span>Section 8</span></li><li><span class="opt">(d)</span><span>Section 18</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Section 4 lists proactive disclosures; Section 8 lists exemptions; Section 6 is request-filing.</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Prior-approval for investigating certain government servants under the PC Act comes via:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Section 17A</span></li><li><span class="opt">(b)</span><span>Section 19</span></li><li><span class="opt">(c)</span><span>Section 13</span></li><li><span class="opt">(d)</span><span>Section 7</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Section 17A (2018 amendment) covers approval to <em>investigate</em> decisions of serving officials for their official acts; Section 19 covers sanction to <em>prosecute</em>.</div></details></section>
 <h2 id="mains-theory-qs">Mains theory Qs</h2>
-<p><strong>Q4.</strong> "RTI at twenty shows the armour intact but the vigour frayed." Evaluate in the light of 2019 amendments and commissioner vacancies. (150 words)</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Achievements: section-4 culture shift; social-audit fertilisation (MGNREGA); activist ecosystem.</li><li>2019 amendments: tenure/salary shifts to rules-based (autonomy question) + IC vacancies/backlog data.</li><li>Functional check: DPDP 2023 tensions (s8(1)(j) recalibration) — ongoing legislative dialogue.</li><li>Conclusion: structural reforms owed (fund stability for SICs, digital RTI engines, penalty-usage standards).</li></ul>
-<p><strong>Q5.</strong> "DBT has reduced leakage but not exclusion." Discuss with evidence from PM-KISAN &amp; MGNREGA experiences. (250 words)</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Trinity stack (Aadhaar-PMJDY-mobile); claimed savings ~₹2.7 lakh crore (2014–23) · weed-out audits.</li><li>Leakage-reduction evidence (ghost-beneficiary culls; Jharkhand pension scores; PM-KISAN verifications removing lakhs).</li><li>Exclusion side: Aadhaar-seeding failure peaks (2020–21), authentication failure → deny-food-event reports (Ranchi narrative), gender/aged mobility disadvantages; pay-order stalled by KYC cycles.</li><li>Fixes: offline-audit fallback, exception-queue architecture, state-level hardship-relief funds (ODF-style payouts), DBT-exception desks at PM-GP offices; consent-first data minimisation under DPDP.</li><li>Conclusion: methodology of efficiency with floor of inclusion.</li></ul>
-<p><strong>Q6.</strong> "A citizen's charter without a compensation clause is etiquette, not entitlement." Evaluate in light of MP's Lok Sewa Guarantee Act and Karnataka's Sakala. (150 words)</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Charter evolution (DARPG 1997 → Sevottam → states' statutory franchises).</li><li>MP model (2009) &amp; Sakala (2011) — legal timelines + penalty on officer + compensation to citizen.</li><li>Remaining gaps: awareness asymmetries; urban bias in uptake; integration with CPGRAMS.</li><li>Conclusion: statutory form converts etiquette into procedural rights — Bengaluru-style appeals still needed.</li></ul>
-<h2 id="case-study-questions-with-structured-model-answers">Case-study questions with structured model answers</h2>
-<p><strong>Q7. (Case)</strong> You are DC of a flood-prone district. A minister's office asks you to divert part of the district contingency fund for a "publicity event" marking the state government's disaster-relief week, promising future approvals for a pending embankment scheme in return. Identify the ethical issues and chart your response.</p>
-<p><em>Model answer approach:</em></p>
-<ul><li>Issues: misuse of contingency fund (GF violation), quid-pro-quo pressure, long-public-interest (embankment) vs instant optics, precedent-setting risk.</li><li>Stakeholders: flood-affected residents; district treasury; government credibility; the officer's career.</li><li>Steps: seek the request <strong>in writing</strong>; brief on fund-use rules (GFR/SCNDRF manuals) citing audit risk (CAG); offer compliant alternative (ministerial visit for damage-assessment review + future-benefit rationale exhausted formally); if pressure persists, escalate: chef-secretary + CVC advisory route; document file note; inform local press about lawful-relief plans (counter-narrative).</li><li>Systemic fix: publish district fund utilisation monthly; grievance + RTI proactivity reduces future political temptation.</li><li>Dilemma-essence: <strong>rule of duty vs utilitarian trade</strong> → conclude with "probity-precedent beats short-term scheme-chasing."</li></ul>
-<p><strong>Q8. (Case)</strong> Your municipal corporation discovers that an outsourced sanitation contractor has been paying caste-segregated wages and assigning night-soil clearing to a single community, violating the Prohibition of Employment as Manual Scavengers and their Rehabilitation Act 2013. The contractor is politically connected and the city cleanliness rating is due. Outline your action.</p>
-<p><em>Model answer approach:</em></p>
-<ul><li>Issues: illegality (PEMSR Act 2013), caste-based labour discrimination (constitutional morality Art 17 angle), contractual breach, safety/humanity.</li><li>Stakeholders: sanitation workers (primary); contractor; city residents; safety regulator; election-sensitive rating timeline.</li><li>Steps: immediate suspension of those work-streams; emergency safety measures (mechanisation kits, PPE) for workers still deployed; FIR + registration; <strong>neue</strong> contract audit; recovery + compensation for affected workers (statutory + rehabilitation scheme activation); notify ULB anti-discrimination cell; public disclosure via corporation website (Sevottam-style transparency).</li><li>Systemic fix: mechanised septic tank cleaning mandates + worker-ID database + helpline + local NGO monitoring panels.</li><li>Dilemma-essence: <strong>law+humanity vs pragmatic continuity of services + political pressure</strong> → opt for legality with service continuity via interim mechanised capacity.</li></ul>
-<p><strong>Q9. (Case)</strong> During oxygen scarcity, a district supplies quota-heavy hubs (private hospitals with strong lobbying) over under-monitored CHCs. A video goes viral accusing district administration of bias. Fix the immediate + institutional response.</p>
-<p><em>Model answer approach:</em></p>
-<ul><li>Stakeholders: patients (CHCs vs hubs), suppliers, dist admin, oxygen vendors, state taskforce, media.</li><li>Immediate: publish allocation criteria (ICMR/WHO triage-based) + live dashboard (hospital stock × consumption × inflow, ward-wise) + reallocation tonight based on published criteria + CHC buffer deliveries (ambulance tiering); grievance number for hospitals.</li><li>Mid-term: hub-CHC pooling compensations; oxygen audit commission; complaints tribunal with physician representation; restocking SLA rules.</li><li>Dilemma-essence: <strong>fast-but-hidden allocation vs transparent-but-slower processes</strong> → documentation-first fairness.</li></ul>
-</div>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"RTI at twenty shows the armour intact but the vigour frayed." Evaluate in the light of 2019 amendments and commissioner vacancies. (150 words)</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Achievements: section-4 culture shift; social-audit fertilisation (MGNREGA); activist ecosystem.</li><li>2019 amendments: tenure/salary shifts to rules-based (autonomy question) + IC vacancies/backlog data.</li><li>Functional check: DPDP 2023 tensions (s8(1)(j) recalibration) — ongoing legislative dialogue.</li><li>Conclusion: structural reforms owed (fund stability for SICs, digital RTI engines, penalty-usage standards).</li></ul></div></section>
+
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"DBT has reduced leakage but not exclusion." Discuss with evidence from PM-KISAN &amp; MGNREGA experiences. (250 words)</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Trinity stack (Aadhaar-PMJDY-mobile); claimed savings ~₹2.7 lakh crore (2014–23) · weed-out audits.</li><li>Leakage-reduction evidence (ghost-beneficiary culls; Jharkhand pension scores; PM-KISAN verifications removing lakhs).</li><li>Exclusion side: Aadhaar-seeding failure peaks (2020–21), authentication failure → deny-food-event reports (Ranchi narrative), gender/aged mobility disadvantages; pay-order stalled by KYC cycles.</li><li>Fixes: offline-audit fallback, exception-queue architecture, state-level hardship-relief funds (ODF-style payouts), DBT-exception desks at PM-GP offices; consent-first data minimisation under DPDP.</li><li>Conclusion: methodology of efficiency with floor of inclusion.</li></ul></div></section>
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"A citizen's charter without a compensation clause is etiquette, not entitlement." Evaluate in light of MP's Lok Sewa Guarantee Act and Karnataka's Sakala. (150 words)</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Charter evolution (DARPG 1997 → Sevottam → states' statutory franchises).</li><li>MP model (2009) &amp; Sakala (2011) — legal timelines + penalty on officer + compensation to citizen.</li><li>Remaining gaps: awareness asymmetries; urban bias in uptake; integration with CPGRAMS.</li><li>Conclusion: statutory form converts etiquette into procedural rights — Bengaluru-style appeals still needed.</li></ul></div></section><h2 id="case-study-questions-with-structured-model-answers">Case-study questions with structured model answers</h2>
+
+
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span><span class="qa-tag">Case</span></div><p class="qa-text">You are DC of a flood-prone district. A minister's office asks you to divert part of the district contingency fund for a "publicity event" marking the state government's disaster-relief week, promising future approvals for a pending embankment scheme in return. Identify the ethical issues and chart your response.</p><p class="qa-text"><em>Model answer approach:</em></p><ul class="qa-stmts"><li>Issues: misuse of contingency fund (GF violation), quid-pro-quo pressure, long-public-interest (embankment) vs instant optics, precedent-setting risk.</li><li>Stakeholders: flood-affected residents; district treasury; government credibility; the officer's career.</li><li>Steps: seek the request <strong>in writing</strong>; brief on fund-use rules (GFR/SCNDRF manuals) citing audit risk (CAG); offer compliant alternative (ministerial visit for damage-assessment review + future-benefit rationale exhausted formally); if pressure persists, escalate: chef-secretary + CVC advisory route; document file note; inform local press about lawful-relief plans (counter-narrative).</li><li>Systemic fix: publish district fund utilisation monthly; grievance + RTI proactivity reduces future political temptation.</li><li>Dilemma-essence: <strong>rule of duty vs utilitarian trade</strong> → conclude with "probity-precedent beats short-term scheme-chasing."</li></ul></div></section>
+
+
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span><span class="qa-tag">Case</span></div><p class="qa-text">Your municipal corporation discovers that an outsourced sanitation contractor has been paying caste-segregated wages and assigning night-soil clearing to a single community, violating the Prohibition of Employment as Manual Scavengers and their Rehabilitation Act 2013. The contractor is politically connected and the city cleanliness rating is due. Outline your action.</p><p class="qa-text"><em>Model answer approach:</em></p><ul class="qa-stmts"><li>Issues: illegality (PEMSR Act 2013), caste-based labour discrimination (constitutional morality Art 17 angle), contractual breach, safety/humanity.</li><li>Stakeholders: sanitation workers (primary); contractor; city residents; safety regulator; election-sensitive rating timeline.</li><li>Steps: immediate suspension of those work-streams; emergency safety measures (mechanisation kits, PPE) for workers still deployed; FIR + registration; <strong>neue</strong> contract audit; recovery + compensation for affected workers (statutory + rehabilitation scheme activation); notify ULB anti-discrimination cell; public disclosure via corporation website (Sevottam-style transparency).</li><li>Systemic fix: mechanised septic tank cleaning mandates + worker-ID database + helpline + local NGO monitoring panels.</li><li>Dilemma-essence: <strong>law+humanity vs pragmatic continuity of services + political pressure</strong> → opt for legality with service continuity via interim mechanised capacity.</li></ul></div></section>
+
+
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span><span class="qa-tag">Case</span></div><p class="qa-text">During oxygen scarcity, a district supplies quota-heavy hubs (private hospitals with strong lobbying) over under-monitored CHCs. A video goes viral accusing district administration of bias. Fix the immediate + institutional response.</p><p class="qa-text"><em>Model answer approach:</em></p><ul class="qa-stmts"><li>Stakeholders: patients (CHCs vs hubs), suppliers, dist admin, oxygen vendors, state taskforce, media.</li><li>Immediate: publish allocation criteria (ICMR/WHO triage-based) + live dashboard (hospital stock × consumption × inflow, ward-wise) + reallocation tonight based on published criteria + CHC buffer deliveries (ambulance tiering); grievance number for hospitals.</li><li>Mid-term: hub-CHC pooling compensations; oxygen audit commission; complaints tribunal with physician representation; restocking SLA rules.</li><li>Dilemma-essence: <strong>fast-but-hidden allocation vs transparent-but-slower processes</strong> → documentation-first fairness.</li></ul></div></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/governance-probity-points.html" rel="prev">← Governance, Probity &amp;amp; Case St…</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -143,8 +187,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p>Two frameworks add analytical value in mains. <strong>Agro-climatic zones</strong> — the Planning Commission's fifteen zones based on soil, climate, rainfall and water resources, used to align cropping patterns with natural endowment. And the <strong>agro-ecological regions</strong> delineated by the National Bureau of Soil Survey and Land Use Planning, which combine soil, physiography and length of growing period.</p>
 <blockquote><p><strong>Trap watch.</strong> Alluvial soil is the most extensive in India, not black soil. Black soil is rich in lime and iron but <em>poor</em> in nitrogen, phosphorus and organic matter. Laterite is acidic and infertile despite forming under heavy rainfall, because leaching removes the bases. Khadar is newer and more fertile than bhangar. Red colour comes from ferric oxide diffusion, not from high iron availability. Sheet erosion is the most widespread and least noticed. Regur is formed <em>in situ</em> from basalt, so it is a residual, not transported, soil.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -160,8 +202,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li><strong>MSP</strong>: 22 crops + FRP sugarcane (+ toria, de-husked coconut); CACP recommends; CCEA approves; <strong>A2+FL + 50%</strong> formula (2018); paddy ₹2,369/q, wheat ₹2,585/q (2025–26); procurement FCI (wheat/rice), NAFED (pulses/oilseeds — PSS, PM-AASHA 2018 → PDPS, PPSS; 2024 PM-AASHA integrated), CCI (cotton), JCI (jute). Farm laws 2020 repealed Nov 2021; MSP legal guarantee demand; Swaminathan C2+50% debate; <strong>Green Revolution</strong> (1966–; Borlaug, M.S. Swaminathan (died 2023; Bharat Ratna 2024); HYV wheat Mexico dwarf; Punjab-Haryana-W UP; IR-8 rice), White (Kurien; Operation Flood 1970; AMUL), Blue (fish), Yellow (oilseeds 1986 TMO), Golden (horticulture/honey), Pink (prawn/onion?), Silver (eggs), Grey (fertiliser), Brown (leather/cocoa), Black (petroleum), Round (potato), Red (meat/tomato), Evergreen (Swaminathan).</li><li>Schemes: <strong>PM-KISAN</strong> (₹6,000/yr; 2019; ~9.8 cr), <strong>PMFBY</strong> (2016; premium 2% kharif, 1.5% rabi, 5% horticulture; YES-Tech, WINDS 2023), <strong>KCC</strong> (1998; 4% effective; limit ₹5 lakh 2025), e-NAM (2016; 1,389 mandis), <strong>Soil Health Card</strong>, PKVY &amp; Mission Organic NE, <strong>Namami Gange natural farming</strong>, National Mission on Natural Farming 2024, <strong>Agri Infrastructure Fund</strong> (₹1 lakh cr), FPOs (10,000 target reached 2025), <strong>PM-PRANAM</strong>, PM-KUSUM, <strong>Digital Agriculture Mission 2024 (AgriStack, Krishi DSS, farmer ID)</strong>, <strong>PM Dhan-Dhaanya Krishi Yojana 2025 (100 low-productivity districts)</strong>, National Mission on Edible Oils, Kisan Rail (2020), Gramin Bhandaran, Agri Export Policy 2018, APEDA, Nano urea (IFFCO 2021), <strong>One Nation One Fertiliser (Bharat brand 2022)</strong>, NBS (P&amp;K subsidy), urea 45-kg bag ₹242; neem-coated; <strong>PM-Kisan Samman Sammelan</strong>; agricultural census 11th (2021–22); <strong>Situation Assessment Survey (NSSO 77th: avg farm household income ₹10,218/month 2018–19)</strong>; Agri credit target ₹20 lakh cr (2024–25); NABARD 1982 (Sivaraman); RRBs 1975; PACS computerisation; National Cooperative Policy 2025; <strong>Ministry of Cooperation 2021</strong>; Doubling Farmers' Income (Dalwai 2016–22); Model APLM Act 2017, Contract Farming Act 2018; Shanta Kumar (FCI 2015); <strong>ICAR 1929</strong> (Delhi; 113 institutes; IARI Pusa — 1905 Pusa Bihar → Delhi 1936); <strong>CGIAR</strong>; IRRI-SARC Varanasi; ICRISAT Hyderabad (semi-arid; 1972); Krishi Vigyan Kendras (731+); Seed Act 1966 (Bill 2019); PPV&amp;FR Act 2001 (Pepsico potato case); Bt brinjal moratorium 2010; <strong>GM mustard</strong> (GEAC 2022); <strong>Genome-edited rice (DRR Dhan 100 Kamala, Pusa DST Rice 1 — May 2025, world first)</strong>; <strong>Agro-climatic zones 15</strong>; <strong>Agroforestry policy 2014</strong> (first in world); <strong>National Livestock Mission</strong>; Livestock Census 2019 (536 mn; 21st census 2024–25); India largest milk (~239 Mt; UP, Rajasthan, MP), buffalo, largest cattle population; egg 3rd; meat 5th; fish 2nd (IMC carps; PMMSY 2020; ₹20,050 cr; Blue Revolution; Andhra largest inland, Gujarat marine); Rashtriya Gokul Mission; FMD/Brucellosis NADCP; <strong>Lumpy skin 2022</strong>; poultry (bird flu H5N1); apiculture (National Beekeeping &amp; Honey Mission; Sweet revolution).</li></ul>
 <h3 id="traps">Traps</h3>
 <ul><li><strong>WB leads rice</strong>, UP wheat <em>and</em> sugarcane, <strong>Gujarat cotton</strong>, Karnataka coffee (not Kerala), Kerala rubber &amp; pepper &amp; cardamom, Assam tea, <strong>MP pulses &amp; soybean</strong>, Rajasthan mustard &amp; bajra, Andhra chilli/aquaculture, Maharashtra onion/grapes/pomegranate/banana (?), J&amp;K apple &amp; saffron &amp; walnut, Bihar litchi &amp; makhana (GI 2022; Makhana Board 2025), Karnataka ragi &amp; silk &amp; areca.</li><li>MSP is <em>announced</em> for 22 crops but <em>procured</em> mainly wheat &amp; paddy; sugarcane is <strong>FRP</strong> (Centre) + <strong>SAP</strong> (states).</li><li>Irrigation: wells &gt; canals &gt; tanks nationally; canals dominate in **Punjab? No — Punjab is tube-well 70%+; canals highest share in Odisha/J&amp;K/UP-Haryana mix; tanks in TN/AP/Karnataka.</li><li>Cropping intensity = GCA/NSA × 100 (~155%); Punjab ~190% highest; Rajasthan lower.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -177,8 +217,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Cropping intensity >150% · jhum = NE shifting cultivation · ZBNF = Subhash Palekar · natural-farming AP model.</li></ul>
 <h3 id="trap-flash">Trap flash</h3>
 <ul><li>Laterite ≠ black soil (leaching vs basalt) — origin trap.</li><li>Rice = kharif; wheat = rabi — seasonal swap options common.</li><li>CACP recommends; the Government notifies MSP (CACP doesn't fix).</li><li>Coffee state = Karnataka (~70%), not Kerala (rubber/tea state).</li><li>Millets year = 2023 (IYM), proposed by India — not 2022.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -226,22 +264,24 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>8 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Which of the following crops is most closely associated with black (regur) soil? (a) Jute (b) Cotton (c) Tea (d) Rice</p>
-<p><strong>Q2.</strong> Match the state with its leading crop: A. Assam — 1. Coffee · B. Karnataka — 2. Tea · C. Kerala — 3. Rubber (a) A-2 B-1 C-3 (b) A-1 B-2 C-3 (c) A-3 B-1 C-2 (d) A-2 B-3 C-1</p>
-<p><strong>Q3.</strong> Consider the Minimum Support Price system: 1. MSP is recommended by the CACP and approved by the CCEA. 2. Sugarcane is covered by an FRP rather than an MSP. 3. MSP is announced for 22 mandated crops. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q4.</strong> The largest source of irrigation in India by net irrigated area is: (a) Canals (b) Tanks (c) Wells and tube-wells (d) Lift irrigation from rivers</p>
-<p><strong>Q5.</strong> Cropping intensity is calculated as: (a) Net sown area ÷ gross cropped area × 100 (b) Gross cropped area ÷ net sown area × 100 (c) Irrigated area ÷ net sown area × 100 (d) Gross cropped area ÷ geographical area × 100</p>
-<p><strong>Q6.</strong> <em>Boro</em> rice in West Bengal is: (a) A kharif crop sown with the monsoon (b) A winter/summer irrigated crop with the highest yield (c) A rain-fed upland variety (d) A deep-water floating rice</p>
-<p><strong>Q7.</strong> Consider pulses in India: 1. India is the largest producer and consumer. 2. Madhya Pradesh is the leading producer. 3. India is self-sufficient and exports large quantities. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q8.</strong> The PM Fasal Bima Yojana caps farmer premium for kharif food and oilseed crops at: (a) 1.5% (b) 2% (c) 5% (d) 10%</p>
-<h3 id="answer-key">Answer key</h3>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Which of the following crops is most closely associated with black (regur) soil?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Jute</span></li><li><span class="opt">(b)</span><span>Cotton</span></li><li><span class="opt">(c)</span><span>Tea</span></li><li><span class="opt">(d)</span><span>Rice</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Moisture-retentive clay suits cotton.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Match the state with its leading crop: A. Assam — 1. Coffee · B. Karnataka — 2. Tea · C. Kerala — 3. Rubber</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A-2 B-1 C-3</span></li><li><span class="opt">(b)</span><span>A-1 B-2 C-3</span></li><li><span class="opt">(c)</span><span>A-3 B-1 C-2</span></li><li><span class="opt">(d)</span><span>A-2 B-3 C-1</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Standard leaders.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Consider the Minimum Support Price system: 1. MSP is recommended by the CACP and approved by the CCEA. 2. Sugarcane is covered by an FRP rather than an MSP. 3. MSP is announced for 22 mandated crops.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct (22 crops + FRP for cane).</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">The largest source of irrigation in India by net irrigated area is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Canals</span></li><li><span class="opt">(b)</span><span>Tanks</span></li><li><span class="opt">(c)</span><span>Wells and tube-wells</span></li><li><span class="opt">(d)</span><span>Lift irrigation from rivers</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>~63% of net irrigated area from groundwater.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Cropping intensity is calculated as:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Net sown area ÷ gross cropped area × 100</span></li><li><span class="opt">(b)</span><span>Gross cropped area ÷ net sown area × 100</span></li><li><span class="opt">(c)</span><span>Irrigated area ÷ net sown area × 100</span></li><li><span class="opt">(d)</span><span>Gross cropped area ÷ geographical area × 100</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>India ~155%.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text"><em>Boro</em> rice in West Bengal is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A kharif crop sown with the monsoon</span></li><li><span class="opt">(b)</span><span>A winter/summer irrigated crop with the highest yield</span></li><li><span class="opt">(c)</span><span>A rain-fed upland variety</span></li><li><span class="opt">(d)</span><span>A deep-water floating rice</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Boro (winter-spring, irrigated); aus (autumn); aman (winter, main).</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Consider pulses in India: 1. India is the largest producer and consumer. 2. Madhya Pradesh is the leading producer. 3. India is self-sufficient and exports large quantities.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>India imports 4–5 Mt of pulses annually.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">The PM Fasal Bima Yojana caps farmer premium for kharif food and oilseed crops at:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1.5%</span></li><li><span class="opt">(b)</span><span>2%</span></li><li><span class="opt">(c)</span><span>5%</span></li><li><span class="opt">(d)</span><span>10%</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>2% kharif, 1.5% rabi, 5% commercial/horticultural.</div></details></section><h3 id="answer-key">Answer key</h3>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>Moisture-retentive clay suits cotton.</td></tr><tr><td>2</td><td>a</td><td>Standard leaders.</td></tr><tr><td>3</td><td>d</td><td>All correct (22 crops + FRP for cane).</td></tr><tr><td>4</td><td>c</td><td>~63% of net irrigated area from groundwater.</td></tr><tr><td>5</td><td>b</td><td>India ~155%.</td></tr><tr><td>6</td><td>b</td><td>Boro (winter-spring, irrigated); aus (autumn); aman (winter, main).</td></tr><tr><td>7</td><td>a</td><td>India imports 4–5 Mt of pulses annually.</td></tr><tr><td>8</td><td>b</td><td>2% kharif, 1.5% rabi, 5% commercial/horticultural.</td></tr></tbody></table>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-climate-india.html"><span class="lb">← Previous</span>Climate of India: Monsoon Mechanism</a>
 <a class="r" href="prelims-gs1-minerals-industries.html"><span class="lb">Next →</span>Minerals, Energy Resources &amp; Industries</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

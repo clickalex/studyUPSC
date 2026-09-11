@@ -36,64 +36,159 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Ethics Foundations — PYQs</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Ethics Foundations — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Ethics Foundations — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="mhere">Ethics Foundations — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/ethics-foundations.html">📖 Detailed</a><a href="../short-notes/ethics-foundations-revision.html">📝 Short notes</a><a href="../bullet-points/ethics-foundations-points.html">🔹 Points</a><a href="../diagrams/decision-framework.svg">🗺️ Diagrams</a><a href="ethics-foundations-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">☰ All</a><div class="menu-row"><a href="../bullet-points/ethics-foundations-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/ethics-foundations.html">📖 Detailed</a><a class="pill" href="../short-notes/ethics-foundations-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/ethics-foundations-points.html">🔹 Points</a><a class="pill" href="../diagrams/decision-framework.svg">🗺️ Diagrams</a><a class="pill" href="ethics-foundations-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Ethics Foundations — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Ethics Foundations — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude">GS IV — Ethics, Integrity &amp; Aptitude</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">PYQs</a><span class="mhere">Ethics Foundations — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/ethics-foundations.html">📖 Detailed</a><a href="../short-notes/ethics-foundations-revision.html">📝 Short notes</a><a href="../bullet-points/ethics-foundations-points.html">🔹 Points</a><a href="../diagrams/decision-framework.svg">🗺️ Diagrams</a><a href="ethics-foundations-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">☰ All</a><div class="menu-row"><a href="../bullet-points/ethics-foundations-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/ethics-foundations.html">📖 Detailed</a><a class="pill" href="../short-notes/ethics-foundations-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/ethics-foundations-points.html">🔹 Points</a><a class="pill" href="../diagrams/decision-framework.svg">🗺️ Diagrams</a><a class="pill" href="ethics-foundations-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="ethics-foundations-pyqs">Ethics Foundations — PYQs</h1>
+<h1 id="ethics-foundations-pyqs">Ethics Foundations — PYQs</h1><div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>GS-4 pattern: Part A ~6 mains theory Qs; Part B case studies. These originals mirror UPSC style with model approaches.</p></blockquote>
 <h2 id="prelims-style-checks-concept-positioning">Prelims-style checks (concept positioning)</h2>
-<p><strong>Q1.</strong> "Ethics of care" as a critique of dominant moral-development theory is linked to: (a) Carol Gilligan (b) Lawrence Kohlberg (c) John Rawls (d) Hannah Arendt</p>
-<p><strong>Model answer:</strong> (a). Gilligan (1982, <em>In a Different Voice</em>) critiqued Kohlberg's justice-bias stages and foregrounded relational care.</p>
-<p><strong>Q2.</strong> The "veil of ignorance" is an instrument for arriving at principles of: (a) Virtue, in Aristotle (b) Justice, in Rawls (c) Rights, in Nozick (d) Duty, in Kant</p>
-<p><strong>Model answer:</strong> (b). Rawls' original-position construct yields the two principles of justice.</p>
-<p><strong>Q3.</strong> "Banality of evil" emerged from Arendt's reporting on: (a) Stalin's show trials (b) Adolf Eichmann's Jerusalem trial (c) the Nuremberg prosecutor general (d) Milgram's obedience lab</p>
-<p><strong>Model answer:</strong> (b). <strong>Eichmann in Jerusalem</strong> (1963) — Arendt's analysis of routinised bureaucratic evil.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">"Ethics of care" as a critique of dominant moral-development theory is linked to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Carol Gilligan</span></li><li><span class="opt">(b)</span><span>Lawrence Kohlberg</span></li><li><span class="opt">(c)</span><span>John Rawls</span></li><li><span class="opt">(d)</span><span>Hannah Arendt</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Gilligan (1982, <em>In a Different Voice</em>) critiqued Kohlberg's justice-bias stages and foregrounded relational care.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">The "veil of ignorance" is an instrument for arriving at principles of:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Virtue, in Aristotle</span></li><li><span class="opt">(b)</span><span>Justice, in Rawls</span></li><li><span class="opt">(c)</span><span>Rights, in Nozick</span></li><li><span class="opt">(d)</span><span>Duty, in Kant</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Rawls' original-position construct yields the two principles of justice.</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">"Banality of evil" emerged from Arendt's reporting on:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Stalin's show trials</span></li><li><span class="opt">(b)</span><span>Adolf Eichmann's Jerusalem trial</span></li><li><span class="opt">(c)</span><span>the Nuremberg prosecutor general</span></li><li><span class="opt">(d)</span><span>Milgram's obedience lab</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span><strong>Eichmann in Jerusalem</strong> (1963) — Arendt's analysis of routinised bureaucratic evil.</div></details></section>
 <h2 id="mains-theory-questions-with-model-skeletons">Mains theory questions with model-skeletons</h2>
-<p><strong>Q4.</strong> "Emotional intelligence in administration is the thin line between empathy and capture." Discuss. (150 words)</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Define EI (Goleman: self-awareness, self-regulation, motivation, empathy, social skill).</li><li>Empathy value: grievance-design, disaster response, community protest management.</li><li>Capture risk: favouritism in service delivery; succumbing to local elite cues; sympathy fatigue → misallocation.</li><li>Guards: SOPs, rotation, periodic audits, ethical check-ins (2nd ARC style), mentoring.</li><li>Conclusion: "equilibrated empathy is intelligence; asymmetric empathy is capture."</li></ul>
-<p><strong>Q5.</strong> "Rawls' difference principle would find Indian welfare more just if it actually served the least-advantaged first." Evaluate with NFSA/DBT evidence.</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Difference principle recap (inequality only if benefit-to-least-advantaged max).</li><li>NFSA entitlement cover + DBT leakage cuts; PM-KISAN as broad-base transfer.</li><li>Counter-evidence: widening gap post-2017 consumption scores debate; PLFS earnings concentration.</li><li>Assessment: partial alignment; structural shifts (agri income share, informal-labour precarity).</li><li>Way forward: social protection floors + wealth-instrument rationalisation (inheritance-tax debate neutrality).</li></ul>
-<p><strong>Q6.</strong> "Conscience is the only genuine compass when orders and duties collide." Examine in the context of hierarchical administrative systems. (250 words)</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Define conscience (inner ethical voice shaped by socialisation).</li><li>Order-duty collisions: illegal orders (encounter killings), politically-motivated transfers, selective enforcement.</li><li>Thinker stack: Socrates (conscience over consensus), Thoreau (civil disobedience), Arendt warning of routinised complicity; also Kohlberg post-conventional stage.</li><li>Institutional backstops: dissent channels (2nd ARC), RTI, Lokpal, judicial review.</li><li>Practical rule: written-order request + documented dissent + remedial reporting — reduces whistleblower asymmetry.</li><li>Conclusion: conscience needs institutional amplification, not just moral courage.</li></ul>
-<p><strong>Q7.</strong> "Attitude change, not merely rule change, explains sanitation success." Connect behavioural-attitude models with Swachh Bharat evidence.</p>
-<p><em>Skeleton:</em></p>
-<ul><li>ABC model + ELM central/peripheral persuasion routes.</li><li>Swachh Bharat twin drivers: infrastructure (toilet construction) + behavioural messaging (celebrity endorsement + women's dignity frame — peripheral cues + identity leverage).</li><li>Evidence: ODF-village cadence 2014–19; SBM-U ODF++ 2020s refinement.</li><li>Limits: forest-hessian ("mirror" messaging backlash), O&amp;M failures, caste-linked manual-scavenging persistence (Prohibition of Employment as Manual Scavengers Act 2013 updates).</li><li>Conclusion: rules enable; identity-aligned persuasion sustains.</li></ul>
-<p><strong>Q8.</strong> "Nolan principles are aspirational universalism in a differentiated world." Do you agree? Illustrate with Indian civil-service codes.</p>
-<p><em>Skeleton:</em></p>
-<ul><li>Nolan 7 recap.</li><li>Aspiration strength: selflessness/integrity/accountability as global baselines (UN Convention anti-corruption echoes).</li><li>Differentiation reality: India stack blends conduct rules (AIS 1968, CCS 1964) + penal spectrum (PC Act 1988 + BNS 2023) + social accountability (RTI + social audits).</li><li>Remaining gap: gift/hospitality norms in state services vary; political-neutrality enforcement ambiguity (transfers).</li><li>Conclusion: universal principles remain defaults; operational adaptation is legitimate, code drift must be audited.</li></ul>
-</div>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Emotional intelligence in administration is the thin line between empathy and capture." Discuss. (150 words)</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Define EI (Goleman: self-awareness, self-regulation, motivation, empathy, social skill).</li><li>Empathy value: grievance-design, disaster response, community protest management.</li><li>Capture risk: favouritism in service delivery; succumbing to local elite cues; sympathy fatigue → misallocation.</li><li>Guards: SOPs, rotation, periodic audits, ethical check-ins (2nd ARC style), mentoring.</li><li>Conclusion: "equilibrated empathy is intelligence; asymmetric empathy is capture."</li></ul></div></section>
+
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Rawls' difference principle would find Indian welfare more just if it actually served the least-advantaged first." Evaluate with NFSA/DBT evidence.</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Difference principle recap (inequality only if benefit-to-least-advantaged max).</li><li>NFSA entitlement cover + DBT leakage cuts; PM-KISAN as broad-base transfer.</li><li>Counter-evidence: widening gap post-2017 consumption scores debate; PLFS earnings concentration.</li><li>Assessment: partial alignment; structural shifts (agri income share, informal-labour precarity).</li><li>Way forward: social protection floors + wealth-instrument rationalisation (inheritance-tax debate neutrality).</li></ul></div></section>
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"Conscience is the only genuine compass when orders and duties collide." Examine in the context of hierarchical administrative systems. (250 words)</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Define conscience (inner ethical voice shaped by socialisation).</li><li>Order-duty collisions: illegal orders (encounter killings), politically-motivated transfers, selective enforcement.</li><li>Thinker stack: Socrates (conscience over consensus), Thoreau (civil disobedience), Arendt warning of routinised complicity; also Kohlberg post-conventional stage.</li><li>Institutional backstops: dissent channels (2nd ARC), RTI, Lokpal, judicial review.</li><li>Practical rule: written-order request + documented dissent + remedial reporting — reduces whistleblower asymmetry.</li><li>Conclusion: conscience needs institutional amplification, not just moral courage.</li></ul></div></section>
+
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">"Attitude change, not merely rule change, explains sanitation success." Connect behavioural-attitude models with Swachh Bharat evidence.</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>ABC model + ELM central/peripheral persuasion routes.</li><li>Swachh Bharat twin drivers: infrastructure (toilet construction) + behavioural messaging (celebrity endorsement + women's dignity frame — peripheral cues + identity leverage).</li><li>Evidence: ODF-village cadence 2014–19; SBM-U ODF++ 2020s refinement.</li><li>Limits: forest-hessian ("mirror" messaging backlash), O&amp;M failures, caste-linked manual-scavenging persistence (Prohibition of Employment as Manual Scavengers Act 2013 updates).</li><li>Conclusion: rules enable; identity-aligned persuasion sustains.</li></ul></div></section>
+
+
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">"Nolan principles are aspirational universalism in a differentiated world." Do you agree? Illustrate with Indian civil-service codes.</p><p class="qa-text"><em>Skeleton:</em></p><ul class="qa-stmts"><li>Nolan 7 recap.</li><li>Aspiration strength: selflessness/integrity/accountability as global baselines (UN Convention anti-corruption echoes).</li><li>Differentiation reality: India stack blends conduct rules (AIS 1968, CCS 1964) + penal spectrum (PC Act 1988 + BNS 2023) + social accountability (RTI + social audits).</li><li>Remaining gap: gift/hospitality norms in state services vary; political-neutrality enforcement ambiguity (transfers).</li><li>Conclusion: universal principles remain defaults; operational adaptation is legitimate, code drift must be audited.</li></ul></div></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/ethics-foundations-points.html" rel="prev">← Ethics Foundations — Bullet Points</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

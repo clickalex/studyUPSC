@@ -36,87 +36,182 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir">GS II — Polity, Governance &amp; IR</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">International Relations — PYQs &amp;amp; Model Answers</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir">GS II — Polity, Governance &amp; IR</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">International Relations — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">International Relations — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir">GS II — Polity, Governance &amp; IR</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="mhere">International Relations — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/india-foreign-policy-ir.html">📖 Detailed</a><a href="../short-notes/ir-revision.html">📝 Short notes</a><a href="../bullet-points/ir-points.html">🔹 Points</a><a href="../diagrams/foreign-policy-framework.svg">🗺️ Diagrams</a><a href="international-relations-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">☰ All</a><div class="menu-row"><a href="../bullet-points/ir-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/india-foreign-policy-ir.html">📖 Detailed</a><a class="pill" href="../short-notes/ir-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/ir-points.html">🔹 Points</a><a class="pill" href="../diagrams/foreign-policy-framework.svg">🗺️ Diagrams</a><a class="pill" href="international-relations-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir">GS II — Polity, Governance &amp; IR</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">International Relations — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">International Relations — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir">GS II — Polity, Governance &amp; IR</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">PYQs</a><span class="mhere">International Relations — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/india-foreign-policy-ir.html">📖 Detailed</a><a href="../short-notes/ir-revision.html">📝 Short notes</a><a href="../bullet-points/ir-points.html">🔹 Points</a><a href="../diagrams/foreign-policy-framework.svg">🗺️ Diagrams</a><a href="international-relations-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">☰ All</a><div class="menu-row"><a href="../bullet-points/ir-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/india-foreign-policy-ir.html">📖 Detailed</a><a class="pill" href="../short-notes/ir-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/ir-points.html">🔹 Points</a><a class="pill" href="../diagrams/foreign-policy-framework.svg">🗺️ Diagrams</a><a class="pill" href="international-relations-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="international-relations-pyqs-model-answers">International Relations — PYQs &amp; Model Answers</h1>
+<h1 id="international-relations-pyqs-model-answers">International Relations — PYQs &amp; Model Answers</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h2 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h2>
-<p><strong>Q1. (2015)</strong> Consider the following pairs: <strong>Groupings in which India is a member</strong> —</p>
-<ol><li>QUAD — India, US, Japan, Australia</li><li>SCO — India joined in 2017</li><li>SAARC — headquartered in Kathmandu</li></ol>
-<p>Which of the pairs given above is/are correctly matched? (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — all three are correct (SCO accession Astana summit, June 2017; SAARC Secretariat is in Kathmandu).</p>
-<p><strong>Q2. (2021)</strong> With reference to <strong>Panchsheel</strong>, consider the following statements:</p>
-<ol><li>The five principles were first enumerated in the India–China agreement of 1954.</li><li>They include "mutual non-aggression" and "peaceful co-existence."</li><li>They were declared by the UN General Assembly as the foundation of international law.</li></ol>
-<p>(a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — statement 3 is false; Panchsheel was a bilateral framework, not a UNGA declaration.</p>
-<p><strong>Q3. (2019)</strong> With reference to the <strong>Belt and Road Initiative (BRI)</strong>, consider the following:</p>
-<ol><li>The China–Pakistan Economic Corridor (CPEC) passes through Pakistan-occupied Kashmir.</li><li>India has not endorsed the BRI.</li></ol>
-<p>(a) 1 only (b) 2 only (c) Both (d) Neither</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — India's objections centre precisely on CPEC's route through Indian territory under Pakistani occupation, and it has consistently refused to endorse the BRI.</p>
-<p><strong>Q4. (2020)</strong> In which one of the following groupings is India a member? (a) MERCOSUR (b) ASEAN (c) IORA (d) OECD</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — the Indian Ocean Rim Association (formed 1997); India is in ASEAN-led forums (EAS, ADMM+) but not ASEAN itself.</p>
-<p><strong>Q5. (2022)</strong> With reference to the <strong>New Development Bank</strong>, consider the following statements:</p>
-<ol><li>Its headquarters are in Shanghai.</li><li>It was established by BRICS countries.</li><li>Its founding agreement was signed at the Fortaleza Summit (2014).</li></ol>
-<p>(a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — all three (the Fortaleza Agreement, 2014; HQ in Shanghai, 2015).</p>
-<p><strong>Q6. (2023)</strong> Consider the following pairs: <strong>Island territory ↔ partner country for Indian infrastructure/development</strong> —</p>
-<ol><li>Great Nicobar ↔ holistic island development (India)</li><li>Agatti ↔ Maldives</li><li>Agalega ↔ Mauritius (India-built airstrip)</li></ol>
-<p>(a) 1 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — Agatti is Indian (Lakshadweep); the well-known Mauritius case is the <strong>Agalega</strong> airstrip/jetty project.</p>
-<p><strong>Q7. (2025/2026-style current affairs)</strong> <strong>The Treaty on the Indus Waters (1960)</strong> was brokered by: (a) the United States (b) the World Bank (c) the Soviet Union (d) the United States &amp; the USSR jointly</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — brokered by the <strong>World Bank</strong>; signed Karachi, 19 September 1960 by <strong>Nehru and Ayub Khan</strong>; placed in abeyance by India on 23 April 2025.</p>
+
+
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2015</span></div><p class="qa-text">Consider the following pairs: <strong>Groupings in which India is a member</strong> —</p><p class="qa-lead">Which of the pairs given above is/are correctly matched?</p><ol class="qa-stmts"><li>QUAD — India, US, Japan, Australia</li><li>SCO — India joined in 2017</li><li>SAARC — headquartered in Kathmandu</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>all three are correct (SCO accession Astana summit, June 2017; SAARC Secretariat is in Kathmandu).</div></details></section>
+
+
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2021</span></div><p class="qa-text">With reference to <strong>Panchsheel</strong>, consider the following statements:</p><ol class="qa-stmts"><li>The five principles were first enumerated in the India–China agreement of 1954.</li><li>They include "mutual non-aggression" and "peaceful co-existence."</li><li>They were declared by the UN General Assembly as the foundation of international law.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>statement 3 is false; Panchsheel was a bilateral framework, not a UNGA declaration.</div></details></section>
+
+
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2019</span></div><p class="qa-text">With reference to the <strong>Belt and Road Initiative (BRI)</strong>, consider the following:</p><ol class="qa-stmts"><li>The China–Pakistan Economic Corridor (CPEC) passes through Pakistan-occupied Kashmir.</li><li>India has not endorsed the BRI.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>2 only</span></li><li><span class="opt">(c)</span><span>Both</span></li><li><span class="opt">(d)</span><span>Neither</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>India's objections centre precisely on CPEC's route through Indian territory under Pakistani occupation, and it has consistently refused to endorse the BRI.</div></details></section>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span><span class="qa-tag">2020</span></div><p class="qa-text">In which one of the following groupings is India a member?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>MERCOSUR</span></li><li><span class="opt">(b)</span><span>ASEAN</span></li><li><span class="opt">(c)</span><span>IORA</span></li><li><span class="opt">(d)</span><span>OECD</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>the Indian Ocean Rim Association (formed 1997); India is in ASEAN-led forums (EAS, ADMM+) but not ASEAN itself.</div></details></section>
+
+
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span><span class="qa-tag">2022</span></div><p class="qa-text">With reference to the <strong>New Development Bank</strong>, consider the following statements:</p><ol class="qa-stmts"><li>Its headquarters are in Shanghai.</li><li>It was established by BRICS countries.</li><li>Its founding agreement was signed at the Fortaleza Summit (2014).</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>all three (the Fortaleza Agreement, 2014; HQ in Shanghai, 2015).</div></details></section>
+
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span><span class="qa-tag">2023</span></div><p class="qa-text">Consider the following pairs: <strong>Island territory ↔ partner country for Indian infrastructure/development</strong> —</p><ol class="qa-stmts"><li>Great Nicobar ↔ holistic island development (India)</li><li>Agatti ↔ Maldives</li><li>Agalega ↔ Mauritius (India-built airstrip)</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Agatti is Indian (Lakshadweep); the well-known Mauritius case is the <strong>Agalega</strong> airstrip/jetty project.</div></details></section>
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span><span class="qa-tag">2025/2026-style current affairs</span></div><p class="qa-text"><strong>The Treaty on the Indus Waters (1960)</strong> was brokered by:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>the United States</span></li><li><span class="opt">(b)</span><span>the World Bank</span></li><li><span class="opt">(c)</span><span>the Soviet Union</span></li><li><span class="opt">(d)</span><span>the United States &amp; the USSR jointly</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>brokered by the <strong>World Bank</strong>; signed Karachi, 19 September 1960 by <strong>Nehru and Ayub Khan</strong>; placed in abeyance by India on 23 April 2025.</div></details></section>
 <hr>
 <h2 id="upsc-mains-pyqs">UPSC Mains PYQs</h2>
-<p><strong>Q. (2016)</strong> "Increasing cross-border terrorist attacks in India and growing interference in the internal affairs of member-states by Pakistan are not conducive for the future of SAARC." In light of this statement, discuss India's options. <em>(12.5 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — SAARC's consensus rule + India–Pakistan dyad have stalled the organisation since the postponed 2016 Islamabad summit.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Options within SAARC</strong> — sustained bilateral diplomacy; summit-boycott coalitions (2016: Bangladesh, Afghanistan, Bhutan joined India); prerogative to leverage observer/SAARC-program slots (South Asian University etc.).</li><li><strong>Options beyond SAARC</strong> — <strong>BBIN (2015 motor vehicles pact)</strong>, <strong>BIMSTEC revival</strong> (2018 Kathmandu, 2022 Colombo-virtual, 2025 Bangkok), bilateral connectivity tranches (Bangladesh LBA 2015; Nepal rail/power links; Sri Lanka ferry/energy), <strong>IORA &amp; Colombo Security Conclave</strong>.</li><li><strong>Risk</strong> — ceding South Asia to Chinese infrastructure diplomacy (BRI ports); give-and-take in the small-neighbour states requires continuous attention (Nepal, Maldives).</li><li><strong>Reciprocity principle</strong> — keep SAARC alive as a negotiating table for a future time; build <em>coalitions of the willing</em> meanwhile.</li></ol>
-<p><strong>Conclusion</strong> — India's answer has been the "SAARC-minus-one plus sub-regionalism" architecture — BBIN/BIMSTEC/bilateral — while keeping SAARC formally alive as a dormant option.</p>
-<hr>
-<p><strong>Q. (2017)</strong> "India's relations with Israel have, of late, acquired a depth that cannot be rolled back." Discuss. <em>(10 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — Full diplomatic ties only since 1992, but depth since the 1990s across defence, agriculture and technology.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Defence</strong> — India is Israel's largest defence customer (drones, missiles, radar, since the Kargil 1999 crisis support).</li><li><strong>Agriculture &amp; water</strong> — micro-irrigation, dairy, horticulture missions; 'centres of excellence' in many states.</li><li><strong>Strategic balancing</strong> — India's simultaneous deepening with Iran (Chabahar) and the Gulf (UAE/Saudi) shows the architecture is plural, not binary; India's continued two-state voting practice provides the balancing line.</li><li><strong>Institutionalisation</strong> — I2U2 (2022) embeds the relationship in a quad-lateral; Free-trade talks and working groups sustain it.</li></ol>
-<p><strong>Conclusion</strong> — Irreversibility comes from structural complementarity — Israel supplies innovation &amp; security goods India needs; India provides scale and legitimacy. De-hyphenation from West Asia and Palestine remains the policy's diplomatic acrobatics.</p>
-<hr>
-<p><strong>Q. (2026-style, derived from current affairs)</strong> "India's decision to hold the <strong>Indus Waters Treaty</strong> in abeyance marks a turning point in its water-diplomacy with Pakistan." Examine the legal and strategic dimensions. <em>(12.5 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — After the <strong>Pahalgam terror attack (22 April 2025, 26 deaths)</strong> India announced on 23 April 2025 that the <strong>Indus Waters Treaty (1960, World-Bank-brokered, Nehru–Ayub)</strong> would be held "in abeyance" until Pakistan ostensibly renounces terrorism.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>The Treaty</strong> — allocated the <strong>Eastern rivers (Ravi, Beas, Sutlej) to India</strong> and the <strong>Western (Indus, Jhelum, Chenab) to Pakistan</strong>, with India's limited non-consumptive uses on the westerns; Permanent Indus Commission as its engine.</li><li><strong>Legal dimension</strong> — the Treaty's <strong>Article XII</strong> governs amendment/duration; unilateral "abeyance" is a construction India justifies through <em>fundamental change of circumstances</em> (CSIT/VCLT Article 62 reasoning) plus security-derogation logic; Pakistan's toolbox is the World Bank-led neutral-expert/Court-of-Arbitration track (which has the Kishenganga/Ratle history).</li><li><strong>Strategic dimension</strong> — signalling deterrence alongside kinetic action (Operation Sindoor, May 2025); leverage over the western rivers' technical data flows &amp; hydel project consultations; the water-security narrative for India's own states (Punjab, Haryana).</li><li><strong>Risks</strong> — precedent-setting for India's own downstream-status concerns vis-à-vis <strong>China on the Brahmaputra</strong>; humanitarian optics in a climate-stressed basin.</li></ol>
-<p><strong>Conclusion</strong> — A turning point indeed: India's posture has moved from technical water-sharing to water as a lever inside a coercive-diplomacy menu. Durable re-activation of the Treaty will likely track the larger India–Pakistan political normalisation.</p>
-</div>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2016</span></div><p class="qa-text">"Increasing cross-border terrorist attacks in India and growing interference in the internal affairs of member-states by Pakistan are not conducive for the future of SAARC." In light of this statement, discuss India's options. <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — SAARC's consensus rule + India–Pakistan dyad have stalled the organisation since the postponed 2016 Islamabad summit.</p><p><strong>Body</strong></p><ol><li><strong>Options within SAARC</strong> — sustained bilateral diplomacy; summit-boycott coalitions (2016: Bangladesh, Afghanistan, Bhutan joined India); prerogative to leverage observer/SAARC-program slots (South Asian University etc.).</li><li><strong>Options beyond SAARC</strong> — <strong>BBIN (2015 motor vehicles pact)</strong>, <strong>BIMSTEC revival</strong> (2018 Kathmandu, 2022 Colombo-virtual, 2025 Bangkok), bilateral connectivity tranches (Bangladesh LBA 2015; Nepal rail/power links; Sri Lanka ferry/energy), <strong>IORA &amp; Colombo Security Conclave</strong>.</li><li><strong>Risk</strong> — ceding South Asia to Chinese infrastructure diplomacy (BRI ports); give-and-take in the small-neighbour states requires continuous attention (Nepal, Maldives).</li><li><strong>Reciprocity principle</strong> — keep SAARC alive as a negotiating table for a future time; build <em>coalitions of the willing</em> meanwhile.</li></ol><p><strong>Conclusion</strong> — India's answer has been the "SAARC-minus-one plus sub-regionalism" architecture — BBIN/BIMSTEC/bilateral — while keeping SAARC formally alive as a dormant option.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2017</span></div><p class="qa-text">"India's relations with Israel have, of late, acquired a depth that cannot be rolled back." Discuss. <em>(10 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — Full diplomatic ties only since 1992, but depth since the 1990s across defence, agriculture and technology.</p><p><strong>Body</strong></p><ol><li><strong>Defence</strong> — India is Israel's largest defence customer (drones, missiles, radar, since the Kargil 1999 crisis support).</li><li><strong>Agriculture &amp; water</strong> — micro-irrigation, dairy, horticulture missions; 'centres of excellence' in many states.</li><li><strong>Strategic balancing</strong> — India's simultaneous deepening with Iran (Chabahar) and the Gulf (UAE/Saudi) shows the architecture is plural, not binary; India's continued two-state voting practice provides the balancing line.</li><li><strong>Institutionalisation</strong> — I2U2 (2022) embeds the relationship in a quad-lateral; Free-trade talks and working groups sustain it.</li></ol><p><strong>Conclusion</strong> — Irreversibility comes from structural complementarity — Israel supplies innovation &amp; security goods India needs; India provides scale and legitimacy. De-hyphenation from West Asia and Palestine remains the policy's diplomatic acrobatics.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2026-style, derived from current affairs</span></div><p class="qa-text">"India's decision to hold the <strong>Indus Waters Treaty</strong> in abeyance marks a turning point in its water-diplomacy with Pakistan." Examine the legal and strategic dimensions. <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — After the <strong>Pahalgam terror attack (22 April 2025, 26 deaths)</strong> India announced on 23 April 2025 that the <strong>Indus Waters Treaty (1960, World-Bank-brokered, Nehru–Ayub)</strong> would be held "in abeyance" until Pakistan ostensibly renounces terrorism.</p><p><strong>Body</strong></p><ol><li><strong>The Treaty</strong> — allocated the <strong>Eastern rivers (Ravi, Beas, Sutlej) to India</strong> and the <strong>Western (Indus, Jhelum, Chenab) to Pakistan</strong>, with India's limited non-consumptive uses on the westerns; Permanent Indus Commission as its engine.</li><li><strong>Legal dimension</strong> — the Treaty's <strong>Article XII</strong> governs amendment/duration; unilateral "abeyance" is a construction India justifies through <em>fundamental change of circumstances</em> (CSIT/VCLT Article 62 reasoning) plus security-derogation logic; Pakistan's toolbox is the World Bank-led neutral-expert/Court-of-Arbitration track (which has the Kishenganga/Ratle history).</li><li><strong>Strategic dimension</strong> — signalling deterrence alongside kinetic action (Operation Sindoor, May 2025); leverage over the western rivers' technical data flows &amp; hydel project consultations; the water-security narrative for India's own states (Punjab, Haryana).</li><li><strong>Risks</strong> — precedent-setting for India's own downstream-status concerns vis-à-vis <strong>China on the Brahmaputra</strong>; humanitarian optics in a climate-stressed basin.</li></ol><p><strong>Conclusion</strong> — A turning point indeed: India's posture has moved from technical water-sharing to water as a lever inside a coercive-diplomacy menu. Durable re-activation of the Treaty will likely track the larger India–Pakistan political normalisation.</p></div></details></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/ir-points.html" rel="prev">← International Relations — Key Bul…</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-2-polity-governance-ir-international-relations-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

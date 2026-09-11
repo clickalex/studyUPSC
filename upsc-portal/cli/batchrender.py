@@ -42,6 +42,7 @@ li{margin:.25em 0}
 img,svg{max-width:100%;height:auto}
 hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
+@media(max-width:700px){.wrap{padding:24px 14px 64px}.card{padding:22px 18px}h1{font-size:22px}h2{font-size:18px}}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 """
 

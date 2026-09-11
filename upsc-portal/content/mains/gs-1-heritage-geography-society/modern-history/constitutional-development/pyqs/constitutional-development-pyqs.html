@@ -36,76 +36,171 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Constitutional Development — PYQs &amp;amp; Model Answers</span></nav>
-  <a class="nav-home no-print" href="../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Constitutional Development — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Constitutional Development — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="mhere">Constitutional Development — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/constitutional-development.html">📖 Detailed</a><a href="../short-notes/constitutional-development-revision.html">📝 Short notes</a><a href="../bullet-points/constitutional-development-points.html">🔹 Points</a><a href="../diagrams/constitutional-roadmap-1773-1947.svg">🗺️ Diagrams</a><a href="constitutional-development-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">☰ All</a><div class="menu-row"><a href="../bullet-points/constitutional-development-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/constitutional-development.html">📖 Detailed</a><a class="pill" href="../short-notes/constitutional-development-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/constitutional-development-points.html">🔹 Points</a><a class="pill" href="../diagrams/constitutional-roadmap-1773-1947.svg">🗺️ Diagrams</a><a class="pill" href="constitutional-development-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Constitutional Development — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Constitutional Development — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">Constitutional Development</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">PYQs</a><span class="mhere">Constitutional Development — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/constitutional-development.html">📖 Detailed</a><a href="../short-notes/constitutional-development-revision.html">📝 Short notes</a><a href="../bullet-points/constitutional-development-points.html">🔹 Points</a><a href="../diagrams/constitutional-roadmap-1773-1947.svg">🗺️ Diagrams</a><a href="constitutional-development-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">☰ All</a><div class="menu-row"><a href="../bullet-points/constitutional-development-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/constitutional-development.html">📖 Detailed</a><a class="pill" href="../short-notes/constitutional-development-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/constitutional-development-points.html">🔹 Points</a><a class="pill" href="../diagrams/constitutional-roadmap-1773-1947.svg">🗺️ Diagrams</a><a class="pill" href="constitutional-development-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="constitutional-development-pyqs-model-answers">Constitutional Development — PYQs &amp; Model Answers</h1>
+<h1 id="constitutional-development-pyqs-model-answers">Constitutional Development — PYQs &amp; Model Answers</h1><div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h2 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h2>
-<p><strong>Q1. (2011)</strong> The <strong>Regulating Act of 1773</strong> provided for which of the following?</p>
-<ol><li>The establishment of a Supreme Court at Calcutta</li><li>A Governor-General of Bengal</li><li>A Board of Control in London</li></ol>
-<p>(a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the Regulating Act created the Governor-General of Bengal (Warren Hastings) and the Supreme Court at Calcutta (1774); the <strong>Board of Control</strong> came with <strong>Pitt's India Act (1784)</strong>.</p>
-<p><strong>Q2. (2015)</strong> Which of the following acts is associated with the <strong>separation of legislative and executive functions</strong> of the Governor-General's Council for the first time? (a) Charter Act 1813 (b) Charter Act 1833 (c) Charter Act 1853 (d) Government of India Act 1858</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — The <strong>Charter Act 1853</strong> introduced the separate legislative wing in the Governor-General's Council.</p>
-<p><strong>Q3. (2017)</strong> With reference to the <strong>Morley–Minto Reforms (1909)</strong>, consider the following statements:</p>
-<ol><li>They enlarged the legislative councils.</li><li>They introduced separate electorates for Muslims.</li><li>They gave Indians a majority in the Central Council.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the official majority at the centre was deliberately preserved; only provincial councils got non-official majorities.</p>
-<p><strong>Q4. (2018)</strong> Which of the following features of the Indian Constitution were borrowed from the <strong>Government of India Act 1935</strong>?</p>
-<ol><li>The federal scheme</li><li>The office of Governor</li><li>The Public Service Commission</li><li>The full separation of powers</li></ol>
-<p>(a) 1, 2 and 3 only (b) 1 and 2 only (c) 2 and 4 only (d) 1, 2, 3 and 4</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the 1935 Act influences the federal scheme, Governor and PSC; Indian parliamentary democracy rests on the Westminster model, not the separation of powers in the American sense.</p>
-<p><strong>Q5. (2020)</strong> The <strong>Indian Independence Act 1947</strong> was passed by the British Parliament on: (a) 20 February 1947 (b) 3 June 1947 (c) 18 July 1947 (d) 15 August 1947</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — Royal assent was given on <strong>18 July 1947</strong>; the act came into force on <strong>15 August 1947</strong>.</p>
-<p><strong>Q6. (2022)</strong> With reference to <strong>Dyarchy</strong>, consider the following statements:</p>
-<ol><li>It was introduced in the provinces by the Montagu–Chelmsford Reforms.</li><li>It divided provincial subjects into Reserved and Transferred.</li><li>It was shifted to the Centre by the Government of India Act 1935.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — all three are correct; dyarchy at the Centre under the 1935 Act never became operative because the federation never formed.</p>
+
+
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2011</span></div><p class="qa-text">The <strong>Regulating Act of 1773</strong> provided for which of the following?</p><ol class="qa-stmts"><li>The establishment of a Supreme Court at Calcutta</li><li>A Governor-General of Bengal</li><li>A Board of Control in London</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the Regulating Act created the Governor-General of Bengal (Warren Hastings) and the Supreme Court at Calcutta (1774); the <strong>Board of Control</strong> came with <strong>Pitt's India Act (1784)</strong>.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2015</span></div><p class="qa-text">Which of the following acts is associated with the <strong>separation of legislative and executive functions</strong> of the Governor-General's Council for the first time?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Charter Act 1813</span></li><li><span class="opt">(b)</span><span>Charter Act 1833</span></li><li><span class="opt">(c)</span><span>Charter Act 1853</span></li><li><span class="opt">(d)</span><span>Government of India Act 1858</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>The <strong>Charter Act 1853</strong> introduced the separate legislative wing in the Governor-General's Council.</div></details></section>
+
+
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2017</span></div><p class="qa-text">With reference to the <strong>Morley–Minto Reforms (1909)</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>They enlarged the legislative councils.</li><li>They introduced separate electorates for Muslims.</li><li>They gave Indians a majority in the Central Council.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the official majority at the centre was deliberately preserved; only provincial councils got non-official majorities.</div></details></section>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span><span class="qa-tag">2018</span></div><p class="qa-text">Which of the following features of the Indian Constitution were borrowed from the <strong>Government of India Act 1935</strong>?</p><ol class="qa-stmts"><li>The federal scheme</li><li>The office of Governor</li><li>The Public Service Commission</li><li>The full separation of powers</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 3 only</span></li><li><span class="opt">(b)</span><span>1 and 2 only</span></li><li><span class="opt">(c)</span><span>2 and 4 only</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the 1935 Act influences the federal scheme, Governor and PSC; Indian parliamentary democracy rests on the Westminster model, not the separation of powers in the American sense.</div></details></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span><span class="qa-tag">2020</span></div><p class="qa-text">The <strong>Indian Independence Act 1947</strong> was passed by the British Parliament on:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>20 February 1947</span></li><li><span class="opt">(b)</span><span>3 June 1947</span></li><li><span class="opt">(c)</span><span>18 July 1947</span></li><li><span class="opt">(d)</span><span>15 August 1947</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Royal assent was given on <strong>18 July 1947</strong>; the act came into force on <strong>15 August 1947</strong>.</div></details></section>
+
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span><span class="qa-tag">2022</span></div><p class="qa-text">With reference to <strong>Dyarchy</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>It was introduced in the provinces by the Montagu–Chelmsford Reforms.</li><li>It divided provincial subjects into Reserved and Transferred.</li><li>It was shifted to the Centre by the Government of India Act 1935.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>all three are correct; dyarchy at the Centre under the 1935 Act never became operative because the federation never formed.</div></details></section>
 <hr>
 <h2 id="upsc-mains-pyqs">UPSC Mains PYQs</h2>
-<p><strong>Q. (2016)</strong> "The <strong>Government of India Act 1935</strong> remained a dead letter in its federal part, but it laid the foundations of constitutional government in India." Comment. <em>(10 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — The 1935 Act was the most elaborate of the colonial constitutions; its federation of British India and the princely states never came into force, but its provincial and institutional machinery became the working base of both British India and later the Dominion and then the Republic.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Dead-letter federation</strong> — the accession threshold of princes was never met; the federal part, with its dyarchy at the centre, remained unborn.</li><li><strong>Provincial autonomy</strong> — worked from 1937; Congress ministries in six provinces (1937–39) — a running apprenticeship in responsible government; tenancy reforms, labour legislation, release of political prisoners.</li><li><strong>Institutional foundations</strong> — Federal Court (1937) → Supreme Court (1950); RBI (1935); Public Service Commissions; the three lists.</li><li><strong>Borrowed by the Republic</strong> — Constituent Assembly debates used the Act as the working text; the borrowed features include the federal structure, the Governor's office, emergency provisions and administrative-relations principles.</li><li><strong>Limitations</strong> — the safeguards, the Viceroy's discretionary holds, and the communal electorate legacy — show that foundations remained "bounded" by the colonial design.</li></ol>
-<p><strong>Conclusion</strong> — The Act's federation was unborn, but its constitutional machinery was real; independent India retained its framework while transforming its political content — a classic case of institutional inheritance with revolutionary change of soul.</p>
-<hr>
-<p><strong>Q. (2020)</strong> How did the <strong>Cabinet Mission Plan (1946)</strong> attempt to reconcile unity and autonomy, and why did it fail? <em>(12.5 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — The Plan (March–June 1946, Pethick-Lawrence, Stafford Cripps, A. V. Alexander) was the last British attempt to keep India united while conceding autonomy.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Middle-way architecture</strong> — three-tier union: a weak centre (foreign affairs, defence, communications), provincial groupings (Sections A, B, C) framing their own constitutions, and a Constitution to be reconsidered after ten years.</li><li><strong>Compromise on Pakistan</strong> — rejected a sovereign Pakistan but granted a de facto basis for Muslim-majority provincial groups to form within a Union.</li><li><strong>Why Congress objected</strong> — compulsory grouping (Sections) was acceptable to the League but opposed by Congress; Nehru's 10 July 1946 press statement that the Constituent Assembly was unbound by the Plan gave the League the opening to withdraw (29 July).</li><li><strong>Why the League objected</strong> — the parity it demanded between Congress and the League in the interim government was not granted; communal confidence had already broken.</li><li><strong>Aftermath</strong> — Direct Action Day (16 August 1946), interim government crisis, Wavell's inability to restore agreement → Labour's decision to leave with the <strong>Mountbatten Plan (June 1947)</strong> and partition.</li></ol>
-<p><strong>Conclusion</strong> — The Cabinet Mission Plan was the last serious constitutional attempt to reconcile unity and autonomy; it failed because neither party trusted the majority enough to risk the other side holding federal power, and because the British — exhausted by war and facing a rebellious army and navy — no longer had the will to arbitrate the disagreement on the ground.</p>
-</div>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2016</span></div><p class="qa-text">"The <strong>Government of India Act 1935</strong> remained a dead letter in its federal part, but it laid the foundations of constitutional government in India." Comment. <em>(10 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — The 1935 Act was the most elaborate of the colonial constitutions; its federation of British India and the princely states never came into force, but its provincial and institutional machinery became the working base of both British India and later the Dominion and then the Republic.</p><p><strong>Body</strong></p><ol><li><strong>Dead-letter federation</strong> — the accession threshold of princes was never met; the federal part, with its dyarchy at the centre, remained unborn.</li><li><strong>Provincial autonomy</strong> — worked from 1937; Congress ministries in six provinces (1937–39) — a running apprenticeship in responsible government; tenancy reforms, labour legislation, release of political prisoners.</li><li><strong>Institutional foundations</strong> — Federal Court (1937) → Supreme Court (1950); RBI (1935); Public Service Commissions; the three lists.</li><li><strong>Borrowed by the Republic</strong> — Constituent Assembly debates used the Act as the working text; the borrowed features include the federal structure, the Governor's office, emergency provisions and administrative-relations principles.</li><li><strong>Limitations</strong> — the safeguards, the Viceroy's discretionary holds, and the communal electorate legacy — show that foundations remained "bounded" by the colonial design.</li></ol><p><strong>Conclusion</strong> — The Act's federation was unborn, but its constitutional machinery was real; independent India retained its framework while transforming its political content — a classic case of institutional inheritance with revolutionary change of soul.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2020</span></div><p class="qa-text">How did the <strong>Cabinet Mission Plan (1946)</strong> attempt to reconcile unity and autonomy, and why did it fail? <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — The Plan (March–June 1946, Pethick-Lawrence, Stafford Cripps, A. V. Alexander) was the last British attempt to keep India united while conceding autonomy.</p><p><strong>Body</strong></p><ol><li><strong>Middle-way architecture</strong> — three-tier union: a weak centre (foreign affairs, defence, communications), provincial groupings (Sections A, B, C) framing their own constitutions, and a Constitution to be reconsidered after ten years.</li><li><strong>Compromise on Pakistan</strong> — rejected a sovereign Pakistan but granted a de facto basis for Muslim-majority provincial groups to form within a Union.</li><li><strong>Why Congress objected</strong> — compulsory grouping (Sections) was acceptable to the League but opposed by Congress; Nehru's 10 July 1946 press statement that the Constituent Assembly was unbound by the Plan gave the League the opening to withdraw (29 July).</li><li><strong>Why the League objected</strong> — the parity it demanded between Congress and the League in the interim government was not granted; communal confidence had already broken.</li><li><strong>Aftermath</strong> — Direct Action Day (16 August 1946), interim government crisis, Wavell's inability to restore agreement → Labour's decision to leave with the <strong>Mountbatten Plan (June 1947)</strong> and partition.</li></ol><p><strong>Conclusion</strong> — The Cabinet Mission Plan was the last serious constitutional attempt to reconcile unity and autonomy; it failed because neither party trusted the majority enough to risk the other side holding federal power, and because the British — exhausted by war and facing a rebellious army and navy — no longer had the will to arbitrate the disagreement on the ground.</p></div></details></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/constitutional-development-points.html" rel="prev">← Constitutional Development 1773–1…</a></span>
   <a class="up" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-constitutional-development-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

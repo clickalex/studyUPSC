@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -161,8 +205,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p>End with the <strong>diagram method that converts this lesson into marks</strong>: (1) every geomorphology answer gets a cross-section (plate boundary, river long-profile, or coast-to-trench floor relief — shelf/Mumbai High, slope, rise, abyssal plain, ridge, trench/Mariana ~10,994 m); (2) every climatology answer gets a circulation sketch (pressure belts + named winds + the season's jet positions); (3) every ocean answer gets a current map with warm/cold colour logic and the two meeting-zone fisheries (Grand Banks, Kuroshio–Oyashio) plus the upwelling trio (Peru–Atacama, Benguela–Namib, California). Pair diagrams with the trunk's PYQ anchors (S-wave shadow proof, three boundary types, west-coast deserts, NE monsoon, Mawsynram, Sundarbans, Zone V, Sumatra 2004) and the Deep Ocean Mission (2021, Central Indian Ocean Basin nodules) as the blue-economy closer.</p>
 </section>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -186,8 +228,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li><strong>IMD Mission Mausam (approved 2024)</strong> — better forecasting &amp; weather-modification research (cloud chambers at IITM Pune).</li><li>Monsoons 2024 &amp; 2025 — <strong>above-normal back-to-back</strong> (~105–108% of LPA); early 2025 onset (~24 May).</li><li><strong>Deep Ocean Mission (2021)</strong> — Central Indian Ocean polymetallic-nodule research.</li></ul>
 <h3 id="pyq-favourites">PYQ favourites</h3>
 <ol><li>S-wave shadow → outer core liquid.</li><li>Three plate boundaries + examples.</li><li>Monsoon mechanism with ITCZ/jets diagram logic.</li><li>Why are coastal deserts on west coasts? → cold currents.</li><li>Retreating monsoon = Tamil Nadu's rain season.</li></ol>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -213,8 +253,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Soils: <strong>alluvial</strong> (khadar vs bhangar), <strong>black/regur</strong> (cotton—self-mulching), <strong>red &amp; laterite</strong>, <strong>desert</strong>, <strong>mountain</strong>, <strong>saline-alkaline user</strong>.</li><li>Vegetation: <strong>tropical evergreen → moist deciduous → dry deciduous → thorn → Himalayan montane → mangroves (Sundarbans)</strong>.</li><li><strong>Biodiversity hotspots (4)</strong>: Western Ghats, Himalayas, Indo-Burma, Sundaland.</li></ul>
 <h3 id="diagram-recall-for-mains-answers">Diagram recall for Mains answers</h3>
 <ul><li>Earth's cross-section: crust (thin) → mantle (thickest) → outer core → inner core.</li><li>Monsoon wind map: SW branch splits into <strong>Arabian Sea branch (west coast) &amp; Bay of Bengal branch (NE India)</strong>.</li><li>Cyclone anatomy: <strong>eye — eyewall — spiral rainbands</strong>.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -309,49 +347,52 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">9 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h3 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h3>
-<p><strong>Q1. (2015)</strong> In the structure of planet Earth, below the mantle, the core is mainly made up of which one of the following? (a) Aluminium (b) Chromium (c) Iron (d) Silicon</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — the core is iron-nickel; the crustal rocks are dominated by silica, aluminium (SIAL) and magnesium (SIMA).</p>
-<p><strong>Q2. (2016)</strong> With reference to the <strong>ocean currents</strong>, consider the following:</p>
-<ol><li>The Gulf Stream is a warm current.</li><li>The Oyashio (Kurile) is a cold current.</li><li>The Benguela is a warm current.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the <strong>Benguela is a cold current</strong> off SW Africa (the companion fact: it underlies the Namib's aridity).</p>
-<p><strong>Q3. (2013)</strong> Which one of the following pairs correctly contains the phenomenon and the region of maximum impact? (a) El Niño — Indian Monsoon (b) La Niña — Horn of Africa (c) Southern Oscillation — Australian Alps</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the classic teleconnection: El Niño years tend to weaken the Indian monsoon (positive IOD can offset — as in some recent seasons).</p>
-<p><strong>Q4. (2020)</strong> With reference to <strong>plate tectonics</strong>, consider the following statements:</p>
-<ol><li>The Himalayas formed at a convergent plate boundary.</li><li>The East African Rift is a divergent boundary.</li><li>The San Andreas Fault is a transform boundary.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — the three boundary types with their exemplary landforms.</p>
-<p><strong>Q5. (2021)</strong> Which one of the following is a reason for the <strong>Red Sea</strong> being a highly saline water body? (a) High rate of evaporation and low inflow of fresh water (b) Submarine volcanism releasing dissolved minerals in excess (c) The presence of salt flats along its coast (d) Deep-ocean circulation pumping saline water northward</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the Red Sea combines intense evaporation with negligible river inflow and limited exchange with the Indian Ocean.</p>
-<p><strong>Q6. (2019)</strong> With reference to the <strong>Indian monsoon</strong>, consider the following statements:</p>
-<ol><li>The retreating monsoon rains chiefly fall on the Tamil Nadu coast.</li><li>The western disturbances are temperate cyclones that bring winter rain to North India.</li><li>The Tropical Easterly Jet is associated with the monsoon's burst.</li></ol>
-<p>Which of the statements given above are correct? (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — all three are standard monsoon-mechanism statements.</p>
-<p><strong>Q7. (2022)</strong> With reference to <strong>tropical cyclones in the Bay of Bengal</strong>, consider the following statements:</p>
-<ol><li>They derive energy from the warm waters of the Bay (sea-surface temperatures above ~26.5 °C).</li><li>They typically have a warm core and an eye.</li><li>They are steered mainly by the polar-front jet.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the polar-front jet steers <strong>temperate</strong> cyclones; tropical cyclones are steered by trade-wind and sub-tropical high patterns.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2015</span></div><p class="qa-text">In the structure of planet Earth, below the mantle, the core is mainly made up of which one of the following?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Aluminium</span></li><li><span class="opt">(b)</span><span>Chromium</span></li><li><span class="opt">(c)</span><span>Iron</span></li><li><span class="opt">(d)</span><span>Silicon</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>the core is iron-nickel; the crustal rocks are dominated by silica, aluminium (SIAL) and magnesium (SIMA).</div></details></section>
+
+
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2016</span></div><p class="qa-text">With reference to the <strong>ocean currents</strong>, consider the following:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>The Gulf Stream is a warm current.</li><li>The Oyashio (Kurile) is a cold current.</li><li>The Benguela is a warm current.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the <strong>Benguela is a cold current</strong> off SW Africa (the companion fact: it underlies the Namib's aridity).</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2013</span></div><p class="qa-text">Which one of the following pairs correctly contains the phenomenon and the region of maximum impact?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>El Niño — Indian Monsoon</span></li><li><span class="opt">(b)</span><span>La Niña — Horn of Africa</span></li><li><span class="opt">(c)</span><span>Southern Oscillation — Australian Alps</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the classic teleconnection: El Niño years tend to weaken the Indian monsoon (positive IOD can offset — as in some recent seasons).</div></details></section>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span><span class="qa-tag">2020</span></div><p class="qa-text">With reference to <strong>plate tectonics</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>The Himalayas formed at a convergent plate boundary.</li><li>The East African Rift is a divergent boundary.</li><li>The San Andreas Fault is a transform boundary.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 2 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>the three boundary types with their exemplary landforms.</div></details></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span><span class="qa-tag">2021</span></div><p class="qa-text">Which one of the following is a reason for the <strong>Red Sea</strong> being a highly saline water body?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>High rate of evaporation and low inflow of fresh water</span></li><li><span class="opt">(b)</span><span>Submarine volcanism releasing dissolved minerals in excess</span></li><li><span class="opt">(c)</span><span>The presence of salt flats along its coast</span></li><li><span class="opt">(d)</span><span>Deep-ocean circulation pumping saline water northward</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the Red Sea combines intense evaporation with negligible river inflow and limited exchange with the Indian Ocean.</div></details></section>
+
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span><span class="qa-tag">2019</span></div><p class="qa-text">With reference to the <strong>Indian monsoon</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above are correct?</p><ol class="qa-stmts"><li>The retreating monsoon rains chiefly fall on the Tamil Nadu coast.</li><li>The western disturbances are temperate cyclones that bring winter rain to North India.</li><li>The Tropical Easterly Jet is associated with the monsoon's burst.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>all three are standard monsoon-mechanism statements.</div></details></section>
+
+
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span><span class="qa-tag">2022</span></div><p class="qa-text">With reference to <strong>tropical cyclones in the Bay of Bengal</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>They derive energy from the warm waters of the Bay (sea-surface temperatures above ~26.5 °C).</li><li>They typically have a warm core and an eye.</li><li>They are steered mainly by the polar-front jet.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the polar-front jet steers <strong>temperate</strong> cyclones; tropical cyclones are steered by trade-wind and sub-tropical high patterns.</div></details></section>
 <hr>
 <h3 id="upsc-mains-pyqs">UPSC Mains PYQs</h3>
-<p><strong>Q. (2013)</strong> "(a) What do you understand by the phenomenon of 'temperature inversion' in meteorology? (b) How does it affect weather and habitants of the place?" <em>(10 marks)</em></p>
-<h4 id="model-answer-skeleton">Model answer skeleton</h4>
-<p><strong>Introduction</strong> — The normal tropospheric rule is a lapse rate (~6.5 °C/km up); <strong>temperature inversion</strong> is a reversal — temperature rises with altitude over a local layer.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Types</strong> — ground inversion (clear, calm winter nights over plains — NW India's winter fog chain), subsidence inversion (subtropical highs), frontal inversion (warm/cold air boundaries), advection inversion.</li><li><strong>Effects on weather</strong> — traps moisture &amp; pollutants (haze/fog episodes), stabilises the layer (stratified, discourages convection — suppresses ordinary afternoon showers), enables frost pockets in valleys (crop damage), and where lifted, can channel smog plumes.</li><li><strong>Effects on habitants</strong> — Delhi/Indo-Gangetic winter smog (vehicle + stubble + inversion) — public-health spikes (PM 2.5 at hazardous levels), transport disruption (fog), crop stress, and the pattern it creates for winter-crop moisture distribution.</li></ol>
-<p><strong>Conclusion</strong> — An apparently 'meteorological technicality' turns out to order pollution, safety and agricultural risk in Indian winters.</p>
-<hr>
-<p><strong>Q. (2015)</strong> "The Himalayas are highly prone to landslides." Discuss the causes and suggest suitable measures of mitigation. <em>(12.5 marks)</em></p>
-<h4 id="model-answer-skeleton">Model answer skeleton</h4>
-<p><strong>Introduction</strong> — The Himalayas are a young fold-mountain range on an active convergent boundary — structurally fragile, tectonically alive.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Natural causes</strong> — fragile rock strata (young sedimentary folds), seismicity (the entire arc in seismic zone IV–V), steep slopes, intense monsoon rain (the western disturbance + monsoon coupling), glacial retreat creating unstable moraine and glacial lakes (GLOF risk — e.g., 2023 Sikkim event).</li><li><strong>Anthropogenic causes</strong> — road widening and slope cutting without benching, deforestation, unregulated construction in the pilgrimage corridors, hydel projects' tunnelling/blasting, quarrying.</li><li><strong>Climate amplifier</strong> — more intense rain bands and cloudburst-type episodes (Kedarnath 2013 lessons).</li><li><strong>Mitigation</strong> — slope-stabilisation (retaining walls, berms, bioengineering with vetiver &amp; local shrubs), land-use regulation (building bye-laws localised to slope), early-warning rain-gauge networks + ISRO/Bhuvan landslide susceptibility maps, disaster-resilient road engineering (cut-and-cover tunnels vs open cuts), catchment reforestation.</li></ol>
-<p><strong>Conclusion</strong> — Landslides in the Himalaya are a system problem — geology + climate + unplanned development; mitigation must be engineering (slope works) + governance (zoning) + research (susceptibility mapping).</p>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2013</span></div><p class="qa-text">"</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>What do you understand by the phenomenon of 'temperature inversion' in meteorology?</span></li><li><span class="opt">(b)</span><span>How does it affect weather and habitants of the place?" <em>(10 marks)</em></span></li></ol></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h4 id="model-answer-skeleton">Model answer skeleton</h4><p><strong>Introduction</strong> — The normal tropospheric rule is a lapse rate (~6.5 °C/km up); <strong>temperature inversion</strong> is a reversal — temperature rises with altitude over a local layer.</p><p><strong>Body</strong></p><ol><li><strong>Types</strong> — ground inversion (clear, calm winter nights over plains — NW India's winter fog chain), subsidence inversion (subtropical highs), frontal inversion (warm/cold air boundaries), advection inversion.</li><li><strong>Effects on weather</strong> — traps moisture &amp; pollutants (haze/fog episodes), stabilises the layer (stratified, discourages convection — suppresses ordinary afternoon showers), enables frost pockets in valleys (crop damage), and where lifted, can channel smog plumes.</li><li><strong>Effects on habitants</strong> — Delhi/Indo-Gangetic winter smog (vehicle + stubble + inversion) — public-health spikes (PM 2.5 at hazardous levels), transport disruption (fog), crop stress, and the pattern it creates for winter-crop moisture distribution.</li></ol><p><strong>Conclusion</strong> — An apparently 'meteorological technicality' turns out to order pollution, safety and agricultural risk in Indian winters.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2015</span></div><p class="qa-text">"The Himalayas are highly prone to landslides." Discuss the causes and suggest suitable measures of mitigation. <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h4 id="model-answer-skeleton">Model answer skeleton</h4><p><strong>Introduction</strong> — The Himalayas are a young fold-mountain range on an active convergent boundary — structurally fragile, tectonically alive.</p><p><strong>Body</strong></p><ol><li><strong>Natural causes</strong> — fragile rock strata (young sedimentary folds), seismicity (the entire arc in seismic zone IV–V), steep slopes, intense monsoon rain (the western disturbance + monsoon coupling), glacial retreat creating unstable moraine and glacial lakes (GLOF risk — e.g., 2023 Sikkim event).</li><li><strong>Anthropogenic causes</strong> — road widening and slope cutting without benching, deforestation, unregulated construction in the pilgrimage corridors, hydel projects' tunnelling/blasting, quarrying.</li><li><strong>Climate amplifier</strong> — more intense rain bands and cloudburst-type episodes (Kedarnath 2013 lessons).</li><li><strong>Mitigation</strong> — slope-stabilisation (retaining walls, berms, bioengineering with vetiver &amp; local shrubs), land-use regulation (building bye-laws localised to slope), early-warning rain-gauge networks + ISRO/Bhuvan landslide susceptibility maps, disaster-resilient road engineering (cut-and-cover tunnels vs open cuts), catchment reforestation.</li></ol><p><strong>Conclusion</strong> — Landslides in the Himalaya are a system problem — geology + climate + unplanned development; mitigation must be engineering (slope works) + governance (zoning) + research (susceptibility mapping).</p></div></details></section>
 </section><nav class="bk-nav no-print">
 <a href="gs-1-indian-society.html"><span class="lb">← Previous</span>Indian Society (diversity, women, poverty, urbanisation)</a>
 <a class="r" href="gs-1-geography-world-india.html"><span class="lb">Next →</span>Geography of India &amp; World: Resources, Distribution, Mapping</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

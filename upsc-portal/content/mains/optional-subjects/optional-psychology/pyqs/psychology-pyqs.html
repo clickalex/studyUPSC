@@ -36,63 +36,158 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects">Optional Subjects</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Psychology — PYQ Patterns &amp;amp; Approaches</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects">Optional Subjects</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Psychology — PYQ Patterns &amp;amp; Approaches</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Psychology — PYQ Patterns &amp;amp; Approaches</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-optional-subjects">Optional Subjects</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="mhere">Psychology — PYQ Patterns &amp;amp; Approaches</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/psychology-syllabus-map.html">📖 Detailed</a><a href="../short-notes/psychology-orientation.html">📝 Short notes</a><a href="../bullet-points/psychology-points.html">🔹 Points</a><a href="../diagrams/psychology-map.svg">🗺️ Diagrams</a><a href="psychology-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">☰ All</a><div class="menu-row"><a href="../bullet-points/psychology-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/psychology-syllabus-map.html">📖 Detailed</a><a class="pill" href="../short-notes/psychology-orientation.html">📝 Short notes</a><a class="pill" href="../bullet-points/psychology-points.html">🔹 Points</a><a class="pill" href="../diagrams/psychology-map.svg">🗺️ Diagrams</a><a class="pill" href="psychology-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-optional-subjects-optional-psychology">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects">Optional Subjects</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Psychology — PYQ Patterns &amp;amp; Approaches</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Psychology — PYQ Patterns &amp;amp; Approaches</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-optional-subjects">Optional Subjects</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">PYQs</a><span class="mhere">Psychology — PYQ Patterns &amp;amp; Approaches</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/psychology-syllabus-map.html">📖 Detailed</a><a href="../short-notes/psychology-orientation.html">📝 Short notes</a><a href="../bullet-points/psychology-points.html">🔹 Points</a><a href="../diagrams/psychology-map.svg">🗺️ Diagrams</a><a href="psychology-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-optional-subjects-optional-psychology">☰ All</a><div class="menu-row"><a href="../bullet-points/psychology-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/psychology-syllabus-map.html">📖 Detailed</a><a class="pill" href="../short-notes/psychology-orientation.html">📝 Short notes</a><a class="pill" href="../bullet-points/psychology-points.html">🔹 Points</a><a class="pill" href="../diagrams/psychology-map.svg">🗺️ Diagrams</a><a class="pill" href="psychology-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-optional-subjects-optional-psychology">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="psychology-pyq-patterns-and-approaches">Psychology — PYQ Patterns &amp; Approaches</h1>
+<h1 id="psychology-pyq-patterns-and-approaches">Psychology — PYQ Patterns &amp; Approaches</h1><div class="qa-toolbar no-print"><span class="qa-count">9 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Paper-wise patterns framed on recurring themes (official papers carry verbatim texts). Model approaches included.</p></blockquote>
 <h2 id="paper-1-pattern-questions">Paper 1 — pattern questions</h2>
-<p><strong>Q1.</strong> Distinguish top-down and bottom-up processing with perceptual examples. (10 marks)</p>
-<p><em>Approach:</em> define data-driven vs concept-driven → examples: reading degraded text (context fill — top-down) vs feature detection in novel stimuli (bottom-up) → interactionist evidence (word-superiority effect) → diagram the dual arrows.</p>
-<p><strong>Q2.</strong> Explain Baddeley's working-memory model and its evidence. (15 marks)</p>
-<p><em>Approach:</em> components — central executive, phonological loop, visuospatial sketchpad, episodic buffer → evidence: dual-task interference, phonological-similarity effect, word-length effect → upgrade from multistore account → applications: arithmetic, comprehension.</p>
-<p><strong>Q3.</strong> Compare James-Lange, Cannon-Bard and Schachter-Singer theories of emotion. (15 marks)</p>
-<p><em>Approach:</em> sequence diagrams (body→feeling; parallel; arousal+label) → supporting evidence each (spinal-cord cases; thalamic role; epinephrine experiment) → appraisal addition (Lazarus) → verdict: multi-route contemporary synthesis.</p>
-<p><strong>Q4.</strong> Evaluate the Big-Five against Freudian personality theory. (10 marks)</p>
-<p><em>Approach:</em> traits — dimensional, cross-cultural stability, psychometric base vs Freud — dynamic, developmental, defence mechanisms (clinical richness, low testability) → bridges: attachment research revives early-experience claims → use-case split: prediction vs depth-explanation.</p>
-<p><strong>Q5.</strong> How do Milgram's findings translate to bureaucratic wrongdoing? (10 marks)</p>
-<p><em>Approach:</em> design+finding (65% to 450V under authority) → agentic-state reading → moderators (proximity, dissent-peers, legitimate institution) → GS-4 translation: tone-at-top, note-making culture, whistle-blower protection as experimental remedies.</p>
-<h2 id="paper-2-pattern-questions">Paper 2 — pattern questions</h2>
-<p><strong>Q6.</strong> Explain Lazarus's cognitive-appraisal model of stress with a workplace case. (10 marks)</p>
-<p><em>Approach:</em> primary (threat/challenge) + secondary (resource check) appraisal → reappraisal route → case: merger announcement — threat-framing vs opportunity-framing outcomes → intervention: cognitive restructuring + EAPs.</p>
-<p><strong>Q7.</strong> Outline CBT's logic in treating depression; evidence of efficacy? (15 marks)</p>
-<p><em>Approach:</em> cognitive-triad → automatic-thoughts → schema level → technique ladder (activity scheduling → thought records → behavioural experiments) → evidence: equal-to-pharmacotherapy in moderate cases, relapse-edge (metanalysis line) → Indian access angle: digital CBT, Manodarpan counselling lattice.</p>
-<p><strong>Q8.</strong> Discuss psychological contributions to deradicalisation. (10 marks)</p>
-<p><em>Approach:</em> radicalisation path (identity-quest, grievance, network pull) → counters: EXIT-style programmes (mentoring, family involvement), cognitive-opening, dignity-economic ladders → ethics: persuasion vs manipulation boundary → evaluation caution: small-N evidence.</p>
-<p><strong>Q9.</strong> How can nudges and norms design pro-environment behaviour? (10 marks)</p>
-<p><em>Approach:</em> social-norm feedback (opower-style home-energy reports), defaults (green tariff), commitment+public pledge → Indian cases: LED UJALA diffusion, Swachh Bharat social-proof messaging → limits: reactance, rebound effects → design principles.</p>
-<h2 id="how-to-practise">How to practise</h2>
+
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Distinguish top-down and bottom-up processing with perceptual examples. (10 marks)</p><p class="qa-text"><em>Approach:</em> define data-driven vs concept-driven → examples: reading degraded text (context fill — top-down) vs feature detection in novel stimuli (bottom-up) → interactionist evidence (word-superiority effect) → diagram the dual arrows.</p></div></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Explain Baddeley's working-memory model and its evidence. (15 marks)</p><p class="qa-text"><em>Approach:</em> components — central executive, phonological loop, visuospatial sketchpad, episodic buffer → evidence: dual-task interference, phonological-similarity effect, word-length effect → upgrade from multistore account → applications: arithmetic, comprehension.</p></div></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Compare James-Lange, Cannon-Bard and Schachter-Singer theories of emotion. (15 marks)</p><p class="qa-text"><em>Approach:</em> sequence diagrams (body→feeling; parallel; arousal+label) → supporting evidence each (spinal-cord cases; thalamic role; epinephrine experiment) → appraisal addition (Lazarus) → verdict: multi-route contemporary synthesis.</p></div></section>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Evaluate the Big-Five against Freudian personality theory. (10 marks)</p><p class="qa-text"><em>Approach:</em> traits — dimensional, cross-cultural stability, psychometric base vs Freud — dynamic, developmental, defence mechanisms (clinical richness, low testability) → bridges: attachment research revives early-experience claims → use-case split: prediction vs depth-explanation.</p></div></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">How do Milgram's findings translate to bureaucratic wrongdoing? (10 marks)</p><p class="qa-text"><em>Approach:</em> design+finding (65% to 450V under authority) → agentic-state reading → moderators (proximity, dissent-peers, legitimate institution) → GS-4 translation: tone-at-top, note-making culture, whistle-blower protection as experimental remedies.</p></div></section><h2 id="paper-2-pattern-questions">Paper 2 — pattern questions</h2>
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Explain Lazarus's cognitive-appraisal model of stress with a workplace case. (10 marks)</p><p class="qa-text"><em>Approach:</em> primary (threat/challenge) + secondary (resource check) appraisal → reappraisal route → case: merger announcement — threat-framing vs opportunity-framing outcomes → intervention: cognitive restructuring + EAPs.</p></div></section>
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Outline CBT's logic in treating depression; evidence of efficacy? (15 marks)</p><p class="qa-text"><em>Approach:</em> cognitive-triad → automatic-thoughts → schema level → technique ladder (activity scheduling → thought records → behavioural experiments) → evidence: equal-to-pharmacotherapy in moderate cases, relapse-edge (metanalysis line) → Indian access angle: digital CBT, Manodarpan counselling lattice.</p></div></section>
+
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Discuss psychological contributions to deradicalisation. (10 marks)</p><p class="qa-text"><em>Approach:</em> radicalisation path (identity-quest, grievance, network pull) → counters: EXIT-style programmes (mentoring, family involvement), cognitive-opening, dignity-economic ladders → ethics: persuasion vs manipulation boundary → evaluation caution: small-N evidence.</p></div></section>
+
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">How can nudges and norms design pro-environment behaviour? (10 marks)</p><p class="qa-text"><em>Approach:</em> social-norm feedback (opower-style home-energy reports), defaults (green tariff), commitment+public pledge → Indian cases: LED UJALA diffusion, Swachh Bharat social-proof messaging → limits: reactance, rebound effects → design principles.</p></div></section><h2 id="how-to-practise">How to practise</h2>
 <ul><li>Map 8 years of papers: hot nodes — memory, emotion, personality, attitudes (P1); stress, therapy, IO, community (P2).</li><li>Weekly: 3 answers with mandatory named-experiment + one diagram; maintain the 20-experiment bank.</li></ul>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/psychology-points.html" rel="prev">← Psychology — Bullet Points</a></span>
   <a class="up" href="../../../../index.html#content-mains-optional-subjects-optional-psychology-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

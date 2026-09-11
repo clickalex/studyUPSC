@@ -4,11 +4,10 @@
    ----------------------------------------------------------------------------
    Turns the content/ tree into a real browsable website:
 
-     1. Rewrites every document's <header>/<footer> with site navigation:
-          - brand links to the homepage
-          - linked breadcrumbs (Home › Prelims › GS I › … › section)
-          - "📚 All files" link to the generated catalog
-          - prev / next pager + "↑ up" link within each folder
+     1. Rewrites every new document with the shared site chrome v2
+        (cli/site-chrome.mjs): sticky responsive header with mobile menu,
+        "In this topic" pill strip, cross-section prev/next pager, Q&A
+        cards with per-question answer reveals, back-to-top.
      2. Regenerates the homepage (upsc-portal/index.html) with a full
         syllabus directory that deep-links into the catalog's anchors.
 
@@ -19,14 +18,15 @@
      node cli/build-site.mjs            # rewrite nav + rebuild homepage
      node cli/build-site.mjs --homepage # only rebuild the homepage
 
-   Idempotent: files already carrying the "<!-- studyupsc-site-nav -->"
-   marker are skipped.
+   Idempotent: files already carrying a site-nav marker are skipped
+   (use cli/upgrade-site.mjs --force to re-apply chrome to all files).
    ========================================================================== */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { niceLabel } from './names.mjs';
+import { applyChrome, topicContext, V2_MARKER } from './site-chrome.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = path.join(ROOT, 'content');
@@ -70,58 +70,14 @@ function pageTitle(abs) {
 const anchorOf = (dirRel) => 'content-' + dirRel.replace(/^content\//, '').split('/').join('-');
 
 /* ------------------------------------------------------------------ */
-/*  Navigation CSS injected into every document                        */
+/*  Rewrite one document with site navigation (shared chrome v2)       */
+/*  Idempotent: files already carrying a site-nav marker are skipped.  */
 /* ------------------------------------------------------------------ */
-const NAV_CSS = `<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
-.crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
-.crumbs a{color:var(--sub);text-decoration:none}
-.crumbs a:hover{color:#b45309;text-decoration:underline}
-.crumbs .sep{color:#cbd5e1}
-.crumbs .here{color:var(--ink);font-weight:600}
-.nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
-.nav-home:hover{color:#b45309;text-decoration:underline}
-.pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
-.pager a{color:#b45309;text-decoration:none;font-weight:600}
-.pager a:hover{text-decoration:underline}
-.pager .up{color:var(--sub)}
-.pager .dim{color:#cbd5e1}
-</style>`;
-
-/* ------------------------------------------------------------------ */
-/*  Rewrite one document with site navigation                          */
-/* ------------------------------------------------------------------ */
-function rewriteDoc(abs, homeRel, catalogRel, title, prev, next, crumbsHtml, pagerHtml) {
-  let raw = fs.readFileSync(abs, 'utf8');
-  if (raw.includes(MARKER)) return false;
-
-  if (!raw.includes('studyupsc-scr-nav')) {
-    raw = raw.replace('</head>', NAV_CSS + '\n</head>');
-  }
-
-  const header =
-    '<header><div class="wrap">\n' +
-    `  <a class="brand" href="${homeRel}">study<span>UPSC</span></a>\n` +
-    `  <nav class="crumbs" aria-label="Breadcrumb">${crumbsHtml}</nav>\n` +
-    `  <a class="nav-home no-print" href="${catalogRel}">📚 All files</a>\n` +
-    '</div></header>';
-
-  if (/<header>[\s\S]*?<\/header>/.test(raw)) {
-    raw = raw.replace(/<header>[\s\S]*?<\/header>/, header);
-  } else {
-    raw = raw.replace('<body>', '<body>\n' + header);
-  }
-
-  if (/<footer>[\s\S]*?<\/footer>/.test(raw)) {
-    raw = raw.replace(/<footer>[\s\S]*?<\/footer>/, pagerHtml);
-  } else {
-    raw = raw.replace('</body>', pagerHtml + '\n</body>');
-  }
-
-  raw = raw.replace('</body>', MARKER + '\n</body>');
-  fs.writeFileSync(abs, raw);
+function rewriteDoc(abs, ctx) {
+  const raw = fs.readFileSync(abs, 'utf8');
+  if (raw.includes(MARKER) || raw.includes(V2_MARKER)) return false;
+  const out = applyChrome(raw, ctx);
+  fs.writeFileSync(abs, out.html);
   return true;
 }
 
@@ -213,12 +169,19 @@ a{color:#b45309;text-decoration:none}
 a:hover{text-decoration:underline}
 /* top nav */
 .site-head{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.site-head .wrap{display:flex;align-items:center;gap:18px;height:60px;flex-wrap:wrap}
-.brand{font-weight:800;font-size:18px;color:var(--ink)}
+.site-head .wrap{display:flex;align-items:center;gap:18px;min-height:60px;padding-top:8px;padding-bottom:8px}
+.brand{font-weight:800;font-size:18px;color:var(--ink);white-space:nowrap}
 .brand span{color:var(--accent)}
 .topnav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
-.topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px}
+.topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px;white-space:nowrap}
 .topnav a:hover{color:var(--indigo);background:#eef2ff}
+.mnav{display:none;position:relative;margin-left:auto}
+.mnav summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;background:#fff;user-select:none}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav[open] summary{border-color:var(--accent);background:#fffbeb}
+.mnav nav{position:absolute;right:0;top:calc(100% + 8px);width:min(280px,78vw);background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:10px;display:flex;flex-direction:column}
+.mnav nav a{color:var(--sub);font-size:14px;font-weight:600;padding:9px 12px;border-radius:8px}
+.mnav nav a:hover{color:var(--indigo);background:#eef2ff;text-decoration:none}
 /* hero */
 .hero{position:relative;overflow:hidden;border-radius:22px;margin:28px 0 20px;padding:46px 38px;color:#fff;
   background:radial-gradient(1200px 500px at 85% -10%,rgba(129,140,248,.55),transparent 60%),
@@ -242,7 +205,7 @@ a:hover{text-decoration:underline}
 /* directory */
 h2.title{font-size:22px;font-weight:800;margin:34px 0 4px}
 p.title-sub{color:var(--sub);margin:0 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin-bottom:8px}
 .area{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
 .area h3{margin:0 0 8px;font-size:16px;display:flex;align-items:center;gap:8px}
 .area h3 .count{margin-left:auto;font-size:12px;color:var(--sub);background:#f1f5f9;border-radius:999px;padding:2px 9px;font-weight:700}
@@ -264,7 +227,17 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
 .site-foot{border-top:1px solid var(--line);margin-top:20px;background:#fff}
 .site-foot .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:22px 20px;font-size:13px;color:var(--sub)}
 .site-foot nav{display:flex;gap:14px;flex-wrap:wrap}
-@media print{.site-head,.cta,.site-foot,.topics a{display:none}}
+@media(max-width:760px){
+.topnav{display:none}
+.mnav{display:block}
+.hero{padding:32px 24px;margin-top:18px}
+.hero h1{font-size:27px}
+.grid{grid-template-columns:1fr}
+.book{flex-wrap:wrap}
+.book .btn{margin-left:0}
+.area h3{flex-wrap:wrap}
+}
+@media print{.site-head,.cta,.site-foot,.topics a,.mnav{display:none}}
 </style>
 </head>
 <body>
@@ -278,6 +251,14 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
     <a href="content/index.html">All files</a>
     <a href="app.html">Search &amp; Tracker</a>
   </nav>
+  <details class="mnav"><summary aria-label="Open menu">☰</summary><nav aria-label="Mobile">
+    <a href="./">⌂ Home</a>
+    <a href="content/index.html#content-prelims">📋 Prelims</a>
+    <a href="content/index.html#content-mains">✍️ Mains</a>
+    <a href="book/index.html">📖 Book</a>
+    <a href="content/index.html">📚 All files</a>
+    <a href="app.html">🔍 Search &amp; Tracker</a>
+  </nav></details>
 </div></header>
 <main class="wrap">
   <section class="hero">
@@ -325,59 +306,53 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
 const onlyHomepage = process.argv.includes('--homepage');
 
 const allFiles = walk(CONTENT).map((abs) => ({ abs, rel: rel(abs) }));
+const allRels = allFiles.map((f) => f.rel);
+const absOf = new Map(allFiles.map((f) => [f.rel, f.abs]));
 const leafDocs = allFiles.filter((f) =>
   f.rel.endsWith('.html') && path.posix.basename(f.rel) !== 'index.html');
-
-// index of docs per directory (for prev/next pager)
-const byDir = new Map();
-for (const d of leafDocs) {
-  const dir = path.posix.dirname(d.rel);
-  if (!byDir.has(dir)) byDir.set(dir, []);
-  byDir.get(dir).push(d);
-}
-for (const arr of byDir.values()) {
-  arr.sort((a, b) => a.rel.localeCompare(b.rel, undefined, { numeric: true }));
-}
+const titleCache = new Map();
+const titleOf = (r) => {
+  if (!titleCache.has(r)) {
+    const abs = absOf.get(r);
+    titleCache.set(r, (abs && pageTitle(abs)) ||
+      path.posix.basename(r).replace(/\.html$/i, '').replace(/[-_]/g, ' '));
+  }
+  return titleCache.get(r);
+};
 
 let rewritten = 0, skipped = 0;
 if (!onlyHomepage) {
   for (const d of leafDocs) {
     const dirAbs = path.dirname(d.abs);
+    const dirRel = path.posix.dirname(d.rel);            // e.g. content/prelims/gs1/economy/notes
     const homeRel = relFromDir(dirAbs, HOME_FILE);
     const catalogRel = relFromDir(dirAbs, CATALOG_FILE);
-    const title = pageTitle(d.abs) || path.posix.basename(d.rel).replace(/\.html$/i, '').replace(/[-_]/g, ' ');
+    const title = titleOf(d.rel);
 
-    // breadcrumbs: Home › each ancestor folder (linked to catalog anchor) › page
-    const dirRel = path.posix.dirname(d.rel);            // e.g. content/prelims/gs1/economy/notes
+    // breadcrumb trail (ancestors only; the header adds Home + current page)
     const parts = dirRel.split('/').filter(Boolean);     // ['content','prelims','gs1','economy','notes']
-    const crumbs = [];
-    crumbs.push(`<a href="${homeRel}">Home</a>`);
+    const trail = [];
     for (let j = 1; j < parts.length; j++) {
       const dirSoFar = parts.slice(0, j + 1).join('/');  // 'content/prelims', ...
-      const anchor = anchorOf(dirSoFar);
-      crumbs.push(`<span class="sep" aria-hidden="true">›</span><a href="${catalogRel}#${anchor}">${esc(niceLabel(parts[j]))}</a>`);
+      trail.push({ href: `${catalogRel}#${anchorOf(dirSoFar)}`, label: niceLabel(parts[j]) });
     }
-    crumbs.push(`<span class="sep" aria-hidden="true">›</span><span class="here">${esc(title)}</span>`);
-    const crumbsHtml = crumbs.join('');
 
-    // prev / next within the same folder
-    const sibs = byDir.get(dirRel) || [];
-    const idx = sibs.findIndex((x) => x.rel === d.rel);
-    const prev = idx > 0 ? sibs[idx - 1] : null;
-    const next = idx >= 0 && idx < sibs.length - 1 ? sibs[idx + 1] : null;
-    const short = (t) => (t.length > 34 ? t.slice(0, 33) + '…' : t);
-    const curAnchor = anchorOf(dirRel);
+    // topic pills + cross-section prev/next (shared chrome)
+    const tc = topicContext(allRels, dirRel, d.rel, titleOf);
+    const pills = tc.pills.slice();
+    if (pills.length) {
+      pills.push({
+        href: `${catalogRel}#${anchorOf(tc.topicRoot)}`,
+        label: 'All', icon: '☰', idx: true,
+      });
+    }
     const upLabel = parts.length > 1 ? niceLabel(parts[parts.length - 1]) : 'All files';
 
-    const pager =
-      '<footer class="pager no-print">\n' +
-      `  <span>${prev ? `<a href="${path.posix.basename(prev.rel)}" rel="prev">← ${esc(short(pageTitle(prev.abs) || path.posix.basename(prev.rel)))}</a>` : '<span class="dim">Start</span>'}</span>\n` +
-      `  ${parts.length > 1 ? `<a class="up" href="${catalogRel}#${curAnchor}">↑ ${esc(upLabel)} · all files</a>` : '<span></span>'}\n` +
-      `  <span>${next ? `<a href="${path.posix.basename(next.rel)}" rel="next">${esc(short(pageTitle(next.abs) || path.posix.basename(next.rel)))} →</a>` : '<span class="dim">End</span>'}</span>\n` +
-      '</footer>\n' +
-      '<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>';
-
-    if (rewriteDoc(d.abs, homeRel, catalogRel, title, prev, next, crumbsHtml, pager)) rewritten++;
+    if (rewriteDoc(d.abs, {
+      homeRel, catalogRel, trail, here: title, pills,
+      prev: tc.prev, next: tc.next,
+      upHref: `${catalogRel}#${anchorOf(dirRel)}`, upLabel,
+    })) rewritten++;
     else skipped++;
   }
   console.log(`[nav] ${rewritten} documents rewritten · ${skipped} already had site navigation`);
