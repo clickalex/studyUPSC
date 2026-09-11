@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -207,10 +241,10 @@ table{font-size:.82em}
 <tr><td>105th</td><td>2021</td><td>states' SEBC identification power restored (post-Maratha judgment)</td></tr>
 <tr><td>106th</td><td>2023</td><td>women's reservation (LS, assemblies; 15y; post-delimitation trigger)</td></tr>
 </tbody></table>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>42nd vs 44th pair: added vs rolled-back; 1976 vs 1978.</li><li>Vote age 18 = 61st (1989); GST = 101st; women's quota = 106th (2023).</li><li>Ninth Schedule born 1st (1951); IR Coelho (2007): basic-structure review still applies.</li><li>Anti-defection = 52nd/Tenth Schedule; Kihoto Hollohan: Speaker's decision judicially reviewable.</li><li>NJAC (99th) struck down — collegium restored.</li><li>73rd/74th same year 1992, two Schedules added (XI, XII).</li></ul>
 <!-- BEGIN studyUPSC:expansion -->
-<h3 id="am-deep-1">6. Article 368 — the Amending Power and Its Three Procedures</h3>
+</div><h3 id="am-deep-1">3. Article 368 — the Amending Power and Its Three Procedures</h3>
 <p><strong>Article 368</strong> confers the power to amend "by way of addition, variation or repeal". The Indian Constitution is neither wholly rigid nor wholly flexible: the procedure varies with the subject matter, and identifying the correct route is the single most examined point in this topic.</p>
 <table><thead><tr><th>Route</th><th>Requirement</th><th>Applies to</th></tr></thead><tbody>
 <tr><td><strong>Simple majority</strong> (outside Art. 368)</td><td>Majority of members present and voting in each House</td><td>Creation or abolition of states, alteration of boundaries and names (Art. 3); citizenship; creation or abolition of Legislative Councils; salaries and allowances; quorum; Fifth and Sixth Schedule administration; use of official language</td></tr>
@@ -220,7 +254,7 @@ table{font-size:.82em}
 <p>Procedural details that generate one-mark questions: an amendment bill may be introduced in <strong>either House</strong>; it may be introduced by a <strong>private member</strong> and needs no prior recommendation of the President; there is <strong>no provision for a joint sitting</strong> to resolve a deadlock, so each House must pass it separately; and after the <strong>24th Amendment</strong> the President is <em>bound</em> to give assent. Note also that state ratification requires no time limit and states may not rescind once given.</p>
 <p>Critically, <strong>state legislatures cannot initiate</strong> an amendment (except the resolution for creating or abolishing a Legislative Council under Art. 169), unlike the United States. This is a favourite comparison point.</p>
 
-<h3 id="am-deep-2">7. The Basic Structure Doctrine — the Judicial Arc</h3>
+<h3 id="am-deep-2">4. The Basic Structure Doctrine — the Judicial Arc</h3>
 <p>This is the most important doctrinal sequence in Indian constitutional law, and the cases must be known in order.</p>
 <ul>
 <li><strong>Shankari Prasad (1951)</strong> — upheld the First Amendment; held that "law" in Article 13 does not include a constitutional amendment, so Parliament could amend Fundamental Rights.</li>
@@ -235,9 +269,9 @@ table{font-size:.82em}
 <li><strong>S. R. Bommai (1994)</strong> — secularism and federalism affirmed as basic features, in the context of Article 356.</li>
 <li><strong>NJAC / Fourth Judges Case (2015)</strong> — struck down the 99th Amendment, holding judicial independence and the collegium-based primacy of the judiciary in appointments to be basic structure.</li>
 </ul>
-<p>Elements judicially recognised as basic structure include: supremacy of the Constitution; the republican and democratic form of government; secularism; separation of powers; federalism; judicial review; the rule of law; free and fair elections; independence of the judiciary; the power of the Supreme Court under Articles 32, 136, 141 and 142; harmony between Fundamental Rights and Directive Principles; and the limited amending power itself. There is <strong>no exhaustive list</strong> — the doctrine is developed case by case, which is itself an examinable characteristic (and the principal criticism, alongside the charge of judicial overreach and counter-majoritarianism).</p>
+<ul class="su-facts"><li>Elements judicially recognised as basic structure include: supremacy of the Constitution</li><li>the republican and democratic form of government</li><li>secularism</li><li>separation of powers</li><li>federalism</li><li>judicial review</li><li>the rule of law</li><li>free and fair elections</li><li>independence of the judiciary</li><li>the power of the Supreme Court under Articles 32, 136, 141 and 142</li><li>harmony between Fundamental Rights and Directive Principles</li><li>and the limited amending power itself. There is <strong>no exhaustive list</strong> — the doctrine is developed case by case, which is itself an examinable characteristic (and the principal criticism, alongside the charge of judicial overreach and counter-majoritarianism).</li></ul>
 
-<h3 id="am-deep-3">8. The Landmark Amendments</h3>
+<h3 id="am-deep-3">5. The Landmark Amendments</h3>
 <ul>
 <li><strong>1st (1951)</strong> — added the <strong>Ninth Schedule</strong> to protect land reform laws from judicial review; added reasonable restrictions on free speech (Art. 19(2)) and Art. 15(4) for backward classes.</li>
 <li><strong>7th (1956)</strong> — gave effect to the <strong>States Reorganisation Act</strong>, abolishing the Part A/B/C/D classification.</li>
@@ -246,7 +280,7 @@ table{font-size:.82em}
 <li><strong>26th (1971)</strong> — abolished <strong>privy purses</strong> and the privileges of former rulers.</li>
 <li><strong>31st (1973)</strong> — raised Lok Sabha strength to 545.</li>
 <li><strong>36th (1975)</strong> — made <strong>Sikkim</strong> a full state.</li>
-<li><strong>42nd (1976)</strong> — the most sweeping: added <strong>Socialist, Secular and Integrity</strong> to the Preamble; added <strong>Fundamental Duties</strong> (Part IVA, Art. 51A) on the Swaran Singh Committee's recommendation; moved <strong>five subjects</strong> from State to Concurrent List (education, forests, weights and measures, protection of wild animals and birds, administration of justice); added Articles 48A and 43A; curtailed judicial review; extended Lok Sabha and Assembly terms to six years; made the President bound by ministerial advice in substance.</li>
+<li><strong>42nd (1976)</strong> — the most sweeping: added <strong>Socialist, Secular and Integrity</strong> to the Preamble</li><li>added <strong>Fundamental Duties</strong> (Part IVA, Art. 51A) on the Swaran Singh Committee's recommendation</li><li>moved <strong>five subjects</strong> from State to Concurrent List (education, forests, weights and measures, protection of wild animals and birds, administration of justice)</li><li>added Articles 48A and 43A</li><li>curtailed judicial review</li><li>extended Lok Sabha and Assembly terms to six years</li><li>made the President bound by ministerial advice in substance.</li>
 <li><strong>44th (1978)</strong> — the Janata government's partial reversal: deleted the <strong>right to property</strong> as a Fundamental Right, making it a legal right under <strong>Article 300A</strong>; restored the term to five years; replaced "internal disturbance" with "<strong>armed rebellion</strong>" as a ground for National Emergency and required <em>written</em> Cabinet advice; provided that Articles 20 and 21 cannot be suspended even during an Emergency.</li>
 <li><strong>52nd (1985)</strong> — <strong>anti-defection law</strong>, adding the <strong>Tenth Schedule</strong>; the <strong>91st (2003)</strong> later capped the Council of Ministers at 15% of House strength and removed the one-third "split" exemption, leaving only merger.</li>
 <li><strong>61st (1989)</strong> — reduced the voting age from 21 to <strong>18</strong>.</li>
@@ -267,26 +301,30 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Prelims GS-I › Polity › Constitution. Amendment procedure, the "must-know" amendments list (106 as of 2025), and a case-law ladder.</p></blockquote>
 <h3 id="procedure-art-368-part-xx-south-africa-model">Procedure (Art 368, Part XX; South Africa model)</h3>
-<ul><li>Bill in <strong>either House</strong> (not state legislature); by minister or private member; <strong>no prior Presidential recommendation</strong>; passed in each House separately by <strong>special majority</strong> (majority of total membership + ≥2/3 present &amp; voting); <strong>no joint sitting</strong>; President <strong>must</strong> assent (24th Amdt 1971); for federal provisions — ratification by <strong>≥half the state legislatures</strong> by simple majority (no time limit; states can't amend).</li><li>Three routes: (i) <strong>simple majority (outside 368)</strong> — Arts 2, 3, 4 (states), 169 (legislative councils), 5th &amp; 6th Schedule paras, citizenship, salaries, quorum, English use, SC judges number, etc.; (ii) <strong>special majority</strong> — FRs, DPSP, most provisions; (iii) <strong>special + state ratification (368(2) proviso)</strong> — election of President (54, 55), executive power extent (73, 162), SC &amp; HC (Part V ch IV, Part VI ch V), legislative relations (Part XI ch I), 7th Schedule lists, representation of states in Parliament, <strong>Art 368 itself</strong>.</li><li>Judicial review of amendments: Shankari Prasad 1951 (Parliament can amend FRs; "law" in 13 excludes amendments) → Sajjan Singh 1965 (same) → <strong>Golaknath 1967</strong> (FRs unamendable; prospective overruling) → 24th Amdt 1971 (368 explicit, President bound) → <strong>Kesavananda 1973</strong> (basic structure; 24th valid) → 42nd (368(4)(5) unlimited power) → <strong>Minerva Mills 1980</strong> (struck) → Waman Rao 1981 → I.R. Coelho 2007 (9th Schedule) → NJAC 2015.</li></ul>
+<ul><li>Bill in <strong>either House</strong> (not state legislature)</li><li>by minister or private member</li><li><strong>no prior Presidential recommendation</strong></li><li>passed in each House separately by <strong>special majority</strong> (majority of total membership + ≥2/3 present &amp; voting)</li><li><strong>no joint sitting</strong></li><li>President <strong>must</strong> assent (24th Amdt 1971)</li><li>for federal provisions — ratification by <strong>≥half the state legislatures</strong> by simple majority (no time limit; states can't amend).</li><li>Three routes: (i) <strong>simple majority (outside 368)</strong> — Arts 2, 3, 4 (states), 169 (legislative councils), 5th &amp; 6th Schedule paras, citizenship, salaries, quorum, English use, SC judges number, etc.; (ii) <strong>special majority</strong> — FRs, DPSP, most provisions; (iii) <strong>special + state ratification (368(2) proviso)</strong> — election of President (54, 55), executive power extent (73, 162), SC &amp; HC (Part V ch IV, Part VI ch V), legislative relations (Part XI ch I), 7th Schedule lists, representation of states in Parliament, <strong>Art 368 itself</strong>.</li><li>Judicial review of amendments: Shankari Prasad 1951 (Parliament can amend FRs; "law" in 13 excludes amendments)</li><li>Sajjan Singh 1965 (same)</li><li><strong>Golaknath 1967</strong> (FRs unamendable; prospective overruling)</li><li>24th Amdt 1971 (368 explicit, President bound)</li><li><strong>Kesavananda 1973</strong> (basic structure; 24th valid)</li><li>42nd (368(4)(5) unlimited power)</li><li><strong>Minerva Mills 1980</strong> (struck)</li><li>Waman Rao 1981</li><li>I.R. Coelho 2007 (9th Schedule)</li><li>NJAC 2015.</li></ul>
 <h3 id="amendments-to-remember-year-theme">Amendments to remember (year — theme)</h3>
 <table><thead><tr><th>#</th><th>Year</th><th>Provision</th></tr></thead><tbody><tr><td><strong>1st</strong></td><td>1951</td><td>15(4), 19(2) grounds, 31A/31B, <strong>9th Schedule</strong>; land reform</td></tr><tr><td>7th</td><td>1956</td><td>States Reorganisation (Part A/B/C/D → states &amp; UTs; 14 states 6 UTs); common HC; LS 500 max</td></tr><tr><td>10th–14th</td><td>1961–62</td><td>Dadra-NH (10), Goa-Daman-Diu (12), Nagaland (13; Art 371A), Puducherry (14; UT legislatures)</td></tr><tr><td>21st</td><td>1967</td><td>Sindhi in 8th Schedule (15)</td></tr><tr><td>24th</td><td>1971</td><td>Parliament can amend FRs; President bound</td></tr><tr><td>25th</td><td>1971</td><td>Art 31C; "compensation" → "amount"</td></tr><tr><td>26th</td><td>1971</td><td>Privy purses abolished</td></tr><tr><td>31st</td><td>1973</td><td>LS 525 → 545</td></tr><tr><td>36th</td><td>1975</td><td>Sikkim full state</td></tr><tr><td>39th</td><td>1975</td><td>PM/President election beyond judicial review (struck Indira Gandhi v Raj Narain)</td></tr><tr><td><strong>42nd</strong></td><td>1976</td><td>"Mini-Constitution" (Swaran Singh): Preamble (Socialist, Secular, Integrity); <strong>FDs</strong>; DPSP 39(f), 39A, 43A, 48A; 31C to all DPSP (struck); 368(4)(5) (struck); LS &amp; assemblies term 6 yrs; <strong>five subjects to Concurrent</strong> — education, forests, wildlife &amp; birds, weights &amp; measures, administration of justice (except SC/HC); tribunals (Part XIVA — 323A/B); 356 one year; Art 74 advice binding; quorum removed; Art 257A (Centre deploy forces); Art 51A; 39th–42nd emergency era</td></tr><tr><td>43rd</td><td>1977</td><td>reversals (judicial review restored)</td></tr><tr><td><strong>44th</strong></td><td>1978</td><td>property FR → 300A; term back to 5 yrs; "armed rebellion"; <strong>written cabinet advice for 352</strong>; 20 &amp; 21 non-suspendable; 358 only war/external; President can return advice once (74(1)); 356 6 months renewal; Art 361A press protection; preventive detention 2 months (not notified)</td></tr><tr><td><strong>52nd</strong></td><td>1985</td><td><strong>Anti-defection — 10th Schedule</strong></td></tr><tr><td>58th</td><td>1987</td><td>Hindi authoritative text (394A)</td></tr><tr><td><strong>61st</strong></td><td>1989</td><td>voting age 21 → 18 (Art 326)</td></tr><tr><td>65th</td><td>1990</td><td>NCSC multi-member (338)</td></tr><tr><td>69th</td><td>1991</td><td>NCT Delhi (239AA/239AB)</td></tr><tr><td>71st</td><td>1992</td><td>Konkani, Manipuri, Nepali (18)</td></tr><tr><td><strong>73rd/74th</strong></td><td>1992 (in force 1993)</td><td>Panchayats (Part IX, 243–243O, 11th Sch — 29) / Municipalities (IXA, 243P–ZG, 12th Sch — 18)</td></tr><tr><td>77th</td><td>1995</td><td>16(4A) promotion reservation SC/ST</td></tr><tr><td>81st</td><td>2000</td><td>16(4B) backlog carry-forward</td></tr><tr><td>82nd</td><td>2000</td><td>Art 335 — relaxation in qualifying marks</td></tr><tr><td>84th</td><td>2001</td><td>Delimitation on 1991 census; seat freeze extended to <strong>2026</strong></td></tr><tr><td>85th</td><td>2001</td><td>consequential seniority in promotion</td></tr><tr><td><strong>86th</strong></td><td>2002</td><td><strong>21A</strong>; 45 (&lt;6); 51A(k)</td></tr><tr><td>87th</td><td>2003</td><td>Delimitation on <strong>2001 census</strong> (seats unchanged)</td></tr><tr><td>88th</td><td>2003</td><td>Art 268A service tax (later omitted)</td></tr><tr><td>89th</td><td>2003</td><td>NCST separate (338A)</td></tr><tr><td><strong>91st</strong></td><td>2003</td><td><strong>CoM ≤15%</strong> of LS/assembly (min 12); defector disqualified from ministership; split provision (1/3) deleted</td></tr><tr><td>92nd</td><td>2003</td><td>Bodo, Dogri, Maithili, Santali (22)</td></tr><tr><td>93rd</td><td>2005</td><td>15(5) OBC in private unaided institutions</td></tr><tr><td>95th</td><td>2009</td><td>SC/ST reservation in LS/assemblies to 2020</td></tr><tr><td>96th</td><td>2011</td><td>Oriya → Odia</td></tr><tr><td><strong>97th</strong></td><td>2011</td><td>cooperatives — 19(1)(c), 43B, Part IXB (partly struck 2021 — states' domain; multi-state valid)</td></tr><tr><td>98th</td><td>2012</td><td>Art 371J Hyderabad-Karnataka</td></tr><tr><td><strong>99th</strong></td><td>2014</td><td><strong>NJAC</strong> (struck Oct 2015, 4:1)</td></tr><tr><td><strong>100th</strong></td><td>2015</td><td>India–Bangladesh <strong>Land Boundary Agreement</strong> (enclaves)</td></tr><tr><td><strong>101st</strong></td><td>2016</td><td><strong>GST</strong> — 246A, 269A, 279A (GST Council)</td></tr><tr><td><strong>102nd</strong></td><td>2018</td><td><strong>NCBC constitutional (338B)</strong>; 342A (SEBC list by President); 366(26C)</td></tr><tr><td><strong>103rd</strong></td><td>2019</td><td><strong>EWS 10%</strong> — 15(6), 16(6)</td></tr><tr><td><strong>104th</strong></td><td>2020</td><td>SC/ST reservation in LS/assemblies extended to <strong>2030</strong>; Anglo-Indian nomination ended</td></tr><tr><td><strong>105th</strong></td><td>2021</td><td>states' power to identify OBCs restored (after Maratha judgment)</td></tr><tr><td><strong>106th</strong></td><td>2023</td><td><strong>Women's reservation 1/3 in LS, state assemblies, Delhi</strong> (Arts 330A, 332A, 239AA(2)(b)); effective after delimitation post next census; 15 years; SC/ST sub-quota; <strong>Nari Shakti Vandan Adhiniyam</strong></td></tr><tr><td>Pending</td><td>2024–25</td><td><strong>129th Amdt Bill (One Nation One Election — Art 82A; JPC)</strong>, Union Territories Laws Amendment (J&amp;K assembly); 130th Amendment Bill Aug 2025 (removal of PM/CM/ministers detained 30 days — JPC)</td></tr></tbody></table>
 <h3 id="landmark-cases-ladder-name-principle">Landmark cases ladder (name → principle)</h3>
 <ul><li><strong>A.K. Gopalan 1950</strong> (procedure established by law narrow) → <strong>Maneka Gandhi 1978</strong> (due process; golden triangle 14-19-21).</li><li><strong>Champakam Dorairajan 1951</strong> (FR &gt; DPSP → 1st Amdt). <strong>Berubari 1960</strong> (Preamble not part; territory cession needs amendment). <strong>Kesavananda 1973</strong>. <strong>Indira Gandhi v Raj Narain 1975</strong> (free elections basic). <strong>ADM Jabalpur 1976</strong> (habeas corpus suspended; overruled 2017). <strong>Minerva Mills 1980</strong>. <strong>Waman Rao 1981</strong>. <strong>S.P. Gupta 1981 (First Judges — executive primacy; PIL)</strong>, <strong>SCAORA 1993 (Second — collegium)</strong>, <strong>1998 opinion (Third — 5-member)</strong>, <strong>NJAC 2015 (Fourth)</strong>. <strong>Shah Bano 1985</strong> (maintenance; 1986 Act). <strong>Mohini Jain 1992 / Unnikrishnan 1993</strong> (education). <strong>Indra Sawhney 1992</strong> (Mandal; 50% ceiling; creamy layer; no reservation in promotion → 77th). <strong>S.R. Bommai 1994</strong> (Art 356; floor test; secularism). <strong>Vishaka 1997</strong> (sexual harassment guidelines → 2013 Act). <strong>Vineet Narain 1997</strong> (CBI/CVC). <strong>L. Chandra Kumar 1997</strong> (tribunals under HC review). <strong>T.M.A. Pai 2002</strong>. <strong>PUCL 2003</strong> (candidates' disclosure). <strong>Aruna Shanbaug 2011 / Common Cause 2018</strong> (euthanasia). <strong>Lily Thomas 2013</strong> (convicted MPs disqualified — Sec 8(4) struck). <strong>NOTA (PUCL 2013)</strong>. <strong>Shreya Singhal 2015</strong> (66A struck). <strong>NALSA 2014</strong> (transgender). <strong>Nabam Rebia 2016</strong> (Governor's discretion; Speaker under disqualification notice — referred to 7 judges 2023). <strong>Puttaswamy 2017/2018</strong> (privacy; Aadhaar 4:1 — Sec 57 struck; money bill upheld — referred to 7 judges in Rojer Mathew 2019). <strong>Shayara Bano 2017</strong> (triple talaq → 2019 Act). <strong>Navtej Johar 2018</strong> (377). <strong>Joseph Shine 2018</strong> (adultery 497 struck). <strong>Sabarimala 2018</strong> (→ 9-judge 2020 pending). <strong>Kihoto Hollohan 1992</strong> (Speaker's anti-defection decisions reviewable). <strong>Keisham Meghachandra 2020</strong> (Speaker decide in 3 months). <strong>Rambabu Singh Thakur 2020 / 2023</strong> (criminal antecedents publicity). <strong>Anoop Baranwal 2023</strong> (CEC/EC appointment committee — PM, LoP, CJI → 2023 Act replaced CJI with a Union minister; challenge pending 2025). <strong>Subhash Desai 2023</strong> (Shiv Sena — Governor's floor test call wrong; Speaker to decide). <strong>Article 370 (Dec 2023)</strong>. <strong>Electoral Bonds — ADR Feb 2024</strong>. <strong>Sita Soren 2024</strong> (bribery — no immunity; overruled P.V. Narasimha Rao 1998). <strong>Davinder Singh 2024</strong> (SC sub-classification 6:1). <strong>Property Owners 2024</strong> (39(b)). <strong>State of Punjab v Davinder / AMU Nov 2024</strong>. <strong>Tamil Nadu Governor Apr 2025</strong> (Arts 200/201 timelines; deemed assent — Presidential reference; <strong>SC opinion Nov 2025: no timelines/deemed assent; but Governor cannot sit indefinitely — judicial review of inaction</strong>). <strong>Bilkis Bano Jan 2024</strong>. <strong>Manish Sisodia/Kejriwal bail 2024</strong> (bail is rule). <strong>Newsclick Prabir Purkayastha 2024</strong> (written grounds of arrest). <strong>Mahua Moitra</strong>; <strong>In re: Section 6A Oct 2024</strong>; <strong>Bulldozer demolitions Nov 2024 (guidelines)</strong>; <strong>Child marriage (Oct 2024)</strong>; <strong>Domestic violence, marital rape (pending)</strong>; <strong>Vanashakti 2025</strong> (ex-post facto environmental clearances struck); <strong>Justice Yashwant Varma cash row 2025</strong> (in-house inquiry; removal motion in Parliament); <strong>Supriyo 2023</strong> (no same-sex marriage right; Parliament's domain); <strong>NEET-UG 2024 (no re-test)</strong>.</li></ul>
-<h3 id="traps">Traps</h3>
+<div class="su-recap"><h3 id="traps">⚡ Traps</h3>
 <ul><li>Amendment Bills need <strong>no</strong> prior President recommendation and <strong>no</strong> joint sitting; President <strong>must</strong> assent (24th).</li><li>State ratification: by <strong>simple</strong> majority, by <strong>half</strong> the states — no time limit; states can <strong>only</strong> ratify, not initiate.</li><li>Art 368 changes to itself need state ratification; Arts 2–4 (new states) are <strong>outside</strong> 368 (simple majority).</li><li>42nd = Swaran Singh; 44th = Janata reversal; 52nd = anti-defection; 61st = 18 yrs; 73/74 = local govt; 86th = RTE; 91st = 15% cabinet; 101st = GST; 102nd = NCBC; 103rd = EWS; 104th = 2030; 105th = state OBC lists; 106th = women.</li><li>Constitution has been amended <strong>106 times</strong> (as of Sept 2025); the 128th Bill became the <strong>106th Act</strong>.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Number-year-change flash.</p></blockquote>
-<h3 id="classic-flash">Classic flash</h3>
+<div class="su-recap"><h3 id="classic-flash">⚡ Classic flash</h3>
 <ul><li>1st 1951 → Ninth Schedule, 15(4) · 7th 1956 → states reorg · 24th 1971 → FRs amendable · 25th → 31C.</li><li>36th 1975 → Sikkim state · 42nd 1976 → mini-constitution (words + FDs + tribunals) · 44th 1978 → property out of FRs, 'armed rebellion'.</li><li>52nd 1985 → anti-defection · 61st 1989 → vote 18 · 69th 1991 → Delhi NCT · 73rd-74th 1992 → PRIs/municipalities.</li></ul>
-<h3 id="modern-flash">Modern flash</h3>
+</div><div class="su-recap"><h3 id="modern-flash">⚡ Modern flash</h3>
 <ul><li>86th 2002 → 21A + FD-11 · 91st 2003 → cabinet 15% · 97th 2011 → cooperatives · 99th 2014 → NJAC (struck) · 100th 2015 → Bangladesh LBA.</li><li>101st 2016 → GST · 102nd 2018 → NCBC · 103rd 2019 → EWS 10% · 104th 2020 → SC-ST seats extended, Anglo-Indian nomination ends · 105th 2021 → SEBC state power · 106th 2023 → women's reservation.</li></ul>
-<h3 id="procedure-flash">Procedure flash</h3>
+</div><div class="su-recap"><h3 id="procedure-flash">⚡ Procedure flash</h3>
 <ul><li>Simple majority outside 368 (states, citizenship, salaries) · special majority most · +½ ratification for President election, Union-state power, Seventh Schedule, HC-SC, 368 itself.</li><li>No joint sitting for amendment; assent obligatory (24th).</li></ul>
-<h3 id="trap-flash">Trap flash</h3>
+</div><div class="su-recap"><h3 id="trap-flash">⚡ Trap flash</h3>
 <ul><li>91st = cabinet-size cap (15%), NOT anti-defection (52nd).</li><li>Delhi NCT = 69th (1991), not 70th.</li><li>FDs added by 42nd (10) + 86th (11th) — count trap.</li><li>IR Coelho 2007: Ninth Schedule laws post-24 Apr 1973 face basic-structure review.</li><li>106th women's quota: awaits delimitation census — 'implementation' phrasing matters.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>

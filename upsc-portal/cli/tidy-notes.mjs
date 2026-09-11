@@ -85,9 +85,13 @@ function splitFacts(inner) {
   else if (dot >= 4) seps = ['\u00B7'];
   else return null;
 
-  /* Split a text run on separators that sit OUTSIDE parentheses — "(1975;
-     USSR-launched)" is one fact, not three. Splitting order: ; then →. */
+  /* Split a text run on separators that sit OUTSIDE parentheses and OUTSIDE
+     HTML entities — "(1975; USSR-launched)" is one fact, and the ; inside
+     "&amp;" is markup, not a separator. Splitting order: ; then →. */
+  const ENT = /&(?:[a-zA-Z][a-zA-Z0-9]{0,7}|#\d+|#x[0-9a-fA-F]+);/g;
   const splitText = (s) => {
+    const stash = [];
+    const guarded = s.replace(ENT, (e) => { stash.push(e); return '\u0000E' + (stash.length - 1) + '\u0000'; });
     const cut = (str, sepset) => {
       const out = [];
       let depth = 0;
@@ -101,14 +105,15 @@ function splitFacts(inner) {
       out.push(cur);
       return out;
     };
+    const restore = (str) => str.replace(/\u0000E(\d+)\u0000/g, (m, i) => stash[Number(i)]);
     const semiSet = new Set(seps);
-    let parts = cut(s, semiSet);
+    let parts = cut(guarded, semiSet);
     if (seps[0] === ';') {
       const next = [];
       for (const p of parts) next.push(...cut(p, new Set(['\u2192'])));
       parts = next;
     }
-    return parts;
+    return parts.map(restore);
   };
 
   const segs = [];
@@ -331,6 +336,8 @@ function tidyFile(abs) {
   let raw = orig;
   /* repair mangled HTML comments (early tidy runs lost the leading "<") */
   raw = raw.replace(/(^|\n)!--([\s\S]*?-->)/g, '$1<!--$2');
+  /* repair entities whose ; was consumed as a fact separator (&amp< → &amp;<) */
+  raw = raw.replace(/&(amp|lt|gt|quot|nbsp)(?![0-9a-zA-Z;])/g, '&$1;');
   const commentsFixed = raw !== orig;
   if (raw.includes(MARKER) && !FORCE && !commentsFixed) return { rel, changed: false, reason: 'marker' };
 
@@ -374,6 +381,9 @@ function tidyFile(abs) {
   /* div nesting delta must be preserved (recap boxes add balanced pairs) */
   const divDelta = (s) => counts(s, /<div\b/g) - counts(s, /<\/div>/g);
   if (divDelta(card) !== divDelta(newCard)) return { rel, changed: false, reason: 'div-balance-fail' };
+  /* no bare HTML entities may be introduced (entity ; is never a separator) */
+  const bareEnt = (s) => counts(s, /&(?:amp|lt|gt|quot|nbsp|#\d+|#x[0-9a-fA-F]+)(?![0-9a-zA-Z;])/g);
+  if (bareEnt(newCard) > bareEnt(card)) return { rel, changed: false, reason: 'entity-fail' };
 
   if (!out.includes('studyupsc-tidy')) out = out.replace('</head>', () => TIDY_CSS + '\n</head>');
   if (!out.includes(MARKER)) out = out.replace('</body>', () => MARKER + '\n</body>');

@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -187,13 +221,13 @@ table{font-size:.82em}
 <h3 id="3-intro-methods-rotate-don-t-repeat">3. Intro methods (rotate, don't repeat)</h3>
 <ul><li><strong>Anecdote/stat</strong>: "In July 2024, Wayanad's slopes moved…" (place + event anchors the abstract).</li><li><strong>Dialogue/quote</strong>: verified quote (Gandhi talisman; Ambedkar fraternity line; Tagore "where the mind is without fear").</li><li><strong>Question</strong>: limits — use only one in essay.</li><li><strong>Contrast</strong>: two states/villages/years juxtaposed (Kerala'96 vs Kerala'24 education indexes).</li><li><strong>Definition turn</strong>: begin from the dictionary then complicate it.</li></ul>
 <h3 id="4-body-architecture-dimension-rotation">4. Body architecture — dimension rotation</h3>
-<p>Keep a <strong>dimension playlist</strong>: Social · Political · Economic · Cultural · Ethical · Environmental · Technological · IR/geopolitical · Psychological/spiritual · Gender · Historical. <strong>Choose 4–5; don't cover everything.</strong></p>
+<ul class="su-facts"><li>Keep a <strong>dimension playlist</strong>: Social</li><li>Political</li><li>Economic</li><li>Cultural</li><li>Ethical</li><li>Environmental</li><li>Technological</li><li>IR/geopolitical</li><li>Psychological/spiritual</li><li>Gender</li><li>Historical. <strong>Choose 4–5; don't cover everything.</strong></li></ul>
 <h4 id="paragraph-pattern-per-dimension">Paragraph pattern (per dimension)</h4>
 <ul><li><strong>Topic sentence</strong> (claim).</li><li><strong>Mechanism</strong> (how/when/through whom).</li><li><strong>Evidence + counter-evidence line</strong>.</li><li><strong>Application mini-case</strong> (institution, judgment, scheme, region).</li><li><strong>Linkage sentence</strong> (handoff to next dimension).</li></ul>
 <h3 id="5-recurring-topic-families-ready-frames">5. Recurring topic families &amp; ready frames</h3>
 <table><thead><tr><th>Family</th><th>Typical wording</th><th>Strong frame</th></tr></thead><tbody><tr><td>Technology &amp; society</td><td>"AI as servant/master…"</td><td>haves/have-nots → skill transitions → governance → meaning</td></tr><tr><td>Gender</td><td>"Women's work, men's world…"</td><td>norm → law → economy → cares → voice</td></tr><tr><td>Climate</td><td>"Growth vs ecology…"</td><td>equity (CBDR) → adaptation → tech+finance → life-ways</td></tr><tr><td>Constitution</td><td>"Constitution as moral document"</td><td>ideals → institutions → practice → future</td></tr><tr><td>IR</td><td>"Multipolarity &amp; India…"</td><td>order contest → strategic autonomy → responsibility</td></tr><tr><td>Education</td><td>"Education without values…"</td><td>capability (Sen) vs credentialism; NEP moment</td></tr><tr><td>Urbanisation</td><td>"Cities of hope, cities of heat"</td><td>migration → informal work → heat → planning reform</td></tr><tr><td>Culture</td><td>"Modernity &amp; tradition…"</td><td>continuity-with-change; vernacular modernity</td></tr></tbody></table>
 <h3 id="6-examples-evidence-pantry-rotation-discipline">6. Examples &amp; evidence pantry (rotation discipline)</h3>
-<ul><li>Economy: PLI coverage (14 sectors), DBT savings, gig-code moves (Rajasthan 2023), AI-mission story (₹10,371 cr).</li><li>Constitution: Kesavananda Bharati 1973, Nari Shakti 106th Amdt 2023 (post-delimitation), Electoral Bonds struck Feb 2024, CEC appointments debate.</li><li>Environment: GBF 30×30; M K Ranjitsinh 2024 climate right; Great Nicobar ethics case; tiger census 3,682.</li><li>Tech: DPI stack (UPI+ONDC+Bhashini+MOSIP); NISAR Jul 2025; SpaDeX docking Jan 2025; AI Safety Institute 2025; NQM ₹6,003 cr.</li><li>Society: Bihar caste survey 2023, Census 2027 two-phase, FLFPR ~37–41%, NFHS-5 TFR 2.0.</li><li>Global: Gaza conflicts 2023–, Ukraine 2022→, BRI 2013, bandung echo 1955, G20 2023 (AU admission).</li></ul>
+<ul><li>Economy: PLI coverage (14 sectors), DBT savings, gig-code moves (Rajasthan 2023), AI-mission story (₹10,371 cr).</li><li>Constitution: Kesavananda Bharati 1973, Nari Shakti 106th Amdt 2023 (post-delimitation), Electoral Bonds struck Feb 2024, CEC appointments debate.</li><li>Environment: GBF 30×30</li><li>M K Ranjitsinh 2024 climate right</li><li>Great Nicobar ethics case</li><li>tiger census 3,682.</li><li>Tech: DPI stack (UPI+ONDC+Bhashini+MOSIP)</li><li>NISAR Jul 2025</li><li>SpaDeX docking Jan 2025</li><li>AI Safety Institute 2025</li><li>NQM ₹6,003 cr.</li><li>Society: Bihar caste survey 2023, Census 2027 two-phase, FLFPR ~37–41%, NFHS-5 TFR 2.0.</li><li>Global: Gaza conflicts 2023–, Ukraine 2022→, BRI 2013, bandung echo 1955, G20 2023 (AU admission).</li></ul>
 <p>(Each topic folder's short-notes and bullets files are built to feed this pantry — cross-reference liberally.)</p>
 <h3 id="7-language-discipline">7. Language discipline</h3>
 <ul><li><strong>Sentence rhythm</strong>: short sentences for argument peaks; varied lengths elsewhere.</li><li><strong>Quotes</strong>: 2 maximum; verify attributions ("There is no path to peace…" = Gandhi, Gandhi-style global trope).</li><li><strong>Jargon control</strong>: explain acronyms at first use.</li><li><strong>No bullet-point abuse</strong>: paragraphs + occasional signposting works; tables optional — avoid excess.</li></ul>
@@ -239,11 +273,11 @@ table{font-size:.82em}
 <h3 id="intro-methods-rotate">Intro methods (rotate)</h3>
 <ul><li>Anecdote/statistic (place + year).</li><li>Verified quote (Gandhi talisman; Ambedkar fraternity; Tagore).</li><li>Definition-turn ("The Oxford dictionary defines X as … but in Indian context…").</li><li>Contrast ("Between 1996 and 2026 Kerala's literacy slope …").</li><li>Question (ONE per essay max).</li></ul>
 <h3 id="dimension-playlist-choose-4-5-never-all">Dimension playlist (choose 4–5, never all)</h3>
-<p>Social · Political · Economic · Cultural · Ethical · Environmental · Technological · Geopolitical · Psychological/spiritual · Gender · Historical.</p>
+<ul class="su-facts"><li>Social</li><li>Political</li><li>Economic</li><li>Cultural</li><li>Ethical</li><li>Environmental</li><li>Technological</li><li>Geopolitical</li><li>Psychological/spiritual</li><li>Gender</li><li>Historical.</li></ul>
 <h3 id="paragraph-pattern">Paragraph pattern</h3>
-<p>Topic sentence → mechanism → evidence w/ counter-line → mini-case (scheme/judgment/institution/region) → linkage sentence.</p>
+<ul class="su-facts"><li>Topic sentence</li><li>mechanism</li><li>evidence w/ counter-line</li><li>mini-case (scheme/judgment/institution/region)</li><li>linkage sentence.</li></ul>
 <h3 id="anchor-pantry-fresh-ca">Anchor pantry (fresh CA)</h3>
-<ul><li>Tech: AI Mission ₹10,371 cr · NQM ₹6,003 cr · NISAR (Jul-25) · SpaDeX (Jan-25) · AI Safety Institute.</li><li>Polity: 106th Amdt (women 33%) · Electoral Bonds struck Feb-24 · 131st Amendment defeat Apr-26 (one nation one election pause).</li><li>Economy: GST 2.0 (Sep-25) · MPC 4±2% to 2031 · ~4th economy $4.2 tn · forex $650–700 bn.</li><li>Environment: M K Ranjitsinh climate right (2024) · GBF 30×30 · tiger count 3,682 · Great Nicobar ethics.</li><li>Society: NFHS-5 TFR 2.0 · FLFPR ~37–41% · Bihar caste survey 2023 · Census 2027 2-phase.</li><li>Global: Ukraine 2022→ · Gaza arc · BRI 2013 · Namibia/SA '90-'94 decol echoes.</li></ul>
+<ul><li>Tech: AI Mission ₹10,371 cr</li><li>NQM ₹6,003 cr</li><li>NISAR (Jul-25)</li><li>SpaDeX (Jan-25)</li><li>AI Safety Institute.</li><li>Polity: 106th Amdt (women 33%) · Electoral Bonds struck Feb-24 · 131st Amendment defeat Apr-26 (one nation one election pause).</li><li>Economy: GST 2.0 (Sep-25) · MPC 4±2% to 2031 · ~4th economy $4.2 tn · forex $650–700 bn.</li><li>Environment: M K Ranjitsinh climate right (2024) · GBF 30×30 · tiger count 3,682 · Great Nicobar ethics.</li><li>Society: NFHS-5 TFR 2.0 · FLFPR ~37–41% · Bihar caste survey 2023 · Census 2027 2-phase.</li><li>Global: Ukraine 2022→ · Gaza arc · BRI 2013 · Namibia/SA '90-'94 decol echoes.</li></ul>
 <h3 id="language-discipline">Language discipline</h3>
 <ul><li>Verify quotes: never fabricate attribution ("as the saying goes…" fallback).</li><li>Short sentences for argument pivots; variety otherwise.</li><li>Explain acronyms on first use; no jargon trails.</li></ul>
 <h3 id="pitfalls-fixes">Pitfalls → fixes</h3>
@@ -268,12 +302,12 @@ table{font-size:.82em}
 ├── Pitfalls: drift · fact-dump · fabricated quotes · political bias · ornamental rhetoric
 └── Time: 15 min plan · 70 min ×2 · final 5–10 min check</code></pre>
 <h3 id="topic-families-ready-frames">Topic families → ready frames</h3>
-<ul><li>Tech/society → "agency vs governance"</li><li>Gender → "norm → law → economy → care-work → voice"</li><li>Climate → "equity stack (CBDR) → adaptation → tech+finance → life-ways"</li><li>Constitution → "ideals → institutions → practice → future"</li><li>IR → "order contest → strategic autonomy → responsibility chain"</li><li>Education → "capability vs credentialism; NEP moment"</li><li>Urbanisation → "migration → informal work → heat → planning reform"</li><li>Culture → "continuity-with-change"; vernacular modernity</li></ul>
+<ul><li>Tech/society → "agency vs governance"</li><li>Gender</li><li>"norm</li><li>law</li><li>economy</li><li>care-work</li><li>voice"</li><li>Climate</li><li>"equity stack (CBDR)</li><li>adaptation</li><li>tech+finance</li><li>life-ways"</li><li>Constitution</li><li>"ideals</li><li>institutions</li><li>practice</li><li>future"</li><li>IR</li><li>"order contest</li><li>strategic autonomy</li><li>responsibility chain"</li><li>Education → "capability vs credentialism; NEP moment"</li><li>Urbanisation</li><li>"migration</li><li>informal work</li><li>heat</li><li>planning reform"</li><li>Culture → "continuity-with-change"; vernacular modernity</li></ul>
 <h3 id="quotes-w-safe-attribution">Quotes w/ safe attribution</h3>
 <ul><li>Gandhi: "There is no path to peace; peace is the path." / talisman framing (poorest-face).</li><li>Ambedkar: fraternity triad — "religion of liberty, equality, fraternity."</li><li>Tagore: "Where the mind is without fear…"</li><li>JFK-adjacent ("ask not…") — avoid; Indian anchors preferred.</li><li>Kautilya-statecraft quips — paraphrase, don't quote.</li></ul>
-<h3 id="golden-sentence-trains">Golden sentence trains</h3>
+<div class="su-recap"><h3 id="golden-sentence-trains">⚡ Golden sentence trains</h3>
 <ul><li>"X is not the problem; the <em>indifference</em> X enables is."</li><li>"The question is never whether X — it is always <em>for whom</em> and <em>at what cost</em>."</li><li>"Institutions decay twice: once in law, once in habit — reform addresses both."</li><li>"The alternative to bad governance is not no governance; it is redesigned governance."</li></ul>
-<h3 id="discipline-bullets">Discipline bullets</h3>
+</div><h3 id="discipline-bullets">Discipline bullets</h3>
 <ul><li>Max 2 quotes per essay.</li><li>Max 3 numeric anchors per dimension.</li><li>Every dimension ends with a handoff sentence.</li><li>Counterpoint paragraph always present (10–15% of length).</li><li>Conclusion = thesis + forward-looking frame + one institutional suggestion.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">
@@ -399,14 +433,14 @@ table{font-size:.82em}
 <p><strong>Section A flavours (abstract):</strong></p>
 <ul><li>"Reality does not conform to the ideal, but confirms it."</li><li>"Truth is lived, not taught."</li><li>"Not all who wander are lost."</li><li>"The empires of the future will be the empires of the mind."</li><li>"Half knowledge is dangerous*" style proverbs recur.</li></ul>
 <p><strong>Section B flavours (applied):</strong></p>
-<ul><li>Education-value pairing; women's workforce reality; technology vs jobs; climate-development equation; urbanisation vs liveability; media &amp; trust; federalism &amp; fiscal order; elections &amp; reform.</li><li>recurring frame: <strong>trade-off statements</strong> (growth vs ecology, freedom vs security, tech vs employment, tradition vs modernity).</li></ul>
+<ul><li>Education-value pairing</li><li>women's workforce reality</li><li>technology vs jobs</li><li>climate-development equation</li><li>urbanisation vs liveability</li><li>media &amp;</li><li>trust</li><li>federalism &amp;</li><li>fiscal order</li><li>elections &amp;</li><li>reform.</li><li>recurring frame: <strong>trade-off statements</strong> (growth vs ecology, freedom vs security, tech vs employment, tradition vs modernity).</li></ul>
 <h3 id="model-approaches-to-five-archetypes">Model approaches to five archetypes</h3>
 <p><strong>A1. "The empires of the future will be the empires of the mind"</strong></p>
 <ul><li>Angles: soft power (DPI exports, diaspora, cinema), talent pipelines (HEIs, ANRF ₹50k cr), IP economy, cognitive labor &amp; AI (IndiaAI mission + gigified coding class), counterpoint: coercive hard power cases (Russia-Ukraine) → conclusion: mind-led but institution-armed India.</li></ul>
 <p><strong>A2. "Women's voices will be heard when women are present to speak."</strong></p>
-<ul><li>Angles: 106th Amendment (33% reservation; post-delimitation) → LFPR ~37–41% challenge → political solar-panchayat evidence (Lakhpati Didi counter-argument) → digital public voice (social-media stacks) → conclusion: presence + power + public space.</li></ul>
+<ul><li>Angles: 106th Amendment (33% reservation; post-delimitation)</li><li>LFPR ~37–41% challenge</li><li>political solar-panchayat evidence (Lakhpati Didi counter-argument)</li><li>digital public voice (social-media stacks)</li><li>conclusion: presence + power + public space.</li></ul>
 <p><strong>A3. "Economy without ecology is a self-defeating arithmetic."</strong></p>
-<ul><li>Angles: GBF 30×30 + CCTS 2023; MK Ranjitsinh 2024 constitutional right-to-climate-safety; adaptation as development nexus (HAPs 23+ states); counterpoint: energy-poverty headline (still ~300 mn electricity-quality edges across states) → conclusion: "eco-conservatism wears an equity suit; green growth is the only politically durable growth."</li></ul>
+<ul><li>Angles: GBF 30×30 + CCTS 2023</li><li>MK Ranjitsinh 2024 constitutional right-to-climate-safety</li><li>adaptation as development nexus (HAPs 23+ states)</li><li>counterpoint: energy-poverty headline (still ~300 mn electricity-quality edges across states)</li><li>conclusion: "eco-conservatism wears an equity suit</li><li>green growth is the only politically durable growth."</li></ul>
 <p><strong>A4. "A city is not a place, it is a process."</strong></p>
 <ul><li>Angles: migration engines (~450 mn internal migrants), informal economies, heat/liveability (Ahmedabad HAP lineage), smart-cities mandate vs municipal fiscal starvation (74th), counterpoint: village resilience arguments → conclusion: institutional modernisation = 74th amendment empowerment + WSUD codes.</li></ul>
 <p><strong>A5. "Heritage is not a museum; it is a conversation."</strong></p>

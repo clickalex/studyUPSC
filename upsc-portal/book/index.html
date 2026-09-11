@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -184,8 +218,8 @@ table{font-size:.82em}
       <div><b>10</b><span>Parts</span></div>
       <div><b>52</b><span>Chapters</span></div>
       <div><b>126</b><span>Lessons</span></div>
-      <div><b>545k</b><span>Words</span></div>
-      <div><b>~1362</b><span>Pages</span></div>
+      <div><b>543k</b><span>Words</span></div>
+      <div><b>~1357</b><span>Pages</span></div>
     </div>
   </div>
 
@@ -196,223 +230,313 @@ table{font-size:.82em}
   <p class="no-print">Reading in order? Tap <b>✓ Mark complete</b> at the top of each lesson — finished lessons get ticked ✓ here, and progress syncs with the <a href="../app.html#/tracker">portal tracker</a>. On question sections, press <b>🎯 Quiz me</b> to hide every answer and test yourself.</p>
 
   <h2>Table of Contents</h2>
+  <p class="bk-mini">Tap a part to expand it, or filter the 126 lessons with the search box. Finished lessons are ticked ✓ automatically.</p>
+  <div class="bk-tfilter no-print">
+  <input id="bk-q" type="search" placeholder="Filter lessons…" aria-label="Filter lessons" autocomplete="off">
+  <span id="bk-c" aria-live="polite"></span>
+  <span class="sp"></span>
+  <button type="button" id="bk-expand">Expand all</button>
+  <button type="button" id="bk-collapse">Collapse all</button>
+</div>
   <div class="bk-toc">
-<div class="part" id="part-prelims-gs1">
-  <p class="bk-eyebrow">Part I · prelims</p>
-  <h3>GS Paper I — General Studies (Prelims)</h3>
-  <div class="tag">History · Geography · Polity · Economy · Environment · S&amp;T</div>
-  <div class="chap">
-    <div class="ct">Chapter 1.1 — History &amp; Indian Culture</div>
-    <ol><li><a href="lesson/prelims-gs1-stone-bronze-age.html" data-nav="prelims-gs1/history-culture/ancient-history/stone-bronze-age"><span class="num">1.1.1</span><span>Prehistory: Stone Age &amp; Indus Valley Civilisation</span><span class="pg">p.12</span></a></li><li><a href="lesson/prelims-gs1-vedic-age.html" data-nav="prelims-gs1/history-culture/ancient-history/vedic-age"><span class="num">1.1.2</span><span>Vedic Age &amp; Later Vedic Period</span><span class="pg">p.20</span></a></li><li><a href="lesson/prelims-gs1-mahajanapadas-mauryan.html" data-nav="prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan"><span class="num">1.1.3</span><span>Mahajanapadas, Buddhism, Jainism &amp; Mauryan Empire</span><span class="pg">p.27</span></a></li><li><a href="lesson/prelims-gs1-post-mauryan-gupta.html" data-nav="prelims-gs1/history-culture/ancient-history/post-mauryan-gupta"><span class="num">1.1.4</span><span>Post-Mauryan &amp; Gupta Empire</span><span class="pg">p.37</span></a></li><li><a href="lesson/prelims-gs1-early-medieval-kingdoms.html" data-nav="prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms"><span class="num">1.1.5</span><span>Rajput Kingdoms, Palas &amp; Cholas</span><span class="pg">p.47</span></a></li><li><a href="lesson/prelims-gs1-delhi-sultanate.html" data-nav="prelims-gs1/history-culture/medieval-history/delhi-sultanate"><span class="num">1.1.6</span><span>Delhi Sultanate (1206–1526)</span><span class="pg">p.57</span></a></li><li><a href="lesson/prelims-gs1-mughal-empire.html" data-nav="prelims-gs1/history-culture/medieval-history/mughal-empire"><span class="num">1.1.7</span><span>Mughal Empire (1526–1707)</span><span class="pg">p.67</span></a></li><li><a href="lesson/prelims-gs1-marathas-vijayanagara.html" data-nav="prelims-gs1/history-culture/medieval-history/marathas-vijayanagara"><span class="num">1.1.8</span><span>Marathas, Vijayanagara &amp; Bahmani Kingdoms</span><span class="pg">p.77</span></a></li><li><a href="lesson/prelims-gs1-east-india-company.html" data-nav="prelims-gs1/history-culture/modern-history/east-india-company"><span class="num">1.1.9</span><span>Advent of Europeans &amp; East India Company (1757–1857)</span><span class="pg">p.87</span></a></li><li><a href="lesson/prelims-gs1-revolt-1857.html" data-nav="prelims-gs1/history-culture/modern-history/revolt-1857"><span class="num">1.1.10</span><span>Revolt of 1857 &amp; Aftermath</span><span class="pg">p.94</span></a></li><li><a href="lesson/prelims-gs1-socio-religious-reforms.html" data-nav="prelims-gs1/history-culture/modern-history/socio-religious-reforms"><span class="num">1.1.11</span><span>Socio-Religious Reform Movements</span><span class="pg">p.103</span></a></li><li><a href="lesson/prelims-gs1-national-movement-1885-1919.html" data-nav="prelims-gs1/history-culture/modern-history/national-movement-1885-1919"><span class="num">1.1.12</span><span>National Movement: Moderates, Extremists &amp; Gandhian Era (1885–1919)</span><span class="pg">p.109</span></a></li><li><a href="lesson/prelims-gs1-gandhian-era-1919-1947.html" data-nav="prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947"><span class="num">1.1.13</span><span>Gandhian Era: Non-Cooperation to Quit India (1919–1947)</span><span class="pg">p.117</span></a></li><li><a href="lesson/prelims-gs1-constitutional-development.html" data-nav="prelims-gs1/history-culture/modern-history/constitutional-development"><span class="num">1.1.14</span><span>Constitutional Development &amp; Government of India Acts</span><span class="pg">p.124</span></a></li><li><a href="lesson/prelims-gs1-architecture.html" data-nav="prelims-gs1/history-culture/art-culture/architecture"><span class="num">1.1.15</span><span>Architecture: Temple Styles, Forts &amp; Monuments</span><span class="pg">p.130</span></a></li><li><a href="lesson/prelims-gs1-painting.html" data-nav="prelims-gs1/history-culture/art-culture/painting"><span class="num">1.1.16</span><span>Painting: Miniature, Mughal &amp; Modern Schools</span><span class="pg">p.143</span></a></li><li><a href="lesson/prelims-gs1-music-dance.html" data-nav="prelims-gs1/history-culture/art-culture/music-dance"><span class="num">1.1.17</span><span>Music, Dance &amp; Theatre Forms</span><span class="pg">p.153</span></a></li><li><a href="lesson/prelims-gs1-fairs-festivals.html" data-nav="prelims-gs1/history-culture/art-culture/fairs-festivals"><span class="num">1.1.18</span><span>Fairs, Festivals, Puppetry &amp; Cultural Heritage</span><span class="pg">p.166</span></a></li><li><a href="lesson/prelims-gs1-scriptures-languages.html" data-nav="prelims-gs1/history-culture/art-culture/scriptures-languages"><span class="num">1.1.19</span><span>Scriptures, Languages &amp; Literature</span><span class="pg">p.174</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 1.2 — Geography</div>
-    <ol><li><a href="lesson/prelims-gs1-geomorphology.html" data-nav="prelims-gs1/geography/physical-geography/geomorphology"><span class="num">1.2.1</span><span>Geomorphology: Earth, Landforms &amp; Rocks</span><span class="pg">p.185</span></a></li><li><a href="lesson/prelims-gs1-climatology.html" data-nav="prelims-gs1/geography/physical-geography/climatology"><span class="num">1.2.2</span><span>Climatology: Atmosphere, Cyclones &amp; Monsoon</span><span class="pg">p.193</span></a></li><li><a href="lesson/prelims-gs1-oceanography.html" data-nav="prelims-gs1/geography/physical-geography/oceanography"><span class="num">1.2.3</span><span>Oceanography: Currents, Tides &amp; Salinity</span><span class="pg">p.201</span></a></li><li><a href="lesson/prelims-gs1-biogeography.html" data-nav="prelims-gs1/geography/physical-geography/biogeography"><span class="num">1.2.4</span><span>Biogeography: Soils &amp; Natural Vegetation</span><span class="pg">p.209</span></a></li><li><a href="lesson/prelims-gs1-physiography-india.html" data-nav="prelims-gs1/geography/indian-geography/physiography-india"><span class="num">1.2.5</span><span>Physiography: Himalayas, Peninsular Plateau, Plains &amp; Coasts</span><span class="pg">p.217</span></a></li><li><a href="lesson/prelims-gs1-drainage-rivers.html" data-nav="prelims-gs1/geography/indian-geography/drainage-rivers"><span class="num">1.2.6</span><span>Drainage System &amp; Major Rivers</span><span class="pg">p.225</span></a></li><li><a href="lesson/prelims-gs1-climate-india.html" data-nav="prelims-gs1/geography/indian-geography/climate-india"><span class="num">1.2.7</span><span>Climate of India: Monsoon Mechanism</span><span class="pg">p.235</span></a></li><li><a href="lesson/prelims-gs1-soils-agriculture.html" data-nav="prelims-gs1/geography/indian-geography/soils-agriculture"><span class="num">1.2.8</span><span>Soils, Irrigation &amp; Agriculture Patterns</span><span class="pg">p.243</span></a></li><li><a href="lesson/prelims-gs1-minerals-industries.html" data-nav="prelims-gs1/geography/indian-geography/minerals-industries"><span class="num">1.2.9</span><span>Minerals, Energy Resources &amp; Industries</span><span class="pg">p.252</span></a></li><li><a href="lesson/prelims-gs1-transport-settlements.html" data-nav="prelims-gs1/geography/indian-geography/transport-settlements"><span class="num">1.2.10</span><span>Transport, Trade &amp; Human Settlements</span><span class="pg">p.261</span></a></li><li><a href="lesson/prelims-gs1-world-physical.html" data-nav="prelims-gs1/geography/world-geography/world-physical"><span class="num">1.2.11</span><span>World Physical: Continents, Oceans &amp; Climates</span><span class="pg">p.271</span></a></li><li><a href="lesson/prelims-gs1-world-economic.html" data-nav="prelims-gs1/geography/world-geography/world-economic"><span class="num">1.2.12</span><span>World Economic &amp; Human Geography</span><span class="pg">p.280</span></a></li><li><a href="lesson/prelims-gs1-maps-india-world.html" data-nav="prelims-gs1/geography/maps-india-world"><span class="num">1.2.13</span><span>Maps of India &amp; World</span><span class="pg">p.291</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 1.3 — Polity &amp; Governance</div>
-    <ol><li><a href="lesson/prelims-gs1-making-features.html" data-nav="prelims-gs1/polity-governance/constitution/making-features"><span class="num">1.3.1</span><span>Making, Preamble &amp; Basic Features</span><span class="pg">p.298</span></a></li><li><a href="lesson/prelims-gs1-fundamental-rights-dpsp.html" data-nav="prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp"><span class="num">1.3.2</span><span>Fundamental Rights, DPSP &amp; Fundamental Duties</span><span class="pg">p.310</span></a></li><li><a href="lesson/prelims-gs1-amendments.html" data-nav="prelims-gs1/polity-governance/constitution/amendments"><span class="num">1.3.3</span><span>Amendments &amp; Landmark Judgements</span><span class="pg">p.323</span></a></li><li><a href="lesson/prelims-gs1-federal-structure.html" data-nav="prelims-gs1/polity-governance/constitution/federal-structure"><span class="num">1.3.4</span><span>Federal Structure, Centre–State Relations</span><span class="pg">p.333</span></a></li><li><a href="lesson/prelims-gs1-parliament.html" data-nav="prelims-gs1/polity-governance/organs-govt/parliament"><span class="num">1.3.5</span><span>Parliament: Structure &amp; Functioning</span><span class="pg">p.346</span></a></li><li><a href="lesson/prelims-gs1-executive.html" data-nav="prelims-gs1/polity-governance/organs-govt/executive"><span class="num">1.3.6</span><span>President, Vice-President, PM &amp; Council of Ministers</span><span class="pg">p.362</span></a></li><li><a href="lesson/prelims-gs1-judiciary.html" data-nav="prelims-gs1/polity-governance/organs-govt/judiciary"><span class="num">1.3.7</span><span>Supreme Court, High Courts &amp; Judicial Review</span><span class="pg">p.377</span></a></li><li><a href="lesson/prelims-gs1-constitutional-bodies.html" data-nav="prelims-gs1/polity-governance/governance/constitutional-bodies"><span class="num">1.3.8</span><span>Constitutional Bodies: UPSC, CAG, EC, Finance Commission</span><span class="pg">p.393</span></a></li><li><a href="lesson/prelims-gs1-statutory-bodies.html" data-nav="prelims-gs1/polity-governance/governance/statutory-bodies"><span class="num">1.3.9</span><span>Statutory &amp; Non-Constitutional Bodies</span><span class="pg">p.405</span></a></li><li><a href="lesson/prelims-gs1-local-govt.html" data-nav="prelims-gs1/polity-governance/governance/local-govt"><span class="num">1.3.10</span><span>Panchayati Raj &amp; Urban Local Bodies</span><span class="pg">p.417</span></a></li><li><a href="lesson/prelims-gs1-schemes-policies.html" data-nav="prelims-gs1/polity-governance/governance/schemes-policies"><span class="num">1.3.11</span><span>Government Schemes &amp; Public Policy</span><span class="pg">p.428</span></a></li><li><a href="lesson/prelims-gs1-e-governance.html" data-nav="prelims-gs1/polity-governance/governance/e-governance"><span class="num">1.3.12</span><span>E-Governance &amp; Citizen Charters</span><span class="pg">p.441</span></a></li><li><a href="lesson/prelims-gs1-bilateral-ties.html" data-nav="prelims-gs1/polity-governance/international-relations/bilateral-ties"><span class="num">1.3.13</span><span>India–Neighbourhood &amp; Bilateral Relations</span><span class="pg">p.452</span></a></li><li><a href="lesson/prelims-gs1-multilateral-forums.html" data-nav="prelims-gs1/polity-governance/international-relations/multilateral-forums"><span class="num">1.3.14</span><span>UN, G20, BRICS, SCO &amp; Multilateral Forums</span><span class="pg">p.467</span></a></li><li><a href="lesson/prelims-gs1-global-groups.html" data-nav="prelims-gs1/polity-governance/international-relations/global-groups"><span class="num">1.3.15</span><span>Regional &amp; Strategic Groupings</span><span class="pg">p.483</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 1.4 — Economy &amp; Economic Development</div>
-    <ol><li><a href="lesson/prelims-gs1-national-income.html" data-nav="prelims-gs1/economy/macro-economy/national-income"><span class="num">1.4.1</span><span>National Income, GDP &amp; Inflation</span><span class="pg">p.494</span></a></li><li><a href="lesson/prelims-gs1-money-banking.html" data-nav="prelims-gs1/economy/macro-economy/money-banking"><span class="num">1.4.2</span><span>Money, Banking &amp; RBI</span><span class="pg">p.502</span></a></li><li><a href="lesson/prelims-gs1-fiscal-policy.html" data-nav="prelims-gs1/economy/macro-economy/fiscal-policy"><span class="num">1.4.3</span><span>Fiscal Policy, Budget &amp; Taxation</span><span class="pg">p.518</span></a></li><li><a href="lesson/prelims-gs1-agriculture.html" data-nav="prelims-gs1/economy/sectors-indian-economy/agriculture"><span class="num">1.4.4</span><span>Agriculture: MSP, Subsidies &amp; Reforms</span><span class="pg">p.531</span></a></li><li><a href="lesson/prelims-gs1-industry-msme.html" data-nav="prelims-gs1/economy/sectors-indian-economy/industry-msme"><span class="num">1.4.5</span><span>Industry, MSME &amp; Industrial Policy</span><span class="pg">p.542</span></a></li><li><a href="lesson/prelims-gs1-services-infrastructure.html" data-nav="prelims-gs1/economy/sectors-indian-economy/services-infrastructure"><span class="num">1.4.6</span><span>Services &amp; Infrastructure</span><span class="pg">p.554</span></a></li><li><a href="lesson/prelims-gs1-trade-bop.html" data-nav="prelims-gs1/economy/external-sector/trade-bop"><span class="num">1.4.7</span><span>Trade, BoP &amp; Exchange Rate</span><span class="pg">p.569</span></a></li><li><a href="lesson/prelims-gs1-fdi-investment.html" data-nav="prelims-gs1/economy/external-sector/fdi-investment"><span class="num">1.4.8</span><span>FDI, FPI &amp; International Institutions (IMF, World Bank, WTO)</span><span class="pg">p.580</span></a></li><li><a href="lesson/prelims-gs1-capital-markets.html" data-nav="prelims-gs1/economy/financial-markets/capital-markets"><span class="num">1.4.9</span><span>Capital Markets, SEBI &amp; Insurance</span><span class="pg">p.590</span></a></li><li><a href="lesson/prelims-gs1-financial-inclusion.html" data-nav="prelims-gs1/economy/financial-markets/financial-inclusion"><span class="num">1.4.10</span><span>Financial Inclusion &amp; Digital Payments</span><span class="pg">p.599</span></a></li><li><a href="lesson/prelims-gs1-niti-aayog.html" data-nav="prelims-gs1/economy/planning-growth/niti-aayog"><span class="num">1.4.11</span><span>NITI Aayog &amp; Planning History</span><span class="pg">p.609</span></a></li><li><a href="lesson/prelims-gs1-human-development.html" data-nav="prelims-gs1/economy/planning-growth/human-development"><span class="num">1.4.12</span><span>Human Development, Poverty &amp; Employment</span><span class="pg">p.619</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 1.5 — Environment &amp; Ecology</div>
-    <ol><li><a href="lesson/prelims-gs1-ecosystems.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems"><span class="num">1.5.1</span><span>Ecosystems, Food Chains &amp; Nutrient Cycles</span><span class="pg">p.630</span></a></li><li><a href="lesson/prelims-gs1-biodiversity-india.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india"><span class="num">1.5.2</span><span>Biodiversity of India: Hotspots &amp; Protected Areas</span><span class="pg">p.639</span></a></li><li><a href="lesson/prelims-gs1-species-conservation.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation"><span class="num">1.5.3</span><span>Species in News &amp; Conservation Projects</span><span class="pg">p.649</span></a></li><li><a href="lesson/prelims-gs1-climate-change.html" data-nav="prelims-gs1/environment-ecology/environmental-issues/climate-change"><span class="num">1.5.4</span><span>Climate Change, IPCC &amp; Carbon Markets</span><span class="pg">p.660</span></a></li><li><a href="lesson/prelims-gs1-pollution-waste.html" data-nav="prelims-gs1/environment-ecology/environmental-issues/pollution-waste"><span class="num">1.5.5</span><span>Pollution, Waste Management &amp; EIA</span><span class="pg">p.678</span></a></li><li><a href="lesson/prelims-gs1-acts-conventions.html" data-nav="prelims-gs1/environment-ecology/acts-policies-env/acts-conventions"><span class="num">1.5.6</span><span>Acts &amp; International Conventions (CBD, UNFCCC, CITES)</span><span class="pg">p.693</span></a></li><li><a href="lesson/prelims-gs1-institutions.html" data-nav="prelims-gs1/environment-ecology/acts-policies-env/institutions"><span class="num">1.5.7</span><span>Institutions: MoEFCC, CPCB, NGT, Wildlife Boards</span><span class="pg">p.704</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 1.6 — Science &amp; Technology</div>
-    <ol><li><a href="lesson/prelims-gs1-physics-chem-bio.html" data-nav="prelims-gs1/science-tech/basic-science/physics-chem-bio"><span class="num">1.6.1</span><span>Everyday Physics, Chemistry &amp; Biology</span><span class="pg">p.713</span></a></li><li><a href="lesson/prelims-gs1-biotech-health.html" data-nav="prelims-gs1/science-tech/emerging-tech/biotech-health"><span class="num">1.6.2</span><span>Biotechnology &amp; Health (vaccines, CRISPR)</span><span class="pg">p.733</span></a></li><li><a href="lesson/prelims-gs1-space-missions.html" data-nav="prelims-gs1/science-tech/emerging-tech/space-missions"><span class="num">1.6.3</span><span>Space: Missions, ISRO &amp; Satellites</span><span class="pg">p.745</span></a></li><li><a href="lesson/prelims-gs1-defence-nuclear.html" data-nav="prelims-gs1/science-tech/emerging-tech/defence-nuclear"><span class="num">1.6.4</span><span>Defence, Missiles &amp; Nuclear Tech</span><span class="pg">p.759</span></a></li><li><a href="lesson/prelims-gs1-ai-it.html" data-nav="prelims-gs1/science-tech/emerging-tech/ai-it"><span class="num">1.6.5</span><span>AI, IT, Semiconductors &amp; Quantum</span><span class="pg">p.775</span></a></li></ol>
+<details class="part" id="part-prelims-gs1" data-default="open" open>
+  <summary>
+    <span class="pnum">Part I · prelims</span>
+    <span class="ptitle">GS Paper I — General Studies (Prelims)</span>
+    <span class="pmeta">6 chapters · 71 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">History · Geography · Polity · Economy · Environment · S&amp;T</div>
+    <div class="chap">
+      <div class="ct">Chapter 1.1 — History &amp; Indian Culture</div>
+      <ol><li><a href="lesson/prelims-gs1-stone-bronze-age.html" data-nav="prelims-gs1/history-culture/ancient-history/stone-bronze-age"><span class="num">1.1.1</span><span>Prehistory: Stone Age &amp; Indus Valley Civilisation</span><span class="pg">p.12</span></a></li><li><a href="lesson/prelims-gs1-vedic-age.html" data-nav="prelims-gs1/history-culture/ancient-history/vedic-age"><span class="num">1.1.2</span><span>Vedic Age &amp; Later Vedic Period</span><span class="pg">p.20</span></a></li><li><a href="lesson/prelims-gs1-mahajanapadas-mauryan.html" data-nav="prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan"><span class="num">1.1.3</span><span>Mahajanapadas, Buddhism, Jainism &amp; Mauryan Empire</span><span class="pg">p.27</span></a></li><li><a href="lesson/prelims-gs1-post-mauryan-gupta.html" data-nav="prelims-gs1/history-culture/ancient-history/post-mauryan-gupta"><span class="num">1.1.4</span><span>Post-Mauryan &amp; Gupta Empire</span><span class="pg">p.37</span></a></li><li><a href="lesson/prelims-gs1-early-medieval-kingdoms.html" data-nav="prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms"><span class="num">1.1.5</span><span>Rajput Kingdoms, Palas &amp; Cholas</span><span class="pg">p.47</span></a></li><li><a href="lesson/prelims-gs1-delhi-sultanate.html" data-nav="prelims-gs1/history-culture/medieval-history/delhi-sultanate"><span class="num">1.1.6</span><span>Delhi Sultanate (1206–1526)</span><span class="pg">p.57</span></a></li><li><a href="lesson/prelims-gs1-mughal-empire.html" data-nav="prelims-gs1/history-culture/medieval-history/mughal-empire"><span class="num">1.1.7</span><span>Mughal Empire (1526–1707)</span><span class="pg">p.67</span></a></li><li><a href="lesson/prelims-gs1-marathas-vijayanagara.html" data-nav="prelims-gs1/history-culture/medieval-history/marathas-vijayanagara"><span class="num">1.1.8</span><span>Marathas, Vijayanagara &amp; Bahmani Kingdoms</span><span class="pg">p.77</span></a></li><li><a href="lesson/prelims-gs1-east-india-company.html" data-nav="prelims-gs1/history-culture/modern-history/east-india-company"><span class="num">1.1.9</span><span>Advent of Europeans &amp; East India Company (1757–1857)</span><span class="pg">p.86</span></a></li><li><a href="lesson/prelims-gs1-revolt-1857.html" data-nav="prelims-gs1/history-culture/modern-history/revolt-1857"><span class="num">1.1.10</span><span>Revolt of 1857 &amp; Aftermath</span><span class="pg">p.93</span></a></li><li><a href="lesson/prelims-gs1-socio-religious-reforms.html" data-nav="prelims-gs1/history-culture/modern-history/socio-religious-reforms"><span class="num">1.1.11</span><span>Socio-Religious Reform Movements</span><span class="pg">p.102</span></a></li><li><a href="lesson/prelims-gs1-national-movement-1885-1919.html" data-nav="prelims-gs1/history-culture/modern-history/national-movement-1885-1919"><span class="num">1.1.12</span><span>National Movement: Moderates, Extremists &amp; Gandhian Era (1885–1919)</span><span class="pg">p.108</span></a></li><li><a href="lesson/prelims-gs1-gandhian-era-1919-1947.html" data-nav="prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947"><span class="num">1.1.13</span><span>Gandhian Era: Non-Cooperation to Quit India (1919–1947)</span><span class="pg">p.116</span></a></li><li><a href="lesson/prelims-gs1-constitutional-development.html" data-nav="prelims-gs1/history-culture/modern-history/constitutional-development"><span class="num">1.1.14</span><span>Constitutional Development &amp; Government of India Acts</span><span class="pg">p.123</span></a></li><li><a href="lesson/prelims-gs1-architecture.html" data-nav="prelims-gs1/history-culture/art-culture/architecture"><span class="num">1.1.15</span><span>Architecture: Temple Styles, Forts &amp; Monuments</span><span class="pg">p.130</span></a></li><li><a href="lesson/prelims-gs1-painting.html" data-nav="prelims-gs1/history-culture/art-culture/painting"><span class="num">1.1.16</span><span>Painting: Miniature, Mughal &amp; Modern Schools</span><span class="pg">p.143</span></a></li><li><a href="lesson/prelims-gs1-music-dance.html" data-nav="prelims-gs1/history-culture/art-culture/music-dance"><span class="num">1.1.17</span><span>Music, Dance &amp; Theatre Forms</span><span class="pg">p.153</span></a></li><li><a href="lesson/prelims-gs1-fairs-festivals.html" data-nav="prelims-gs1/history-culture/art-culture/fairs-festivals"><span class="num">1.1.18</span><span>Fairs, Festivals, Puppetry &amp; Cultural Heritage</span><span class="pg">p.166</span></a></li><li><a href="lesson/prelims-gs1-scriptures-languages.html" data-nav="prelims-gs1/history-culture/art-culture/scriptures-languages"><span class="num">1.1.19</span><span>Scriptures, Languages &amp; Literature</span><span class="pg">p.174</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 1.2 — Geography</div>
+      <ol><li><a href="lesson/prelims-gs1-geomorphology.html" data-nav="prelims-gs1/geography/physical-geography/geomorphology"><span class="num">1.2.1</span><span>Geomorphology: Earth, Landforms &amp; Rocks</span><span class="pg">p.185</span></a></li><li><a href="lesson/prelims-gs1-climatology.html" data-nav="prelims-gs1/geography/physical-geography/climatology"><span class="num">1.2.2</span><span>Climatology: Atmosphere, Cyclones &amp; Monsoon</span><span class="pg">p.193</span></a></li><li><a href="lesson/prelims-gs1-oceanography.html" data-nav="prelims-gs1/geography/physical-geography/oceanography"><span class="num">1.2.3</span><span>Oceanography: Currents, Tides &amp; Salinity</span><span class="pg">p.201</span></a></li><li><a href="lesson/prelims-gs1-biogeography.html" data-nav="prelims-gs1/geography/physical-geography/biogeography"><span class="num">1.2.4</span><span>Biogeography: Soils &amp; Natural Vegetation</span><span class="pg">p.209</span></a></li><li><a href="lesson/prelims-gs1-physiography-india.html" data-nav="prelims-gs1/geography/indian-geography/physiography-india"><span class="num">1.2.5</span><span>Physiography: Himalayas, Peninsular Plateau, Plains &amp; Coasts</span><span class="pg">p.217</span></a></li><li><a href="lesson/prelims-gs1-drainage-rivers.html" data-nav="prelims-gs1/geography/indian-geography/drainage-rivers"><span class="num">1.2.6</span><span>Drainage System &amp; Major Rivers</span><span class="pg">p.225</span></a></li><li><a href="lesson/prelims-gs1-climate-india.html" data-nav="prelims-gs1/geography/indian-geography/climate-india"><span class="num">1.2.7</span><span>Climate of India: Monsoon Mechanism</span><span class="pg">p.235</span></a></li><li><a href="lesson/prelims-gs1-soils-agriculture.html" data-nav="prelims-gs1/geography/indian-geography/soils-agriculture"><span class="num">1.2.8</span><span>Soils, Irrigation &amp; Agriculture Patterns</span><span class="pg">p.243</span></a></li><li><a href="lesson/prelims-gs1-minerals-industries.html" data-nav="prelims-gs1/geography/indian-geography/minerals-industries"><span class="num">1.2.9</span><span>Minerals, Energy Resources &amp; Industries</span><span class="pg">p.252</span></a></li><li><a href="lesson/prelims-gs1-transport-settlements.html" data-nav="prelims-gs1/geography/indian-geography/transport-settlements"><span class="num">1.2.10</span><span>Transport, Trade &amp; Human Settlements</span><span class="pg">p.261</span></a></li><li><a href="lesson/prelims-gs1-world-physical.html" data-nav="prelims-gs1/geography/world-geography/world-physical"><span class="num">1.2.11</span><span>World Physical: Continents, Oceans &amp; Climates</span><span class="pg">p.271</span></a></li><li><a href="lesson/prelims-gs1-world-economic.html" data-nav="prelims-gs1/geography/world-geography/world-economic"><span class="num">1.2.12</span><span>World Economic &amp; Human Geography</span><span class="pg">p.280</span></a></li><li><a href="lesson/prelims-gs1-maps-india-world.html" data-nav="prelims-gs1/geography/maps-india-world"><span class="num">1.2.13</span><span>Maps of India &amp; World</span><span class="pg">p.291</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 1.3 — Polity &amp; Governance</div>
+      <ol><li><a href="lesson/prelims-gs1-making-features.html" data-nav="prelims-gs1/polity-governance/constitution/making-features"><span class="num">1.3.1</span><span>Making, Preamble &amp; Basic Features</span><span class="pg">p.298</span></a></li><li><a href="lesson/prelims-gs1-fundamental-rights-dpsp.html" data-nav="prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp"><span class="num">1.3.2</span><span>Fundamental Rights, DPSP &amp; Fundamental Duties</span><span class="pg">p.310</span></a></li><li><a href="lesson/prelims-gs1-amendments.html" data-nav="prelims-gs1/polity-governance/constitution/amendments"><span class="num">1.3.3</span><span>Amendments &amp; Landmark Judgements</span><span class="pg">p.323</span></a></li><li><a href="lesson/prelims-gs1-federal-structure.html" data-nav="prelims-gs1/polity-governance/constitution/federal-structure"><span class="num">1.3.4</span><span>Federal Structure, Centre–State Relations</span><span class="pg">p.333</span></a></li><li><a href="lesson/prelims-gs1-parliament.html" data-nav="prelims-gs1/polity-governance/organs-govt/parliament"><span class="num">1.3.5</span><span>Parliament: Structure &amp; Functioning</span><span class="pg">p.346</span></a></li><li><a href="lesson/prelims-gs1-executive.html" data-nav="prelims-gs1/polity-governance/organs-govt/executive"><span class="num">1.3.6</span><span>President, Vice-President, PM &amp; Council of Ministers</span><span class="pg">p.362</span></a></li><li><a href="lesson/prelims-gs1-judiciary.html" data-nav="prelims-gs1/polity-governance/organs-govt/judiciary"><span class="num">1.3.7</span><span>Supreme Court, High Courts &amp; Judicial Review</span><span class="pg">p.377</span></a></li><li><a href="lesson/prelims-gs1-constitutional-bodies.html" data-nav="prelims-gs1/polity-governance/governance/constitutional-bodies"><span class="num">1.3.8</span><span>Constitutional Bodies: UPSC, CAG, EC, Finance Commission</span><span class="pg">p.392</span></a></li><li><a href="lesson/prelims-gs1-statutory-bodies.html" data-nav="prelims-gs1/polity-governance/governance/statutory-bodies"><span class="num">1.3.9</span><span>Statutory &amp; Non-Constitutional Bodies</span><span class="pg">p.404</span></a></li><li><a href="lesson/prelims-gs1-local-govt.html" data-nav="prelims-gs1/polity-governance/governance/local-govt"><span class="num">1.3.10</span><span>Panchayati Raj &amp; Urban Local Bodies</span><span class="pg">p.416</span></a></li><li><a href="lesson/prelims-gs1-schemes-policies.html" data-nav="prelims-gs1/polity-governance/governance/schemes-policies"><span class="num">1.3.11</span><span>Government Schemes &amp; Public Policy</span><span class="pg">p.427</span></a></li><li><a href="lesson/prelims-gs1-e-governance.html" data-nav="prelims-gs1/polity-governance/governance/e-governance"><span class="num">1.3.12</span><span>E-Governance &amp; Citizen Charters</span><span class="pg">p.440</span></a></li><li><a href="lesson/prelims-gs1-bilateral-ties.html" data-nav="prelims-gs1/polity-governance/international-relations/bilateral-ties"><span class="num">1.3.13</span><span>India–Neighbourhood &amp; Bilateral Relations</span><span class="pg">p.451</span></a></li><li><a href="lesson/prelims-gs1-multilateral-forums.html" data-nav="prelims-gs1/polity-governance/international-relations/multilateral-forums"><span class="num">1.3.14</span><span>UN, G20, BRICS, SCO &amp; Multilateral Forums</span><span class="pg">p.466</span></a></li><li><a href="lesson/prelims-gs1-global-groups.html" data-nav="prelims-gs1/polity-governance/international-relations/global-groups"><span class="num">1.3.15</span><span>Regional &amp; Strategic Groupings</span><span class="pg">p.482</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 1.4 — Economy &amp; Economic Development</div>
+      <ol><li><a href="lesson/prelims-gs1-national-income.html" data-nav="prelims-gs1/economy/macro-economy/national-income"><span class="num">1.4.1</span><span>National Income, GDP &amp; Inflation</span><span class="pg">p.493</span></a></li><li><a href="lesson/prelims-gs1-money-banking.html" data-nav="prelims-gs1/economy/macro-economy/money-banking"><span class="num">1.4.2</span><span>Money, Banking &amp; RBI</span><span class="pg">p.501</span></a></li><li><a href="lesson/prelims-gs1-fiscal-policy.html" data-nav="prelims-gs1/economy/macro-economy/fiscal-policy"><span class="num">1.4.3</span><span>Fiscal Policy, Budget &amp; Taxation</span><span class="pg">p.517</span></a></li><li><a href="lesson/prelims-gs1-agriculture.html" data-nav="prelims-gs1/economy/sectors-indian-economy/agriculture"><span class="num">1.4.4</span><span>Agriculture: MSP, Subsidies &amp; Reforms</span><span class="pg">p.530</span></a></li><li><a href="lesson/prelims-gs1-industry-msme.html" data-nav="prelims-gs1/economy/sectors-indian-economy/industry-msme"><span class="num">1.4.5</span><span>Industry, MSME &amp; Industrial Policy</span><span class="pg">p.541</span></a></li><li><a href="lesson/prelims-gs1-services-infrastructure.html" data-nav="prelims-gs1/economy/sectors-indian-economy/services-infrastructure"><span class="num">1.4.6</span><span>Services &amp; Infrastructure</span><span class="pg">p.553</span></a></li><li><a href="lesson/prelims-gs1-trade-bop.html" data-nav="prelims-gs1/economy/external-sector/trade-bop"><span class="num">1.4.7</span><span>Trade, BoP &amp; Exchange Rate</span><span class="pg">p.568</span></a></li><li><a href="lesson/prelims-gs1-fdi-investment.html" data-nav="prelims-gs1/economy/external-sector/fdi-investment"><span class="num">1.4.8</span><span>FDI, FPI &amp; International Institutions (IMF, World Bank, WTO)</span><span class="pg">p.579</span></a></li><li><a href="lesson/prelims-gs1-capital-markets.html" data-nav="prelims-gs1/economy/financial-markets/capital-markets"><span class="num">1.4.9</span><span>Capital Markets, SEBI &amp; Insurance</span><span class="pg">p.589</span></a></li><li><a href="lesson/prelims-gs1-financial-inclusion.html" data-nav="prelims-gs1/economy/financial-markets/financial-inclusion"><span class="num">1.4.10</span><span>Financial Inclusion &amp; Digital Payments</span><span class="pg">p.598</span></a></li><li><a href="lesson/prelims-gs1-niti-aayog.html" data-nav="prelims-gs1/economy/planning-growth/niti-aayog"><span class="num">1.4.11</span><span>NITI Aayog &amp; Planning History</span><span class="pg">p.608</span></a></li><li><a href="lesson/prelims-gs1-human-development.html" data-nav="prelims-gs1/economy/planning-growth/human-development"><span class="num">1.4.12</span><span>Human Development, Poverty &amp; Employment</span><span class="pg">p.618</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 1.5 — Environment &amp; Ecology</div>
+      <ol><li><a href="lesson/prelims-gs1-ecosystems.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems"><span class="num">1.5.1</span><span>Ecosystems, Food Chains &amp; Nutrient Cycles</span><span class="pg">p.629</span></a></li><li><a href="lesson/prelims-gs1-biodiversity-india.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india"><span class="num">1.5.2</span><span>Biodiversity of India: Hotspots &amp; Protected Areas</span><span class="pg">p.638</span></a></li><li><a href="lesson/prelims-gs1-species-conservation.html" data-nav="prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation"><span class="num">1.5.3</span><span>Species in News &amp; Conservation Projects</span><span class="pg">p.648</span></a></li><li><a href="lesson/prelims-gs1-climate-change.html" data-nav="prelims-gs1/environment-ecology/environmental-issues/climate-change"><span class="num">1.5.4</span><span>Climate Change, IPCC &amp; Carbon Markets</span><span class="pg">p.659</span></a></li><li><a href="lesson/prelims-gs1-pollution-waste.html" data-nav="prelims-gs1/environment-ecology/environmental-issues/pollution-waste"><span class="num">1.5.5</span><span>Pollution, Waste Management &amp; EIA</span><span class="pg">p.676</span></a></li><li><a href="lesson/prelims-gs1-acts-conventions.html" data-nav="prelims-gs1/environment-ecology/acts-policies-env/acts-conventions"><span class="num">1.5.6</span><span>Acts &amp; International Conventions (CBD, UNFCCC, CITES)</span><span class="pg">p.691</span></a></li><li><a href="lesson/prelims-gs1-institutions.html" data-nav="prelims-gs1/environment-ecology/acts-policies-env/institutions"><span class="num">1.5.7</span><span>Institutions: MoEFCC, CPCB, NGT, Wildlife Boards</span><span class="pg">p.702</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 1.6 — Science &amp; Technology</div>
+      <ol><li><a href="lesson/prelims-gs1-physics-chem-bio.html" data-nav="prelims-gs1/science-tech/basic-science/physics-chem-bio"><span class="num">1.6.1</span><span>Everyday Physics, Chemistry &amp; Biology</span><span class="pg">p.711</span></a></li><li><a href="lesson/prelims-gs1-biotech-health.html" data-nav="prelims-gs1/science-tech/emerging-tech/biotech-health"><span class="num">1.6.2</span><span>Biotechnology &amp; Health (vaccines, CRISPR)</span><span class="pg">p.731</span></a></li><li><a href="lesson/prelims-gs1-space-missions.html" data-nav="prelims-gs1/science-tech/emerging-tech/space-missions"><span class="num">1.6.3</span><span>Space: Missions, ISRO &amp; Satellites</span><span class="pg">p.743</span></a></li><li><a href="lesson/prelims-gs1-defence-nuclear.html" data-nav="prelims-gs1/science-tech/emerging-tech/defence-nuclear"><span class="num">1.6.4</span><span>Defence, Missiles &amp; Nuclear Tech</span><span class="pg">p.757</span></a></li><li><a href="lesson/prelims-gs1-ai-it.html" data-nav="prelims-gs1/science-tech/emerging-tech/ai-it"><span class="num">1.6.5</span><span>AI, IT, Semiconductors &amp; Quantum</span><span class="pg">p.773</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-prelims-csat">
-  <p class="bk-eyebrow">Part II · prelims</p>
-  <h3>CSAT — Paper II (Qualifying)</h3>
-  <div class="tag">33% qualifying</div>
-  <div class="chap">
-    <div class="ct">Chapter 2.1 — Reading Comprehension &amp; Interpersonal Skills</div>
-    <ol><li><a href="lesson/prelims-csat-comprehension.html" data-nav="prelims-csat/comprehension"><span class="num">2.1.1</span><span>Reading Comprehension &amp; Interpersonal Skills</span><span class="pg">p.794</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 2.2 — Logical Reasoning &amp; Analytical Ability</div>
-    <ol><li><a href="lesson/prelims-csat-logical-reasoning.html" data-nav="prelims-csat/logical-reasoning"><span class="num">2.2.1</span><span>Logical Reasoning &amp; Analytical Ability</span><span class="pg">p.801</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 2.3 — Decision-Making &amp; Problem Solving</div>
-    <ol><li><a href="lesson/prelims-csat-decision-making.html" data-nav="prelims-csat/decision-making"><span class="num">2.3.1</span><span>Decision-Making &amp; Problem Solving</span><span class="pg">p.808</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 2.4 — Basic Numeracy &amp; Data Interpretation (Class X level)</div>
-    <ol><li><a href="lesson/prelims-csat-numeracy.html" data-nav="prelims-csat/numeracy"><span class="num">2.4.1</span><span>Basic Numeracy &amp; Data Interpretation (Class X level)</span><span class="pg">p.815</span></a></li></ol>
+</details>
+<details class="part" id="part-prelims-csat" data-default="">
+  <summary>
+    <span class="pnum">Part II · prelims</span>
+    <span class="ptitle">CSAT — Paper II (Qualifying)</span>
+    <span class="pmeta">4 chapters · 4 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">33% qualifying</div>
+    <div class="chap">
+      <div class="ct">Chapter 2.1 — Reading Comprehension &amp; Interpersonal Skills</div>
+      <ol><li><a href="lesson/prelims-csat-comprehension.html" data-nav="prelims-csat/comprehension"><span class="num">2.1.1</span><span>Reading Comprehension &amp; Interpersonal Skills</span><span class="pg">p.792</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 2.2 — Logical Reasoning &amp; Analytical Ability</div>
+      <ol><li><a href="lesson/prelims-csat-logical-reasoning.html" data-nav="prelims-csat/logical-reasoning"><span class="num">2.2.1</span><span>Logical Reasoning &amp; Analytical Ability</span><span class="pg">p.799</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 2.3 — Decision-Making &amp; Problem Solving</div>
+      <ol><li><a href="lesson/prelims-csat-decision-making.html" data-nav="prelims-csat/decision-making"><span class="num">2.3.1</span><span>Decision-Making &amp; Problem Solving</span><span class="pg">p.806</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 2.4 — Basic Numeracy &amp; Data Interpretation (Class X level)</div>
+      <ol><li><a href="lesson/prelims-csat-numeracy.html" data-nav="prelims-csat/numeracy"><span class="num">2.4.1</span><span>Basic Numeracy &amp; Data Interpretation (Class X level)</span><span class="pg">p.813</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-prelims-mocks">
-  <p class="bk-eyebrow">Part III · prelims</p>
-  <h3>Mock Tests &amp; Sectional Practice (Prelims)</h3>
-  <div class="tag">practice · timed</div>
-  <div class="chap">
-    <div class="ct">Chapter 3.1 — Full-Length Mock — GS Paper I (100 Qs · 2 hours)</div>
-    <ol><li><a href="lesson/prelims-mocks-full-length.html" data-nav="prelims-mocks/full-length"><span class="num">3.1.1</span><span>Full-Length Mock — GS Paper I (100 Qs · 2 hours)</span><span class="pg">p.823</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 3.2 — Sectional Tests — 6 subjects × 20 Qs</div>
-    <ol><li><a href="lesson/prelims-mocks-sectional-tests.html" data-nav="prelims-mocks/sectional-tests"><span class="num">3.2.1</span><span>Sectional Tests — 6 subjects × 20 Qs</span><span class="pg">p.843</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 3.3 — CSAT Mock — 30 Qs (45 minutes)</div>
-    <ol><li><a href="lesson/prelims-mocks-csat-mock.html" data-nav="prelims-mocks/csat-mock"><span class="num">3.3.1</span><span>CSAT Mock — 30 Qs (45 minutes)</span><span class="pg">p.862</span></a></li></ol>
+</details>
+<details class="part" id="part-prelims-mocks" data-default="">
+  <summary>
+    <span class="pnum">Part III · prelims</span>
+    <span class="ptitle">Mock Tests &amp; Sectional Practice (Prelims)</span>
+    <span class="pmeta">3 chapters · 3 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">practice · timed</div>
+    <div class="chap">
+      <div class="ct">Chapter 3.1 — Full-Length Mock — GS Paper I (100 Qs · 2 hours)</div>
+      <ol><li><a href="lesson/prelims-mocks-full-length.html" data-nav="prelims-mocks/full-length"><span class="num">3.1.1</span><span>Full-Length Mock — GS Paper I (100 Qs · 2 hours)</span><span class="pg">p.821</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 3.2 — Sectional Tests — 6 subjects × 20 Qs</div>
+      <ol><li><a href="lesson/prelims-mocks-sectional-tests.html" data-nav="prelims-mocks/sectional-tests"><span class="num">3.2.1</span><span>Sectional Tests — 6 subjects × 20 Qs</span><span class="pg">p.841</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 3.3 — CSAT Mock — 30 Qs (45 minutes)</div>
+      <ol><li><a href="lesson/prelims-mocks-csat-mock.html" data-nav="prelims-mocks/csat-mock"><span class="num">3.3.1</span><span>CSAT Mock — 30 Qs (45 minutes)</span><span class="pg">p.860</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-gs-1">
-  <p class="bk-eyebrow">Part IV · mains</p>
-  <h3>General Studies I</h3>
-  <div class="tag">250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 4.1 — General Studies I — Core Areas</div>
-    <ol><li><a href="lesson/gs-1-indian-heritage-culture.html" data-nav="gs-1/indian-heritage-culture"><span class="num">4.1.1</span><span>Indian Heritage &amp; Culture</span><span class="pg">p.868</span></a></li><li><a href="lesson/gs-1-world-history.html" data-nav="gs-1/world-history"><span class="num">4.1.2</span><span>World History (industrial revolution, world wars, redrawal of national boundaries)</span><span class="pg">p.878</span></a></li><li><a href="lesson/gs-1-indian-society.html" data-nav="gs-1/indian-society"><span class="num">4.1.3</span><span>Indian Society (diversity, women, poverty, urbanisation)</span><span class="pg">p.888</span></a></li><li><a href="lesson/gs-1-physical-geography.html" data-nav="gs-1/physical-geography"><span class="num">4.1.4</span><span>Physical Geography: Geomorphology, Climatology, Oceanography</span><span class="pg">p.898</span></a></li><li><a href="lesson/gs-1-geography-world-india.html" data-nav="gs-1/geography-world-india"><span class="num">4.1.5</span><span>Geography of India &amp; World: Resources, Distribution, Mapping</span><span class="pg">p.909</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 4.2 — Modern Indian History (mid-18th century onward)</div>
-    <ol><li><a href="lesson/gs-1-east-india-company.html" data-nav="gs-1/modern-history/east-india-company"><span class="num">4.2.1</span><span>Advent of Europeans &amp; East India Company (1757–1857)</span><span class="pg">p.921</span></a></li><li><a href="lesson/gs-1-revolt-1857.html" data-nav="gs-1/modern-history/revolt-1857"><span class="num">4.2.2</span><span>Revolt of 1857 &amp; Aftermath</span><span class="pg">p.932</span></a></li><li><a href="lesson/gs-1-socio-religious-reforms.html" data-nav="gs-1/modern-history/socio-religious-reforms"><span class="num">4.2.3</span><span>Socio-Religious Reform Movements</span><span class="pg">p.941</span></a></li><li><a href="lesson/gs-1-national-movement-1885-1919.html" data-nav="gs-1/modern-history/national-movement-1885-1919"><span class="num">4.2.4</span><span>National Movement: Moderates, Extremists &amp; Early Gandhian Era (1885–1919)</span><span class="pg">p.951</span></a></li><li><a href="lesson/gs-1-gandhian-era-1919-1947.html" data-nav="gs-1/modern-history/gandhian-era-1919-1947"><span class="num">4.2.5</span><span>Gandhian Era: Non-Cooperation to Quit India (1919–1947)</span><span class="pg">p.963</span></a></li><li><a href="lesson/gs-1-constitutional-development.html" data-nav="gs-1/modern-history/constitutional-development"><span class="num">4.2.6</span><span>Constitutional Development &amp; Government of India Acts</span><span class="pg">p.977</span></a></li></ol>
+</details>
+<details class="part" id="part-gs-1" data-default="">
+  <summary>
+    <span class="pnum">Part IV · mains</span>
+    <span class="ptitle">General Studies I</span>
+    <span class="pmeta">2 chapters · 11 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 4.1 — General Studies I — Core Areas</div>
+      <ol><li><a href="lesson/gs-1-indian-heritage-culture.html" data-nav="gs-1/indian-heritage-culture"><span class="num">4.1.1</span><span>Indian Heritage &amp; Culture</span><span class="pg">p.866</span></a></li><li><a href="lesson/gs-1-world-history.html" data-nav="gs-1/world-history"><span class="num">4.1.2</span><span>World History (industrial revolution, world wars, redrawal of national boundaries)</span><span class="pg">p.876</span></a></li><li><a href="lesson/gs-1-indian-society.html" data-nav="gs-1/indian-society"><span class="num">4.1.3</span><span>Indian Society (diversity, women, poverty, urbanisation)</span><span class="pg">p.886</span></a></li><li><a href="lesson/gs-1-physical-geography.html" data-nav="gs-1/physical-geography"><span class="num">4.1.4</span><span>Physical Geography: Geomorphology, Climatology, Oceanography</span><span class="pg">p.896</span></a></li><li><a href="lesson/gs-1-geography-world-india.html" data-nav="gs-1/geography-world-india"><span class="num">4.1.5</span><span>Geography of India &amp; World: Resources, Distribution, Mapping</span><span class="pg">p.907</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 4.2 — Modern Indian History (mid-18th century onward)</div>
+      <ol><li><a href="lesson/gs-1-east-india-company.html" data-nav="gs-1/modern-history/east-india-company"><span class="num">4.2.1</span><span>Advent of Europeans &amp; East India Company (1757–1857)</span><span class="pg">p.919</span></a></li><li><a href="lesson/gs-1-revolt-1857.html" data-nav="gs-1/modern-history/revolt-1857"><span class="num">4.2.2</span><span>Revolt of 1857 &amp; Aftermath</span><span class="pg">p.930</span></a></li><li><a href="lesson/gs-1-socio-religious-reforms.html" data-nav="gs-1/modern-history/socio-religious-reforms"><span class="num">4.2.3</span><span>Socio-Religious Reform Movements</span><span class="pg">p.939</span></a></li><li><a href="lesson/gs-1-national-movement-1885-1919.html" data-nav="gs-1/modern-history/national-movement-1885-1919"><span class="num">4.2.4</span><span>National Movement: Moderates, Extremists &amp; Early Gandhian Era (1885–1919)</span><span class="pg">p.949</span></a></li><li><a href="lesson/gs-1-gandhian-era-1919-1947.html" data-nav="gs-1/modern-history/gandhian-era-1919-1947"><span class="num">4.2.5</span><span>Gandhian Era: Non-Cooperation to Quit India (1919–1947)</span><span class="pg">p.961</span></a></li><li><a href="lesson/gs-1-constitutional-development.html" data-nav="gs-1/modern-history/constitutional-development"><span class="num">4.2.6</span><span>Constitutional Development &amp; Government of India Acts</span><span class="pg">p.975</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-gs-2">
-  <p class="bk-eyebrow">Part V · mains</p>
-  <h3>General Studies II</h3>
-  <div class="tag">250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 5.1 — Indian Constitution: features, amendments, comparisons</div>
-    <ol><li><a href="lesson/gs-2-constitution-polity.html" data-nav="gs-2/constitution-polity"><span class="num">5.1.1</span><span>Indian Constitution: features, amendments, comparisons</span><span class="pg">p.989</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 5.2 — Governance &amp; Administration: Parliament, Executive, Judiciary</div>
-    <ol><li><a href="lesson/gs-2-governance-administration.html" data-nav="gs-2/governance-administration"><span class="num">5.2.1</span><span>Governance &amp; Administration: Parliament, Executive, Judiciary</span><span class="pg">p.1004</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 5.3 — Social Justice: Welfare Schemes, Health, Education, HRD</div>
-    <ol><li><a href="lesson/gs-2-social-justice.html" data-nav="gs-2/social-justice"><span class="num">5.3.1</span><span>Social Justice: Welfare Schemes, Health, Education, HRD</span><span class="pg">p.1016</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 5.4 — International Relations: Bilateral, Regional &amp; Global Groupings</div>
-    <ol><li><a href="lesson/gs-2-international-relations.html" data-nav="gs-2/international-relations"><span class="num">5.4.1</span><span>International Relations: Bilateral, Regional &amp; Global Groupings</span><span class="pg">p.1027</span></a></li></ol>
+</details>
+<details class="part" id="part-gs-2" data-default="">
+  <summary>
+    <span class="pnum">Part V · mains</span>
+    <span class="ptitle">General Studies II</span>
+    <span class="pmeta">4 chapters · 4 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 5.1 — Indian Constitution: features, amendments, comparisons</div>
+      <ol><li><a href="lesson/gs-2-constitution-polity.html" data-nav="gs-2/constitution-polity"><span class="num">5.1.1</span><span>Indian Constitution: features, amendments, comparisons</span><span class="pg">p.987</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 5.2 — Governance &amp; Administration: Parliament, Executive, Judiciary</div>
+      <ol><li><a href="lesson/gs-2-governance-administration.html" data-nav="gs-2/governance-administration"><span class="num">5.2.1</span><span>Governance &amp; Administration: Parliament, Executive, Judiciary</span><span class="pg">p.1002</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 5.3 — Social Justice: Welfare Schemes, Health, Education, HRD</div>
+      <ol><li><a href="lesson/gs-2-social-justice.html" data-nav="gs-2/social-justice"><span class="num">5.3.1</span><span>Social Justice: Welfare Schemes, Health, Education, HRD</span><span class="pg">p.1014</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 5.4 — International Relations: Bilateral, Regional &amp; Global Groupings</div>
+      <ol><li><a href="lesson/gs-2-international-relations.html" data-nav="gs-2/international-relations"><span class="num">5.4.1</span><span>International Relations: Bilateral, Regional &amp; Global Groupings</span><span class="pg">p.1025</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-gs-3">
-  <p class="bk-eyebrow">Part VI · mains</p>
-  <h3>General Studies III</h3>
-  <div class="tag">250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 6.1 — Indian Economy: growth, planning, resources, liberalisation</div>
-    <ol><li><a href="lesson/gs-3-indian-economy.html" data-nav="gs-3/indian-economy"><span class="num">6.1.1</span><span>Indian Economy: growth, planning, resources, liberalisation</span><span class="pg">p.1039</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 6.2 — Agriculture &amp; Food Security: MSP, irrigation, marketing, subsidies</div>
-    <ol><li><a href="lesson/gs-3-agriculture-food.html" data-nav="gs-3/agriculture-food"><span class="num">6.2.1</span><span>Agriculture &amp; Food Security: MSP, irrigation, marketing, subsidies</span><span class="pg">p.1050</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 6.3 — Science &amp; Technology: developments, indigenisation, IT</div>
-    <ol><li><a href="lesson/gs-3-science-technology.html" data-nav="gs-3/science-technology"><span class="num">6.3.1</span><span>Science &amp; Technology: developments, indigenisation, IT</span><span class="pg">p.1062</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 6.4 — Environment &amp; Biodiversity: conservation, climate change</div>
-    <ol><li><a href="lesson/gs-3-environment-biodiversity.html" data-nav="gs-3/environment-biodiversity"><span class="num">6.4.1</span><span>Environment &amp; Biodiversity: conservation, climate change</span><span class="pg">p.1073</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 6.5 — Internal Security &amp; Disaster Management</div>
-    <ol><li><a href="lesson/gs-3-security-disaster.html" data-nav="gs-3/security-disaster"><span class="num">6.5.1</span><span>Internal Security &amp; Disaster Management</span><span class="pg">p.1083</span></a></li></ol>
+</details>
+<details class="part" id="part-gs-3" data-default="">
+  <summary>
+    <span class="pnum">Part VI · mains</span>
+    <span class="ptitle">General Studies III</span>
+    <span class="pmeta">5 chapters · 5 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 6.1 — Indian Economy: growth, planning, resources, liberalisation</div>
+      <ol><li><a href="lesson/gs-3-indian-economy.html" data-nav="gs-3/indian-economy"><span class="num">6.1.1</span><span>Indian Economy: growth, planning, resources, liberalisation</span><span class="pg">p.1037</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 6.2 — Agriculture &amp; Food Security: MSP, irrigation, marketing, subsidies</div>
+      <ol><li><a href="lesson/gs-3-agriculture-food.html" data-nav="gs-3/agriculture-food"><span class="num">6.2.1</span><span>Agriculture &amp; Food Security: MSP, irrigation, marketing, subsidies</span><span class="pg">p.1048</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 6.3 — Science &amp; Technology: developments, indigenisation, IT</div>
+      <ol><li><a href="lesson/gs-3-science-technology.html" data-nav="gs-3/science-technology"><span class="num">6.3.1</span><span>Science &amp; Technology: developments, indigenisation, IT</span><span class="pg">p.1060</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 6.4 — Environment &amp; Biodiversity: conservation, climate change</div>
+      <ol><li><a href="lesson/gs-3-environment-biodiversity.html" data-nav="gs-3/environment-biodiversity"><span class="num">6.4.1</span><span>Environment &amp; Biodiversity: conservation, climate change</span><span class="pg">p.1070</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 6.5 — Internal Security &amp; Disaster Management</div>
+      <ol><li><a href="lesson/gs-3-security-disaster.html" data-nav="gs-3/security-disaster"><span class="num">6.5.1</span><span>Internal Security &amp; Disaster Management</span><span class="pg">p.1080</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-gs-4">
-  <p class="bk-eyebrow">Part VII · mains</p>
-  <h3>General Studies IV</h3>
-  <div class="tag">250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 7.1 — Ethics Foundations: Interface, Attitude, Aptitude &amp; EI (study set)</div>
-    <ol><li><a href="lesson/gs-4-ethics-foundations.html" data-nav="gs-4/ethics-foundations"><span class="num">7.1.1</span><span>Ethics Foundations: Interface, Attitude, Aptitude &amp; EI (study set)</span><span class="pg">p.1094</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.2 — Governance, Probity &amp; Case-Study Method (study set)</div>
-    <ol><li><a href="lesson/gs-4-governance-probity-case-studies.html" data-nav="gs-4/governance-probity-case-studies"><span class="num">7.2.1</span><span>Governance, Probity &amp; Case-Study Method (study set)</span><span class="pg">p.1104</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.3 — Ethics &amp; Human Interface: essence, determinants, dimensions</div>
-    <ol><li><a href="lesson/gs-4-ethics-human-interface.html" data-nav="gs-4/ethics-human-interface"><span class="num">7.3.1</span><span>Ethics &amp; Human Interface: essence, determinants, dimensions</span><span class="pg">p.1115</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.4 — Attitude: content, structure, influence &amp; moral attitudes</div>
-    <ol><li><a href="lesson/gs-4-attitude.html" data-nav="gs-4/attitude"><span class="num">7.4.1</span><span>Attitude: content, structure, influence &amp; moral attitudes</span><span class="pg">p.1124</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.5 — Aptitude &amp; Foundational Values: integrity, impartiality, non-partisanship</div>
-    <ol><li><a href="lesson/gs-4-aptitude-foundations.html" data-nav="gs-4/aptitude-foundations"><span class="num">7.5.1</span><span>Aptitude &amp; Foundational Values: integrity, impartiality, non-partisanship</span><span class="pg">p.1134</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.6 — Emotional Intelligence: concepts, utilities &amp; application</div>
-    <ol><li><a href="lesson/gs-4-emotional-intelligence.html" data-nav="gs-4/emotional-intelligence"><span class="num">7.6.1</span><span>Emotional Intelligence: concepts, utilities &amp; application</span><span class="pg">p.1143</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.7 — Moral Thinkers &amp; Philosophers (Indian &amp; Western)</div>
-    <ol><li><a href="lesson/gs-4-moral-thinkers.html" data-nav="gs-4/moral-thinkers"><span class="num">7.7.1</span><span>Moral Thinkers &amp; Philosophers (Indian &amp; Western)</span><span class="pg">p.1152</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.8 — Public/Civil Service Values &amp; Ethics in Public Administration</div>
-    <ol><li><a href="lesson/gs-4-public-service-values.html" data-nav="gs-4/public-service-values"><span class="num">7.8.1</span><span>Public/Civil Service Values &amp; Ethics in Public Administration</span><span class="pg">p.1161</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.9 — Probity in Governance: RTI, corruption, citizens’ charters</div>
-    <ol><li><a href="lesson/gs-4-probity-governance.html" data-nav="gs-4/probity-governance"><span class="num">7.9.1</span><span>Probity in Governance: RTI, corruption, citizens’ charters</span><span class="pg">p.1170</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 7.10 — Case Studies (classroom &amp; exam case analysis)</div>
-    <ol><li><a href="lesson/gs-4-case-studies.html" data-nav="gs-4/case-studies"><span class="num">7.10.1</span><span>Case Studies (classroom &amp; exam case analysis)</span><span class="pg">p.1179</span></a></li></ol>
+</details>
+<details class="part" id="part-gs-4" data-default="">
+  <summary>
+    <span class="pnum">Part VII · mains</span>
+    <span class="ptitle">General Studies IV</span>
+    <span class="pmeta">10 chapters · 10 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 7.1 — Ethics Foundations: Interface, Attitude, Aptitude &amp; EI (study set)</div>
+      <ol><li><a href="lesson/gs-4-ethics-foundations.html" data-nav="gs-4/ethics-foundations"><span class="num">7.1.1</span><span>Ethics Foundations: Interface, Attitude, Aptitude &amp; EI (study set)</span><span class="pg">p.1090</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.2 — Governance, Probity &amp; Case-Study Method (study set)</div>
+      <ol><li><a href="lesson/gs-4-governance-probity-case-studies.html" data-nav="gs-4/governance-probity-case-studies"><span class="num">7.2.1</span><span>Governance, Probity &amp; Case-Study Method (study set)</span><span class="pg">p.1100</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.3 — Ethics &amp; Human Interface: essence, determinants, dimensions</div>
+      <ol><li><a href="lesson/gs-4-ethics-human-interface.html" data-nav="gs-4/ethics-human-interface"><span class="num">7.3.1</span><span>Ethics &amp; Human Interface: essence, determinants, dimensions</span><span class="pg">p.1111</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.4 — Attitude: content, structure, influence &amp; moral attitudes</div>
+      <ol><li><a href="lesson/gs-4-attitude.html" data-nav="gs-4/attitude"><span class="num">7.4.1</span><span>Attitude: content, structure, influence &amp; moral attitudes</span><span class="pg">p.1120</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.5 — Aptitude &amp; Foundational Values: integrity, impartiality, non-partisanship</div>
+      <ol><li><a href="lesson/gs-4-aptitude-foundations.html" data-nav="gs-4/aptitude-foundations"><span class="num">7.5.1</span><span>Aptitude &amp; Foundational Values: integrity, impartiality, non-partisanship</span><span class="pg">p.1130</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.6 — Emotional Intelligence: concepts, utilities &amp; application</div>
+      <ol><li><a href="lesson/gs-4-emotional-intelligence.html" data-nav="gs-4/emotional-intelligence"><span class="num">7.6.1</span><span>Emotional Intelligence: concepts, utilities &amp; application</span><span class="pg">p.1139</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.7 — Moral Thinkers &amp; Philosophers (Indian &amp; Western)</div>
+      <ol><li><a href="lesson/gs-4-moral-thinkers.html" data-nav="gs-4/moral-thinkers"><span class="num">7.7.1</span><span>Moral Thinkers &amp; Philosophers (Indian &amp; Western)</span><span class="pg">p.1148</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.8 — Public/Civil Service Values &amp; Ethics in Public Administration</div>
+      <ol><li><a href="lesson/gs-4-public-service-values.html" data-nav="gs-4/public-service-values"><span class="num">7.8.1</span><span>Public/Civil Service Values &amp; Ethics in Public Administration</span><span class="pg">p.1157</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.9 — Probity in Governance: RTI, corruption, citizens’ charters</div>
+      <ol><li><a href="lesson/gs-4-probity-governance.html" data-nav="gs-4/probity-governance"><span class="num">7.9.1</span><span>Probity in Governance: RTI, corruption, citizens’ charters</span><span class="pg">p.1166</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 7.10 — Case Studies (classroom &amp; exam case analysis)</div>
+      <ol><li><a href="lesson/gs-4-case-studies.html" data-nav="gs-4/case-studies"><span class="num">7.10.1</span><span>Case Studies (classroom &amp; exam case analysis)</span><span class="pg">p.1175</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-essay">
-  <p class="bk-eyebrow">Part VIII · mains</p>
-  <h3>Essay Paper</h3>
-  <div class="tag">250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 8.1 — Essay Frameworks: Introduction, Body &amp; Conclusion Structures</div>
-    <ol><li><a href="lesson/essay-essay-frameworks.html" data-nav="essay/essay-frameworks"><span class="num">8.1.1</span><span>Essay Frameworks: Introduction, Body &amp; Conclusion Structures</span><span class="pg">p.1189</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 8.2 — Topic Bank: Society, Polity, Economy, Environment, Science, Ethics</div>
-    <ol><li><a href="lesson/essay-essay-topics.html" data-nav="essay/essay-topics"><span class="num">8.2.1</span><span>Topic Bank: Society, Polity, Economy, Environment, Science, Ethics</span><span class="pg">p.1199</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 8.3 — Quotes &amp; Thinkers for Essays</div>
-    <ol><li><a href="lesson/essay-essay-quotes.html" data-nav="essay/essay-quotes"><span class="num">8.3.1</span><span>Quotes &amp; Thinkers for Essays</span><span class="pg">p.1208</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 8.4 — Toppers’ Essay Analysis</div>
-    <ol><li><a href="lesson/essay-essay-toppers.html" data-nav="essay/essay-toppers"><span class="num">8.4.1</span><span>Toppers’ Essay Analysis</span><span class="pg">p.1218</span></a></li></ol>
+</details>
+<details class="part" id="part-essay" data-default="">
+  <summary>
+    <span class="pnum">Part VIII · mains</span>
+    <span class="ptitle">Essay Paper</span>
+    <span class="pmeta">4 chapters · 4 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 8.1 — Essay Frameworks: Introduction, Body &amp; Conclusion Structures</div>
+      <ol><li><a href="lesson/essay-essay-frameworks.html" data-nav="essay/essay-frameworks"><span class="num">8.1.1</span><span>Essay Frameworks: Introduction, Body &amp; Conclusion Structures</span><span class="pg">p.1185</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 8.2 — Topic Bank: Society, Polity, Economy, Environment, Science, Ethics</div>
+      <ol><li><a href="lesson/essay-essay-topics.html" data-nav="essay/essay-topics"><span class="num">8.2.1</span><span>Topic Bank: Society, Polity, Economy, Environment, Science, Ethics</span><span class="pg">p.1195</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 8.3 — Quotes &amp; Thinkers for Essays</div>
+      <ol><li><a href="lesson/essay-essay-quotes.html" data-nav="essay/essay-quotes"><span class="num">8.3.1</span><span>Quotes &amp; Thinkers for Essays</span><span class="pg">p.1204</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 8.4 — Toppers’ Essay Analysis</div>
+      <ol><li><a href="lesson/essay-essay-toppers.html" data-nav="essay/essay-toppers"><span class="num">8.4.1</span><span>Toppers’ Essay Analysis</span><span class="pg">p.1214</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-optional-subjects">
-  <p class="bk-eyebrow">Part IX · mains</p>
-  <h3>Optional Subjects</h3>
-  <div class="tag">2 × 250 marks</div>
-  <div class="chap">
-    <div class="ct">Chapter 9.1 — Sociology</div>
-    <ol><li><a href="lesson/optional-subjects-optional-sociology.html" data-nav="optional-subjects/optional-sociology"><span class="num">9.1.1</span><span>Sociology</span><span class="pg">p.1227</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.2 — Public Administration</div>
-    <ol><li><a href="lesson/optional-subjects-optional-public-administration.html" data-nav="optional-subjects/optional-public-administration"><span class="num">9.2.1</span><span>Public Administration</span><span class="pg">p.1236</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.3 — History</div>
-    <ol><li><a href="lesson/optional-subjects-optional-history.html" data-nav="optional-subjects/optional-history"><span class="num">9.3.1</span><span>History</span><span class="pg">p.1246</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.4 — Geography</div>
-    <ol><li><a href="lesson/optional-subjects-optional-geography.html" data-nav="optional-subjects/optional-geography"><span class="num">9.4.1</span><span>Geography</span><span class="pg">p.1255</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.5 — Political Science &amp; IR</div>
-    <ol><li><a href="lesson/optional-subjects-optional-polity.html" data-nav="optional-subjects/optional-polity"><span class="num">9.5.1</span><span>Political Science &amp; IR</span><span class="pg">p.1265</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.6 — Philosophy</div>
-    <ol><li><a href="lesson/optional-subjects-optional-philosophy.html" data-nav="optional-subjects/optional-philosophy"><span class="num">9.6.1</span><span>Philosophy</span><span class="pg">p.1275</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.7 — Anthropology</div>
-    <ol><li><a href="lesson/optional-subjects-optional-anthropology.html" data-nav="optional-subjects/optional-anthropology"><span class="num">9.7.1</span><span>Anthropology</span><span class="pg">p.1284</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.8 — Economics</div>
-    <ol><li><a href="lesson/optional-subjects-optional-economics.html" data-nav="optional-subjects/optional-economics"><span class="num">9.8.1</span><span>Economics</span><span class="pg">p.1293</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 9.9 — Psychology</div>
-    <ol><li><a href="lesson/optional-subjects-optional-psychology.html" data-nav="optional-subjects/optional-psychology"><span class="num">9.9.1</span><span>Psychology</span><span class="pg">p.1303</span></a></li></ol>
+</details>
+<details class="part" id="part-optional-subjects" data-default="">
+  <summary>
+    <span class="pnum">Part IX · mains</span>
+    <span class="ptitle">Optional Subjects</span>
+    <span class="pmeta">9 chapters · 9 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">2 × 250 marks</div>
+    <div class="chap">
+      <div class="ct">Chapter 9.1 — Sociology</div>
+      <ol><li><a href="lesson/optional-subjects-optional-sociology.html" data-nav="optional-subjects/optional-sociology"><span class="num">9.1.1</span><span>Sociology</span><span class="pg">p.1223</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.2 — Public Administration</div>
+      <ol><li><a href="lesson/optional-subjects-optional-public-administration.html" data-nav="optional-subjects/optional-public-administration"><span class="num">9.2.1</span><span>Public Administration</span><span class="pg">p.1232</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.3 — History</div>
+      <ol><li><a href="lesson/optional-subjects-optional-history.html" data-nav="optional-subjects/optional-history"><span class="num">9.3.1</span><span>History</span><span class="pg">p.1242</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.4 — Geography</div>
+      <ol><li><a href="lesson/optional-subjects-optional-geography.html" data-nav="optional-subjects/optional-geography"><span class="num">9.4.1</span><span>Geography</span><span class="pg">p.1251</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.5 — Political Science &amp; IR</div>
+      <ol><li><a href="lesson/optional-subjects-optional-polity.html" data-nav="optional-subjects/optional-polity"><span class="num">9.5.1</span><span>Political Science &amp; IR</span><span class="pg">p.1261</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.6 — Philosophy</div>
+      <ol><li><a href="lesson/optional-subjects-optional-philosophy.html" data-nav="optional-subjects/optional-philosophy"><span class="num">9.6.1</span><span>Philosophy</span><span class="pg">p.1270</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.7 — Anthropology</div>
+      <ol><li><a href="lesson/optional-subjects-optional-anthropology.html" data-nav="optional-subjects/optional-anthropology"><span class="num">9.7.1</span><span>Anthropology</span><span class="pg">p.1279</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.8 — Economics</div>
+      <ol><li><a href="lesson/optional-subjects-optional-economics.html" data-nav="optional-subjects/optional-economics"><span class="num">9.8.1</span><span>Economics</span><span class="pg">p.1288</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 9.9 — Psychology</div>
+      <ol><li><a href="lesson/optional-subjects-optional-psychology.html" data-nav="optional-subjects/optional-psychology"><span class="num">9.9.1</span><span>Psychology</span><span class="pg">p.1298</span></a></li></ol>
+    </div>
   </div>
-</div>
-<div class="part" id="part-mains-practice">
-  <p class="bk-eyebrow">Part X · mains</p>
-  <h3>Mains Practice — Question Bank &amp; Answer Frameworks</h3>
-  <div class="tag">answer writing</div>
-  <div class="chap">
-    <div class="ct">Chapter 10.1 — GS I — practice questions with answer frameworks</div>
-    <ol><li><a href="lesson/mains-practice-gs-1-practice.html" data-nav="mains-practice/gs-1-practice"><span class="num">10.1.1</span><span>GS I — practice questions with answer frameworks</span><span class="pg">p.1312</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 10.2 — GS II — practice questions with answer frameworks</div>
-    <ol><li><a href="lesson/mains-practice-gs-2-practice.html" data-nav="mains-practice/gs-2-practice"><span class="num">10.2.1</span><span>GS II — practice questions with answer frameworks</span><span class="pg">p.1326</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 10.3 — GS III — practice questions with answer frameworks</div>
-    <ol><li><a href="lesson/mains-practice-gs-3-practice.html" data-nav="mains-practice/gs-3-practice"><span class="num">10.3.1</span><span>GS III — practice questions with answer frameworks</span><span class="pg">p.1340</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 10.4 — GS IV — theory questions + case studies with model approaches</div>
-    <ol><li><a href="lesson/mains-practice-gs-4-practice.html" data-nav="mains-practice/gs-4-practice"><span class="num">10.4.1</span><span>GS IV — theory questions + case studies with model approaches</span><span class="pg">p.1353</span></a></li></ol>
-  </div><div class="chap">
-    <div class="ct">Chapter 10.5 — Essay — practice topics with outlines</div>
-    <ol><li><a href="lesson/mains-practice-essay-practice.html" data-nav="mains-practice/essay-practice"><span class="num">10.5.1</span><span>Essay — practice topics with outlines</span><span class="pg">p.1369</span></a></li></ol>
+</details>
+<details class="part" id="part-mains-practice" data-default="">
+  <summary>
+    <span class="pnum">Part X · mains</span>
+    <span class="ptitle">Mains Practice — Question Bank &amp; Answer Frameworks</span>
+    <span class="pmeta">5 chapters · 5 lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">answer writing</div>
+    <div class="chap">
+      <div class="ct">Chapter 10.1 — GS I — practice questions with answer frameworks</div>
+      <ol><li><a href="lesson/mains-practice-gs-1-practice.html" data-nav="mains-practice/gs-1-practice"><span class="num">10.1.1</span><span>GS I — practice questions with answer frameworks</span><span class="pg">p.1307</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 10.2 — GS II — practice questions with answer frameworks</div>
+      <ol><li><a href="lesson/mains-practice-gs-2-practice.html" data-nav="mains-practice/gs-2-practice"><span class="num">10.2.1</span><span>GS II — practice questions with answer frameworks</span><span class="pg">p.1321</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 10.3 — GS III — practice questions with answer frameworks</div>
+      <ol><li><a href="lesson/mains-practice-gs-3-practice.html" data-nav="mains-practice/gs-3-practice"><span class="num">10.3.1</span><span>GS III — practice questions with answer frameworks</span><span class="pg">p.1335</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 10.4 — GS IV — theory questions + case studies with model approaches</div>
+      <ol><li><a href="lesson/mains-practice-gs-4-practice.html" data-nav="mains-practice/gs-4-practice"><span class="num">10.4.1</span><span>GS IV — theory questions + case studies with model approaches</span><span class="pg">p.1348</span></a></li></ol>
+    </div><div class="chap">
+      <div class="ct">Chapter 10.5 — Essay — practice topics with outlines</div>
+      <ol><li><a href="lesson/mains-practice-essay-practice.html" data-nav="mains-practice/essay-practice"><span class="num">10.5.1</span><span>Essay — practice topics with outlines</span><span class="pg">p.1364</span></a></li></ol>
+    </div>
   </div>
-</div></div>
+</details></div>
+  <script>/* studyupsc-book-toc */
+(function(){try{
+var q=document.getElementById('bk-q'),c=document.getElementById('bk-c');
+if(!q)return;
+var parts=Array.prototype.slice.call(document.querySelectorAll('.bk-toc details.part'));
+var ex=document.getElementById('bk-expand'),co=document.getElementById('bk-collapse');
+function vis(el){return el.style.display!=='none';}
+function apply(){
+  var s=q.value.trim().toLowerCase();var n=0;
+  parts.forEach(function(p){
+    var hits=0;
+    Array.prototype.forEach.call(p.querySelectorAll('li'),function(li){
+      var hit=!s||li.textContent.toLowerCase().indexOf(s)!==-1;
+      li.style.display=hit?'':'none';
+      if(hit)hits++;
+    });
+    Array.prototype.forEach.call(p.querySelectorAll('.chap'),function(ch){
+      var v=false;
+      Array.prototype.forEach.call(ch.querySelectorAll('li'),function(li){if(vis(li))v=true;});
+      ch.style.display=v?'':'none';
+    });
+    if(!s){p.style.display='';p.open=p.getAttribute('data-default')==='open';}
+    else{p.style.display=hits?'':'none';p.open=true;}
+    n+=hits;
+  });
+  if(c)c.textContent=s?(n+' lesson'+(n===1?'':'s')):'';
+}
+var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(apply,60);});
+if(ex)ex.addEventListener('click',function(){parts.forEach(function(p){p.open=true;});});
+if(co)co.addEventListener('click',function(){parts.forEach(function(p){p.open=false;});});
+}catch(e){}})();
+</script>
 </div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
 <script src="../assets/js/study.js" defer></script>

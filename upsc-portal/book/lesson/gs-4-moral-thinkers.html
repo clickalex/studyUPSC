@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -237,9 +271,9 @@ table{font-size:.82em}
 <h2>Revision Digest</h2>
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <h3 id="western-canon-cards">Western canon cards</h3>
-<ul><li><strong>Socrates</strong>: "unexamined life unworthy"; conscience over groupthink — urban-hubris yokels trial moral teaching.</li><li><strong>Plato</strong>: philosopher-king; justice as harmony; cave allegory = knowledge liberation vs shadows.</li><li><strong>Aristotle</strong>: virtue = habituated mean between extremes; <strong>phronesis</strong> = practical wisdom (administrative judgment gold-standard concept); eudaimonia = flourishing end-state.</li><li><strong>Kant</strong>: categorical imperative (universalise / humanity-as-end); autonomy; "good will" as motivation anchor.</li><li><strong>Bentham</strong>: utility calculus intro (quantitative); <strong>J.S. Mill</strong>: qualitative pleasures refinement + harm principle (On Liberty) + representative government insights.</li><li><strong>Rawls</strong>: original position → veil of ignorance → two principles (equal liberty; difference principle for inequalities helping least-advantaged) → welfare-state ethic backbone.</li><li><strong>Nozick</strong>: entitlement theory counterpoint (libertarian minimal state).</li><li><strong>Sandel/MacIntyre</strong>: communitarian/virtue revival critiques of pure procedural liberalism.</li><li><strong>Arendt</strong>: banality of evil (Eichmann) — bureaucracy-routinised complicity warning; "thinking" as moral activity.</li><li><strong>Kohlberg</strong>: moral development ladder (pre-conventional: punishment/obedience &amp; self-interest → conventional: law-order &amp; good-boy → post-conventional: social contract &amp; universal principle); <strong>Gilligan</strong>: ethics-of-care corrective (relational voice).</li><li><strong>Thoreau</strong>: civil disobedience lineage → Gandhi/MLK; <strong>Machiavelli</strong>: realism caution (Prince) — mention in realpolitik answers with critique.</li><li><strong>Hobbes/Locke/Rousseau</strong>: social-contract trio (Leviathan security-bargain / natural rights / general will) — frame state-citizen duties.</li></ul>
+<ul><li><strong>Socrates</strong>: "unexamined life unworthy"; conscience over groupthink — urban-hubris yokels trial moral teaching.</li><li><strong>Plato</strong>: philosopher-king; justice as harmony; cave allegory = knowledge liberation vs shadows.</li><li><strong>Aristotle</strong>: virtue = habituated mean between extremes; <strong>phronesis</strong> = practical wisdom (administrative judgment gold-standard concept); eudaimonia = flourishing end-state.</li><li><strong>Kant</strong>: categorical imperative (universalise / humanity-as-end); autonomy; "good will" as motivation anchor.</li><li><strong>Bentham</strong>: utility calculus intro (quantitative); <strong>J.S. Mill</strong>: qualitative pleasures refinement + harm principle (On Liberty) + representative government insights.</li><li><strong>Rawls</strong>: original position</li><li>veil of ignorance</li><li>two principles (equal liberty; difference principle for inequalities helping least-advantaged)</li><li>welfare-state ethic backbone.</li><li><strong>Nozick</strong>: entitlement theory counterpoint (libertarian minimal state).</li><li><strong>Sandel/MacIntyre</strong>: communitarian/virtue revival critiques of pure procedural liberalism.</li><li><strong>Arendt</strong>: banality of evil (Eichmann) — bureaucracy-routinised complicity warning; "thinking" as moral activity.</li><li><strong>Kohlberg</strong>: moral development ladder (pre-conventional: punishment/obedience &amp; self-interest → conventional: law-order &amp; good-boy → post-conventional: social contract &amp; universal principle); <strong>Gilligan</strong>: ethics-of-care corrective (relational voice).</li><li><strong>Thoreau</strong>: civil disobedience lineage → Gandhi/MLK; <strong>Machiavelli</strong>: realism caution (Prince) — mention in realpolitik answers with critique.</li><li><strong>Hobbes/Locke/Rousseau</strong>: social-contract trio (Leviathan security-bargain / natural rights / general will) — frame state-citizen duties.</li></ul>
 <h3 id="indian-canon-cards">Indian canon cards</h3>
-<ul><li><strong>Kautilya</strong>: Arthashastra statecraft; rajrishi (discipline + welfare-king ideal); realist instruments (sama/dama/danda/bheda).</li><li><strong>Buddha</strong>: middle path; eightfold path; dukkha diagnostics; ahimsa; sangha governance precedents.</li><li><strong>Mahavira</strong>: ahimsa rigour; <strong>anekantavada</strong> (multi-sided truth) &amp; syadvada — epistemic humility template.</li><li><strong>Confucius</strong>: ren (benevolence) + li (propriety) + junzi (exemplary person); filial ethics → administrative accountability parallels.</li><li><strong>Gandhi</strong>: satya+ahimsa; ends-means inseparability; trusteeship; "talisman" (poorest-face test); constructive programme; satyagraha protocols.</li><li><strong>Ambedkar</strong>: liberty-equality-fraternity triad; constitutional morality; annihilation-of-caste text anchors; "educate-agitate-organise" line (attribute as motto-tradition, paraphrase if quoting).</li><li><strong>Vivekananda</strong>: practical Vedanta — "service of man is service of God" frame; strength-and-character education.</li><li><strong>Tagore</strong>: universal humanism; nationalism critique; freedom in education (Santiniketan model).</li><li><strong>Aurobindo</strong>: integral yoga; human-unity; social-Darwinism critique pivot.</li><li><strong>Radhakrishnan</strong>: dharma-tolerance thesis (East-West bridges).</li><li><strong>J Krishnamurti</strong>: freedom-from-fear education; choiceless awareness (schools ethics case).</li><li><strong>APJ Abdul Kalam</strong>: wings-of-fire aspirational ethics — ignite minds framing.</li></ul>
+<ul><li><strong>Kautilya</strong>: Arthashastra statecraft; rajrishi (discipline + welfare-king ideal); realist instruments (sama/dama/danda/bheda).</li><li><strong>Buddha</strong>: middle path</li><li>eightfold path</li><li>dukkha diagnostics</li><li>ahimsa</li><li>sangha governance precedents.</li><li><strong>Mahavira</strong>: ahimsa rigour; <strong>anekantavada</strong> (multi-sided truth) &amp; syadvada — epistemic humility template.</li><li><strong>Confucius</strong>: ren (benevolence) + li (propriety) + junzi (exemplary person); filial ethics → administrative accountability parallels.</li><li><strong>Gandhi</strong>: satya+ahimsa</li><li>ends-means inseparability</li><li>trusteeship</li><li>"talisman" (poorest-face test)</li><li>constructive programme</li><li>satyagraha protocols.</li><li><strong>Ambedkar</strong>: liberty-equality-fraternity triad</li><li>constitutional morality</li><li>annihilation-of-caste text anchors</li><li>"educate-agitate-organise" line (attribute as motto-tradition, paraphrase if quoting).</li><li><strong>Vivekananda</strong>: practical Vedanta — "service of man is service of God" frame; strength-and-character education.</li><li><strong>Tagore</strong>: universal humanism; nationalism critique; freedom in education (Santiniketan model).</li><li><strong>Aurobindo</strong>: integral yoga; human-unity; social-Darwinism critique pivot.</li><li><strong>Radhakrishnan</strong>: dharma-tolerance thesis (East-West bridges).</li><li><strong>J Krishnamurti</strong>: freedom-from-fear education; choiceless awareness (schools ethics case).</li><li><strong>APJ Abdul Kalam</strong>: wings-of-fire aspirational ethics — ignite minds framing.</li></ul>
 <h3 id="map-recall-table">Map recall table</h3>
 <table><thead><tr><th>Concept trigger</th><th>Thinker</th></tr></thead><tbody><tr><td>veil of ignorance</td><td>Rawls</td></tr><tr><td>phronesis / habitus virtue</td><td>Aristotle</td></tr><tr><td>deontology/duty/ends-as-means</td><td>Kant</td></tr><tr><td>utility greatest-happiness</td><td>Bentham/Mill</td></tr><tr><td>banality of evil</td><td>Arendt</td></tr><tr><td>moral development stages</td><td>Kohlberg</td></tr><tr><td>ethics of care</td><td>Gilligan</td></tr><tr><td>satyagraha/trusteeship</td><td>Gandhi</td></tr><tr><td>constitutional morality</td><td>Ambedkar (popularised in Indian context)</td></tr><tr><td>middle path</td><td>Buddha</td></tr><tr><td>anekantavada (pluralism)</td><td>Mahavira</td></tr><tr><td>ren/li/junzi</td><td>Confucius</td></tr><tr><td>social contract</td><td>Hobbes/Locke/Rousseau</td></tr><tr><td>statecraft realism</td><td>Kautilya/Machiavelli</td></tr><tr><td>civil disobedience</td><td>Thoreau</td></tr></tbody></table>
 </section>
@@ -263,8 +297,10 @@ table{font-size:.82em}
 <ul><li>One thinker per paragraph; always convert to an administrative behaviour.</li><li>End with your synthesis line; don't stack quotes as filler.</li></ul>
 <h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Don't attribute utilitarianism to Mill alone (qualitative twist is his) or liberty to Bentham (it's Mill's harm principle).</li><li>Avoid misquoting Gandhi's talisman — it is a decision test, not a slogan.</li></ul>
-<h3 id="golden-phrase">Golden phrase</h3>
+<div class="su-recap"><h3 id="golden-phrase">⚡ Golden phrase</h3>
 <ul><li>"Phronesis is prudence with a conscience — the virtue every file needs."</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -329,13 +365,13 @@ table{font-size:.82em}
 <h3 id="mains-theory-questions-with-model-skeletons">Mains theory questions with model skeletons</h3>
 
 
-<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Arendt warned that evil is often file-shaped." Explain how routinised obedience threatens ethical administration and how Kautilyan audit traditions can counter it. (150 words)</p><p class="qa-text"><em>Skeleton:</em> banality of evil → examples: mechanical clearances, "I only processed it" → counters: duty to think (Kant's autonomy), Kautilya's audit-and-espionage oversight, rotation, protection for note-making dissent → conclusion: procedure with conscience.</p></div></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Arendt warned that evil is often file-shaped." Explain how routinised obedience threatens ethical administration and how Kautilyan audit traditions can counter it. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> banality of evil</li><li>examples: mechanical clearances, "I only processed it"</li><li>counters: duty to think (Kant's autonomy), Kautilya's audit-and-espionage oversight, rotation, protection for note-making dissent</li><li>conclusion: procedure with conscience.</li></ul></div></section>
 
-<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Compare Rawls and Gandhi on how a just society must treat its weakest members. How do their insights converge in Indian welfare design? (250 words)</p><p class="qa-text"><em>Skeleton:</em> Rawls: institutional justice, difference principle, veil of ignorance; Gandhi: personal-decision ethics, talisman, antyodaya → convergence: DBT priority to last mile, Aspirational Districts, social audits → contrast: Rawlian design vs Gandhian virtue → synthesis for policy answers.</p></div></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Compare Rawls and Gandhi on how a just society must treat its weakest members. How do their insights converge in Indian welfare design? (250 words)</p><ul class="su-facts"><li><em>Skeleton:</em> Rawls: institutional justice, difference principle, veil of ignorance; Gandhi: personal-decision ethics, talisman, antyodaya</li><li>convergence: DBT priority to last mile, Aspirational Districts, social audits</li><li>contrast: Rawlian design vs Gandhian virtue</li><li>synthesis for policy answers.</li></ul></div></section>
 
 <section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">"Vivekananda gives the motivation, Ambedkar the framework, Kautilya the machinery." Assess this division of moral labour for a modern civil servant. (150 words)</p><p class="qa-text"><em>Skeleton:</em> motivation (service as worship → resilience), framework (constitutional morality → boundaries), machinery (audit, salaries, rotation → feasibility) → example: anti-corruption reform needs all three → conclusion.</p></div></section>
 
-<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Which single thinker would you take into a district collectorate, and why? Defend your choice against one rival. (150 words)</p><p class="qa-text"><em>Skeleton:</em> pick (e.g., Aristotle: phronesis for daily particular judgments) → defend: administration is judgment-in-particulars, not just rule-application → rival (Kautilya: machinery without virtue is hollow) → synthesis: virtue animating machinery → close.</p></div></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Which single thinker would you take into a district collectorate, and why? Defend your choice against one rival. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> pick (e.g., Aristotle: phronesis for daily particular judgments)</li><li>defend: administration is judgment-in-particulars, not just rule-application</li><li>rival (Kautilya: machinery without virtue is hollow)</li><li>synthesis: virtue animating machinery</li><li>close.</li></ul></div></section>
 </section><nav class="bk-nav no-print">
 <a href="gs-4-emotional-intelligence.html"><span class="lb">← Previous</span>Emotional Intelligence: concepts, utilities &amp; application</a>
 <a class="r" href="gs-4-public-service-values.html"><span class="lb">Next →</span>Public/Civil Service Values &amp; Ethics in Public Administration</a>

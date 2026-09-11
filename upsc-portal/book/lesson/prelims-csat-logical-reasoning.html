@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -181,30 +215,30 @@ table{font-size:.82em}
 <p class="bk-sec-lead">The full treatment of this lesson.</p>
 <blockquote><p>CSAT reasoning block: syllogisms, relations, arrangements, statement-logic. Method-solve, don't intuition-solve.</p></blockquote>
 <h3 id="syllogism">1. Syllogisms (Venn method)</h3>
-<ul><li>Draw minimal-overlap Venns per statement; test each conclusion against ALL valid diagrams — follows only if true in every case; 'possibility' cases = some-can-be.</li><li>Conversion pairs: All A are B → Some B are A; No A is B → No B is A; Some A are B → Some B are A (Some-not does not convert).</li><li>Two negative premises → no conclusion; two particulars → no universal conclusion.</li></ul>
+<ul><li>Draw minimal-overlap Venns per statement; test each conclusion against ALL valid diagrams — follows only if true in every case; 'possibility' cases = some-can-be.</li><li>Conversion pairs: All A are B</li><li>Some B are A; No A is B</li><li>No B is A; Some A are B</li><li>Some B are A (Some-not does not convert).</li><li>Two negative premises → no conclusion; two particulars → no universal conclusion.</li></ul>
 <h3 id="relations-direction">2. Blood relations &amp; direction sense</h3>
 <ul><li>Family-tree: build symbolically (♂-♀, =, vertical line), decode from the reference person backwards; watch 'only son/daughter' and in-law chains.</li><li>Direction: sketch compass with N-up; final displacement via Pythagoras; left-right turns are relative to facing — recompute the facing at every turn.</li></ul>
 <h3 id="arrangements">3. Puzzles &amp; arrangements</h3>
 <ul><li>Linear-circular seating: fix one anchor from a definite clue; negative clues become eliminations in a grid; circular left/right depends on inward-outward facing — the classic trap.</li><li>Scheduling-matching puzzles: table with attributes as columns; tick-cross matrix; verify the completed chain from both ends before answering.</li></ul>
 <h3 id="statement-logic">4. Statement-assumption-conclusion-argument</h3>
 <ul><li>Assumption = something unstated that MUST be true for the statement to make sense (not merely possible).</li><li>Course-of-action: prefer actionable, addressable-at-cause options over extreme or irrelevant ones.</li><li>Strengthen-weak: find the argument's link (premise→conclusion); strengthen bridges it, weaken breaks it; extremes and new-topics are decoys.</li><li>Clock-calendar numerics: odd-days method for calendar; mirror-image clock = 11:60 − time; angle = |30H − 5.5M|.</li></ul>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>'Some-not' never converts; 'All' converts to 'Some' — conversion table ask.</li><li>Two negatives = no conclusion — syllogism shortcut.</li><li>Circular seating left/right flips with outward facing — trap.</li><li>Direction: displacement = shortest-path ask; recompute facing each turn.</li><li>Assumption = must-be-true; possibility ≠ assumption.</li><li>Clock: angle formula |30H − 5.5M|; calendar: odd-days.</li></ul>
 <!-- BEGIN studyUPSC:expansion -->
-<h3 id="lr-deep-1">6. Syllogisms, Statements and Formal Logic</h3>
+</div><h3 id="lr-deep-1">5. Syllogisms, Statements and Formal Logic</h3>
 <p><strong>Syllogism</strong> questions give two or more statements and ask which conclusions <em>necessarily</em> follow. The governing principle is the same as in comprehension: accept the statements as true <strong>even if they are absurd in reality</strong>, and derive only what must follow. "All cats are stones" is a perfectly acceptable premise.</p>
-<p>The four standard propositions are: <strong>A</strong> — universal affirmative, "All S are P"; <strong>E</strong> — universal negative, "No S is P"; <strong>I</strong> — particular affirmative, "Some S are P"; <strong>O</strong> — particular negative, "Some S are not P". The reliable method is <strong>Venn diagrams</strong>: draw the arrangement that satisfies all premises, then test each conclusion by asking whether an alternative valid diagram exists in which the conclusion fails. If such a diagram exists, the conclusion does not follow.</p>
+<ul class="su-facts"><li>The four standard propositions are: <strong>A</strong> — universal affirmative, "All S are P"</li><li><strong>E</strong> — universal negative, "No S is P"</li><li><strong>I</strong> — particular affirmative, "Some S are P"</li><li><strong>O</strong> — particular negative, "Some S are not P". The reliable method is <strong>Venn diagrams</strong>: draw the arrangement that satisfies all premises, then test each conclusion by asking whether an alternative valid diagram exists in which the conclusion fails. If such a diagram exists, the conclusion does not follow.</li></ul>
 <p>Conversion rules worth memorising, since they resolve many questions instantly: "All S are P" converts only to "<strong>Some P are S</strong>", never to "All P are S". "No S is P" converts fully to "No P is S". "Some S are P" converts to "Some P are S". "Some S are not P" <strong>does not convert at all</strong>. Two further rules eliminate most wrong options: <strong>no conclusion follows from two particular premises</strong>, and <strong>no conclusion follows from two negative premises</strong>; also, if one premise is particular the conclusion must be particular, and if one is negative the conclusion must be negative.</p>
 <p><strong>Complementary pairs</strong> are the standard trap in "either-or" options. When neither of two conclusions individually follows, but together they exhaust all possibilities — typically an I and an O statement with the same terms, such as "Some A are B" and "Some A are not B" — then "either I or II follows" is correct. Recognising the A-and-O or E-and-I complementary structure saves considerable time.</p>
 <p><strong>Statement and assumption</strong> questions use the <strong>negation test</strong>: negate the candidate assumption and check whether the statement collapses. If it does, the assumption is implicit. Assumptions are unstated, necessary and taken for granted; anything explicitly stated in the passage is by definition not an assumption. <strong>Statement and conclusion</strong> requires that the conclusion be strictly derivable; <strong>statement and argument</strong> asks whether an argument is <em>strong</em> — strong arguments are directly relevant, address the core issue and are not merely emotive, hypothetical or based on individual example. <strong>Cause and effect</strong> questions require care with the direction of causation and with the possibility of a common third cause. <strong>Course of action</strong> questions accept a proposed action only if the problem is real, the action is feasible and it addresses the cause rather than the symptom.</p>
 
-<h3 id="lr-deep-2">7. Arrangements, Blood Relations, Directions and Coding</h3>
+<h3 id="lr-deep-2">6. Arrangements, Blood Relations, Directions and Coding</h3>
 <p><strong>Seating and linear arrangements</strong> are the highest-yield analytical set because they are entirely mechanical once a method is fixed. The procedure: read all conditions before drawing anything; classify them as <em>definite</em> (fixes a position) or <em>relative</em> (fixes an order); start from the most restrictive definite condition; represent circular arrangements with a diagram noting whether people face the centre — because "left" and "right" reverse when facing outward, which is the commonest source of error; and when two arrangements remain possible, carry both forward as cases rather than guessing. For <strong>two-variable puzzles</strong> — person, city, profession, colour — use a <strong>grid</strong> and mark both confirmations and eliminations, since eliminations often determine the answer before confirmations do.</p>
 <p><strong>Blood relations.</strong> Draw a family tree with a fixed convention: a horizontal double line for spouses, a vertical line for parent to child, and symbols for gender. Never infer gender from a name or a profession. Work <em>backwards</em> from the person whose relation is asked. For coded relations such as "A + B means A is the father of B", translate each symbol before combining. The standard trap is the "only son of my grandfather's only son" style of statement, which resolves cleanly on a diagram and almost never in the head.</p>
 <p><strong>Direction sense.</strong> Always draw, always mark north at the top, and track cumulative displacement rather than each step. Final distance from the start is usually found by the <strong>Pythagorean theorem</strong> on net east-west and net north-south displacement. Watch two traps: a turn "to the left" is relative to the direction the person currently faces, not to the map; and shadow-based questions depend on the Sun being in the east in the morning, so the shadow falls to the west, and the reverse in the evening.</p>
-<p><strong>Coding-decoding.</strong> Identify the mechanism first: letter shift by a fixed number; positional value where A is 1 and Z is 26; the <strong>opposite letter</strong> or EJOTY-style mapping where A pairs with Z, B with Y and so on, the pair always summing to 27; reversal; substitution of whole words; or a mixed rule. In <strong>substitution coding</strong> — "if green is called blue, blue is called red" — answer strictly by the substitution chain. Number and symbol series follow a limited repertoire: arithmetic and geometric progressions, squares and cubes with an offset, alternating series, differences of differences, and prime sequences. If a series resists analysis, compute successive differences; if those form a pattern, the series is solved.</p>
+<ul class="su-facts"><li><strong>Coding-decoding.</strong> Identify the mechanism first: letter shift by a fixed number</li><li>positional value where A is 1 and Z is 26</li><li>the <strong>opposite letter</strong> or EJOTY-style mapping where A pairs with Z, B with Y and so on, the pair always summing to 27</li><li>reversal</li><li>substitution of whole words</li><li>or a mixed rule. In <strong>substitution coding</strong> — "if green is called blue, blue is called red" — answer strictly by the substitution chain. Number and symbol series follow a limited repertoire: arithmetic and geometric progressions, squares and cubes with an offset, alternating series, differences of differences, and prime sequences. If a series resists analysis, compute successive differences</li><li>if those form a pattern, the series is solved.</li></ul>
 
-<h3 id="lr-deep-3">8. Data Sufficiency, Data Interpretation and Practice Strategy</h3>
+<h3 id="lr-deep-3">7. Data Sufficiency, Data Interpretation and Practice Strategy</h3>
 <p><strong>Data sufficiency</strong> gives a question and two statements and asks which are sufficient — never for the answer itself. This is the crucial discipline: <strong>do not solve</strong>, determine only whether a unique answer is obtainable. Evaluate statement I alone, then statement II alone <em>while deliberately forgetting</em> statement I, and only then both together. The commonest errors are carrying information from the first statement into the evaluation of the second, and accepting a statement that yields two possible values as sufficient — sufficiency requires a <em>unique</em> determination. A quadratic yielding two positive roots is insufficient; one yielding a positive and a negative root may be sufficient if the context requires a positive quantity.</p>
 <p><strong>Data interpretation</strong> covers tables, bar and line graphs, pie charts, caselets and mixed sets. Practical rules: read the <strong>units and the axis scale</strong> first, and note whether values are absolute or percentages — the classic trap is a chart in which one entity has a higher <em>percentage</em> but a lower <em>absolute</em> value because the bases differ. In pie charts remember that <strong>3.6 degrees equals one per cent</strong>. Approximate aggressively when options are widely spaced; compute precisely only when they are close. Master percentage change, the distinction between <em>per cent</em> and <em>percentage point</em>, ratios, averages and weighted averages, since virtually all DI reduces to these. For "by what per cent is A more than B", the base is <strong>B</strong>; reversing the base is the most frequent careless error in the paper.</p>
 <p><strong>Practice strategy.</strong> Reasoning is a skill acquired by repetition under time pressure, not by reading solutions. Work previous year CSAT papers from 2011 in full, timed conditions, then re-solve every wrong question from scratch a week later without looking at the solution. Build a personal <strong>method sheet</strong> — one page per question type recording the exact procedure you will follow — and rehearse until the procedure is automatic, because in the examination hall the bottleneck is decision-making, not calculation. Maintain an error log classified by cause: misread condition, arithmetic slip, wrong base, direction reversal, sufficiency over-reach. Learn the <strong>skip decision</strong>: an arrangement puzzle that has not yielded a definite placement within ninety seconds should be abandoned and revisited in the second pass, because such puzzles either open quickly or not at all. Given that the paper is <strong>qualifying at 33%</strong> with <strong>one-third negative marking</strong>, the winning approach is to secure the mechanical, high-certainty question types — arrangements, blood relations, directions, simple series, straightforward DI — and treat the abstract and unfamiliar as optional.</p>
@@ -216,10 +250,10 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <h3 id="method-anchors">Method anchors</h3>
 <ul><li>Draw for <strong>directions, blood relations, seating</strong> — never hold diagrams in head.</li><li>For series: check <strong>difference first</strong>, then ratio, then alternating patterns, then alphabetic shifts (A=1 mapping memorised).</li><li>Puzzles: build the <strong>grid skeleton first</strong>; place "not"-clues last.</li><li>Syllogisms: draw the <em>minimal</em> Venn satisfying given premises; ask "is the conclusion forced in ALL such Venns?".</li></ul>
-<h3 id="rapid-fire-with-answers">Rapid-fire with answers</h3>
+<div class="su-recap"><h3 id="rapid-fire-with-answers">⚡ Rapid-fire with answers</h3>
 <ol><li><strong>Series</strong>: 4, 11, 25, 53, ? — differences ×2+3 pattern → <strong>109</strong> (check: 53×2+3).</li><li><strong>Alpha series</strong>: AZ, CY, EX, FW, ? → <strong>GV</strong> (first letters +1; second −1).</li><li><strong>Number-logic</strong>: In a class, Ram is 12th from left, 18th from right. Total students? <strong>29</strong> (12+18−1).</li><li><strong>Blood</strong>: Pointing to a photograph: "She is my mother's brother's only sister's daughter." That's <strong>cousin (maternal aunt's daughter)</strong>. Trap: if "only sister" is mother herself → sister! Read "only sister" as aunt → cousin.</li><li><strong>Direction</strong>: 5 km N → 3 km E → 5 km S. Displacement from start? <strong>3 km E</strong>.</li><li><strong>Seating row</strong>: 6 people, D sits third to left of F; A adjacent to D's left; C not at ends... solve the full grid on paper; trap = "third to the left" means 3 positions away ( | |D|  |  |F| ) — count carefully.</li><li><strong>Coding</strong>: If WATER = XZUDS (letter shift pattern +1,+2,−1,−2,+1?) — verify a stated code logic from options; drill habit: write the shift row <strong>above</strong> the letters before computing.</li><li><strong>Syllogism</strong>: Some books are pens. Some pens are erasers. Conclusion offered: "Some books are erasers." → <strong>Does not follow</strong>. Second offered: "Some pens are books." → <strong>Follows</strong> (conversion of 'some').</li><li><strong>Clock</strong>: 3:15 angle between hands? |30×3 − 5.5×15| = <strong>7.5°</strong>.</li><li><strong>Calendar</strong>: 1 Jan 2024 Monday. 1 Jan 2025? <strong>Wednesday</strong> (leap year advances 2). 1 Jan 2026? <strong>Thursday</strong> (normal year +1).</li><li><strong>Odd-one</strong>: 121, 144, 169, 152 → <strong>152</strong> (others perfect squares).</li><li><strong>Statement-conclusion</strong>: "All managers are leaders; no leader is lazy." → "No manager is lazy" <strong>follows</strong> (chain through universal).</li></ol>
-<h3 id="puzzler-grid-drill-4-min">Puzzler grid drill (4 min)</h3>
-<p>A, B, C, D, E live on floors 1–5 of a building. A lives above B. C is not on the top floor. D is immediately below C. E is not adjacent to A. <em>Method</em>: let globals first — A&gt;B; D=C−1; C≠5. Try C=4 → D=3. Remaining 1,2,5 for A,B,E with A&gt;B and E non-adjacent to A → A=2,B=1,E=5 (E adjacent to A? floors 5 vs 2 not adjacent ✓). Solution: 1-B,2-A,3-D,4-C,5-E.</p>
+</div><h3 id="puzzler-grid-drill-4-min">Puzzler grid drill (4 min)</h3>
+<ul class="su-facts"><li>A, B, C, D, E live on floors 1–5 of a building. A lives above B. C is not on the top floor. D is immediately below C. E is not adjacent to A. <em>Method</em>: let globals first — A&gt;</li><li>B</li><li>D=C−1</li><li>C≠5. Try C=4</li><li>D=3. Remaining 1,2,5 for A,B,E with A&gt;</li><li>B and E non-adjacent to A</li><li>A=2,B=1,E=5 (E adjacent to A? floors 5 vs 2 not adjacent ✓). Solution: 1-B,2-A,3-D,4-C,5-E.</li></ul>
 <h3 id="data-sufficiency-shape">Data-sufficiency shape</h3>
 <p>"Is x even?" (i) x divisible by 4 (ii) x divisible by 6 — Answer class: (i) alone sufficient (implies even); classic CSAT framing with both/together templates.</p>
 <h3 id="fail-modes-to-kill">Fail-modes to kill</h3>
@@ -229,14 +263,16 @@ table{font-size:.82em}
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Toolkit flash.</p></blockquote>
-<h3 id="syllogism-flash">Syllogism flash</h3>
+<div class="su-recap"><h3 id="syllogism-flash">⚡ Syllogism flash</h3>
 <ul><li>Venn per statement · conclusion true in ALL diagrams · some-not doesn't convert.</li><li>All→Some reverse · No→No reverse · two negatives = no conclusion.</li></ul>
-<h3 id="relation-flash">Relation-direction flash</h3>
+</div><div class="su-recap"><h3 id="relation-flash">⚡ Relation-direction flash</h3>
 <ul><li>Tree symbols, solve backwards from reference person · 'only child' watch.</li><li>Compass N-up · facing recomputed each turn · displacement = Pythagoras.</li></ul>
-<h3 id="puzzle-flash">Puzzle flash</h3>
+</div><div class="su-recap"><h3 id="puzzle-flash">⚡ Puzzle flash</h3>
 <ul><li>Fix definite clue as anchor · grid + tick-cross matrix · negative clues eliminate.</li><li>Circular left/right flips when facing outward — confirm before answering.</li></ul>
-<h3 id="logic-flash">Statement-logic flash</h3>
+</div><div class="su-recap"><h3 id="logic-flash">⚡ Statement-logic flash</h3>
 <ul><li>Assumption = must-be-true-unstated · strengthen = bridge · weaken = break link.</li><li>Course-of-action → address cause, avoid extremes.</li><li>Clock angle |30H − 5.5M| · mirror clock 11:60 − t · calendar odd-days.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -290,7 +326,7 @@ table{font-size:.82em}
 <h3 id="set-2">Set 2 — puzzles &amp; statement logic</h3>
 <section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Five friends sit in a row facing north: P is right of Q but left of R; S is at the extreme right; T is left of Q. Who sits middle?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>P</span></li><li><span class="opt">(b)</span><span>Q</span></li><li><span class="opt">(c)</span><span>R</span></li><li><span class="opt">(d)</span><span>T</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(order: T, Q, P, R, S)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">In a queue, A is 7th from front, 12th from back. Queue length:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>18</span></li><li><span class="opt">(b)</span><span>19</span></li><li><span class="opt">(c)</span><span>20</span></li><li><span class="opt">(d)</span><span>17</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(7+12−1)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Statement: 'All employees must attend the safety drill.' Assumption: I. drills improve safety. II. employees can attend. Which is implicit?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>I only</span></li><li><span class="opt">(b)</span><span>II only</span></li><li><span class="opt">(c)</span><span>both</span></li><li><span class="opt">(d)</span><span>neither</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(both implicit)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">A clock shows 3:30. Angle between hands:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>90°</span></li><li><span class="opt">(b)</span><span>75°</span></li><li><span class="opt">(c)</span><span>105°</span></li><li><span class="opt">(d)</span><span>60°</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(|30×3 − 5.5×30| = |90−165| = 75°)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Statement: 'The city improved street lighting; night accidents fell.' Which weakens the causal claim?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>lights installed citywide</span></li><li><span class="opt">(b)</span><span>accident fall began before the lighting change</span></li><li><span class="opt">(c)</span><span>residents welcomed lights</span></li><li><span class="opt">(d)</span><span>lighting costs rose</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(fall predates cause — breaks link).</div></details></section>
 <h3 id="answers">Answers</h3>
-<p><strong>1-b</strong> (All pens→books reverses to Some books→pens = II; I not certain) · <strong>2-a</strong> (dogs are animals, no dog is cat ⇒ those animals aren't cats) · <strong>3-a</strong> (grandfather's only son = Ravi's father; his daughter = Ravi's sister) · <strong>4-c</strong> (3-4-5 triangle) · <strong>5-a</strong> (+2 shift each letter) · <strong>6-b</strong> (order: T, Q, P, R, S) · <strong>7-a</strong> (7+12−1) · <strong>8-c</strong> (both implicit) · <strong>9-b</strong> (|30×3 − 5.5×30| = |90−165| = 75°) · <strong>10-b</strong> (fall predates cause — breaks link).</p>
+<ul class="su-facts"><li><strong>1-b</strong> (All pens→books reverses to Some books→pens = II; I not certain)</li><li><strong>2-a</strong> (dogs are animals, no dog is cat ⇒ those animals aren't cats)</li><li><strong>3-a</strong> (grandfather's only son = Ravi's father; his daughter = Ravi's sister)</li><li><strong>4-c</strong> (3-4-5 triangle)</li><li><strong>5-a</strong> (+2 shift each letter)</li><li><strong>6-b</strong> (order: T, Q, P, R, S)</li><li><strong>7-a</strong> (7+12−1)</li><li><strong>8-c</strong> (both implicit)</li><li><strong>9-b</strong> (|30×3 − 5.5×30| = |90−165| = 75°)</li><li><strong>10-b</strong> (fall predates cause — breaks link).</li></ul>
 <blockquote><p>Redo Venn conversions weekly — the some-not conversion is the highest-frequency trap.</p></blockquote>
 </section><nav class="bk-nav no-print">
 <a href="prelims-csat-comprehension.html"><span class="lb">← Previous</span>Reading Comprehension &amp; Interpersonal Skills</a>

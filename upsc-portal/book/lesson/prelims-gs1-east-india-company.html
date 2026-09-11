@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -181,9 +215,9 @@ table{font-size:.82em}
 <p class="bk-sec-lead">The full treatment of this lesson.</p>
 <blockquote><p>Traders → rulers (1600–1858). Anchors: battles, Governor-Generals + reforms, land systems, subsidiary diplomacy.</p></blockquote>
 <h3 id="entry">1. Entry &amp; early trade</h3>
-<ul><li>EIC chartered <strong>1600</strong> (Elizabeth I); first factory <strong>Machilipatnam 1611</strong>; Surat factory after the <strong>Battle of Swally 1612</strong> (vs Portuguese); Jahangir farman via <strong>Thomas Roe 1615-18</strong>; 1717 <strong>Farrukhsiyar farman</strong> = 'magna carta' duty-free Bengal trade (dastaks abused); Bombay ceded 1668 (Catherine dowry → Company lease).</li><li>Rivals: Portuguese (decline post-Swally), Dutch (Batavia focus), Danes, French <strong>Compagnie 1664; Dupleix</strong> — Carnatic wars <strong>1746-63 (3 wars)</strong>: Madras 1746, <strong>Trichinopoly-Severndroog arc</strong>, <strong>Wandiwash 1760 (Eyre Coote vs Lally)</strong> → Pondicherry ceded militarily-ended.</li></ul>
+<ul><li>EIC chartered <strong>1600</strong> (Elizabeth I)</li><li>first factory <strong>Machilipatnam 1611</strong></li><li>Surat factory after the <strong>Battle of Swally 1612</strong> (vs Portuguese)</li><li>Jahangir farman via <strong>Thomas Roe 1615-18</strong></li><li>1717 <strong>Farrukhsiyar farman</strong> = 'magna carta' duty-free Bengal trade (dastaks abused)</li><li>Bombay ceded 1668 (Catherine dowry → Company lease).</li><li>Rivals: Portuguese (decline post-Swally), Dutch (Batavia focus), Danes, French <strong>Compagnie 1664; Dupleix</strong> — Carnatic wars <strong>1746-63 (3 wars)</strong>: Madras 1746, <strong>Trichinopoly-Severndroog arc</strong>, <strong>Wandiwash 1760 (Eyre Coote vs Lally)</strong> → Pondicherry ceded militarily-ended.</li></ul>
 <h3 id="conquest">2. Conquest arc</h3>
-<ul><li><strong>Plassey 1757</strong> (Clive; Siraj-ud-Daula; Mir Jafar conspiracy; Jagat Seth bankers; Omichund bribe plot), <strong>Buxar 1764</strong> (Munro; Mir Qasim + Shuja-ud-Daula + Shah Alam II), <strong>Diwani 1765</strong> (Treaty of Allahabad) → dual government (Clive) → Warren Hastings ends it 1772; <strong>Regulating Act 1773</strong> + <strong>Pitt's India Act 1784</strong> (Board of Control dual frame).</li><li>Mysore: 4 wars (Haidar Ali; <strong>Tipu 'Tiger'</strong>; <strong>Seringapatam 1799 death</strong>); Marathas: 3 wars (1775-82 Salbai; 1803-05 Assaye; 1817-18 final); Sikh wars 1845-46 (Sobraon), 1848-49 (<strong>Chilianwala, Multan, Gujarat</strong>; Dalhousie annexes Punjab 1849 — Koh-i-noor to Queen); Burma wars 1824-26, 1852, 1885 (later); Nepal 1814-16 (Sugauli); Sind 1843 (Napier 'Peccavi' legend).</li><li>Diplomatic frame: <strong>subsidiary alliance (Wellesley 1798+)</strong> — Hyderabad, Awadh, Tanjore, Peshwa (Bassein 1802); <strong>Doctrine of Lapse (Dalhousie 1848-56)</strong> — Satara 1848, Jaitpur-Sambalpur, Jhansi 1853, Nagpur 1854; Awadh 'misgovernment' annexation 1856.</li></ul>
+<ul><li><strong>Plassey 1757</strong> (Clive; Siraj-ud-Daula; Mir Jafar conspiracy; Jagat Seth bankers; Omichund bribe plot), <strong>Buxar 1764</strong> (Munro; Mir Qasim + Shuja-ud-Daula + Shah Alam II), <strong>Diwani 1765</strong> (Treaty of Allahabad)</li><li>dual government (Clive)</li><li>Warren Hastings ends it 1772</li><li><strong>Regulating Act 1773</strong> + <strong>Pitt's India Act 1784</strong> (Board of Control dual frame).</li><li>Mysore: 4 wars (Haidar Ali; <strong>Tipu 'Tiger'</strong></li><li><strong>Seringapatam 1799 death</strong>)</li><li>Marathas: 3 wars (1775-82 Salbai; 1803-05 Assaye; 1817-18 final)</li><li>Sikh wars 1845-46 (Sobraon), 1848-49 (<strong>Chilianwala, Multan, Gujarat</strong></li><li>Dalhousie annexes Punjab 1849 — Koh-i-noor to Queen)</li><li>Burma wars 1824-26, 1852, 1885 (later)</li><li>Nepal 1814-16 (Sugauli)</li><li>Sind 1843 (Napier 'Peccavi' legend).</li><li>Diplomatic frame: <strong>subsidiary alliance (Wellesley 1798+)</strong> — Hyderabad, Awadh, Tanjore, Peshwa (Bassein 1802); <strong>Doctrine of Lapse (Dalhousie 1848-56)</strong> — Satara 1848, Jaitpur-Sambalpur, Jhansi 1853, Nagpur 1854; Awadh 'misgovernment' annexation 1856.</li></ul>
 <h3 id="gg-table">3. Governor-General anchors</h3>
 <table><thead><tr><th>GG</th><th>Remember for</th></tr></thead><tbody>
 <tr><td>Warren Hastings (1772-85)</td><td>First GG-of-Bengal era; Rohilla war; <strong>impeachment trial (Edmund Burke, acquitted 1795)</strong>; Asiatic Society (Jones 1784)</td></tr>
@@ -195,21 +229,21 @@ table{font-size:.82em}
 </tbody></table>
 <h3 id="land-systems">4. Land revenue systems</h3>
 <ul><li><strong>Permanent Settlement 1793</strong> (Cornwallis-John Shore; Bengal-Bihar-Odisha; zamindari; sunset law) — fixed demand, de-facto property; <strong>Ryotwari (Munro-Read; Madras-Bombay)</strong> — direct ryot assessment; <strong>Mahalwari (1822+; Holt Mackenzie, amended 1833 Bird; North-West, Punjab parts, Awadh later taluqdari)</strong> — village-mahal joint.</li></ul>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>Order: Plassey 1757 → Buxar 1764 → Diwani 1765 (triple asked).</li><li>Wandiwash 1760 = French Indian defeat (Carnatic war III).</li><li>Swally 1612 = naval vs Portuguese → Surat factory.</li><li>Seringapatam 1799 = Tipu falls (war IV, Wellesley era).</li><li>PS 1793 (Cornwallis) vs Ryotwari (Munro) vs Mahalwari (Mackenzie-Bird) trio.</li><li>Farrukhsiyar farman 1717 = dastak duty-free abuse → Bengal friction.</li><li>Sati 1829 (Bentinck-Rammohan), Lapse = Dalhousie (Jhansi 1853, Nagpur 1854, Awadh 1856).</li></ul>
 <!-- BEGIN studyUPSC:expansion -->
 <section class="notes-section" id="ev-deep-1">
-<h3 id="13-the-revenue-machine-permanent-ryotwari-mahalwari-and-the-drain">13. The revenue machine — Permanent, Ryotwari, Mahalwari, and the drain</h3>
+</div><h3 id="13-the-revenue-machine-permanent-ryotwari-mahalwari-and-the-drain">5. The revenue machine — Permanent, Ryotwari, Mahalwari, and the drain</h3>
 <p>The trunk's revenue table (§7) is the most-marked page of this lesson; the Mains upgrade is to <strong>argue each system as a theory of colonial extraction, not a fact-row.</strong> <strong>Permanent Settlement (1793, Cornwallis on Shore's plan)</strong>: fixed forever at ~1/11 of produce with hereditary zamindars in Bengal–Bihar–Orissa. The theory — a loyal landed gentry improving agriculture like English landlords. The verdict — zamindars became absentee rent-extractors, ryots became tenants-at-will under layered sub-infeudation, and the state permanently forfeited revenue growth from India's richest province; the sunset clause (estates auctioned for arrears) created a speculative land market. <strong>Ryotwari (1820s, Munro–Read, Madras–Bombay–Assam)</strong>: settlement with the individual ryot at ~1/3–1/2, periodically revised. The theory — eliminate intermediaries, deal with the cultivator. The verdict — the state became the direct zamindar, revisions ratcheted demand upward on pessimistic assessments, and peasant arrears fed the sahukar; individual titles made land saleable, accelerating alienation. <strong>Mahalwari (1822, Holt Mackenzie, NWP–Punjab)</strong>: joint village (mahal) responsibility at ~2/3, periodically revised. The theory — harness the village community. The verdict — joint liability punished the solvent for the insolvent, and the crushing ~2/3 demand converted the village brotherhood into a collective debt trap.</p>
 <p>The <strong>common mechanism</strong> the trunk states — high demand → sahukar indebtedness → commodified land → absentee landlordism → broken village self-sufficiency — is the engine of the <strong>Drain of Wealth</strong> (Naoroji, then R. C. Dutt): revenue extracted in rupees bought sterling obligations (Home Charges, dividends, pensions) and the Company's "investment" (Bengal revenue financing EIC trade after Plassey solved the bullion problem — the coup's economic meaning from §2.3). Add the famine link: the Dual Government's (1765–72) power-without-responsibility — Reza Khan's nizamat shell over Company revenue hunger — culminated in the <strong>1770 famine (~one-third of Bengal dead)</strong>, the exhibit that ended dual rule under Hastings (1772). Mains synthesis: <strong>the revenue systems differed in whom they ruined first (ryot under ryotwari, community under mahalwari, future revenue under Permanent) but converged on the same political economy — maximum extraction with minimum obligation.</strong></p>
 </section>
 <section class="notes-section" id="ev-deep-2">
-<h3 id="14-collaboration-and-resistance-why-1857-was-a-culmination">14. Collaboration and resistance — why 1857 was a culmination</h3>
+<h3 id="14-collaboration-and-resistance-why-1857-was-a-culmination">6. Collaboration and resistance — why 1857 was a culmination</h3>
 <p>The trunk's success-factors (§10) and resistance-list (§11) answer two halves of one question; fuse them. <strong>Why Indians collaborated</strong>: bankers (Jagat Seths financed Plassey), merchants profiting from Company trade, successor-state elites using the EIC against rivals (Maratha houses against each other at Bassein 1802; Nizam against Mysore), the sepoy army's regular pay and discipline (the coercive tool that later sparked 1857), and princely acceptance of subsidiary protection (Hyderabad 1798, Awadh 1801). The structural point from §10: naval supremacy (Royal Navy over French, Wandiwash 1760 → Paris 1763), Bengal-financed armies after 1765, Company autonomy (vs the dissolved 1769 French Compagnie), and the Subsidiary–Resident constitutional framework made collaboration <em>rational</em> for each actor even as it proved ruinous collectively — the classic collective-action trap. <strong>Why resistance kept erupting</strong>: the trunk's pre-1857 ledger — Sanyasi–Fakir (1770s+), Chuar (1766–1816), Vellore (1806) and Barrackpore (1824) mutinies, Paika (1817, Bakshi Jagabandhu), Bhil (1818–48), Kol (1831–32), Wahabi–Titumir militancy, Santhal Hul (1855–56, Sidhu–Kanhu, → Santhal Pargana).</p>
 <p>The <strong>culmination thesis</strong> ties every grievance stream into 1857: Doctrine of Lapse annexations (Satara 1848 → Nagpur 1854; Awadh 1856 on "misgovernment," not lapse — the Prelims trap) alienated princes; the denied Bithur pension (Nana Sahib) carried Maratha memory into revolt; revenue ruin alienated peasants; the sepoy army's own grievances (pay, overseas service, cartridges) turned the coercive tool around; and Annexation-plus-reform (Sati 1829, Widow Remarriage 1856, Dalhousie's railways/telegraph/PWD modernisation) convinced the orthodox that Company rule meant civilisational erasure. The examination line: <strong>1857 was not caused by the cartridge — the cartridge merely synchronised a century of discrete resistances (tribal, peasant, princely, sepoy) into a single military moment; read §11 backwards from 1857 and every entry becomes a rehearsal.</strong></p>
 </section>
 <section class="notes-section" id="ev-deep-3">
-<h3 id="15-governors-general-as-policy-eras-and-the-answer-method">15. Governors-General as policy eras — and the answer method</h3>
+<h3 id="15-governors-general-as-policy-eras-and-the-answer-method">7. Governors-General as policy eras — and the answer method</h3>
 <p>The trunk's one-liners (§8) name the proconsuls; arrange them as <strong>policy eras for "trace the evolution" questions.</strong> <strong>Clive (1757–60, 1765–67)</strong>: the coup era — Plassey conspiracy (Mir Jafar, Jagat Seths, Omichand, Rai Durlabh), Allahabad Diwani (1765, Shah Alam II), Dual Government. <strong>Hastings (1772–85, first GG of Bengal)</strong>: the state-building era — ended dual rule, Rohilla/Afghan wars, impeached by Burke (the metropolitan conscience trial). <strong>Cornwallis (1786–93)</strong>: the settlement era — Permanent Settlement, "Father of Civil Services," Seringapatam 1792. <strong>Wellesley (1798–1805)</strong>: the expansion era — Subsidiary Alliance systematised, Fourth Mysore War (Tipu falls 4 May 1799), Second Maratha War (Assaye/Argaon/Laswari 1803). <strong>Hastings/Moira (1813–23)</strong>: the paramountcy era — Third Maratha War, Peshwaship abolished 1818. <strong>Bentinck (1828–35, first GG of India)</strong>: the reform era — Sati 1829, Macaulay's Minute 1835. <strong>Dalhousie (1848–56)</strong>: the modernising-annexation era — Lapse, Punjab (29 March 1849, Koh-i-Noor to Victoria), railways (Bombay–Thane 1853), telegraph, PWD, Widow Remarriage 1856 — "Maker of Modern India" and maker of 1857's grievance bundle alike.</p>
 <p>The <strong>answer method</strong>: (1) for "rise of the Company" questions, sequence Bengal (Plassey coup → Buxar legitimacy: <strong>Buxar > Plassey</strong> because it destroyed the Bengal–Awadh–Mughal combined arms under Munro against Mir Qasim + Shuja-ud-Daula + Shah Alam II, 23 October 1764) → Mysore (four wars 1767–99, Madras 1769 → Mangalore 1784, the last equal treaty → Seringapatam 1792 → 1799) → Marathas (Salbai 1782 → Bassein 1802 → 1818) → Sikhs (Lahore 1846 → Gujarat "Battle of Guns" 21 Feb 1849) → Lapse/misgovernment mop-up; (2) for "British vs French" questions, deploy §10's six factors with Wandiwash/Paris and Company-autonomy specifics; (3) for Tipu/Hyder/Ranjit Singh personality questions, use the moderniser evidence (Mysore rockets → Congreve; Tree of Liberty + Jacobin Club + Padshah styling; Amritsar 1809 → Khalsa army) and always close with the structural moral: <strong>individual genius lost to institutional systems — the EIC won because it was a system (revenue + sepoys + Residents + naval supply) fighting persons, however brilliant.</strong></p>
 </section>
@@ -220,26 +254,30 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Prelims GS-I › History &amp; Culture › Modern History. Dedicated leaf card; the branch pack is <code>../../short-notes/modern-history-prelims-revision.html</code> and the practice set is <code>../pyqs/east-india-company-mcqs.html</code>.</p></blockquote>
 <h3 id="arrival-sequence-the-classic-ordering-question">Arrival sequence (the classic ordering question)</h3>
-<ul><li><strong>Portuguese</strong> 1498 (Vasco da Gama, Calicut; Cochin factory 1503; Goa captured by Albuquerque 1510) → <strong>Dutch</strong> 1602 VOC (Masulipatnam 1605, Pulicat; defeated at Bedara 1759) → <strong>English</strong> EIC charter <strong>31 Dec 1600</strong> (Surat factory 1613; Madras 1639; Bombay 1668 from Charles II; Calcutta 1690 Job Charnock) → <strong>Danes</strong> 1616 (Tranquebar, Serampore) → <strong>French</strong> 1664 (Surat 1668, Pondicherry 1674 by François Martin).</li><li>Carnatic Wars: I (1746–48, Aix-la-Chapelle) · II (1749–54, Dupleix recalled) · III (1758–63, <strong>Wandiwash 1760</strong>, Paris 1763 — French reduced to trading posts).</li></ul>
+<ul><li><strong>Portuguese</strong> 1498 (Vasco da Gama, Calicut; Cochin factory 1503; Goa captured by Albuquerque 1510)</li><li><strong>Dutch</strong> 1602 VOC (Masulipatnam 1605, Pulicat; defeated at Bedara 1759)</li><li><strong>English</strong> EIC charter <strong>31 Dec 1600</strong> (Surat factory 1613; Madras 1639; Bombay 1668 from Charles II; Calcutta 1690 Job Charnock)</li><li><strong>Danes</strong> 1616 (Tranquebar, Serampore)</li><li><strong>French</strong> 1664 (Surat 1668, Pondicherry 1674 by François Martin).</li><li>Carnatic Wars: I (1746–48, Aix-la-Chapelle) · II (1749–54, Dupleix recalled) · III (1758–63, <strong>Wandiwash 1760</strong>, Paris 1763 — French reduced to trading posts).</li></ul>
 <h3 id="bengal-from-trader-to-ruler">Bengal: from trader to ruler</h3>
 <ul><li><strong>Plassey 23 June 1757</strong> — Clive vs Siraj-ud-Daulah; Mir Jafar's treachery; Mir Jafar installed.</li><li><strong>Buxar 22 Oct 1764</strong> — Munro vs Mir Qasim + Shuja-ud-Daula + Shah Alam II (militarily more decisive than Plassey).</li><li><strong>Treaty of Allahabad 1765</strong> — Diwani of Bengal-Bihar-Orissa to EIC; Awadh returned to Shuja for ₹50 lakh; Kora-Allahabad to Shah Alam.</li><li><strong>Dual Government 1765–72</strong> (Clive) — Company had Diwani (revenue), Nawab had Nizamat (administration); ended by Warren Hastings 1772.</li><li>Bengal famine <strong>1770</strong> (one-third of population estimated dead).</li></ul>
 <h3 id="expansion-wars-instruments">Expansion wars &amp; instruments</h3>
-<ul><li>Anglo-Mysore: I 1767–69 (Treaty of Madras) · II 1780–84 (Mangalore; Hyder Ali died 1782) · III 1790–92 (Seringapatam; Tipu ceded half territory) · IV 1799 (Tipu killed; Wodeyar restored).</li><li>Anglo-Maratha: I 1775–82 (Salbai) · II 1803–05 (Bassein 1802 with Baji Rao II) · III 1817–18 (Peshwaship abolished; Baji Rao II pensioned at Bithur → Nana Saheb link).</li><li>Anglo-Sikh: I 1845–46 (Lahore) · II 1848–49 (Punjab annexed; Dalhousie).</li><li><strong>Subsidiary Alliance</strong> — Wellesley 1798; first taker <strong>Hyderabad 1798</strong>, then Mysore 1799, Tanjore, Awadh 1801, Peshwa 1802.</li><li><strong>Doctrine of Lapse</strong> — Dalhousie; Satara 1848, Jaitpur &amp; Sambalpur 1849, Udaipur 1852, Jhansi 1853, Nagpur 1854; Awadh annexed 1856 on grounds of <em>misgovernance</em> (not lapse).</li></ul>
+<ul><li>Anglo-Mysore: I 1767–69 (Treaty of Madras) · II 1780–84 (Mangalore; Hyder Ali died 1782) · III 1790–92 (Seringapatam; Tipu ceded half territory) · IV 1799 (Tipu killed; Wodeyar restored).</li><li>Anglo-Maratha: I 1775–82 (Salbai) · II 1803–05 (Bassein 1802 with Baji Rao II) · III 1817–18 (Peshwaship abolished; Baji Rao II pensioned at Bithur → Nana Saheb link).</li><li>Anglo-Sikh: I 1845–46 (Lahore) · II 1848–49 (Punjab annexed; Dalhousie).</li><li><strong>Subsidiary Alliance</strong> — Wellesley 1798; first taker <strong>Hyderabad 1798</strong>, then Mysore 1799, Tanjore, Awadh 1801, Peshwa 1802.</li><li><strong>Doctrine of Lapse</strong> — Dalhousie</li><li>Satara 1848, Jaitpur &amp;</li><li>Sambalpur 1849, Udaipur 1852, Jhansi 1853, Nagpur 1854</li><li>Awadh annexed 1856 on grounds of <em>misgovernance</em> (not lapse).</li></ul>
 <h3 id="land-revenue-systems">Land-revenue systems</h3>
 <ul><li><strong>Permanent Settlement 1793</strong> (Cornwallis; Bengal-Bihar-Orissa-Banaras; zamindars owners; ~19% area).</li><li><strong>Ryotwari</strong> (Munro &amp; Read; Madras 1820, Bombay; ~51%).</li><li><strong>Mahalwari</strong> (Holt Mackenzie 1822, Regulation IX; NWP, Punjab, Central India; ~30%).</li></ul>
 <h3 id="regulating-framework-acts-you-must-sequence">Regulating framework (Acts you must sequence)</h3>
-<ul><li>Regulating Act <strong>1773</strong> (Governor-General of Bengal — Hastings; Supreme Court Calcutta 1774) → Pitt's India Act <strong>1784</strong> (Board of Control; dual control) → Charter <strong>1813</strong> (monopoly ended except tea &amp; China; ₹1 lakh for education) → Charter <strong>1833</strong> (GG of India — Bentinck; Company purely administrative; Law Member — Macaulay) → Charter <strong>1853</strong> (open competition for civil services; separate Legislative Council).</li></ul>
-<h3 id="traps">Traps</h3>
+<ul><li>Regulating Act <strong>1773</strong> (Governor-General of Bengal — Hastings; Supreme Court Calcutta 1774)</li><li>Pitt's India Act <strong>1784</strong> (Board of Control; dual control)</li><li>Charter <strong>1813</strong> (monopoly ended except tea &amp; China; ₹1 lakh for education)</li><li>Charter <strong>1833</strong> (GG of India — Bentinck; Company purely administrative; Law Member — Macaulay)</li><li>Charter <strong>1853</strong> (open competition for civil services; separate Legislative Council).</li></ul>
+<div class="su-recap"><h3 id="traps">⚡ Traps</h3>
 <ul><li>Plassey was a <em>betrayal</em>, Buxar a <em>battle</em>; Diwani came from <strong>Shah Alam II</strong> not the Nawab.</li><li>Wellesley introduced subsidiary alliance; the <em>idea</em> was Dupleix's.</li><li>First Governor-General of India = Bentinck (1833), of Bengal = Hastings (1773); first Viceroy = Canning (1858).</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Match-drills.</p></blockquote>
-<h3 id="pairs-flash">Pairs flash</h3>
+<div class="su-recap"><h3 id="pairs-flash">⚡ Pairs flash</h3>
 <ul><li>1600 charter → Elizabeth I · Machilipatnam 1611 first factory · Swally 1612 → Surat · Roe → Jahangir farman.</li><li>1717 farman → Farrukhsiyar (dastak abuse) · Bombay 1668 → Catherine dowry lease.</li><li>Carnatic wars 1746-63 · Wandiwash 1760 → Eyre Coote vs Lally (Dupleix era).</li><li>Plassey 1757 → Clive-Siraj-Mir Jafar · Buxar 1764 → Munro vs triumvirate · Diwani 1765 → Allahabad treaty.</li><li>Regulating Act 1773 → Warren Hastings · Pitt's Act 1784 → Board of Control · impeachment → Burke, acquitted 1795.</li><li>Mysore 4 wars → Haidar-Tipu · Seringapatam 1799 · Subsidiary alliance → Wellesley (Hyderabad, Bassein 1802).</li><li>Lapse → Dalhousie: Satara 1848, Jhansi 1853, Nagpur 1854 · Awadh 1856 'misrule'.</li><li>Punjab 1849 → Dalhousie (2 Sikh wars; Chilianwala-Gujarat) · Sind 1843 → Napier · Sugauli 1816 → Nepal.</li><li>Sati 1829 → Bentinck (+Rammohan) · English 1835 → Macaulay minute · Asiatic Society 1784 → William Jones (Hastings era).</li><li>1853-57 infra: rail Bombay-Thana 1853, telegraph 1851, post 1854 half-anna, 3 universities 1857 → Dalhousie cluster.</li></ul>
-<h3 id="trap-flash">Trap flash</h3>
+</div><div class="su-recap"><h3 id="trap-flash">⚡ Trap flash</h3>
 <ul><li>Dual government = Clive (1765-72), ended by Warren Hastings — don't swap.</li><li>Permanent Settlement = zamindari (Bengal); Ryotwari = direct peasant (Madras-Bombay); Mahalwari = village joint (NW).</li><li>Carnatic wars = Anglo-French; Mysore wars = Anglo-Mysore (4, not 3).</li><li>Bassein 1802 = Peshwa treaty (war II trigger) — not Goa Bassein confusion.</li><li>Koh-i-noor → taken 1849 Punjab annexation (Dalhousie), displayed 1851.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>

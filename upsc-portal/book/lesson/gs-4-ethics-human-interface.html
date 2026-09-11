@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -237,16 +271,16 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Deep material lives in <code>mains/gs-4-ethics-integrity-aptitude/ethics-foundations/detailed-notes/ethics-foundations.html</code>. This is the leaf-level drill for the syllabus facet.</p></blockquote>
 <h3 id="essence">Essence</h3>
-<ul><li><strong>Ethics</strong> = the systematic study of right/wrong conduct standards; <strong>morality</strong> = the actual norms a community lives by; <strong>values</strong> = prized end-states (integrity, compassion); <strong>norms</strong> = enforceable behavioural rules.</li><li>Meta-ethics (what "good" means) / <strong>normative ethics</strong> (deontology — Kant; consequentialism — Bentham/Mill; virtue — Aristotle) / <strong>applied ethics</strong> (medical, bioethics, AI, media, corporate governance).</li><li>Ethical prism test: Is it legal? Is it fair to all stakeholders? Would it withstand publicity (front-page test)? Does it protect the weakest affected?</li></ul>
+<ul><li><strong>Ethics</strong> = the systematic study of right/wrong conduct standards</li><li><strong>morality</strong> = the actual norms a community lives by</li><li><strong>values</strong> = prized end-states (integrity, compassion)</li><li><strong>norms</strong> = enforceable behavioural rules.</li><li>Meta-ethics (what "good" means) / <strong>normative ethics</strong> (deontology — Kant; consequentialism — Bentham/Mill; virtue — Aristotle) / <strong>applied ethics</strong> (medical, bioethics, AI, media, corporate governance).</li><li>Ethical prism test: Is it legal? Is it fair to all stakeholders? Would it withstand publicity (front-page test)? Does it protect the weakest affected?</li></ul>
 <h3 id="determinants-of-ethical-action">Determinants of ethical action</h3>
-<ul><li>Personal: conscience formation, self-esteem security, cognitive moral development stage (Kohlberg), emotional regulation capacity (EI link).</li><li>Structural: legal-regulatory regime; institutional culture (reward/penalty signals); peer behaviour; leadership example ("tone at the top").</li><li>Situational: pressure intensity, role-ambiguity, diffusion of responsibility (Arendt's banality-of-evil classroom arrival), time constraints.</li><li>Socialisation channels: family → school → religion/community → workplace → mass media/social platforms.</li></ul>
+<ul><li>Personal: conscience formation, self-esteem security, cognitive moral development stage (Kohlberg), emotional regulation capacity (EI link).</li><li>Structural: legal-regulatory regime</li><li>institutional culture (reward/penalty signals)</li><li>peer behaviour</li><li>leadership example ("tone at the top").</li><li>Situational: pressure intensity, role-ambiguity, diffusion of responsibility (Arendt's banality-of-evil classroom arrival), time constraints.</li><li>Socialisation channels: family</li><li>school</li><li>religion/community</li><li>workplace</li><li>mass media/social platforms.</li></ul>
 <h3 id="dimensions-consequences">Dimensions &amp; consequences</h3>
 <ul><li>Private vs public ethics: private standards (family duty, honesty) vs public obligations (impartiality, distributive fairness); tension windows (e.g., family member's business seeking a contract in your district).</li><li>Consequences of ethical conduct: trust accumulation, institutional legitimacy, better policy learning; of unethical: compliance cost spiral, "rationalisation drift" (small-bend → normalisation → capture syndrome), reputational capital evaporation.</li><li>Civil-service-specific: <strong>objectivity</strong> (evidence discipline), <strong>impartiality</strong> (no favouritism), <strong>non-partisanship</strong> (serve whoever holds office constitutionally), <strong>empathy &amp; compassion</strong> (inclusive ladder), <strong>integrity</strong> (word-value-action coherence), <strong>dedication</strong>.</li></ul>
 <h3 id="approaches-to-resolve-dilemmas">Approaches to resolve dilemmas</h3>
-<ul><li>Stakeholder mapping → option matrix → filter stack (legality/deontology/consequences/virtue/care) → decide + document → systemic fix suggestion → institutional message.</li><li>"Crisis of conscience" routines: ask for written orders; record dissent; use statutory channels (vigilance, audits, Lokpal; last resort resignation only after remedies run out).</li><li>Administrative-marginalia discipline: date-sign every file noting; "what will the auditor/RTI reader think?" routine.</li></ul>
-<h3 id="quick-cite-thinkers">Quick-cite thinkers</h3>
+<ul><li>Stakeholder mapping</li><li>option matrix</li><li>filter stack (legality/deontology/consequences/virtue/care)</li><li>decide + document</li><li>systemic fix suggestion</li><li>institutional message.</li><li>"Crisis of conscience" routines: ask for written orders; record dissent; use statutory channels (vigilance, audits, Lokpal; last resort resignation only after remedies run out).</li><li>Administrative-marginalia discipline: date-sign every file noting; "what will the auditor/RTI reader think?" routine.</li></ul>
+<div class="su-recap"><h3 id="quick-cite-thinkers">⚡ Quick-cite thinkers</h3>
 <ul><li>Socrates (unexamined life) · Plato (justice = harmony) · Aristotle (phronesis) · Kant (humanity-as-end) · Mill (harm principle) · Rawls (veil of ignorance) · Arendt (banality of evil) · Gandhi (ends-means inseparability + talisman) · Ambedkar (constitutional morality) · Buddha (middle path) · Kautilya (rajrishi) · Confucius (ren/li).</li></ul>
-<h3 id="faqs-mini-skeletons">FAQs (mini-skeletons)</h3>
+</div><h3 id="faqs-mini-skeletons">FAQs (mini-skeletons)</h3>
 <ul><li>"Is law enough?" — law = floor, ethics = ceiling; cite discretion-positive frames (welfare officers' judgment).</li><li>"Integrity vs efficiency tension" — design answer: probity-in-design (e-tenders, social audits) reduces the trade-off empirically.</li></ul>
 </section>
 <section class="bk-sec" id="s-bullets">
@@ -262,14 +296,14 @@ table{font-size:.82em}
 │                    → macro (State legitimacy)
 └── Private vs Public ... two grammars; recusal where they collide</code></pre>
 <h3 id="core-distinctions">Core distinctions</h3>
-<ul><li>Law = minimum &amp; enforceable; Ethics = optimum &amp; self-binding.</li><li>Consequentialism judges outcomes; deontology judges maxims; virtue ethics judges character.</li><li>Milgram lesson: bad situations out-produce bad people — design situations.</li><li>Constitutional morality (Ambedkar) anchors Indian public ethics above social morality.</li></ul>
-<h3 id="determinants-cheat-row">Determinants cheat row</h3>
+<ul><li>Law = minimum &amp;</li><li>enforceable</li><li>Ethics = optimum &amp;</li><li>self-binding.</li><li>Consequentialism judges outcomes; deontology judges maxims; virtue ethics judges character.</li><li>Milgram lesson: bad situations out-produce bad people — design situations.</li><li>Constitutional morality (Ambedkar) anchors Indian public ethics above social morality.</li></ul>
+<div class="su-recap"><h3 id="determinants-cheat-row">⚡ Determinants cheat row</h3>
 <ul><li>Individual: conscience, upbringing, self-interest.</li><li>Situational: peers, incentives, hierarchy, ambiguity.</li><li>Systemic: law, audits, norms, traditions.</li><li>Engineering line: e-auctions, GPS-PDS, conflict registers — make integrity easy.</li></ul>
-<h3 id="private-vs-public-conflicts">Private vs public conflicts</h3>
-<ul><li>Nepotism, favoritism, conflict of interest = private grammar invading public file.</li><li>Remedies: declaration → recusal → conduct rules → audit trail.</li><li>Punch line: "Affection is honoured by keeping it out of the file."</li></ul>
-<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+</div><h3 id="private-vs-public-conflicts">Private vs public conflicts</h3>
+<ul><li>Nepotism, favoritism, conflict of interest = private grammar invading public file.</li><li>Remedies: declaration</li><li>recusal</li><li>conduct rules</li><li>audit trail.</li><li>Punch line: "Affection is honoured by keeping it out of the file."</li></ul>
+<div class="su-recap"><h3 id="golden-phrase-bank">⚡ Golden phrase bank</h3>
 <ul><li>"Ethics is law's elder sibling — it begins where the rule-book ends."</li><li>"Good people in bad designs produce bad outcomes."</li><li>"The public remembers one unfair order longer than a hundred fair ones."</li></ul>
-<h3 id="pitfall-flags">Pitfall flags</h3>
+</div><h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Don't define ethics as religion; it includes the critique of custom.</li><li>Never present the dimensions as rivals only — applied ethics uses all three lenses.</li><li>Always add the design implication, not just the definition.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">
@@ -339,13 +373,13 @@ table{font-size:.82em}
 <h3 id="mains-theory-questions-with-model-skeletons">Mains theory questions with model skeletons</h3>
 
 
-<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Ethics is law's elder sibling: it begins where the rule-book ends." Discuss with examples from public administration. (150 words)</p><p class="qa-text"><em>Skeleton:</em> law = minimum enforceable; ethics = optimum self-binding → examples: legal-but-wrong (hoarding within loopholes vs duty to warn), ethics-guiding-law (RTI preceded by integrity norms) → administrative design point: discretion zones need ethics → conclusion.</p></div></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Ethics is law's elder sibling: it begins where the rule-book ends." Discuss with examples from public administration. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> law = minimum enforceable; ethics = optimum self-binding</li><li>examples: legal-but-wrong (hoarding within loopholes vs duty to warn), ethics-guiding-law (RTI preceded by integrity norms)</li><li>administrative design point: discretion zones need ethics</li><li>conclusion.</li></ul></div></section>
 
-<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Examine the determinants of ethical conduct in human actions. How can institutions strengthen the situational and systemic determinants? (150 words)</p><p class="qa-text"><em>Skeleton:</em> three-tier taxonomy → institutional strengthening: rotation, conflict registers, e-auctions, whistle-blower protection, ethics training → Milgram caveat → conclusion: engineer the situation, educate the person.</p></div></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Examine the determinants of ethical conduct in human actions. How can institutions strengthen the situational and systemic determinants? (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> three-tier taxonomy</li><li>institutional strengthening: rotation, conflict registers, e-auctions, whistle-blower protection, ethics training</li><li>Milgram caveat</li><li>conclusion: engineer the situation, educate the person.</li></ul></div></section>
 
-<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"The same person lives under two ethical grammars — private and public. The file must not learn the family's language." Elucidate. (150 words)</p><p class="qa-text"><em>Skeleton:</em> private ethics: intimacy, discretion, particular duties; public ethics: impartiality, equality, accountability → conflict: nepotism, favoritism → remedies: declaration, recusal, conduct rules → example: recusal from kin's tender → conclusion: protect both grammars by separating their domains.</p></div></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"The same person lives under two ethical grammars — private and public. The file must not learn the family's language." Elucidate. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> private ethics: intimacy, discretion, particular duties; public ethics: impartiality, equality, accountability</li><li>conflict: nepotism, favoritism</li><li>remedies: declaration, recusal, conduct rules</li><li>example: recusal from kin's tender</li><li>conclusion: protect both grammars by separating their domains.</li></ul></div></section>
 
-<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Consequentialist and deontological lenses often split in disaster triage. Show how a civil servant can hold both together in one decision. (250 words)</p><p class="qa-text"><em>Skeleton:</em> state the split (lives-maximised vs duties-to-each) → flood/epidemic example: protocol-first (deontological floor: no discrimination) with outcome-optimisation inside it (utilitarian allocation by vulnerability × urgency) → transparency of criteria → conclusion: duty sets the rules of the game; consequence plays the game.</p></div></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Consequentialist and deontological lenses often split in disaster triage. Show how a civil servant can hold both together in one decision. (250 words)</p><ul class="su-facts"><li><em>Skeleton:</em> state the split (lives-maximised vs duties-to-each)</li><li>flood/epidemic example: protocol-first (deontological floor: no discrimination) with outcome-optimisation inside it (utilitarian allocation by vulnerability × urgency)</li><li>transparency of criteria</li><li>conclusion: duty sets the rules of the game; consequence plays the game.</li></ul></div></section>
 </section><nav class="bk-nav no-print">
 <a href="gs-4-governance-probity-case-studies.html"><span class="lb">← Previous</span>Governance, Probity &amp; Case-Study Method (study set)</a>
 <a class="r" href="gs-4-attitude.html"><span class="lb">Next →</span>Attitude: content, structure, influence &amp; moral attitudes</a>

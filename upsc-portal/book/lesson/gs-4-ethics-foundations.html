@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -181,11 +215,11 @@ table{font-size:.82em}
 <p class="bk-sec-lead">The full treatment of this lesson.</p>
 <blockquote><p><strong>Syllabus slot:</strong> GS 4 (Mains) · Ethics &amp; human interface, attitude, aptitude, emotional intelligence, moral thinkers (Socrates → Gandhi → moderns), conscience, accountability, codes of ethics, work culture <strong>Marking logic:</strong> high abstract-to-application conversion. Every topic below closes with a <em>civil-service application</em> line — use that pattern.</p></blockquote>
 <h3 id="1-ethics-human-interface-the-ground-frame">1. Ethics &amp; human interface — the ground frame</h3>
-<ul><li><strong>Ethics</strong>: system of moral principles informing conduct; <strong>morals</strong> = actual accepted standards of a community; <strong>values</strong> = prized end-states (integrity, compassion); <strong>norms</strong> = behavioural rules.</li><li>Dimensions: meta-ethics (what IS good?), normative ethics (what should guide?), applied ethics (how does this play out in context: medical/AI/media ethics).</li><li>Culture &amp; institutions: family-school-workplace-socio-political channels of learning/constraints; "consequences" vs "intentions" as primary valuation axis (deontology vs consequentialism).</li></ul>
+<ul><li><strong>Ethics</strong>: system of moral principles informing conduct</li><li><strong>morals</strong> = actual accepted standards of a community</li><li><strong>values</strong> = prized end-states (integrity, compassion)</li><li><strong>norms</strong> = behavioural rules.</li><li>Dimensions: meta-ethics (what IS good?), normative ethics (what should guide?), applied ethics (how does this play out in context: medical/AI/media ethics).</li><li>Culture &amp; institutions: family-school-workplace-socio-political channels of learning/constraints; "consequences" vs "intentions" as primary valuation axis (deontology vs consequentialism).</li></ul>
 <h3 id="2-attitude-structure-function-formation">2. Attitude — structure, function &amp; formation</h3>
-<ul><li>ABC model: <strong>Affect, Behaviour, Cognition</strong>.</li><li>Functions: knowledge; ego-defensive; value-expressive; instrumental/adaptive (Katz).</li><li>Formation: socialisation agents (family, school, media, peers), persuasive communication (Elaboration Likelihood Model: central vs peripheral routes; source credibility × message framing × audience variables).</li><li>Persuasion altitude: public interest communication (Swachh Bharat as behaviour-attitude campaign) — <em>civil-service application</em>: policy that ignores identity framing fails where identity framing empowers (e.g. sanitation drives).</li></ul>
+<ul><li>ABC model: <strong>Affect, Behaviour, Cognition</strong>.</li><li>Functions: knowledge</li><li>ego-defensive</li><li>value-expressive</li><li>instrumental/adaptive (Katz).</li><li>Formation: socialisation agents (family, school, media, peers), persuasive communication (Elaboration Likelihood Model: central vs peripheral routes; source credibility × message framing × audience variables).</li><li>Persuasion altitude: public interest communication (Swachh Bharat as behaviour-attitude campaign) — <em>civil-service application</em>: policy that ignores identity framing fails where identity framing empowers (e.g. sanitation drives).</li></ul>
 <h3 id="3-aptitude-for-civil-services">3. Aptitude for civil services</h3>
-<ul><li>Aptitude definition: potential to acquire proficiency — distinct from intelligence; <strong>professional values</strong> (impartiality, non-partisanship, objectivity, dedication to public service, empathy, tolerance/compassion for weaker sections).</li><li>Foundational values for civil services (UPSC codified): <strong>integrity</strong> (coherence between word-value-action); <strong>impartiality &amp; non-partisanship</strong>; <strong>objectivity</strong> (evidence discipline); <strong>dedication</strong>; <strong>empathy</strong>; <strong>tolerance/compassion</strong>.</li><li>Aptitude formation through institutional safeguards: training (LBSNAA ethics modules), codes (All India Services Conduct Rules 1968 central civil services conduct rules), mentorship, appraisal-linked integrity reports.</li></ul>
+<ul><li>Aptitude definition: potential to acquire proficiency — distinct from intelligence; <strong>professional values</strong> (impartiality, non-partisanship, objectivity, dedication to public service, empathy, tolerance/compassion for weaker sections).</li><li>Foundational values for civil services (UPSC codified): <strong>integrity</strong> (coherence between word-value-action)</li><li><strong>impartiality &amp;</strong></li><li><strong> non-partisanship</strong></li><li><strong>objectivity</strong> (evidence discipline)</li><li><strong>dedication</strong></li><li><strong>empathy</strong></li><li><strong>tolerance/compassion</strong>.</li><li>Aptitude formation through institutional safeguards: training (LBSNAA ethics modules), codes (All India Services Conduct Rules 1968 central civil services conduct rules), mentorship, appraisal-linked integrity reports.</li></ul>
 <h3 id="4-emotional-intelligence-ei">4. Emotional intelligence (EI)</h3>
 <ul><li>Models: <strong>Salovey-Mayer</strong> (perceive-use-understand-manage); <strong>Goleman</strong> (self-awareness, self-regulation, motivation, empathy, social skill).</li><li>Components in administration: empathy maps for grievance handling (PM SVANidhi loan-clinic workflows), emotion-awareness in negotiation (labour peace talks, emergency briefings), stress management in flood/disaster response.</li><li>EI applications: police riot-control de-escalation; hospital frontline empathy; <strong>2nd ARC recommendation</strong> on empathy as house-entry value.</li><li>Dangers: emotionally-manipulative decision capture (persuasion asymmetry in committee politics); burnout — institutional buffers (peer circles, grievance cells, periodic rotations).</li></ul>
 <h3 id="5-moral-thinkers-compact-canon-for-citation">5. Moral thinkers — compact canon for citation</h3>
@@ -204,7 +238,7 @@ table{font-size:.82em}
 <!-- BEGIN studyUPSC:expansion -->
 <h3 id="fo-deep-1">10. The Abstract-to-Application Conversion: How Foundations Answers Are Built</h3>
 <p>The host's marking-logic note (\"high abstract-to-application conversion\"; every topic closing with a civil-service-application line) is this lesson's master-rule — and this section <strong>builds the converter</strong>. The conversion runs a fixed pipeline: <strong>define</strong> (one crisp line — the concept's essence: \"EI is perceiving–using–understanding–managing emotion in self and others toward reasoned action\") → <strong>unpack</strong> (the theory's moving parts — Salovey–Mayer's four branches <em>or</em> Goleman's five components — one model per answer, fully deployed, never two half-cited) → <strong>translate</strong> (each part rendered into administrative behaviour — perceive: reading the riot-crowd's fear beneath its anger; use: timing the announcement to the calm hour; understand: tracing the grievance's history; manage: the de-escalation protocol — the riot-control, hospital-frontline, flood-response triad from §4) → <strong>danger-note</strong> (the theory's honest limit — EI's manipulation-risk and burnout — §4's dangers — with institutional buffers: peer circles, grievance cells, rotations — the answer that admits limits earns the trust its claims spend) → <strong>application-close</strong> (the civil-service line: \"EI converts the Collector's authority into the citizen's felt-heard — legitimacy manufactured at the point of contact\"). Five beats, every foundations answer, whatever the topic: definition → parts → behaviours → limits → close.</p>
-<p>The converter generalises across the syllabus's abstract nouns. <strong>Attitude</strong> (§2): ABC defined → Katz functions <em>or</em> ELM routes unpacked → SBM-behaviour-campaign translated (dignity-reframe as value-expressive success — §2's own civil-service line: identity-framing empowering where ignoring fails) → LaPiere-caveat danger-noted → point-of-contact close. <strong>Aptitude</strong> (§3): potential-to-acquire-proficiency defined → the six foundational values unpacked (integrity, impartiality–non-partisanship, objectivity, dedication, empathy, tolerance-compassion — the UPSC codification) → LBSNAA-modules-plus-mentorship-plus-appraisal translated (§3's formation channels) → selection-measurement limits danger-noted → steel-frame close. <strong>Conscience–accountability–work-culture</strong> (§6): inner-voice defined (family-plus-institutions-plus-reflection) → accountability-types unpacked (hierarchical–legal–professional–political–social) → RTI-plus-social-audit-plus-mission-discipline translated (EC-scale delivery, space-mission punctuality — §6's anchors) → crisis-of-conscience danger-noted (the exam trope: orders-versus-voice — resolved by the recorded-dissent ladder) → codes close (ethics-aspirational versus conduct-enforceable; AIS-1968 plus CCS-1964; <strong>Nolan's seven</strong> — selflessness, integrity, objectivity, accountability, openness, honesty, leadership — the mandatory memorisation deployed, not recited). The pipeline's discipline: <strong>abstraction never travels alone</strong> — every concept lands in an office, a campaign, a file, or a crisis — because the examiner grades the administrator, not the philosopher.</p>
+<ul class="su-facts"><li>The converter generalises across the syllabus's abstract nouns. <strong>Attitude</strong> (§2): ABC defined</li><li>Katz functions <em>or</em> ELM routes unpacked</li><li>SBM-behaviour-campaign translated (dignity-reframe as value-expressive success — §2's own civil-service line: identity-framing empowering where ignoring fails)</li><li>LaPiere-caveat danger-noted</li><li>point-of-contact close. <strong>Aptitude</strong> (§3): potential-to-acquire-proficiency defined</li><li>the six foundational values unpacked (integrity, impartiality–non-partisanship, objectivity, dedication, empathy, tolerance-compassion — the UPSC codification)</li><li>LBSNAA-modules-plus-mentorship-plus-appraisal translated (§3's formation channels)</li><li>selection-measurement limits danger-noted</li><li>steel-frame close. <strong>Conscience–accountability–work-culture</strong> (§6): inner-voice defined (family-plus-institutions-plus-reflection)</li><li>accountability-types unpacked (hierarchical–legal–professional–political–social)</li><li>RTI-plus-social-audit-plus-mission-discipline translated (EC-scale delivery, space-mission punctuality — §6's anchors)</li><li>crisis-of-conscience danger-noted (the exam trope: orders-versus-voice — resolved by the recorded-dissent ladder)</li><li>codes close (ethics-aspirational versus conduct-enforceable; AIS-1968 plus CCS-1964; <strong>Nolan's seven</strong> — selflessness, integrity, objectivity, accountability, openness, honesty, leadership — the mandatory memorisation deployed, not recited). The pipeline's discipline: <strong>abstraction never travels alone</strong> — every concept lands in an office, a campaign, a file, or a crisis — because the examiner grades the administrator, not the philosopher.</li></ul>
 <table><thead><tr><th>Beat</th><th>Function</th><th>Failure mode avoided</th></tr></thead><tbody>
 <tr><td>Define</td><td>One crisp essence-line</td><td>The rambling open; the missing concept</td></tr>
 <tr><td>Unpack</td><td>One model fully deployed</td><td>Two models half-cited; name-dropping</td></tr>
@@ -232,17 +266,19 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Thinker-quotables + framework cards; this is the "citation engine" for GS-4.</p></blockquote>
 <h3 id="foundational-values-memorise-the-upsc-phrase-list">Foundational values (memorise the UPSC phrase-list)</h3>
-<p><strong>Integrity · Impartiality · Non-partisanship · Objectivity · Dedication to public service · Empathy · Tolerance · Compassion toward weaker sections</strong>.</p>
+<ul class="su-facts"><li><strong>Integrity</strong></li><li><strong> Impartiality</strong></li><li><strong> Non-partisanship</strong></li><li><strong> Objectivity</strong></li><li><strong> Dedication to public service</strong></li><li><strong> Empathy</strong></li><li><strong> Tolerance</strong></li><li><strong> Compassion toward weaker sections</strong>.</li></ul>
 <h3 id="attitude-card">Attitude card</h3>
 <ul><li>ABC = Affect, Behaviour, Cognition.</li><li>Katz functions: knowledge · ego-defensive · value-expressive · instrumental.</li><li>Persuasion: ELM central (logic) vs peripheral (cues); source credibility × framing × audience.</li><li>Applications: polio vaccine campaigns (celebrity cues + mosque trust signals) vs sanitation behaviour-change failures without identity alignment.</li></ul>
 <h3 id="ei-card">EI card</h3>
-<ul><li><strong>Goleman 5</strong>: self-awareness · self-regulation · motivation · empathy · social skill.</li><li>Mayer-Salovey 4 branches: perceive → use → understand → manage.</li><li>Admin uses: de-escalation, grievance-redress empathy maps, negotiation, stress control during disasters.</li><li>Bridges: 2nd ARC on empathy as institutional value.</li></ul>
-<h3 id="thinkers-one-liner-citation-pack">Thinkers — one-liner citation pack</h3>
+<ul><li><strong>Goleman 5</strong>: self-awareness</li><li>self-regulation</li><li>motivation</li><li>empathy</li><li>social skill.</li><li>Mayer-Salovey 4 branches: perceive</li><li>use</li><li>understand</li><li>manage.</li><li>Admin uses: de-escalation, grievance-redress empathy maps, negotiation, stress control during disasters.</li><li>Bridges: 2nd ARC on empathy as institutional value.</li></ul>
+<div class="su-recap"><h3 id="thinkers-one-liner-citation-pack">⚡ Thinkers — one-liner citation pack</h3>
 <ul><li><strong>Socrates</strong>: "unexamined life is not worth living" → conscience-over-consensus.</li><li><strong>Plato</strong>: philosopher-king; justice = harmony of parts.</li><li><strong>Aristotle</strong>: virtue as habituated mean; <em>phronesis</em> = practical wisdom (administrative judgment).</li><li><strong>Kant</strong>: categorical imperative; humanity as end, not means → objectivity anchor.</li><li><strong>Bentham/Mill</strong>: greatest happiness; Mill's qualitative upgrade; harm principle → utilitarian public-policy lens.</li><li><strong>Rawls</strong>: veil of ignorance → difference principle → redistribution ethics.</li><li><strong>Arendt</strong>: banality of evil (Eichmann) — bureaucratic routinisation risk.</li><li><strong>Kohlberg</strong>: 3 moral-development levels (pre → conventional → post).</li><li><strong>Gilligan</strong>: ethics of care — corrective to male-bias justice-only frameworks.</li><li><strong>Thoreau</strong>: civil disobedience → democratic resistance tradition.</li><li><strong>Kautilya</strong>: Arthashastra realism → <em>rajrishi</em> discipline ideal.</li><li><strong>Buddha</strong>: middle path; dharma as duty-correctness.</li><li><strong>Mahavira</strong>: anekantavada (ethical pluralism); ahimsa rigor.</li><li><strong>Confucius</strong>: junzi (exemplary person) via ren + li.</li><li><strong>Gandhi</strong>: satyagraha; ends-means inseparability; trusteeship; talisman (poorest-face test).</li><li><strong>Ambedkar</strong>: liberty-equality-fraternity; constitutional morality.</li><li><strong>Vivekananda</strong>: "service of man is service of God" — prakrati Vedanta in action.</li><li><strong>Tagore</strong>: universal humanism against narrow nationalism.</li><li><strong>Aurobindo</strong>: integral evolution; <strong>J Krishnamurti</strong>: choiceless awareness — education ethics line.</li></ul>
-<h3 id="conscience-accountability-work-culture">Conscience × Accountability × Work culture</h3>
-<ul><li>Conscience: inner voice; "crisis of conscience" = moral collision with orders.</li><li>Accountability: hierarchical · legal · professional · political · social; RTI 2005 as transparency spine; social audits (MGNREGA).</li><li>Work culture: punctuality · discipline · innovation · quality (customer focus) · transparency.</li><li>Codes: <strong>Conduct rules enforceable</strong> vs <strong>ethics code aspirational</strong>; AIS Rules 1968 · CCS Rules 1964.</li><li><strong>Nolan 7 (UK 1994)</strong>: selflessness · integrity · objectivity · accountability · openness · honesty · leadership. → mandatory Mains citation.</li><li>Probity instruments: citizen charters (2nd ARC), Lokpal &amp; Lokayuktas Act 2013 (functioning post-2023), CVC/CBI/ED independence thread (Vineet Narain line).</li></ul>
-<h3 id="quick-argument-scaffolds-for-any-ethics-question">Quick argument scaffolds (for any ethics question)</h3>
+</div><h3 id="conscience-accountability-work-culture">Conscience × Accountability × Work culture</h3>
+<ul><li>Conscience: inner voice; "crisis of conscience" = moral collision with orders.</li><li>Accountability: hierarchical</li><li>legal</li><li>professional</li><li>political</li><li>social; RTI 2005 as transparency spine; social audits (MGNREGA).</li><li>Work culture: punctuality</li><li>discipline</li><li>innovation</li><li>quality (customer focus)</li><li>transparency.</li><li>Codes: <strong>Conduct rules enforceable</strong> vs <strong>ethics code aspirational</strong>; AIS Rules 1968 · CCS Rules 1964.</li><li><strong>Nolan 7 (UK 1994)</strong>: selflessness</li><li>integrity</li><li>objectivity</li><li>accountability</li><li>openness</li><li>honesty</li><li>leadership. → mandatory Mains citation.</li><li>Probity instruments: citizen charters (2nd ARC), Lokpal &amp; Lokayuktas Act 2013 (functioning post-2023), CVC/CBI/ED independence thread (Vineet Narain line).</li></ul>
+<div class="su-recap"><h3 id="quick-argument-scaffolds-for-any-ethics-question">⚡ Quick argument scaffolds (for any ethics question)</h3>
 <ol><li>Define the concept precisely → 2. Name the thinker or framework behind it → 3. Give public-administration example → 4. Identify tension (integrity vs empathy, accountability vs efficiency) → 5. Conclude with equilibrium + one measure (training norm, code revision, grievance ergonomics).</li></ol>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -264,9 +300,9 @@ table{font-size:.82em}
 └── Codes: Conduct Rules 1968 (AIS)/1964 (CCS) enforceable; ethics code aspirational; Nolan 7; Lokpal 2013; citizen charters</code></pre>
 <h3 id="thinker-citation-pairings-for-question-triggers">Thinker-citation pairings (for question triggers)</h3>
 <ul><li>"Bureaucratic routinisation" → <strong>Arendt</strong>.</li><li>"Inequality pressure test" → <strong>Rawls</strong> difference principle.</li><li>"Ends-means integrity" → <strong>Gandhi</strong> "There is no path to peace…" + trusteeship.</li><li>"Officer's judicial wisdom" → <strong>Aristotelian phronesis</strong>.</li><li>"Meaning of duty to minorities" → <strong>Mill harm principle + Gandhi talisman</strong>.</li><li>"Conscience over hierarchical command" → <strong>Socrates + Thoreau + Kohlberg</strong>.</li><li>"Truth + nonviolence communication" → <strong>Gandhi + Buddha middle path</strong>.</li><li>"Family-society values" → <strong>Confucius (ren/li) + Vivekananda</strong>.</li><li>"Reform of government machinery" → <strong>Kautilya's rajrishi + 2nd ARC recommendations</strong>.</li></ul>
-<h3 id="golden-phrase-bank">Golden phrase-bank</h3>
+<div class="su-recap"><h3 id="golden-phrase-bank">⚡ Golden phrase-bank</h3>
 <ul><li>"Ethics is the architecture of public trust."</li><li>"Legality is the floor; ethics is the ceiling."</li><li>"Integrity is doing the right thing when no one is watching." — C.S. Lewis (attributed; verify usage).</li><li>"The buck stops here." — Truman (leadership accountability).</li><li>Gandhi's talisman prompt — poorest-face checklist.</li><li>Lincoln democracy triad intro-line for citizen-centrality.</li></ul>
-<h3 id="pitfall-flags">Pitfall flags</h3>
+</div><h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Do NOT invent Gandhi quotes; use only verified lines.</li><li>Dilute Mills ("only harm principle present" is misleading — context matters).</li><li>Rawls is about <em>arrangement</em> not <em>desert</em>.</li><li>Arendt's banality ≠ justifying cruelty — frame as institutional corrupters.</li><li>Kohlberg stages: 6 (pre 2, conventional 2, post 2) not 3; shorthand only in answers.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">

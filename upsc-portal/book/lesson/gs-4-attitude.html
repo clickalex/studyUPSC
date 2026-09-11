@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -255,7 +289,7 @@ table{font-size:.82em}
 <h3 id="at-deep-4">13. The Attitude Answer Method: Spines, Examples, and the Iceberg Close</h3>
 <p>Section 9 gives pointers (definition-plus-ABC open, Katz-or-ELM spine, one live example per section, officer-relevance close); this section builds the <strong>full method</strong> — the template behind the pointers. <strong>The 10-marker template</strong> (150 words): definition (one line — Allport's \"most distinctive and indispensable\" cited — attitude as learned predisposition) + ABC unpacked (one line each, administrative illustration: delay-dislike → pendency-avoidance → litigation-belief — §2's own example) + one mechanism (dissonance <em>or</em> one Katz function <em>or</em> one ELM route — depth in one beats breadth in three) + officer-relevance close (one line). <strong>The 15-marker template</strong> (250 words): 10-marker core + spine extension (full Katz table <em>or</em> full ELM-plus-techniques — the spine chosen by the question: \"functions\" → Katz; \"change/persuasion\" → ELM-plus-foot-in-door-plus-nudge; \"formation\" → §4's six agents with the academy-and-Bandura emphasis) + two live examples (SBM dignity-reframe + one rotating current: CPGRAMS empathy scripts, MGNREGA social-audit behaviour-change, the vaccination campaign's hesitancy work — examples dated, mechanisms named) + iceberg close (§5's framing: behaviour visible, attitudes hidden, values anchoring — \"reform the deep layers\" — the close that converts psychology into administration).</p>
 <p><strong>Example discipline</strong>: one live example per section (§9), each example carrying <strong>theory-plus-fact</strong> (SBM: ego-defensive-reactance → value-expressive-reframe → ODF outcomes — the theory named, the fact dated, the mechanism explicit; never the bare name-drop — \"SBM\" alone scores nothing, \"SBM's dignity-reframe (value-expressive) succeeding where shaming (ego-defensive) triggered reactance\" scores fully). Maintain the <strong>example bank</strong> (ten cases: SBM, MGNREGA-audits, CPGRAMS-scripts, vaccination-hesitancy, tax-compliance nudges, helmet-seatbelt campaigns, Beti-Bachao attitude-work, digital-literacy PMGDISHA, Mission-LiFE behaviour-lists, the plastic-ban enforcement-sequence — each one paragraph: context, theory-applied, outcome-honest). <strong>Trap discipline</strong>: attitude-versus-aptitude (capacity-versus-disposition — the aptitude-foundations lesson's equation: product, not sum); attitude-versus-value-versus-opinion (§1's table — abstraction, number, stability — quoted where the question probes); LaPiere's lesson (attitude predicts behaviour only when strong–relevant–unpressured–experienced–aware — the honest caveat that prevents over-claiming); Milgram–Asch (obedience–conformity explaining both unethical filing <em>and</em> ethical tone-setting — the dual-use cited both ways). The method's close: attitude answers are <strong>psychology deployed, not psychology recited</strong> — every concept lands in an office, a campaign, or a file — because the examiner grades the administrator the candidate will become, and the administrator's ABC is already visible in the answer's own ABC (felt-conviction, enacted-structure, believed-theory).</p>
-<blockquote><p><strong>Trap watch.</strong> Allport crowns attitude (\"most distinctive and indispensable\"); values (few, lifelong) anchor attitudes (hundreds, changeable) which surface as opinions (thousands, volatile) — quote the table where probed. ABC: affective–behavioural–cognitive — Festinger (1957) dissonance is C-vs-B discomfort, resolved by changing behaviour, belief, or rationalisation. Katz's four functions (knowledge, ego-defensive, value-expressive, instrumental) select campaign messages — SBM's shaming-to-dignity pivot is the proof-text. Formation runs family → peers → experience → media → conditioning → Bandura-modelling (one honest DC shapes a district). LaPiere (attitude-behaviour gap) bounds prediction to strong–relevant–unpressured–experienced–aware cases; the iceberg (behaviour–attitudes–values) frames reform deep-ward. ELM routes (central-durable for high-elaboration, peripheral-fragile for first-contact, sequenced cue-then-argument); foot-in-door grows commitment, door-in-face retreats to the real ask; reactance bans-need-alternatives-plus-voice; nudges (defaults, proof, salience, prompts) preserve liberty. Milgram–Asch cut both ways (unethical filing and ethical tone-setting). Moral attitudes bind private life absolutely, the public file not at all — collisions exit institutionally (recuse, transfer, resign), never by file-sabotage. Political attitudes subordinate to constitutional obligations — think anything, do only the constitutional. 10-marker: definition + ABC + one mechanism + close; 15-marker: + spine + two theory-plus-fact examples + iceberg close. \"An administrator's attitude is policy at the point of contact.\"</p></blockquote>
+<blockquote><ul class="su-facts"><li><strong>Trap watch.</strong> Allport crowns attitude (\"most distinctive and indispensable\")</li><li>values (few, lifelong) anchor attitudes (hundreds, changeable) which surface as opinions (thousands, volatile) — quote the table where probed. ABC: affective–behavioural–cognitive — Festinger (1957) dissonance is C-vs-B discomfort, resolved by changing behaviour, belief, or rationalisation. Katz's four functions (knowledge, ego-defensive, value-expressive, instrumental) select campaign messages — SBM's shaming-to-dignity pivot is the proof-text. Formation runs family</li><li>peers</li><li>experience</li><li>media</li><li>conditioning</li><li>Bandura-modelling (one honest DC shapes a district). LaPiere (attitude-behaviour gap) bounds prediction to strong–relevant–unpressured–experienced–aware cases</li><li>the iceberg (behaviour–attitudes–values) frames reform deep-ward. ELM routes (central-durable for high-elaboration, peripheral-fragile for first-contact, sequenced cue-then-argument)</li><li>foot-in-door grows commitment, door-in-face retreats to the real ask</li><li>reactance bans-need-alternatives-plus-voice</li><li>nudges (defaults, proof, salience, prompts) preserve liberty. Milgram–Asch cut both ways (unethical filing and ethical tone-setting). Moral attitudes bind private life absolutely, the public file not at all — collisions exit institutionally (recuse, transfer, resign), never by file-sabotage. Political attitudes subordinate to constitutional obligations — think anything, do only the constitutional. 10-marker: definition + ABC + one mechanism + close</li><li>15-marker: + spine + two theory-plus-fact examples + iceberg close. \"An administrator's attitude is policy at the point of contact.\"</li></ul></blockquote>
 <!-- END studyUPSC:expansion -->
 </section>
 <section class="bk-sec" id="s-short">
@@ -268,13 +302,15 @@ table{font-size:.82em}
 <h3 id="formation-change">Formation &amp; change</h3>
 <ul><li>Formation agents: family, peers, school, media, direct experience, classical/operant conditioning, social learning (Bandura modelling).</li><li>Change levers: <strong>persuasive communication</strong> — <strong>Elaboration Likelihood Model</strong>: central route (argument quality — informed audiences) vs peripheral route (cues: source attractiveness/celebrity/authority — quick wins).</li><li>Source credibility matrix: expertise × trustworthiness; message factors (framing, one-sided vs two-sided for educated audiences — two-sided usually safer); audience factors (need for cognition, mood).</li><li>Dissonance theory (Festinger): force soft-behaviour commitment to move cognition (public pledges, community oaths; Swachh Bharat-era gram-sabha pledges as case).</li><li>Prejudice/discrimination: stereotypes → prejudice (attitude) → discrimination (behaviour); remedies: contact hypothesis (equal-status cooperative contact), superordinate goals, law-plus-norm campaigns.</li></ul>
 <h3 id="moral-political-attitudes">Moral &amp; political attitudes</h3>
-<ul><li>Moral attitudes: respect-based universalisation, fairness/justice orientation, care orientation (Gilligan), harm-aversion; political attitudes map via participation/efficacy/trust indicators (election-verified participation).</li><li>Persuasion in governance: polio-elimination toolkit (religious-leader endorsements + booth-day logistics); COVID-vaccine communication 2021 (risk-communication principles); sanitation-identity reframing; gender-norm shifts via schooling curricula (Monitoring evidence: NFHS trend series).</li></ul>
+<ul><li>Moral attitudes: respect-based universalisation, fairness/justice orientation, care orientation (Gilligan), harm-aversion; political attitudes map via participation/efficacy/trust indicators (election-verified participation).</li><li>Persuasion in governance: polio-elimination toolkit (religious-leader endorsements + booth-day logistics)</li><li>COVID-vaccine communication 2021 (risk-communication principles)</li><li>sanitation-identity reframing</li><li>gender-norm shifts via schooling curricula (Monitoring evidence: NFHS trend series).</li></ul>
 <h3 id="measurement-practice">Measurement practice</h3>
 <ul><li>Survey instruments (verified polls: CSDS-Lokniti, NFHS behavioural modules, NSS social-consumption rounds) — caution cross-survey comparability due sampling/method changes.</li></ul>
 <h3 id="civil-service-applications">Civil-service applications</h3>
 <ul><li>Attitude audits in service-delivery design (why biometric failures → exclusion-artefacts); nudge units (choi default architectures in pension enrolment); public-service motivation research (Perry): PSM correlates with ethical climate + mission-match.</li></ul>
-<h3 id="one-liners">One-liners</h3>
+<div class="su-recap"><h3 id="one-liners">⚡ One-liners</h3>
 <ul><li>"Attitudes are learned, hence teachable — but only through credible messengers and lived consistency."</li><li>Katz function-first: identify whether your stakeholder's posture is knowledge, ego-defensive, value-expressive, or instrumental before you craft the campaign.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -288,17 +324,17 @@ table{font-size:.82em}
 ├── Change .................. ELM (central/peripheral) · Dissonance · Nudges
 ├── Kinds ................... Moral (guilt-backed) · Political (power-oriented)
 └── Officer lens ............ Courtesy · Problem-solving · Role-model cascade</code></pre>
-<h3 id="definition-one-liners">Definition one-liners</h3>
+<div class="su-recap"><h3 id="definition-one-liners">⚡ Definition one-liners</h3>
 <ul><li><strong>Attitude</strong> — learned, stable predisposition to evaluate and respond to an object.</li><li><strong>Values → Attitudes → Opinions</strong> — deep → mid → surface; few → many; frozen → volatile.</li><li><strong>Cognitive dissonance</strong> (Festinger) — belief–behaviour clash; the self-correction engine.</li><li><strong>Persuasion</strong> — attitude change by communication, not coercion.</li></ul>
-<h3 id="formation-and-change-in-ten-seconds">Formation and change in ten seconds</h3>
+</div><h3 id="formation-and-change-in-ten-seconds">Formation and change in ten seconds</h3>
 <ul><li>Formed by: family, peers, direct experience, media, conditioning, role models.</li><li>Changed best by: central-route arguments + public commitment + direct contact; blocked by reactance and strong group norms.</li><li>LaPiere lesson: stated attitude ≠ behaviour; strong, aware, experienced attitudes predict behaviour best.</li></ul>
-<h3 id="administrative-examples-cheat-row">Administrative examples (cheat row)</h3>
+<div class="su-recap"><h3 id="administrative-examples-cheat-row">⚡ Administrative examples (cheat row)</h3>
 <ul><li>SBM: shame-based (ego-defensive) messaging failed → dignity/women's-safety framing (value-expressive) worked.</li><li>Seshan / Sreedharan: one senior's attitude resets institutional culture.</li><li>CPGRAMS front-desk empathy: affective component made policy.</li><li>Social audits (MGNREGA): engineered direct experience to change officials' attitudes toward accountability.</li></ul>
-<h3 id="moral-vs-political-attitudes">Moral vs political attitudes</h3>
+</div><h3 id="moral-vs-political-attitudes">Moral vs political attitudes</h3>
 <ul><li>Moral: right–wrong, universalised feeling, backed by guilt/outrage.</li><li>Political: orientation to power and policy; must stay subordinate to constitutional duty in service.</li></ul>
-<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<div class="su-recap"><h3 id="golden-phrase-bank">⚡ Golden phrase bank</h3>
 <ul><li>"Attitude is policy at the point of contact."</li><li>"Persuasion targets the function the attitude serves."</li><li>"Reform the iceberg's base, not its tip."</li></ul>
-<h3 id="pitfall-flags">Pitfall flags</h3>
+</div><h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Don't equate attitude with behaviour — examiners reward the LaPiere nuance.</li><li>Don't dump all of Katz — pick the two functions the question implies.</li><li>Always land on administration: campaign, counter, office, or citizen interface.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">
@@ -377,15 +413,15 @@ table{font-size:.82em}
 <h3 id="mains-theory-questions-with-model-skeletons">Mains theory questions with model skeletons</h3>
 
 
-<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Attitude is an orientation of the mind that precedes policy at the point of contact." In the light of this, examine how the attitude of officials shapes service delivery. (150 words)</p><p class="qa-text"><em>Skeleton:</em> definition (learned predisposition) → citizen's experience of the State = front-line attitude (courtesy, problem-solving vs file-clearing) → examples: CPGRAMS empathy scripts, RTI as nuisance vs audit → cascade/role-model effect (Seshan) → conclusion: training must target attitudes, not just skills.</p></div></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Attitude is an orientation of the mind that precedes policy at the point of contact." In the light of this, examine how the attitude of officials shapes service delivery. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> definition (learned predisposition)</li><li>citizen's experience of the State = front-line attitude (courtesy, problem-solving vs file-clearing)</li><li>examples: CPGRAMS empathy scripts, RTI as nuisance vs audit</li><li>cascade/role-model effect (Seshan)</li><li>conclusion: training must target attitudes, not just skills.</li></ul></div></section>
 
-<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Distinguish between moral and political attitudes with suitable examples. Why should a civil servant's political attitudes remain subordinate to constitutional morality? (150 words)</p><p class="qa-text"><em>Skeleton:</em> moral attitude = universalised right–wrong with guilt-backing; political attitude = orientation to power/ideology → examples: refusing bribe (moral); neutral conduct during elections (political discipline) → constitutional morality (Ambedkar) as the higher discipline → risks of partisan attitude: capture, selective enforcement → conclusion: oath subordinates preference to the Constitution.</p></div></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Distinguish between moral and political attitudes with suitable examples. Why should a civil servant's political attitudes remain subordinate to constitutional morality? (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> moral attitude = universalised right–wrong with guilt-backing; political attitude = orientation to power/ideology</li><li>examples: refusing bribe (moral); neutral conduct during elections (political discipline)</li><li>constitutional morality (Ambedkar) as the higher discipline</li><li>risks of partisan attitude: capture, selective enforcement</li><li>conclusion: oath subordinates preference to the Constitution.</li></ul></div></section>
 
-<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">"Persuasion succeeds when it addresses the function an attitude serves, not merely the behaviour it produces." Analyse with governance examples. (150 words)</p><p class="qa-text"><em>Skeleton:</em> Katz's four functions → SBM case: shame (ego-defensive) backfired; dignity (value-expressive) worked → tax compliance: social proof + ease (adjustive) → conclusion: diagnose function, choose channel (ELM central for durable change).</p></div></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">"Persuasion succeeds when it addresses the function an attitude serves, not merely the behaviour it produces." Analyse with governance examples. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> Katz's four functions</li><li>SBM case: shame (ego-defensive) backfired; dignity (value-expressive) worked</li><li>tax compliance: social proof + ease (adjustive)</li><li>conclusion: diagnose function, choose channel (ELM central for durable change).</li></ul></div></section>
 
-<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Your batch-mate ridicules senior-citizen applicants as "time-wasters," and juniors have begun to mimic him. As head of office, how will you use principles of attitude formation and change to reset the office culture? (250 words — case style)</p><p class="qa-text"><em>Skeleton:</em> name the problem (peer-reference attitude formation, observational learning) → interventions: direct experience (juniors handle one grievance end-to-end, hear the applicant), central-route training (data on senior caseloads), role-model cues (lead by example at the counter), public commitment (service pledge), reinforcement (recognise courteous handling) → guard against reactance (no public shaming) → measure: feedback cards, mystery-citizen audits → conclude with culture cascade.</p></div></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Your batch-mate ridicules senior-citizen applicants as "time-wasters," and juniors have begun to mimic him. As head of office, how will you use principles of attitude formation and change to reset the office culture? (250 words — case style)</p><ul class="su-facts"><li><em>Skeleton:</em> name the problem (peer-reference attitude formation, observational learning)</li><li>interventions: direct experience (juniors handle one grievance end-to-end, hear the applicant), central-route training (data on senior caseloads), role-model cues (lead by example at the counter), public commitment (service pledge), reinforcement (recognise courteous handling)</li><li>guard against reactance (no public shaming)</li><li>measure: feedback cards, mystery-citizen audits</li><li>conclude with culture cascade.</li></ul></div></section>
 
-<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">"Cognitive dissonance is uncomfortable, but for an administrator it is an early-warning system." Comment. (150 words)</p><p class="qa-text"><em>Skeleton:</em> define dissonance → healthy use: noticing it flags belief–practice gaps (signing opaque orders while believing in transparency) → unhealthy resolution: rationalisation, cynicism, group-think → healthy resolution: change behaviour, seek peer review, whistle where needed → conclusion.</p></div></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">"Cognitive dissonance is uncomfortable, but for an administrator it is an early-warning system." Comment. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> define dissonance</li><li>healthy use: noticing it flags belief–practice gaps (signing opaque orders while believing in transparency)</li><li>unhealthy resolution: rationalisation, cynicism, group-think</li><li>healthy resolution: change behaviour, seek peer review, whistle where needed</li><li>conclusion.</li></ul></div></section>
 </section><nav class="bk-nav no-print">
 <a href="gs-4-ethics-human-interface.html"><span class="lb">← Previous</span>Ethics &amp; Human Interface: essence, determinants, dimensions</a>
 <a class="r" href="gs-4-aptitude-foundations.html"><span class="lb">Next →</span>Aptitude &amp; Foundational Values: integrity, impartiality, non-partisanship</a>

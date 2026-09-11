@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -197,10 +231,10 @@ table{font-size:.82em}
 <ul><li>Cultures: <strong>Ahar-Banas</strong> (Rajasthan — white-painted black-and-red), <strong>Kayatha</strong> &amp; <strong>Malwa</strong> (MP), <strong>Jorwe</strong> (Maharashtra — Daimabad 'bronze' finds, Inamgaon), Svalda; eastern: Chirand, Pandu Rajar Dhibi.</li><li>Traits: painted pottery (black-on-red), tiny villages, <em>no</em> bronze tools in bulk — copper scarce; continued stone use.</li></ul>
 <h3 id="iron-age-megalithic">5. Iron Age &amp; Megalithic (c. 1500–500 BCE south)</h3>
 <ul><li>Megalith burials: <strong>South India</strong> (Tamil Nadu–Kerala–AP) + <strong>Vidarbha</strong> (Maharashtra); types: dolmens, cists, menhirs; iron in graves (black-and-red ware).</li><li>Significance: second urbanisation groundwork — iron plough → surplus → janapadas.</li></ul>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>Mehrgarh = pre-Harappan farming (NOT Harappan town).</li><li>Burzahom = pit-dwelling (not megalith).</li><li>Microlith = Mesolithic (not Palaeolithic).</li><li>Chalcolithic = 'copper-stone'; first to paint pottery in India's villages.</li><li>Bhimbetka = continuous Palaeolithic→historical rock art (UNESCO).</li><li>Attirampakkam = Acheulian; Levallois finds (~3.85 lakh BP) rewrote Indian Middle Palaeolithic dates.</li></ul>
 <!-- BEGIN studyUPSC:expansion -->
-<h3 id="deep-1">6. Reading Prehistory: How We Know What We Know</h3>
+</div><h3 id="deep-1">6. Reading Prehistory: How We Know What We Know</h3>
 <p>Prehistory is the one part of the syllabus with no texts. Everything is inferred from three classes of evidence, and UPSC increasingly frames questions around the <em>method</em> rather than the date. <strong>Lithic typology</strong> classifies stone tools by manufacturing technique — core tools (the nodule itself is shaped) give way to flake tools (the detached piece is the tool), and finally to blade-and-burin industries where a prepared core yields many standardised blanks. This progression is not a calendar; the same technique persists for millennia in some regions while neighbouring valleys have moved on. <strong>Stratigraphy</strong> reads the vertical sequence of deposits: undisturbed layers place cultures in relative order even without absolute dates. <strong>Absolute dating</strong> uses radiocarbon (organic material, reliable to ~50,000 years), potassium-argon (volcanic contexts, deep time), and increasingly <strong>luminescence dating</strong> (OSL/TL), which dates the last time a mineral grain saw sunlight and has been decisive at Attirampakkam.</p>
 <blockquote><p><strong>Why Attirampakkam matters for the exam.</strong> Excavations in the Kortallayar basin of Tamil Nadu produced Acheulian handaxes dated by cosmogenic nuclide burial dating to roughly 1.5 million years, and a Middle Palaeolithic (Levallois) assemblage around 385,000 BP. Both results pushed Indian dates far earlier than the textbook consensus and severed the assumption that technological change in India must have arrived with a later migration of modern humans. When a question asks which site "revised the chronology of the Indian Palaeolithic", the answer is Attirampakkam.</p></blockquote>
 
@@ -275,7 +309,7 @@ table{font-size:.82em}
 <li><strong>Adichanallur</strong> = megalithic urn burials, Tamil Nadu.</li>
 <li><strong>Bhimbetka</strong> = rock art, continuous occupation, UNESCO.</li>
 <li><strong>Chirand</strong> = bone-tool industry, Bihar; <strong>Lahuradewa</strong> = early rice, UP.</li>
-<li>Chronological order for sequencing questions: Palaeolithic → Mesolithic → Neolithic → Chalcolithic → Iron Age/Megalithic — but remember these <em>overlap regionally</em>, which is itself a favourite statement to judge true or false.</li>
+<li>Chronological order for sequencing questions: Palaeolithic</li><li>Mesolithic</li><li>Neolithic</li><li>Chalcolithic</li><li>Iron Age/Megalithic — but remember these <em>overlap regionally</em>, which is itself a favourite statement to judge true or false.</li>
 </ul>
 <blockquote><p><strong>Statement-judging tip.</strong> Options that use absolute language — "iron was first used in India at X", "the Neolithic began simultaneously across India", "all megaliths contain human remains" — are almost always false. Indian prehistory is regionally staggered, and the safest instinct is to reject uniformity claims.</p></blockquote>
 <!-- END studyUPSC:expansion -->
@@ -285,23 +319,25 @@ table{font-size:.82em}
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Prelims GS-I › History &amp; Culture › Ancient History. Site–feature matching (especially Harappan) recurs almost every year.</p></blockquote>
 <h3 id="stone-age-ladder">Stone Age ladder</h3>
-<ul><li><strong>Palaeolithic</strong> (up to ~10,000 BCE): Lower — Soan valley (pebble tools), Bhimbetka, Attirampakkam, Hunsgi; Middle — Nevasa, Bhimbetka (flakes); Upper — Bhimbetka paintings, Patne, bone tools at Kurnool caves; <em>Homo erectus</em> Hathnora (Narmada) skull.</li><li><strong>Mesolithic</strong> (~10,000–6,000 BCE): microliths; <strong>Bagor</strong> (Rajasthan; earliest domestication evidence claim), <strong>Adamgarh</strong> (MP), Langhnaj (Gujarat), Sarai Nahar Rai &amp; Mahadaha (UP; burials), Bhimbetka rock art.</li><li><strong>Neolithic</strong>: <strong>Mehrgarh</strong> (Balochistan; c. 7000 BCE; wheat-barley, cattle; pre-Harappan), <strong>Burzahom</strong> (Kashmir; pit dwellings, dog burials), Gufkral, <strong>Chirand</strong> (Bihar; bone tools), Koldihwa (rice claim ~6000 BCE), Hallur, Maski, Piklihal, Sanganakallu, Utnur (ash mounds — South), Daojali Hading (Assam).</li><li><strong>Chalcolithic</strong> cultures: Ahar-Banas (Rajasthan; copper, Gilund), Kayatha, Malwa (Navdatoli), <strong>Jorwe</strong> (Inamgaon, Daimabad — largest; bronze rhinoceros/chariot hoard), Savalda, OCP/Copper Hoards (Ganga-Yamuna; anthropomorphs), Ganeshwar (copper source for Harappans?).</li></ul>
+<ul><li><strong>Palaeolithic</strong> (up to ~10,000 BCE): Lower — Soan valley (pebble tools), Bhimbetka, Attirampakkam, Hunsgi</li><li>Middle — Nevasa, Bhimbetka (flakes)</li><li>Upper — Bhimbetka paintings, Patne, bone tools at Kurnool caves</li><li><em>Homo erectus</em> Hathnora (Narmada) skull.</li><li><strong>Mesolithic</strong> (~10,000–6,000 BCE): microliths; <strong>Bagor</strong> (Rajasthan; earliest domestication evidence claim), <strong>Adamgarh</strong> (MP), Langhnaj (Gujarat), Sarai Nahar Rai &amp; Mahadaha (UP; burials), Bhimbetka rock art.</li><li><strong>Neolithic</strong>: <strong>Mehrgarh</strong> (Balochistan; c. 7000 BCE; wheat-barley, cattle; pre-Harappan), <strong>Burzahom</strong> (Kashmir; pit dwellings, dog burials), Gufkral, <strong>Chirand</strong> (Bihar; bone tools), Koldihwa (rice claim ~6000 BCE), Hallur, Maski, Piklihal, Sanganakallu, Utnur (ash mounds — South), Daojali Hading (Assam).</li><li><strong>Chalcolithic</strong> cultures: Ahar-Banas (Rajasthan; copper, Gilund), Kayatha, Malwa (Navdatoli), <strong>Jorwe</strong> (Inamgaon, Daimabad — largest; bronze rhinoceros/chariot hoard), Savalda, OCP/Copper Hoards (Ganga-Yamuna; anthropomorphs), Ganeshwar (copper source for Harappans?).</li></ul>
 <h3 id="harappan-indus-c-2600-1900-bce-mature">Harappan/Indus (c. 2600–1900 BCE mature)</h3>
 <ul><li>Phases: Early (3300–2600; Kot Diji, Amri, Sothi), <strong>Mature (2600–1900)</strong>, Late (1900–1300; Cemetery H, Jhukar, Rangpur, Lustrous Red Ware).</li><li>Discovery: Harappa (Daya Ram Sahni 1921), Mohenjo-daro (R.D. Banerji 1922); John Marshall announced 1924; largest sites: Mohenjo-daro, Harappa, Ganweriwala, <strong>Rakhigarhi</strong> (largest in India), Dholavira.</li></ul>
 <table><thead><tr><th>Site</th><th>River/State</th><th>Signature finding</th></tr></thead><tbody><tr><td>Harappa</td><td>Ravi, Punjab (Pak)</td><td>granaries, coffin burial, red-sandstone torso, workmen's quarters</td></tr><tr><td>Mohenjo-daro</td><td>Indus, Sindh</td><td><strong>Great Bath</strong>, Great Granary, bronze dancing girl, Pashupati seal, priest-king, assembly hall</td></tr><tr><td>Chanhudaro</td><td>Indus, Sindh</td><td><strong>only city without citadel</strong>; bead factory, ink pot</td></tr><tr><td>Lothal</td><td>Bhogava, Gujarat</td><td><strong>dockyard</strong>, rice husk, fire altars, double burial, ivory scale</td></tr><tr><td>Kalibangan</td><td>Ghaggar, Rajasthan</td><td><strong>ploughed field</strong>, fire altars, wooden drains, camel bones, earthquake evidence</td></tr><tr><td>Dholavira</td><td>Kadir island, Gujarat</td><td><strong>three-tier city</strong>, water reservoirs, signboard, stadium; UNESCO 2021</td></tr><tr><td>Rakhigarhi</td><td>Hisar, Haryana</td><td>largest Indian site; DNA study (2019)</td></tr><tr><td>Banawali</td><td>Haryana</td><td>barley, oval settlement, terracotta plough</td></tr><tr><td>Surkotada</td><td>Gujarat</td><td><strong>horse bones (disputed)</strong></td></tr><tr><td>Daimabad</td><td>Maharashtra</td><td>southernmost</td></tr><tr><td>Manda</td><td>Jammu</td><td>northernmost</td></tr><tr><td>Alamgirpur</td><td>UP</td><td>easternmost</td></tr><tr><td>Sutkagendor</td><td>Balochistan</td><td>westernmost; trade post</td></tr><tr><td>Ropar</td><td>Punjab</td><td>dog buried with human</td></tr><tr><td>Balakot / Kot Diji / Amri</td><td>Pak</td><td>early Harappan</td></tr><tr><td>Shortughai</td><td>Afghanistan</td><td>lapis lazuli outpost</td></tr></tbody></table>
 <ul><li>Features: grid planning, baked bricks 1:2:4, drainage, standard weights (binary/decimal; 16 base), seals (steatite; unicorn commonest), <strong>undeciphered script — boustrophedon</strong>, no temples/palaces unambiguously, cotton earliest, copper-bronze (no iron), wheel-made pottery (red-black), trade with Mesopotamia (<em>Meluhha</em>; Dilmun = Bahrain, Magan = Oman), Mother goddess, Pashupati, peepal, bull worship, no horse (contested).</li><li>Decline theories: Aryan invasion (Wheeler; discredited), floods (Marshall, Dales), tectonic/river shift (Raikes; Ghaggar-Hakra drying), ecological (Fairservis), climate change/monsoon weakening.</li></ul>
-<h3 id="traps">Traps</h3>
+<div class="su-recap"><h3 id="traps">⚡ Traps</h3>
 <ul><li>Ploughed field = <strong>Kalibangan</strong>; dockyard = <strong>Lothal</strong>; Great Bath = Mohenjo-daro; citadel-less = <strong>Chanhudaro</strong>.</li><li>Harappans knew <strong>bronze</strong>, not iron; script is undeciphered; <strong>Rakhigarhi</strong> (not Dholavira) is the largest in India by area.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Rapid-fire pairs. Cover the right column, recall the left.</p></blockquote>
-<h3 id="site-flash">Site flash</h3>
+<div class="su-recap"><h3 id="site-flash">⚡ Site flash</h3>
 <ul><li><strong>Attirampakkam</strong> — Acheulian, oldest Indian handaxe culture (TN).</li><li><strong>Bhimbetka</strong> — rock shelters, paintings (MP).</li><li><strong>Bagor / Adamgarh</strong> — earliest animal domestication (Raj/MP).</li><li><strong>Mehrgarh</strong> — wheat-barley farming, pre-Harappan (Balochistan).</li><li><strong>Burzahom</strong> — pit-dwellings, dog burials (Kashmir).</li><li><strong>Chirand</strong> — bone tools (Bihar).</li><li><strong>Hallur</strong> — ash mounds, cattle (Karnataka).</li><li><strong>Daimabad</strong> — bronze chariot/rhinoceros finds (Jorwe, MH).</li><li><strong>Inamgaon</strong> — Jorwe village, granary (MH).</li><li><strong>Brahmagiri</strong> — megaliths + ash mounds (Karnataka).</li></ul>
-<h3 id="culture-flash">Culture flash</h3>
+</div><div class="su-recap"><h3 id="culture-flash">⚡ Culture flash</h3>
 <ul><li>Palaeolithic → handaxes → Mesolithic → microliths → Neolithic → farming, pottery → Chalcolithic → copper + painted ware → Iron/Megalith → burials, plough.</li><li>Black-and-red ware = Chalcolithic &amp; Megalith signature.</li><li>First rice: Koldihwa/Lahuradewa (UP); first wheat-barley: Mehrgarh.</li></ul>
-<h3 id="confusables">Confusables</h3>
+</div><h3 id="confusables">Confusables</h3>
 <ul><li>Mehrgarh ≠ Harappa (pre-Harappan, different river — Bolan vs Ravi).</li><li>Megalith = burial monument ≠ megalithic = iron culture label.</li><li>Burzahom pit-house ≠ Chalcolithic mud-house.</li><li>Bronze Age label: applied to Harappan (urban bronze), not to village Chalcolithic cultures.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">
