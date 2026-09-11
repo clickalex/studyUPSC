@@ -21,7 +21,7 @@ const PORTAL = process.env.PORTAL
   ? path.resolve(process.env.PORTAL)
   : path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-let html = fs.readFileSync(path.join(PORTAL, 'index.html'), 'utf8');
+let html = fs.readFileSync(path.join(PORTAL, 'app.html'), 'utf8');
 
 /* Inline local scripts (jsdom cannot load them from the network), drop CDN.
    FUNCTION replacers only — string replacements would corrupt `$$` in code. */
@@ -78,10 +78,10 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   check('sidebar has syllabus tree', !!document.querySelector('#sidebar-tree'));
   check('sidebar lists GS Paper I', document.querySelector('#sidebar').textContent.includes('GS Paper I'));
 
-  window.location.hash = '#/topic/gs-1/modern-history';
+  window.location.hash = '#/topic/gs-1/modern-history/revolt-1857';
   await wait(400);
   let appText = document.querySelector('#app').textContent;
-  check('topic page shows Modern History', appText.includes('Modern Indian History'));
+  check('topic page shows Revolt of 1857', appText.includes('Revolt of 1857'));
   check('topic page shows 5 sections', document.querySelectorAll('.section-card').length === 5);
 
   window.location.hash = '#/paper/gs-1';
@@ -96,6 +96,32 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   check('doc viewer shows note title', appText.includes('Revolt of 1857 — Detailed Notes'));
   check('doc viewer renders table', document.querySelectorAll('.md-content table').length > 0);
   check('doc viewer renders TOC', !!document.querySelector('#app aside'));
+  check('doc viewer has cross-topic prev/next', document.querySelectorAll('#doc-nav a').length > 0);
+  check('doc viewer shows topic strip', !!document.querySelector('.topic-strip'));
+  check('doc viewer has mobile TOC', !!document.querySelector('.toc-mobile'));
+
+  const tocLink = document.querySelector('.toc-rail a');
+  if (tocLink) {
+    tocLink.click();
+    await wait(300);
+    check('TOC link scrolls in place (stays on doc route)', window.location.hash.indexOf('#/doc/') === 0);
+  } else {
+    check('TOC link scrolls in place (stays on doc route)', false);
+  }
+
+  window.location.hash = '#/doc/content/mains/gs-1-heritage-geography-society/modern-history/revolt-1857/pyqs/revolt-1857-pyqs.html';
+  await wait(600);
+  check('PYQ doc renders Q&A cards', document.querySelectorAll('.md-content .qa').length >= 4);
+  check('Q&A cards have answer reveals', document.querySelectorAll('.md-content .qa-a').length >= 4);
+  const showAll = document.querySelector('.md-content [data-qa="show"]');
+  if (showAll) {
+    showAll.click();
+    await wait(200);
+    const opened = Array.prototype.filter.call(document.querySelectorAll('.md-content .qa-a'), d => d.open).length;
+    check('show-all-answers opens every reveal', opened >= 4);
+  } else {
+    check('show-all-answers opens every reveal', false);
+  }
 
   window.location.hash = '#/tracker';
   await wait(400);

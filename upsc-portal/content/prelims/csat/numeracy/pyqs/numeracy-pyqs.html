@@ -36,60 +36,143 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Numeracy &amp; DI — PYQ-Style Practice</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Numeracy &amp; DI — PYQ-Style Practice</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Numeracy &amp; DI — PYQ-Style Practice</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-csat">CSAT</a><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="mhere">Numeracy &amp; DI — PYQ-Style Practice</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/numeracy-detailed.html">📖 Detailed</a><a href="../short-notes/numeracy-drills.html">📝 Short notes</a><a href="../bullet-points/numeracy-points.html">🔹 Points</a><a href="../diagrams/numeracy.svg">🗺️ Diagrams</a><a href="numeracy-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-csat-numeracy">☰ All</a><div class="menu-row"><a href="../bullet-points/numeracy-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/numeracy-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/numeracy-drills.html">📝 Short notes</a><a class="pill" href="../bullet-points/numeracy-points.html">🔹 Points</a><a class="pill" href="../diagrams/numeracy.svg">🗺️ Diagrams</a><a class="pill" href="numeracy-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-csat-numeracy">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Numeracy &amp; DI — PYQ-Style Practice</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Numeracy &amp; DI — PYQ-Style Practice</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-csat">CSAT</a><a href="../../../../index.html#content-prelims-csat-numeracy">Numeracy</a><a href="../../../../index.html#content-prelims-csat-numeracy-pyqs">PYQs</a><span class="mhere">Numeracy &amp; DI — PYQ-Style Practice</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/numeracy-detailed.html">📖 Detailed</a><a href="../short-notes/numeracy-drills.html">📝 Short notes</a><a href="../bullet-points/numeracy-points.html">🔹 Points</a><a href="../diagrams/numeracy.svg">🗺️ Diagrams</a><a href="numeracy-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-csat-numeracy">☰ All</a><div class="menu-row"><a href="../bullet-points/numeracy-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/numeracy-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/numeracy-drills.html">📝 Short notes</a><a class="pill" href="../bullet-points/numeracy-points.html">🔹 Points</a><a class="pill" href="../diagrams/numeracy.svg">🗺️ Diagrams</a><a class="pill" href="numeracy-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-csat-numeracy">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="numeracy-pyqs">Numeracy and DI — PYQ-Style Practice</h1>
+<h1 id="numeracy-pyqs">Numeracy and DI — PYQ-Style Practice</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>CSAT-pattern arithmetic + data drills; key with shortcut at the end.</p></blockquote>
 <h2 id="set-1">Set 1 — arithmetic</h2>
-<ol>
-<li><strong>Q1.</strong> A price rises 20% then falls 20%. Net change: (a) 0% (b) 4% fall (c) 4% rise (d) 2% fall</li>
-<li><strong>Q2.</strong> CP ₹250, marked ₹400, discount 20%. Profit %: (a) 28% (b) 25% (c) 20% (d) 32%</li>
-<li><strong>Q3.</strong> A car travels to a city at 60 km/h and returns at 40 km/h. Average speed: (a) 50 (b) 48 (c) 45 (d) 52</li>
-<li><strong>Q4.</strong> SI on ₹8,000 at 5% for 3 years vs CI — CI − SI (2 years) on same principal: (a) ₹20 (b) ₹40 (c) ₹60 (d) ₹8</li>
-<li><strong>Q5.</strong> 12 men finish a job in 20 days; 8 men will finish it in: (a) 30 (b) 26 (c) 24 (d) 32</li>
-</ol>
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">A price rises 20% then falls 20%. Net change:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>0%</span></li><li><span class="opt">(b)</span><span>4% fall</span></li><li><span class="opt">(c)</span><span>4% rise</span></li><li><span class="opt">(d)</span><span>2% fall</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(successive: +20−20−4 = −4%)</div></details></section><section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">CP ₹250, marked ₹400, discount 20%. Profit %:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>28%</span></li><li><span class="opt">(b)</span><span>25%</span></li><li><span class="opt">(c)</span><span>20%</span></li><li><span class="opt">(d)</span><span>32%</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(SP 320; 70/250 = 28%)</div></details></section><section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">A car travels to a city at 60 km/h and returns at 40 km/h. Average speed:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>50</span></li><li><span class="opt">(b)</span><span>48</span></li><li><span class="opt">(c)</span><span>45</span></li><li><span class="opt">(d)</span><span>52</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(2ab/(a+b) = 48)</div></details></section><section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">SI on ₹8,000 at 5% for 3 years vs CI — CI − SI (2 years) on same principal:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>₹20</span></li><li><span class="opt">(b)</span><span>₹40</span></li><li><span class="opt">(c)</span><span>₹60</span></li><li><span class="opt">(d)</span><span>₹8</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(P(r/100)² = 8000×0.0025 = ₹20)</div></details></section><section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">12 men finish a job in 20 days; 8 men will finish it in:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>30</span></li><li><span class="opt">(b)</span><span>26</span></li><li><span class="opt">(c)</span><span>24</span></li><li><span class="opt">(d)</span><span>32</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(240 man-days ÷ 8)</div></details></section>
 <h2 id="set-2">Set 2 — DI &amp; probability</h2>
-<ol start="6">
-<li><strong>Q6.</strong> Wheat output: 2021 = 100 mt, 2024 = 120 mt. Percentage-point annual rise if uniform: (a) 6.67% (b) 20% (c) 6% (d) 5%</li>
-<li><strong>Q7.</strong> A pie chart's sector is 54°. Its share: (a) 15% (b) 18% (c) 12% (d) 20%</li>
-<li><strong>Q8.</strong> Ratio 3:5; total 64. Larger part: (a) 36 (b) 40 (c) 42 (d) 44</li>
-<li><strong>Q9.</strong> Two dice. P(sum = 8): (a) 5/36 (b) 1/6 (c) 1/9 (d) 7/36</li>
-<li><strong>Q10.</strong> P(rain) = 0.3 on each of two independent days. P(rain at least once): (a) 0.51 (b) 0.49 (c) 0.6 (d) 0.09</li>
-</ol>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Wheat output: 2021 = 100 mt, 2024 = 120 mt. Percentage-point annual rise if uniform:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>6.67%</span></li><li><span class="opt">(b)</span><span>20%</span></li><li><span class="opt">(c)</span><span>6%</span></li><li><span class="opt">(d)</span><span>5%</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(20 points ÷ 3 years ≈ 6.67 pp/yr)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">A pie chart's sector is 54°. Its share:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>15%</span></li><li><span class="opt">(b)</span><span>18%</span></li><li><span class="opt">(c)</span><span>12%</span></li><li><span class="opt">(d)</span><span>20%</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(54/3.6 = 15%)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Ratio 3:5; total 64. Larger part:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>36</span></li><li><span class="opt">(b)</span><span>40</span></li><li><span class="opt">(c)</span><span>42</span></li><li><span class="opt">(d)</span><span>44</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(5/8 × 64)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">Two dice. P(sum = 8):</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>5/36</span></li><li><span class="opt">(b)</span><span>1/6</span></li><li><span class="opt">(c)</span><span>1/9</span></li><li><span class="opt">(d)</span><span>7/36</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>((2,6)(3,5)(4,4)(5,3)(6,2) = 5/36)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">P(rain) = 0.3 on each of two independent days. P(rain at least once):</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>0.51</span></li><li><span class="opt">(b)</span><span>0.49</span></li><li><span class="opt">(c)</span><span>0.6</span></li><li><span class="opt">(d)</span><span>0.09</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(1 − 0.7² = 0.51).</div></details></section>
 <h2 id="answers">Answers</h2>
 <p><strong>1-b</strong> (successive: +20−20−4 = −4%) · <strong>2-a</strong> (SP 320; 70/250 = 28%) · <strong>3-b</strong> (2ab/(a+b) = 48) · <strong>4-a</strong> (P(r/100)² = 8000×0.0025 = ₹20) · <strong>5-a</strong> (240 man-days ÷ 8) · <strong>6-a</strong> (20 points ÷ 3 years ≈ 6.67 pp/yr) · <strong>7-a</strong> (54/3.6 = 15%) · <strong>8-b</strong> (5/8 × 64) · <strong>9-a</strong> ((2,6)(3,5)(4,4)(5,3)(6,2) = 5/36) · <strong>10-a</strong> (1 − 0.7² = 0.51).</p>
 <blockquote><p>Drill the anchors daily: successive-change formula, 2ab/(a+b), P(r/100)², 1 − P(none).</p></blockquote>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/numeracy-points.html" rel="prev">← Numeracy &amp; DI — Bullet Points</a></span>
   <a class="up" href="../../../../index.html#content-prelims-csat-numeracy-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

@@ -36,53 +36,148 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets">Financial Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Capital Markets &amp;amp; SEBI — Practice MCQs</span></nav>
-  <a class="nav-home no-print" href="../../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets">Financial Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Capital Markets &amp;amp; SEBI — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Capital Markets &amp;amp; SEBI — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets">Financial Markets</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="mhere">Capital Markets &amp;amp; SEBI — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/capital-markets-detailed.html">📖 Detailed</a><a href="../short-notes/capital-markets-notes.html">📝 Short notes</a><a href="../bullet-points/capital-markets-points.html">🔹 Points</a><a href="../diagrams/capital-markets.svg">🗺️ Diagrams</a><a href="capital-markets-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">☰ All</a><div class="menu-row"><a href="../bullet-points/capital-markets-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/capital-markets-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/capital-markets-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/capital-markets-points.html">🔹 Points</a><a class="pill" href="../diagrams/capital-markets.svg">🗺️ Diagrams</a><a class="pill" href="capital-markets-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets">Financial Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Capital Markets &amp;amp; SEBI — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Capital Markets &amp;amp; SEBI — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets">Financial Markets</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">Capital Markets</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">PYQs</a><span class="mhere">Capital Markets &amp;amp; SEBI — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/capital-markets-detailed.html">📖 Detailed</a><a href="../short-notes/capital-markets-notes.html">📝 Short notes</a><a href="../bullet-points/capital-markets-points.html">🔹 Points</a><a href="../diagrams/capital-markets.svg">🗺️ Diagrams</a><a href="capital-markets-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">☰ All</a><div class="menu-row"><a href="../bullet-points/capital-markets-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/capital-markets-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/capital-markets-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/capital-markets-points.html">🔹 Points</a><a class="pill" href="../diagrams/capital-markets.svg">🗺️ Diagrams</a><a class="pill" href="capital-markets-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="capital-markets-sebi-practice-mcqs">Capital Markets &amp; SEBI — Practice MCQs</h1>
+<h1 id="capital-markets-sebi-practice-mcqs">Capital Markets &amp; SEBI — Practice MCQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Which of the following instruments belong to the money market? 1. Treasury bills 2. Certificates of deposit 3. Corporate debentures 4. Commercial paper (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q2.</strong> Consider the following statements about SEBI: 1. It was established as a statutory body in 1988. 2. Appeals against its orders lie with the Securities Appellate Tribunal and then the Supreme Court. 3. It regulates commodity derivatives since the merger of the Forward Markets Commission. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q3.</strong> "T+1 settlement" in Indian stock exchanges means: (a) Trades are settled one hour after execution (b) Securities and funds change hands one working day after the trade date (c) Traders get one extra day to pay margins (d) Options expire one day after the index futures</p>
-<p><strong>Q4.</strong> Which of the following are regulated primarily by SEBI? 1. Credit rating agencies 2. Mutual funds 3. Pension funds under NPS 4. Real Estate Investment Trusts (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q5.</strong> Under the Insolvency and Bankruptcy Code, 2016: 1. The corporate insolvency resolution process must ordinarily be completed within 330 days including litigation. 2. A resolution plan needs approval by at least 66% of the committee of creditors by voting share. 3. Pre-packaged insolvency is available only to MSMEs. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q6.</strong> India's government bonds were added to the JP Morgan emerging-market bond index from June 2024. Which securities qualified for this inclusion? (a) All dated G-secs (b) Securities under the Fully Accessible Route (c) State development loans (d) Sovereign green bonds only</p>
-<p><strong>Q7.</strong> Consider the following pairs: 1. MCX — agricultural commodity derivatives 2. NCDEX — bullion and energy derivatives 3. NSDL — first depository in India Which pairs are correctly matched? (a) 1 and 2 (b) 3 only (c) 1 and 3 (d) 2 and 3</p>
-<p><strong>Q8.</strong> The National Asset Reconstruction Company Ltd (bad bank) acquires stressed loans by paying banks: (a) Fully in cash (b) 15% cash and 85% government-guaranteed security receipts (c) Equity shares of NARCL (d) 50% cash and 50% bonds</p>
-<p><strong>Q9.</strong> Which of the following was NOT a Union Budget 2024–25 change relating to capital markets? (a) Long-term capital gains on equity raised to 12.5% (b) Abolition of angel tax (c) Discontinuation of the Sovereign Gold Bond scheme (d) Short-term capital gains on equity raised to 20%</p>
-<p><strong>Q10.</strong> The "India VIX" index measures: (a) Foreign portfolio inflows into Indian equities (b) Expected near-term volatility derived from Nifty option prices (c) The premium of Indian bonds over US Treasuries (d) Retail participation in F&amp;O</p>
-<h2 id="answer-key">Answer key</h2>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Which of the following instruments belong to the money market? 1. Treasury bills 2. Certificates of deposit 3. Corporate debentures 4. Commercial paper</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 4</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Debentures are capital-market (long-term) instruments.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Consider the following statements about SEBI: 1. It was established as a statutory body in 1988. 2. Appeals against its orders lie with the Securities Appellate Tribunal and then the Supreme Court. 3. It regulates commodity derivatives since the merger of the Forward Markets Commission.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>SEBI set up 1988, statutory only in 1992.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">"T+1 settlement" in Indian stock exchanges means:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Trades are settled one hour after execution</span></li><li><span class="opt">(b)</span><span>Securities and funds change hands one working day after the trade date</span></li><li><span class="opt">(c)</span><span>Traders get one extra day to pay margins</span></li><li><span class="opt">(d)</span><span>Options expire one day after the index futures</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>India moved fully to T+1 in Jan 2023.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Which of the following are regulated primarily by SEBI? 1. Credit rating agencies 2. Mutual funds 3. Pension funds under NPS 4. Real Estate Investment Trusts</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 4</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>NPS pension funds are under PFRDA.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Under the Insolvency and Bankruptcy Code, 2016: 1. The corporate insolvency resolution process must ordinarily be completed within 330 days including litigation. 2. A resolution plan needs approval by at least 66% of the committee of creditors by voting share. 3. Pre-packaged insolvency is available only to MSMEs.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">India's government bonds were added to the JP Morgan emerging-market bond index from June 2024. Which securities qualified for this inclusion?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>All dated G-secs</span></li><li><span class="opt">(b)</span><span>Securities under the Fully Accessible Route</span></li><li><span class="opt">(c)</span><span>State development loans</span></li><li><span class="opt">(d)</span><span>Sovereign green bonds only</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>FAR securities carry no FPI limits.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Consider the following pairs: 1. MCX — agricultural commodity derivatives 2. NCDEX — bullion and energy derivatives 3. NSDL — first depository in India Which pairs are correctly matched?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>3 only</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>MCX = metals/energy; NCDEX = agri.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">The National Asset Reconstruction Company Ltd (bad bank) acquires stressed loans by paying banks:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Fully in cash</span></li><li><span class="opt">(b)</span><span>15% cash and 85% government-guaranteed security receipts</span></li><li><span class="opt">(c)</span><span>Equity shares of NARCL</span></li><li><span class="opt">(d)</span><span>50% cash and 50% bonds</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Guarantee of ₹30,600 cr backs the SRs.</div></details></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">Which of the following was NOT a Union Budget 2024–25 change relating to capital markets?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Long-term capital gains on equity raised to 12.5%</span></li><li><span class="opt">(b)</span><span>Abolition of angel tax</span></li><li><span class="opt">(c)</span><span>Discontinuation of the Sovereign Gold Bond scheme</span></li><li><span class="opt">(d)</span><span>Short-term capital gains on equity raised to 20%</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>SGB discontinuation came in Budget 2025–26.</div></details></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">The "India VIX" index measures:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Foreign portfolio inflows into Indian equities</span></li><li><span class="opt">(b)</span><span>Expected near-term volatility derived from Nifty option prices</span></li><li><span class="opt">(c)</span><span>The premium of Indian bonds over US Treasuries</span></li><li><span class="opt">(d)</span><span>Retail participation in F&amp;O</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Volatility index modelled on CBOE VIX.</div></details></section><h2 id="answer-key">Answer key</h2>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>a</td><td>Debentures are capital-market (long-term) instruments.</td></tr><tr><td>2</td><td>b</td><td>SEBI set up 1988, statutory only in 1992.</td></tr><tr><td>3</td><td>b</td><td>India moved fully to T+1 in Jan 2023.</td></tr><tr><td>4</td><td>a</td><td>NPS pension funds are under PFRDA.</td></tr><tr><td>5</td><td>d</td><td>All correct.</td></tr><tr><td>6</td><td>b</td><td>FAR securities carry no FPI limits.</td></tr><tr><td>7</td><td>b</td><td>MCX = metals/energy; NCDEX = agri.</td></tr><tr><td>8</td><td>b</td><td>Guarantee of ₹30,600 cr backs the SRs.</td></tr><tr><td>9</td><td>c</td><td>SGB discontinuation came in Budget 2025–26.</td></tr><tr><td>10</td><td>b</td><td>Volatility index modelled on CBOE VIX.</td></tr></tbody></table>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/capital-markets-points.html" rel="prev">← Capital Markets — Bullet Points</a></span>
   <a class="up" href="../../../../../../index.html#content-prelims-gs1-economy-financial-markets-capital-markets-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

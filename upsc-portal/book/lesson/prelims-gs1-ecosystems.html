@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -141,8 +185,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p><strong>Ecosystem services</strong>, from the Millennium Ecosystem Assessment, are a ready framework: <em>provisioning</em> (food, timber, water), <em>regulating</em> (climate, flood, disease, pollination), <em>cultural</em> (recreation, spiritual value) and <em>supporting</em> (soil formation, nutrient cycling, primary production).</p>
 <blockquote><p><strong>Trap watch.</strong> Energy flows unidirectionally; nutrients cycle. The pyramid of energy is always upright; biomass pyramids invert in oceans and number pyramids in tree ecosystems. NPP, not GPP, is available to consumers. Phosphorus has no gaseous phase and is the usual limiting nutrient in freshwater. Lichens are pioneers of primary succession; secondary succession is faster because soil already exists. Coral bleaching is loss of zooxanthellae, not death of the coral itself. Ocean acidification and global warming are distinct consequences of rising CO₂.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -159,8 +201,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li><strong>Forest</strong>: tropical rainforest (max biodiversity; nutrient-poor soils — laterite; rapid decomposition), temperate deciduous, boreal/taiga (largest terrestrial biome; conifers; podzol soils), <strong>mangroves</strong> (Sundarbans largest; India 4,992 km² ISFR 2023; WB 42%, Gujarat 24%; <em>Avicennia, Rhizophora, Sonneratia</em>; Pichavaram, Bhitarkanika 2nd largest, Coringa, Baratang); <strong>grasslands</strong> — savanna, steppe, prairie, pampas, veld, downs; India — shola-grassland (Western Ghats), terai, banni (Kutch), <strong>grasslands wrongly classed as 'wastelands'</strong>; <strong>deserts</strong> (Thar — 'green desert'; cold desert Ladakh/Spiti); <strong>tundra</strong> (permafrost; arctic/alpine); <strong>aquatic</strong> — lentic (still: lakes, ponds; zones — littoral, limnetic, profundal, benthic; thermal stratification — epilimnion/thermocline/hypolimnion; oligotrophic vs eutrophic; cultural eutrophication; algal bloom/dead zones — Gulf of Mexico, Arabian Sea <em>Noctiluca</em>), lotic (flowing), <strong>wetlands</strong> (Ramsar; kidneys of landscape; 4.86% of India; India 91 sites — Tamil Nadu most (20), then UP; largest Sundarbans; smallest Renuka/Vembannur; Montreux Record — Keoladeo &amp; Loktak; Chilika removed 2002); <strong>estuaries</strong> (brackish; high NPP; nurseries); <strong>coral reefs</strong> (fringing/barrier/atoll — Darwin; 25% marine species on &lt;1% area; India — Gulf of Kutch, Gulf of Mannar, Lakshadweep (atolls), Andaman &amp; Nicobar; bleaching at &gt;1 °C above summer max for 4+ weeks (DHW); <strong>4th global bleaching event 2023–25 — 84% of reefs affected</strong>; zooxanthellae <em>Symbiodinium</em>; Great Barrier Reef; <strong>coral restoration — biorock, coral gardening (Mithapur, Gulf of Kutch)</strong>); <strong>seagrass</strong> (Gulf of Mannar/Palk Bay — dugong; blue carbon); <strong>kelp forests</strong>; <strong>hydrothermal vents</strong> (chemosynthesis); <strong>polar</strong> (krill; sea ice minimum Arctic Sept; Antarctic record low 2023).</li></ul>
 <h3 id="traps">Traps</h3>
 <ul><li><strong>Energy pyramid can never be inverted; biomass pyramid inverted in ponds/oceans; number pyramid inverted for a single tree or parasites</strong>.</li><li><strong>Phosphorus cycle has no atmospheric/gaseous phase (sedimentary)</strong>; <strong>nitrogen fixation by lightning is abiotic</strong>; **denitrification returns N₂ to atmosphere (<em>Pseudomonas</em>, <em>Thiobacillus</em>), nitrification is NH₄⁺ → NO₂⁻ → NO₃⁻<strong>; </strong>N₂O is both a GHG and an ozone-depleter**.</li><li><strong>Decomposers (saprotrophs) absorb after external digestion; detritivores ingest</strong> — earthworms are detritivores, not decomposers.</li><li><strong>Ecotone has higher species diversity (edge effect) but can be less stable</strong>; <strong>ecological niche is unique to a species (no two species occupy the same niche indefinitely — Gause)</strong>.</li><li><strong>Highest NPP per unit area: tropical rainforest/estuary/swamps; open ocean lowest per area but highest total</strong>; <strong>tropical soils are nutrient-poor</strong> (nutrients locked in biomass).</li><li><strong>Primary succession starts on lifeless substrate (lichens are pioneers on rock; phytoplankton in water); secondary is faster because soil exists</strong>; <strong>climax community = stable end stage</strong>.</li><li><strong>Keystone ≠ most abundant; indicator species — lichens (air quality), amphibians (water/land health); umbrella = large range; flagship = charismatic</strong>.</li><li><strong>Biomagnification needs a fat-soluble, persistent, non-degradable pollutant (DDT, methyl-mercury)</strong> — water-soluble pollutants do not biomagnify.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -174,8 +214,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>GPP − R = NPP · NPP top = reefs-tropical-estuary-mangrove · open ocean low per-unit.</li><li>Ramsar ~90 sites India (Asia-top) · mangrove: vivipary + pneumatophores · coral: zooxanthellae bleaching.</li></ul>
 <h3 id="trap-flash">Trap flash</h3>
 <ul><li>Nutrients cycle; energy does not — one-way trap.</li><li>P = sedimentary only (no significant atmospheric pool).</li><li>Open ocean = low productivity despite size — area-vs-rate trap.</li><li>Bleaching ≠ immediate death; = symbiont expulsion.</li><li>Number pyramid can invert (tree-aphids) — 'always upright' only for energy.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -222,24 +260,26 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Which of the following ecological pyramids can be inverted? 1. Pyramid of energy 2. Pyramid of biomass in an aquatic ecosystem 3. Pyramid of numbers in a single large tree ecosystem (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q2.</strong> Consider the following statements about the phosphorus cycle: 1. Unlike carbon and nitrogen, it has no significant gaseous phase. 2. Phosphorus is often the limiting nutrient in freshwater ecosystems. 3. Weathering of rocks is the main natural source of phosphates. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q3.</strong> Which one of the following correctly sequences the steps of the nitrogen cycle by which ammonium is converted to atmospheric nitrogen? (a) Nitrification → assimilation → denitrification (b) Ammonification → nitrification → denitrification (c) Nitrification → denitrification (d) Denitrification → nitrification</p>
-<p><strong>Q4.</strong> Which of the following organisms are detritivores rather than decomposers? 1. Earthworm 2. <em>Rhizopus</em> fungus 3. Dung beetle 4. <em>Bacillus</em> soil bacteria (a) 1 and 3 (b) 2 and 4 (c) 1, 2 and 3 (d) 1, 3 and 4</p>
-<p><strong>Q5.</strong> "Edge effect" in ecology refers to: (a) Reduced productivity at the boundary of a desert (b) Greater species diversity found in an ecotone between two adjacent communities (c) The tendency of predators to hunt along forest edges only (d) Loss of species when a habitat is fragmented</p>
-<p><strong>Q6.</strong> A pollutant is most likely to biomagnify along a food chain if it is: 1. Fat-soluble 2. Rapidly biodegradable 3. Persistent in the environment (a) 1 only (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q7.</strong> Which of the following ecosystems has the highest net primary productivity per unit area? (a) Open ocean (b) Temperate grassland (c) Tropical rainforest (d) Boreal forest</p>
-<p><strong>Q8.</strong> Consider the following pairs of species interaction and example: 1. Commensalism — cattle egret feeding near grazing cattle 2. Mutualism — fig tree and fig wasp 3. Amensalism — <em>Cuscuta</em> growing on a host plant Which pairs are correctly matched? (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q9.</strong> In a primary ecological succession on bare rock, the typical pioneer organisms are: (a) Grasses (b) Lichens (c) Shrubs (d) Mosses</p>
-<p><strong>Q10.</strong> Consider the following statements about coral reefs: 1. Corals obtain most of their energy from symbiotic algae called zooxanthellae. 2. Bleaching occurs when corals expel these algae under heat stress. 3. In India, atoll-type reefs are found mainly in the Gulf of Kutch. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<h3 id="answer-key">Answer key</h3>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Which of the following ecological pyramids can be inverted? 1. Pyramid of energy 2. Pyramid of biomass in an aquatic ecosystem 3. Pyramid of numbers in a single large tree ecosystem</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Energy pyramid is always upright.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Consider the following statements about the phosphorus cycle: 1. Unlike carbon and nitrogen, it has no significant gaseous phase. 2. Phosphorus is often the limiting nutrient in freshwater ecosystems. 3. Weathering of rocks is the main natural source of phosphates.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Which one of the following correctly sequences the steps of the nitrogen cycle by which ammonium is converted to atmospheric nitrogen?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Nitrification → assimilation → denitrification</span></li><li><span class="opt">(b)</span><span>Ammonification → nitrification → denitrification</span></li><li><span class="opt">(c)</span><span>Nitrification → denitrification</span></li><li><span class="opt">(d)</span><span>Denitrification → nitrification</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Ammonium is already formed; nitrifiers then denitrifiers.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Which of the following organisms are detritivores rather than decomposers? 1. Earthworm 2. <em>Rhizopus</em> fungus 3. Dung beetle 4. <em>Bacillus</em> soil bacteria</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 3</span></li><li><span class="opt">(b)</span><span>2 and 4</span></li><li><span class="opt">(c)</span><span>1, 2 and 3</span></li><li><span class="opt">(d)</span><span>1, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Fungi and bacteria are decomposers.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">"Edge effect" in ecology refers to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Reduced productivity at the boundary of a desert</span></li><li><span class="opt">(b)</span><span>Greater species diversity found in an ecotone between two adjacent communities</span></li><li><span class="opt">(c)</span><span>The tendency of predators to hunt along forest edges only</span></li><li><span class="opt">(d)</span><span>Loss of species when a habitat is fragmented</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Ecotone diversity.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">A pollutant is most likely to biomagnify along a food chain if it is: 1. Fat-soluble 2. Rapidly biodegradable 3. Persistent in the environment</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Biodegradability prevents magnification.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Which of the following ecosystems has the highest net primary productivity per unit area?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Open ocean</span></li><li><span class="opt">(b)</span><span>Temperate grassland</span></li><li><span class="opt">(c)</span><span>Tropical rainforest</span></li><li><span class="opt">(d)</span><span>Boreal forest</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>With estuaries and swamps at the top.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Consider the following pairs of species interaction and example: 1. Commensalism — cattle egret feeding near grazing cattle 2. Mutualism — fig tree and fig wasp 3. Amensalism — <em>Cuscuta</em> growing on a host plant Which pairs are correctly matched?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span><em>Cuscuta</em> is a parasite.</div></details></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">In a primary ecological succession on bare rock, the typical pioneer organisms are:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Grasses</span></li><li><span class="opt">(b)</span><span>Lichens</span></li><li><span class="opt">(c)</span><span>Shrubs</span></li><li><span class="opt">(d)</span><span>Mosses</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Lichens weather rock to form soil.</div></details></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Consider the following statements about coral reefs: 1. Corals obtain most of their energy from symbiotic algae called zooxanthellae. 2. Bleaching occurs when corals expel these algae under heat stress. 3. In India, atoll-type reefs are found mainly in the Gulf of Kutch.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Atolls are in Lakshadweep; Kutch has fringing reefs.</div></details></section><h3 id="answer-key">Answer key</h3>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>Energy pyramid is always upright.</td></tr><tr><td>2</td><td>d</td><td>All correct.</td></tr><tr><td>3</td><td>c</td><td>Ammonium is already formed; nitrifiers then denitrifiers.</td></tr><tr><td>4</td><td>a</td><td>Fungi and bacteria are decomposers.</td></tr><tr><td>5</td><td>b</td><td>Ecotone diversity.</td></tr><tr><td>6</td><td>b</td><td>Biodegradability prevents magnification.</td></tr><tr><td>7</td><td>c</td><td>With estuaries and swamps at the top.</td></tr><tr><td>8</td><td>a</td><td><em>Cuscuta</em> is a parasite.</td></tr><tr><td>9</td><td>b</td><td>Lichens weather rock to form soil.</td></tr><tr><td>10</td><td>a</td><td>Atolls are in Lakshadweep; Kutch has fringing reefs.</td></tr></tbody></table>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-human-development.html"><span class="lb">← Previous</span>Human Development, Poverty &amp; Employment</a>
 <a class="r" href="prelims-gs1-biodiversity-india.html"><span class="lb">Next →</span>Biodiversity of India: Hotspots &amp; Protected Areas</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

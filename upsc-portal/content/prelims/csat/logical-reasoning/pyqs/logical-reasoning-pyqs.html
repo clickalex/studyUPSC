@@ -36,60 +36,143 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Logical Reasoning — PYQ-Style Practice</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Logical Reasoning — PYQ-Style Practice</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Logical Reasoning — PYQ-Style Practice</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-csat">CSAT</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="mhere">Logical Reasoning — PYQ-Style Practice</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/logical-reasoning-detailed.html">📖 Detailed</a><a href="../short-notes/reasoning-drills.html">📝 Short notes</a><a href="../bullet-points/logical-reasoning-points.html">🔹 Points</a><a href="../diagrams/reasoning.svg">🗺️ Diagrams</a><a href="logical-reasoning-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning">☰ All</a><div class="menu-row"><a href="../bullet-points/logical-reasoning-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/logical-reasoning-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/reasoning-drills.html">📝 Short notes</a><a class="pill" href="../bullet-points/logical-reasoning-points.html">🔹 Points</a><a class="pill" href="../diagrams/reasoning.svg">🗺️ Diagrams</a><a class="pill" href="logical-reasoning-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-csat-logical-reasoning">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat">CSAT</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Logical Reasoning — PYQ-Style Practice</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Logical Reasoning — PYQ-Style Practice</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-csat">CSAT</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">PYQs</a><span class="mhere">Logical Reasoning — PYQ-Style Practice</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/logical-reasoning-detailed.html">📖 Detailed</a><a href="../short-notes/reasoning-drills.html">📝 Short notes</a><a href="../bullet-points/logical-reasoning-points.html">🔹 Points</a><a href="../diagrams/reasoning.svg">🗺️ Diagrams</a><a href="logical-reasoning-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-csat-logical-reasoning">☰ All</a><div class="menu-row"><a href="../bullet-points/logical-reasoning-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/logical-reasoning-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/reasoning-drills.html">📝 Short notes</a><a class="pill" href="../bullet-points/logical-reasoning-points.html">🔹 Points</a><a class="pill" href="../diagrams/reasoning.svg">🗺️ Diagrams</a><a class="pill" href="logical-reasoning-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-csat-logical-reasoning">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="logical-reasoning-pyqs">Logical Reasoning — PYQ-Style Practice</h1>
+<h1 id="logical-reasoning-pyqs">Logical Reasoning — PYQ-Style Practice</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>CSAT-pattern drills; key with method at the end.</p></blockquote>
 <h2 id="set-1">Set 1 — syllogism &amp; relations</h2>
-<ol>
-<li><strong>Q1.</strong> Statements: All pens are books. Some books are copies. Conclusions: I. Some copies are pens. II. Some pens are books. Which follows? (a) only I (b) only II (c) both (d) neither</li>
-<li><strong>Q2.</strong> Statements: No cat is a dog. All dogs are animals. Conclusion: some animals are not cats: (a) follows (b) doesn't follow (c) can't say (d) data insufficient</li>
-<li><strong>Q3.</strong> Pointing to a photo, Ravi said, 'She is the daughter of my grandfather's only son.' The girl is Ravi's: (a) sister (b) cousin (c) aunt (d) niece</li>
-<li><strong>Q4.</strong> A man walks 3 km north, turns right walks 4 km. Displacement from start: (a) 7 km (b) 1 km (c) 5 km (d) 6 km</li>
-<li><strong>Q5.</strong> If MOTHER is coded as ODVJHT, FATHER is coded as: (a) HCVJGT (b) HCVJHT (c) GCVJGT (d) HCUJGT</li>
-</ol>
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Statements: All pens are books. Some books are copies. Conclusions: I. Some copies are pens. II. Some pens are books. Which follows?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>only I</span></li><li><span class="opt">(b)</span><span>only II</span></li><li><span class="opt">(c)</span><span>both</span></li><li><span class="opt">(d)</span><span>neither</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(All pens→books reverses to Some books→pens = II; I not certain)</div></details></section><section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Statements: No cat is a dog. All dogs are animals. Conclusion: some animals are not cats:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>follows</span></li><li><span class="opt">(b)</span><span>doesn't follow</span></li><li><span class="opt">(c)</span><span>can't say</span></li><li><span class="opt">(d)</span><span>data insufficient</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(dogs are animals, no dog is cat ⇒ those animals aren't cats)</div></details></section><section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Pointing to a photo, Ravi said, 'She is the daughter of my grandfather's only son.' The girl is Ravi's:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>sister</span></li><li><span class="opt">(b)</span><span>cousin</span></li><li><span class="opt">(c)</span><span>aunt</span></li><li><span class="opt">(d)</span><span>niece</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(grandfather's only son = Ravi's father; his daughter = Ravi's sister)</div></details></section><section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">A man walks 3 km north, turns right walks 4 km. Displacement from start:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>7 km</span></li><li><span class="opt">(b)</span><span>1 km</span></li><li><span class="opt">(c)</span><span>5 km</span></li><li><span class="opt">(d)</span><span>6 km</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(3-4-5 triangle)</div></details></section><section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">If MOTHER is coded as ODVJHT, FATHER is coded as:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>HCVJGT</span></li><li><span class="opt">(b)</span><span>HCVJHT</span></li><li><span class="opt">(c)</span><span>GCVJGT</span></li><li><span class="opt">(d)</span><span>HCUJGT</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(+2 shift each letter)</div></details></section>
 <h2 id="set-2">Set 2 — puzzles &amp; statement logic</h2>
-<ol start="6">
-<li><strong>Q6.</strong> Five friends sit in a row facing north: P is right of Q but left of R; S is at the extreme right; T is left of Q. Who sits middle? (a) P (b) Q (c) R (d) T</li>
-<li><strong>Q7.</strong> In a queue, A is 7th from front, 12th from back. Queue length: (a) 18 (b) 19 (c) 20 (d) 17</li>
-<li><strong>Q8.</strong> Statement: 'All employees must attend the safety drill.' Assumption: I. drills improve safety. II. employees can attend. Which is implicit? (a) I only (b) II only (c) both (d) neither</li>
-<li><strong>Q9.</strong> A clock shows 3:30. Angle between hands: (a) 90° (b) 75° (c) 105° (d) 60°</li>
-<li><strong>Q10.</strong> Statement: 'The city improved street lighting; night accidents fell.' Which weakens the causal claim? (a) lights installed citywide (b) accident fall began before the lighting change (c) residents welcomed lights (d) lighting costs rose</li>
-</ol>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Five friends sit in a row facing north: P is right of Q but left of R; S is at the extreme right; T is left of Q. Who sits middle?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>P</span></li><li><span class="opt">(b)</span><span>Q</span></li><li><span class="opt">(c)</span><span>R</span></li><li><span class="opt">(d)</span><span>T</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(order: T, Q, P, R, S)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">In a queue, A is 7th from front, 12th from back. Queue length:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>18</span></li><li><span class="opt">(b)</span><span>19</span></li><li><span class="opt">(c)</span><span>20</span></li><li><span class="opt">(d)</span><span>17</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(7+12−1)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Statement: 'All employees must attend the safety drill.' Assumption: I. drills improve safety. II. employees can attend. Which is implicit?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>I only</span></li><li><span class="opt">(b)</span><span>II only</span></li><li><span class="opt">(c)</span><span>both</span></li><li><span class="opt">(d)</span><span>neither</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(both implicit)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">A clock shows 3:30. Angle between hands:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>90°</span></li><li><span class="opt">(b)</span><span>75°</span></li><li><span class="opt">(c)</span><span>105°</span></li><li><span class="opt">(d)</span><span>60°</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(|30×3 − 5.5×30| = |90−165| = 75°)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Statement: 'The city improved street lighting; night accidents fell.' Which weakens the causal claim?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>lights installed citywide</span></li><li><span class="opt">(b)</span><span>accident fall began before the lighting change</span></li><li><span class="opt">(c)</span><span>residents welcomed lights</span></li><li><span class="opt">(d)</span><span>lighting costs rose</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(fall predates cause — breaks link).</div></details></section>
 <h2 id="answers">Answers</h2>
 <p><strong>1-b</strong> (All pens→books reverses to Some books→pens = II; I not certain) · <strong>2-a</strong> (dogs are animals, no dog is cat ⇒ those animals aren't cats) · <strong>3-a</strong> (grandfather's only son = Ravi's father; his daughter = Ravi's sister) · <strong>4-c</strong> (3-4-5 triangle) · <strong>5-a</strong> (+2 shift each letter) · <strong>6-b</strong> (order: T, Q, P, R, S) · <strong>7-a</strong> (7+12−1) · <strong>8-c</strong> (both implicit) · <strong>9-b</strong> (|30×3 − 5.5×30| = |90−165| = 75°) · <strong>10-b</strong> (fall predates cause — breaks link).</p>
 <blockquote><p>Redo Venn conversions weekly — the some-not conversion is the highest-frequency trap.</p></blockquote>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/logical-reasoning-points.html" rel="prev">← Logical Reasoning — Bullet Points</a></span>
   <a class="up" href="../../../../index.html#content-prelims-csat-logical-reasoning-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

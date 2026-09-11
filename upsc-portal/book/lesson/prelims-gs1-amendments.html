@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -178,8 +222,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 </ul>
 <blockquote><p><strong>Trap watch.</strong> Creating a new state needs only a <em>simple</em> majority, not a special majority. There is no joint sitting for a constitutional amendment bill. The Preamble <em>can</em> be amended (<em>Kesavananda</em>) but not so as to damage basic structure — it has been amended once, by the 42nd. Fundamental Duties are non-justiciable and were added by the 42nd on the Swaran Singh Committee's advice, not by the original Constitution. The right to property is a constitutional legal right under Article 300A, not a Fundamental Right. Basic structure applies to constitutional <em>amendments</em>, and ordinary legislation is tested against Part III rather than the doctrine.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -193,8 +235,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li><strong>A.K. Gopalan 1950</strong> (procedure established by law narrow) → <strong>Maneka Gandhi 1978</strong> (due process; golden triangle 14-19-21).</li><li><strong>Champakam Dorairajan 1951</strong> (FR &gt; DPSP → 1st Amdt). <strong>Berubari 1960</strong> (Preamble not part; territory cession needs amendment). <strong>Kesavananda 1973</strong>. <strong>Indira Gandhi v Raj Narain 1975</strong> (free elections basic). <strong>ADM Jabalpur 1976</strong> (habeas corpus suspended; overruled 2017). <strong>Minerva Mills 1980</strong>. <strong>Waman Rao 1981</strong>. <strong>S.P. Gupta 1981 (First Judges — executive primacy; PIL)</strong>, <strong>SCAORA 1993 (Second — collegium)</strong>, <strong>1998 opinion (Third — 5-member)</strong>, <strong>NJAC 2015 (Fourth)</strong>. <strong>Shah Bano 1985</strong> (maintenance; 1986 Act). <strong>Mohini Jain 1992 / Unnikrishnan 1993</strong> (education). <strong>Indra Sawhney 1992</strong> (Mandal; 50% ceiling; creamy layer; no reservation in promotion → 77th). <strong>S.R. Bommai 1994</strong> (Art 356; floor test; secularism). <strong>Vishaka 1997</strong> (sexual harassment guidelines → 2013 Act). <strong>Vineet Narain 1997</strong> (CBI/CVC). <strong>L. Chandra Kumar 1997</strong> (tribunals under HC review). <strong>T.M.A. Pai 2002</strong>. <strong>PUCL 2003</strong> (candidates' disclosure). <strong>Aruna Shanbaug 2011 / Common Cause 2018</strong> (euthanasia). <strong>Lily Thomas 2013</strong> (convicted MPs disqualified — Sec 8(4) struck). <strong>NOTA (PUCL 2013)</strong>. <strong>Shreya Singhal 2015</strong> (66A struck). <strong>NALSA 2014</strong> (transgender). <strong>Nabam Rebia 2016</strong> (Governor's discretion; Speaker under disqualification notice — referred to 7 judges 2023). <strong>Puttaswamy 2017/2018</strong> (privacy; Aadhaar 4:1 — Sec 57 struck; money bill upheld — referred to 7 judges in Rojer Mathew 2019). <strong>Shayara Bano 2017</strong> (triple talaq → 2019 Act). <strong>Navtej Johar 2018</strong> (377). <strong>Joseph Shine 2018</strong> (adultery 497 struck). <strong>Sabarimala 2018</strong> (→ 9-judge 2020 pending). <strong>Kihoto Hollohan 1992</strong> (Speaker's anti-defection decisions reviewable). <strong>Keisham Meghachandra 2020</strong> (Speaker decide in 3 months). <strong>Rambabu Singh Thakur 2020 / 2023</strong> (criminal antecedents publicity). <strong>Anoop Baranwal 2023</strong> (CEC/EC appointment committee — PM, LoP, CJI → 2023 Act replaced CJI with a Union minister; challenge pending 2025). <strong>Subhash Desai 2023</strong> (Shiv Sena — Governor's floor test call wrong; Speaker to decide). <strong>Article 370 (Dec 2023)</strong>. <strong>Electoral Bonds — ADR Feb 2024</strong>. <strong>Sita Soren 2024</strong> (bribery — no immunity; overruled P.V. Narasimha Rao 1998). <strong>Davinder Singh 2024</strong> (SC sub-classification 6:1). <strong>Property Owners 2024</strong> (39(b)). <strong>State of Punjab v Davinder / AMU Nov 2024</strong>. <strong>Tamil Nadu Governor Apr 2025</strong> (Arts 200/201 timelines; deemed assent — Presidential reference; <strong>SC opinion Nov 2025: no timelines/deemed assent; but Governor cannot sit indefinitely — judicial review of inaction</strong>). <strong>Bilkis Bano Jan 2024</strong>. <strong>Manish Sisodia/Kejriwal bail 2024</strong> (bail is rule). <strong>Newsclick Prabir Purkayastha 2024</strong> (written grounds of arrest). <strong>Mahua Moitra</strong>; <strong>In re: Section 6A Oct 2024</strong>; <strong>Bulldozer demolitions Nov 2024 (guidelines)</strong>; <strong>Child marriage (Oct 2024)</strong>; <strong>Domestic violence, marital rape (pending)</strong>; <strong>Vanashakti 2025</strong> (ex-post facto environmental clearances struck); <strong>Justice Yashwant Varma cash row 2025</strong> (in-house inquiry; removal motion in Parliament); <strong>Supriyo 2023</strong> (no same-sex marriage right; Parliament's domain); <strong>NEET-UG 2024 (no re-test)</strong>.</li></ul>
 <h3 id="traps">Traps</h3>
 <ul><li>Amendment Bills need <strong>no</strong> prior President recommendation and <strong>no</strong> joint sitting; President <strong>must</strong> assent (24th).</li><li>State ratification: by <strong>simple</strong> majority, by <strong>half</strong> the states — no time limit; states can <strong>only</strong> ratify, not initiate.</li><li>Art 368 changes to itself need state ratification; Arts 2–4 (new states) are <strong>outside</strong> 368 (simple majority).</li><li>42nd = Swaran Singh; 44th = Janata reversal; 52nd = anti-defection; 61st = 18 yrs; 73/74 = local govt; 86th = RTE; 91st = 15% cabinet; 101st = GST; 102nd = NCBC; 103rd = EWS; 104th = 2030; 105th = state OBC lists; 106th = women.</li><li>Constitution has been amended <strong>106 times</strong> (as of Sept 2025); the 128th Bill became the <strong>106th Act</strong>.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -208,8 +248,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Simple majority outside 368 (states, citizenship, salaries) · special majority most · +½ ratification for President election, Union-state power, Seventh Schedule, HC-SC, 368 itself.</li><li>No joint sitting for amendment; assent obligatory (24th).</li></ul>
 <h3 id="trap-flash">Trap flash</h3>
 <ul><li>91st = cabinet-size cap (15%), NOT anti-defection (52nd).</li><li>Delhi NCT = 69th (1991), not 70th.</li><li>FDs added by 42nd (10) + 86th (11th) — count trap.</li><li>IR Coelho 2007: Ninth Schedule laws post-24 Apr 1973 face basic-structure review.</li><li>106th women's quota: awaits delimitation census — 'implementation' phrasing matters.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -259,24 +297,26 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Consider the procedure under Article 368: 1. A Constitution Amendment Bill can be introduced only in the Lok Sabha. 2. There is no provision for a joint sitting in case of disagreement between the Houses. 3. State legislatures must ratify within six months where ratification is required. (a) 1 and 2 (b) 2 only (c) 2 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q2.</strong> Which of the following can be amended by a simple majority of Parliament outside Article 368? 1. Formation of new states (Art 3) 2. Abolition of legislative councils (Art 169) 3. Fundamental Rights 4. Fifth Schedule (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q3.</strong> Match the amendment with its subject: A. 61st — 1. Anti-defection · B. 52nd — 2. Voting age 18 · C. 91st — 3. Council of Ministers capped at 15% (a) A-2 B-1 C-3 (b) A-1 B-2 C-3 (c) A-3 B-1 C-2 (d) A-2 B-3 C-1</p>
-<p><strong>Q4.</strong> Which subjects were transferred from the State List to the Concurrent List by the 42nd Amendment? 1. Education 2. Forests 3. Police 4. Weights and measures (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q5.</strong> The 106th Constitutional Amendment (2023): 1. Reserves one-third of seats for women in Lok Sabha and state assemblies. 2. Comes into effect after delimitation following the next census. 3. Also applies to the Rajya Sabha. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q6.</strong> In which case did the Supreme Court hold that the Ninth Schedule laws inserted after 24 April 1973 are open to judicial review on basic-structure grounds? (a) Waman Rao (b) I.R. Coelho (c) Minerva Mills (d) Kesavananda Bharati</p>
-<p><strong>Q7.</strong> The 24th Amendment (1971) provided that: (a) Parliament cannot amend Fundamental Rights (b) The President is bound to give assent to a Constitution Amendment Bill (c) Property ceased to be a Fundamental Right (d) The Preamble may not be amended</p>
-<p><strong>Q8.</strong> Which amendment made the National Commission for Backward Classes a constitutional body? (a) 101st (b) 102nd (c) 103rd (d) 105th</p>
-<p><strong>Q9.</strong> <em>Lily Thomas v Union of India</em> (2013) is associated with: (a) Immediate disqualification of legislators upon conviction (b) Striking down Section 66A of the IT Act (c) Right to privacy (d) NOTA option</p>
-<p><strong>Q10.</strong> Consider the 44th Amendment (1978): 1. It replaced "internal disturbance" with "armed rebellion" in Article 352. 2. It made the right to property a legal right under Article 300A. 3. It required the Cabinet's written advice for proclaiming a national emergency. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<h3 id="answer-key">Answer key</h3>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Consider the procedure under Article 368: 1. A Constitution Amendment Bill can be introduced only in the Lok Sabha. 2. There is no provision for a joint sitting in case of disagreement between the Houses. 3. State legislatures must ratify within six months where ratification is required.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 only</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Either House; no time limit for ratification.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Which of the following can be amended by a simple majority of Parliament outside Article 368? 1. Formation of new states (Art 3) 2. Abolition of legislative councils (Art 169) 3. Fundamental Rights 4. Fifth Schedule</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 4</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>FRs need special majority.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Match the amendment with its subject: A. 61st — 1. Anti-defection · B. 52nd — 2. Voting age 18 · C. 91st — 3. Council of Ministers capped at 15%</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A-2 B-1 C-3</span></li><li><span class="opt">(b)</span><span>A-1 B-2 C-3</span></li><li><span class="opt">(c)</span><span>A-3 B-1 C-2</span></li><li><span class="opt">(d)</span><span>A-2 B-3 C-1</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Standard pairing.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Which subjects were transferred from the State List to the Concurrent List by the 42nd Amendment? 1. Education 2. Forests 3. Police 4. Weights and measures</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 4</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Police remains in the State List.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">The 106th Constitutional Amendment (2023): 1. Reserves one-third of seats for women in Lok Sabha and state assemblies. 2. Comes into effect after delimitation following the next census. 3. Also applies to the Rajya Sabha.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Rajya Sabha and legislative councils are not covered.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">In which case did the Supreme Court hold that the Ninth Schedule laws inserted after 24 April 1973 are open to judicial review on basic-structure grounds?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Waman Rao</span></li><li><span class="opt">(b)</span><span>I.R. Coelho</span></li><li><span class="opt">(c)</span><span>Minerva Mills</span></li><li><span class="opt">(d)</span><span>Kesavananda Bharati</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>2007, nine-judge bench.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">The 24th Amendment (1971) provided that:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Parliament cannot amend Fundamental Rights</span></li><li><span class="opt">(b)</span><span>The President is bound to give assent to a Constitution Amendment Bill</span></li><li><span class="opt">(c)</span><span>Property ceased to be a Fundamental Right</span></li><li><span class="opt">(d)</span><span>The Preamble may not be amended</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Also clarified 368 covers FRs.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Which amendment made the National Commission for Backward Classes a constitutional body?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>101st</span></li><li><span class="opt">(b)</span><span>102nd</span></li><li><span class="opt">(c)</span><span>103rd</span></li><li><span class="opt">(d)</span><span>105th</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>2018; Art 338B.</div></details></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text"><em>Lily Thomas v Union of India</em> (2013) is associated with:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Immediate disqualification of legislators upon conviction</span></li><li><span class="opt">(b)</span><span>Striking down Section 66A of the IT Act</span></li><li><span class="opt">(c)</span><span>Right to privacy</span></li><li><span class="opt">(d)</span><span>NOTA option</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Struck Section 8(4) of RPA.</div></details></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Consider the 44th Amendment (1978): 1. It replaced "internal disturbance" with "armed rebellion" in Article 352. 2. It made the right to property a legal right under Article 300A. 3. It required the Cabinet's written advice for proclaiming a national emergency.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section><h3 id="answer-key">Answer key</h3>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>Either House; no time limit for ratification.</td></tr><tr><td>2</td><td>a</td><td>FRs need special majority.</td></tr><tr><td>3</td><td>a</td><td>Standard pairing.</td></tr><tr><td>4</td><td>a</td><td>Police remains in the State List.</td></tr><tr><td>5</td><td>a</td><td>Rajya Sabha and legislative councils are not covered.</td></tr><tr><td>6</td><td>b</td><td>2007, nine-judge bench.</td></tr><tr><td>7</td><td>b</td><td>Also clarified 368 covers FRs.</td></tr><tr><td>8</td><td>b</td><td>2018; Art 338B.</td></tr><tr><td>9</td><td>a</td><td>Struck Section 8(4) of RPA.</td></tr><tr><td>10</td><td>d</td><td>All correct.</td></tr></tbody></table>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-fundamental-rights-dpsp.html"><span class="lb">← Previous</span>Fundamental Rights, DPSP &amp; Fundamental Duties</a>
 <a class="r" href="prelims-gs1-federal-structure.html"><span class="lb">Next →</span>Federal Structure, Centre–State Relations</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

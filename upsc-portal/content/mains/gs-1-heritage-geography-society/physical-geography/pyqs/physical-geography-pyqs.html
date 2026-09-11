@@ -36,78 +36,173 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Physical Geography — PYQs &amp;amp; Model Answers</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Physical Geography — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Physical Geography — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="mhere">Physical Geography — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/physical-geography.html">📖 Detailed</a><a href="../short-notes/physical-geography-revision.html">📝 Short notes</a><a href="../bullet-points/physical-geography-points.html">🔹 Points</a><a href="../diagrams/earth-structure-and-plates.svg">🗺️ Diagrams</a><a href="physical-geography-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">☰ All</a><div class="menu-row"><a href="../bullet-points/physical-geography-points.html">← Prev</a><a href="../README.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/physical-geography.html">📖 Detailed</a><a class="pill" href="../short-notes/physical-geography-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/physical-geography-points.html">🔹 Points</a><a class="pill" href="../diagrams/earth-structure-and-plates.svg">🗺️ Diagrams</a><a class="pill" href="physical-geography-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Physical Geography — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Physical Geography — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">PYQs</a><span class="mhere">Physical Geography — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/physical-geography.html">📖 Detailed</a><a href="../short-notes/physical-geography-revision.html">📝 Short notes</a><a href="../bullet-points/physical-geography-points.html">🔹 Points</a><a href="../diagrams/earth-structure-and-plates.svg">🗺️ Diagrams</a><a href="physical-geography-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">☰ All</a><div class="menu-row"><a href="../bullet-points/physical-geography-points.html">← Prev</a><a href="../README.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/physical-geography.html">📖 Detailed</a><a class="pill" href="../short-notes/physical-geography-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/physical-geography-points.html">🔹 Points</a><a class="pill" href="../diagrams/earth-structure-and-plates.svg">🗺️ Diagrams</a><a class="pill" href="physical-geography-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="physical-geography-pyqs-model-answers">Physical Geography — PYQs &amp; Model Answers</h1>
+<h1 id="physical-geography-pyqs-model-answers">Physical Geography — PYQs &amp; Model Answers</h1><div class="qa-toolbar no-print"><span class="qa-count">9 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h2 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h2>
-<p><strong>Q1. (2015)</strong> In the structure of planet Earth, below the mantle, the core is mainly made up of which one of the following? (a) Aluminium (b) Chromium (c) Iron (d) Silicon</p>
-<p><strong>Model answer:</strong> <strong>(c)</strong> — the core is iron-nickel; the crustal rocks are dominated by silica, aluminium (SIAL) and magnesium (SIMA).</p>
-<p><strong>Q2. (2016)</strong> With reference to the <strong>ocean currents</strong>, consider the following:</p>
-<ol><li>The Gulf Stream is a warm current.</li><li>The Oyashio (Kurile) is a cold current.</li><li>The Benguela is a warm current.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the <strong>Benguela is a cold current</strong> off SW Africa (the companion fact: it underlies the Namib's aridity).</p>
-<p><strong>Q3. (2013)</strong> Which one of the following pairs correctly contains the phenomenon and the region of maximum impact? (a) El Niño — Indian Monsoon (b) La Niña — Horn of Africa (c) Southern Oscillation — Australian Alps</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the classic teleconnection: El Niño years tend to weaken the Indian monsoon (positive IOD can offset — as in some recent seasons).</p>
-<p><strong>Q4. (2020)</strong> With reference to <strong>plate tectonics</strong>, consider the following statements:</p>
-<ol><li>The Himalayas formed at a convergent plate boundary.</li><li>The East African Rift is a divergent boundary.</li><li>The San Andreas Fault is a transform boundary.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — the three boundary types with their exemplary landforms.</p>
-<p><strong>Q5. (2021)</strong> Which one of the following is a reason for the <strong>Red Sea</strong> being a highly saline water body? (a) High rate of evaporation and low inflow of fresh water (b) Submarine volcanism releasing dissolved minerals in excess (c) The presence of salt flats along its coast (d) Deep-ocean circulation pumping saline water northward</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the Red Sea combines intense evaporation with negligible river inflow and limited exchange with the Indian Ocean.</p>
-<p><strong>Q6. (2019)</strong> With reference to the <strong>Indian monsoon</strong>, consider the following statements:</p>
-<ol><li>The retreating monsoon rains chiefly fall on the Tamil Nadu coast.</li><li>The western disturbances are temperate cyclones that bring winter rain to North India.</li><li>The Tropical Easterly Jet is associated with the monsoon's burst.</li></ol>
-<p>Which of the statements given above are correct? (a) 1 and 2 only (b) 1 and 3 only (c) 2 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — all three are standard monsoon-mechanism statements.</p>
-<p><strong>Q7. (2022)</strong> With reference to <strong>tropical cyclones in the Bay of Bengal</strong>, consider the following statements:</p>
-<ol><li>They derive energy from the warm waters of the Bay (sea-surface temperatures above ~26.5 °C).</li><li>They typically have a warm core and an eye.</li><li>They are steered mainly by the polar-front jet.</li></ol>
-<p>Which of the statements given above is/are correct? (a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> <strong>(a)</strong> — the polar-front jet steers <strong>temperate</strong> cyclones; tropical cyclones are steered by trade-wind and sub-tropical high patterns.</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2015</span></div><p class="qa-text">In the structure of planet Earth, below the mantle, the core is mainly made up of which one of the following?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Aluminium</span></li><li><span class="opt">(b)</span><span>Chromium</span></li><li><span class="opt">(c)</span><span>Iron</span></li><li><span class="opt">(d)</span><span>Silicon</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>the core is iron-nickel; the crustal rocks are dominated by silica, aluminium (SIAL) and magnesium (SIMA).</div></details></section>
+
+
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2016</span></div><p class="qa-text">With reference to the <strong>ocean currents</strong>, consider the following:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>The Gulf Stream is a warm current.</li><li>The Oyashio (Kurile) is a cold current.</li><li>The Benguela is a warm current.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the <strong>Benguela is a cold current</strong> off SW Africa (the companion fact: it underlies the Namib's aridity).</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2013</span></div><p class="qa-text">Which one of the following pairs correctly contains the phenomenon and the region of maximum impact?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>El Niño — Indian Monsoon</span></li><li><span class="opt">(b)</span><span>La Niña — Horn of Africa</span></li><li><span class="opt">(c)</span><span>Southern Oscillation — Australian Alps</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the classic teleconnection: El Niño years tend to weaken the Indian monsoon (positive IOD can offset — as in some recent seasons).</div></details></section>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span><span class="qa-tag">2020</span></div><p class="qa-text">With reference to <strong>plate tectonics</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>The Himalayas formed at a convergent plate boundary.</li><li>The East African Rift is a divergent boundary.</li><li>The San Andreas Fault is a transform boundary.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 2 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>the three boundary types with their exemplary landforms.</div></details></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span><span class="qa-tag">2021</span></div><p class="qa-text">Which one of the following is a reason for the <strong>Red Sea</strong> being a highly saline water body?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>High rate of evaporation and low inflow of fresh water</span></li><li><span class="opt">(b)</span><span>Submarine volcanism releasing dissolved minerals in excess</span></li><li><span class="opt">(c)</span><span>The presence of salt flats along its coast</span></li><li><span class="opt">(d)</span><span>Deep-ocean circulation pumping saline water northward</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the Red Sea combines intense evaporation with negligible river inflow and limited exchange with the Indian Ocean.</div></details></section>
+
+
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span><span class="qa-tag">2019</span></div><p class="qa-text">With reference to the <strong>Indian monsoon</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above are correct?</p><ol class="qa-stmts"><li>The retreating monsoon rains chiefly fall on the Tamil Nadu coast.</li><li>The western disturbances are temperate cyclones that bring winter rain to North India.</li><li>The Tropical Easterly Jet is associated with the monsoon's burst.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>all three are standard monsoon-mechanism statements.</div></details></section>
+
+
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span><span class="qa-tag">2022</span></div><p class="qa-text">With reference to <strong>tropical cyclones in the Bay of Bengal</strong>, consider the following statements:</p><p class="qa-lead">Which of the statements given above is/are correct?</p><ol class="qa-stmts"><li>They derive energy from the warm waters of the Bay (sea-surface temperatures above ~26.5 °C).</li><li>They typically have a warm core and an eye.</li><li>They are steered mainly by the polar-front jet.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>the polar-front jet steers <strong>temperate</strong> cyclones; tropical cyclones are steered by trade-wind and sub-tropical high patterns.</div></details></section>
 <hr>
 <h2 id="upsc-mains-pyqs">UPSC Mains PYQs</h2>
-<p><strong>Q. (2013)</strong> "(a) What do you understand by the phenomenon of 'temperature inversion' in meteorology? (b) How does it affect weather and habitants of the place?" <em>(10 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — The normal tropospheric rule is a lapse rate (~6.5 °C/km up); <strong>temperature inversion</strong> is a reversal — temperature rises with altitude over a local layer.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Types</strong> — ground inversion (clear, calm winter nights over plains — NW India's winter fog chain), subsidence inversion (subtropical highs), frontal inversion (warm/cold air boundaries), advection inversion.</li><li><strong>Effects on weather</strong> — traps moisture &amp; pollutants (haze/fog episodes), stabilises the layer (stratified, discourages convection — suppresses ordinary afternoon showers), enables frost pockets in valleys (crop damage), and where lifted, can channel smog plumes.</li><li><strong>Effects on habitants</strong> — Delhi/Indo-Gangetic winter smog (vehicle + stubble + inversion) — public-health spikes (PM 2.5 at hazardous levels), transport disruption (fog), crop stress, and the pattern it creates for winter-crop moisture distribution.</li></ol>
-<p><strong>Conclusion</strong> — An apparently 'meteorological technicality' turns out to order pollution, safety and agricultural risk in Indian winters.</p>
-<hr>
-<p><strong>Q. (2015)</strong> "The Himalayas are highly prone to landslides." Discuss the causes and suggest suitable measures of mitigation. <em>(12.5 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — The Himalayas are a young fold-mountain range on an active convergent boundary — structurally fragile, tectonically alive.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Natural causes</strong> — fragile rock strata (young sedimentary folds), seismicity (the entire arc in seismic zone IV–V), steep slopes, intense monsoon rain (the western disturbance + monsoon coupling), glacial retreat creating unstable moraine and glacial lakes (GLOF risk — e.g., 2023 Sikkim event).</li><li><strong>Anthropogenic causes</strong> — road widening and slope cutting without benching, deforestation, unregulated construction in the pilgrimage corridors, hydel projects' tunnelling/blasting, quarrying.</li><li><strong>Climate amplifier</strong> — more intense rain bands and cloudburst-type episodes (Kedarnath 2013 lessons).</li><li><strong>Mitigation</strong> — slope-stabilisation (retaining walls, berms, bioengineering with vetiver &amp; local shrubs), land-use regulation (building bye-laws localised to slope), early-warning rain-gauge networks + ISRO/Bhuvan landslide susceptibility maps, disaster-resilient road engineering (cut-and-cover tunnels vs open cuts), catchment reforestation.</li></ol>
-<p><strong>Conclusion</strong> — Landslides in the Himalaya are a system problem — geology + climate + unplanned development; mitigation must be engineering (slope works) + governance (zoning) + research (susceptibility mapping).</p>
-</div>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2013</span></div><p class="qa-text">"</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>What do you understand by the phenomenon of 'temperature inversion' in meteorology?</span></li><li><span class="opt">(b)</span><span>How does it affect weather and habitants of the place?" <em>(10 marks)</em></span></li></ol></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — The normal tropospheric rule is a lapse rate (~6.5 °C/km up); <strong>temperature inversion</strong> is a reversal — temperature rises with altitude over a local layer.</p><p><strong>Body</strong></p><ol><li><strong>Types</strong> — ground inversion (clear, calm winter nights over plains — NW India's winter fog chain), subsidence inversion (subtropical highs), frontal inversion (warm/cold air boundaries), advection inversion.</li><li><strong>Effects on weather</strong> — traps moisture &amp; pollutants (haze/fog episodes), stabilises the layer (stratified, discourages convection — suppresses ordinary afternoon showers), enables frost pockets in valleys (crop damage), and where lifted, can channel smog plumes.</li><li><strong>Effects on habitants</strong> — Delhi/Indo-Gangetic winter smog (vehicle + stubble + inversion) — public-health spikes (PM 2.5 at hazardous levels), transport disruption (fog), crop stress, and the pattern it creates for winter-crop moisture distribution.</li></ol><p><strong>Conclusion</strong> — An apparently 'meteorological technicality' turns out to order pollution, safety and agricultural risk in Indian winters.</p></div></details></section><hr>
+
+
+
+
+
+
+<section class="qa" id="qa-m-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2015</span></div><p class="qa-text">"The Himalayas are highly prone to landslides." Discuss the causes and suggest suitable measures of mitigation. <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — The Himalayas are a young fold-mountain range on an active convergent boundary — structurally fragile, tectonically alive.</p><p><strong>Body</strong></p><ol><li><strong>Natural causes</strong> — fragile rock strata (young sedimentary folds), seismicity (the entire arc in seismic zone IV–V), steep slopes, intense monsoon rain (the western disturbance + monsoon coupling), glacial retreat creating unstable moraine and glacial lakes (GLOF risk — e.g., 2023 Sikkim event).</li><li><strong>Anthropogenic causes</strong> — road widening and slope cutting without benching, deforestation, unregulated construction in the pilgrimage corridors, hydel projects' tunnelling/blasting, quarrying.</li><li><strong>Climate amplifier</strong> — more intense rain bands and cloudburst-type episodes (Kedarnath 2013 lessons).</li><li><strong>Mitigation</strong> — slope-stabilisation (retaining walls, berms, bioengineering with vetiver &amp; local shrubs), land-use regulation (building bye-laws localised to slope), early-warning rain-gauge networks + ISRO/Bhuvan landslide susceptibility maps, disaster-resilient road engineering (cut-and-cover tunnels vs open cuts), catchment reforestation.</li></ol><p><strong>Conclusion</strong> — Landslides in the Himalaya are a system problem — geology + climate + unplanned development; mitigation must be engineering (slope works) + governance (zoning) + research (susceptibility mapping).</p></div></details></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/physical-geography-points.html" rel="prev">← Physical Geography — Key Bullet P…</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-1-heritage-geography-society-physical-geography-pyqs">↑ PYQs · all files</a>
-  <span><span class="dim">End</span></span>
+  <span><a href="../README.html" rel="next">Physical Geography (GS 1) →</a></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

@@ -36,53 +36,148 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span></nav>
-  <a class="nav-home no-print" href="../../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="mhere">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/defence-nuclear-detailed.html">📖 Detailed</a><a href="../short-notes/defence-nuclear-notes.html">📝 Short notes</a><a href="../bullet-points/defence-nuclear-points.html">🔹 Points</a><a href="../diagrams/defence-nuclear.svg">🗺️ Diagrams</a><a href="defence-nuclear-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">☰ All</a><div class="menu-row"><a href="../bullet-points/defence-nuclear-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/defence-nuclear-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/defence-nuclear-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/defence-nuclear-points.html">🔹 Points</a><a class="pill" href="../diagrams/defence-nuclear.svg">🗺️ Diagrams</a><a class="pill" href="defence-nuclear-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">Defence Nuclear</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">PYQs</a><span class="mhere">Defence, Missiles &amp;amp; Nuclear Technology — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/defence-nuclear-detailed.html">📖 Detailed</a><a href="../short-notes/defence-nuclear-notes.html">📝 Short notes</a><a href="../bullet-points/defence-nuclear-points.html">🔹 Points</a><a href="../diagrams/defence-nuclear.svg">🗺️ Diagrams</a><a href="defence-nuclear-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">☰ All</a><div class="menu-row"><a href="../bullet-points/defence-nuclear-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/defence-nuclear-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/defence-nuclear-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/defence-nuclear-points.html">🔹 Points</a><a class="pill" href="../diagrams/defence-nuclear.svg">🗺️ Diagrams</a><a class="pill" href="defence-nuclear-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="defence-missiles-nuclear-technology-practice-mcqs">Defence, Missiles &amp; Nuclear Technology — Practice MCQs</h1>
+<h1 id="defence-missiles-nuclear-technology-practice-mcqs">Defence, Missiles &amp; Nuclear Technology — Practice MCQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> "Mission Divyastra" conducted in March 2024 refers to: (a) India's first test of an anti-satellite weapon (b) The first flight test of Agni-V with multiple independently targetable re-entry vehicles (c) The maiden launch of a K-4 submarine-launched missile (d) The induction of the S-400 system</p>
-<p><strong>Q2.</strong> Consider the following pairs of missiles and their categories: 1. Pralay — tactical quasi-ballistic missile 2. Astra — beyond-visual-range air-to-air missile 3. Rudram — anti-ship cruise missile 4. Nirbhay — subsonic land-attack cruise missile Which pairs are correctly matched? (a) 1, 2 and 4 (b) 1 and 3 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q3.</strong> Consider the following statements about BrahMos: 1. It is a joint venture between DRDO and Russia's NPO Mashinostroyeniya. 2. Its range could be extended beyond 300 km only after India joined the Missile Technology Control Regime in 2016. 3. The Philippines was the first export customer. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q4.</strong> The second stage of India's three-stage nuclear power programme is based on: (a) Pressurised heavy water reactors using natural uranium (b) Fast breeder reactors using plutonium fuel with a thorium blanket (c) Advanced heavy water reactors using uranium-233 (d) Light water reactors using enriched uranium</p>
-<p><strong>Q5.</strong> Which of the following export-control regimes is India NOT a member of? (a) Missile Technology Control Regime (b) Wassenaar Arrangement (c) Australia Group (d) Nuclear Suppliers Group</p>
-<p><strong>Q6.</strong> Consider the following statements about the SHANTI Act, 2025: 1. It permits private companies to build and operate nuclear power plants in India. 2. It replaces the Civil Liability for Nuclear Damage Act, 2010. 3. It transfers fuel enrichment and reprocessing to private ownership. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q7.</strong> India's Ballistic Missile Defence Phase-II interceptor tested in July 2024, designed against missiles of the 5,000 km class, is: (a) Prithvi Air Defence (b) AD-1 (c) Barak-8 (d) Project Kusha</p>
-<p><strong>Q8.</strong> Which of the following statements about India's defence industrial base is/are correct? 1. The Ordnance Factory Board was converted into seven Defence Public Sector Undertakings in 2021. 2. FDI in defence is allowed up to 74% under the automatic route. 3. The two Defence Industrial Corridors are located in Uttar Pradesh and Tamil Nadu. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q9.</strong> India's nuclear doctrine of 2003 provides for: 1. No First Use, with an exception for a major biological or chemical attack on India 2. Massive retaliation designed to inflict unacceptable damage 3. A Nuclear Command Authority whose Political Council is chaired by the National Security Adviser (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q10.</strong> Kakrapar Unit-3, which attained full power in 2023, is significant as: (a) India's first fast breeder reactor (b) India's first indigenously designed 700 MWe pressurised heavy water reactor (c) The first Russian VVER reactor in India (d) India's first thorium-fuelled reactor</p>
-<h2 id="answer-key">Answer key</h2>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">"Mission Divyastra" conducted in March 2024 refers to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>India's first test of an anti-satellite weapon</span></li><li><span class="opt">(b)</span><span>The first flight test of Agni-V with multiple independently targetable re-entry vehicles</span></li><li><span class="opt">(c)</span><span>The maiden launch of a K-4 submarine-launched missile</span></li><li><span class="opt">(d)</span><span>The induction of the S-400 system</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>MIRV-equipped Agni-V.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Consider the following pairs of missiles and their categories: 1. Pralay — tactical quasi-ballistic missile 2. Astra — beyond-visual-range air-to-air missile 3. Rudram — anti-ship cruise missile 4. Nirbhay — subsonic land-attack cruise missile Which pairs are correctly matched?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1, 2 and 4</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Rudram is an anti-radiation missile.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Consider the following statements about BrahMos: 1. It is a joint venture between DRDO and Russia's NPO Mashinostroyeniya. 2. Its range could be extended beyond 300 km only after India joined the Missile Technology Control Regime in 2016. 3. The Philippines was the first export customer.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">The second stage of India's three-stage nuclear power programme is based on:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Pressurised heavy water reactors using natural uranium</span></li><li><span class="opt">(b)</span><span>Fast breeder reactors using plutonium fuel with a thorium blanket</span></li><li><span class="opt">(c)</span><span>Advanced heavy water reactors using uranium-233</span></li><li><span class="opt">(d)</span><span>Light water reactors using enriched uranium</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>PFBR at Kalpakkam.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">Which of the following export-control regimes is India NOT a member of?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Missile Technology Control Regime</span></li><li><span class="opt">(b)</span><span>Wassenaar Arrangement</span></li><li><span class="opt">(c)</span><span>Australia Group</span></li><li><span class="opt">(d)</span><span>Nuclear Suppliers Group</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>China blocks India's NSG entry.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Consider the following statements about the SHANTI Act, 2025: 1. It permits private companies to build and operate nuclear power plants in India. 2. It replaces the Civil Liability for Nuclear Damage Act, 2010. 3. It transfers fuel enrichment and reprocessing to private ownership.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Fuel cycle activities stay with government.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">India's Ballistic Missile Defence Phase-II interceptor tested in July 2024, designed against missiles of the 5,000 km class, is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Prithvi Air Defence</span></li><li><span class="opt">(b)</span><span>AD-1</span></li><li><span class="opt">(c)</span><span>Barak-8</span></li><li><span class="opt">(d)</span><span>Project Kusha</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>AD-2 follows.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Which of the following statements about India's defence industrial base is/are correct? 1. The Ordnance Factory Board was converted into seven Defence Public Sector Undertakings in 2021. 2. FDI in defence is allowed up to 74% under the automatic route. 3. The two Defence Industrial Corridors are located in Uttar Pradesh and Tamil Nadu.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>All correct.</div></details></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">India's nuclear doctrine of 2003 provides for: 1. No First Use, with an exception for a major biological or chemical attack on India 2. Massive retaliation designed to inflict unacceptable damage 3. A Nuclear Command Authority whose Political Council is chaired by the National Security Adviser</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Political Council is chaired by the PM.</div></details></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Kakrapar Unit-3, which attained full power in 2023, is significant as:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>India's first fast breeder reactor</span></li><li><span class="opt">(b)</span><span>India's first indigenously designed 700 MWe pressurised heavy water reactor</span></li><li><span class="opt">(c)</span><span>The first Russian VVER reactor in India</span></li><li><span class="opt">(d)</span><span>India's first thorium-fuelled reactor</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>KAPP-3; KAMINI is the U-233 reactor.</div></details></section><h2 id="answer-key">Answer key</h2>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>MIRV-equipped Agni-V.</td></tr><tr><td>2</td><td>a</td><td>Rudram is an anti-radiation missile.</td></tr><tr><td>3</td><td>d</td><td>All correct.</td></tr><tr><td>4</td><td>b</td><td>PFBR at Kalpakkam.</td></tr><tr><td>5</td><td>d</td><td>China blocks India's NSG entry.</td></tr><tr><td>6</td><td>a</td><td>Fuel cycle activities stay with government.</td></tr><tr><td>7</td><td>b</td><td>AD-2 follows.</td></tr><tr><td>8</td><td>d</td><td>All correct.</td></tr><tr><td>9</td><td>a</td><td>Political Council is chaired by the PM.</td></tr><tr><td>10</td><td>b</td><td>KAPP-3; KAMINI is the U-233 reactor.</td></tr></tbody></table>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/defence-nuclear-points.html" rel="prev">← Defence &amp; Nuclear — Bullet Points</a></span>
   <a class="up" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-defence-nuclear-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

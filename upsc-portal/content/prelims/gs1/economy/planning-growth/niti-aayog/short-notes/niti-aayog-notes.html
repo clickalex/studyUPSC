@@ -36,30 +36,120 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth">Planning Growth</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span></nav>
-  <a class="nav-home no-print" href="../../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth">Planning Growth</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth">Planning Growth</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="mhere">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/niti-aayog-detailed.html">📖 Detailed</a><a href="niti-aayog-notes.html" class="here" aria-current="page">📝 Short notes</a><a href="../bullet-points/niti-aayog-points.html">🔹 Points</a><a href="../diagrams/niti-evolution.svg">🗺️ Diagrams</a><a href="../pyqs/niti-aayog-mcqs.html">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">☰ All</a><div class="menu-row"><a href="../detailed-notes/niti-aayog-detailed.html">← Prev</a><a href="../bullet-points/niti-aayog-points.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/niti-aayog-detailed.html">📖 Detailed</a><a class="pill" href="niti-aayog-notes.html" aria-current="page">📝 Short notes</a><a class="pill" href="../bullet-points/niti-aayog-points.html">🔹 Points</a><a class="pill" href="../diagrams/niti-evolution.svg">🗺️ Diagrams</a><a class="pill" href="../pyqs/niti-aayog-mcqs.html">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth">Planning Growth</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth">Planning Growth</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">Niti Aayog</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">Short Notes</a><span class="mhere">Planning, NITI Aayog &amp;amp; Growth Strategy — Prelims Fact Card</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/niti-aayog-detailed.html">📖 Detailed</a><a href="niti-aayog-notes.html" class="here" aria-current="page">📝 Short notes</a><a href="../bullet-points/niti-aayog-points.html">🔹 Points</a><a href="../diagrams/niti-evolution.svg">🗺️ Diagrams</a><a href="../pyqs/niti-aayog-mcqs.html">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">☰ All</a><div class="menu-row"><a href="../detailed-notes/niti-aayog-detailed.html">← Prev</a><a href="../bullet-points/niti-aayog-points.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/niti-aayog-detailed.html">📖 Detailed</a><a class="pill" href="niti-aayog-notes.html" aria-current="page">📝 Short notes</a><a class="pill" href="../bullet-points/niti-aayog-points.html">🔹 Points</a><a class="pill" href="../diagrams/niti-evolution.svg">🗺️ Diagrams</a><a class="pill" href="../pyqs/niti-aayog-mcqs.html">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog">☰ All</a></div></div>
 <div class="wrap"><div class="card">
 <h1 id="planning-niti-aayog-growth-strategy-prelims-fact-card">Planning, NITI Aayog &amp; Growth Strategy — Prelims Fact Card</h1>
 <blockquote><p>Prelims GS-I › Economy › Planning &amp; Growth. From Five-Year Plans to NITI Aayog, its indices and reports, and the numbers behind India's growth targets.</p></blockquote>
@@ -71,12 +161,17 @@ a.brand:hover{color:#b45309}
 <ul><li><strong>Planning Commission (1950) and NITI Aayog (2015) are both non-statutory, non-constitutional bodies created by Cabinet resolution</strong>; NDC (1952) also non-statutory; <strong>NITI has no power to allocate funds</strong> (Finance Ministry does).</li><li><strong>Mahalanobis model = 2nd Plan; Harrod-Domar = 1st; plan holidays 1966–69; rolling plan 1978–80; 8th Plan 1992–97 highest achieved growth; 12th Plan (2012–17) was the last</strong>; <strong>Gadgil formula (4th Plan) for state assistance; Gadgil-Mukherjee 1991</strong>.</li><li><strong>NITI Governing Council = PM + CMs + UT administrators + ex-officio members; regional councils are ad hoc</strong>; <strong>Vice-Chairman Suman Bery; CEO B.V.R. Subrahmanyam</strong>; <strong>Aspirational Districts 112 (2018) → Aspirational Blocks 500 (2023)</strong>; <strong>SDG India Index 2023–24: Kerala &amp; Uttarakhand top, Bihar bottom; national score 71</strong>; <strong>Fiscal Health Index (Jan 2025): Odisha first</strong>.</li><li><strong>World Bank (Apr 2025): extreme poverty ($2.15) 2.3% in 2022–23; at the new $3 line 5.3%</strong>; <strong>NITI MPI: 24.82 crore exited multidimensional poverty 2013–14 to 2022–23</strong>; <strong>Tendulkar 21.9% (2011–12); Rangarajan 29.5%</strong>; <strong>HCES 2023–24 MPCE rural ₹4,122 / urban ₹6,996</strong>.</li><li><strong>FRBM 2003 amended 2018: FD 3%, debt 40% Centre / 20% states (60% general); new anchor — Centre debt 50±1% of GDP by March 2031</strong>; <strong>FY26 BE fiscal deficit 4.4%, capex ₹11.21 lakh crore</strong>; <strong>FC-15 devolution 41%; FC-16 (Panagariya) report submitted 17 Nov 2025 for 2026–31</strong>.</li><li><strong>New Income Tax Act 2025 effective 1 April 2026; 'tax year' replaces previous/assessment year</strong>; <strong>GST Council recommendations are not binding (Mohit Minerals 2022)</strong>; <strong>GST 2.0 slabs 5%/18%/40% from 22 Sept 2025</strong>; <strong>VB-G RAM G Bill (Dec 2025) replaces MGNREGA with 125 days and 60:40 cost-sharing</strong>.</li></ul>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../detailed-notes/niti-aayog-detailed.html" rel="prev">← NITI Aayog &amp; Planning Evolution —…</a></span>
   <a class="up" href="../../../../../../index.html#content-prelims-gs1-economy-planning-growth-niti-aayog-short-notes">↑ Short Notes · all files</a>
-  <span><span class="dim">End</span></span>
+  <span><a href="../bullet-points/niti-aayog-points.html" rel="next">NITI Aayog — Bullet Points →</a></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

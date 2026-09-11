@@ -36,30 +36,120 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span></nav>
-  <a class="nav-home no-print" href="../../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="mhere">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/space-missions-detailed.html">📖 Detailed</a><a href="space-missions-notes.html" class="here" aria-current="page">📝 Short notes</a><a href="../bullet-points/space-missions-points.html">🔹 Points</a><a href="../diagrams/space-timeline.svg">🗺️ Diagrams</a><a href="../pyqs/space-missions-mcqs.html">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">☰ All</a><div class="menu-row"><a href="../detailed-notes/space-missions-detailed.html">← Prev</a><a href="../bullet-points/space-missions-points.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/space-missions-detailed.html">📖 Detailed</a><a class="pill" href="space-missions-notes.html" aria-current="page">📝 Short notes</a><a class="pill" href="../bullet-points/space-missions-points.html">🔹 Points</a><a class="pill" href="../diagrams/space-timeline.svg">🗺️ Diagrams</a><a class="pill" href="../pyqs/space-missions-mcqs.html">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="sep" aria-hidden="true">›</span><span class="here">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech">Science Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech">Emerging Tech</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">Space Missions</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">Short Notes</a><span class="mhere">Space: Missions, ISRO &amp;amp; Satellites — Prelims Fact Card</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/space-missions-detailed.html">📖 Detailed</a><a href="space-missions-notes.html" class="here" aria-current="page">📝 Short notes</a><a href="../bullet-points/space-missions-points.html">🔹 Points</a><a href="../diagrams/space-timeline.svg">🗺️ Diagrams</a><a href="../pyqs/space-missions-mcqs.html">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">☰ All</a><div class="menu-row"><a href="../detailed-notes/space-missions-detailed.html">← Prev</a><a href="../bullet-points/space-missions-points.html">Next →</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/space-missions-detailed.html">📖 Detailed</a><a class="pill" href="space-missions-notes.html" aria-current="page">📝 Short notes</a><a class="pill" href="../bullet-points/space-missions-points.html">🔹 Points</a><a class="pill" href="../diagrams/space-timeline.svg">🗺️ Diagrams</a><a class="pill" href="../pyqs/space-missions-mcqs.html">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions">☰ All</a></div></div>
 <div class="wrap"><div class="card">
 <h1 id="space-missions-isro-satellites-prelims-fact-card">Space: Missions, ISRO &amp; Satellites — Prelims Fact Card</h1>
 <blockquote><p>Prelims GS-I › Science &amp; Technology › Emerging Technologies. ISRO's launchers, satellites, science missions, human spaceflight, policy/private sector, and the global missions that share headlines.</p></blockquote>
@@ -69,12 +159,17 @@ a.brand:hover{color:#b45309}
 <ul><li><strong>ISRO 1969 (INCOSPAR 1962); Department of Space 1972 under PM; Space Commission; chairman V. Narayanan (Jan 2025)</strong>; <strong>first launch Thumba 21 Nov 1963 (Nike-Apache, US rocket); Aryabhata 1975 on Soviet rocket; SLV-3/Rohini 1980 first indigenous orbital launch</strong>.</li><li><strong>PSLV = 'workhorse' (4-stage, solid-liquid alternating); GSLV Mk II uses indigenous cryogenic CE-7.5; LVM3 (Mk III) = C25 cryogenic + S200 boosters, 4 t GTO/8 t LEO, human-rated as HLVM3; SSLV = 500 kg LEO, small sats; NGLV 'Soorya' — 30 t LEO, reusable, approved 2024</strong>; <strong>PSLV failures: 1993, 2017, 2025; LVM3 has none</strong>.</li><li><strong>Chandrayaan-3 landed 23 Aug 2023 near south pole (Shiv Shakti) — first ever south-polar landing, India 4th to soft-land</strong>; <strong>Chandrayaan-1 (2008) found water; Mangalyaan (2014) first Asian Mars orbiter, first-attempt success</strong>; <strong>Aditya-L1 orbits L1 (not the Sun); XPoSat = X-ray polarimetry (2nd after NASA IXPE)</strong>.</li><li><strong>SpaDeX docking (16 Jan 2025) made India 4th nation with docking (US, Russia, China)</strong>; <strong>NVS-02 launch (29 Jan 2025) was the 100th launch from Sriharikota</strong>; <strong>NISAR (30 July 2025) — first dual-frequency L &amp; S band SAR; first GSLV to sun-synchronous orbit; NASA L-band + ISRO S-band</strong>; <strong>GSAT-N2 flew on SpaceX Falcon 9 (Nov 2024); CMS-03 (Nov 2025) heaviest Indian comsat from Indian soil</strong>.</li><li><strong>Gaganyaan: 4 astronauts (Nair, Krishnan, Pratap, Shukla); LEO 400 km, 3 days; G1 uncrewed early 2026; crewed 2027; BAS first module 2028, full 2035; Moon landing 2040</strong>; <strong>Shubhanshu Shukla (Ax-4, June–July 2025) — first Indian on ISS, second Indian in space after Rakesh Sharma (1984); flew on SpaceX, not ISRO</strong>.</li><li><strong>NavIC = 7 satellites, regional (1,500 km), L5/S plus L1 in NVS series; GAGAN is SBAS for aviation; GPS/GLONASS/Galileo/BeiDou are global, QZSS/NavIC regional</strong>; <strong>NVS-02 (2025) stuck in elliptical orbit after valve failure</strong>.</li><li><strong>IN-SPACe (2020) = authoriser/promoter for private sector; NSIL (2019) = commercial arm; Antrix older (1992); Space Policy 2023; FDI (Feb 2024): satellites 74% auto, launch vehicles 49% auto, components 100%</strong>; <strong>Skyroot Vikram-S (Nov 2022) first private Indian rocket (suborbital); Agnikul Agnibaan (May 2024) first semi-cryogenic &amp; 3D-printed engine; Pixxel first private hyperspectral constellation (Jan 2025)</strong>; <strong>Starlink got its GMPCS licence June 2025; satcom spectrum is assigned administratively (Telecom Act 2023)</strong>.</li><li><strong>Treaties: Outer Space Treaty 1967 (India party); Moon Agreement 1979 (India signed, not ratified); Artemis Accords non-binding (India 2023); India's ASAT test 27 Mar 2019 (Mission Shakti — 4th nation)</strong>; <strong>Chang'e-6 (2024) first far-side sample return; Artemis II crewed flyby 2026; Artemis III landing 2027; ILRS = China–Russia lunar base</strong>; <strong>Sunita Williams returned Mar 2025 after 286 days (Starliner→Crew-9 Dragon)</strong>; <strong>3I/ATLAS = third interstellar object (July 2025)</strong>; <strong>LIGO-India at Hingoli (Maharashtra), ~2030; MACE Hanle = highest Cherenkov telescope; Devasthal 3.6 m = India's largest optical</strong>.</li></ul>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../detailed-notes/space-missions-detailed.html" rel="prev">← Space Missions &amp; ISRO — Detailed …</a></span>
   <a class="up" href="../../../../../../index.html#content-prelims-gs1-science-tech-emerging-tech-space-missions-short-notes">↑ Short Notes · all files</a>
-  <span><span class="dim">End</span></span>
+  <span><a href="../bullet-points/space-missions-points.html" rel="next">Space Missions — Bullet Points →</a></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

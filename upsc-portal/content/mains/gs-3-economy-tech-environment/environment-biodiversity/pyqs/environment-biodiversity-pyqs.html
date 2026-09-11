@@ -36,62 +36,157 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment">GS III — Economy, Technology &amp; Environment</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Environment &amp;amp; Biodiversity — PYQs</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment">GS III — Economy, Technology &amp; Environment</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Environment &amp;amp; Biodiversity — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Environment &amp;amp; Biodiversity — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment">GS III — Economy, Technology &amp; Environment</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="mhere">Environment &amp;amp; Biodiversity — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/environment-biodiversity.html">📖 Detailed</a><a href="../short-notes/environment-biodiversity-revision.html">📝 Short notes</a><a href="../bullet-points/environment-biodiversity-points.html">🔹 Points</a><a href="../diagrams/protected-area-hierarchy.svg">🗺️ Diagrams</a><a href="environment-biodiversity-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">☰ All</a><div class="menu-row"><a href="../bullet-points/environment-biodiversity-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/environment-biodiversity.html">📖 Detailed</a><a class="pill" href="../short-notes/environment-biodiversity-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/environment-biodiversity-points.html">🔹 Points</a><a class="pill" href="../diagrams/protected-area-hierarchy.svg">🗺️ Diagrams</a><a class="pill" href="environment-biodiversity-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment">GS III — Economy, Technology &amp; Environment</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Environment &amp;amp; Biodiversity — PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Environment &amp;amp; Biodiversity — PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-mains">Mains</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment">GS III — Economy, Technology &amp; Environment</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">PYQs</a><span class="mhere">Environment &amp;amp; Biodiversity — PYQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/environment-biodiversity.html">📖 Detailed</a><a href="../short-notes/environment-biodiversity-revision.html">📝 Short notes</a><a href="../bullet-points/environment-biodiversity-points.html">🔹 Points</a><a href="../diagrams/protected-area-hierarchy.svg">🗺️ Diagrams</a><a href="environment-biodiversity-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">☰ All</a><div class="menu-row"><a href="../bullet-points/environment-biodiversity-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/environment-biodiversity.html">📖 Detailed</a><a class="pill" href="../short-notes/environment-biodiversity-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/environment-biodiversity-points.html">🔹 Points</a><a class="pill" href="../diagrams/protected-area-hierarchy.svg">🗺️ Diagrams</a><a class="pill" href="environment-biodiversity-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="environment-biodiversity-pyqs">Environment &amp; Biodiversity — PYQs</h1>
+<h1 id="environment-biodiversity-pyqs">Environment &amp; Biodiversity — PYQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Emphasis on ecosystem conventions + protected-area pairings (prelims) with institution-heavy Mains skeletons.</p></blockquote>
 <h2 id="a-prelims-mcqs">A. Prelims MCQs</h2>
-<p><strong>Q1.</strong> [PYQ-pattern] Which of the following are among the targets of the Kunming-Montreal Global Biodiversity Framework?</p>
-<ol><li>30×30 conservation coverage</li><li>Halting human-induced extinction of known threatened species</li><li>Expanding carbon markets for offset-based biodiversity credits as a mandatory mechanism</li></ol>
-<p>(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> (a). 1 &amp; 2 are GBF targets; biodiversity credit markets are debated but are not a mandated mechanism of the GBF text.</p>
-<p><strong>Q2.</strong> The first-ever national population estimate of snow leopards in India (2024) reported approximately: (a) 200 (b) 718 (c) 1,400 (d) 5,800</p>
-<p><strong>Model answer:</strong> (b). ~718 individuals (SPA–WWF-style collaboration; Ladakh + Himachal + Uttarakhand + Sikkim + Arunachal).</p>
-<p><strong>Q3.</strong> Which is the most recent Tiger Reserve notified in India? (a) Dholpur–Karauli (b) Veerangana Durgavati (c) Guru Ghasidas–Tamor Pingla (d) Ratapani</p>
-<p><strong>Model answer:</strong> Mixed-update trap: notify-date drift. <strong>Guru Ghasidas–Tamor Pingla (Chhattisgarh, 2024)</strong> is among the more recent; <em>Ratapani (MP) notified as TR in late 2024</em> — hedge: accept any answer aligning with "57+ as of 2024–25 with Ratapani/Guru Ghasidas most recent".</p>
-<p><strong>Q4.</strong> Which of these are correctly matched?</p>
-<ol><li>IBCA — Big cat collaboration, launched 2023</li><li>Global Methane Pledge — COP26 side initiative, not UNFCCC obligation</li><li>Loss &amp; Damage Fund — operationalised at COP28</li></ol>
-<p>(a) 1 and 2 only (b) 2 and 3 only (c) 1 and 3 only (d) 1, 2 and 3</p>
-<p><strong>Model answer:</strong> (d). IBCA launched by India (April 2023); the GMP is voluntary (USA/EU initiative); L&amp;D fund operationalisation decision was adopted at COP28 opening day.</p>
-<p><strong>Q5.</strong> [PYQ-pattern] With reference to India's Carbon Credit Trading Scheme (2023): (a) It is administered by the Ministry of Environment only. (b) It covers only the waste sector. (c) It creates a compliance + offset architecture anchored by the Ministry of Power with BEE registry roles. (d) It supersedes the Perform-Achieve-Trade scheme completely.</p>
-<p><strong>Model answer:</strong> (c). CCTS (2023) under MoP/Grid Controller/BEE registry structure; PAT transitions into it rather than being simply wiped out.</p>
+
+
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">[PYQ-pattern] Which of the following are among the targets of the Kunming-Montreal Global Biodiversity Framework?</p><ol class="qa-stmts"><li>30×30 conservation coverage</li><li>Halting human-induced extinction of known threatened species</li><li>Expanding carbon markets for offset-based biodiversity credits as a mandatory mechanism</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>1 &amp; 2 are GBF targets; biodiversity credit markets are debated but are not a mandated mechanism of the GBF text.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">The first-ever national population estimate of snow leopards in India (2024) reported approximately:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>200</span></li><li><span class="opt">(b)</span><span>718</span></li><li><span class="opt">(c)</span><span>1,400</span></li><li><span class="opt">(d)</span><span>5,800</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>~718 individuals (SPA–WWF-style collaboration; Ladakh + Himachal + Uttarakhand + Sikkim + Arunachal).</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Which is the most recent Tiger Reserve notified in India?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Dholpur–Karauli</span></li><li><span class="opt">(b)</span><span>Veerangana Durgavati</span></li><li><span class="opt">(c)</span><span>Guru Ghasidas–Tamor Pingla</span></li><li><span class="opt">(d)</span><span>Ratapani</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body">Mixed-update trap: notify-date drift. <strong>Guru Ghasidas–Tamor Pingla (Chhattisgarh, 2024)</strong> is among the more recent; <em>Ratapani (MP) notified as TR in late 2024</em> — hedge: accept any answer aligning with "57+ as of 2024–25 with Ratapani/Guru Ghasidas most recent".</div></details></section>
+
+
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Which of these are correctly matched?</p><ol class="qa-stmts"><li>IBCA — Big cat collaboration, launched 2023</li><li>Global Methane Pledge — COP26 side initiative, not UNFCCC obligation</li><li>Loss &amp; Damage Fund — operationalised at COP28</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>2 and 3 only</span></li><li><span class="opt">(c)</span><span>1 and 3 only</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>IBCA launched by India (April 2023); the GMP is voluntary (USA/EU initiative); L&amp;D fund operationalisation decision was adopted at COP28 opening day.</div></details></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">[PYQ-pattern] With reference to India's Carbon Credit Trading Scheme (2023):</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>It is administered by the Ministry of Environment only.</span></li><li><span class="opt">(b)</span><span>It covers only the waste sector.</span></li><li><span class="opt">(c)</span><span>It creates a compliance + offset architecture anchored by the Ministry of Power with BEE registry roles.</span></li><li><span class="opt">(d)</span><span>It supersedes the Perform-Achieve-Trade scheme completely.</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>CCTS (2023) under MoP/Grid Controller/BEE registry structure; PAT transitions into it rather than being simply wiped out.</div></details></section>
 <h2 id="b-mains-questions-with-skeletons">B. Mains questions with skeletons</h2>
-<p><strong>Q6.</strong> "Great Nicobar is a litmus test for how India reconciles strategic imperative with ecological fragility." Discuss critically. <em>Skeleton:</em> project specs (transhipment port, airport, township, 130 km²) → ecology stakes (rainforest, leatherback nesting, shompen/Nicobarese rights, tsunami zone IV-V) → strategic logic (Malacca choke, APAC logistics) → process critique (stage-l clearance timelines, revised EIA shrinks) → way forward: robust cumulative IA, tribal consent (Forest Rights Act), phased liability.</p>
-<p><strong>Q7.</strong> India pioneered a "right against adverse climate change" in 2024. Examine its enforceability and implications for environmental jurisprudence. <em>Skeleton:</em> MK Ranjitsinh (2024) holding under Arts 14×21; hastens "climate constitutionalism" → problem: remedy design (injunction vs declaration), standard-setting uncertainty (national vs mine-mouth), justiciability of NDC targets → interplay with separation-of-powers → conclude with virtue: rights-baseline for GPIE-style adjudication.</p>
-<p><strong>Q8.</strong> Assess the grid of India's pollution governance: EPR everywhere? Battery/plastic/e-waste rules as a coherence story. <em>Skeleton:</em> EPR philosophy (internalising externality per BR liability) → extensions: plastic (2022), e-waste (2022), batteries (2022), tyres, oil → enforcement weaknesses (market-based certificates, opacity of credit trading) → way forward: measurement upgrades (CPCB portal + traceability), informal-sector inclusion.</p>
-<p><strong>Q9.</strong> "Belt-and-forest-outcome questions of the 2020s will be decided at the intersection of FRA 2006 and FCA 2023." Comment with reference to linear infrastructure vs tribal rights. <em>Skeleton:</em> FCA 2023 carve-outs (linear projects near borders; zoos/safaris categories; NPV rationalisation) vs FRA consent requirements → case cluster: Great Nicobar, Arunachal hydro, mining of Hasdeo → observer effects: judicial push for cumulative impact assessment → conclusion: consent-architecture will be the long-term equilibrium.</p>
-<p><strong>Q10.</strong> Evaluate India's heat-action framework (HAPs) against the 2024–25 heat waves. What institutional upgrades would future-proof it? <em>Skeleton:</em> HAPs 23+ states, Ahmedabad template → 2024 record (temperature records across Gangetic plain; wet-bulb events) → fragmentation (city/state/NDMA/IMD) → proposals: fiscal line-items for cooling (mandatory cool roofs in codes), worker protection (outdoor-shift statutes), real-time attribution science (Mission Mausam mesh), cool-shelter building-code integration.</p>
-</div>
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"Great Nicobar is a litmus test for how India reconciles strategic imperative with ecological fragility." Discuss critically. <em>Skeleton:</em> project specs (transhipment port, airport, township, 130 km²) → ecology stakes (rainforest, leatherback nesting, shompen/Nicobarese rights, tsunami zone IV-V) → strategic logic (Malacca choke, APAC logistics) → process critique (stage-l clearance timelines, revised EIA shrinks) → way forward: robust cumulative IA, tribal consent (Forest Rights Act), phased liability.</p></div></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">India pioneered a "right against adverse climate change" in 2024. Examine its enforceability and implications for environmental jurisprudence. <em>Skeleton:</em> MK Ranjitsinh (2024) holding under Arts 14×21; hastens "climate constitutionalism" → problem: remedy design (injunction vs declaration), standard-setting uncertainty (national vs mine-mouth), justiciability of NDC targets → interplay with separation-of-powers → conclude with virtue: rights-baseline for GPIE-style adjudication.</p></div></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Assess the grid of India's pollution governance: EPR everywhere? Battery/plastic/e-waste rules as a coherence story. <em>Skeleton:</em> EPR philosophy (internalising externality per BR liability) → extensions: plastic (2022), e-waste (2022), batteries (2022), tyres, oil → enforcement weaknesses (market-based certificates, opacity of credit trading) → way forward: measurement upgrades (CPCB portal + traceability), informal-sector inclusion.</p></div></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">"Belt-and-forest-outcome questions of the 2020s will be decided at the intersection of FRA 2006 and FCA 2023." Comment with reference to linear infrastructure vs tribal rights. <em>Skeleton:</em> FCA 2023 carve-outs (linear projects near borders; zoos/safaris categories; NPV rationalisation) vs FRA consent requirements → case cluster: Great Nicobar, Arunachal hydro, mining of Hasdeo → observer effects: judicial push for cumulative impact assessment → conclusion: consent-architecture will be the long-term equilibrium.</p></div></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Evaluate India's heat-action framework (HAPs) against the 2024–25 heat waves. What institutional upgrades would future-proof it? <em>Skeleton:</em> HAPs 23+ states, Ahmedabad template → 2024 record (temperature records across Gangetic plain; wet-bulb events) → fragmentation (city/state/NDMA/IMD) → proposals: fiscal line-items for cooling (mandatory cool roofs in codes), worker protection (outdoor-shift statutes), real-time attribution science (Mission Mausam mesh), cool-shelter building-code integration.</p></div></section></div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/environment-biodiversity-points.html" rel="prev">← Environment &amp;amp; Biodiversity — …</a></span>
   <a class="up" href="../../../../index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

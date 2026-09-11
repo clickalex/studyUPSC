@@ -749,9 +749,9 @@
         '<p class="text-[12px] text-slate-400">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
         openRaw(rel, 'Open PDF') +
         '</div>' +
-        '<iframe src="' + esc(rel) + '" class="w-full h-[70vh] rounded-xl border border-slate-200 dark:border-slate-700" title="' + esc(entry.file) + '"></iframe></div>',
+        '<iframe src="' + esc(rel) + '" class="w-full h-[70vh] rounded-xl border border-slate-200 dark:border-slate-700" title="' + esc(entry.file) + '"></iframe></div>' +
+        prevNextHtml(entry) + topicStripHtml(entry),
         { crumbs: crumbsForNavFromRel(entry) });
-      attachDocNav(entry);
       return;
     }
 
@@ -786,14 +786,14 @@
         openRaw(rel, entry.ext === 'html' || entry.ext === 'htm' ? 'Open HTML' : 'Open file') +
         '</div></div>' +
         '<div class="md-content px-5 sm:px-9 py-7 max-w-none">' + body + '</div></div>' +
-        prevNextHtml(entry) + '</div>' +
+        (toc ? '<details class="toc-mobile card shadow-card mt-4"><summary>On this page</summary><div class="toc-mobile-body">' + toc + '</div></details>' : '') +
+        prevNextHtml(entry) + topicStripHtml(entry) + '</div>' +
         (toc ? '<aside class="hidden lg:block"><div class="sticky top-24 card p-4 shadow-card toc-rail">' +
           '<div class="text-[10.5px] font-bold uppercase tracking-[0.14em] text-slate-400 mb-2">On this page</div>' + toc + '</div></aside>' : '') +
         '</div>';
       app.innerHTML = shell(appHtml, { crumbs: crumbsForNavFromRel(entry) });
       /* internal links/images inside the article stay inside the portal */
       rewriteInlineLinks($('.md-content'), baseDir);
-      attachDocNav(entry);
       attachReadingProgress();
       attachTocHighlight();
       /* highlight search query if any */
@@ -843,28 +843,63 @@
     return out;
   }
 
-  function attachDocNav(entry) {
-    var sameDir = INDEX.filter(function (f) { return f.dir === entry.dir && f.rel !== entry.rel; });
-    var idx = sameDir.findIndex(function (f) { return f.rel === entry.rel; });
-    var prev = idx > 0 ? sameDir[idx - 1] : null;
-    var next = idx < sameDir.length - 1 ? sameDir[idx + 1] : null;
-    var wrap = $('#doc-nav');
-    if (!wrap) return;
-    wrap.innerHTML =
-      '<div class="flex items-center justify-between gap-3 mt-4">' +
-      (prev ? '<a href="#/doc/' + encodeURIComponent(prev.rel) + '" class="btn-ghost text-[12px]">← ' + esc(shortName(prev.file)) + '</a>' : '<span></span>') +
-      (next ? '<a href="#/doc/' + encodeURIComponent(next.rel) + '" class="btn-ghost text-[12px]">' + esc(shortName(next.file)) + ' →</a>' : '') +
-      '</div>';
+  /* Sibling documents across the whole topic (all sections), ordered
+     detailed -> short -> points -> diagrams -> PYQs, so prev/next walks
+     from notes to questions instead of dead-ending in a 1-file folder. */
+  var TOPIC_SECTIONS = ['notes', 'short', 'bullets', 'diagrams', 'pyqs'];
+  var SECTION_LABEL = {
+    notes: ['📖', 'Detailed'], short: ['📝', 'Short notes'], bullets: ['🔹', 'Points'],
+    diagrams: ['🗺️', 'Diagrams'], pyqs: ['❓', 'PYQs']
+  };
+  function topicSiblings(entry) {
+    var parts = (entry.nav || '').split('/');
+    var topicNav = entry.nav || '';
+    if (parts.length > 1 && TOPIC_SECTIONS.indexOf(parts[parts.length - 1]) !== -1) {
+      topicNav = parts.slice(0, -1).join('/');
+    }
+    var order = {};
+    TOPIC_SECTIONS.forEach(function (s, i) { order[s] = i; });
+    function secOf(nav) {
+      var p = (nav || '').split('/');
+      var last = p[p.length - 1];
+      return order[last] != null ? order[last] : 99;
+    }
+    var sibs = INDEX.filter(function (f) {
+      if (f.nav === topicNav) return true;
+      if ((f.nav || '').indexOf(topicNav + '/') !== 0) return false;
+      var rest = (f.nav || '').slice(topicNav.length + 1);
+      // only direct section children — never deeper nested sub-topics
+      return rest.indexOf('/') === -1 && TOPIC_SECTIONS.indexOf(rest) !== -1;
+    });
+    sibs.sort(function (a, b) {
+      var sa = secOf(a.nav), sb = secOf(b.nav);
+      if (sa !== sb) return sa - sb;
+      return a.rel < b.rel ? -1 : 1;
+    });
+    return { topicNav: topicNav, sibs: sibs, idx: sibs.findIndex(function (f) { return f.rel === entry.rel; }) };
   }
   function prevNextHtml(entry) {
-    var sameDir = INDEX.filter(function (f) { return f.dir === entry.dir && f.rel !== entry.rel; });
-    var idx = sameDir.findIndex(function (f) { return f.rel === entry.rel; });
-    var prev = idx > 0 ? sameDir[idx - 1] : null;
-    var next = idx < sameDir.length - 1 ? sameDir[idx + 1] : null;
+    var t = topicSiblings(entry);
+    var prev = t.idx > 0 ? t.sibs[t.idx - 1] : null;
+    var next = t.idx >= 0 && t.idx < t.sibs.length - 1 ? t.sibs[t.idx + 1] : null;
     if (!prev && !next) return '';
     return '<div id="doc-nav" class="flex items-center justify-between gap-3 mt-4">' +
       (prev ? '<a href="#/doc/' + encodeURIComponent(prev.rel) + '" class="btn-ghost text-[12px]">← ' + esc(shortName(prev.file)) + '</a>' : '<span></span>') +
       (next ? '<a href="#/doc/' + encodeURIComponent(next.rel) + '" class="btn-ghost text-[12px]">' + esc(shortName(next.file)) + ' →</a>' : '') + '</div>';
+  }
+  function topicStripHtml(entry) {
+    var t = topicSiblings(entry);
+    if (t.sibs.length < 2) return '';
+    var chips = t.sibs.map(function (f) {
+      var parts = (f.nav || '').split('/');
+      var meta = SECTION_LABEL[parts[parts.length - 1]] || ['📄', humanTitle(parts[parts.length - 1])];
+      if (f.rel === entry.rel) {
+        return '<span class="topic-chip topic-chip-cur" aria-current="page">' + meta[0] + ' ' + esc(meta[1]) + '</span>';
+      }
+      return '<a class="topic-chip" href="#/doc/' + encodeURIComponent(f.rel) + '" title="' + esc(f.file) + '">' + meta[0] + ' ' + esc(meta[1]) + '</a>';
+    }).join('');
+    return '<div class="topic-strip card shadow-card mt-4"><div class="topic-strip-label">More in this topic</div>' +
+      '<div class="topic-strip-row">' + chips + '</div></div>';
   }
   function shortName(f) { return f.replace(/\.(md|txt|html?)$/i, '').replace(/[-_]/g, ' ').slice(0, 42); }
 
@@ -1393,8 +1428,34 @@
         toggleNode(cb.dataset.nav);
         return;
       }
+      /* Q&A cards inlined from documents: show/hide all answers */
+      var qaBtn = e.target.closest && e.target.closest('[data-qa]');
+      if (qaBtn) {
+        var open = qaBtn.getAttribute('data-qa') === 'show';
+        $$('.qa-a').forEach(function (d) { d.open = open; });
+        return;
+      }
       var mdInternal = e.target.closest('.md-internal');
-      if (mdInternal) { e.preventDefault(); location.hash = '#/doc/' + encodeURIComponent(mdInternal.getAttribute('href')); }
+      if (mdInternal) { e.preventDefault(); location.hash = '#/doc/' + encodeURIComponent(mdInternal.getAttribute('href')); return; }
+      /* in-page anchors (TOC rail, mobile TOC, heading links): smooth-scroll
+         instead of letting the hash router treat them as app routes */
+      var anchor = e.target.closest && e.target.closest('a[href^="#"]');
+      if (anchor) {
+        var href = anchor.getAttribute('href') || '';
+        if (href.length > 1 && href.charAt(1) !== '/') {
+          var target = document.getElementById(href.slice(1));
+          if (target) {
+            // Scroll only — the app-route hash stays untouched so reload
+            // and back/forward keep working.
+            e.preventDefault();
+            if (typeof target.scrollIntoView === 'function') {
+              try { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+              catch (err) { try { target.scrollIntoView(); } catch (e2) { /* noop */ } }
+            }
+          }
+          return;
+        }
+      }
     });
     // Keyboard: Enter/Space on expand rows
     document.addEventListener('keydown', function(e){

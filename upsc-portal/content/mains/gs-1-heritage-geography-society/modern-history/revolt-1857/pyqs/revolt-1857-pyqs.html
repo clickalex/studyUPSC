@@ -36,60 +36,155 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Revolt of 1857 — PYQs &amp;amp; Model Answers</span></nav>
-  <a class="nav-home no-print" href="../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Revolt of 1857 — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Revolt of 1857 — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="mhere">Revolt of 1857 — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/revolt-1857.html">📖 Detailed</a><a href="../short-notes/revolt-1857-revision.html">📝 Short notes</a><a href="../bullet-points/revolt-1857-mindmap.html">🔹 Points</a><a href="../diagrams/modern-india-timeline-1757-1947.svg">🗺️ Diagrams</a><a href="revolt-1857-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">☰ All</a><div class="menu-row"><a href="../bullet-points/revolt-1857-mindmap.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/revolt-1857.html">📖 Detailed</a><a class="pill" href="../short-notes/revolt-1857-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/revolt-1857-mindmap.html">🔹 Points</a><a class="pill" href="../diagrams/modern-india-timeline-1757-1947.svg">🗺️ Diagrams</a><a class="pill" href="revolt-1857-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains">Mains</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Revolt of 1857 — PYQs &amp;amp; Model Answers</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Revolt of 1857 — PYQs &amp;amp; Model Answers</span></nav>
+  <a class="nav-home no-print" href="../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../index.html">⌂ Home</a><a href="../../../../../index.html#content-mains">Mains</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society">GS I — Heritage, Geography &amp; Society</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">Revolt 1857</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">PYQs</a><span class="mhere">Revolt of 1857 — PYQs &amp;amp; Model Answers</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/revolt-1857.html">📖 Detailed</a><a href="../short-notes/revolt-1857-revision.html">📝 Short notes</a><a href="../bullet-points/revolt-1857-mindmap.html">🔹 Points</a><a href="../diagrams/modern-india-timeline-1757-1947.svg">🗺️ Diagrams</a><a href="revolt-1857-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">☰ All</a><div class="menu-row"><a href="../bullet-points/revolt-1857-mindmap.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/revolt-1857.html">📖 Detailed</a><a class="pill" href="../short-notes/revolt-1857-revision.html">📝 Short notes</a><a class="pill" href="../bullet-points/revolt-1857-mindmap.html">🔹 Points</a><a class="pill" href="../diagrams/modern-india-timeline-1757-1947.svg">🗺️ Diagrams</a><a class="pill" href="revolt-1857-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="revolt-of-1857-pyqs-model-answers">Revolt of 1857 — PYQs &amp; Model Answers</h1>
+<h1 id="revolt-of-1857-pyqs-model-answers">Revolt of 1857 — PYQs &amp; Model Answers</h1><div class="qa-toolbar no-print"><span class="qa-count">4 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <h2 id="upsc-prelims-pyqs">UPSC Prelims PYQs</h2>
-<p><strong>Q1. (2014)</strong> Which of these statements about the Revolt of 1857 is/are correct?</p>
-<ol><li>It was confined to the Bengal Army.</li><li>It spread to the Bombay and Madras Armies.</li><li>It was supported by most of the princely states.</li></ol>
-<p>Select the answer: (a) 1 only (b) 1 and 2 (c) 2 and 3 (d) None of the above</p>
-<p><strong>Model answer:</strong> <strong>(d)</strong> — The revolt was largely confined to the Bengal Army; the Bombay and Madras armies remained loyal, and only some princely states (Jhansi, Awadh) joined.</p>
-<p><strong>Q2. (2018)</strong> Who among the following was associated with the suppression of the Revolt of 1857? (a) Lord Dalhousie (b) Lord Canning (c) Lord Mayo (d) Lord Ripon</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — Canning was Governor-General (1856–58) and first Viceroy (1858–62); Dalhousie had left in 1856.</p>
-<p><strong>Q3. (2020)</strong> The Doctrine of Lapse was used to annex which of the following states?</p>
-<ol><li>Satara 2. Jhansi 3. Nagpur 4. Mysore</li></ol>
-<p>(a) 1 and 2 only (b) 1, 2 and 3 only (c) 2 and 4 only (d) 1, 2, 3 and 4</p>
-<p><strong>Model answer:</strong> <strong>(b)</strong> — Mysore was annexed in 1831 under "misgovernment" (not Doctrine of Lapse); it was restored in 1881.</p>
+
+
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span><span class="qa-tag">2014</span></div><p class="qa-text">Which of these statements about the Revolt of 1857 is/are correct?</p><p class="qa-lead">Select the answer:</p><ol class="qa-stmts"><li>It was confined to the Bengal Army.</li><li>It spread to the Bombay and Madras Armies.</li><li>It was supported by most of the princely states.</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 2</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>None of the above</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>The revolt was largely confined to the Bengal Army; the Bombay and Madras armies remained loyal, and only some princely states (Jhansi, Awadh) joined.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span><span class="qa-tag">2018</span></div><p class="qa-text">Who among the following was associated with the suppression of the Revolt of 1857?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Lord Dalhousie</span></li><li><span class="opt">(b)</span><span>Lord Canning</span></li><li><span class="opt">(c)</span><span>Lord Mayo</span></li><li><span class="opt">(d)</span><span>Lord Ripon</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Canning was Governor-General (1856–58) and first Viceroy (1858–62); Dalhousie had left in 1856.</div></details></section>
+
+
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span><span class="qa-tag">2020</span></div><p class="qa-text">The Doctrine of Lapse was used to annex which of the following states?</p><ol class="qa-stmts"><li>Satara 2. Jhansi 3. Nagpur 4. Mysore</li></ol><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2 only</span></li><li><span class="opt">(b)</span><span>1, 2 and 3 only</span></li><li><span class="opt">(c)</span><span>2 and 4 only</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Mysore was annexed in 1831 under "misgovernment" (not Doctrine of Lapse); it was restored in 1881.</div></details></section>
 <h2 id="upsc-mains-pyq">UPSC Mains PYQ</h2>
-<p><strong>Q. (2016)</strong> "The 1857 uprising was the culmination of the recurrent big and small local rebellions that had occurred in the preceding hundred years of British rule." Elucidate. <em>(12.5 marks)</em></p>
-<h3 id="model-answer-skeleton">Model answer skeleton</h3>
-<p><strong>Introduction</strong> — 1857 as the first combined challenge to Company rule, preceded by a century of local revolts: Sanyasi rebellion (1760s–1800), Chuar uprisings (1766–99), Paika rebellion (1817), Bhil revolts (1818–48), Kol uprising (1831–32), Santhal hul (1855–56), Ramosi (1822–41), and the Fakir-Sannyasi resistance.</p>
-<p><strong>Body</strong></p>
-<ol><li><strong>Common grievances across the century</strong> — dispossession of zamindars/tribal chiefs, revenue over-assessment, forest and land laws, destruction of traditional livelihoods — the same grievances that 1857 aggregated.</li><li><strong>Local → all-India scale</strong> — earlier revolts were localised (tribal belts, Bengal, Bundelkhand); 1857 linked civil + military discontent across north India with a political centre at Delhi.</li><li><strong>Differences</strong> — 1857 had a sepoy core, a Mughal symbolic head, and feudal leadership; earlier revolts were peasant/tribal without political ambition.</li><li><strong>Continuity argument</strong> — the traditions of resistance and shared memory of grievance prepared the ground; many 1857 leaders (e.g., Kunwar Singh, Rajput chiefs) came from the same dispossessed classes.</li></ol>
-<p><strong>Conclusion</strong> — While 1857 was qualitatively different in scale and organisation, it was the culmination of a century of localised resistance — hence both "culmination" and "rupture" readings are defensible; it remains the watershed that ended Company rule.</p>
-<h2 id="practice-queue">Practice queue</h2>
+
+
+
+
+
+
+<section class="qa" id="qa-m"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q</span><span class="qa-tag">2016</span></div><p class="qa-text">"The 1857 uprising was the culmination of the recurrent big and small local rebellions that had occurred in the preceding hundred years of British rule." Elucidate. <em>(12.5 marks)</em></p></div><details class="qa-a qa-model" open><summary>Model answer outline</summary><div class="a-body"><h3 id="model-answer-skeleton">Model answer skeleton</h3><p><strong>Introduction</strong> — 1857 as the first combined challenge to Company rule, preceded by a century of local revolts: Sanyasi rebellion (1760s–1800), Chuar uprisings (1766–99), Paika rebellion (1817), Bhil revolts (1818–48), Kol uprising (1831–32), Santhal hul (1855–56), Ramosi (1822–41), and the Fakir-Sannyasi resistance.</p><p><strong>Body</strong></p><ol><li><strong>Common grievances across the century</strong> — dispossession of zamindars/tribal chiefs, revenue over-assessment, forest and land laws, destruction of traditional livelihoods — the same grievances that 1857 aggregated.</li><li><strong>Local → all-India scale</strong> — earlier revolts were localised (tribal belts, Bengal, Bundelkhand); 1857 linked civil + military discontent across north India with a political centre at Delhi.</li><li><strong>Differences</strong> — 1857 had a sepoy core, a Mughal symbolic head, and feudal leadership; earlier revolts were peasant/tribal without political ambition.</li><li><strong>Continuity argument</strong> — the traditions of resistance and shared memory of grievance prepared the ground; many 1857 leaders (e.g., Kunwar Singh, Rajput chiefs) came from the same dispossessed classes.</li></ol><p><strong>Conclusion</strong> — While 1857 was qualitatively different in scale and organisation, it was the culmination of a century of localised resistance — hence both "culmination" and "rupture" readings are defensible; it remains the watershed that ended Company rule.</p></div></details></section><h2 id="practice-queue">Practice queue</h2>
 <ul><li>2023: "Revolt of 1857 — first war of independence or last stand of feudalism?"</li><li>2011: Role of Bahadur Shah Zafar in 1857</li><li>2008: Causes of the failure of 1857</li></ul>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/revolt-1857-mindmap.html" rel="prev">← Revolt of 1857 — Key Bullet Point…</a></span>
   <a class="up" href="../../../../../index.html#content-mains-gs-1-heritage-geography-society-modern-history-revolt-1857-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

@@ -83,6 +83,50 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
   a{color:#000;text-decoration:none}
   @page{margin:18mm 16mm}
 }
+</style><style>/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+@media (max-width:640px){
+.qa-q{padding:12px 13px}
+}
+@media print{
+.qa{break-inside:avoid}
+.qa-toolbar{display:none!important}
+}</style><style>/* studyupsc-book-rwd */
+.bk-top .in{flex-wrap:wrap;row-gap:6px}
+@media (max-width:640px){
+.bk-top .in{gap:10px;padding:10px 14px;font-size:12px}
+.wrap{padding:30px 16px 72px}
+h1{font-size:27px}
+.bk-hero{padding:30px 24px}
+.bk-hero h1{font-size:30px}
+.bk-nav{flex-direction:column}
+.bk-nav .r{text-align:left}
+.bk-lesson-toc a{margin:3px 10px 3px 0}
+.bk-stats{gap:16px}
+table{font-size:.82em}
+.bk-toc .num{min-width:36px}
+}
 </style></head><body>
 <div class="bk-top no-print"><div class="in">
 <a class="bk-brand" href="../index.html">study<span>UPSC</span></a>
@@ -139,8 +183,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <p><strong>Köppen's classification</strong> uses letters: A tropical, B dry, C warm temperate, D cold snow-forest, E polar, with a second letter for precipitation seasonality (f no dry season, m monsoon, w dry winter, s dry summer) and a third for temperature severity. It is empirical, based on temperature and precipitation values correlated with vegetation; <strong>Thornthwaite's</strong> scheme, by contrast, is based on <em>precipitation effectiveness</em> and potential evapotranspiration, and is considered more rational.</p>
 <blockquote><p><strong>Trap watch.</strong> Temperature rises with height in the stratosphere and thermosphere, falls in the troposphere and mesosphere; the mesopause is the coldest point. Subtropical high and subpolar low are <em>dynamically</em> induced; equatorial low and polar high are thermal. Coriolis force is zero at the equator, so cyclones cannot form there. Relative humidity falls as temperature rises with vapour content constant. Tropical cyclones have an eye and no fronts; temperate cyclones have fronts and no eye. Orographic rain falls on the windward side. The tropopause is higher at the equator than at the poles.</p></blockquote>
 <!-- END studyUPSC:expansion -->
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
@@ -154,8 +196,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Classical: differential heating (<strong>Halley</strong>), ITCZ shift (Flohn), <strong>Tibetan plateau heating</strong> (anticyclone → TEJ), <strong>subtropical westerly jet</strong> shifting north of Himalaya (~ June 1 Kerala onset), Somali low-level jet, <strong>Mascarene high</strong> (SE trades cross equator → SW), ENSO/IOD/MJO modulation. Branches: <strong>Arabian Sea</strong> (Western Ghats windward; Mumbai ~ June 10; rain shadow Deccan; Aravalli parallel → Rajasthan dry) &amp; <strong>Bay of Bengal</strong> (Meghalaya — <strong>Mawsynram/Cherrapunji</strong> funnel; deflected west by Himalaya → Ganga plain; Delhi ~ late June; Kalbaisakhi earlier). <strong>Break monsoon</strong> (trough shifts to Himalayan foothills → NE &amp; foothills rain, plains dry). Onset over Kerala normal <strong>1 June</strong>; covers India <strong>8 July</strong> (revised normal dates 2020); withdrawal from NW <strong>17 Sept</strong> (starts), from India by 15 Oct; <strong>retreating/NE monsoon</strong> Oct–Dec — TN, coastal AP, Rayalaseema, S Karnataka, Kerala (~48% TN's rain); <strong>Long Period Average 87 cm (1971–2020)</strong>; normal 96–104% LPA.</li><li>ENSO: <strong>El Niño</strong> (warm E Pacific; weak Walker; Indian drought tendency — 2023 El Niño, 2024 La Niña-neutral), <strong>La Niña</strong> (cold; good monsoon; floods); <strong>ENSO Modoki</strong>; <strong>IOD</strong> (Saji 1999; positive = warm W Indian Ocean, good for monsoon; DMI); <strong>MJO</strong> (30–60 days eastward; active phase over Indian Ocean boosts rain); <strong>Atlantic Niño</strong>; Eurasian snow cover (negative). IMD forecasts April &amp; May (MMCFS + dynamic; ensemble). Kharif sowing link.</li><li>Seasons (IMD): winter Jan–Feb (western disturbances; Jan coldest; NE trades), pre-monsoon/hot Mar–May (<strong>Loo</strong>, Kalbaisakhi, mango showers, cherry blossom; heat low over Thar; May hottest NW), SW monsoon Jun–Sep, post-monsoon/retreating Oct–Dec (Oct heat; cyclones).</li><li>Climatic regions: Köppen — India: Amw (W coast), As (Coromandel), Aw (peninsula), BShw (Rajasthan-Gujarat), BWhw (Thar), Cwg (Ganga plain), Dfc (Arunachal), E/ET (Himalaya); Thornthwaite; Trewartha; Stamp; Koeppen letters — A tropical, B dry, C warm temperate, D cold, E polar; f no dry season, m monsoon, w winter dry, s summer dry.</li></ul>
 <h3 id="traps">Traps</h3>
 <ul><li><strong>Coriolis is zero at the equator</strong> — cyclones form beyond ±5°.</li><li>Cyclone eye = <strong>subsiding air, calm</strong>; eyewall = strongest winds.</li><li>El Niño → <strong>weak</strong> Indian monsoon (tendency, not rule — 1997 was normal).</li><li>Positive IOD <strong>helps</strong> monsoon; can offset El Niño (2019).</li><li>Cherrapunji vs Mawsynram: Mawsynram wettest; both Khasi hills, Bay branch.</li><li>Extra-tropical cyclones have <strong>fronts</strong>; tropical don't.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -173,8 +213,6 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <ul><li>Drivers → ITCZ shift + Tibetan heating + jet reversal + Somali current + ENSO-IOD-MJO · onset Kerala 1 Jun ±1 week · monsoon trough breaks → dry spells.</li></ul>
 <h3 id="trap-flash">Trap flash</h3>
 <ul><li>Equator = no cyclone genesis (Coriolis ~0) — 5-degree rule.</li><li>Mawsynram > Cherrapunji in annual rainfall — order trap.</li><li>Ozone hole = Antarctic spring — not Arctic-first.</li><li>Jet streams live near tropopause — not mid-stratosphere.</li></ul>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -221,22 +259,24 @@ footer.bk{max-width:780px;margin:0 auto;padding:0 22px 60px;color:#94a3b8;font-s
 <section class="bk-sec" id="s-pyqs">
 <h2>Previous Year Questions</h2>
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
+<div class="qa-toolbar no-print"><span class="qa-count">8 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>8 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Tropical cyclones do not form within about 5° of the equator because: (a) Sea surface temperatures are too low (b) The Coriolis force is negligible (c) Wind shear is too strong (d) Humidity is insufficient</p>
-<p><strong>Q2.</strong> Consider the Tropical Easterly Jet: 1. It flows over India during the summer monsoon. 2. It results from heating of the Tibetan plateau. 3. It lies south of the Subtropical Westerly Jet. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q3.</strong> Match the local wind with its region: A. Chinook — 1. Adriatic · B. Bora — 2. Rockies · C. Harmattan — 3. West Africa (a) A-2 B-1 C-3 (b) A-1 B-2 C-3 (c) A-3 B-1 C-2 (d) A-2 B-3 C-1</p>
-<p><strong>Q4.</strong> A positive Indian Ocean Dipole is characterised by: (a) Warmer waters off Sumatra than off East Africa (b) Warmer western Indian Ocean and cooler eastern Indian Ocean (c) Uniform warming of the Indian Ocean (d) Cooling of the Arabian Sea</p>
-<p><strong>Q5.</strong> In the IMD classification, a "Very Severe Cyclonic Storm" has sustained winds of: (a) 62–88 km/h (b) 89–117 km/h (c) 118–165 km/h (d) Above 221 km/h</p>
-<p><strong>Q6.</strong> Consider the "break" in the monsoon: 1. The monsoon trough shifts to the Himalayan foothills. 2. Rainfall increases over the Ganga plains. 3. Northeast India and the foothills receive heavy rain. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q7.</strong> Which cloud type is associated with a halo around the sun or moon? (a) Cumulonimbus (b) Cirrostratus (c) Nimbostratus (d) Altocumulus</p>
-<p><strong>Q8.</strong> Temperature inversion in a valley on a clear winter night is an example of: (a) Advection inversion (b) Subsidence inversion (c) Radiation inversion (d) Frontal inversion</p>
-<h3 id="answer-key">Answer key</h3>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Tropical cyclones do not form within about 5° of the equator because:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Sea surface temperatures are too low</span></li><li><span class="opt">(b)</span><span>The Coriolis force is negligible</span></li><li><span class="opt">(c)</span><span>Wind shear is too strong</span></li><li><span class="opt">(d)</span><span>Humidity is insufficient</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>No spin without Coriolis.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Consider the Tropical Easterly Jet: 1. It flows over India during the summer monsoon. 2. It results from heating of the Tibetan plateau. 3. It lies south of the Subtropical Westerly Jet.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (d)</span>TEJ ~15° N at 150 hPa; STJ moves north of Himalaya.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Match the local wind with its region: A. Chinook — 1. Adriatic · B. Bora — 2. Rockies · C. Harmattan — 3. West Africa</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A-2 B-1 C-3</span></li><li><span class="opt">(b)</span><span>A-1 B-2 C-3</span></li><li><span class="opt">(c)</span><span>A-3 B-1 C-2</span></li><li><span class="opt">(d)</span><span>A-2 B-3 C-1</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Chinook warm, Bora cold, Harmattan dry-dusty.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">A positive Indian Ocean Dipole is characterised by:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Warmer waters off Sumatra than off East Africa</span></li><li><span class="opt">(b)</span><span>Warmer western Indian Ocean and cooler eastern Indian Ocean</span></li><li><span class="opt">(c)</span><span>Uniform warming of the Indian Ocean</span></li><li><span class="opt">(d)</span><span>Cooling of the Arabian Sea</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Positive IOD aids the Indian monsoon.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">In the IMD classification, a "Very Severe Cyclonic Storm" has sustained winds of:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>62–88 km/h</span></li><li><span class="opt">(b)</span><span>89–117 km/h</span></li><li><span class="opt">(c)</span><span>118–165 km/h</span></li><li><span class="opt">(d)</span><span>Above 221 km/h</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>118–165 km/h; super cyclone &gt;221 km/h.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Consider the "break" in the monsoon: 1. The monsoon trough shifts to the Himalayan foothills. 2. Rainfall increases over the Ganga plains. 3. Northeast India and the foothills receive heavy rain.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Plains go dry during a break.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">Which cloud type is associated with a halo around the sun or moon?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Cumulonimbus</span></li><li><span class="opt">(b)</span><span>Cirrostratus</span></li><li><span class="opt">(c)</span><span>Nimbostratus</span></li><li><span class="opt">(d)</span><span>Altocumulus</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Ice-crystal high cloud refracting light.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">Temperature inversion in a valley on a clear winter night is an example of:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Advection inversion</span></li><li><span class="opt">(b)</span><span>Subsidence inversion</span></li><li><span class="opt">(c)</span><span>Radiation inversion</span></li><li><span class="opt">(d)</span><span>Frontal inversion</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Ground cooling + katabatic drainage of cold air.</div></details></section><h3 id="answer-key">Answer key</h3>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>b</td><td>No spin without Coriolis.</td></tr><tr><td>2</td><td>d</td><td>TEJ ~15° N at 150 hPa; STJ moves north of Himalaya.</td></tr><tr><td>3</td><td>a</td><td>Chinook warm, Bora cold, Harmattan dry-dusty.</td></tr><tr><td>4</td><td>b</td><td>Positive IOD aids the Indian monsoon.</td></tr><tr><td>5</td><td>c</td><td>118–165 km/h; super cyclone &gt;221 km/h.</td></tr><tr><td>6</td><td>b</td><td>Plains go dry during a break.</td></tr><tr><td>7</td><td>b</td><td>Ice-crystal high cloud refracting light.</td></tr><tr><td>8</td><td>c</td><td>Ground cooling + katabatic drainage of cold air.</td></tr></tbody></table>
-</div>
-<footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-geomorphology.html"><span class="lb">← Previous</span>Geomorphology: Earth, Landforms &amp; Rocks</a>
 <a class="r" href="prelims-gs1-oceanography.html"><span class="lb">Next →</span>Oceanography: Currents, Tides &amp; Salinity</a>
 </nav></div>
 <footer class="bk">studyUPSC — The Complete UPSC Civil Services Book · 126 lessons · generated by cli/book.mjs</footer>
+<script>/* studyupsc-book-qa */
+(function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
 </body></html>

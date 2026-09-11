@@ -36,61 +36,156 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Economy — Prelims PYQs</span></nav>
-  <a class="nav-home no-print" href="../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Economy — Prelims PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Economy — Prelims PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="mhere">Indian Economy — Prelims PYQs</span><div class="menu-sec">In this topic</div><a href="../short-notes/economy-prelims-revision.html">📝 Short notes</a><a href="economy-prelims-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-gs1-economy">☰ All</a><div class="menu-row"><a href="../short-notes/economy-prelims-revision.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../short-notes/economy-prelims-revision.html">📝 Short notes</a><a class="pill" href="economy-prelims-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-gs1-economy">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Economy — Prelims PYQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><span class="sep" aria-hidden="true">›</span><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Indian Economy — Prelims PYQs</span></nav>
+  <a class="nav-home no-print" href="../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../index.html">⌂ Home</a><a href="../../../../index.html#content-prelims">Prelims</a><a href="../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../index.html#content-prelims-gs1-economy">Economy</a><a href="../../../../index.html#content-prelims-gs1-economy-pyqs">PYQs</a><span class="mhere">Indian Economy — Prelims PYQs</span><div class="menu-sec">In this topic</div><a href="../short-notes/economy-prelims-revision.html">📝 Short notes</a><a href="economy-prelims-pyqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../index.html#content-prelims-gs1-economy">☰ All</a><div class="menu-row"><a href="../short-notes/economy-prelims-revision.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../short-notes/economy-prelims-revision.html">📝 Short notes</a><a class="pill" href="economy-prelims-pyqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../index.html#content-prelims-gs1-economy">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="indian-economy-prelims-pyqs">Indian Economy — Prelims PYQs</h1>
+<h1 id="indian-economy-prelims-pyqs">Indian Economy — Prelims PYQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>Macro-patterned; answers original; cross-check live CA before exam.</p></blockquote>
-<p><strong>Q1.</strong> Which correctly describes the components of <strong>revenue deficit</strong>? (a) Total expenditure minus total receipts (b) Revenue expenditure minus revenue receipts (c) Fiscal deficit minus interest payments (d) Capital expenditure minus capital receipts</p>
-<p><strong>Model answer:</strong> (b). Fiscal deficit uses total figures; (c) is primary deficit.</p>
-<p><strong>Q2.</strong> The MPC's inflation target band as of March 2031 framework is: (a) 2% ± 1% (b) 4% ± 2% (c) 5% ± 1% (d) 6% point-target</p>
-<p><strong>Model answer:</strong> (b). 4% ± 2% band, extended via 2025 government notification through FY30-31.</p>
-<p><strong>Q3.</strong> Which tool drains liquidity without explicit collateral transfer to the RBI? (a) Repo (b) Reverse repo (c) Standing Deposit Facility (SDF) (d) MSF</p>
-<p><strong>Model answer:</strong> (c). SDF (introduced April 2022) absorbs liquidity without collateral — floor of the LAF corridor.</p>
-<p><strong>Q4.</strong> [PYQ-pattern] The national-income accounting base year in India currently is: (a) 2004–05 (b) 2011–12 (c) 2017–18 series prevailing (d) 1993–94</p>
-<p><strong>Model answer:</strong> (b). Quick check, avoid the distractor "2017-18" revision debates — actual series remains 2011–12.</p>
-<p><strong>Q5.</strong> NARCL refers to: (a) National Asset Reconstruction Company — the government-backed bad bank (b) National Aadhaar Registry for Credit Lines (c) National Agricultural Recovery Cooperative Ltd (d) Naval Arsenal Research Command Lab</p>
-<p><strong>Model answer:</strong> (a). Incorporated 2021; aggregates large NPAs; IDRCL handles resolution.</p>
-<p><strong>Q6.</strong> After 2019–20 public-sector bank consolidation, the count of PSBs fell to: (a) 10 (b) 12 (c) 18 (d) 21</p>
-<p><strong>Model answer:</strong> (b). From 27 (2017) to 12 by April 2020 mergers.</p>
-<p><strong>Q7.</strong> LIBOR/ORR regime transitions in India have moved to: (a) MIBOR exclusively (b) T-bill benchmark (c) CRISIL policy rate (d) Modified MIFOR abolished / fallback to ARR-style references</p>
-<p><strong>Model answer:</strong> (a)–(d) trap: <strong>correct framing</strong> = Indian markets standardized MIBOR as the primary overnight benchmark post-LIBOR; MIFOR being wound down. For exam safety: pick (a).</p>
-<p><strong>Q8.</strong> The "divisible pool" of taxes shares between centre and states excludes: (a) Personal income tax (b) Cesses and surcharges (c) Corporation tax (d) Customs duty</p>
-<p><strong>Model answer:</strong> (b). Cesses/surcharges are centre-exclusive — a classic federalism friction point.</p>
-<p><strong>Q9.</strong> Which statement on India’s forex reserve record is correct as per 2024–25 data? (a) Reserves never crossed $600 bn (b) Reserves peaked near $704 bn (~Oct 2024) (c) Reserves are counted in SDR only (d) RBI does not hold gold within reserves</p>
-<p><strong>Model answer:</strong> (b). RBI holds gold within reserves; statements (c) and (d) are false.</p>
-<p><strong>Q10.</strong> Under IBC (2016, as amended), the corporate insolvency resolution process standard timeline is: (a) 90 days (b) 180 days extendable by 90 (c) 330 days absolute hard limit including litigation (d) No time limit</p>
-<p><strong>Model answer:</strong> (c). 180 + 90 extensible; Supreme Court/Amendment clarified outer limit 330 days including litigation (2019 amendment; 2020 Essar-related articulation).</p>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Which correctly describes the components of <strong>revenue deficit</strong>?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Total expenditure minus total receipts</span></li><li><span class="opt">(b)</span><span>Revenue expenditure minus revenue receipts</span></li><li><span class="opt">(c)</span><span>Fiscal deficit minus interest payments</span></li><li><span class="opt">(d)</span><span>Capital expenditure minus capital receipts</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Fiscal deficit uses total figures; (c) is primary deficit.</div></details></section>
+
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">The MPC's inflation target band as of March 2031 framework is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>2% ± 1%</span></li><li><span class="opt">(b)</span><span>4% ± 2%</span></li><li><span class="opt">(c)</span><span>5% ± 1%</span></li><li><span class="opt">(d)</span><span>6% point-target</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>4% ± 2% band, extended via 2025 government notification through FY30-31.</div></details></section>
+
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">Which tool drains liquidity without explicit collateral transfer to the RBI?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Repo</span></li><li><span class="opt">(b)</span><span>Reverse repo</span></li><li><span class="opt">(c)</span><span>Standing Deposit Facility (SDF)</span></li><li><span class="opt">(d)</span><span>MSF</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>SDF (introduced April 2022) absorbs liquidity without collateral — floor of the LAF corridor.</div></details></section>
+
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">[PYQ-pattern] The national-income accounting base year in India currently is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>2004–05</span></li><li><span class="opt">(b)</span><span>2011–12</span></li><li><span class="opt">(c)</span><span>2017–18 series prevailing</span></li><li><span class="opt">(d)</span><span>1993–94</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Quick check, avoid the distractor "2017-18" revision debates — actual series remains 2011–12.</div></details></section>
+
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">NARCL refers to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>National Asset Reconstruction Company — the government-backed bad bank</span></li><li><span class="opt">(b)</span><span>National Aadhaar Registry for Credit Lines</span></li><li><span class="opt">(c)</span><span>National Agricultural Recovery Cooperative Ltd</span></li><li><span class="opt">(d)</span><span>Naval Arsenal Research Command Lab</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Incorporated 2021; aggregates large NPAs; IDRCL handles resolution.</div></details></section>
+
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">After 2019–20 public-sector bank consolidation, the count of PSBs fell to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>10</span></li><li><span class="opt">(b)</span><span>12</span></li><li><span class="opt">(c)</span><span>18</span></li><li><span class="opt">(d)</span><span>21</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>From 27 (2017) to 12 by April 2020 mergers.</div></details></section>
+
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">LIBOR/ORR regime transitions in India have moved to:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>MIBOR exclusively</span></li><li><span class="opt">(b)</span><span>T-bill benchmark</span></li><li><span class="opt">(c)</span><span>CRISIL policy rate</span></li><li><span class="opt">(d)</span><span>Modified MIFOR abolished / fallback to ARR-style references</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>(d) trap: <strong>correct framing</strong> = Indian markets standardized MIBOR as the primary overnight benchmark post-LIBOR; MIFOR being wound down. For exam safety: pick (a).</div></details></section>
+
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">The "divisible pool" of taxes shares between centre and states excludes:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Personal income tax</span></li><li><span class="opt">(b)</span><span>Cesses and surcharges</span></li><li><span class="opt">(c)</span><span>Corporation tax</span></li><li><span class="opt">(d)</span><span>Customs duty</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Cesses/surcharges are centre-exclusive — a classic federalism friction point.</div></details></section>
+
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">Which statement on India’s forex reserve record is correct as per 2024–25 data?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Reserves never crossed $600 bn</span></li><li><span class="opt">(b)</span><span>Reserves peaked near $704 bn (~Oct 2024)</span></li><li><span class="opt">(c)</span><span>Reserves are counted in SDR only</span></li><li><span class="opt">(d)</span><span>RBI does not hold gold within reserves</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>RBI holds gold within reserves; statements (c) and (d) are false.</div></details></section>
+
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Under IBC (2016, as amended), the corporate insolvency resolution process standard timeline is:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>90 days</span></li><li><span class="opt">(b)</span><span>180 days extendable by 90</span></li><li><span class="opt">(c)</span><span>330 days absolute hard limit including litigation</span></li><li><span class="opt">(d)</span><span>No time limit</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>180 + 90 extensible; Supreme Court/Amendment clarified outer limit 330 days including litigation (2019 amendment; 2020 Essar-related articulation).</div></details></section>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../short-notes/economy-prelims-revision.html" rel="prev">← Indian Economy — Prelims Rapid Re…</a></span>
   <a class="up" href="../../../../index.html#content-prelims-gs1-economy-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>

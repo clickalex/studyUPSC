@@ -36,53 +36,148 @@ hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 @media print{body{background:#fff}.card{border:none;padding:0}.no-print{display:none}}
 </style>
-<style>/* studyupsc-scr-nav */
-header .wrap{align-items:center}
-a.brand{color:var(--ink);text-decoration:none}
-a.brand:hover{color:#b45309}
+<style>/* studyupsc-site-chrome-v2 */
+header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
+header.site a.brand:hover{color:#b45309}
 .crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
 .crumbs .sep{color:#cbd5e1}
+.crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
+.crumbs-short{display:none}
 .nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.menu{display:none;position:relative;margin-left:auto}
+.menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
+.menu summary::-webkit-details-marker{display:none}
+.menu summary:hover{border-color:#f59e0b}
+.menu[open] summary{border-color:#f59e0b;background:#fffbeb}
+.menu-panel{position:absolute;right:0;top:calc(100% + 8px);width:min(330px,84vw);max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 44px -18px rgba(15,23,42,.35);padding:12px 14px;font-size:13px}
+.menu-sec{font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;margin:10px 0 6px}
+.menu-sec:first-child{margin-top:0}
+.menu-panel a{display:block;color:var(--sub);text-decoration:none;padding:5px 8px;border-radius:8px}
+.menu-panel a:hover{background:#fffbeb;color:#b45309}
+.menu-panel a.here{color:var(--ink);font-weight:700}
+.menu-panel .mhere{display:block;padding:5px 8px;color:var(--ink);font-weight:700}
+.menu-row{display:flex;gap:8px;margin-top:10px}
+.menu-row a{flex:1;text-align:center;border:1px solid var(--line);font-weight:600;color:#b45309}
+div.topic-nav{border-bottom:1px solid var(--line);background:#fff}
+div.topic-in{display:flex;gap:8px;align-items:center;overflow-x:auto;padding-top:9px;padding-bottom:9px;scrollbar-width:thin}
+.topic-label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;white-space:nowrap;flex:none}
+.pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;flex:none;font-size:12.5px;font-weight:600;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;background:#f8fafc}
+a.pill:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff;text-decoration:none}
+.pill[aria-current="page"]{background:#0f172a;color:#fff;border-color:#0f172a}
+.pill.idx{border-style:dashed;background:#fff}
 .pager{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:40px;font-size:13px;color:var(--sub)}
 .pager a{color:#b45309;text-decoration:none;font-weight:600}
 .pager a:hover{text-decoration:underline}
 .pager .up{color:var(--sub)}
 .pager .dim{color:#cbd5e1}
+h1[id],h2[id],h3[id],h4[id]{scroll-margin-top:120px}
+/* studyupsc-qa-cards */
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-count{font-weight:800;color:var(--ink)}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
+.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
+.qa-q{padding:14px 16px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
+.qa-text{margin:.3em 0}
+.qa-lead{margin:.5em 0 .2em;font-weight:600}
+ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
+.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
+.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary::-webkit-details-marker{display:none}
+.qa-a summary::before{content:"\25B8 "}
+.qa-a[open] summary::before{content:"\25BE "}
+.qa-a .a-body{padding:0 16px 14px;font-size:.95em}
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+.to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s;box-shadow:0 10px 24px -10px rgba(15,23,42,.5)}
+.to-top.on{opacity:1;pointer-events:auto;transform:none}
+a.to-top:hover{color:#fbbf24;text-decoration:none}
+@media (max-width:760px){
+.crumbs-full{display:none}
+.crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
+.crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crumbs-short a{white-space:nowrap}
+.nav-home{margin-left:0}
+.nav-home .t{display:none}
+.menu{display:block}
+header.site .head-in{gap:10px;flex-wrap:nowrap}
+.card{padding:22px 18px}
+.wrap{padding:24px 14px 64px}
+div.topic-in{padding-top:8px;padding-bottom:8px}
+h1{font-size:22px}
+h2{font-size:18px}
+.pager{flex-direction:column;align-items:stretch;text-align:center}
+.pager .up{order:-1}
+.qa-q{padding:12px 13px}
+.to-top{right:12px;bottom:12px}
+}
+@media (max-width:480px){
+.crumbs-short a:not(:first-child),.crumbs-short .sep{display:none}
+.crumbs-short .here{max-width:46vw}
+header.site .head-in{gap:8px}
+.topic-label{display:none}
+}
+@media print{
+header.site{position:static}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.qa{break-inside:avoid}
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
+<header class="site"><div class="wrap head-in">
   <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance">Polity Governance</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt">Organs Govt</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Union &amp;amp; State Executive — Practice MCQs</span></nav>
-  <a class="nav-home no-print" href="../../../../../../index.html">📚 All files</a>
-</div></header>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance">Polity Governance</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt">Organs Govt</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Union &amp;amp; State Executive — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Union &amp;amp; State Executive — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance">Polity Governance</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt">Organs Govt</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="mhere">Union &amp;amp; State Executive — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/executive-detailed.html">📖 Detailed</a><a href="../short-notes/executive-notes.html">📝 Short notes</a><a href="../bullet-points/executive-points.html">🔹 Points</a><a href="../diagrams/president-powers.svg">🗺️ Diagrams</a><a href="executive-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">☰ All</a><div class="menu-row"><a href="../bullet-points/executive-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/executive-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/executive-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/executive-points.html">🔹 Points</a><a class="pill" href="../diagrams/president-powers.svg">🗺️ Diagrams</a><a class="pill" href="executive-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">☰ All</a></div></div>
+<header class="site"><div class="wrap head-in">
+  <a class="brand" href="../../../../../../../index.html">study<span>UPSC</span></a>
+  <nav class="crumbs crumbs-full" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims">Prelims</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance">Polity Governance</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt">Organs Govt</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Union &amp;amp; State Executive — Practice MCQs</span></nav>
+  <nav class="crumbs crumbs-short" aria-label="Breadcrumb"><a href="../../../../../../../index.html">Home</a><span class="sep" aria-hidden="true">›</span><span class="ell" aria-hidden="true">…</span><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><span class="sep" aria-hidden="true">›</span><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="sep" aria-hidden="true">›</span><span class="here">Union &amp;amp; State Executive — Practice MCQs</span></nav>
+  <a class="nav-home no-print" href="../../../../../../index.html">📚 <span class="t">All files</span></a>
+  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary><div class="menu-panel"><div class="menu-sec">Page trail</div><a href="../../../../../../../index.html">⌂ Home</a><a href="../../../../../../index.html#content-prelims">Prelims</a><a href="../../../../../../index.html#content-prelims-gs1">GS Paper I</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance">Polity Governance</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt">Organs Govt</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">Executive</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">PYQs</a><span class="mhere">Union &amp;amp; State Executive — Practice MCQs</span><div class="menu-sec">In this topic</div><a href="../detailed-notes/executive-detailed.html">📖 Detailed</a><a href="../short-notes/executive-notes.html">📝 Short notes</a><a href="../bullet-points/executive-points.html">🔹 Points</a><a href="../diagrams/president-powers.svg">🗺️ Diagrams</a><a href="executive-mcqs.html" class="here" aria-current="page">❓ PYQs</a><a href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">☰ All</a><div class="menu-row"><a href="../bullet-points/executive-points.html">← Prev</a></div></div></details>
+</div></header><div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">This topic</span><a class="pill" href="../detailed-notes/executive-detailed.html">📖 Detailed</a><a class="pill" href="../short-notes/executive-notes.html">📝 Short notes</a><a class="pill" href="../bullet-points/executive-points.html">🔹 Points</a><a class="pill" href="../diagrams/president-powers.svg">🗺️ Diagrams</a><a class="pill" href="executive-mcqs.html" aria-current="page">❓ PYQs</a><a class="pill idx" href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive">☰ All</a></div></div>
 <div class="wrap"><div class="card">
-<h1 id="union-state-executive-practice-mcqs">Union &amp; State Executive — Practice MCQs</h1>
+<h1 id="union-state-executive-practice-mcqs">Union &amp; State Executive — Practice MCQs</h1><div class="qa-toolbar no-print"><span class="qa-count">10 questions</span><button type="button" data-qa="show">Show all answers</button><button type="button" data-qa="hide">Hide all</button></div>
 <blockquote><p>10 original prelims-pattern questions; key with one-line reasoning at the end.</p></blockquote>
-<p><strong>Q1.</strong> Who among the following participate in the election of the President of India? 1. Nominated members of the Rajya Sabha 2. Elected members of the Legislative Assembly of Puducherry 3. Members of Legislative Councils 4. Elected members of the Lok Sabha (a) 2 and 4 (b) 1, 2 and 4 (c) 2, 3 and 4 (d) 1, 2, 3 and 4</p>
-<p><strong>Q2.</strong> Consider the impeachment of the President: 1. The charge must be signed by at least one-fourth of the members of the House initiating it. 2. The resolution must be passed by two-thirds of the members present and voting. 3. Nominated members of Parliament can participate in the process. (a) 1 and 2 (b) 1 and 3 (c) 2 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q3.</strong> The pardoning power of the Governor under Article 161 differs from that of the President under Article 72 in that the Governor: (a) Cannot commute a sentence of death (b) Cannot pardon a sentence of death or a sentence by court martial (c) Can pardon only sentences of imprisonment up to seven years (d) Must obtain the concurrence of the High Court</p>
-<p><strong>Q4.</strong> Consider the Vice-President: 1. He is elected by an electoral college consisting of members of both Houses of Parliament including nominated members. 2. He can be removed by a resolution of the Rajya Sabha passed by an effective majority and agreed to by the Lok Sabha. 3. The Constitution specifies the grounds for his removal. (a) 1 and 2 (b) 2 and 3 (c) 1 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q5.</strong> The 91st Amendment (2003) provides that the total number of ministers in a state, including the Chief Minister, shall not exceed 15% of the strength of the Legislative Assembly, subject to a minimum of: (a) 7 (b) 10 (c) 12 (d) 15</p>
-<p><strong>Q6.</strong> Which of the following are situations where the Governor must reserve a bill for the President's consideration? (a) Any bill dealing with a State List subject (b) A bill that derogates from the powers of the High Court so as to endanger its constitutional position (c) Any money bill (d) Any bill passed by a Legislative Council</p>
-<p><strong>Q7.</strong> A Legislative Council can be created or abolished in a state by: (a) A constitutional amendment under Article 368 with ratification by half the states (b) An Act of Parliament passed by simple majority after the state assembly passes a resolution by special majority (c) A Presidential order on the Governor's recommendation (d) A resolution of the state assembly alone</p>
-<p><strong>Q8.</strong> The Attorney General of India: 1. Must be qualified to be a judge of the Supreme Court. 2. Has the right to take part in proceedings of both Houses of Parliament and to vote. 3. Is barred from private legal practice. (a) 1 only (b) 1 and 2 (c) 2 and 3 (d) 1, 2 and 3</p>
-<p><strong>Q9.</strong> In <em>Perarivalan</em> (2022) the Supreme Court held that: (a) The Governor's power under Article 161 is to be exercised on the advice of the state Council of Ministers (b) Only the President can remit sentences in cases investigated by the CBI (c) Life imprisonment means imprisonment for 14 years (d) Death sentences may be commuted only by the President</p>
-<p><strong>Q10.</strong> Consider the State Council of Ministers: 1. A Minister for Tribal Welfare is constitutionally mandated in Chhattisgarh, Jharkhand, Madhya Pradesh and Odisha. 2. The Council is collectively responsible to the Legislative Council where one exists. 3. A person disqualified under the Tenth Schedule cannot be appointed a minister. (a) 1 and 3 (b) 2 and 3 (c) 1 and 2 (d) 1, 2 and 3</p>
-<h2 id="answer-key">Answer key</h2>
+
+<section class="qa" id="qa-1"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q1</span></div><p class="qa-text">Who among the following participate in the election of the President of India? 1. Nominated members of the Rajya Sabha 2. Elected members of the Legislative Assembly of Puducherry 3. Members of Legislative Councils 4. Elected members of the Lok Sabha</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>2 and 4</span></li><li><span class="opt">(b)</span><span>1, 2 and 4</span></li><li><span class="opt">(c)</span><span>2, 3 and 4</span></li><li><span class="opt">(d)</span><span>1, 2, 3 and 4</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Nominated members and MLCs are excluded.</div></details></section>
+<section class="qa" id="qa-2"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q2</span></div><p class="qa-text">Consider the impeachment of the President: 1. The charge must be signed by at least one-fourth of the members of the House initiating it. 2. The resolution must be passed by two-thirds of the members present and voting. 3. Nominated members of Parliament can participate in the process.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>1 and 3</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Two-thirds of total membership, not present and voting.</div></details></section>
+<section class="qa" id="qa-3"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q3</span></div><p class="qa-text">The pardoning power of the Governor under Article 161 differs from that of the President under Article 72 in that the Governor:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Cannot commute a sentence of death</span></li><li><span class="opt">(b)</span><span>Cannot pardon a sentence of death or a sentence by court martial</span></li><li><span class="opt">(c)</span><span>Can pardon only sentences of imprisonment up to seven years</span></li><li><span class="opt">(d)</span><span>Must obtain the concurrence of the High Court</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Governor may suspend, remit or commute death but not pardon it.</div></details></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">Consider the Vice-President: 1. He is elected by an electoral college consisting of members of both Houses of Parliament including nominated members. 2. He can be removed by a resolution of the Rajya Sabha passed by an effective majority and agreed to by the Lok Sabha. 3. The Constitution specifies the grounds for his removal.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 2</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>No grounds specified in the Constitution.</div></details></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">The 91st Amendment (2003) provides that the total number of ministers in a state, including the Chief Minister, shall not exceed 15% of the strength of the Legislative Assembly, subject to a minimum of:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>7</span></li><li><span class="opt">(b)</span><span>10</span></li><li><span class="opt">(c)</span><span>12</span></li><li><span class="opt">(d)</span><span>15</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>Delhi (10%) and some small states have separate provisions.</div></details></section>
+<section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">Which of the following are situations where the Governor must reserve a bill for the President's consideration?</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>Any bill dealing with a State List subject</span></li><li><span class="opt">(b)</span><span>A bill that derogates from the powers of the High Court so as to endanger its constitutional position</span></li><li><span class="opt">(c)</span><span>Any money bill</span></li><li><span class="opt">(d)</span><span>Any bill passed by a Legislative Council</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Art 200 second proviso.</div></details></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">A Legislative Council can be created or abolished in a state by:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>A constitutional amendment under Article 368 with ratification by half the states</span></li><li><span class="opt">(b)</span><span>An Act of Parliament passed by simple majority after the state assembly passes a resolution by special majority</span></li><li><span class="opt">(c)</span><span>A Presidential order on the Governor's recommendation</span></li><li><span class="opt">(d)</span><span>A resolution of the state assembly alone</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>Art 169 — not deemed an amendment.</div></details></section>
+<section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">The Attorney General of India: 1. Must be qualified to be a judge of the Supreme Court. 2. Has the right to take part in proceedings of both Houses of Parliament and to vote. 3. Is barred from private legal practice.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 only</span></li><li><span class="opt">(b)</span><span>1 and 2</span></li><li><span class="opt">(c)</span><span>2 and 3</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Can speak in Parliament but not vote; private practice allowed with restrictions.</div></details></section>
+<section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">In <em>Perarivalan</em> (2022) the Supreme Court held that:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>The Governor's power under Article 161 is to be exercised on the advice of the state Council of Ministers</span></li><li><span class="opt">(b)</span><span>Only the President can remit sentences in cases investigated by the CBI</span></li><li><span class="opt">(c)</span><span>Life imprisonment means imprisonment for 14 years</span></li><li><span class="opt">(d)</span><span>Death sentences may be commuted only by the President</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Governor bound by Cabinet advice under Art 161.</div></details></section>
+<section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">Consider the State Council of Ministers: 1. A Minister for Tribal Welfare is constitutionally mandated in Chhattisgarh, Jharkhand, Madhya Pradesh and Odisha. 2. The Council is collectively responsible to the Legislative Council where one exists. 3. A person disqualified under the Tenth Schedule cannot be appointed a minister.</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>1 and 3</span></li><li><span class="opt">(b)</span><span>2 and 3</span></li><li><span class="opt">(c)</span><span>1 and 2</span></li><li><span class="opt">(d)</span><span>1, 2 and 3</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (a)</span>Collectively responsible to the Legislative Assembly only.</div></details></section><h2 id="answer-key">Answer key</h2>
 <table><thead><tr><th>Q</th><th>Ans</th><th>Why</th></tr></thead><tbody><tr><td>1</td><td>a</td><td>Nominated members and MLCs are excluded.</td></tr><tr><td>2</td><td>b</td><td>Two-thirds of total membership, not present and voting.</td></tr><tr><td>3</td><td>b</td><td>Governor may suspend, remit or commute death but not pardon it.</td></tr><tr><td>4</td><td>a</td><td>No grounds specified in the Constitution.</td></tr><tr><td>5</td><td>c</td><td>Delhi (10%) and some small states have separate provisions.</td></tr><tr><td>6</td><td>b</td><td>Art 200 second proviso.</td></tr><tr><td>7</td><td>b</td><td>Art 169 — not deemed an amendment.</td></tr><tr><td>8</td><td>a</td><td>Can speak in Parliament but not vote; private practice allowed with restrictions.</td></tr><tr><td>9</td><td>a</td><td>Governor bound by Cabinet advice under Art 161.</td></tr><tr><td>10</td><td>a</td><td>Collectively responsible to the Legislative Assembly only.</td></tr></tbody></table>
 </div>
 <footer class="pager no-print">
-  <span><span class="dim">Start</span></span>
+  <span><a href="../bullet-points/executive-points.html" rel="prev">← Executive — Bullet Points</a></span>
   <a class="up" href="../../../../../../index.html#content-prelims-gs1-polity-governance-organs-govt-executive-pyqs">↑ PYQs · all files</a>
   <span><span class="dim">End</span></span>
 </footer>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <!-- studyupsc-site-nav -->
+<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script>/* studyupsc-chrome-js */
+(function(){try{var t=document.querySelector('.to-top');if(t){var f=function(){t.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();t.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
+</script>
+<!-- studyupsc-chrome-v2 -->
 </body>
 </html>
