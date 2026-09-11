@@ -34,7 +34,7 @@ const section = (t) => console.log('\n' + t);
 function walk(dir, base = dir) {
   const out = [];
   for (const e of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
-    if (e.name === '.DS_Store') continue;
+    if (e.name === '.DS_Store' || e.name === 'node_modules' || e.name === '.git') continue;
     const abs = path.join(dir, e.name);
     if (e.isDirectory()) out.push(...walk(abs, base));
     else out.push({ abs, rel: path.relative(base, abs).split(path.sep).join('/') });
@@ -164,10 +164,11 @@ const catalogPath = path.join(CONTENT, 'index.html');
 if (!fs.existsSync(catalogPath)) fail('content/index.html catalog missing');
 else {
   const cat = fs.readFileSync(catalogPath, 'utf8');
-  const links = [...cat.matchAll(/<li><a href="([^"]+\.html)"/g)].map(m => m[1]);
+  const links = [...cat.matchAll(/<a [^>]*href="([^"]+\.html)"/g)].map(m => m[1]);
   const uniq = new Set(links);
-  if (uniq.size === docs.length) ok(`catalog links all ${docs.length} documents`);
-  else fail(`catalog links ${uniq.size} documents, expected ${docs.length}`);
+  const missingDocs = docs.filter((d) => !uniq.has(d.replace(/^content\//, '')));
+  if (missingDocs.length === 0) ok(`catalog links all ${docs.length} documents (${uniq.size} unique hrefs)`);
+  else fail(`catalog missing ${missingDocs.length} documents, e.g. ${missingDocs[0]}`);
   if (/Markdown/.test(cat)) fail('catalog still mentions Markdown');
   else ok('catalog is Markdown-free');
 }
