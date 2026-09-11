@@ -207,9 +207,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -218,6 +227,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -243,10 +267,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -270,6 +300,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -360,16 +394,66 @@ ${l.next ? `<a class="r" href="${l.next.id}.html"><span class="lb">Next →</spa
 }
 
 /* ---------- contents / front matter ------------------------------------- */
-const tocHtml = parts.map(p => `
-<div class="part" id="part-${p.id}">
-  <p class="bk-eyebrow">Part ${p.roman}${p.stage ? ' · ' + esc(p.stage) : ''}</p>
-  <h3>${esc(p.title)}</h3>
-  <div class="tag">${esc(p.tag || p.summary || '')}</div>
-  ${p.chapters.map(c => `<div class="chap">
-    <div class="ct">Chapter ${c.number} — ${esc(c.title)}</div>
-    <ol>${c.lessons.map(l => `<li><a href="lesson/${l.id}.html" data-nav="${esc(l.nav)}"><span class="num">${l.number}</span><span>${esc(l.title)}</span><span class="pg">p.${l.page}</span></a></li>`).join('')}</ol>
-  </div>`).join('')}
-</div>`).join('');
+const partDetail = (p, hrefOf) => {
+  const lCount = p.chapters.reduce((a, c) => a + c.lessons.length, 0);
+  return `
+<details class="part" id="part-${p.id}" data-default="${p.no === 1 ? 'open' : ''}"${p.no === 1 ? ' open' : ''}>
+  <summary>
+    <span class="pnum">Part ${p.roman}${p.stage ? ' · ' + esc(p.stage) : ''}</span>
+    <span class="ptitle">${esc(p.title)}</span>
+    <span class="pmeta">${p.chapters.length} chapter${p.chapters.length === 1 ? '' : 's'} · ${lCount} lessons</span>
+  </summary>
+  <div class="pbody">
+    <div class="tag">${esc(p.tag || p.summary || '')}</div>
+    ${p.chapters.map(c => `<div class="chap">
+      <div class="ct">Chapter ${c.number} — ${esc(c.title)}</div>
+      <ol>${c.lessons.map(l => `<li><a href="${hrefOf(l)}" data-nav="${esc(l.nav)}"><span class="num">${l.number}</span><span>${esc(l.title)}</span><span class="pg">p.${l.page}</span></a></li>`).join('')}</ol>
+    </div>`).join('')}
+  </div>
+</details>`;
+};
+const tocHtml = parts.map(p => partDetail(p, l => `lesson/${l.id}.html`)).join('');
+
+const TOC_TOOLBAR = `<div class="bk-tfilter no-print">
+  <input id="bk-q" type="search" placeholder="Filter lessons…" aria-label="Filter lessons" autocomplete="off">
+  <span id="bk-c" aria-live="polite"></span>
+  <span class="sp"></span>
+  <button type="button" id="bk-expand">Expand all</button>
+  <button type="button" id="bk-collapse">Collapse all</button>
+</div>`;
+
+const TOC_SCRIPT = `<script>/* studyupsc-book-toc */
+(function(){try{
+var q=document.getElementById('bk-q'),c=document.getElementById('bk-c');
+if(!q)return;
+var parts=Array.prototype.slice.call(document.querySelectorAll('.bk-toc details.part'));
+var ex=document.getElementById('bk-expand'),co=document.getElementById('bk-collapse');
+function vis(el){return el.style.display!=='none';}
+function apply(){
+  var s=q.value.trim().toLowerCase();var n=0;
+  parts.forEach(function(p){
+    var hits=0;
+    Array.prototype.forEach.call(p.querySelectorAll('li'),function(li){
+      var hit=!s||li.textContent.toLowerCase().indexOf(s)!==-1;
+      li.style.display=hit?'':'none';
+      if(hit)hits++;
+    });
+    Array.prototype.forEach.call(p.querySelectorAll('.chap'),function(ch){
+      var v=false;
+      Array.prototype.forEach.call(ch.querySelectorAll('li'),function(li){if(vis(li))v=true;});
+      ch.style.display=v?'':'none';
+    });
+    if(!s){p.style.display='';p.open=p.getAttribute('data-default')==='open';}
+    else{p.style.display=hits?'':'none';p.open=true;}
+    n+=hits;
+  });
+  if(c)c.textContent=s?(n+' lesson'+(n===1?'':'s')):'';
+}
+var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(apply,60);});
+if(ex)ex.addEventListener('click',function(){parts.forEach(function(p){p.open=true;});});
+if(co)co.addEventListener('click',function(){parts.forEach(function(p){p.open=false;});});
+}catch(e){}})();
+</script>`;
 
 const frontBody = `<div class="wrap wide">
   <img class="bk-cover" src="../assets/book/img/cover.png" alt="Cover — The Complete UPSC Civil Services Book">
@@ -393,7 +477,10 @@ const frontBody = `<div class="wrap wide">
   <p class="no-print">Reading in order? Tap <b>✓ Mark complete</b> at the top of each lesson — finished lessons get ticked ✓ here, and progress syncs with the <a href="../app.html#/tracker">portal tracker</a>. On question sections, press <b>🎯 Quiz me</b> to hide every answer and test yourself.</p>
 
   <h2>Table of Contents</h2>
+  <p class="bk-mini">Tap a part to expand it, or filter the 126 lessons with the search box. Finished lessons are ticked ✓ automatically.</p>
+  ${TOC_TOOLBAR}
   <div class="bk-toc">${tocHtml}</div>
+  ${TOC_SCRIPT}
 </div>`;
 
 fs.writeFileSync(path.join(BOOK, 'index.html'), page({
@@ -412,16 +499,17 @@ const editionParts = parts.map(p => `
 ${p.chapters.map(c => `<h1>Chapter ${c.number} — ${esc(c.title)}</h1>
 ${c.lessons.map(l => lessonBody(l, { standalone: false })).join('\n<hr>\n')}`).join('\n')}`).join('\n');
 
-const editionToc = parts.map(p => `<div class="part"><p class="bk-eyebrow">Part ${p.roman}</p><h3>${esc(p.title)}</h3>
-${p.chapters.map(c => `<div class="chap"><div class="ct">Chapter ${c.number} — ${esc(c.title)}</div>
-<ol>${c.lessons.map(l => `<li><a href="#lesson-${l.id}"><span class="num">${l.number}</span><span>${esc(l.title)}</span><span class="pg">p.${l.page}</span></a></li>`).join('')}</ol></div>`).join('')}</div>`).join('');
+const editionToc = parts.map(p => partDetail(p, l => `#lesson-${l.id}`)).join('');
 
 const editionBody = `<div class="wrap">
 <img class="bk-cover" src="../assets/book/img/cover.png" alt="">
 <div class="bk-hero"><p class="bk-eyebrow">Single-file print edition</p>
 <h1>The Complete UPSC Civil Services Book</h1>
 <p>${allLessons.length} lessons · ${parts.length} parts · approximately ${totalPages} printed pages. Use Print → Save as PDF.</p></div>
-<h2>Table of Contents</h2><div class="bk-toc">${editionToc}</div>
+<h2>Table of Contents</h2>
+${TOC_TOOLBAR}
+<div class="bk-toc">${editionToc}</div>
+${TOC_SCRIPT}
 ${editionParts}
 </div>`;
 

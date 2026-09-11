@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -230,17 +264,17 @@ table{font-size:.82em}
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
-<h3 id="one-liner">One-liner</h3>
+<div class="su-recap"><h3 id="one-liner">⚡ One-liner</h3>
 <p>First major uprising against British rule (started 10 May 1857, Meerut) — ended Company rule; Crown took over in 1858.</p>
-<h3 id="causes-memory-hook-p-e-s-m">Causes (memory hook: P-E-S-M)</h3>
+</div><div class="su-recap"><h3 id="causes-memory-hook-p-e-s-m">⚡ Causes (memory hook: P-E-S-M)</h3>
 <ul><li><strong>P</strong>olitical — Doctrine of Lapse, Awadh annexation (1856)</li><li><strong>E</strong>conomic — ruin of artisans, heavy revenue, dispossession of talukdars</li><li><strong>S</strong>ocio-religious — greased cartridges, missionary fears, Sati abolition</li><li><strong>M</strong>ilitary — loss of batta, General Service Enlistment Act (1856), no promotions</li></ul>
-<h3 id="key-figures-match">Key figures (match)</h3>
+</div><h3 id="key-figures-match">Key figures (match)</h3>
 <table><thead><tr><th>Leader</th><th>Centre</th></tr></thead><tbody><tr><td>Bahadur Shah Zafar</td><td>Delhi</td></tr><tr><td>Nana Sahib / Tantia Tope</td><td>Kanpur</td></tr><tr><td>Begum Hazrat Mahal</td><td>Lucknow</td></tr><tr><td>Rani Lakshmibai</td><td>Jhansi (with Hugh Rose as suppressor)</td></tr><tr><td>Kunwar Singh</td><td>Arrah, Bihar</td></tr><tr><td>Khan Bahadur Khan</td><td>Bareilly</td></tr><tr><td>Mangal Pandey</td><td>Barrackpore (34th NI, 29 Mar 1857)</td></tr></tbody></table>
 <h3 id="why-it-failed">Why it failed</h3>
-<p>No all-India leadership · limited spread (Punjab/Bombay/Bengal calm) · modern intelligentsia opposed · feudal rivalries · British resources + telegraph/railways.</p>
-<h3 id="consequences-memory-hook-c-a-r-p-p">Consequences (memory hook: C-A-R-P-P)</h3>
+<ul class="su-facts"><li>No all-India leadership</li><li>limited spread (Punjab/Bombay/Bengal calm)</li><li>modern intelligentsia opposed</li><li>feudal rivalries</li><li>British resources + telegraph/railways.</li></ul>
+<div class="su-recap"><h3 id="consequences-memory-hook-c-a-r-p-p">⚡ Consequences (memory hook: C-A-R-P-P)</h3>
 <ul><li><strong>C</strong>rown rule — GoI Act 1858, Secretary of State + Viceroy</li><li><strong>A</strong>rmy reorganisation — fewer Indians, artillery European-only, martial-race theory</li><li><strong>R</strong>eligion — Queen's Proclamation promised non-interference</li><li><strong>P</strong>rincely states — breakwater; Doctrine of Lapse ended</li><li><strong>P</strong>olicy of Divide &amp; Rule begins; racial distance grows</li></ul>
-<h3 id="most-asked-pyq-angles">Most-asked PYQ angles</h3>
+</div><h3 id="most-asked-pyq-angles">Most-asked PYQ angles</h3>
 <ol><li>"Sepoy mutiny or first war of independence?" — quote Savarkar vs Majumdar vs Marxists</li><li>Causes: political + socio-religious (with examples)</li><li>Role of Rani Lakshmibai / significance of Delhi</li><li>Consequences: army, policy changes, 1858 Act</li></ol>
 </section>
 <section class="bk-sec" id="s-bullets">

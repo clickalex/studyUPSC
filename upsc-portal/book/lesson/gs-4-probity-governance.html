@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -238,7 +272,7 @@ table{font-size:.82em}
 <h3 id="working-definition">Working definition</h3>
 <p>Probity = confirmed integrity in public life: compliance with law + adherence to moral standards + procedural correctness in decision-making. Adjacent to: rectitude (uprightness in complex pressures), propriety (process-legitimacy).</p>
 <h3 id="instrument-lattice">Instrument lattice</h3>
-<ul><li>Transparency: <strong>RTI 2005</strong> (Sec 4 proactive disclosure; ICs; 2019 amendments debates on tenure), audit trails, public dashboards (GeM statistics, CPGRAMS), electoral-funding transparency (post-Electoral-Bonds-struck Feb 2024 — disclosure vacuum = live question).</li><li>Accountability stacks: hierarchical (departmental enquiries), legal (courts, PC Act), professional (CVC/ICAD style reviews), political (parliamentary committees, question hour), social (social audits, gram sabhas, media).</li><li>Anti-corruption: PC Act 1988 (+2018), PMLA 2002, CBI under DSPE frame + CVC supervision; ED actor footprint; annual FIU-IND red-flags on suspicious transactions.</li><li>Ombudsmanry: Lokpal Act 2013 (chair &amp; members appointed; pending criticisms), state Lokayuktas (Karnataka/Kerala/Maharashtra models varied effectiveness).</li><li>Preventive design: Integrity Pacts + IEMs; e-procurement (CPPP/GeM); faceless tax assessment; digital DBT; lottery-based allotments where discretion is risky (petrol pumps, ration depots); Smart-city &amp; ULB dashboards.</li></ul>
+<ul><li>Transparency: <strong>RTI 2005</strong> (Sec 4 proactive disclosure; ICs; 2019 amendments debates on tenure), audit trails, public dashboards (GeM statistics, CPGRAMS), electoral-funding transparency (post-Electoral-Bonds-struck Feb 2024 — disclosure vacuum = live question).</li><li>Accountability stacks: hierarchical (departmental enquiries), legal (courts, PC Act), professional (CVC/ICAD style reviews), political (parliamentary committees, question hour), social (social audits, gram sabhas, media).</li><li>Anti-corruption: PC Act 1988 (+2018), PMLA 2002, CBI under DSPE frame + CVC supervision; ED actor footprint; annual FIU-IND red-flags on suspicious transactions.</li><li>Ombudsmanry: Lokpal Act 2013 (chair &amp; members appointed; pending criticisms), state Lokayuktas (Karnataka/Kerala/Maharashtra models varied effectiveness).</li><li>Preventive design: Integrity Pacts + IEMs</li><li>e-procurement (CPPP/GeM)</li><li>faceless tax assessment</li><li>digital DBT</li><li>lottery-based allotments where discretion is risky (petrol pumps, ration depots)</li><li>Smart-city &amp;</li><li>ULB dashboards.</li></ul>
 <h3 id="information-sharing-transparency-debates">Information-sharing &amp; transparency debates</h3>
 <ul><li>Transparency vs confidentiality tension: trade-negotiation secrecy (RCEP-era debates), defence acquisitions, cabinet collective confidentiality, RTI exemptions (Sec 8 list: sovereignty, security, foreign relations, commercial confidence, personal privacy etc).</li><li>Privacy overlap: DPDP Act 2023 State-processing carve-outs; section-8(1)(j) RTI-privacy balance rewritten by DPDP — litigation trajectory.</li><li>Open-government data files: data.gov.in, NSO releases, NFHS modules.</li></ul>
 <h3 id="corruption-phenomenology-pyq-word-bank">Corruption phenomenology (PYQ word-bank)</h3>
@@ -246,9 +280,11 @@ table{font-size:.82em}
 <h3 id="ethical-leadership-in-organisations">Ethical leadership in organisations</h3>
 <ul><li>"Tone at the top" + "mood in middle" + "buzz at bottom" (Jack Welch-era phrasing flexibility); role-modelling, protected-dissent channels, ethics committees, ethics-curricula induction.</li></ul>
 <h3 id="case-chunks-for-exams">Case-chunks for exams</h3>
-<ul><li>Procurement probity example: COVID-vaccine/oxygen procurement 2021 panels &amp; pricing disclosures; electoral-bonds struck → funding-transparency unfinished; Aadhaar-enabled DBT savings claims (~₹2.7 lakh crore 2014-23) with exclusion counter-claims; GeM's cartel-detection analytics.</li></ul>
-<h3 id="one-liners">One-liners</h3>
+<ul><li>Procurement probity example: COVID-vaccine/oxygen procurement 2021 panels &amp;</li><li>pricing disclosures</li><li>electoral-bonds struck</li><li>funding-transparency unfinished</li><li>Aadhaar-enabled DBT savings claims (~₹2.7 lakh crore 2014-23) with exclusion counter-claims</li><li>GeM's cartel-detection analytics.</li></ul>
+<div class="su-recap"><h3 id="one-liners">⚡ One-liners</h3>
 <ul><li>"Probity = legality + morality + auditability."</li><li>"Transparency without intelligibility is noise."</li><li>Nolan-7 as the seven-checkpoint pre-decision drill.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -270,9 +306,9 @@ table{font-size:.82em}
 <ul><li>Conduct = floor: dos/don'ts, gifts, conflicts, political activity limits.</li><li>Ethics = ceiling: values that guide where rules are silent.</li><li>Nolan 7: selflessness, integrity, objectivity, accountability, openness, honesty, leadership.</li></ul>
 <h3 id="funds-and-work-culture">Funds and work culture</h3>
 <ul><li>March-rush spending and idle balances = probity failure of planning.</li><li>Service quality = charter standards + grievance closure + capability (SEVOTTAM trio).</li><li>Social audit (MGNREGA §17) = citizen's eye institutionalised.</li></ul>
-<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<div class="su-recap"><h3 id="golden-phrase-bank">⚡ Golden phrase bank</h3>
 <ul><li>"Probity is integrity with an audit trail."</li><li>"Sunlight is the best disinfectant; design is the best architecture."</li><li>"Corruption is monopoly plus discretion minus accountability."</li></ul>
-<h3 id="pitfall-flags">Pitfall flags</h3>
+</div><h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Don't cite wrong years (RTI 2005, not 2004; Lokpal 2013, not 2011).</li><li>Don't treat e-governance as sufficient — pair technology with accountability.</li></ul>
 </section>
 <section class="bk-sec" id="s-diagrams">
@@ -355,13 +391,13 @@ table{font-size:.82em}
 <h3 id="mains-theory-questions-with-model-skeletons">Mains theory questions with model skeletons</h3>
 
 
-<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Integrity is a virtue; probity is its audit trail." Discuss the concept of probity and the philosophical basis of governance founded on it. (150 words)</p><p class="qa-text"><em>Skeleton:</em> define probity (demonstrated, auditable integrity) → philosophical basis: trust/office-as-trust, Kautilyan rajadharma, constitutional equality → instruments: declarations, audits, RTI → conclusion: probity converts private virtue into public assurance.</p></div></section>
+<section class="qa" id="qa-4"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q4</span></div><p class="qa-text">"Integrity is a virtue; probity is its audit trail." Discuss the concept of probity and the philosophical basis of governance founded on it. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> define probity (demonstrated, auditable integrity)</li><li>philosophical basis: trust/office-as-trust, Kautilyan rajadharma, constitutional equality</li><li>instruments: declarations, audits, RTI</li><li>conclusion: probity converts private virtue into public assurance.</li></ul></div></section>
 
-<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">RTI has moved India from secrecy-dossier governance to disclosure-default governance. Assess its contribution to probity, with its limitations. (150 words)</p><p class="qa-text"><em>Skeleton:</em> contribution: exposes selective benefit, deters (fear of exposure), enables social audit → limitations: dilutions (CIC vacancies), exemptions misuse, information ≠ accountability without consequence machinery → strengthening: data-protection balance, proactive disclosure u/s 4 → conclusion.</p></div></section>
+<section class="qa" id="qa-5"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q5</span></div><p class="qa-text">RTI has moved India from secrecy-dossier governance to disclosure-default governance. Assess its contribution to probity, with its limitations. (150 words)</p><ul class="su-facts"><li><em>Skeleton:</em> contribution: exposes selective benefit, deters (fear of exposure), enables social audit</li><li>limitations: dilutions (CIC vacancies), exemptions misuse, information ≠ accountability without consequence machinery</li><li>strengthening: data-protection balance, proactive disclosure u/s 4</li><li>conclusion.</li></ul></div></section>
 
 <section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">"Corruption is monopoly plus discretion minus accountability." Suggest a three-verb strategy — reduce, raise, raise — with examples. (150 words)</p><p class="qa-text"><em>Skeleton:</em> Klitgaard formula → reduce discretion (e-auctions, DBT), raise detection (analytics, CAG performance audits, social audit), raise deterrence (fast courts, forfeiture) + integrity supply (training, fair posting policy) → conclusion.</p></div></section>
 
-<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">You head procurement. A minister's office phones asking to "re-examine" a completed e-auction won by the lowest bidder, favouring another firm. What are the probity issues and your course of action? (250 words)</p><p class="qa-text"><em>Skeleton:</em> issues: political interference, fairness to bidders, Article 14 equality, precedent → options: comply (fatal to probity), stall silently (opacity), record the call, reaffirm tender rules in writing, offer re-tender only on documented legal defect, brief superior &amp; audit-readiness → safeguards: preserve e-auction logs, involve independent committee → conclusion: courteous firmness; the file defends the officer.</p></div></section>
+<section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">You head procurement. A minister's office phones asking to "re-examine" a completed e-auction won by the lowest bidder, favouring another firm. What are the probity issues and your course of action? (250 words)</p><ul class="su-facts"><li><em>Skeleton:</em> issues: political interference, fairness to bidders, Article 14 equality, precedent</li><li>options: comply (fatal to probity), stall silently (opacity), record the call, reaffirm tender rules in writing, offer re-tender only on documented legal defect, brief superior &amp; audit-readiness</li><li>safeguards: preserve e-auction logs, involve independent committee</li><li>conclusion: courteous firmness; the file defends the officer.</li></ul></div></section>
 </section><nav class="bk-nav no-print">
 <a href="gs-4-public-service-values.html"><span class="lb">← Previous</span>Public/Civil Service Values &amp; Ethics in Public Administration</a>
 <a class="r" href="gs-4-case-studies.html"><span class="lb">Next →</span>Case Studies (classroom &amp; exam case analysis)</a>

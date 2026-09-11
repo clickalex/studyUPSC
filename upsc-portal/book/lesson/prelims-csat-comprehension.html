@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -184,14 +218,14 @@ table{font-size:.82em}
 <ul><li><strong>Main idea / central argument</strong> — topic sentence + conclusion synthesis; the answer that covers ALL paragraphs, not one.</li><li><strong>Inference</strong> — must follow from text (necessary, not merely possible); test: would the author agree? Is there textual support?</li><li><strong>Fact vs opinion</strong> — verifiable statements vs judgement words (regrettably, unfortunately).</li><li><strong>Vocabulary-in-context</strong> — replace and re-read; context beats dictionary meaning.</li><li><strong>Tone-author attitude</strong> — critical-cautious-neutral-advocacy clusters; adjectives give it away.</li></ul>
 <h3 id="method">2. Method (3-pass)</h3>
 <ul><li>Pass 1 — read the questions (not options fully): know what to hunt.</li><li>Pass 2 — read passage at 80% speed: mark topic sentences, contrast pivots (but, however, yet), qualifiers (only, most, some, may).</li><li>Pass 3 — eliminate: kill extreme-language options (always, never, only), outside-scope additions, and reversals of the claim; choose the least-exaggerated supported option.</li></ul>
-<h3 id="traps">3. Trap taxonomy</h3>
+<div class="su-recap"><h3 id="traps">⚡ Trap taxonomy</h3>
 <ul><li><strong>Reversal</strong> — answer states the opposite of the claim.</li><li><strong>Sweeping generalisation</strong> — 'all X' where text says 'most X'.</li><li><strong>New-fact injection</strong> — plausible world-knowledge the passage never states (CSAT tests the passage, not your GK).</li><li><strong>Wrong-extent</strong> — right idea, overstated scope.</li><li><strong>Half-true pair options</strong> — options like '1 and 2 only' need per-statement verification: treat each numbered claim separately.</li></ul>
-<h3 id="worked">4. Worked micro-example</h3>
+</div><h3 id="worked">3. Worked micro-example</h3>
 <blockquote><p>Passage line: 'Most digital payments have reduced petty corruption, though some studies find displacement rather than reduction.' Question: inference → correct = 'evidence on digital payments and corruption is mixed'; traps = 'digital payments eliminate corruption' (overstated), 'studies reject payment benefits' (reversal), 'corruption is falling everywhere' (new fact).</p></blockquote>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>Question-first reading saves a full re-read — exam technique, not literary skill.</li><li>Contrast pivots carry the author's real claim — sentences after 'but' are question magnets.</li><li>Extreme adverbs (always-never-only) mark wrong options 90% of the time.</li><li>Inference = necessary support; possibility ≠ inference.</li><li>Tone = adjective audit — collect the author's evaluative words.</li></ul>
 <!-- BEGIN studyUPSC:expansion -->
-<h3 id="cp-deep-1">6. What the Comprehension Section Actually Tests</h3>
+</div><h3 id="cp-deep-1">4. What the Comprehension Section Actually Tests</h3>
 <p>Reading comprehension is the single largest component of CSAT, typically supplying <strong>25 to 30 of the 80 questions</strong>, and since 2015 the paper has been <strong>qualifying at 33%</strong> — that is, 66 marks out of 200. That qualifying status changes the optimal strategy entirely: the aim is not maximisation but <strong>assured clearance with minimum time and risk</strong>. A candidate who reliably converts comprehension alone is already close to the threshold, which is why this section deserves disproportionate practice.</p>
 <p>Note first what the section does <em>not</em> test. It does not test prior knowledge, current affairs, or your opinion. The single most common cause of error among well-read aspirants is answering from <strong>background knowledge</strong> rather than from the passage. If a passage asserts something you know to be factually contestable, the correct answer still follows the passage. The instruction "according to the passage" is not decorative.</p>
 <p>What it does test is the ability to identify:</p>
@@ -205,7 +239,7 @@ table{font-size:.82em}
 </ul>
 <p>Passage sources are predictable in character: philosophical and ethical reflection, governance and administration, environment and development, economics and social policy, science and society, and occasionally literary or abstract prose. The abstract, argumentative passages are the difficult ones, and they reward slow reading of the <em>logical connectives</em> rather than fast skimming.</p>
 
-<h3 id="cp-deep-2">7. The Inference Question and How Options Are Made Wrong</h3>
+<h3 id="cp-deep-2">5. The Inference Question and How Options Are Made Wrong</h3>
 <p>Most comprehension errors are option-elimination failures rather than reading failures. Examiners construct distractors along a small number of recurring patterns, and learning to name the pattern converts a guess into an elimination.</p>
 <table>
 <thead><tr><th>Distractor type</th><th>How to recognise it</th></tr></thead>
@@ -223,7 +257,7 @@ table{font-size:.82em}
 <p>A useful discipline is the <strong>negation test</strong> for assumption questions and the <strong>"must be true" test</strong> for inference: ask whether the option <em>could</em> be false while the passage remains entirely true. If it could, it is not a valid inference. Similarly, for "the author would most likely agree with" questions, the answer must be traceable to a specific line, not to the general drift.</p>
 <p>Watch particularly for the passages ending with a question stem such as "Which of the following is the most logical and rational inference?" — here <strong>only one</strong> option will be strictly derivable; the others will be sensible policy opinions. UPSC deliberately rewards logical restraint over enthusiasm.</p>
 
-<h3 id="cp-deep-3">8. Method, Time Management and Practice Design</h3>
+<h3 id="cp-deep-3">6. Method, Time Management and Practice Design</h3>
 <p><strong>A working method.</strong> Read the passage <em>first</em> for short and medium passages, since scanning question stems beforehand fragments attention on prose that is only 100 to 300 words long. For long, dense passages, a quick glance at the stems can direct attention. Read actively: mark the <strong>connectives</strong> — <em>however, although, nevertheless, therefore, moreover, in contrast, consequently</em> — because they carry the logical architecture. In most argumentative passages, the sentence after "however" or "yet" contains the author's actual position, and the material before it is the view being rejected. Identify, in one mental sentence, "the author is arguing that ____ because ____." If you can complete that sentence, main idea, tone and purpose questions all resolve at once.</p>
 <p>Then approach each question by <strong>predicting the answer before reading the options</strong>. This is the single most effective defence against attractive distractors: a prediction gives you a standard against which options are compared rather than a menu among which you are persuaded. Eliminate on the named patterns above, and where two options survive, prefer the one that is narrower and better supported.</p>
 <p><strong>Time management.</strong> With 80 questions in 120 minutes, the nominal budget is 90 seconds per question, but comprehension should be run faster than that average on short passages to bank time for quantitative and reasoning sets. A workable allocation is roughly 55–60 minutes for comprehension, 35–40 for reasoning and 20–25 for numeracy, adjusted to your strengths. Make <strong>two passes</strong>: in the first, attempt every short and medium passage and skip long or abstract ones; in the second, return to what was skipped. Never let a single obstinate passage consume ten minutes — the marginal question is worth exactly as much as an easy one, and CSAT carries <strong>negative marking of one-third</strong>, so a genuinely blind guess is negative in expectation. A guess between two surviving options, however, has positive expected value and should be taken.</p>
@@ -262,14 +296,16 @@ table{font-size:.82em}
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Method flash.</p></blockquote>
-<h3 id="method-flash">Method flash</h3>
+<div class="su-recap"><h3 id="method-flash">⚡ Method flash</h3>
 <ul><li>Questions first → passage second → elimination third.</li><li>Topic sentences + contrast pivots (but-however-yet) = claim carriers.</li><li>Qualifiers (only-most-some-may) decide right-extent.</li></ul>
-<h3 id="type-flash">Type flash</h3>
+</div><div class="su-recap"><h3 id="type-flash">⚡ Type flash</h3>
 <ul><li>Main idea = covers all paragraphs · inference = necessary support · fact ≠ opinion · vocab = replace-and-reread · tone = adjective audit.</li></ul>
-<h3 id="trap-flash">Trap flash</h3>
+</div><div class="su-recap"><h3 id="trap-flash">⚡ Trap flash</h3>
 <ul><li>Reversal · sweeping generalisation · new-fact injection · wrong-extent · half-true pair options.</li><li>Extreme words (always-never-only) → usually wrong.</li><li>CSAT tests the passage — outside GK is a trap, not a tool.</li></ul>
-<h3 id="speed-flash">Speed flash</h3>
+</div><div class="su-recap"><h3 id="speed-flash">⚡ Speed flash</h3>
 <ul><li>Budget ~90 sec/question; skip-and-return on 1-and-2-only types.</li><li>Least-wrong beats blank (no negative-marking gamble logic — CSAT qualifying 33%).</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -323,7 +359,7 @@ table{font-size:.82em}
 <h3 id="set-2">Set 2</h3>
 <section class="qa" id="qa-6"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q6</span></div><p class="qa-text">'Critics call the dam a lifeline; displaced communities call it a loss.' The passage presents:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>pro-dam position</span></li><li><span class="opt">(b)</span><span>anti-dam position</span></li><li><span class="opt">(c)</span><span>two contesting perspectives</span></li><li><span class="opt">(d)</span><span>government position</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (c)</span>(two-sided framing)</div></details></section><section class="qa" id="qa-7"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q7</span></div><p class="qa-text">'Sleep deprivation impairs judgement more than hunger, studies suggest.' Inference:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>hunger has no effect</span></li><li><span class="opt">(b)</span><span>judgement is affected more by lack of sleep than by lack of food</span></li><li><span class="opt">(c)</span><span>sleep is irrelevant</span></li><li><span class="opt">(d)</span><span>studies are wrong</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(comparative impairment)</div></details></section><section class="qa" id="qa-8"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q8</span></div><p class="qa-text">'The scheme succeeded in districts with active panchayats; elsewhere, gains were marginal.' Passage suggests success depended on:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>scheme design</span></li><li><span class="opt">(b)</span><span>local institutional engagement</span></li><li><span class="opt">(c)</span><span>central funding</span></li><li><span class="opt">(d)</span><span>weather</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(active panchayats = local institutions)</div></details></section><section class="qa" id="qa-9"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q9</span></div><p class="qa-text">'Reform, however gradual, outperforms revolution, the author argues, because institutions learn slowly.' Author prefers:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>abrupt overhaul</span></li><li><span class="opt">(b)</span><span>incremental reform</span></li><li><span class="opt">(c)</span><span>no change</span></li><li><span class="opt">(d)</span><span>external imposition</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(gradual reform argument)</div></details></section><section class="qa" id="qa-10"><div class="qa-q"><div class="qa-head"><span class="qa-badge">Q10</span></div><p class="qa-text">'Digital literacy is necessary but not sufficient for financial inclusion.' Statement analysis:</p><ol class="qa-opts"><li><span class="opt">(a)</span><span>digital literacy guarantees inclusion</span></li><li><span class="opt">(b)</span><span>inclusion needs digital literacy plus more</span></li><li><span class="opt">(c)</span><span>digital literacy is irrelevant</span></li><li><span class="opt">(d)</span><span>inclusion is impossible</span></li></ol></div><details class="qa-a"><summary>Show answer</summary><div class="a-body"><span class="ans">Correct: (b)</span>(necessary ≠ sufficient).</div></details></section>
 <h3 id="answers">Answers</h3>
-<p><strong>1-b</strong> (concrete ⇒ less absorption) · <strong>2-c</strong> (concession + concern = balanced caution) · <strong>3-b</strong> (visible neighbour success = peer effect) · <strong>4-c</strong> (data awaited) · <strong>5-b</strong> (5−2 = 3 unfulfilled) · <strong>6-c</strong> (two-sided framing) · <strong>7-b</strong> (comparative impairment) · <strong>8-b</strong> (active panchayats = local institutions) · <strong>9-b</strong> (gradual reform argument) · <strong>10-b</strong> (necessary ≠ sufficient).</p>
+<ul class="su-facts"><li><strong>1-b</strong> (concrete ⇒ less absorption)</li><li><strong>2-c</strong> (concession + concern = balanced caution)</li><li><strong>3-b</strong> (visible neighbour success = peer effect)</li><li><strong>4-c</strong> (data awaited)</li><li><strong>5-b</strong> (5−2 = 3 unfulfilled)</li><li><strong>6-c</strong> (two-sided framing)</li><li><strong>7-b</strong> (comparative impairment)</li><li><strong>8-b</strong> (active panchayats = local institutions)</li><li><strong>9-b</strong> (gradual reform argument)</li><li><strong>10-b</strong> (necessary ≠ sufficient).</li></ul>
 <blockquote><p>Reattempt after a week; mark every trap type you fell for (reversal-extent-new-fact).</p></blockquote>
 </section><nav class="bk-nav no-print">
 <a href="prelims-gs1-ai-it.html"><span class="lb">← Previous</span>AI, IT, Semiconductors &amp; Quantum</a>

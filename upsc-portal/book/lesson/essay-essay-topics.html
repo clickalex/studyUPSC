@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -245,9 +279,9 @@ table{font-size:.82em}
 <h3 id="topic-selection-in-90-seconds">Topic selection in 90 seconds</h3>
 <ul><li>Read all options; shortlist two; ask of each: Can I supply <strong>4+ dimensions</strong>? <strong>6+ varied examples</strong>? A <strong>balanced thesis</strong>?</li><li>Choose breadth over depth: essays reward dimension-spanning, not expertise.</li><li>Reject topics that tempt a single-story script (pure biography, pure statistics).</li></ul>
 <h3 id="angle-generators-when-mind-goes-blank">Angle generators (when mind goes blank)</h3>
-<ul><li>Historical → present → future arc.</li><li>Individual → family → society → state → globe zoom-out.</li><li>Thesis → antithesis → synthesis.</li><li>Economic · political · social · ethical · environmental (the five-lens sweep).</li></ul>
+<ul><li>Historical → present → future arc.</li><li>Individual</li><li>family</li><li>society</li><li>state</li><li>globe zoom-out.</li><li>Thesis → antithesis → synthesis.</li><li>Economic</li><li>political</li><li>social</li><li>ethical</li><li>environmental (the five-lens sweep).</li></ul>
 <h3 id="ten-second-drill">Ten-second drill</h3>
-<ul><li>For any prompt, speak for 60 seconds: definition → two dimensions → one example each → stance. Practise 5 prompts daily in the last month.</li></ul>
+<ul><li>For any prompt, speak for 60 seconds: definition</li><li>two dimensions</li><li>one example each</li><li>stance. Practise 5 prompts daily in the last month.</li></ul>
 </section>
 <section class="bk-sec" id="s-bullets">
 <h2>Key Points &amp; Mindmap</h2>
@@ -269,8 +303,10 @@ table{font-size:.82em}
 <ul><li>5 minutes of outlining beats 30 minutes of mid-essay drift.</li><li>Map example slots first (intro anecdote, 2 data anchors, 2 scheme examples, 1 thinker, 1 counter-case).</li><li>End-of-outline test: would my section titles alone tell a coherent story?</li></ul>
 <h3 id="pitfall-flags">Pitfall flags</h3>
 <ul><li>Don't pick the rarefied philosophical prompt to show off — execution risk is high.</li><li>Don't switch topics after 20 minutes — the sunk-cost rewrite never finishes.</li><li>Never argue with the prompt's premise rudely; engage it generously.</li></ul>
-<h3 id="golden-phrase-bank">Golden phrase bank</h3>
+<div class="su-recap"><h3 id="golden-phrase-bank">⚡ Golden phrase bank</h3>
 <ul><li>"The essay is decided in the reading, written in the outline, and merely typed in the answer sheet."</li><li>"Pick the topic you can spread, not the one you can recite."</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
@@ -332,7 +368,7 @@ table{font-size:.82em}
 <p class="bk-sec-lead">What the examiner has actually asked.</p>
 <blockquote><p>How UPSC's essay paper has behaved, and drills to internalise it. Prompts below are pattern-descriptions for practice, not verbatim reproductions.</p></blockquote>
 <h3 id="observed-patterns-in-the-essay-paper">Observed patterns in the essay paper</h3>
-<ul><li><strong>Structure</strong>: two sections, four topics each; one to be written; 125 marks ×2; 3 hours.</li><li><strong>Section 1 skews philosophical/abstract</strong> ("…state of mind", "…journey", paired concepts); <strong>Section 2 skews concrete-governance</strong> (tech, economy, environment, gender).</li><li><strong>Recurrence</strong>: technology-and-human (multiple years), women's empowerment as process, local-vs-global tension, "hand-holding vs hand-out" development debates, self-mastery themes.</li><li><strong>What changed recently</strong>: prompts got shorter and more paradoxical — a premium on definitional clarity in the introduction.</li></ul>
+<ul><li><strong>Structure</strong>: two sections, four topics each</li><li>one to be written</li><li>125 marks ×2</li><li>3 hours.</li><li><strong>Section 1 skews philosophical/abstract</strong> ("…state of mind", "…journey", paired concepts); <strong>Section 2 skews concrete-governance</strong> (tech, economy, environment, gender).</li><li><strong>Recurrence</strong>: technology-and-human (multiple years), women's empowerment as process, local-vs-global tension, "hand-holding vs hand-out" development debates, self-mastery themes.</li><li><strong>What changed recently</strong>: prompts got shorter and more paradoxical — a premium on definitional clarity in the introduction.</li></ul>
 <h3 id="practice-prompts-pattern-style">Practice prompts (pattern-style)</h3>
 <ol>
 <li>"Contentment is the seed of ambition, not its enemy." — philosophical pair.</li>

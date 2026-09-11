@@ -48,9 +48,18 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-stats b{display:block;font-size:26px;color:var(--gold);font-weight:800;line-height:1.1}
 .bk-stats span{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#94a3b8;font-weight:700}
 .bk-toc{font-family:Inter,system-ui,sans-serif}
-.bk-toc .part{margin:34px 0 0;padding:20px 22px;background:#fff;border:1px solid var(--line);border-radius:16px}
-.bk-toc .part>h3{margin:0 0 2px;font-size:19px;font-family:"Source Serif 4",Georgia,serif}
-.bk-toc .part>.tag{font-size:12px;color:var(--sub);margin-bottom:12px}
+.bk-toc details.part{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:70px}
+.bk-toc details.part>summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;padding:16px 22px;user-select:none}
+.bk-toc details.part>summary::-webkit-details-marker{display:none}
+.bk-toc details.part>summary::before{content:"▸";color:var(--gold);font-size:13px;transition:transform .15s}
+.bk-toc details.part[open]>summary::before{transform:rotate(90deg)}
+.bk-toc details.part>summary:hover{background:#fff7ed}
+.bk-toc details.part[open]>summary{background:#fffdf5;border-bottom:1px dashed var(--line)}
+.bk-toc details.part>summary .pnum{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.bk-toc details.part>summary .ptitle{font-size:19px;font-family:"Source Serif 4",Georgia,serif;font-weight:700}
+.bk-toc details.part>summary .pmeta{margin-left:auto;font-size:11.5px;color:var(--sub);font-weight:600;white-space:nowrap}
+.bk-toc details.part .pbody{padding:2px 22px 18px}
+.bk-toc details.part .tag{font-size:12px;color:var(--sub);margin:10px 0 12px}
 .bk-toc .chap{margin:14px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .bk-toc .chap>.ct{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:6px}
 .bk-toc ol{list-style:none;padding:0;margin:0}
@@ -59,6 +68,21 @@ hr{border:none;border-top:1px solid var(--line);margin:2em 0}
 .bk-toc li a:hover{background:#fff7ed;color:var(--accent)}
 .bk-toc .num{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:800;font-size:12px;min-width:44px}
 .bk-toc .pg{margin-left:auto;color:#94a3b8;font-size:11.5px;font-variant-numeric:tabular-nums}
+.bk-tfilter{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:26px 0 0;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input{flex:1;min-width:200px;max-width:340px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-size:13px;background:#fff;color:var(--ink);outline:none;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter input:focus{border-color:var(--gold);background:#fffbeb}
+.bk-tfilter #bk-c{font-size:11.5px;color:var(--sub);white-space:nowrap}
+.bk-tfilter .sp{flex:1}
+.bk-tfilter button{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;cursor:pointer;font-family:Inter,system-ui,sans-serif}
+.bk-tfilter button:hover{border-color:var(--gold);color:var(--accent)}
+/* tidied note constructs inherited from the content pages */
+.su-recap{margin:1.1em 0 1.3em;padding:.7em 1em .8em;border:1px dashed var(--gold);border-radius:12px;background:#fffbeb}
+.su-recap h3{font-size:16.5px;margin:.1em 0 .5em;color:#92400e;font-family:Inter,system-ui,sans-serif;font-weight:800}
+.su-recap ul,.su-recap ol{margin:.2em 0}
+.su-recap li{margin:.18em 0}
+.su-facts{margin:.35em 0 .7em;padding-left:1.3em}
+.su-facts li{margin:.18em 0}
+.su-facts li::marker{color:var(--gold)}
 .bk-nav{display:flex;gap:14px;margin-top:56px;padding-top:22px;border-top:1px solid var(--line);font-family:Inter,system-ui,sans-serif}
 .bk-nav a{flex:1;text-decoration:none;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#334155;font-size:13.5px}
 .bk-nav a:hover{border-color:var(--gold);background:#fffbeb}
@@ -84,10 +108,16 @@ html.su-dark body{background:var(--bg);color:var(--ink)}
 html.su-dark .bk-top{background:rgba(16,27,49,.94)}
 html.su-dark .tbtn-bk{background:#101b31;color:#e2e8f0}
 html.su-dark .bk-hero{background:#101b31;border:1px solid var(--line)}
-html.su-dark .bk-toc .part{background:#101b31}
+html.su-dark .bk-toc details.part{background:#101b31}
+html.su-dark .bk-toc details.part>summary:hover{background:#231a05}
+html.su-dark .bk-toc details.part[open]>summary{background:#1a2740}
 html.su-dark .bk-toc .chap>.ct{color:#e2e8f0}
 html.su-dark .bk-toc li a{color:#cbd5e1}
 html.su-dark .bk-toc li a:hover{background:#231a05;color:#fbbf24}
+html.su-dark .bk-tfilter input{background:#101b31;color:#e2e8f0}
+html.su-dark .bk-tfilter button{background:#101b31;color:#cbd5e1}
+html.su-dark .su-recap{background:#231a05;border-color:#b45309}
+html.su-dark .su-recap h3{color:#fcd34d}
 html.su-dark th{background:#1a2740}
 html.su-dark tr:nth-child(even) td{background:#14203a}
 html.su-dark code{background:#1a2740;color:#fcd34d}
@@ -111,6 +141,10 @@ html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
+  .bk-toc details.part{display:block;border:none;margin:14px 0 0}
+  .bk-toc details.part>summary{display:none}
+  .bk-toc details.part .pbody{display:block!important;padding:0 0 8px}
+  .su-recap{page-break-inside:avoid}
   .wrap{max-width:none;padding:0}
   .bk-hero{background:#fff;color:#000;border:none;padding:0}
   .bk-hero h1{color:#000}.bk-hero p{color:#333}
@@ -186,17 +220,19 @@ table{font-size:.82em}
 <ul><li><strong>0-5 min</strong>: scan the paper, tick sitters, note statement-bunch questions for round 3.</li><li><strong>5-60</strong>: round 1 — certain answers only (~40-50 attempts expected).</li><li><strong>60-100</strong>: round 2 — 50-50 eliminations; attempt when 2 options are dead.</li><li><strong>100-115</strong>: round 3 — remaining; attempt only on strong partial knowledge.</li><li><strong>115-120</strong>: bubble check + buffer; never a fresh risky guess here.</li></ul>
 <h3 id="review">3. Review loop</h3>
 <ul><li>Same-day: score + three-bucket review — <strong>right-for-wrong-reason (lucky: re-learn), wrong (gap-trap-misread-speed), unattempted (knowledge vs time)</strong>.</li><li>Week-later: re-solve only the error set; topic-wise error mapping decides the next week's revision queue.</li><li>Score guidance band: 110+ (safe zone), 90-110 (sharpen elimination), below 90 (content-first week).</li></ul>
-<h3 id="mcq-hooks">MCQ hooks</h3>
+<div class="su-recap"><h3 id="mcq-hooks">⚡ MCQ hooks</h3>
 <ul><li>100 Q / 200 marks / −0.66 wrong — the three numbers.</li><li>Rounds: sitters → 50-50s → partials → buffer.</li><li>Lucky rights are errors — re-learn bucket.</li><li>Environment-economy are the highest-weight modern blocks.</li><li>Analysis same-day; error re-solve week-later.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-short">
 <h2>Revision Digest</h2>
 <p class="bk-sec-lead">Condensed for the last mile before the exam.</p>
 <blockquote><p>Print-keeper for the 2-hour simulation.</p></blockquote>
 <h3 id="numbers">Numbers</h3>
-<ul><li>100 Q · 2 hr · 200 marks · −0.66 wrong.</li><li>Mix band: env 15-18 · history 15-18 · econ 12-15 · polity 12-15 · geo 10-14 · sci-tech 10-12.</li></ul>
+<ul><li>100 Q · 2 hr · 200 marks · −0.66 wrong.</li><li>Mix band: env 15-18</li><li>history 15-18</li><li>econ 12-15</li><li>polity 12-15</li><li>geo 10-14</li><li>sci-tech 10-12.</li></ul>
 <h3 id="walk">Walk</h3>
-<ul><li>0-5 scan → 5-60 sitters → 60-100 50-50s → 100-115 partials → 115-120 buffer.</li><li>50-50 rule: attempt only when 2 options eliminated.</li></ul>
+<ul><li>0-5 scan</li><li>5-60 sitters</li><li>60-100 50-50s</li><li>100-115 partials</li><li>115-120 buffer.</li><li>50-50 rule: attempt only when 2 options eliminated.</li></ul>
 <h3 id="after">After</h3>
 <ul><li>Buckets: lucky / wrong / unattempted → same-day analysis → week-later error re-solve.</li><li>Bands: 110+ safe · 90-110 sharpen elimination · under-90 content week.</li></ul>
 <blockquote><p>Before the mock: re-read the six sectional error sheets only.</p></blockquote>
@@ -205,14 +241,16 @@ table{font-size:.82em}
 <h2>Key Points &amp; Mindmap</h2>
 <p class="bk-sec-lead">Skeleton facts and recall triggers.</p>
 <blockquote><p>Walk flash.</p></blockquote>
-<h3 id="blueprint-flash">Blueprint flash</h3>
+<div class="su-recap"><h3 id="blueprint-flash">⚡ Blueprint flash</h3>
 <ul><li>100 Q · 2 hr · 200 marks · −0.66 wrong.</li><li>Mix band → history 15-18 · polity 12-15 · geo 10-14 · env 15-18 · econ 12-15 · sci-tech 10-12.</li></ul>
-<h3 id="walk-flash">Walk flash</h3>
+</div><div class="su-recap"><h3 id="walk-flash">⚡ Walk flash</h3>
 <ul><li>0-5 scan · 5-60 sitters · 60-100 50-50s · 100-115 partials · 115-120 buffer.</li><li>50-50 rule → attempt only when 2 eliminated.</li></ul>
-<h3 id="review-flash">Review flash</h3>
+</div><div class="su-recap"><h3 id="review-flash">⚡ Review flash</h3>
 <ul><li>Buckets → lucky / wrong (gap-trap-misread-speed) / unattempted.</li><li>Same-day analysis · week-later error re-solve · topic-map next queue.</li><li>Bands → 110+ safe · 90-110 sharpen · under-90 content week.</li></ul>
-<h3 id="trap-flash">Trap flash</h3>
+</div><div class="su-recap"><h3 id="trap-flash">⚡ Trap flash</h3>
 <ul><li>Statement-bunch questions last — they eat time in round 1.</li><li>Bubbling drift after Q70 — batch-check.</li><li>Fresh risky guess in buffer time — forbidden.</li><li>Mock without same-day analysis = half wasted.</li></ul>
+
+</div>
 </section>
 <section class="bk-sec" id="s-diagrams">
 <h2>Diagrams, Maps &amp; Flowcharts</h2>
