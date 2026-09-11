@@ -74,14 +74,12 @@ window.SYLLABUS_DATA = {
           id: 'history-culture', title: 'History & Indian Culture', tag: '12–15 Qs',
           sub: [
             {
-              id: 'modern-history', title: 'Modern History (1757–1947)',
+              id: 'ancient-history', title: 'Ancient History & Art',
               sub: [
-                { id: 'east-india-company', title: 'Advent of Europeans & East India Company (1757–1857)' },
-                { id: 'revolt-1857', title: 'Revolt of 1857 & Aftermath' },
-                { id: 'socio-religious-reforms', title: 'Socio-Religious Reform Movements' },
-                { id: 'national-movement-1885-1919', title: 'National Movement: Moderates, Extremists & Gandhian Era (1885–1919)' },
-                { id: 'gandhian-era-1919-1947', title: 'Gandhian Era: Non-Cooperation to Quit India (1919–1947)' },
-                { id: 'constitutional-development', title: 'Constitutional Development & Government of India Acts' }
+                { id: 'stone-bronze-age', title: 'Prehistory: Stone Age & Indus Valley Civilisation' },
+                { id: 'vedic-age', title: 'Vedic Age & Later Vedic Period' },
+                { id: 'mahajanapadas-mauryan', title: 'Mahajanapadas, Buddhism, Jainism & Mauryan Empire' },
+                { id: 'post-mauryan-gupta', title: 'Post-Mauryan & Gupta Empire' }
               ]
             },
             {
@@ -94,12 +92,14 @@ window.SYLLABUS_DATA = {
               ]
             },
             {
-              id: 'ancient-history', title: 'Ancient History & Art',
+              id: 'modern-history', title: 'Modern History (1757–1947)',
               sub: [
-                { id: 'stone-bronze-age', title: 'Prehistory: Stone Age & Indus Valley Civilisation' },
-                { id: 'vedic-age', title: 'Vedic Age & Later Vedic Period' },
-                { id: 'mahajanapadas-mauryan', title: 'Mahajanapadas, Buddhism, Jainism & Mauryan Empire' },
-                { id: 'post-mauryan-gupta', title: 'Post-Mauryan & Gupta Empire' }
+                { id: 'east-india-company', title: 'Advent of Europeans & East India Company (1757–1857)' },
+                { id: 'revolt-1857', title: 'Revolt of 1857 & Aftermath' },
+                { id: 'socio-religious-reforms', title: 'Socio-Religious Reform Movements' },
+                { id: 'national-movement-1885-1919', title: 'National Movement: Moderates, Extremists & Gandhian Era (1885–1919)' },
+                { id: 'gandhian-era-1919-1947', title: 'Gandhian Era: Non-Cooperation to Quit India (1919–1947)' },
+                { id: 'constitutional-development', title: 'Constitutional Development & Government of India Acts' }
               ]
             },
             {

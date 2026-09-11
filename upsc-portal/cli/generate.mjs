@@ -20,7 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { niceLabel } from './names.mjs';
+import { niceLabel, compareStudyOrder, isSectionFolder } from './names.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = path.join(ROOT, 'content');
@@ -273,7 +273,30 @@ function buildCatalog(entries) {
 
   const anchorOf = (parts) => 'content-' + parts.join('-'); // 'content/prelims/gs1' -> content-prelims-gs1
 
-  function render(node, parts, depth) {
+  /* Plain-language guide blurbs: what each stage/area is + how to approach it. */
+  const STAGE_INTRO = {
+    prelims: 'Stage 1 · Start here. The objective screening test — first master the six GS Paper I subjects in order, then CSAT basics, and only then attempt the mocks under timed conditions.',
+    mains: 'Stage 2 · After Prelims. Nine written papers — GS I–IV and the Essay paper first, then your one Optional subject, with daily answer-writing practice throughout.',
+  };
+  const AREA_GUIDE = {
+    gs1: 'The scored Prelims paper. Study the six subjects top-to-bottom — each ends with PYQs.',
+    csat: 'Qualifying only (33% needed). Practice regularly, but don’t let it eat GS time.',
+    mocks: 'Attempt after finishing the syllabus. Full paper first, then subject sectionals.',
+    'essay-frameworks': 'Two essays · 250 marks. Learn the frameworks first, then bank topics and quotes.',
+    'gs-1-heritage-geography-society': 'Mains Paper II. History in chronological order, then society and geography.',
+    'gs-2-polity-governance-ir': 'Mains Paper III. Constitution first, then governance, justice and world affairs.',
+    'gs-3-economy-tech-environment': 'Mains Paper IV. Economy and agriculture before tech, environment and security.',
+    'gs-4-ethics-integrity-aptitude': 'Mains Paper V. Theory blocks first, case-study practice last.',
+    'optional-subjects': 'Pick ONE optional (2 × 250 marks). Compare syllabi before committing.',
+    practice: 'Answer-writing gym. Use after studying each GS paper — 10 and 15 markers.',
+  };
+  const SECTION_ICON = {
+    'detailed-notes': '📖', 'short-notes': '📝', 'bullet-points': '🔹',
+    mindmaps: '🔹', diagrams: '🗺️', maps: '🗺️', pyqs: '❓',
+    notes: '📖', short: '📝', bullets: '🔹',
+  };
+
+  function render(node, parts, depth, num) {
     let html = '';
     if (node.files.length) {
       html += `<ul>\n`;
@@ -281,22 +304,34 @@ function buildCatalog(entries) {
         let title = '';
         try { title = htmlTitle(fs.readFileSync(d.rel, 'utf8')); } catch { /* ignore */ }
         if (!title) title = d.file.replace(/\.html$/i, '').replace(/[-_]/g, ' ');
-        html += `<li><a href="${esc(d.rel.replace(/^content\//, ''))}">${esc(title)}</a></li>\n`;
+        const href = esc(d.rel.replace(/^content\//, ''));
+        html += `<li><a href="${href}" data-rel="${esc(d.rel)}">${esc(title)}</a></li>\n`;
       }
       html += `</ul>\n`;
     }
-    const kids = [...node.children.values()].sort((a, b) => a.name.localeCompare(b.name));
-    for (const k of kids) {
+    /* Siblings in canonical study order (never alphabetical). */
+    const kids = [...node.children.values()].sort(compareStudyOrder(node.name));
+    kids.forEach((k, i) => {
       const kParts = parts.concat(k.name);
       const h = depth <= 1 ? 'h2' : depth === 2 ? 'h3' : 'h4';
-      html += `<${h} id="${esc(anchorOf(kParts))}" class="dir-head">${esc(niceLabel(k.name))}</${h}>\n`;
-      html += render(k, kParts, depth + 1);
-    }
+      const section = isSectionFolder(k.name);
+      const kNum = section ? '' : (num ? num + '.' + (i + 1) : String(i + 1));
+      const badge = kNum ? `<span class="secnum">${kNum}</span> ` : '';
+      const icon = section && SECTION_ICON[k.name] ? SECTION_ICON[k.name] + ' ' : '';
+      const lvl = section ? ' sec' : '';
+      html += `<${h} id="${esc(anchorOf(kParts))}" class="dir-head${lvl}">${badge}${icon}${esc(niceLabel(k.name))}</${h}>\n`;
+      if (kParts.length === 1 && STAGE_INTRO[k.name]) {
+        html += `<p class="guide stage">${esc(STAGE_INTRO[k.name])}</p>\n`;
+      } else if (kParts.length === 2 && AREA_GUIDE[k.name]) {
+        html += `<p class="guide">${esc(AREA_GUIDE[k.name])}</p>\n`;
+      }
+      html += render(k, kParts, depth + 1, kNum);
+    });
     return html;
   }
 
-  let body = `<h1 id="content-library">Content Library</h1><p>${docs.length} documents · styled, self-contained HTML pages — open any page directly, or use the headings below to browse the syllabus.</p>`;
-  body += render(root, [], 0);
+  let body = `<h1 id="content-library">Content Library</h1><p>${docs.length} documents · styled, self-contained HTML pages — open any page directly, or use the headings below to browse the syllabus.</p>\n<p class="guide how"><b>How to study in order:</b> follow the section numbers top-to-bottom — <b>1 Prelims</b> before <b>2 Mains</b>. Inside every topic read <b>📖 Detailed → 📝 Short notes → 🔹 Points → 🗺️ Diagrams → ❓ PYQs</b>. Pages you read are ticked ✓ automatically, and <b>🎯 Quiz me</b> on any question page hides every answer so you can test yourself.</p>`;
+  body += render(root, [], 0, '');
 
   const CSS = `:root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#f59e0b;--bg:#f8fafc;--card:#fff}
 *{box-sizing:border-box}
@@ -321,9 +356,32 @@ h3{font-size:17px;margin:1.2em 0 .4em}
 .dir-head{margin:1.3em 0 .4em;padding-bottom:.2em;border-bottom:1px solid var(--line);scroll-margin-top:130px}
 h3.dir-head{font-size:16px;border-bottom:1px dashed var(--line)}
 h4.dir-head{font-size:14px;color:var(--sub);border-bottom:none;margin:1em 0 .2em}
+.secnum{display:inline-block;min-width:30px;text-align:center;font-size:12px;font-weight:800;color:#fff;background:#4f46e5;border-radius:8px;padding:1px 7px;margin-right:2px;vertical-align:1px}
+h4 .secnum{min-width:26px;font-size:11px;background:#6366f1}
+.dir-head.sec{font-weight:600}
+.guide{font-size:13.5px;color:var(--sub);background:#f8fafc;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:0 10px 10px 0;padding:9px 14px;margin:.4em 0 1em}
+.guide.stage{border-left-color:#4f46e5;background:#eef2ff}
+.guide.how{background:#fffbeb}
+.card ul li.is-read>a{color:#94a3b8}
+.card ul li.is-read>a::after{content:" ✓";color:#16a34a;font-weight:800}
 a{color:#b45309;text-decoration:none}a:hover{text-decoration:underline}
 ul,ol{padding-left:1.5em}
 li{margin:.25em 0}
+/* study toolbar (theme + progress), injected by assets/js/study.js */
+.su-bar{position:fixed;left:14px;bottom:14px;z-index:80;display:flex;gap:8px;align-items:center;background:rgba(15,23,42,.94);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:6px 8px 6px 6px;box-shadow:0 10px 26px -10px rgba(15,23,42,.6)}
+.su-bar button{border:1px solid transparent;background:transparent;color:#e2e8f0;border-radius:999px;font-size:13px;font-weight:700;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.su-bar button:hover{background:rgba(255,255,255,.12)}
+.su-bar .su-done.is-done{background:#16a34a;border-color:#16a34a;color:#fff}
+html.su-dark{--ink:#e2e8f0;--sub:#94a3b8;--line:#26334d;--bg:#0b1220;--card:#111c30}
+html.su-dark body{background:var(--bg)}
+html.su-dark header.lib{background:rgba(17,28,48,.94)}
+html.su-dark .find input{background:#0b1220;border-color:#26334d;color:#e2e8f0}
+html.su-dark a{color:#fbbf24}
+html.su-dark .guide{background:#111c30}
+html.su-dark .guide.stage{background:#1e1b4b}
+html.su-dark .guide.how{background:#231a05}
+html.su-dark .secnum{background:#818cf8;color:#0b1220}
+html.su-dark .card ul li.is-read>a{color:#64748b}
 hr{border:none;border-top:1px solid var(--line);margin:1.6em 0}
 footer{color:#94a3b8;font-size:12px;margin-top:40px;text-align:center}
 .to-top{position:fixed;right:18px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:12px;background:#0f172a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;text-decoration:none;opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s}
@@ -351,13 +409,14 @@ h1{font-size:22px}
 ${CSS}
 </style>
 </head>
-<body>
+<body data-study-kind="catalog">
 <header class="lib"><div class="wrap head-in"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · ${docs.length} documents</div><div class="find no-print"><input id="lib-q" type="search" placeholder="Filter documents…" aria-label="Filter documents" autocomplete="off"><span id="lib-c" aria-live="polite"></span></div><div class="crumb no-print links"><a href="../book/index.html">📖 Book</a> · <a href="../index.html">🏠 Home</a></div></div></header>
 <div class="wrap"><div class="card">
 ${body}</div>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>
 </div>
 <a class="to-top no-print" href="#" aria-label="Back to top">↑</a>
+<script src="../assets/js/study.js" defer></script>
 <script>/* studyupsc-catalog-filter */
 (function(){try{var q=document.getElementById('lib-q'),c=document.getElementById('lib-c');var card=document.querySelector('.card');var items=card?Array.prototype.slice.call(card.querySelectorAll('ul li')):[];var heads=card?Array.prototype.slice.call(card.querySelectorAll('.dir-head')):[];function lvl(h){return Number(h.tagName.charAt(1));}function apply(){var s=q.value.trim().toLowerCase();var n=0;items.forEach(function(li){var hit=!s||li.textContent.toLowerCase().indexOf(s)!==-1;li.style.display=hit?'':'none';if(hit)n++;});heads.forEach(function(h){if(!s){h.style.display='';return;}var L=lvl(h),el=h.nextElementSibling,vis=false;while(el){if(/^H[1-6]$/.test(el.tagName)&&Number(el.tagName.charAt(1))<=L)break;if(el.tagName==='UL'){var ch=el.children;for(var i=0;i<ch.length;i++){if(ch[i].style.display!=='none'){vis=true;break;}}if(vis)break;}el=el.nextElementSibling;}h.style.display=vis?'':'none';});c.textContent=s?(n+' found'):'';}var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(apply,80);});var top=document.querySelector('.to-top');if(top){var f=function(){top.classList.toggle('on',window.scrollY>600);};window.addEventListener('scroll',f,{passive:true});f();top.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'});});}}catch(e){}})();
 </script>

@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>studyUPSC — UPSC CSE Preparation Website</title>
 <meta name="description" content="UPSC Civil Services Exam study website: full Prelims & Mains syllabus as plain HTML pages — notes, revision, diagrams and PYQs. No app, no login.">
+<script>/*su-theme-boot*/try{if(localStorage.getItem('studyupsc-theme')==='dark'){document.documentElement.className+=' su-dark';}}catch(e){}</script>
 <style>
 :root{--ink:#0f172a;--sub:#475569;--line:#e2e8f0;--accent:#f59e0b;--indigo:#4f46e5;--bg:#f8fafc;--card:#fff}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 a{color:#b45309;text-decoration:none}
@@ -20,6 +22,8 @@ a:hover{text-decoration:underline}
 .topnav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
 .topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px;white-space:nowrap}
 .topnav a:hover{color:var(--indigo);background:#eef2ff}
+.tbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:4px 10px;font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);white-space:nowrap}
+.tbtn:hover{border-color:var(--accent);background:#fffbeb}
 .mnav{display:none;position:relative;margin-left:auto}
 .mnav summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;background:#fff;user-select:none}
 .mnav summary::-webkit-details-marker{display:none}
@@ -41,6 +45,23 @@ a:hover{text-decoration:underline}
 .btn:hover{text-decoration:none;border-color:#fff}
 .btn.primary{background:#f59e0b;color:#1c1917;border-color:#f59e0b}
 .btn.primary:hover{background:#fbbf24}
+/* continue + my progress */
+#su-continue{margin:0 0 16px;border:1px solid #c7d2fe;border-radius:16px;padding:14px 18px;background:linear-gradient(135deg,#eef2ff,#fff);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#su-continue .k{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--indigo)}
+#su-continue b{font-size:15px}
+#su-continue a.go{margin-left:auto;font-weight:700;color:#fff;background:var(--indigo);border-radius:10px;padding:8px 16px}
+#su-continue a.go:hover{background:#4338ca;text-decoration:none}
+#su-my-progress{margin:0 0 16px;border:1px solid var(--line);border-radius:16px;padding:14px 18px;background:var(--card)}
+#su-my-progress .su-my-bar{height:10px;border-radius:999px;background:#f1f5f9;overflow:hidden}
+#su-my-progress .su-my-fill{height:100%;width:2%;border-radius:999px;background:linear-gradient(90deg,#4f46e5,#8b5cf6,#f59e0b);transition:width .4s}
+#su-my-progress .su-my-label{display:block;margin-top:8px;font-size:13px;font-weight:700;color:var(--sub)}
+/* start-here path */
+.steps{list-style:none;margin:0 0 8px;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;position:relative}
+.steps .n{position:absolute;top:-12px;left:14px;background:var(--indigo);color:#fff;font-size:12px;font-weight:800;border-radius:999px;padding:2px 11px}
+.steps b{display:block;margin:6px 0 4px;font-size:15px}
+.steps p{margin:0 0 8px;font-size:13px;color:var(--sub)}
+.steps a{font-size:13px;font-weight:700}
 /* stats */
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:20px 0}
 .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
@@ -48,20 +69,43 @@ a:hover{text-decoration:underline}
 .stat span{display:block;font-size:13px;font-weight:700;color:var(--ink);margin-top:2px}
 .stat em{display:block;font-size:12px;color:#94a3b8;font-style:normal}
 /* directory */
-h2.title{font-size:22px;font-weight:800;margin:34px 0 4px}
+h2.title{font-size:22px;font-weight:800;margin:34px 0 4px;scroll-margin-top:80px}
 p.title-sub{color:var(--sub);margin:0 0 16px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin-bottom:8px}
-.area{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
-.area h3{margin:0 0 8px;font-size:16px;display:flex;align-items:center;gap:8px}
+.stage-tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:#0f172a;border-radius:999px;padding:3px 12px;margin:26px 0 10px}
+.stage-tag.pre{background:#4f46e5}.stage-tag.mains{background:#b45309}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:8px}
+.area{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column}
+.area.is-complete{border-color:#16a34a}
+.area h3{margin:0 0 4px;font-size:16px;display:flex;align-items:center;gap:8px}
 .area h3 .count{margin-left:auto;font-size:12px;color:var(--sub);background:#f1f5f9;border-radius:999px;padding:2px 9px;font-weight:700}
+.area .step{flex:none;width:26px;height:26px;border-radius:9px;background:#0f172a;color:#fff;font-size:13px;font-weight:800;display:inline-flex;align-items:center;justify-content:center}
+.area.is-complete .step{background:#16a34a}
 .area .ic{font-size:18px}
+.area .blurb{margin:0 0 10px;font-size:13px;color:var(--sub)}
 .area-link{color:var(--ink)}
 .area-link:hover{color:var(--indigo);text-decoration:none}
 .topics{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
-.topics li{font-size:13px}
-.topics a{display:inline-flex;align-items:center;gap:5px;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.topics li{font-size:13px;display:flex;align-items:center;gap:4px}
+.topics a{display:inline-flex;align-items:center;gap:6px;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
 .topics a:hover{border-color:var(--indigo);color:var(--indigo);background:#eef2ff;text-decoration:none}
+.topics .ord{font-size:10.5px;font-weight:800;color:#fff;background:#94a3b8;border-radius:6px;padding:0 5px}
+.topics a:hover .ord{background:var(--indigo)}
 .topics .n{color:#94a3b8;font-size:11px}
+.su-area{display:flex;align-items:center;gap:8px;margin-top:12px}
+.su-area-bar{flex:1;height:6px;border-radius:999px;background:#f1f5f9;overflow:hidden}
+.su-area-fill{height:100%;width:2%;border-radius:999px;background:linear-gradient(90deg,#4f46e5,#8b5cf6);transition:width .4s}
+.su-area-pct{font-size:11px;font-weight:700;color:var(--sub);white-space:nowrap}
+/* filter */
+.filterbar{display:flex;gap:10px;align-items:center;margin:0 0 6px;flex-wrap:wrap}
+.filterbar input{flex:1;min-width:220px;border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:14px;background:var(--card);color:var(--ink);outline:none}
+.filterbar input:focus{border-color:var(--accent)}
+#su-filter-count{font-size:12.5px;color:var(--sub)}
+/* how to use */
+.howto{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:6px 0 8px}
+.howto div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.howto b{display:block;font-size:15px;margin-bottom:4px}
+.howto p{margin:0;font-size:13px;color:var(--sub)}
+.howto a{font-weight:700;font-size:13px}
 /* book banner */
 .book{display:flex;gap:20px;align-items:center;margin:20px 0 34px;border:1px solid #fde68a;border-radius:18px;padding:20px 24px;
   background:linear-gradient(135deg,#fffbeb,#fff)}
@@ -72,6 +116,23 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
 .site-foot{border-top:1px solid var(--line);margin-top:20px;background:#fff}
 .site-foot .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:22px 20px;font-size:13px;color:var(--sub)}
 .site-foot nav{display:flex;gap:14px;flex-wrap:wrap}
+/* dark mode */
+html.su-dark{--ink:#e2e8f0;--sub:#94a3b8;--line:#26334d;--bg:#0b1220;--card:#101b31}
+html.su-dark .site-head{background:rgba(16,27,49,.92)}
+html.su-dark .topnav a:hover{background:#1e1b4b}
+html.su-dark .tbtn{background:#101b31;color:#e2e8f0}
+html.su-dark .mnav summary{background:#101b31;color:#e2e8f0}
+html.su-dark .mnav nav{background:#101b31}
+html.su-dark #su-continue{background:linear-gradient(135deg,#1e1b4b,#101b31)}
+html.su-dark #su-my-progress .su-my-bar,html.su-dark .su-area-bar{background:#1a2740}
+html.su-dark .stat b{color:#a5b4fc}
+html.su-dark .area h3 .count{background:#1a2740;color:#94a3b8}
+html.su-dark .area .step{background:#e0e7ff;color:#1e1b4b}
+html.su-dark .book{background:linear-gradient(135deg,#231a05,#101b31)}
+html.su-dark .book .btn{color:#fbbf24}
+html.su-dark .site-foot{background:#101b31}
+html.su-dark a{color:#fbbf24}
+html.su-dark .topics a:hover{background:#1e1b4b;border-color:#818cf8;color:#c7d2fe}
 @media(max-width:760px){
 .topnav{display:none}
 .mnav{display:block}
@@ -82,10 +143,10 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
 .book .btn{margin-left:0}
 .area h3{flex-wrap:wrap}
 }
-@media print{.site-head,.cta,.site-foot,.topics a,.mnav{display:none}}
+@media print{.site-head,.cta,.site-foot,.topics a,.mnav,.filterbar,#su-continue,#su-my-progress,.su-area,.tbtn{display:none}}
 </style>
 </head>
-<body>
+<body data-study-kind="home">
 <header class="site-head"><div class="wrap">
   <a class="brand" href="./">study<span>UPSC</span></a>
   <nav class="topnav" aria-label="Primary">
@@ -96,6 +157,7 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
     <a href="content/index.html">All files</a>
     <a href="app.html">Search &amp; Tracker</a>
   </nav>
+  <button class="tbtn su-theme" type="button" title="Toggle dark / light mode">◐ Dark</button>
   <details class="mnav"><summary aria-label="Open menu">☰</summary><nav aria-label="Mobile">
     <a href="./">⌂ Home</a>
     <a href="content/index.html#content-prelims">📋 Prelims</a>
@@ -109,57 +171,106 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
   <section class="hero">
     <p class="eyebrow">Civil Services Examination · IAS · IPS · IFS</p>
     <h1>Your complete UPSC <span>CSE</span> study website</h1>
-    <p class="lead">The full Prelims &amp; Mains syllabus as plain HTML pages — detailed notes, revision sheets, mindmaps, diagrams and PYQs. Every page opens directly. No app, no login, works offline.</p>
+    <p class="lead">The full Prelims &amp; Mains syllabus in study order — detailed notes, revision sheets, mindmaps, diagrams and PYQs. Every page opens directly. No login, works offline, progress saves on your device.</p>
     <div class="cta">
-      <a class="btn primary" href="content/index.html">📚 Browse all files</a>
+      <a class="btn primary" href="#start-here">🗺 Start here — the study path</a>
+      <a class="btn" href="content/index.html">📚 Browse all files</a>
       <a class="btn" href="book/index.html">Read as a book 📖</a>
     </div>
   </section>
 
+  <section id="su-continue" hidden aria-live="polite">
+    <span class="k">▶ Continue learning</span><b id="su-continue-title"></b>
+    <a class="go" id="su-continue-link" href="#">Resume →</a>
+  </section>
+  <section id="su-my-progress" hidden aria-label="My progress">
+    <div class="su-my-bar"><div class="su-my-fill"></div></div>
+    <span class="su-my-label"></span>
+  </section>
+
+  <h2 class="title" id="start-here">New here? Follow the path in order 👇</h2>
+  <p class="title-sub">Four steps. Do them top-to-bottom and you will cover the whole exam without getting lost.</p>
+  <ol class="steps">
+    <li><span class="n">Step 1</span><b>🧭 Understand the exam</b><p>Prelims screens, Mains ranks. See the papers, marks and what actually counts.</p><a href="app.html#/paper/prelims-gs1">Prelims pattern →</a> · <a href="app.html#/paper/gs-1">Mains pattern →</a></li>
+    <li><span class="n">Step 2</span><b>📋 Finish Prelims (1 → 3)</b><p>GS Paper I subjects in order, then CSAT basics, then timed mocks.</p><a href="#stage-prelims">Go to Stage 1 ↓</a></li>
+    <li><span class="n">Step 3</span><b>✍️ Finish Mains (4 → 10)</b><p>GS I–IV and Essay first, then your ONE optional. Write answers daily.</p><a href="#stage-mains">Go to Stage 2 ↓</a></li>
+    <li><span class="n">Step 4</span><b>✅ Track &amp; test yourself</b><p>Tick topics complete, re-attempt PYQs in quiz mode, watch the bars fill.</p><a href="app.html#/tracker">Open tracker →</a></li>
+  </ol>
+
   <section class="stats" aria-label="Site statistics"><div class="stat"><b>555</b><span>HTML study pages</span><em>notes · revision · PYQs · diagrams</em></div><div class="stat"><b>354</b><span>Prelims pages</span><em>GS Paper I · CSAT · mocks</em></div><div class="stat"><b>200</b><span>Mains pages</span><em>GS I–IV · essay · optional</em></div><div class="stat"><b>126</b><span>Book lessons</span><em>one continuous read</em></div></section>
 
-  <h2 class="title">Browse the syllabus</h2>
-  <p class="title-sub">Every section below links straight to that part of the content library.</p>
-  <section class="grid"><article class="area">
-      <h3><a class="area-link" href="content/index.html#content-prelims-gs1"><span class="ic">📋</span>GS Paper I</a><span class="count">319</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-prelims-gs1-economy">Economy</a><span class="n">55</span></li><li><a href="content/index.html#content-prelims-gs1-environment-ecology">Environment Ecology</a><span class="n">33</span></li><li><a href="content/index.html#content-prelims-gs1-geography">Geography</a><span class="n">57</span></li><li><a href="content/index.html#content-prelims-gs1-history-culture">History Culture</a><span class="n">84</span></li><li><a href="content/index.html#content-prelims-gs1-polity-governance">Polity Governance</a><span class="n">66</span></li><li><a href="content/index.html#content-prelims-gs1-science-tech">Science Tech</a><span class="n">24</span></li></ul>
+  <h2 class="title">Study the syllabus in order</h2>
+  <p class="title-sub">Follow the step numbers 1 → 10. Inside every topic read 📖 Detailed → 📝 Short notes → 🔹 Points → 🗺️ Diagrams → ❓ PYQs.</p>
+  <div class="filterbar no-print"><input id="su-filter" type="search" placeholder="🔍 Filter sections &amp; topics… (try “polity”, “ethics”, “maps”)" aria-label="Filter sections"><span id="su-filter-count" aria-live="polite"></span></div>
+  <div class="stage-tag pre" id="stage-prelims">Stage 1 · Prelims — start here</div>
+  <section class="grid"><article class="area" data-area data-leaves="prelims-gs1/history-culture/ancient-history/stone-bronze-age|prelims-gs1/history-culture/ancient-history/vedic-age|prelims-gs1/history-culture/ancient-history/mahajanapadas-mauryan|prelims-gs1/history-culture/ancient-history/post-mauryan-gupta|prelims-gs1/history-culture/medieval-history/early-medieval-kingdoms|prelims-gs1/history-culture/medieval-history/delhi-sultanate|prelims-gs1/history-culture/medieval-history/mughal-empire|prelims-gs1/history-culture/medieval-history/marathas-vijayanagara|prelims-gs1/history-culture/modern-history/east-india-company|prelims-gs1/history-culture/modern-history/revolt-1857|prelims-gs1/history-culture/modern-history/socio-religious-reforms|prelims-gs1/history-culture/modern-history/national-movement-1885-1919|prelims-gs1/history-culture/modern-history/gandhian-era-1919-1947|prelims-gs1/history-culture/modern-history/constitutional-development|prelims-gs1/history-culture/art-culture/architecture|prelims-gs1/history-culture/art-culture/painting|prelims-gs1/history-culture/art-culture/music-dance|prelims-gs1/history-culture/art-culture/fairs-festivals|prelims-gs1/history-culture/art-culture/scriptures-languages|prelims-gs1/geography/physical-geography/geomorphology|prelims-gs1/geography/physical-geography/climatology|prelims-gs1/geography/physical-geography/oceanography|prelims-gs1/geography/physical-geography/biogeography|prelims-gs1/geography/indian-geography/physiography-india|prelims-gs1/geography/indian-geography/drainage-rivers|prelims-gs1/geography/indian-geography/climate-india|prelims-gs1/geography/indian-geography/soils-agriculture|prelims-gs1/geography/indian-geography/minerals-industries|prelims-gs1/geography/indian-geography/transport-settlements|prelims-gs1/geography/world-geography/world-physical|prelims-gs1/geography/world-geography/world-economic|prelims-gs1/geography/maps-india-world|prelims-gs1/polity-governance/constitution/making-features|prelims-gs1/polity-governance/constitution/fundamental-rights-dpsp|prelims-gs1/polity-governance/constitution/amendments|prelims-gs1/polity-governance/constitution/federal-structure|prelims-gs1/polity-governance/organs-govt/parliament|prelims-gs1/polity-governance/organs-govt/executive|prelims-gs1/polity-governance/organs-govt/judiciary|prelims-gs1/polity-governance/governance/constitutional-bodies|prelims-gs1/polity-governance/governance/statutory-bodies|prelims-gs1/polity-governance/governance/local-govt|prelims-gs1/polity-governance/governance/schemes-policies|prelims-gs1/polity-governance/governance/e-governance|prelims-gs1/polity-governance/international-relations/bilateral-ties|prelims-gs1/polity-governance/international-relations/multilateral-forums|prelims-gs1/polity-governance/international-relations/global-groups|prelims-gs1/economy/macro-economy/national-income|prelims-gs1/economy/macro-economy/money-banking|prelims-gs1/economy/macro-economy/fiscal-policy|prelims-gs1/economy/sectors-indian-economy/agriculture|prelims-gs1/economy/sectors-indian-economy/industry-msme|prelims-gs1/economy/sectors-indian-economy/services-infrastructure|prelims-gs1/economy/external-sector/trade-bop|prelims-gs1/economy/external-sector/fdi-investment|prelims-gs1/economy/financial-markets/capital-markets|prelims-gs1/economy/financial-markets/financial-inclusion|prelims-gs1/economy/planning-growth/niti-aayog|prelims-gs1/economy/planning-growth/human-development|prelims-gs1/environment-ecology/ecology-biodiversity/ecosystems|prelims-gs1/environment-ecology/ecology-biodiversity/biodiversity-india|prelims-gs1/environment-ecology/ecology-biodiversity/species-conservation|prelims-gs1/environment-ecology/environmental-issues/climate-change|prelims-gs1/environment-ecology/environmental-issues/pollution-waste|prelims-gs1/environment-ecology/acts-policies-env/acts-conventions|prelims-gs1/environment-ecology/acts-policies-env/institutions|prelims-gs1/science-tech/basic-science/physics-chem-bio|prelims-gs1/science-tech/emerging-tech/biotech-health|prelims-gs1/science-tech/emerging-tech/space-missions|prelims-gs1/science-tech/emerging-tech/defence-nuclear|prelims-gs1/science-tech/emerging-tech/ai-it">
+      <h3><span class="step" aria-hidden="true">1</span><a class="area-link" href="content/index.html#content-prelims-gs1"><span class="ic">📋</span>GS Paper I</a><span class="count">319</span></h3>
+      <p class="blurb">The scored paper — 6 subjects, History first.</p>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-gs1-history-culture"><span class="ord">1.1</span>History Culture</a><span class="n">84</span></li><li><a href="content/index.html#content-prelims-gs1-geography"><span class="ord">1.2</span>Geography</a><span class="n">57</span></li><li><a href="content/index.html#content-prelims-gs1-polity-governance"><span class="ord">1.3</span>Polity Governance</a><span class="n">66</span></li><li><a href="content/index.html#content-prelims-gs1-economy"><span class="ord">1.4</span>Economy</a><span class="n">55</span></li><li><a href="content/index.html#content-prelims-gs1-environment-ecology"><span class="ord">1.5</span>Environment Ecology</a><span class="n">33</span></li><li><a href="content/index.html#content-prelims-gs1-science-tech"><span class="ord">1.6</span>Science Tech</a><span class="n">24</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
     </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-prelims-csat"><span class="ic">🧮</span>CSAT</a><span class="count">18</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-prelims-csat-comprehension">Comprehension</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-decision-making">Decision Making</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-logical-reasoning">Logical Reasoning</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-numeracy">Numeracy</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-pyqs">PYQs</a><span class="n">1</span></li><li><a href="content/index.html#content-prelims-csat-short-notes">Short Notes</a><span class="n">1</span></li></ul>
+<article class="area" data-area data-leaves="prelims-csat/comprehension|prelims-csat/logical-reasoning|prelims-csat/decision-making|prelims-csat/numeracy">
+      <h3><span class="step" aria-hidden="true">2</span><a class="area-link" href="content/index.html#content-prelims-csat"><span class="ic">🧮</span>CSAT</a><span class="count">18</span></h3>
+      <p class="blurb">Qualifying (33%). Practice, don’t over-study.</p>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-csat-comprehension"><span class="ord">2.1</span>Comprehension</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-logical-reasoning"><span class="ord">2.2</span>Logical Reasoning</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-decision-making"><span class="ord">2.3</span>Decision Making</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-numeracy"><span class="ord">2.4</span>Numeracy</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-csat-short-notes"><span class="ord">2.5</span>Short Notes</a><span class="n">1</span></li><li><a href="content/index.html#content-prelims-csat-pyqs"><span class="ord">2.6</span>PYQs</a><span class="n">1</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
     </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-prelims-mocks"><span class="ic">📝</span>Mock Tests &amp; PYQs</a><span class="count">17</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-prelims-mocks-csat-mock">CSAT Mock</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-mocks-full-length">Full Length</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-mocks-sectional-tests">Sectional Tests</a><span class="n">9</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-essay-frameworks"><span class="ic">✍️</span>Essay</a><span class="count">16</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-essay-frameworks-essay-frameworks">Essay</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-quotes">Essay Quotes</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-topics">Essay Topics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-toppers">Essay Toppers</a><span class="n">4</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-gs-1-heritage-geography-society"><span class="ic">🌏</span>GS I — Heritage, Geography &amp; Society</a><span class="count">46</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-geography-world-india">Geography World India</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-heritage-culture">Indian Heritage Culture</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-society">Indian Society</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-modern-history">Modern History</a><span class="n">24</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-physical-geography">Physical Geography</a><span class="n">5</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-world-history">World History</a><span class="n">4</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-gs-2-polity-governance-ir"><span class="ic">⚖️</span>GS II — Polity, Governance &amp; IR</a><span class="count">17</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-constitution-polity">Constitution Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-governance-administration">Governance Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-international-relations">International Relations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-social-justice">Social Justice</a><span class="n">4</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-gs-3-economy-tech-environment"><span class="ic">🏭</span>GS III — Economy, Technology &amp; Environment</a><span class="count">21</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-agriculture-food">Agriculture Food</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity">Environment Biodiversity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-indian-economy">Indian Economy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-science-technology">Science Technology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-security-disaster">Security Disaster</a><span class="n">4</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude"><span class="ic">🕊️</span>GS IV — Ethics, Integrity &amp; Aptitude</a><span class="count">41</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-aptitude-foundations">Aptitude Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-attitude">Attitude</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-case-studies">Case Studies</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-emotional-intelligence">Emotional Intelligence</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations">Ethics Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-human-interface">Ethics Human Interface</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies">Governance Probity Case Studies</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-moral-thinkers">Moral Thinkers</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-probity-governance">Probity Governance</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-public-service-values">Public Service Values</a><span class="n">4</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-optional-subjects"><span class="ic">📚</span>Optional Subjects</a><span class="count">39</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-optional-subjects-bullet-points">Bullet Points</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-detailed-notes">Detailed Notes</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-anthropology">Optional Anthropology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-economics">Optional Economics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-geography">Optional Geography</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-history">Optional History</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-philosophy">Optional Philosophy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-polity">Optional Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-psychology">Optional Psychology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-public-administration">Optional Public Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-sociology">Optional Sociology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-pyqs">PYQs</a><span class="n">1</span></li></ul>
-    </article>
-<article class="area">
-      <h3><a class="area-link" href="content/index.html#content-mains-practice"><span class="ic">🖋️</span>Practice</a><span class="count">20</span></h3>
-      <ul class="topics"><li><a href="content/index.html#content-mains-practice-essay-practice">Essay Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-1-practice">GS 1 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-2-practice">GS 2 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-3-practice">GS 3 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-4-practice">GS 4 Practice</a><span class="n">4</span></li></ul>
+<article class="area" data-area data-leaves="prelims-mocks/full-length|prelims-mocks/sectional-tests|prelims-mocks/csat-mock">
+      <h3><span class="step" aria-hidden="true">3</span><a class="area-link" href="content/index.html#content-prelims-mocks"><span class="ic">📝</span>Mock Tests &amp; PYQs</a><span class="count">17</span></h3>
+      <p class="blurb">Timed tests — attempt after the syllabus.</p>
+      <ul class="topics"><li><a href="content/index.html#content-prelims-mocks-full-length"><span class="ord">3.1</span>Full Length</a><span class="n">4</span></li><li><a href="content/index.html#content-prelims-mocks-sectional-tests"><span class="ord">3.2</span>Sectional Tests</a><span class="n">9</span></li><li><a href="content/index.html#content-prelims-mocks-csat-mock"><span class="ord">3.3</span>CSAT Mock</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
     </article></section>
+  <div class="stage-tag mains" id="stage-mains">Stage 2 · Mains — after Prelims</div>
+  <section class="grid"><article class="area" data-area data-leaves="gs-1/indian-heritage-culture|gs-1/modern-history/east-india-company|gs-1/modern-history/revolt-1857|gs-1/modern-history/socio-religious-reforms|gs-1/modern-history/national-movement-1885-1919|gs-1/modern-history/gandhian-era-1919-1947|gs-1/modern-history/constitutional-development|gs-1/world-history|gs-1/indian-society|gs-1/physical-geography|gs-1/geography-world-india">
+      <h3><span class="step" aria-hidden="true">4</span><a class="area-link" href="content/index.html#content-mains-gs-1-heritage-geography-society"><span class="ic">🌏</span>GS I — Heritage, Geography &amp; Society</a><span class="count">46</span></h3>
+      <p class="blurb">Mains 250-marker: history, society, geography.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-heritage-culture"><span class="ord">4.1</span>Indian Heritage Culture</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-modern-history"><span class="ord">4.2</span>Modern History</a><span class="n">24</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-world-history"><span class="ord">4.3</span>World History</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-indian-society"><span class="ord">4.4</span>Indian Society</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-physical-geography"><span class="ord">4.5</span>Physical Geography</a><span class="n">5</span></li><li><a href="content/index.html#content-mains-gs-1-heritage-geography-society-geography-world-india"><span class="ord">4.6</span>Geography World India</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="gs-2/constitution-polity|gs-2/governance-administration|gs-2/social-justice|gs-2/international-relations">
+      <h3><span class="step" aria-hidden="true">5</span><a class="area-link" href="content/index.html#content-mains-gs-2-polity-governance-ir"><span class="ic">⚖️</span>GS II — Polity, Governance &amp; IR</a><span class="count">17</span></h3>
+      <p class="blurb">Mains 250-marker: polity, governance, world affairs.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-constitution-polity"><span class="ord">5.1</span>Constitution Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-governance-administration"><span class="ord">5.2</span>Governance Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-social-justice"><span class="ord">5.3</span>Social Justice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-2-polity-governance-ir-international-relations"><span class="ord">5.4</span>International Relations</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="gs-3/indian-economy|gs-3/agriculture-food|gs-3/science-technology|gs-3/environment-biodiversity|gs-3/security-disaster">
+      <h3><span class="step" aria-hidden="true">6</span><a class="area-link" href="content/index.html#content-mains-gs-3-economy-tech-environment"><span class="ic">🏭</span>GS III — Economy, Technology &amp; Environment</a><span class="count">21</span></h3>
+      <p class="blurb">Mains 250-marker: economy, tech, environment.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-indian-economy"><span class="ord">6.1</span>Indian Economy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-agriculture-food"><span class="ord">6.2</span>Agriculture Food</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-science-technology"><span class="ord">6.3</span>Science Technology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-environment-biodiversity"><span class="ord">6.4</span>Environment Biodiversity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-3-economy-tech-environment-security-disaster"><span class="ord">6.5</span>Security Disaster</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="gs-4/ethics-foundations|gs-4/governance-probity-case-studies|gs-4/ethics-human-interface|gs-4/attitude|gs-4/aptitude-foundations|gs-4/emotional-intelligence|gs-4/moral-thinkers|gs-4/public-service-values|gs-4/probity-governance|gs-4/case-studies">
+      <h3><span class="step" aria-hidden="true">7</span><a class="area-link" href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude"><span class="ic">🕊️</span>GS IV — Ethics, Integrity &amp; Aptitude</a><span class="count">41</span></h3>
+      <p class="blurb">Mains 250-marker: ethics theory + case studies.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-foundations"><span class="ord">7.1</span>Ethics Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-governance-probity-case-studies"><span class="ord">7.2</span>Governance Probity Case Studies</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-ethics-human-interface"><span class="ord">7.3</span>Ethics Human Interface</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-attitude"><span class="ord">7.4</span>Attitude</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-aptitude-foundations"><span class="ord">7.5</span>Aptitude Foundations</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-emotional-intelligence"><span class="ord">7.6</span>Emotional Intelligence</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-moral-thinkers"><span class="ord">7.7</span>Moral Thinkers</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-public-service-values"><span class="ord">7.8</span>Public Service Values</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-probity-governance"><span class="ord">7.9</span>Probity Governance</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-gs-4-ethics-integrity-aptitude-case-studies"><span class="ord">7.10</span>Case Studies</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="essay/essay-frameworks|essay/essay-topics|essay/essay-quotes|essay/essay-toppers">
+      <h3><span class="step" aria-hidden="true">8</span><a class="area-link" href="content/index.html#content-mains-essay-frameworks"><span class="ic">✍️</span>Essay</a><span class="count">16</span></h3>
+      <p class="blurb">Two essays, 250 marks. Frameworks first.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-essay-frameworks-essay-frameworks"><span class="ord">8.1</span>Essay</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-topics"><span class="ord">8.2</span>Essay Topics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-quotes"><span class="ord">8.3</span>Essay Quotes</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-essay-frameworks-essay-toppers"><span class="ord">8.4</span>Essay Toppers</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="optional-subjects/optional-sociology|optional-subjects/optional-public-administration|optional-subjects/optional-history|optional-subjects/optional-geography|optional-subjects/optional-polity|optional-subjects/optional-philosophy|optional-subjects/optional-anthropology|optional-subjects/optional-economics|optional-subjects/optional-psychology">
+      <h3><span class="step" aria-hidden="true">9</span><a class="area-link" href="content/index.html#content-mains-optional-subjects"><span class="ic">📚</span>Optional Subjects</a><span class="count">39</span></h3>
+      <p class="blurb">Pick ONE optional (2 × 250). Compare first.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-optional-subjects-optional-sociology"><span class="ord">9.1</span>Optional Sociology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-public-administration"><span class="ord">9.2</span>Optional Public Administration</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-history"><span class="ord">9.3</span>Optional History</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-geography"><span class="ord">9.4</span>Optional Geography</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-polity"><span class="ord">9.5</span>Optional Polity</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-philosophy"><span class="ord">9.6</span>Optional Philosophy</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-anthropology"><span class="ord">9.7</span>Optional Anthropology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-economics"><span class="ord">9.8</span>Optional Economics</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-optional-psychology"><span class="ord">9.9</span>Optional Psychology</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-optional-subjects-detailed-notes"><span class="ord">9.10</span>Detailed Notes</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-bullet-points"><span class="ord">9.11</span>Bullet Points</a><span class="n">1</span></li><li><a href="content/index.html#content-mains-optional-subjects-pyqs"><span class="ord">9.12</span>PYQs</a><span class="n">1</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article>
+<article class="area" data-area data-leaves="mains-practice/gs-1-practice|mains-practice/gs-2-practice|mains-practice/gs-3-practice|mains-practice/gs-4-practice|mains-practice/essay-practice">
+      <h3><span class="step" aria-hidden="true">10</span><a class="area-link" href="content/index.html#content-mains-practice"><span class="ic">🖋️</span>Practice</a><span class="count">20</span></h3>
+      <p class="blurb">Answer-writing gym: 10 &amp; 15 markers.</p>
+      <ul class="topics"><li><a href="content/index.html#content-mains-practice-gs-1-practice"><span class="ord">10.1</span>GS 1 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-2-practice"><span class="ord">10.2</span>GS 2 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-3-practice"><span class="ord">10.3</span>GS 3 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-gs-4-practice"><span class="ord">10.4</span>GS 4 Practice</a><span class="n">4</span></li><li><a href="content/index.html#content-mains-practice-essay-practice"><span class="ord">10.5</span>Essay Practice</a><span class="n">4</span></li></ul>
+      <div class="su-area" aria-hidden="true"><div class="su-area-bar"><div class="su-area-fill"></div></div><span class="su-area-pct">0%</span></div>
+    </article></section>
+
+  <h2 class="title">Three ways to use this site</h2>
+  <div class="howto">
+    <div><b>📚 Browse in order</b><p>Click any numbered section above. Breadcrumbs, topic pills and prev/next keep you on the path.</p><a href="content/index.html">Open the library →</a></div>
+    <div><b>📖 Read as one book</b><p>All 126 lessons woven into a single continuous read with page numbers.</p><a href="book/index.html">Open the book →</a></div>
+    <div><b>✅ Track + search everything</b><p>Tick topics done, search every note instantly with Ctrl+K, test with PYQs.</p><a href="app.html">Open Search &amp; Tracker →</a></div>
+  </div>
 
   <a class="book" href="book/index.html">
     <div>
@@ -179,5 +290,6 @@ p.title-sub{color:var(--sub);margin:0 0 16px}
     <a href="https://github.com/clickalex/studyUPSC" target="_blank" rel="noopener">GitHub</a>
   </nav>
 </div></footer>
+<script src="assets/js/study.js" defer></script>
 </body>
 </html>

@@ -28,7 +28,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { niceLabel } from './names.mjs';
-import { applyChrome, topicContext, BOOK_RWD_CSS, V2_MARKER } from './site-chrome.mjs';
+import { applyChrome, topicContext, topicNavOf, sectionOf, BOOK_RWD_CSS, V3_MARKER } from './site-chrome.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = path.join(ROOT, 'content');
@@ -89,8 +89,8 @@ for (const r of leafDocs) {
   const abs = path.join(ROOT, r);
   let raw;
   try { raw = fs.readFileSync(abs, 'utf8'); } catch { failed.push(r + ' (unreadable)'); continue; }
-  if (!FORCE && raw.includes(V2_MARKER)) { skipped++; continue; }
-  if (!/<header>[\s\S]*?<\/header>/.test(raw) && !raw.includes('<body>')) {
+  if (!FORCE && raw.includes(V3_MARKER)) { skipped++; continue; }
+  if (!/<header[\s>]/.test(raw) && !/<body[\s>]/.test(raw)) {
     failed.push(r + ' (no <header> or <body> found — left untouched)');
     continue;
   }
@@ -99,6 +99,8 @@ for (const r of leafDocs) {
   const dirRel = path.posix.dirname(r);
   const homeRel = relFromDir(dirAbs, HOME_FILE);
   const catalogRel = relFromDir(dirAbs, CATALOG_FILE);
+  const toRoot = relFromDir(dirAbs, ROOT);
+  const studyRel = (toRoot === '.' ? '' : toRoot + '/') + 'assets/js/study.js';
   const title = titleOf(r);
 
   // breadcrumb trail (ancestors only; header adds Home + current page)
@@ -126,6 +128,7 @@ for (const r of leafDocs) {
       homeRel, catalogRel, trail, here: title, pills,
       prev: tc.prev, next: tc.next,
       upHref: catalogRel + '#' + anchorOf(dirRel), upLabel,
+      studyRel, topicNav: topicNavOf(dirRel), fileRel: r, sectionLabel: sectionOf(dirRel),
     });
   } catch (e) {
     failed.push(r + ' (' + (e && e.message ? e.message : e) + ')');

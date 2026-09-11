@@ -12,9 +12,10 @@
 
 import path from 'node:path';
 
-export const CHROME_VERSION = 'v2';
+export const CHROME_VERSION = 'v3';
 export const OLD_MARKER = '<!-- studyupsc-site-nav -->';
 export const V2_MARKER = '<!-- studyupsc-chrome-v2 -->';
+export const V3_MARKER = '<!-- studyupsc-chrome-v3 -->';
 
 export const SECTION_ORDER = ['detailed-notes', 'short-notes', 'bullet-points', 'diagrams', 'pyqs'];
 export const SECTION_META = {
@@ -60,7 +61,8 @@ ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
 .qa-a .a-body{padding:0 16px 14px;font-size:.95em}
 .qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}`;
 
-export const DOC_CSS = `/* studyupsc-site-chrome-v2 */
+export const DOC_CSS = `/* studyupsc-site-chrome-v3 */
+html{scroll-behavior:smooth}
 header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
 header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
@@ -72,7 +74,9 @@ header.site a.brand:hover{color:#b45309}
 .crumbs .ell{color:#cbd5e1}
 .crumbs .here{color:var(--ink);font-weight:600}
 .crumbs-short{display:none}
-.nav-home{margin-left:auto;font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
+.tbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:4px 10px;font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);margin-left:auto;white-space:nowrap;font-family:Inter,system-ui,sans-serif}
+.tbtn:hover{border-color:#f59e0b;background:#fffbeb}
+.nav-home{font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
 .menu{display:none;position:relative;margin-left:auto}
 .menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
@@ -132,9 +136,36 @@ header.site .head-in{gap:8px}
 }
 @media print{
 header.site{position:static}
-.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top{display:none!important}
+.menu,.topic-nav,.nav-home,.qa-toolbar,.to-top,.tbtn{display:none!important}
 .qa{break-inside:avoid}
-}`;
+}
+html.su-dark{--ink:#e2e8f0;--sub:#94a3b8;--line:#26334d;--bg:#0b1220;--card:#101b31}
+html.su-dark body{background:var(--bg);color:var(--ink)}
+html.su-dark header.site{background:rgba(16,27,49,.94)}
+html.su-dark .card{background:var(--card);border-color:var(--line)}
+html.su-dark table th{background:#1a2740}
+html.su-dark tr:nth-child(even) td{background:#14203a}
+html.su-dark code{background:#1a2740;border-color:#26334d;color:#fcd34d}
+html.su-dark pre{background:#0b1220;border-color:#26334d;color:#e2e8f0}
+html.su-dark pre code{background:none;color:inherit;border:none}
+html.su-dark blockquote{background:#231a05;color:#fde68a}
+html.su-dark a{color:#fbbf24}
+html.su-dark .tbtn{background:#101b31;color:#e2e8f0}
+html.su-dark .menu summary{background:#101b31;color:#e2e8f0}
+html.su-dark .menu-panel{background:#101b31}
+html.su-dark div.topic-nav{background:#101b31}
+html.su-dark .pill{background:#0b1220;color:#94a3b8}
+html.su-dark a.pill:hover{background:#1e1b4b;border-color:#818cf8;color:#c7d2fe}
+html.su-dark .pill[aria-current="page"]{background:#e0e7ff;border-color:#e0e7ff;color:#1e1b4b}
+html.su-dark .qa{background:#101b31}
+html.su-dark .qa-toolbar{background:#0b1220}
+html.su-dark .qa-count{color:#f1f5f9}
+html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
+html.su-dark .qa-opts li{background:#0b1220}
+html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
+html.su-dark .qa-a{background:rgba(20,83,45,.18);border-top-color:#14532d}
+html.su-dark .qa-a summary{color:#4ade80}
+html.su-dark footer{color:#64748b}`;
 
 /* Tiny dependency-free behaviour: back-to-top, show/hide all answers,
    expand answers before printing. */
@@ -143,6 +174,45 @@ export const CHROME_JS = `<script>/* studyupsc-chrome-js */
 </script>`;
 
 export const TO_TOP_HTML = '<a class="to-top no-print" href="#" aria-label="Back to top">↑</a>';
+
+/* Runs before first paint so dark mode never flashes. Tiny on purpose. */
+export const THEME_BOOT_JS = `<script>/*su-theme-boot*/try{if(localStorage.getItem('studyupsc-theme')==='dark'){document.documentElement.className+=' su-dark';}}catch(e){}</script>`;
+
+/* ------------------------------------------------------------------ */
+/*  Content path -> tracker nav (mirrors cli/generate.mjs navOf).      */
+/*  'content/prelims/gs1/history-culture/ancient-history/stone-bronze-  */
+/*  age/detailed-notes' -> 'prelims-gs1/history-culture/ancient-        */
+/*  history/stone-bronze-age' (the topic; the section folder is the     */
+/*  last segment and is dropped).                                       */
+/* ------------------------------------------------------------------ */
+const PAPER_ALIASES = {
+  'gs-1-heritage-geography-society': 'gs-1',
+  'gs-2-polity-governance-ir': 'gs-2',
+  'gs-3-economy-tech-environment': 'gs-3',
+  'gs-4-ethics-integrity-aptitude': 'gs-4',
+  gs1: 'prelims-gs1',
+  'prelims-gs1': 'prelims-gs1',
+  csat: 'prelims-csat',
+  mocks: 'prelims-mocks',
+  practice: 'mains-practice',
+  'essay-frameworks': 'essay',
+  essay: 'essay',
+  'optional-subjects': 'optional-subjects',
+};
+const SECTION_FOLDERS = new Set(['detailed-notes', 'short-notes', 'bullet-points', 'mindmaps', 'diagrams', 'maps', 'pyqs', 'notes', 'short', 'bullets']);
+const plainSlug = (s) => s.replace(/[^a-z0-9-]+/gi, '-').replace(/^-+|-+$/g, '').toLowerCase();
+
+export function topicNavOf(dirRel) {
+  const parts = dirRel.split('/').filter((p) => p && p !== 'content' && p !== 'prelims' && p !== 'mains');
+  if (parts.length && SECTION_FOLDERS.has(parts[parts.length - 1])) parts.pop();
+  return parts.map((p, i) => (i === 0 && PAPER_ALIASES[p] ? PAPER_ALIASES[p] : plainSlug(p))).join('/');
+}
+export function sectionOf(dirRel) {
+  const last = dirRel.split('/').pop();
+  if (!SECTION_FOLDERS.has(last)) return '';
+  const meta = SECTION_META[last];
+  return meta ? meta.icon + ' ' + meta.label : last;
+}
 
 /* ------------------------------------------------------------------ */
 /*  Responsive additions for book pages (book/index, edition, lessons) */
@@ -167,12 +237,16 @@ table{font-size:.82em}
 /* ------------------------------------------------------------------ */
 /*  Header / topic strip / pager builders                              */
 /* ------------------------------------------------------------------ */
-export function buildTopicNav(pills, label) {
+export function buildTopicNav(pills, label, opts) {
   if (!pills || pills.length < 2) return '';
+  const done = opts && opts.done
+    ? '<button class="pill su-done-pill" data-su-done="1" type="button" title="Mark this topic complete (syncs with the tracker)">✓ Mark complete</button>'
+    : '';
   return '<div class="topic-nav no-print"><div class="wrap topic-in"><span class="topic-label">' +
     esc(label || 'This topic') + '</span>' +
     pills.map((p) => '<a class="pill' + (p.idx ? ' idx' : '') + '" href="' + p.href + '"' +
       (p.current ? ' aria-current="page"' : '') + '>' + p.icon + ' ' + esc(p.label) + '</a>').join('') +
+    done +
     '</div></div>';
 }
 
@@ -201,11 +275,12 @@ export function buildHeader(ctx) {
     '  <a class="brand" href="' + homeRel + '">study<span>UPSC</span></a>\n' +
     '  <nav class="crumbs crumbs-full" aria-label="Breadcrumb">' + full + '</nav>\n' +
     '  <nav class="crumbs crumbs-short" aria-label="Breadcrumb">' + short + '</nav>\n' +
+    '  <button class="tbtn su-theme no-print" type="button" title="Toggle dark / light mode" aria-label="Toggle dark mode">◐</button>\n' +
     '  <a class="nav-home no-print" href="' + catalogRel + '">📚 <span class="t">All files</span></a>\n' +
     '  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary>' +
     '<div class="menu-panel"><div class="menu-sec">Page trail</div>' + menuTrail + menuPills + menuRow +
     '</div></details>\n' +
-    '</div></header>' + buildTopicNav(pills);
+    '</div></header>' + buildTopicNav(pills, null, { done: true });
 }
 
 export function buildPager({ prev, next, upHref, upLabel }) {
@@ -541,30 +616,66 @@ export function qaCheck(before, after) {
 /* ------------------------------------------------------------------ */
 /*  applyChrome: full per-document upgrade pipeline.                   */
 /*  ctx: { trail, here, homeRel, catalogRel, pills, prev, next,        */
-/*         upHref, upLabel }                                           */
+/*         upHref, upLabel, studyRel, topicNav, fileRel, sectionLabel } */
 /* ------------------------------------------------------------------ */
 const CARD_RE = /<div class="card">([\s\S]*?)<\/div>(\s*<footer)/;
+
+function setBodyAttrs(html, attrs) {
+  return html.replace(/<body[^>]*>/, (m) => {
+    let tag = m;
+    for (const k of Object.keys(attrs)) {
+      tag = tag.replace(new RegExp(' ' + k + '="[^"]*"'), '');
+      tag = tag.replace(/>$/, ' ' + k + '="' + attrs[k] + '">');
+    }
+    return tag;
+  });
+}
 
 export function applyChrome(raw, ctx) {
   let html = raw;
 
-  // 1. stylesheet: replace v1/v2 block or inject before </head>
+  // 0. theme boot (before first paint — prevents dark-mode flash)
+  if (!html.includes('su-theme-boot')) {
+    html = html.replace(/<head[^>]*>/, (m) => m + '\n' + THEME_BOOT_JS);
+  }
+
+  // 1. stylesheet: replace v1/v2/v3 block or inject before </head>
   const cssBlock = '<style>' + DOC_CSS + '\n</style>';
   if (/<style>\/\* studyupsc-scr-nav \*\//.test(html)) {
     html = html.replace(/<style>\/\* studyupsc-scr-nav \*\/[\s\S]*?<\/style>/, () => cssBlock);
+  } else if (html.includes('studyupsc-site-chrome-v3')) {
+    html = html.replace(/<style>\/\* studyupsc-site-chrome-v3 \*\/[\s\S]*?<\/style>/, () => cssBlock);
   } else if (html.includes('studyupsc-site-chrome-v2')) {
     html = html.replace(/<style>\/\* studyupsc-site-chrome-v2 \*\/[\s\S]*?<\/style>/, () => cssBlock);
   } else {
     html = html.replace('</head>', () => cssBlock + '\n</head>');
   }
 
-  // 2. header (+ topic strip)
+  // 2. header (+ topic strip with mark-complete)
+  // Strip-then-insert: some files carry duplicated v2 headers from an older
+  // --force run, so remove EVERY header block above the article card and
+  // insert exactly one fresh header. (Only the pre-card region is touched,
+  // so article content can never be affected.)
   const header = buildHeader(ctx);
-  if (/<header>[\s\S]*?<\/header>/.test(html)) {
-    html = html.replace(/<header>[\s\S]*?<\/header>/, () => header);
-  } else {
-    html = html.replace('<body>', () => '<body>\n' + header);
-  }
+  const cardAt = html.indexOf('<div class="card">');
+  const head = cardAt === -1 ? html : html.slice(0, cardAt);
+  const tail = cardAt === -1 ? '' : html.slice(cardAt);
+  const cleaned = head
+    .replace(/<header class="site">[\s\S]*?<\/header>(?:<div class="topic-nav no-print">[\s\S]*?<\/div><\/div>)?\n?/g, '')
+    .replace(/<header>[\s\S]*?<\/header>\n?/g, '')
+    .replace(/<div class="topic-nav no-print">[\s\S]*?<\/div><\/div>\n?/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .replace(/<body[^>]*>/, (m) => m + '\n' + header);
+  html = cardAt === -1 ? cleaned : cleaned + tail;
+
+  // 2b. study wiring on <body> (powers theme/progress/quiz in study.js)
+  html = setBodyAttrs(html, {
+    'data-study-kind': 'doc',
+    'data-study-nav': esc(ctx.topicNav || ''),
+    'data-study-rel': esc(ctx.fileRel || ''),
+    'data-study-title': esc(ctx.here || ''),
+    'data-study-section': esc(ctx.sectionLabel || ''),
+  });
 
   // 3. Q&A cards (fail-safe: revert card on invariant mismatch)
   let qa = 0;
@@ -602,12 +713,25 @@ export function applyChrome(raw, ctx) {
     }
   }
 
-  // 6. markers (keep the legacy one so old tooling still recognises the file)
+  // 5b. shared interactivity engine (progressive enhancement)
+  if (ctx.studyRel) {
+    const tag = '<script src="' + ctx.studyRel + '" defer></script>';
+    if (/<script src="[^"]*assets\/js\/study\.js"[^>]*><\/script>/.test(html)) {
+      html = html.replace(/<script src="[^"]*assets\/js\/study\.js"[^>]*><\/script>/, () => tag);
+    } else {
+      html = html.replace('</body>', () => tag + '\n</body>');
+    }
+  }
+
+  // 6. markers (keep the legacy ones so old tooling still recognises the file)
   if (!html.includes(OLD_MARKER)) {
     html = html.replace('</body>', () => OLD_MARKER + '\n</body>');
   }
   if (!html.includes(V2_MARKER)) {
     html = html.replace('</body>', () => V2_MARKER + '\n</body>');
+  }
+  if (!html.includes(V3_MARKER)) {
+    html = html.replace('</body>', () => V3_MARKER + '\n</body>');
   }
   return { html, qa };
 }

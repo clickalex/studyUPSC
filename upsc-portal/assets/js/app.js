@@ -116,6 +116,55 @@
   })();
   var NODE_BY_NAV = {};
   ALL_NODES.forEach(function (n) { NODE_BY_NAV[n.nav] = n; });
+
+  /* ---------- canonical numbering (matches homepage steps + book parts) --- */
+  var NUM_BY_NAV = {};
+  (function numberTree() {
+    DATA.papers.forEach(function (p, pi) {
+      var pn = String(pi + 1);
+      NUM_BY_NAV[p.nav] = pn;
+      (function walk(kids, prefix) {
+        (kids || []).forEach(function (c, i) {
+          var n = prefix + '.' + (i + 1);
+          NUM_BY_NAV[c.nav] = n;
+          if (c.sub && c.sub.length) walk(c.sub, n);
+        });
+      })(p.sub || [], pn);
+    });
+  })();
+  function numOf(nav) { return NUM_BY_NAV[nav] || ''; }
+  function numBadge(nav, small) {
+    var n = numOf(nav);
+    if (!n) return '';
+    return '<span class="su-num' + (small ? ' sm' : '') + '" aria-hidden="true">' + esc(n) + '</span>';
+  }
+
+  /* ---------- ordered leaf sequence (powers Up-next + Continue) ---------- */
+  var LEAVES = [];
+  (function collectLeaves() {
+    function walk(n) {
+      if (isLeaf(n)) LEAVES.push(n);
+      else (n.sub || []).forEach(walk);
+    }
+    DATA.papers.forEach(walk);
+  })();
+  function leafIndex(nav) {
+    for (var i = 0; i < LEAVES.length; i++) if (LEAVES[i].nav === nav) return i;
+    return -1;
+  }
+  var LAST_KEY = 'studyupsc-last-v1';
+  function getLastVisit() {
+    try { return JSON.parse(localStorage.getItem(LAST_KEY)) || null; } catch (e) { return null; }
+  }
+  function recordVisit(obj) {
+    try {
+      obj.ts = Date.now();
+      localStorage.setItem(LAST_KEY, JSON.stringify(obj));
+    } catch (e) { /* private mode */ }
+  }
+  function markReadRel(rel) {
+    try { if (window.Study) window.Study.markRead(rel); } catch (e) { /* study.js optional */ }
+  }
   function crumbsFor(nav) {
     var parts = nav.split('/'), out = [];
     var acc = [];
@@ -261,6 +310,7 @@
       html += '<div class="mt-1" role="treeitem" aria-expanded="' + (open ? 'true' : 'false') + '">';
       html += '<div class="flex items-center gap-1 rounded-lg px-2 py-1.5 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer select-none ' + (paperActive ? 'nav-active' : '') + '" data-expand="p:' + paper.id + '" role="button" tabindex="0" aria-expanded="' + (open ? 'true' : 'false') + '" aria-controls="paper-' + esc(paper.id) + '">' +
         '<span class="chev ' + (open ? 'rotate-90' : '') + '" aria-hidden="true">' + treeIcon(paper) + '</span>' +
+        numBadge(paper.nav) +
         '<a href="' + navHref('paper', paper.nav) + '" class="flex-1 truncate text-[13px] font-semibold text-slate-800 dark:text-slate-200 focus-visible:outline-none" data-nav="' + esc(paper.nav) + '" ' + (cur.page === 'paper' && curNav === paper.nav ? 'aria-current="page"' : '') + '>' + esc(paper.title) + '</a>' +
         '<span class="text-[10px] font-bold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-indigo-600 dark:text-indigo-400') + '">' + pr.pct + '%</span></div>';
       html += '<div id="paper-' + esc(paper.id) + '" class="ml-3 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '" role="group">';
@@ -299,12 +349,13 @@
       html += '<div class="mt-0.5" role="treeitem" aria-expanded="' + (isL ? 'false' : (open ? 'true' : 'false')) + '">';
       if (isL) {
         html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 group ' + (isActive ? 'nav-active' : '') + (isAncestor ? ' bg-indigo-50/40 dark:bg-indigo-950/20' : '') + '">' +
-          '<span class="chev opacity-0" aria-hidden="true">•</span>' +
+          numBadge(n.nav, true) +
           '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded" title="' + esc(n.title) + '" data-nav="' + esc(n.nav) + '" ' + (isActive ? 'aria-current="page"' : '') + '>' + esc(n.title) + '</a>' +
           '<span class="opacity-0 group-hover:opacity-100 transition-opacity" title="Mark topic done">' + leafCheckbox(n.nav) + '</span></div>';
       } else {
         html += '<div class="flex items-center gap-1 rounded px-1.5 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer ' + (isActive ? 'nav-active' : '') + (isAncestor ? ' bg-indigo-50/30 dark:bg-indigo-950/15' : '') + '" data-expand="n:' + n.nav + '" role="button" tabindex="0" aria-expanded="' + (open ? 'true' : 'false') + '">' +
           '<span class="chev ' + (open ? 'rotate-90' : '') + '" aria-hidden="true">' + treeIcon(n) + '</span>' +
+          numBadge(n.nav, true) +
           '<a href="' + href + '" class="flex-1 truncate text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-indigo-500 rounded" title="' + esc(n.title) + '" data-nav="' + esc(n.nav) + '" ' + (isActive && curPage === 'paper' ? 'aria-current="page"' : '') + '>' + esc(n.title) + '</a>' +
           '<span class="text-[10px] font-semibold ' + (pr.pct === 100 ? 'text-emerald-500' : 'text-slate-400') + '">' + pr.pct + '%</span></div>';
         html += '<div class="ml-2 border-l border-slate-200 dark:border-slate-700 pl-1 ' + (open ? '' : 'hidden') + '" role="group">' + renderTreeLevel(n.sub, depth + 1, curNav, curPage) + '</div>';
@@ -409,6 +460,28 @@
       '<span class="text-[9px] uppercase tracking-[0.18em] text-slate-400">done</span></div></div>' +
       '<div class="text-[11px] text-slate-400">' + o.done + '/' + o.total + ' topics</div></div></div></div>';
 
+    /* ---- continue learning (shared with the static site) ---- */
+    var last = getLastVisit();
+    if (last && (last.hash || last.rel || last.nav)) {
+      var resumeHref = last.hash || last.rel || '#/';
+      if (last.hash && last.hash.charAt(0) === '#') resumeHref = last.hash;
+      html += '<a href="' + esc(resumeHref) + '" class="group flex items-center gap-3 rounded-2xl border border-indigo-200 dark:border-indigo-800 bg-gradient-to-r from-indigo-50 to-white dark:from-indigo-950/50 dark:to-slate-900 px-5 py-3.5 mb-6 shadow-card hover:shadow-lift hover:-translate-y-0.5 transition-all">' +
+        '<span class="text-[11px] font-extrabold uppercase tracking-[0.14em] text-indigo-600 dark:text-indigo-300">▶ Continue</span>' +
+        '<span class="font-semibold text-slate-800 dark:text-slate-100 truncate">' + esc(last.title || 'your last topic') + '</span>' +
+        '<span class="ml-auto text-indigo-500 font-bold group-hover:translate-x-1 transition-transform">Resume →</span></a>';
+    }
+
+    /* ---- start-here path: the whole exam in 4 ordered steps ---- */
+    html += '<div class="card p-5 sm:p-6 mb-6 shadow-card">' +
+      '<h2 class="font-display text-lg font-bold mb-1">🗺️ New here? Follow the path in order</h2>' +
+      '<p class="text-[13px] text-slate-500 dark:text-slate-400 mb-4">Four steps, top-to-bottom — the numbers below match the sidebar, the library and the book.</p>' +
+      '<div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-3">' +
+      '<a href="#/paper/prelims-gs1" class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"><span class="su-step">Step 1</span><b class="block text-sm mt-2 mb-1">🧭 Understand the exam</b><span class="block text-[12px] text-slate-500 dark:text-slate-400">Papers, marks, what counts. Prelims screens, Mains ranks.</span></a>' +
+      '<a href="#stage-prelims" data-scrollto="stage-prelims" class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"><span class="su-step">Step 2</span><b class="block text-sm mt-2 mb-1">📋 Finish Prelims (1 → 3)</b><span class="block text-[12px] text-slate-500 dark:text-slate-400">GS Paper I in order, then CSAT, then timed mocks.</span></a>' +
+      '<a href="#stage-mains" data-scrollto="stage-mains" class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"><span class="su-step">Step 3</span><b class="block text-sm mt-2 mb-1">✍️ Finish Mains (4 → 10)</b><span class="block text-[12px] text-slate-500 dark:text-slate-400">GS I–IV + Essay first, then your ONE optional.</span></a>' +
+      '<a href="#/tracker" class="rounded-2xl border border-slate-200 dark:border-slate-800 p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"><span class="su-step">Step 4</span><b class="block text-sm mt-2 mb-1">✅ Track &amp; test</b><span class="block text-[12px] text-slate-500 dark:text-slate-400">Tick topics done, quiz yourself on PYQs.</span></a>' +
+      '</div></div>';
+
     /* ---- book promo ---- */
     var BK = window.BOOK_DATA;
     if (BK) {
@@ -483,7 +556,7 @@
       html += '<a href="#/paper/' + encodeURIComponent(p.nav) + '" class="group card p-5 shadow-card hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all">' +
         '<div class="flex items-start justify-between gap-2">' +
         '<div><div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mb-1.5">' + esc(p.tag || p.stage) + '</div>' +
-        '<h3 class="font-display font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(p.title) + '</h3></div>' +
+        '<h3 class="font-display font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + numBadge(p.nav) + ' ' + esc(p.title) + '</h3></div>' +
         '<span class="text-indigo-400 opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-0.5">→</span></div>' +
         '<p class="text-[13px] text-slate-500 dark:text-slate-400 mt-2 line-clamp-2">' + esc(p.summary || '') + '</p>' +
         '<div class="mt-4 flex items-center gap-2.5">' + progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') +
@@ -513,6 +586,7 @@
     if (!node) { renderNotFound(nav); return; }
     // If leaf was requested via /paper, render as topic view for correctness
     if (isLeaf(node)) { renderTopic(nav); return; }
+    recordVisit({ kind: 'app', nav: node.nav, title: node.title, hash: '#/paper/' + encodeURIComponent(node.nav) });
     var pr = nodeProgress(node);
     var crumbs = crumbsFor(nav).map(function (c) { return { page: c.nav === node.nav ? 'paper' : 'topic', nav: c.nav, title: c.title }; });
     if (node.stage) crumbs = [];
@@ -523,7 +597,7 @@
     html += '<div class="relative overflow-hidden card p-6 mb-6 shadow-card">' +
       '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>';
     html += '<div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mb-2">' + esc(node.tag || (node.stage === 'prelims' ? 'Prelims' : 'Mains')) + '</div>';
-    html += '<h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>';
+    html += '<h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + numBadge(node.nav) + ' ' + esc(node.title) + '</h1>';
     if (node.full) html += '<p class="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1">' + esc(node.full) + '</p>';
     if (node.summary) html += '<p class="text-sm text-slate-600 dark:text-slate-300 mt-3 max-w-3xl leading-relaxed">' + esc(node.summary) + '</p>';
     html += '<div class="mt-5 flex items-center gap-3 flex-wrap"><div class="w-44">' + progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' +
@@ -555,7 +629,7 @@
         var done = tp.pct === 100;
         html += '<a href="#/' + (isL ? 'topic' : 'paper') + '/' + encodeURIComponent(t.nav) + '" class="group card p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all">' +
           '<div class="flex items-center justify-between gap-2">' +
-          '<div class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(t.title) + '</div>' +
+          '<div class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + numBadge(t.nav, true) + ' ' + esc(t.title) + '</div>' +
           (isL ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold ' + (done ? 'text-emerald-500' : 'text-indigo-500 dark:text-indigo-400') + '">' + tp.pct + '%</span>') + '</div>' +
           (t.tag ? '<div class="text-[11px] text-slate-400 mt-1">' + esc(t.tag) + '</div>' : '') +
           (isL ? '<div class="mt-2.5">' + progressBar(tp.pct, done ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') + '</div>' : '') +
@@ -585,6 +659,7 @@
     nav = normalizeNav(nav);
     var node = NODE_BY_NAV[nav];
     if (!node) { renderNotFound(nav); return; }
+    recordVisit({ kind: 'app', nav: node.nav, title: node.title, hash: '#/topic/' + encodeURIComponent(node.nav) });
     var pr = nodeProgress(node);
     var crumbs = crumbsFor(nav).map(function (c) {
       var isPaper = DATA.papers.some(function (p) { return p.nav === c.nav; });
@@ -597,7 +672,7 @@
     html += '<div class="relative overflow-hidden card p-6 mb-6 shadow-card">' +
       '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
       '<div class="flex flex-wrap items-start justify-between gap-3">' +
-      '<div><h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + esc(node.title) + '</h1>' +
+      '<div><h1 class="font-display text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">' + numBadge(node.nav) + ' ' + esc(node.title) + '</h1>' +
       (node.tag ? '<div class="chip bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300 mt-2">' + esc(node.tag) + '</div>' : '') +
       (node.note ? '<p class="text-sm text-slate-500 dark:text-slate-400 mt-2">' + esc(node.note) + '</p>' : '') + '</div>' +
       '<div class="flex items-center gap-2">' +
@@ -611,7 +686,7 @@
         var tp = nodeProgress(t);
         var tDone = tp.pct === 100;
         html += '<a href="#/topic/' + encodeURIComponent(t.nav) + '" class="card p-4 hover:border-indigo-400 dark:hover:border-indigo-500 hover:shadow-lift hover:-translate-y-0.5 transition-all flex items-center justify-between gap-2 group">' +
-          '<span class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + esc(t.title) + '</span>' +
+          '<span class="font-semibold text-slate-800 dark:text-slate-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">' + numBadge(t.nav, true) + ' ' + esc(t.title) + '</span>' +
           (isLeaf(t) ? leafCheckbox(t.nav) : '<span class="text-[10px] font-bold ' + (tDone ? 'text-emerald-500' : 'text-indigo-500') + '">' + tp.pct + '%</span>') + '</a>';
       });
       html += '</div>';
@@ -639,6 +714,10 @@
       html += '<h2 class="text-lg font-bold mb-3">📄 Files in this topic (' + files.length + ')</h2>';
       html += renderFileGroups(node.nav, dirsUnder(node.nav), files);
     }
+
+    /* ordered up-next: walk the syllabus leaf by leaf, in study order */
+    html += upNextHtml(node.nav);
+
     $('#app').innerHTML = shell(html, { crumbs: crumbs });
     $('.section-card').forEach(function (el) {
       el.addEventListener('click', function (e) { e.preventDefault(); openSection(node, el.dataset.section); });
@@ -647,6 +726,27 @@
       // Defer to allow DOM paint
       setTimeout(function(){ openSection(node, section); }, 50);
     }
+  }
+
+  /* Ordered prev/next across the whole syllabus (leaf topics in study order). */
+  function upNextHtml(nav) {
+    var i = leafIndex(nav);
+    if (i < 0) return '';
+    var prev = i > 0 ? LEAVES[i - 1] : null;
+    var next = i < LEAVES.length - 1 ? LEAVES[i + 1] : null;
+    function cut(t) { t = String(t); return t.length > 44 ? t.slice(0, 43) + '…' : t; }
+    var html = '<div class="card p-5 mt-6 shadow-card">' +
+      '<div class="text-[10.5px] font-bold uppercase tracking-[0.14em] text-slate-400 mb-3">📍 Study in order · topic ' + (i + 1) + ' of ' + LEAVES.length + '</div>' +
+      '<div class="flex flex-wrap items-center gap-2.5">' +
+      (prev ? '<a href="#/topic/' + encodeURIComponent(prev.nav) + '" class="btn-ghost text-[12px]">← ' + numBadge(prev.nav, true) + ' ' + esc(cut(prev.title)) + '</a>' : '<span></span>') +
+      '<span class="flex-1"></span>' +
+      (next
+        ? '<button class="btn-primary text-[12px]" data-done-next="' + esc(nav) + '">' + (progress[nav] === 1 ? 'Next topic →' : '✓ Mark done &amp; continue →') + '</button>'
+        : '<a href="#/tracker" class="btn-primary text-[12px]">Finish → tracker ✅</a>') +
+      '</div>' +
+      (next ? '<div class="mt-2.5 text-[12px] text-slate-500 dark:text-slate-400">Up next: ' + numBadge(next.nav, true) + ' <a class="font-semibold text-indigo-600 dark:text-indigo-400 hover:underline" href="#/topic/' + encodeURIComponent(next.nav) + '">' + esc(next.title) + '</a></div>' : '') +
+      '</div>';
+    return html;
   }
 
   /* open a section panel (modal listing that section's files) */
@@ -722,6 +822,8 @@
   function renderDoc(rel) {
     var entry = entryByRel(rel);
     if (!entry) { renderNotFound(rel, 'doc'); return; }
+    recordVisit({ kind: 'app', nav: entry.nav, title: shortName(entry.file), hash: '#/doc/' + encodeURIComponent(rel), rel: rel });
+    markReadRel(rel);
     var app = $('#app');
     app.innerHTML = shell('<div id="doc-body" class="animate-pulse"><div class="h-6 w-1/3 rounded bg-slate-200 dark:bg-slate-700 mb-3"></div><div class="h-3 w-full rounded bg-slate-100 dark:bg-slate-700 mb-2"></div><div class="h-3 w-5/6 rounded bg-slate-100 dark:bg-slate-700 mb-2"></div><div class="h-3 w-4/6 rounded bg-slate-100 dark:bg-slate-700"></div></div>',
       { crumbs: crumbsForNavFromRel(entry) });
@@ -775,6 +877,8 @@
         body = mdToHtml(raw, baseDir);
       }
       var toc = mdToc(body);
+      var words = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(' ').length;
+      var mins = Math.max(1, Math.round(words / 200));
       var appHtml = '<div class="grid lg:grid-cols-4 gap-8">' +
         '<div class="lg:col-span-3">' +
         '<div class="card shadow-card overflow-hidden">' +
@@ -782,7 +886,7 @@
         '<div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-indigo-500 via-violet-500 to-amber-400"></div>' +
         '<div class="flex items-start justify-between gap-3 flex-wrap">' +
         '<div class="min-w-0"><h1 class="font-display text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white leading-snug">' + esc(title) + '</h1>' +
-        '<p class="text-[11px] text-slate-400 mt-1.5 font-mono">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + '</p></div>' +
+        '<p class="text-[11px] text-slate-400 mt-1.5 font-mono">' + esc(entry.dir) + ' · ' + fmtBytes(entry.size) + ' · 🕐 ' + mins + ' min read</p></div>' +
         openRaw(rel, entry.ext === 'html' || entry.ext === 'htm' ? 'Open HTML' : 'Open file') +
         '</div></div>' +
         '<div class="md-content px-5 sm:px-9 py-7 max-w-none">' + body + '</div></div>' +
@@ -796,6 +900,8 @@
       rewriteInlineLinks($('.md-content'), baseDir);
       attachReadingProgress();
       attachTocHighlight();
+      /* self-test mode for Q&A pages (shared engine from study.js) */
+      try { if (window.Study) window.Study.quizify($('.md-content'), 'app|' + rel); } catch (e) { /* study.js optional */ }
       /* highlight search query if any */
       if (window._searchQuery) highlightInDoc(window._searchQuery);
     }).catch(function (err) {
@@ -1248,7 +1354,7 @@
     DATA.papers.forEach(function (paper) {
       var pr = paperProgress(paper);
       html += '<div class="card p-5 shadow-card">' +
-        '<div class="flex items-center justify-between mb-1.5"><h2 class="font-display font-bold text-slate-900 dark:text-white">' + esc(paper.title) + '</h2>' +
+        '<div class="flex items-center justify-between mb-1.5"><h2 class="font-display font-bold text-slate-900 dark:text-white">' + numBadge(paper.nav) + ' ' + esc(paper.title) + '</h2>' +
         '<span class="chip ' + (pr.pct === 100 ? 'bg-emerald-50 dark:bg-emerald-950/50 text-emerald-500' : 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-300') + '">' + pr.pct + '%</span></div>' +
         progressBar(pr.pct, pr.pct === 100 ? 'bg-emerald-500' : 'bg-gradient-to-r from-indigo-500 to-violet-500') +
         '<div class="mt-1.5 mb-3 text-[11px] text-slate-400">' + pr.done + '/' + pr.total + ' topics</div>' +
@@ -1262,6 +1368,7 @@
     function walk(n) {
       if (isLeaf(n)) {
         html += '<li class="flex items-center gap-2.5 rounded-lg px-2 py-1.5 hover:bg-slate-50 dark:hover:bg-slate-700/40">' + leafCheckbox(n.nav) +
+          numBadge(n.nav, true) +
           '<span class="text-[13px] text-slate-700 dark:text-slate-200 ' + (progress[n.nav] === 1 ? 'line-through opacity-50' : '') + '">' + esc(n.title) + '</span></li>';
         return;
       }
@@ -1420,6 +1527,17 @@
           return;
         }
         setExpanded(expandEl.dataset.expand, !expanded[expandEl.dataset.expand]);
+        return;
+      }
+      var dn = e.target.closest('[data-done-next]');
+      if (dn) {
+        var dnav = dn.getAttribute('data-done-next');
+        if (progress[dnav] !== 1) { progress[dnav] = 1; saveProgress(); }
+        renderSidebar();
+        updateFavicon();
+        var ni = leafIndex(dnav);
+        if (ni >= 0 && ni < LEAVES.length - 1) go('#/topic/' + encodeURIComponent(LEAVES[ni + 1].nav));
+        else go('#/tracker');
         return;
       }
       var cb = e.target.closest('.tracker-cb');
