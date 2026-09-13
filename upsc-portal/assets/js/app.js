@@ -278,8 +278,10 @@
     try {
       var tb = document.getElementById('nav-tracker');
       var bb = document.getElementById('nav-book');
+      var hb = document.getElementById('nav-home');
       if (tb) { if (cur && cur.page === 'tracker') tb.setAttribute('aria-current','page'); else tb.removeAttribute('aria-current'); }
       if (bb) bb.removeAttribute('aria-current');
+      if (hb) { if (cur && cur.page === 'home') hb.setAttribute('aria-current','page'); else hb.removeAttribute('aria-current'); }
       // sidebar toggle aria
       var sb = document.getElementById('sidebar-toggle');
       if (sb) sb.setAttribute('aria-expanded', document.body.classList.contains('sidebar-open') ? 'true' : 'false');
@@ -324,8 +326,10 @@
       '<div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-1">Content Library</div>' +
       '<div id="file-tree" class="text-[12px]"></div></div>';
     html += '<nav class="border-t border-slate-200 dark:border-slate-700 p-3 text-[11px] text-slate-500 dark:text-slate-400 space-y-1" aria-label="Utility navigation">' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'home' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/" ' + (cur.page === 'home' ? 'aria-current="page"' : '') + '>⌂ Home dashboard</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'tracker' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/tracker" ' + (cur.page === 'tracker' ? 'aria-current="page"' : '') + '>✅ Revision Tracker</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1 ' + (cur.page === 'search' ? 'text-indigo-600 dark:text-indigo-400 font-semibold' : '') + '" href="#/search" ' + (cur.page === 'search' ? 'aria-current="page"' : '') + '>🔍 Global Search</a>' +
+      '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" href="book/index.html">📖 Book edition</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" href="content/index.html" target="_blank" rel="noopener">📁 All HTML files (direct list)</a>' +
       '<a class="block hover:text-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded px-1 -mx-1" target="_blank" rel="noopener" href="https://github.com/clickalex/studyUPSC">GitHub repo ↗</a></nav>';
 

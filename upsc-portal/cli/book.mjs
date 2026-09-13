@@ -289,14 +289,6 @@ html.su-dark .bk-lesson-toc a{color:#cbd5e1}
 html.su-dark .bk-nav a{background:#101b31;color:#cbd5e1}
 html.su-dark .bk-figure{background:#101b31}
 html.su-dark .bk-done{background:#101b31}
-html.su-dark .qa{background:#101b31}
-html.su-dark .qa-toolbar{background:#0b1220}
-html.su-dark .qa-count{color:#f1f5f9}
-html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
-html.su-dark .qa-opts li{background:#0b1220}
-html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
-html.su-dark .qa-a{background:rgba(20,83,45,.18)}
-html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
@@ -318,7 +310,7 @@ html.su-dark .qa-a summary{color:#4ade80}
 
 const FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">`;
 
-const QA_STYLE = `<style>${QA_CSS}\n@media (max-width:640px){\n.qa-q{padding:12px 13px}\n}\n@media print{\n.qa{break-inside:avoid}\n.qa-toolbar{display:none!important}\n}</style>`;
+const QA_STYLE = `<style>${QA_CSS}</style>`;
 const QA_SCRIPT = `<script>/* studyupsc-book-qa */
 (function(){try{document.addEventListener('click',function(e){var b=e.target.closest('[data-qa]');if(!b)return;var open=b.getAttribute('data-qa')==='show';document.querySelectorAll('.qa-a').forEach(function(d){d.open=open;});});window.addEventListener('beforeprint',function(){document.querySelectorAll('.qa-a').forEach(function(d){d.open=true;});});}catch(e){}})();
 </script>`;

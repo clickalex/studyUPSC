@@ -99,6 +99,8 @@ for (const r of leafDocs) {
   const dirRel = path.posix.dirname(r);
   const homeRel = relFromDir(dirAbs, HOME_FILE);
   const catalogRel = relFromDir(dirAbs, CATALOG_FILE);
+  const bookRel = relFromDir(dirAbs, path.join(BOOK, 'index.html'));
+  const appRel = relFromDir(dirAbs, path.join(ROOT, 'app.html'));
   const toRoot = relFromDir(dirAbs, ROOT);
   const studyRel = (toRoot === '.' ? '' : toRoot + '/') + 'assets/js/study.js';
   const title = titleOf(r);
@@ -125,7 +127,7 @@ for (const r of leafDocs) {
   let out;
   try {
     out = applyChrome(raw, {
-      homeRel, catalogRel, trail, here: title, pills,
+      homeRel, catalogRel, bookRel, appRel, trail, here: title, pills,
       prev: tc.prev, next: tc.next,
       upHref: catalogRel + '#' + anchorOf(dirRel), upLabel,
       studyRel, topicNav: topicNavOf(dirRel), fileRel: r, sectionLabel: sectionOf(dirRel),

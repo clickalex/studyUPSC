@@ -190,12 +190,14 @@ a{color:#b45309;text-decoration:none}
 a:hover{text-decoration:underline}
 /* top nav */
 .site-head{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.site-head::before{content:"";display:block;height:3px;background:linear-gradient(90deg,#4f46e5,#8b5cf6,#f59e0b)}
 .site-head .wrap{display:flex;align-items:center;gap:18px;min-height:60px;padding-top:8px;padding-bottom:8px}
 .brand{font-weight:800;font-size:18px;color:var(--ink);white-space:nowrap}
 .brand span{color:var(--accent)}
 .topnav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
-.topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:6px 10px;border-radius:8px;white-space:nowrap}
+.topnav a{color:var(--sub);font-size:14px;font-weight:600;padding:7px 12px;border-radius:8px;white-space:nowrap}
 .topnav a:hover{color:var(--indigo);background:#eef2ff}
+.topnav a[aria-current="page"]{color:var(--indigo);background:#eef2ff;font-weight:700}
 .tbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:4px 10px;font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);white-space:nowrap}
 .tbtn:hover{border-color:var(--accent);background:#fffbeb}
 .mnav{display:none;position:relative;margin-left:auto}
@@ -324,7 +326,7 @@ html.su-dark .topics a:hover{background:#1e1b4b;border-color:#818cf8;color:#c7d2
 <header class="site-head"><div class="wrap">
   <a class="brand" href="./">study<span>UPSC</span></a>
   <nav class="topnav" aria-label="Primary">
-    <a href="./">Home</a>
+    <a href="./" aria-current="page">Home</a>
     <a href="content/index.html#content-prelims">Prelims</a>
     <a href="content/index.html#content-mains">Mains</a>
     <a href="book/index.html">Book</a>
@@ -439,6 +441,8 @@ if (!onlyHomepage) {
     const dirRel = path.posix.dirname(d.rel);            // e.g. content/prelims/gs1/economy/notes
     const homeRel = relFromDir(dirAbs, HOME_FILE);
     const catalogRel = relFromDir(dirAbs, CATALOG_FILE);
+    const bookRel = relFromDir(dirAbs, path.join(ROOT, 'book', 'index.html'));
+    const appRel = relFromDir(dirAbs, path.join(ROOT, 'app.html'));
     const toRoot = relFromDir(dirAbs, ROOT);
     const studyRel = (toRoot === '.' ? '' : toRoot + '/') + 'assets/js/study.js';
     const title = titleOf(d.rel);
@@ -463,7 +467,7 @@ if (!onlyHomepage) {
     const upLabel = parts.length > 1 ? niceLabel(parts[parts.length - 1]) : 'All files';
 
     if (rewriteDoc(d.abs, {
-      homeRel, catalogRel, trail, here: title, pills,
+      homeRel, catalogRel, bookRel, appRel, trail, here: title, pills,
       prev: tc.prev, next: tc.next,
       upHref: `${catalogRel}#${anchorOf(dirRel)}`, upLabel,
       studyRel, topicNav: topicNavOf(dirRel), fileRel: d.rel, sectionLabel: sectionOf(dirRel),
