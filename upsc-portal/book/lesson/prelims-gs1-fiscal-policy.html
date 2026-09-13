@@ -130,14 +130,6 @@ html.su-dark .bk-lesson-toc a{color:#cbd5e1}
 html.su-dark .bk-nav a{background:#101b31;color:#cbd5e1}
 html.su-dark .bk-figure{background:#101b31}
 html.su-dark .bk-done{background:#101b31}
-html.su-dark .qa{background:#101b31}
-html.su-dark .qa-toolbar{background:#0b1220}
-html.su-dark .qa-count{color:#f1f5f9}
-html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
-html.su-dark .qa-opts li{background:#0b1220}
-html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
-html.su-dark .qa-a{background:rgba(20,83,45,.18)}
-html.su-dark .qa-a summary{color:#4ade80}
 @media print{
   body{background:#fff;font-size:10.5pt;line-height:1.5}
   .bk-top,.bk-nav,.no-print{display:none!important}
@@ -156,33 +148,60 @@ html.su-dark .qa-a summary{color:#4ade80}
   @page{margin:18mm 16mm}
 }
 </style><style>/* studyupsc-qa-cards */
-.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px 0 8px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
 .qa-count{font-weight:800;color:var(--ink)}
-.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;min-height:36px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
 .qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
-.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
-.qa-q{padding:14px 16px}
-.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
-.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa{position:relative;border:1px solid var(--line);border-radius:16px;margin:16px 0;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.05);scroll-margin-top:130px}
+.qa::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,#4f46e5,#8b5cf6)}
+.qa-q{padding:16px 18px 16px 20px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:26px;padding:0 10px;border-radius:999px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;font-size:12.5px;font-weight:800;font-family:Inter,system-ui,sans-serif;box-shadow:0 3px 8px -3px rgba(79,70,229,.55)}
 .qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
-.qa-text{margin:.3em 0}
+.qa-text{margin:.4em 0;font-size:1.02em;line-height:1.6}
 .qa-lead{margin:.5em 0 .2em;font-weight:600}
 ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
-.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
-.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
-.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-opts{list-style:none;padding:0;margin:12px 0 4px;display:grid;grid-template-columns:1fr;gap:8px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-left:3px solid #c7d2fe;border-radius:12px;padding:10px 14px;background:#f8fafc;font-size:.97em;line-height:1.5;display:flex;gap:12px;align-items:flex-start;min-height:44px;transition:border-color .15s,background .15s,transform .1s}
+.qa-opts li:hover{border-color:#818cf8;background:#eef2ff}
+.qa-opts li>span:last-child{min-width:0;word-break:break-word}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;padding:0 6px;border-radius:8px;background:#e0e7ff;color:#3730a3;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif;margin-top:1px}
 .qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
-.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary{cursor:pointer;padding:12px 16px;min-height:44px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
 .qa-a summary::-webkit-details-marker{display:none}
 .qa-a summary::before{content:"\25B8 "}
 .qa-a[open] summary::before{content:"\25BE "}
 .qa-a .a-body{padding:0 16px 14px;font-size:.95em}
 .qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
-@media (max-width:640px){
-.qa-q{padding:12px 13px}
+html.su-dark .qa{background:#101b31;border-color:var(--line)}
+html.su-dark .qa::before{background:linear-gradient(180deg,#6366f1,#8b5cf6)}
+html.su-dark .qa-toolbar{background:#0b1220}
+html.su-dark .qa-count{color:#f1f5f9}
+html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
+html.su-dark .qa-toolbar button:hover{background:#312e81;border-color:#6366f1}
+html.su-dark .qa-opts li{background:#0b1220;border-left-color:#312e81}
+html.su-dark .qa-opts li:hover{background:#1e1b4b;border-color:#6366f1}
+html.su-dark .qa-opts .opt{background:#312e81;color:#c7d2fe}
+html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
+html.su-dark .qa-a{background:rgba(20,83,45,.18);border-top-color:#14532d}
+html.su-dark .qa-a summary{color:#4ade80}
+@media (max-width:760px){
+.qa{margin:12px 0;border-radius:14px}
+.qa-q{padding:13px 14px 13px 16px}
+.qa-opts li{min-height:46px}
+.qa-a summary{min-height:46px}
+}
+@media (max-width:480px){
+.qa-q{padding:12px 12px 12px 14px}
+.qa-head{gap:6px}
+.qa-badge{min-width:32px;height:24px;font-size:12px}
+.qa-text{font-size:1em}
+.qa-opts{gap:7px}
+.qa-opts li{padding:10px 12px;gap:10px}
+.qa-a .a-body{padding:0 13px 12px}
 }
 @media print{
-.qa{break-inside:avoid}
+.qa{break-inside:avoid;box-shadow:none}
 .qa-toolbar{display:none!important}
 }</style><style>/* studyupsc-book-rwd */
 .bk-top .in{flex-wrap:wrap;row-gap:6px}

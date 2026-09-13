@@ -224,7 +224,7 @@ function buildSearchData(files) {
     if (ext !== 'html' && ext !== 'htm' && ext !== 'txt') continue; // full-text index: text documents only
     if (f.rel === 'content/index.html') continue; // the generated catalog itself
     try {
-      const raw = fs.readFileSync(f.abs, 'utf8').slice(0, 60000);
+      const raw = fs.readFileSync(f.abs, 'utf8').slice(0, 180000);
       const article = ext === 'html' || ext === 'htm' ? htmlArticle(raw) : raw;
       const text = stripHtml(article);
       if (text.length < 8) continue;
@@ -393,7 +393,10 @@ header.lib .head-in{display:flex;gap:12px;align-items:center;padding-top:10px;pa
 a.brand{color:var(--ink);text-decoration:none}
 a.brand:hover{color:#b45309}
 .crumb{font-size:12px;color:var(--sub);white-space:nowrap}
-.links{white-space:nowrap;margin-left:auto}
+.links{display:flex;gap:2px;align-items:center;white-space:nowrap;margin-left:auto;flex-wrap:wrap}
+.links a{font-size:12.5px;font-weight:600;color:var(--sub);padding:5px 9px;border-radius:8px;text-decoration:none}
+.links a:hover{color:#4f46e5;background:#eef2ff;text-decoration:none}
+html.su-dark .links a:hover{background:#1e1b4b;color:#c7d2fe}
 .find{display:flex;gap:8px;align-items:center;min-width:0;flex:1 1 240px}
 .find input{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13px;width:100%;max-width:320px;background:#f8fafc;color:var(--ink);outline:none}
 .find input:focus{border-color:var(--accent);background:#fff}
@@ -493,7 +496,7 @@ ${CSS}
 </style>
 </head>
 <body data-study-kind="catalog">
-<header class="lib"><div class="wrap head-in"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · ${docs.length} documents</div><div class="find no-print"><input id="lib-q" type="search" placeholder="Filter topics…" aria-label="Filter topics" autocomplete="off"><span id="lib-c" aria-live="polite"></span></div><div class="crumb links"><a href="../book/index.html">📖 Book</a> · <a href="../index.html">🏠 Home</a></div><div class="tfilter no-print"><span class="tl">Show</span><button type="button" data-t="" aria-pressed="true">All</button><button type="button" data-t="d">📖 Detailed</button><button type="button" data-t="s">📝 Short</button><button type="button" data-t="b">🔹 Bullets</button><button type="button" data-t="g">🗺️ Diagrams</button><button type="button" data-t="p">❓ PYQs</button><span class="sp"></span><button type="button" class="mini" id="lib-expand">Expand all</button><button type="button" class="mini" id="lib-collapse">Collapse all</button></div></div></header>
+<header class="lib"><div class="wrap head-in"><a class="brand" href="../index.html">study<span>UPSC</span></a><div class="crumb">all files · ${docs.length} documents</div><div class="find no-print"><input id="lib-q" type="search" placeholder="Filter topics…" aria-label="Filter topics" autocomplete="off"><span id="lib-c" aria-live="polite"></span></div><nav class="links" aria-label="Site"><a href="../index.html">🏠 Home</a><a href="#content-prelims">📋 Prelims</a><a href="#content-mains">✍️ Mains</a><a href="../book/index.html">📖 Book</a><a href="../app.html">🔍 App</a></nav><div class="tfilter no-print"><span class="tl">Show</span><button type="button" data-t="" aria-pressed="true">All</button><button type="button" data-t="d">📖 Detailed</button><button type="button" data-t="s">📝 Short</button><button type="button" data-t="b">🔹 Bullets</button><button type="button" data-t="g">🗺️ Diagrams</button><button type="button" data-t="p">❓ PYQs</button><span class="sp"></span><button type="button" class="mini" id="lib-expand">Expand all</button><button type="button" class="mini" id="lib-collapse">Collapse all</button></div></div></header>
 <div class="wrap"><div class="card">
 ${body}</div>
 <footer>studyUPSC · print-friendly (Ctrl/Cmd+P)</footer>

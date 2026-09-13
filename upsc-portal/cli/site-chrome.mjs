@@ -38,28 +38,62 @@ export const esc = (s) => String(s == null ? '' : s)
 /* Q&A card rules, shared by content documents and the book edition
    (book.mjs imports QA_CSS; keep it self-contained). */
 export const QA_CSS = `/* studyupsc-qa-cards */
-.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
+.qa-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px 0 8px;padding:10px 14px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;font-size:13px;color:var(--sub);font-family:Inter,system-ui,sans-serif}
 .qa-count{font-weight:800;color:var(--ink)}
-.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
+.qa-toolbar button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;min-height:36px;font-size:12.5px;font-weight:700;color:#4f46e5;cursor:pointer;font-family:inherit}
 .qa-toolbar button:hover{border-color:#4f46e5;background:#eef2ff}
-.qa{border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden;background:#fff;scroll-margin-top:130px}
-.qa-q{padding:14px 16px}
-.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
-.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:24px;padding:0 9px;border-radius:999px;background:#4f46e5;color:#fff;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa{position:relative;border:1px solid var(--line);border-radius:16px;margin:16px 0;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.05);scroll-margin-top:130px}
+.qa::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,#4f46e5,#8b5cf6)}
+.qa-q{padding:16px 18px 16px 20px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.qa-badge{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:26px;padding:0 10px;border-radius:999px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;font-size:12.5px;font-weight:800;font-family:Inter,system-ui,sans-serif;box-shadow:0 3px 8px -3px rgba(79,70,229,.55)}
 .qa-tag{font-size:11px;font-weight:700;color:#b45309;background:#fffbeb;border:1px solid #fde68a;border-radius:999px;padding:2px 9px;font-family:Inter,system-ui,sans-serif}
-.qa-text{margin:.3em 0}
+.qa-text{margin:.4em 0;font-size:1.02em;line-height:1.6}
 .qa-lead{margin:.5em 0 .2em;font-weight:600}
 ol.qa-stmts,ul.qa-stmts{margin:.5em 0;padding-left:1.4em}
-.qa-opts{list-style:none;padding:0;margin:10px 0 2px;display:grid;gap:6px}
-.qa-opts li{margin:0;border:1px solid var(--line);border-radius:10px;padding:8px 12px 8px 10px;background:#f8fafc;font-size:.95em;display:flex;gap:9px;align-items:baseline}
-.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:7px;background:#e0e7ff;color:#3730a3;font-size:11.5px;font-weight:800;font-family:Inter,system-ui,sans-serif}
+.qa-opts{list-style:none;padding:0;margin:12px 0 4px;display:grid;grid-template-columns:1fr;gap:8px}
+.qa-opts li{margin:0;border:1px solid var(--line);border-left:3px solid #c7d2fe;border-radius:12px;padding:10px 14px;background:#f8fafc;font-size:.97em;line-height:1.5;display:flex;gap:12px;align-items:flex-start;min-height:44px;transition:border-color .15s,background .15s,transform .1s}
+.qa-opts li:hover{border-color:#818cf8;background:#eef2ff}
+.qa-opts li>span:last-child{min-width:0;word-break:break-word}
+.qa-opts .opt{flex:none;display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;padding:0 6px;border-radius:8px;background:#e0e7ff;color:#3730a3;font-size:12px;font-weight:800;font-family:Inter,system-ui,sans-serif;margin-top:1px}
 .qa-a{border-top:1px dashed var(--line);background:#f0fdf4}
-.qa-a summary{cursor:pointer;padding:10px 16px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
+.qa-a summary{cursor:pointer;padding:12px 16px;min-height:44px;display:flex;align-items:center;gap:8px;font-weight:700;font-size:13.5px;color:#15803d;list-style:none;user-select:none;-webkit-user-select:none;font-family:Inter,system-ui,sans-serif}
 .qa-a summary::-webkit-details-marker{display:none}
 .qa-a summary::before{content:"\\25B8 "}
 .qa-a[open] summary::before{content:"\\25BE "}
 .qa-a .a-body{padding:0 16px 14px;font-size:.95em}
-.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}`;
+.qa-a .ans{display:inline-block;background:#16a34a;color:#fff;font-weight:800;font-size:12px;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-family:Inter,system-ui,sans-serif}
+html.su-dark .qa{background:#101b31;border-color:var(--line)}
+html.su-dark .qa::before{background:linear-gradient(180deg,#6366f1,#8b5cf6)}
+html.su-dark .qa-toolbar{background:#0b1220}
+html.su-dark .qa-count{color:#f1f5f9}
+html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
+html.su-dark .qa-toolbar button:hover{background:#312e81;border-color:#6366f1}
+html.su-dark .qa-opts li{background:#0b1220;border-left-color:#312e81}
+html.su-dark .qa-opts li:hover{background:#1e1b4b;border-color:#6366f1}
+html.su-dark .qa-opts .opt{background:#312e81;color:#c7d2fe}
+html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
+html.su-dark .qa-a{background:rgba(20,83,45,.18);border-top-color:#14532d}
+html.su-dark .qa-a summary{color:#4ade80}
+@media (max-width:760px){
+.qa{margin:12px 0;border-radius:14px}
+.qa-q{padding:13px 14px 13px 16px}
+.qa-opts li{min-height:46px}
+.qa-a summary{min-height:46px}
+}
+@media (max-width:480px){
+.qa-q{padding:12px 12px 12px 14px}
+.qa-head{gap:6px}
+.qa-badge{min-width:32px;height:24px;font-size:12px}
+.qa-text{font-size:1em}
+.qa-opts{gap:7px}
+.qa-opts li{padding:10px 12px;gap:10px}
+.qa-a .a-body{padding:0 13px 12px}
+}
+@media print{
+.qa{break-inside:avoid;box-shadow:none}
+.qa-toolbar{display:none!important}
+}`;
 
 export const DOC_CSS = `/* studyupsc-site-chrome-v3 */
 html{scroll-behavior:smooth}
@@ -67,17 +101,23 @@ header.site{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);ba
 header.site .head-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
 header.site a.brand{color:var(--ink);text-decoration:none;white-space:nowrap}
 header.site a.brand:hover{color:#b45309}
-.crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-width:0}
+.crumbs{font-size:12px;color:var(--sub);display:flex;flex-wrap:nowrap;gap:6px;align-items:center;min-width:0;overflow:hidden;white-space:nowrap;flex:1 1 auto}
 .crumbs a{color:var(--sub);text-decoration:none}
 .crumbs a:hover{color:#b45309;text-decoration:underline}
-.crumbs .sep{color:#cbd5e1}
-.crumbs .ell{color:#cbd5e1}
-.crumbs .here{color:var(--ink);font-weight:600}
+.crumbs .sep{color:#cbd5e1;flex:none}
+.crumbs .ell{color:#cbd5e1;flex:none}
+.crumbs .here{color:var(--ink);font-weight:600;overflow:hidden;text-overflow:ellipsis}
 .crumbs-short{display:none}
-.tbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:4px 10px;font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);margin-left:auto;white-space:nowrap;font-family:Inter,system-ui,sans-serif}
+.tbtn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:6px 11px;font-size:13px;font-weight:700;cursor:pointer;color:var(--ink);white-space:nowrap;font-family:Inter,system-ui,sans-serif}
 .tbtn:hover{border-color:#f59e0b;background:#fffbeb}
 .nav-home{font-size:12px;color:var(--sub);text-decoration:none;white-space:nowrap}
 .nav-home:hover{color:#b45309;text-decoration:underline}
+.sitenav{display:flex;gap:2px;align-items:center;margin-left:auto;flex:none}
+.sitenav a{font-size:12.5px;font-weight:600;color:var(--sub);padding:6px 9px;border-radius:8px;white-space:nowrap;text-decoration:none}
+.sitenav a:hover{color:#4f46e5;background:#eef2ff;text-decoration:none}
+.sitenav a[aria-current="page"]{color:#4f46e5;background:#eef2ff;font-weight:700}
+html.su-dark .sitenav a:hover{background:#1e1b4b;color:#c7d2fe}
+html.su-dark .sitenav a[aria-current="page"]{background:#312e81;color:#c7d2fe}
 .menu{display:none;position:relative;margin-left:auto}
 .menu summary{list-style:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:5px 11px;font-size:16px;line-height:1.4;background:#fff;color:var(--ink);user-select:none;-webkit-user-select:none}
 .menu summary::-webkit-details-marker{display:none}
@@ -114,6 +154,7 @@ a.to-top:hover{color:#fbbf24;text-decoration:none}
 .crumbs-short{display:flex;flex-wrap:nowrap;overflow:hidden}
 .crumbs-short .here{max-width:34vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .crumbs-short a{white-space:nowrap}
+.sitenav{display:none}
 .nav-home{margin-left:0}
 .nav-home .t{display:none}
 .menu{display:block}
@@ -125,7 +166,6 @@ h1{font-size:22px}
 h2{font-size:18px}
 .pager{flex-direction:column;align-items:stretch;text-align:center}
 .pager .up{order:-1}
-.qa-q{padding:12px 13px}
 .to-top{right:12px;bottom:12px}
 }
 @media (max-width:480px){
@@ -157,14 +197,6 @@ html.su-dark div.topic-nav{background:#101b31}
 html.su-dark .pill{background:#0b1220;color:#94a3b8}
 html.su-dark a.pill:hover{background:#1e1b4b;border-color:#818cf8;color:#c7d2fe}
 html.su-dark .pill[aria-current="page"]{background:#e0e7ff;border-color:#e0e7ff;color:#1e1b4b}
-html.su-dark .qa{background:#101b31}
-html.su-dark .qa-toolbar{background:#0b1220}
-html.su-dark .qa-count{color:#f1f5f9}
-html.su-dark .qa-toolbar button{background:#1a2740;border-color:#26334d;color:#a5b4fc}
-html.su-dark .qa-opts li{background:#0b1220}
-html.su-dark .qa-tag{background:rgba(120,53,15,.3);border-color:#92400e;color:#fcd34d}
-html.su-dark .qa-a{background:rgba(20,83,45,.18);border-top-color:#14532d}
-html.su-dark .qa-a summary{color:#4ade80}
 html.su-dark footer{color:#64748b}`;
 
 /* Tiny dependency-free behaviour: back-to-top, show/hide all answers,
@@ -251,7 +283,7 @@ export function buildTopicNav(pills, label, opts) {
 }
 
 export function buildHeader(ctx) {
-  const { homeRel, catalogRel, trail, here, pills, prev, next } = ctx;
+  const { homeRel, catalogRel, bookRel, appRel, trail, here, pills, prev, next } = ctx;
   const sep = '<span class="sep" aria-hidden="true">›</span>';
   const full = ['<a href="' + homeRel + '">Home</a>']
     .concat(trail.map((t) => sep + '<a href="' + t.href + '">' + esc(t.label) + '</a>'))
@@ -261,8 +293,7 @@ export function buildHeader(ctx) {
     .concat(trail.length > 2 ? [sep + '<span class="ell" aria-hidden="true">…</span>'] : [])
     .concat(shortTrail.map((t) => sep + '<a href="' + t.href + '">' + esc(t.label) + '</a>'))
     .concat([sep + '<span class="here">' + esc(here) + '</span>']).join('');
-  const menuTrail = ['<a href="' + homeRel + '">⌂ Home</a>']
-    .concat(trail.map((t) => '<a href="' + t.href + '">' + esc(t.label) + '</a>'))
+  const menuTrail = trail.map((t) => '<a href="' + t.href + '">' + esc(t.label) + '</a>')
     .concat(['<span class="mhere">' + esc(here) + '</span>']).join('');
   const menuPills = (pills && pills.length)
     ? '<div class="menu-sec">In this topic</div>' + pills.map((p) =>
@@ -271,14 +302,29 @@ export function buildHeader(ctx) {
   const menuRow = (prev || next)
     ? '<div class="menu-row">' + (prev ? '<a href="' + prev.href + '">← Prev</a>' : '') +
       (next ? '<a href="' + next.href + '">Next →</a>' : '') + '</div>' : '';
+  const siteNav = '<nav class="sitenav no-print" aria-label="Site">' +
+    '<a href="' + homeRel + '" aria-current="page">Home</a>' +
+    '<a href="' + catalogRel + '#content-prelims">Prelims</a>' +
+    '<a href="' + catalogRel + '#content-mains">Mains</a>' +
+    '<a href="' + bookRel + '">Book</a>' +
+    '<a href="' + appRel + '">App</a>' +
+    '<a href="' + catalogRel + '">All files</a>' +
+    '</nav>';
+  const menuSite = '<div class="menu-sec">Site</div>' +
+    '<a href="' + homeRel + '">⌂ Home</a>' +
+    '<a href="' + catalogRel + '#content-prelims">📋 Prelims</a>' +
+    '<a href="' + catalogRel + '#content-mains">✍️ Mains</a>' +
+    '<a href="' + bookRel + '">📖 Book</a>' +
+    '<a href="' + appRel + '">🔍 Search &amp; Tracker</a>' +
+    '<a href="' + catalogRel + '">📚 All files</a>';
   return '<header class="site"><div class="wrap head-in">\n' +
     '  <a class="brand" href="' + homeRel + '">study<span>UPSC</span></a>\n' +
     '  <nav class="crumbs crumbs-full" aria-label="Breadcrumb">' + full + '</nav>\n' +
     '  <nav class="crumbs crumbs-short" aria-label="Breadcrumb">' + short + '</nav>\n' +
+    '  ' + siteNav + '\n' +
     '  <button class="tbtn su-theme no-print" type="button" title="Toggle dark / light mode" aria-label="Toggle dark mode">◐</button>\n' +
-    '  <a class="nav-home no-print" href="' + catalogRel + '">📚 <span class="t">All files</span></a>\n' +
     '  <details class="menu no-print"><summary aria-label="Open page menu">☰</summary>' +
-    '<div class="menu-panel"><div class="menu-sec">Page trail</div>' + menuTrail + menuPills + menuRow +
+    '<div class="menu-panel">' + menuSite + '<div class="menu-sec">Page trail</div>' + menuTrail + menuPills + menuRow +
     '</div></details>\n' +
     '</div></header>' + buildTopicNav(pills, null, { done: true });
 }
